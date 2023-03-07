@@ -1,6 +1,6 @@
-# capstone
+# Capstone Project
 
-Materials for **"The Search for (Mis)Information in GPT Language Models"** (MIMS Spring 2023 Capstone Project, UC Berkeley)
+Materials for **"The Search for (Mis)Information in Large Language Models"** (MIMS Spring 2023 Capstone Project, UC Berkeley)
 
 ## Members
 
