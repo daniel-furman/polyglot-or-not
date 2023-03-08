@@ -1,11 +1,14 @@
 from argparse import ArgumentParser
 import importlib
 
+from transformers import set_seed
+
 from compare_models import compare_models
 
 
 def main(config):
 
+    set_seed(42)
     compare_models(config["models"], config["input_information"])
 
 
