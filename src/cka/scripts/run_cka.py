@@ -11,7 +11,7 @@ def main(config):
     set_seed(42)
 
     score_dict_full, score_dict_succinct = compare_models(
-        config["models"], config["input_information"]
+        config["models"], config["input_information"], config["verbosity"]
     )
 
     return score_dict_full, score_dict_succinct

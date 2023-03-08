@@ -3,12 +3,12 @@ import torch
 from transformers import (
     AutoTokenizer,
     AutoModelForCausalLM,
+    AutoModelForMaskedLM,
     T5Tokenizer,
     T5ForConditionalGeneration,
 )
 
-from probe_helpers import probe_flan, probe_gpt2
-
+from probe_helpers import probe_flan, probe_gpt2, probe_bert
 
 device = torch.device("cuda")
 
@@ -29,17 +29,26 @@ def get_model_and_tokenizer(model_name):
             model_name, load_in_8bit=True, device_map="auto"
         )
 
+    elif "bert" in model_name.lower():
+        return AutoTokenizer.from_pretrained(
+            model_name
+        ), AutoModelForMaskedLM.from_pretrained(
+            model_name, torch_dtype=torch.float16
+        ).to(
+            device
+        )
+
 
 # next, write a helper to pull a probe function for the given LM
 def get_probe_function(prefix):
-    probe_functions = [probe_flan, probe_gpt2]
+    probe_functions = [probe_flan, probe_gpt2, probe_bert]
     for func in probe_functions:
         if prefix.lower() in func.__name__:
             return func
 
 
 # lastly, write a wrapper function to compare models
-def compare_models(model_name_list, input_pairings):
+def compare_models(model_name_list, input_pairings, verbose):
 
     """
     Model-wise comparison helper function
@@ -61,12 +70,12 @@ def compare_models(model_name_list, input_pairings):
 
     for model_name in model_name_list:
         print(f"CKA for {model_name}")
-        print("\tLoading  model...")
+        print("Loading  model...")
 
         # get proper model and tokenizer
         tokenizer, model = get_model_and_tokenizer(model_name)
 
-        print("\tRunning comparisons...")
+        print("Running comparisons...")
 
         # establish prefix
         prefix = ""
@@ -81,6 +90,10 @@ def compare_models(model_name_list, input_pairings):
             prefix = "gpt"
             probe_func = get_probe_function(prefix)
 
+        elif "bert" in model_name.lower():
+            prefix = "bert"
+            probe_func = get_probe_function(prefix)
+
         # iterate over context/entity pairings
         # input_pairings is a dict
         # context is a plain string (since our context's will be unique)
@@ -93,30 +106,44 @@ def compare_models(model_name_list, input_pairings):
             p_false = 0.0
 
             if prefix == "flan":
-                context += " <extra_id_0> ."
+                context += " <extra_id_0>."
+
+            if prefix == "bert":
+                context += " [MASK]."
 
             for entity in entities:
-                target = None
+                target_id = None
+                # first find target vocab id
+                # default to the very first token that get's predicted
+                # e.g. in the case of Tokyo, which gets split into <Tok> <yo>,
+
                 if prefix == "flan":
-                    target = tokenizer.encode(
+                    target_id = tokenizer.encode(
                         entity,
                         padding="longest",
                         max_length=512,
                         truncation=True,
                         return_tensors="pt",
                     ).to(device)[0][0]
+
                 elif prefix == "gpt":
-                    target = tokenizer.encode(entity, return_tensors="pt").to(device)[0]
+                    target_id = tokenizer.encode(entity, return_tensors="pt").to(
+                        device
+                    )[0][0]
 
-                # tokenize context
-                input_ids = tokenizer.encode(
-                    context,
-                    return_tensors="pt",
-                ).to(device)
+                elif prefix == "bert":
+                    target_id = tokenizer.encode(
+                        entity,
+                        padding="longest",
+                        max_length=512,
+                        truncation=True,
+                        return_tensors="pt",
+                    ).to(device)[0][1]
 
-                # call probe function
-                model_prob = probe_func(model, input_ids, target)
+                # next call probe function
+                model_prob = probe_func(model, tokenizer, target_id, context, verbose)
 
+                # lastly, register results
                 if entity_count == 0:
                     p_true = model_prob
 
@@ -137,7 +164,7 @@ def compare_models(model_name_list, input_pairings):
                 "p_true > p_false": p_true > p_false
             }
 
-        print("\tDone\n")
+        print("Done\n")
         del tokenizer
         del model
         torch.cuda.empty_cache()

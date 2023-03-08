@@ -3,19 +3,23 @@ import numpy as np
 import torch
 from torch.nn.functional import softmax
 
+device = torch.device("cuda")
 
-def probe_flan(model, input_ids, target):
-    """
-    model: a pretrained google model pulled in from HuggingFace (ie. flan-t5-small,
-      flan-ul2, t5-small, etc.)
-    input_ids: the indices (in the vocabulary) of our left-context tokens
-    target: the index (in the vocabulary) of the token we're gathering a prediction for
 
-    return: a float indicating the likelihood of the target following the left-context
-      according to the model in case of error, return None
-    """
+def probe_flan(model, tokenizer, target_id, context, verbose=False):
 
-    # Call the model
+    # tokenize context
+    tokenized_context = tokenizer(
+        context,
+        padding="longest",
+        max_length=512,
+        truncation=True,
+        return_tensors="pt",
+    ).to(device)
+
+    input_ids = tokenized_context["input_ids"]
+
+    # use model to solicit a prediction
     outputs = model(
         input_ids=input_ids,
         decoder_input_ids=torch.tensor([[0, 32099]], device="cuda:0"),
@@ -32,30 +36,29 @@ def probe_flan(model, input_ids, target):
 
     probs = probs.detach().cpu().numpy()
 
-    return probs[target.item()]
+    if verbose:
+        print(f"\tcontext... {context}")
+        print(f'\ttokenized_context ids... {tokenized_context["input_ids"]}')
+        print(
+            f'\tdecoded tokenized_context... {tokenizer.decode(tokenized_context["input_ids"][0])}'
+        )
+        print(f"\tdecoded target id... {tokenizer.decode([target_id.item()])}")
+
+    return probs[target_id.item()]
 
 
-def probe_gpt2(model, input_ids, target):
-    """
-    model: a gpt pretrained model pulled in from HuggingFace
-    input_ids: the indices in gpt's vocabulary of our left-context tokens
-    target: the index in gpt's vocabulary of the token we're gathering a prediction for
+def probe_gpt2(model, tokenizer, target_id, context, verbose=False):
 
-    return: a float indicating the likelihood of the target following the left-context
-      according to the model in case of error, return None
-    """
+    # tokenize context
+    tokenized_context = tokenizer(
+        context,
+        return_tensors="pt",
+    ).to(device)
 
-    # ensure we're only asking for a single token prediction
-    if len(target) > 1:
-        # default to the very first token that get's predicted
-        # e.g. in the case of Tokyo, which gets split into <Tok> <yo>,
-        target = target[0]
-
-    # sanity check - do a conversion that tells us the exact "token" predicted on
-    # print(model.convert_)
+    input_ids = tokenized_context["input_ids"]
 
     # grab value
-    target_scalar = target.detach().cpu().numpy()
+    target_scalar = target_id.detach().cpu().numpy()
 
     # use model to solicit a prediction
     outputs = model(input_ids=input_ids, output_hidden_states=True, return_dict=True)
@@ -63,14 +66,21 @@ def probe_gpt2(model, input_ids, target):
     # shape of 50257 which corresponds to the vocab size of GPT
     # every token in GPT's vocab gets a representative prediction from the model
     logits = outputs["logits"][0, -1]
-
     # convert our prediction scores to a probability distribution with softmax
     probs = softmax(logits, dim=-1)
 
     probs = list(probs.detach().cpu().numpy())
 
+    if verbose:
+        print(f"\tcontext... {context}")
+        print(f'\ttokenized_context ids... {tokenized_context["input_ids"]}')
+        print(
+            f'\tdecoded tokenized_context... {tokenizer.decode(tokenized_context["input_ids"][0])}'
+        )
+        print(f"\tdecoded target id... {tokenizer.decode([target_id.item()])}")
+
     # double check weird-ness before accessing prob
-    if len(probs) < target:
+    if len(probs) < target_id:
         return None
 
     # return the likelihood that our stipulated target would follow the context,
@@ -82,3 +92,40 @@ def probe_gpt2(model, input_ids, target):
 
         print("target index not in model vocabulary scope; raising IndexError")
         return None
+
+
+def probe_bert(model, tokenizer, target_id, context, verbose=False):
+
+    # tokenize context
+    tokenized_context = tokenizer(
+        context,
+        padding="longest",
+        max_length=512,
+        truncation=True,
+        return_tensors="pt",
+    )
+
+    mask_token_index = torch.where(
+        tokenized_context["input_ids"] == tokenizer.mask_token_id
+    )[1]
+
+    # use model to solicit a prediction
+    logits = model(**tokenized_context.to(device)).logits
+    mask_token_logits = logits[0, mask_token_index, :]
+
+    # Convert our prediction scores to a probability distribution with softmax
+    probs = torch.squeeze(softmax(mask_token_logits, dim=-1))
+
+    probs = probs.detach().cpu().numpy()
+
+    if verbose:
+        print(f"\tcontext... {context}")
+        print(f'\ttokenized_context ids... {tokenized_context["input_ids"]}')
+        print(
+            f'\tdecoded tokenize_context... {tokenizer.decode(tokenized_context["input_ids"][0])}'
+        )
+        print(f"\tmask token id... {tokenizer.mask_token_id}")
+        print(f"\tmask token index in context... {mask_token_index}")
+        print(f"\tdecoded target id... {tokenizer.decode([target_id.item()])}")
+
+    return probs[target_id.item()]
