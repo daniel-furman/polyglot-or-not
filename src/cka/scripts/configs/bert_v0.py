@@ -8,5 +8,5 @@ config = {
         "Operation Overlord took place in": ["Normandy", "Manila"],
         "Steve Jobs is the founder of": ["Apple", "Microsoft"],
     },
-    "verbosity": True,
+    "verbosity": False,
 }
