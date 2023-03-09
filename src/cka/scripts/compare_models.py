@@ -22,7 +22,7 @@ def get_model_and_tokenizer(model_name):
             model_name, load_in_8bit=True, device_map="auto"
         )
 
-    elif "gpt" in model_name.lower():
+    elif ("gpt" in model_name.lower()) or ("opt" in model_name.lower()):
         return AutoTokenizer.from_pretrained(
             model_name
         ), AutoModelForCausalLM.from_pretrained(
@@ -93,6 +93,10 @@ def compare_models(model_name_list, input_pairings, verbose):
             prefix = "gpt"
             probe_func = get_probe_function(prefix)
 
+        elif "opt" in model_name.lower():
+            prefix = "opt"
+            probe_func = get_probe_function("gpt")
+
         elif "roberta" in model_name.lower():
             prefix = "roberta"
             probe_func = get_probe_function("bert")
@@ -138,6 +142,11 @@ def compare_models(model_name_list, input_pairings, verbose):
                     target_id = tokenizer.encode(" " + entity, return_tensors="pt").to(
                         device
                     )[0][0]
+
+                elif prefix == "opt":
+                    target_id = tokenizer.encode(" " + entity, return_tensors="pt").to(
+                        device
+                    )[0][1]
 
                 elif prefix == "roberta":
                     target_id = tokenizer.encode(
