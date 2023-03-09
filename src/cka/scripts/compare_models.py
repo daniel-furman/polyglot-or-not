@@ -153,16 +153,46 @@ def compare_models(model_name_list, input_pairings, verbose):
                 entity_count += 1
 
             p_false /= entity_count - 1
-            score_dict_full[model_name.lower() + ": " + context] = {
-                "p_true": p_true,
-                "p_false": p_false,
-                "p_true - p_false": p_true - p_false,
-                "p_true > p_false": p_true > p_false,
-            }
 
-            score_dict_succinct[model_name.lower() + ": " + context] = {
-                "p_true > p_false": p_true > p_false
-            }
+            try:
+                score_dict_full[model_name.lower()].append(
+                    {
+                        context: {
+                            "p_true": p_true,
+                            "p_false": p_false,
+                            "p_true - p_false": p_true - p_false,
+                            "p_true > p_false": p_true > p_false,
+                        }
+                    }
+                )
+            except KeyError:
+                score_dict_full[model_name.lower()] = [
+                    {
+                        context: {
+                            "p_true": p_true,
+                            "p_false": p_false,
+                            "p_true - p_false": p_true - p_false,
+                            "p_true > p_false": p_true > p_false,
+                        }
+                    }
+                ]
+
+            try:
+                score_dict_succinct[model_name.lower()].append(
+                    {
+                        context: {
+                            "p_true > p_false": p_true > p_false,
+                        }
+                    }
+                )
+            except KeyError:
+                score_dict_succinct[model_name.lower()] = [
+                    {
+                        context: {
+                            "p_true > p_false": p_true > p_false,
+                        }
+                    }
+                ]
 
         print("Done\n")
         del tokenizer
