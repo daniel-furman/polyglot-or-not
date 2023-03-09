@@ -43,6 +43,9 @@ def probe_flan(model, tokenizer, target_id, context, verbose=False):
             f'\tdecoded tokenized_context... {tokenizer.decode(tokenized_context["input_ids"][0])}'
         )
         print(f"\tdecoded target id... {tokenizer.decode([target_id.item()])}")
+        print(
+            f"\tmost probable prediction id decoded... {tokenizer.decode([np.argmax(probs)])}"
+        )
 
     return probs[target_id.item()]
 
@@ -78,6 +81,9 @@ def probe_gpt2(model, tokenizer, target_id, context, verbose=False):
             f'\tdecoded tokenized_context... {tokenizer.decode(tokenized_context["input_ids"][0])}'
         )
         print(f"\tdecoded target id... {tokenizer.decode([target_id.item()])}")
+        print(
+            f"\tmost probable prediction id decoded... {tokenizer.decode([np.argmax(probs)])}"
+        )
 
     # double check weird-ness before accessing prob
     if len(probs) < target_id:
@@ -127,5 +133,8 @@ def probe_bert(model, tokenizer, target_id, context, verbose=False):
         print(f"\tmask token id... {tokenizer.mask_token_id}")
         print(f"\tmask token index in context... {mask_token_index}")
         print(f"\tdecoded target id... {tokenizer.decode([target_id.item()])}")
+        print(
+            f"\tmost probable prediction id decoded... {tokenizer.decode([np.argmax(probs)])}"
+        )
 
     return probs[target_id.item()]

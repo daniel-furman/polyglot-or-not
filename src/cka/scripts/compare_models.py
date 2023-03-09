@@ -90,6 +90,10 @@ def compare_models(model_name_list, input_pairings, verbose):
             prefix = "gpt"
             probe_func = get_probe_function(prefix)
 
+        elif "roberta" in model_name.lower():
+            prefix = "roberta"
+            probe_func = get_probe_function("bert")
+
         elif "bert" in model_name.lower():
             prefix = "bert"
             probe_func = get_probe_function(prefix)
@@ -107,8 +111,9 @@ def compare_models(model_name_list, input_pairings, verbose):
 
             if prefix == "flan":
                 context += " <extra_id_0>."
-
-            if prefix == "bert":
+            elif prefix == "roberta":
+                context += " <mask>."
+            elif prefix == "bert":
                 context += " [MASK]."
 
             for entity in entities:
@@ -127,9 +132,18 @@ def compare_models(model_name_list, input_pairings, verbose):
                     ).to(device)[0][0]
 
                 elif prefix == "gpt":
-                    target_id = tokenizer.encode(entity, return_tensors="pt").to(
+                    target_id = tokenizer.encode(" " + entity, return_tensors="pt").to(
                         device
                     )[0][0]
+
+                elif prefix == "roberta":
+                    target_id = tokenizer.encode(
+                        " " + entity,
+                        padding="longest",
+                        max_length=512,
+                        truncation=True,
+                        return_tensors="pt",
+                    ).to(device)[0][1]
 
                 elif prefix == "bert":
                     target_id = tokenizer.encode(
