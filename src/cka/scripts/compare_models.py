@@ -67,8 +67,11 @@ def compare_models(model_name_list, input_pairings, verbose):
 
     score_dict_full = {}
     score_dict_succinct = {}
+    score_dict_summary = {}
 
     for model_name in model_name_list:
+        true_count = 0
+        fact_count = 0
         print(f"CKA for {model_name}")
         print("Loading  model...")
 
@@ -208,9 +211,17 @@ def compare_models(model_name_list, input_pairings, verbose):
                     }
                 ]
 
+            if p_true > p_false:
+                true_count += 1
+            fact_count += 1
+
+        score_dict_summary[
+            model_name.lower()
+        ] = f"This model got {true_count}/{fact_count} facts correct"
+
         print("Done\n")
         del tokenizer
         del model
         torch.cuda.empty_cache()
 
-    return score_dict_full, score_dict_succinct
+    return score_dict_full, score_dict_succinct, score_dict_summary
