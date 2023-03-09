@@ -4,7 +4,7 @@ config = {
         "gpt2",  # 124M params
         "gpt2-medium",  # 355M params
         "gpt2-large",  # 774M params
-        # "gpt2-xl",  # 1.5B params
+        "gpt2-xl",  # 1.5B params
     ],
     "input_information": {
         "The 2020 Olympics were held in": ["Tokyo", "London"],
