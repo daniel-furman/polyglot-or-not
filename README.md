@@ -14,11 +14,12 @@ Materials for **"The Search for (Mis)Information in Large Language Models"** (MI
 
 ## Setup
 
-* For running in Colab, see ipynbs in *./notebooks/*
-    * Note that a GPU session should be enabled
-* For running locally follow the steps below from the root dir
-    * Note that a Cuda GPU is required for running locally 
-    * Recommended to run in a virtual env with python 3.9.16
+* For running in Colab, see .ipynb files in ```./notebooks/```
+    * Make sure to enable the GPU in your Colab session
+    * See the "Open in Colab" button at the top of the notebooks
+* For running locally, follow the steps below from the root dir
+    * Running locally requires a Cuda GPU
+    * A virtual env with python 3.9 is reccommended
 
 ```
 pip install -r requirements.txt

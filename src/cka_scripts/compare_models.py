@@ -111,118 +111,134 @@ def compare_models(model_name_list, input_pairings, verbose):
         # and entities is a list containing, in the first slot, the true
         # value for the statement and in the subsequent slots, incorrect information
 
-        for context, entities in input_pairings.items():
-            entity_count = 0
-            p_true = 0.0
-            p_false = 0.0
+        for fact_itr, entities_dict in input_pairings.items():
 
-            if prefix == "flan":
-                context += " <extra_id_0>."
-            elif prefix == "roberta":
-                context += " <mask>."
-            elif prefix == "bert":
-                context += " [MASK]."
+            for counterfact in entities_dict["false"]:
 
-            for entity in entities:
-                target_id = None
-                # first find target vocab id
-                # default to the very first token that get's predicted
-                # e.g. in the case of Tokyo, which gets split into <Tok> <yo>,
+                fact_count += 1
+
+                context = entities_dict["stem"]
+                entities = [entities_dict["true"], counterfact]
+                entity_count = 0
+                p_true = 0.0
+                p_false = 0.0
 
                 if prefix == "flan":
-                    target_id = tokenizer.encode(
-                        entity,
-                        padding="longest",
-                        max_length=512,
-                        truncation=True,
-                        return_tensors="pt",
-                    ).to(device)[0][0]
-
-                elif prefix == "gpt":
-                    target_id = tokenizer.encode(" " + entity, return_tensors="pt").to(
-                        device
-                    )[0][0]
-
-                elif prefix == "opt":
-                    target_id = tokenizer.encode(" " + entity, return_tensors="pt").to(
-                        device
-                    )[0][1]
-
+                    context += " <extra_id_0>."
                 elif prefix == "roberta":
-                    target_id = tokenizer.encode(
-                        " " + entity,
-                        padding="longest",
-                        max_length=512,
-                        truncation=True,
-                        return_tensors="pt",
-                    ).to(device)[0][1]
-
+                    context += " <mask>."
                 elif prefix == "bert":
-                    target_id = tokenizer.encode(
-                        entity,
-                        padding="longest",
-                        max_length=512,
-                        truncation=True,
-                        return_tensors="pt",
-                    ).to(device)[0][1]
+                    context += " [MASK]."
 
-                # next call probe function
-                model_prob = probe_func(model, tokenizer, target_id, context, verbose)
+                for entity in entities:
+                    target_id = None
+                    # first find target vocab id
+                    # default to the very first token that get's predicted
+                    # e.g. in the case of Tokyo, which gets split into <Tok> <yo>,
 
-                # lastly, register results
-                if entity_count == 0:
-                    p_true = model_prob
+                    if prefix == "flan":
+                        target_id = tokenizer.encode(
+                            entity,
+                            padding="longest",
+                            max_length=512,
+                            truncation=True,
+                            return_tensors="pt",
+                        ).to(device)[0][0]
 
-                else:
-                    p_false += model_prob
+                    elif prefix == "gpt":
+                        target_id = tokenizer.encode(
+                            " " + entity, return_tensors="pt"
+                        ).to(device)[0][0]
 
-                entity_count += 1
+                    elif prefix == "opt":
+                        target_id = tokenizer.encode(
+                            " " + entity, return_tensors="pt"
+                        ).to(device)[0][1]
 
-            p_false /= entity_count - 1
+                    elif prefix == "roberta":
+                        target_id = tokenizer.encode(
+                            " " + entity,
+                            padding="longest",
+                            max_length=512,
+                            truncation=True,
+                            return_tensors="pt",
+                        ).to(device)[0][1]
 
-            try:
-                score_dict_full[model_name.lower()].append(
-                    {
-                        context: {
-                            "p_true": p_true,
-                            "p_false": p_false,
-                            "p_true - p_false": p_true - p_false,
-                            "p_true > p_false": p_true > p_false,
+                    elif prefix == "bert":
+                        target_id = tokenizer.encode(
+                            entity,
+                            padding="longest",
+                            max_length=512,
+                            truncation=True,
+                            return_tensors="pt",
+                        ).to(device)[0][1]
+
+                    # next call probe function
+                    model_prob = probe_func(
+                        model, tokenizer, target_id, context, verbose
+                    )
+
+                    # lastly, register results
+                    if entity_count == 0:
+                        p_true = model_prob
+
+                    else:
+                        p_false += model_prob
+
+                    entity_count += 1
+
+                p_false /= entity_count - 1
+
+                try:
+                    score_dict_full[model_name.lower()].append(
+                        {
+                            context
+                            + " "
+                            + f"{entities}": {
+                                "p_true": p_true,
+                                "p_false": p_false,
+                                "p_true - p_false": p_true - p_false,
+                                "p_true > p_false": p_true > p_false,
+                            }
                         }
-                    }
-                )
-            except KeyError:
-                score_dict_full[model_name.lower()] = [
-                    {
-                        context: {
-                            "p_true": p_true,
-                            "p_false": p_false,
-                            "p_true - p_false": p_true - p_false,
-                            "p_true > p_false": p_true > p_false,
+                    )
+                except KeyError:
+                    score_dict_full[model_name.lower()] = [
+                        {
+                            context
+                            + " "
+                            + f"{entities}": {
+                                "p_true": p_true,
+                                "p_false": p_false,
+                                "p_true - p_false": p_true - p_false,
+                                "p_true > p_false": p_true > p_false,
+                            }
                         }
-                    }
-                ]
+                    ]
 
-            try:
-                score_dict_succinct[model_name.lower()].append(
-                    {
-                        context: {
-                            "p_true > p_false": p_true > p_false,
+                try:
+                    score_dict_succinct[model_name.lower()].append(
+                        {
+                            context
+                            + " "
+                            + f"{entities}": {
+                                "p_true > p_false": p_true > p_false,
+                            }
                         }
-                    }
-                )
-            except KeyError:
-                score_dict_succinct[model_name.lower()] = [
-                    {
-                        context: {
-                            "p_true > p_false": p_true > p_false,
+                    )
+                except KeyError:
+                    score_dict_succinct[model_name.lower()] = [
+                        {
+                            context
+                            + " "
+                            + f"{entities}": {
+                                "p_true > p_false": p_true > p_false,
+                            }
                         }
-                    }
-                ]
+                    ]
 
-            if p_true > p_false:
-                true_count += 1
-            fact_count += 1
+                if p_true > p_false:
+                    true_count += 1
 
         score_dict_summary[
             model_name.lower()

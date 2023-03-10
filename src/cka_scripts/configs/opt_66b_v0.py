@@ -3,9 +3,21 @@ config = {
         "facebook/opt-66b",  # 66b params
     ],
     "input_information": {
-        "The 2020 Olympics were held in": ["Tokyo", "London"],
-        "Operation Overlord took place in": ["Normandy", "Manila"],
-        "Steve Jobs is the founder of": ["Apple", "Microsoft"],
+        "0": {
+            "stem": "The 2020 Olympics were held in",
+            "true": "Tokyo",
+            "false":["London","Berlin", "Chicago"]
+        },
+        "1": {
+            "stem": "Operation Overlord took place in",
+            "true": "Normandy",
+            "false":["Manila","Santiago", "Baghdad"]
+        },
+        "2": {
+            "stem": "Steve Jobs is the founder of",
+            "true": "Apple",
+            "false":["Microsoft","Oracle", "Intel"]
+        }
     },
     "verbosity": False,
 }
