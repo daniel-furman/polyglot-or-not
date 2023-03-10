@@ -14,7 +14,7 @@ Materials for **"The Search for (Mis)Information in Large Language Models"** (MI
 
 ## Setup
 
-* For running in Colab, see .ipynb files in ```./notebooks/```
+* For running in Google Colab, see .ipynb files in ```./notebooks/```
     * Make sure to enable the GPU in your Colab session
     * See the "Open in Colab" button at the top of the notebooks
 * For running locally, follow the steps below from the root dir

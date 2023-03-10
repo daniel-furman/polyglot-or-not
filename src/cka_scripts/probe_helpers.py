@@ -37,14 +37,14 @@ def probe_flan(model, tokenizer, target_id, context, verbose=False):
     probs = probs.detach().cpu().numpy()
 
     if verbose:
-        print(f"\tcontext... {context}")
+        print(f"\n\tcontext... {context}")
         print(f'\ttokenized_context ids... {tokenized_context["input_ids"]}')
         print(
             f'\tdecoded tokenized_context... {tokenizer.decode(tokenized_context["input_ids"][0])}'
         )
         print(f"\tdecoded target id... {tokenizer.decode([target_id.item()])}")
         print(
-            f"\tmost probable prediction id decoded... {tokenizer.decode([np.argmax(probs)])}"
+            f"\tmost probable prediction id decoded... {tokenizer.decode([np.argmax(probs)])}\n"
         )
 
     return probs[target_id.item()]
@@ -75,14 +75,14 @@ def probe_gpt2(model, tokenizer, target_id, context, verbose=False):
     probs = list(probs.detach().cpu().numpy())
 
     if verbose:
-        print(f"\tcontext... {context}")
+        print(f"\n\tcontext... {context}")
         print(f'\ttokenized_context ids... {tokenized_context["input_ids"]}')
         print(
             f'\tdecoded tokenized_context... {tokenizer.decode(tokenized_context["input_ids"][0])}'
         )
         print(f"\tdecoded target id... {tokenizer.decode([target_id.item()])}")
         print(
-            f"\tmost probable prediction id decoded... {tokenizer.decode([np.argmax(probs)])}"
+            f"\tmost probable prediction id decoded... {tokenizer.decode([np.argmax(probs)])}\n"
         )
 
     # double check weird-ness before accessing prob
@@ -125,7 +125,7 @@ def probe_bert(model, tokenizer, target_id, context, verbose=False):
     probs = probs.detach().cpu().numpy()
 
     if verbose:
-        print(f"\tcontext... {context}")
+        print(f"\n\tcontext... {context}")
         print(f'\ttokenized_context ids... {tokenized_context["input_ids"]}')
         print(
             f'\tdecoded tokenize_context... {tokenizer.decode(tokenized_context["input_ids"][0])}'
@@ -134,7 +134,7 @@ def probe_bert(model, tokenizer, target_id, context, verbose=False):
         print(f"\tmask token index in context... {mask_token_index}")
         print(f"\tdecoded target id... {tokenizer.decode([target_id.item()])}")
         print(
-            f"\tmost probable prediction id decoded... {tokenizer.decode([np.argmax(probs)])}"
+            f"\tmost probable prediction id decoded... {tokenizer.decode([np.argmax(probs)])}\n"
         )
 
     return probs[target_id.item()]
