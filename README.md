@@ -14,12 +14,13 @@ Materials for **"The Search for (Mis)Information in Large Language Models"** (MI
 
 ## Setup
 
-* For running in Colab, see ipynbs in the *notebooks/* folder
-* For running locally follow the steps below from the root dir...
+* For running in Colab, see ipynbs in *./notebooks/*
+    * Note that you should have the GPU enabled in Colab
+* For running locally follow the steps below from the root dir
+    * Note that a Cuda GPU is required for running locally 
+    * Reccomended to run in a venv with python==3.9.16
 
 ```
-conda create --name cka python==3.9.16
-conda activate cka
 pip install -r requirements.txt
 cd src/cka_scripts
 python run_cka.py configs.bert_v0

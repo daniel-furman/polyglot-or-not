@@ -10,7 +10,7 @@ from transformers import (
 
 from probe_helpers import probe_flan, probe_gpt2, probe_bert
 
-device = torch.device("cuda")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
 # first, write helper to pull a pretrained LM and tokenizer off the shelf
