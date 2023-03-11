@@ -12,21 +12,6 @@ Materials for **"The Search for (Mis)Information in Large Language Models"** (MI
 
 * David Bamman <dbamman@berkeley.edu>
 
-## Setup
-
-* For running in Google Colab, see .ipynb files in ```./notebooks/```
-    * Make sure to enable the GPU in your Colab session
-    * See the "Open in Colab" button at the top of the notebooks
-* For running locally, follow the steps below from the root dir
-    * Running locally requires a Cuda GPU
-    * A virtual env with python 3.9 is reccommended
-
-```
-pip install -r requirements.txt
-cd src/cka_scripts
-python run_cka.py configs.bert_v0
-```
-
 ## Models 
 
 | Model family | Release date | Model type | Organization |
@@ -37,6 +22,23 @@ python run_cka.py configs.bert_v0
 | GPT-J        | Aug 2021     | Causal LM  | EleutherAI   |
 | GPT-Neo      | Apr 2022     | Causal LM  | EleutherAI   |
 | OPT          | May 2022     | Causal LM  | Meta AI      |
-| Flan-t5      | Dec 2022     | Masked LM  | Google       |
+| Flan-t5      | Dec 2022     | Text2Text  | Google       |
 | LLaMa        | Feb 2023     | Causal LM  | Meta AI      |
-| Flan-ul2     | Mar 2023     | Masked LM  | Google       |
+| Flan-ul2     | Mar 2023     | Text2Text  | Google       |
+
+## Setup
+
+* For running in Google Colab, see .ipynb files in ```./notebooks/```
+    * Make sure to enable the GPU in your Colab session
+    * See the "Open in Colab" button at the top of the notebooks
+* For running locally, follow the steps below from the root dir
+    * Running locally requires a Cuda GPU
+    * A virtual env with python 3.9 is recommended
+
+```
+pip install -r requirements.txt
+cd src/cka_scripts
+python run_cka.py configs.bert_v0
+```
+
+
