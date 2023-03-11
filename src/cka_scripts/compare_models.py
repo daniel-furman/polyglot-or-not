@@ -1,3 +1,6 @@
+import datetime
+import json
+import os
 import torch
 
 from transformers import (
@@ -69,9 +72,19 @@ def compare_models(model_name_list, input_pairings, verbose):
     score_dict_succinct = {}
     score_dict_summary = {}
 
+    if not os.path.isdir("/content"):
+        os.mkdir("/content")
+    if not os.path.isdir("/content/logging"):
+        os.mkdir("/content/logging")
+
+    now = datetime.datetime.now()
+    dt_string = now.strftime("%d_%m_%Y_%H_%M_%S")
+    # print(dt_string)
+
     for model_name in model_name_list:
         true_count = 0
         fact_count = 0
+
         print(f"CKA for {model_name}")
         print("Loading  model...")
 
@@ -113,7 +126,7 @@ def compare_models(model_name_list, input_pairings, verbose):
 
         for fact_itr, entities_dict in input_pairings.items():
 
-            for counterfact in entities_dict["false"]:
+            for counterfact_itr, counterfact in enumerate(entities_dict["false"]):
 
                 fact_count += 1
 
@@ -123,9 +136,9 @@ def compare_models(model_name_list, input_pairings, verbose):
                 p_true = 0.0
                 p_false = 0.0
 
-                if prefix == "flan":
-                    context += " <extra_id_0>."
-                elif prefix == "roberta":
+                # if prefix == "flan":
+                # context += " <extra_id_0>."
+                if prefix == "roberta":
                     context += " <mask>."
                 elif prefix == "bert":
                     context += " [MASK]."
@@ -138,7 +151,7 @@ def compare_models(model_name_list, input_pairings, verbose):
 
                     if prefix == "flan":
                         target_id = tokenizer.encode(
-                            entity,
+                            " " + entity,
                             padding="longest",
                             max_length=512,
                             truncation=True,
@@ -179,15 +192,16 @@ def compare_models(model_name_list, input_pairings, verbose):
                     )
 
                     # lastly, register results
+                    # if it is the first time through, it is the fact
                     if entity_count == 0:
                         p_true = model_prob
-
+                    # if it is the second time through, it is the counterfactual
                     else:
-                        p_false += model_prob
+                        p_false = model_prob
 
                     entity_count += 1
 
-                p_false /= entity_count - 1
+                # p_false /= entity_count - 1
 
                 try:
                     score_dict_full[model_name.lower()].append(
@@ -195,10 +209,10 @@ def compare_models(model_name_list, input_pairings, verbose):
                             context
                             + " "
                             + f"{entities}": {
-                                "p_true": p_true,
-                                "p_false": p_false,
-                                "p_true - p_false": p_true - p_false,
-                                "p_true > p_false": p_true > p_false,
+                                "p_true": float(p_true),
+                                "p_false": float(p_false),
+                                "p_true - p_false": float(p_true) - float(p_false),
+                                "p_true > p_false": str(p_true > p_false),
                             }
                         }
                     )
@@ -208,10 +222,10 @@ def compare_models(model_name_list, input_pairings, verbose):
                             context
                             + " "
                             + f"{entities}": {
-                                "p_true": p_true,
-                                "p_false": p_false,
-                                "p_true - p_false": p_true - p_false,
-                                "p_true > p_false": p_true > p_false,
+                                "p_true": float(p_true),
+                                "p_false": float(p_false),
+                                "p_true - p_false": float(p_true) - float(p_false),
+                                "p_true > p_false": str(p_true > p_false),
                             }
                         }
                     ]
@@ -222,7 +236,7 @@ def compare_models(model_name_list, input_pairings, verbose):
                             context
                             + " "
                             + f"{entities}": {
-                                "p_true > p_false": p_true > p_false,
+                                "p_true > p_false": str(p_true > p_false),
                             }
                         }
                     )
@@ -232,7 +246,7 @@ def compare_models(model_name_list, input_pairings, verbose):
                             context
                             + " "
                             + f"{entities}": {
-                                "p_true > p_false": p_true > p_false,
+                                "p_true > p_false": str(p_true > p_false),
                             }
                         }
                     ]
@@ -242,11 +256,24 @@ def compare_models(model_name_list, input_pairings, verbose):
 
         score_dict_summary[
             model_name.lower()
-        ] = f"This model got {true_count}/{fact_count} facts correct"
+        ] = f"This model predicted {true_count}/{fact_count} facts at a higher prob than the given counterfactual."
 
         print("Done\n")
         del tokenizer
         del model
         torch.cuda.empty_cache()
 
-    return score_dict_full, score_dict_succinct, score_dict_summary
+    score_dicts = [score_dict_full, score_dict_succinct, score_dict_summary]
+
+    # logging
+    score_dicts_logging = {}
+    score_dicts_logging["score_dict_full"] = score_dict_full
+    score_dicts_logging["score_dict_succinct"] = score_dict_succinct
+    score_dicts_logging["score_dict_summary"] = score_dict_summary
+
+    with open(
+        f"/content/logging/{prefix}_logged_cka_outputs_{dt_string}.json", "w"
+    ) as outfile:
+        json.dump(score_dicts_logging, outfile)
+
+    return score_dicts

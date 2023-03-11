@@ -12,7 +12,7 @@ Materials for **"The Search for (Mis)Information in Large Language Models"** (MI
 
 * David Bamman <dbamman@berkeley.edu>
 
-## Models 
+## Models tested
 
 | Model family | Release date | Model type | Organization |
 |--------------|--------------|------------|--------------|
@@ -26,13 +26,13 @@ Materials for **"The Search for (Mis)Information in Large Language Models"** (MI
 | LLaMa        | Feb 2023     | Causal LM  | Meta AI      |
 | Flan-ul2     | Mar 2023     | Text2Text  | Google       |
 
-## Setup
+## Setup instructions
 
 * For running in Google Colab, see .ipynb files in ```./notebooks/```
     * Make sure to enable the GPU in your Colab session
     * See the "Open in Colab" button at the top of the notebooks
 * For running locally, follow the steps below from the root dir
-    * Running locally requires a Cuda GPU
+    * Running on local requires a Cuda GPU
     * A virtual env with python 3.9 is recommended
 
 ```

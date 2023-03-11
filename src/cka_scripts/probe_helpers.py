@@ -9,15 +9,13 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 def probe_flan(model, tokenizer, target_id, context, verbose=False):
 
     # tokenize context
-    tokenized_context = tokenizer(
+    input_ids = tokenizer(
         context,
         padding="longest",
         max_length=512,
         truncation=True,
         return_tensors="pt",
-    ).to(device)
-
-    input_ids = tokenized_context["input_ids"]
+    ).input_ids.to(device)
 
     # use model to solicit a prediction
     outputs = model(
@@ -28,8 +26,8 @@ def probe_flan(model, tokenizer, target_id, context, verbose=False):
     )
 
     # We have batch size of 1, so grab that, then,
-    # Take the entire last matrix which corresponds to the last layer
-    logits = outputs["logits"][0, -1]
+    # Take the entire first matrix which corresponds to the entity after the context
+    logits = outputs["logits"][0, 0]
 
     # convert our prediction scores to a probability distribution with softmax
     probs = softmax(logits, dim=-1)
@@ -38,10 +36,8 @@ def probe_flan(model, tokenizer, target_id, context, verbose=False):
 
     if verbose:
         print(f"\n\tcontext... {context}")
-        print(f'\ttokenized_context ids... {tokenized_context["input_ids"]}')
-        print(
-            f'\tdecoded tokenized_context... {tokenizer.decode(tokenized_context["input_ids"][0])}'
-        )
+        print(f"\ttokenized_context ids... {input_ids}")
+        print(f"\tdecoded tokenized_context... {tokenizer.decode(input_ids[0])}")
         print(f"\tdecoded target id... {tokenizer.decode([target_id.item()])}")
         print(
             f"\tmost probable prediction id decoded... {tokenizer.decode([np.argmax(probs)])}\n"
@@ -53,12 +49,10 @@ def probe_flan(model, tokenizer, target_id, context, verbose=False):
 def probe_gpt2(model, tokenizer, target_id, context, verbose=False):
 
     # tokenize context
-    tokenized_context = tokenizer(
+    input_ids = tokenizer(
         context,
         return_tensors="pt",
-    ).to(device)
-
-    input_ids = tokenized_context["input_ids"]
+    ).input_ids.to(device)
 
     # grab value
     target_scalar = target_id.detach().cpu().numpy()
@@ -76,10 +70,8 @@ def probe_gpt2(model, tokenizer, target_id, context, verbose=False):
 
     if verbose:
         print(f"\n\tcontext... {context}")
-        print(f'\ttokenized_context ids... {tokenized_context["input_ids"]}')
-        print(
-            f'\tdecoded tokenized_context... {tokenizer.decode(tokenized_context["input_ids"][0])}'
-        )
+        print(f"\ttokenized_context ids... {input_ids}")
+        print(f"\tdecoded tokenized_context... {tokenizer.decode(input_ids[0])}")
         print(f"\tdecoded target id... {tokenizer.decode([target_id.item()])}")
         print(
             f"\tmost probable prediction id decoded... {tokenizer.decode([np.argmax(probs)])}\n"
@@ -103,20 +95,18 @@ def probe_gpt2(model, tokenizer, target_id, context, verbose=False):
 def probe_bert(model, tokenizer, target_id, context, verbose=False):
 
     # tokenize context
-    tokenized_context = tokenizer(
+    input_ids = tokenizer(
         context,
         padding="longest",
         max_length=512,
         truncation=True,
         return_tensors="pt",
-    )
+    ).input_ids
 
-    mask_token_index = torch.where(
-        tokenized_context["input_ids"] == tokenizer.mask_token_id
-    )[1]
+    mask_token_index = torch.where(input_ids == tokenizer.mask_token_id)[1]
 
     # use model to solicit a prediction
-    logits = model(**tokenized_context.to(device)).logits
+    logits = model(input_ids=input_ids.to(device)).logits
     mask_token_logits = logits[0, mask_token_index, :]
 
     # Convert our prediction scores to a probability distribution with softmax
@@ -126,10 +116,8 @@ def probe_bert(model, tokenizer, target_id, context, verbose=False):
 
     if verbose:
         print(f"\n\tcontext... {context}")
-        print(f'\ttokenized_context ids... {tokenized_context["input_ids"]}')
-        print(
-            f'\tdecoded tokenize_context... {tokenizer.decode(tokenized_context["input_ids"][0])}'
-        )
+        print(f"\ttokenized_context ids... {input_ids}")
+        print(f"\tdecoded tokenize_context... {tokenizer.decode(input_ids[0])}")
         print(f"\tmask token id... {tokenizer.mask_token_id}")
         print(f"\tmask token index in context... {mask_token_index}")
         print(f"\tdecoded target id... {tokenizer.decode([target_id.item()])}")
