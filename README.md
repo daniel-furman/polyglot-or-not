@@ -26,3 +26,17 @@ pip install -r requirements.txt
 cd src/cka_scripts
 python run_cka.py configs.bert_v0
 ```
+
+## Models 
+
+| Model family | Release date | Model type | Organization |
+|--------------|--------------|------------|--------------|
+| BERT         | Oct 2018     | Masked LM  | Google       |
+| GPT2         | Feb 2019     | Causal LM  | OpenAI       |
+| RoBERTa      | Nov 2019     | Masked LM  | Meta AI      |
+| GPT-J        | Aug 2021     | Causal LM  | EleutherAI   |
+| GPT-Neo      | Apr 2022     | Causal LM  | EleutherAI   |
+| OPT          | May 2022     | Causal LM  | Meta AI      |
+| Flan-t5      | Dec 2022     | Masked LM  | Google       |
+| LLaMa        | Feb 2023     | Causal LM  | Meta AI      |
+| Flan-ul2     | Mar 2023     | Masked LM  | Google       |
