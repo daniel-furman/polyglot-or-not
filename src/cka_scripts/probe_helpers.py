@@ -60,8 +60,7 @@ def probe_gpt(model, tokenizer, target_id, context, verbose=False):
     # use model to solicit a prediction
     outputs = model(input_ids=input_ids, output_hidden_states=True, return_dict=True)
 
-    # shape of 50257 which corresponds to the vocab size of GPT
-    # every token in GPT's vocab gets a representative prediction from the model
+    # every token in the model's vocab gets a representative prediction from the model
     logits = outputs["logits"][0, -1]
     # convert our prediction scores to a probability distribution with softmax
     probs = softmax(logits, dim=-1)

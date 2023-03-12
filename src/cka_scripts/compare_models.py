@@ -105,7 +105,15 @@ def compare_models(model_name_list, input_pairings, verbose):
             prefix = "flan"
             probe_func = get_probe_function(prefix)
 
-        elif ("gpt" in model_name.lower()) or ("pythia" in model_name.lower()):
+        elif (
+            ("gpt-neo" in model_name.lower())
+            or ("gpt-j" in model_name.lower())
+            or ("pythia" in model_name.lower())
+        ):
+            prefix = "eleutherai"
+            probe_func = get_probe_function("gpt")
+
+        elif "gpt" in model_name.lower():
             prefix = "gpt"
             probe_func = get_probe_function(prefix)
 
@@ -127,9 +135,9 @@ def compare_models(model_name_list, input_pairings, verbose):
         # and entities is a list containing, in the first slot, the true
         # value for the statement and in the subsequent slots, incorrect information
 
-        for fact_itr, entities_dict in input_pairings.items():
+        for _, entities_dict in input_pairings.items():
 
-            for counterfact_itr, counterfact in enumerate(entities_dict["false"]):
+            for counterfact in entities_dict["false"]:
 
                 fact_count += 1
 
@@ -159,7 +167,7 @@ def compare_models(model_name_list, input_pairings, verbose):
                             return_tensors="pt",
                         ).to(device)[0][0]
 
-                    elif prefix == "gpt":
+                    elif (prefix == "gpt") or (prefix == "eleutherai"):
                         target_id = tokenizer.encode(
                             " " + entity, return_tensors="pt"
                         ).to(device)[0][0]
