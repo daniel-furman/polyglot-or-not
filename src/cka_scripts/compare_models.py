@@ -242,7 +242,7 @@ def compare_models(model_name_list, input_pairings, verbose):
                                 "p_true - p_false": float(p_true) - float(p_false),
                                 "p_true > p_false": str(p_true > p_false),
                                 "p_true / (p_true + p_false)": float(p_true)
-                                / (float(p_true) + float(p_false) + 1e-8)),
+                                / (float(p_true) + float(p_false) + 1e-8),
                             }
                         }
                     )
