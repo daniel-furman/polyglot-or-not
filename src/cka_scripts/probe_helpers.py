@@ -46,7 +46,7 @@ def probe_flan(model, tokenizer, target_id, context, verbose=False):
     return probs[target_id.item()]
 
 
-def probe_gpt2(model, tokenizer, target_id, context, verbose=False):
+def probe_gpt(model, tokenizer, target_id, context, verbose=False):
 
     # tokenize context
     input_ids = tokenizer(

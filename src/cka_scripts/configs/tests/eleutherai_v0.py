@@ -2,17 +2,17 @@ config = {
     "models": [
         "EleutherAI/gpt-neo-125M",
         "EleutherAI/gpt-neo-1.3b",
-        #"EleutherAI/gpt-neo-2.7b",
-        #"EleutherAI/gpt-j-6B",
-        #"EleutherAI/gpt-neox-20B",
+        # "EleutherAI/gpt-neo-2.7b",
+        # "EleutherAI/gpt-j-6B",
+        # "EleutherAI/gpt-neox-20B",
         "EleutherAI/pythia-70m",
         "EleutherAI/pythia-160m",
         "EleutherAI/pythia-410m",
         "EleutherAI/pythia-1b",
         "EleutherAI/pythia-1.4b",
-        #"EleutherAI/pythia-2.8b",
-        #"EleutherAI/pythia-6.9b",
-        #"EleutherAI/pythia-12b",
+        # "EleutherAI/pythia-2.8b",
+        # "EleutherAI/pythia-6.9b",
+        # "EleutherAI/pythia-12b",
     ],
     "input_information": {
         "0": {

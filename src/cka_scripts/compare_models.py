@@ -11,7 +11,7 @@ from transformers import (
     T5ForConditionalGeneration,
 )
 
-from probe_helpers import probe_flan, probe_gpt2, probe_bert
+from probe_helpers import probe_flan, probe_gpt, probe_bert
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -25,7 +25,11 @@ def get_model_and_tokenizer(model_name):
             model_name, load_in_8bit=True, device_map="auto"
         )
 
-    elif ("gpt" in model_name.lower()) or ("opt" in model_name.lower()):
+    elif (
+        ("gpt" in model_name.lower())
+        or ("opt" in model_name.lower())
+        or ("pythia" in model_name.lower())
+    ):
         return AutoTokenizer.from_pretrained(
             model_name
         ), AutoModelForCausalLM.from_pretrained(
@@ -44,7 +48,7 @@ def get_model_and_tokenizer(model_name):
 
 # next, write a helper to pull a probe function for the given LM
 def get_probe_function(prefix):
-    probe_functions = [probe_flan, probe_gpt2, probe_bert]
+    probe_functions = [probe_flan, probe_gpt, probe_bert]
     for func in probe_functions:
         if prefix.lower() in func.__name__:
             return func
@@ -79,7 +83,6 @@ def compare_models(model_name_list, input_pairings, verbose):
 
     now = datetime.datetime.now()
     dt_string = now.strftime("%d_%m_%Y_%H_%M_%S")
-    # print(dt_string)
 
     for model_name in model_name_list:
         true_count = 0
@@ -102,7 +105,7 @@ def compare_models(model_name_list, input_pairings, verbose):
             prefix = "flan"
             probe_func = get_probe_function(prefix)
 
-        elif "gpt" in model_name.lower():
+        elif ("gpt" in model_name.lower()) or ("pythia" in model_name.lower()):
             prefix = "gpt"
             probe_func = get_probe_function(prefix)
 
@@ -136,8 +139,6 @@ def compare_models(model_name_list, input_pairings, verbose):
                 p_true = 0.0
                 p_false = 0.0
 
-                # if prefix == "flan":
-                # context += " <extra_id_0>."
                 if prefix == "roberta":
                     context += " <mask>."
                 elif prefix == "bert":
@@ -145,10 +146,10 @@ def compare_models(model_name_list, input_pairings, verbose):
 
                 for entity in entities:
                     target_id = None
+
                     # first find target vocab id
                     # default to the very first token that get's predicted
                     # e.g. in the case of Tokyo, which gets split into <Tok> <yo>,
-
                     if prefix == "flan":
                         target_id = tokenizer.encode(
                             " " + entity,
@@ -200,8 +201,6 @@ def compare_models(model_name_list, input_pairings, verbose):
                         p_false = model_prob
 
                     entity_count += 1
-
-                # p_false /= entity_count - 1
 
                 try:
                     score_dict_full[model_name.lower()].append(
