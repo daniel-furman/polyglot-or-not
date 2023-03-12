@@ -1,6 +1,7 @@
 import datetime
 import json
 import os
+import tqdm
 import torch
 
 import transformers
@@ -147,7 +148,7 @@ def compare_models(model_name_list, input_pairings, verbose):
         # and entities is a list containing, in the first slot, the true
         # value for the statement and in the subsequent slots, incorrect information
 
-        for _, entities_dict in input_pairings.items():
+        for _, entities_dict in tqdm.tqdm(input_pairings.items()):
 
             for counterfact in entities_dict["false"]:
 

@@ -4,4 +4,4 @@ torch==1.13.1
 git+https://github.com/daniel-furman/transformers_llama@llama_push#egg=transformers
 accelerate==0.16.0
 bitsandbytes==0.37.0
-
+tqdm
