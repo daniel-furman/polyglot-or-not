@@ -27,11 +27,21 @@ Materials for **"The Search for (Mis)Information in Large Language Models"** (MI
 | LLaMa        | Feb 2023     | Causal LM  | Meta AI      |
 | Flan-ul2     | Mar 2023     | Text2Text  | Google       |
 
+## Methods explored
+
+1. Contrastive knowledge assessment (CKA)
+<a target="_blank" href="https://colab.research.google.com/github/daniel-furman/Capstone/blob/main/notebooks/cka_run_main_demo.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+2. Mass editing memory in a transformer (MEMIT)
+[to come]
+3. CaliNet
+[to come]
+
 ## Setup instructions
 
-* For running in Google Colab, see .ipynb files in ```./notebooks/```
+* For running a notebook in Google Colab, see .ipynb files in ```./notebooks/```
     * Make sure to enable the GPU in your Colab session
-    * See the "Open in Colab" button at the top of the notebooks
 * For running locally, follow the steps below from the root dir
     * Running on local requires a Cuda GPU
     * A virtual env with python 3.9 is recommended
