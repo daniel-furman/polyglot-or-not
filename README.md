@@ -23,6 +23,7 @@ Materials for **"The Search for (Mis)Information in Large Language Models"** (MI
 | GPT-Neo      | Apr 2022     | Causal LM  | EleutherAI   |
 | OPT          | May 2022     | Causal LM  | Meta AI      |
 | Flan-t5      | Dec 2022     | Text2Text  | Google       |
+| Pythia       | Feb 2023     | Causal LM  | EleutherAI   |
 | LLaMa        | Feb 2023     | Causal LM  | Meta AI      |
 | Flan-ul2     | Mar 2023     | Text2Text  | Google       |
 
