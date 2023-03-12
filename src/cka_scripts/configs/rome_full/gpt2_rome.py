@@ -1,7 +1,5 @@
 import json
-import os
 
-print('LS', os.system('ls'))
 with open("../../data/rome_counterfact_input_information.json", "r") as f:
     input_info = json.load(f)
 
