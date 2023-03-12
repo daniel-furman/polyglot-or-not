@@ -29,14 +29,9 @@ Materials for **"The Search for (Mis)Information in Large Language Models"** (MI
 
 ## Methods explored
 
-1. Contrastive knowledge assessment (CKA)
-<a target="_blank" href="https://colab.research.google.com/github/daniel-furman/Capstone/blob/main/notebooks/cka_run_main_demo.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-2. Mass editing memory in a transformer (MEMIT)
-[to come]
-3. CaliNet
-[to come]
+1. Contrastive knowledge assessment (CKA) <a target="_blank" href="https://colab.research.google.com/github/daniel-furman/Capstone/blob/main/notebooks/cka_run_main_demo.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a>
+2. Mass editing memory in a transformer (MEMIT) [demo to come]
+3. CaliNet [demo to come]
 
 ## Setup instructions
 
