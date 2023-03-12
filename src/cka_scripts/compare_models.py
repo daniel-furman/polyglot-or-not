@@ -291,7 +291,7 @@ def compare_models(model_name_list, input_pairings, verbose):
 
         score_dict_summary[
             model_name.lower()
-        ] = f"This model predicted {true_count}/{fact_count} facts at a higher prob than the given counterfactual. The mean p_true / (p_true + p_false) was {np.mean(np.array(p_ratio))} while the mean p_true was {np.mean(np.array(p_trues))}"
+        ] = f"This model predicted {true_count}/{fact_count} facts at a higher prob than the given counterfactual. The mean p_true / (p_true + p_false) was {np.round(np.mean(np.array(p_ratio)), decimals=4)} while the mean p_true was {np.round(np.mean(np.array(p_trues)), decimals=4)}"
 
         print("Done\n")
         del tokenizer
