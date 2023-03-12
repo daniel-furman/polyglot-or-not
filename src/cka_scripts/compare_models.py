@@ -1,6 +1,7 @@
 import datetime
 import json
 import os
+import numpy as np
 import tqdm
 import torch
 
@@ -96,6 +97,7 @@ def compare_models(model_name_list, input_pairings, verbose):
     for model_name in model_name_list:
         true_count = 0
         fact_count = 0
+        p_ratio = []
 
         print(f"CKA for {model_name}")
         print("Loading  model...")
@@ -238,6 +240,8 @@ def compare_models(model_name_list, input_pairings, verbose):
                                 "p_false": float(p_false),
                                 "p_true - p_false": float(p_true) - float(p_false),
                                 "p_true > p_false": str(p_true > p_false),
+                                "p_true / (p_true + p_false)": float(p_true)
+                                / (float(p_true) + float(p_false)),
                             }
                         }
                     )
@@ -251,6 +255,8 @@ def compare_models(model_name_list, input_pairings, verbose):
                                 "p_false": float(p_false),
                                 "p_true - p_false": float(p_true) - float(p_false),
                                 "p_true > p_false": str(p_true > p_false),
+                                "p_true / (p_true + p_false)": float(p_true)
+                                / (float(p_true) + float(p_false)),
                             }
                         }
                     ]
@@ -279,9 +285,11 @@ def compare_models(model_name_list, input_pairings, verbose):
                 if p_true > p_false:
                     true_count += 1
 
+                p_ratio.append(float(p_true) / (float(p_true) + float(p_false)))
+
         score_dict_summary[
             model_name.lower()
-        ] = f"This model predicted {true_count}/{fact_count} facts at a higher prob than the given counterfactual."
+        ] = f"This model predicted {true_count}/{fact_count} facts at a higher prob than the given counterfactual. The mean p_true / (p_true + p_false) probability ratio score was {np.mean(np.array(p_ratio))}"
 
         print("Done\n")
         del tokenizer
@@ -292,9 +300,11 @@ def compare_models(model_name_list, input_pairings, verbose):
 
     # logging
     score_dicts_logging = {}
+    score_dicts_logging["curr_datetime"] = str(now)
+    score_dicts_logging["model_name"] = model_name
+    score_dicts_logging["score_dict_summary"] = score_dict_summary
     score_dicts_logging["score_dict_full"] = score_dict_full
     score_dicts_logging["score_dict_succinct"] = score_dict_succinct
-    score_dicts_logging["score_dict_summary"] = score_dict_summary
 
     with open(
         f"/content/logging/{prefix}_logged_cka_outputs_{dt_string}.json", "w"
