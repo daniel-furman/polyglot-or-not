@@ -23,6 +23,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     config = importlib.import_module(args.configs).config
     score_dicts = main(config)
-    print(f"\nScore dict full:\n{score_dicts[0]}")
-    print(f"\nScore dict succinct:\n{score_dicts[1]}")
+    if config["verbosity"]:
+        print(f"\nScore dict full:\n{score_dicts[0]}")
+        print(f"\nScore dict succinct:\n{score_dicts[1]}")
     print(f"\nScore dict summary:\n{score_dicts[2]}")
