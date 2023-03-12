@@ -3,9 +3,9 @@ config = {
         "facebook/opt-125m",  # 125M params
         "facebook/opt-350m",  # 350M params
         "facebook/opt-1.3b",  # 1.3b params
-        "facebook/opt-2.7b",  # 2.7b params
-        "facebook/opt-6.7b",  # 6.7b params
-        "facebook/opt-13b",  # 13b params
+        # "facebook/opt-2.7b",  # 2.7b params
+        # "facebook/opt-6.7b",  # 6.7b params
+        # "facebook/opt-13b",  # 13b params
     ],
     "input_information": {
         "0": {

@@ -38,7 +38,7 @@ Materials for **"The Search for (Mis)Information in Large Language Models"** (MI
 ```
 pip install -r requirements.txt
 cd src/cka_scripts
-python run_cka.py configs.bert_v0
+python run_cka.py configs.tests.bert_v0
 ```
 
 
