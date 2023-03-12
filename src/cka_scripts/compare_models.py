@@ -3,6 +3,7 @@ import json
 import os
 import torch
 
+import transformers
 from transformers import (
     AutoTokenizer,
     AutoModelForCausalLM,
@@ -11,7 +12,7 @@ from transformers import (
     T5ForConditionalGeneration,
 )
 
-from probe_helpers import probe_flan, probe_gpt, probe_bert
+from probe_helpers import probe_flan, probe_gpt, probe_bert, probe_llama
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -45,10 +46,17 @@ def get_model_and_tokenizer(model_name):
             device
         )
 
+    elif "llama" in model_name.lower():
+        return transformers.LLaMATokenizer.from_pretrained(
+            "/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/tokenizer/"
+        ), transformers.LLaMAForCausalLM.from_pretrained(
+            model_name, load_in_8bit=True, device_map="auto"
+        )
+
 
 # next, write a helper to pull a probe function for the given LM
 def get_probe_function(prefix):
-    probe_functions = [probe_flan, probe_gpt, probe_bert]
+    probe_functions = [probe_flan, probe_gpt, probe_bert, probe_llama]
     for func in probe_functions:
         if prefix.lower() in func.__name__:
             return func
@@ -129,6 +137,10 @@ def compare_models(model_name_list, input_pairings, verbose):
             prefix = "bert"
             probe_func = get_probe_function(prefix)
 
+        elif "llama" in model_name.lower():
+            prefix = "llama"
+            probe_func = get_probe_function(prefix)
+
         # iterate over context/entity pairings
         # input_pairings is a dict
         # context is a plain string (since our context's will be unique)
@@ -194,6 +206,11 @@ def compare_models(model_name_list, input_pairings, verbose):
                             truncation=True,
                             return_tensors="pt",
                         ).to(device)[0][1]
+
+                    elif prefix == "llama":
+                        target_id = tokenizer.encode(
+                            " " + entity, return_tensors="pt"
+                        ).to(device)[0][2]
 
                     # next call probe function
                     model_prob = probe_func(

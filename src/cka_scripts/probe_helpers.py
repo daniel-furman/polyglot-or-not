@@ -125,3 +125,48 @@ def probe_bert(model, tokenizer, target_id, context, verbose=False):
         )
 
     return probs[target_id.item()]
+
+
+def probe_llama(model, tokenizer, target_id, context, verbose=False):
+
+    # tokenize context
+    input_ids = tokenizer(
+        context,
+        return_tensors="pt",
+    ).input_ids.to(device)
+
+    # grab value
+    target_scalar = target_id.detach().cpu().numpy()
+
+    # use model to solicit a prediction
+    outputs = model(input_ids=input_ids, output_hidden_states=True, return_dict=True)
+
+    # every token in the model's vocab gets a representative prediction from the model
+    logits = outputs["logits"][0, -1]
+    # convert our prediction scores to a probability distribution with softmax
+    probs = softmax(logits, dim=-1)
+
+    probs = list(probs.detach().cpu().numpy())
+
+    if verbose:
+        print(f"\n\tcontext... {context}")
+        print(f"\ttokenized_context ids... {input_ids}")
+        print(f"\tdecoded tokenized_context... {tokenizer.decode(input_ids[0])}")
+        print(f"\tdecoded target id... {tokenizer.decode([target_id.item()])}")
+        print(
+            f"\tmost probable prediction id decoded... {tokenizer.decode([np.argmax(probs)])}\n"
+        )
+
+    # double check weird-ness before accessing prob
+    if len(probs) < target_id:
+        return None
+
+    # return the likelihood that our stipulated target would follow the context,
+    # according to the model
+    try:
+        return np.take(probs, [target_scalar])[0]
+
+    except IndexError:
+
+        print("target index not in model vocabulary scope; raising IndexError")
+        return None
