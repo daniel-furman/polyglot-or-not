@@ -26,4 +26,6 @@ if __name__ == "__main__":
     if config["verbosity"]:
         print(f"\nScore dict full:\n{score_dicts[0]}")
         print(f"\nScore dict succinct:\n{score_dicts[1]}")
+
+    # add average difference to summary print
     print(f"\nScore dict summary:\n{score_dicts[2]}")
