@@ -98,6 +98,7 @@ def compare_models(model_name_list, input_pairings, verbose):
         true_count = 0
         fact_count = 0
         p_ratio = []
+        p_trues = []
 
         print(f"CKA for {model_name}")
         print("Loading  model...")
@@ -285,11 +286,12 @@ def compare_models(model_name_list, input_pairings, verbose):
                 if p_true > p_false:
                     true_count += 1
 
-                p_ratio.append(float(p_true) / (float(p_true) + float(p_false)))
+                p_ratio.append(float(p_true) / (float(p_true) + float(p_false) + 1e-8))
+                p_trues.append(float(p_true))
 
         score_dict_summary[
             model_name.lower()
-        ] = f"This model predicted {true_count}/{fact_count} facts at a higher prob than the given counterfactual. The mean p_true / (p_true + p_false) probability ratio score was {np.mean(np.array(p_ratio))}"
+        ] = f"This model predicted {true_count}/{fact_count} facts at a higher prob than the given counterfactual. The mean p_true / (p_true + p_false) was {np.mean(np.array(p_ratio))} while the mean p_true was {np.mean(np.array(p_trues))}"
 
         print("Done\n")
         del tokenizer
