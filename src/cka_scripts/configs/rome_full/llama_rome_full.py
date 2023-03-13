@@ -5,7 +5,7 @@ with open("../../data/rome_counterfact_input_information.json", "r") as f:
 
 config = {
     "models": [
-        "/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-7b/",
+        "/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b/",
     ],
     "input_information": input_info,
     "verbosity": False,
