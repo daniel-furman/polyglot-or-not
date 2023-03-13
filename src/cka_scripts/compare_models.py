@@ -16,16 +16,14 @@ from transformers import (
 
 from probe_helpers import probe_flan, probe_gpt, probe_bert, probe_llama
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 if not torch.cuda.is_available():
     raise Exception("Change runtime type to include a GPU.")
 
+
 # first, write helper to pull a pretrained LM and tokenizer off the shelf
 def get_model_and_tokenizer(model_name):
-    if (
-       ("flan" in model_name.lower())
-        or "t5" in model_name.lower()
-    ):
+    if ("flan" in model_name.lower()) or "t5" in model_name.lower():
         return T5Tokenizer.from_pretrained(
             model_name
         ), T5ForConditionalGeneration.from_pretrained(
