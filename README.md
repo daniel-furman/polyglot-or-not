@@ -1,18 +1,18 @@
-
-<p align="center" width="100%">
-<a href="https://www.ischool.berkeley.edu/projects/2022/calibragpt-identifying-misinformation-large-language-models" target="_blank"><img src="assets/capstone-icon.png" alt="UCB-CalibraGPT" style="width: 50%; min-width: 300px; display: block; margin: auto;"></a>
-</p>
-
-# CalibraGPT: The Search for (Mis)Information in Large Language Models (MIMS Spring 2023 Capstone Project, UC Berkeley)
-[![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://github.com/daniel-furman/Capstone/blob/main/LICENSE) 
+# CalibraGPT: The Search for (Mis)Information in Large Language Models
+### MIMS Spring 2023 Capstone Project, UC Berkeley
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/daniel-furman/Capstone/blob/main/LICENSE) 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
 
-This is the repo for the UC Berkeley CalibraGPT project, which aims to build and share large language models that adhere to repaired factual knowledge. The repo contains the following:
+This is the repo for the CalibraGPT project, which aims to probe and repair factual knowledge committed to large language models' memory. The repo contains the following:
 
 1. A [**notebook demo**][notebook_cka_demo] running contrastive knowledge assessment of factual information in large language models.
 2. The [**72k+ data**][data] employed for contrastive knowledge assessment probing. 
 3. Both **web apps** and **models** to come. 
+
+<p align="center" width="100%">
+<a href="https://www.ischool.berkeley.edu/projects/2022/calibragpt-identifying-misinformation-large-language-models" target="_blank"><img src="assets/capstone-icon.png" alt="UCB-CalibraGPT" style="width: 25%; min-width: 150px; display: block; margin: auto;"></a>
+</p>
 
 ## Data Release
 
@@ -76,7 +76,7 @@ Please cite the repo if you use the data or code in this repo.
 }
 ```
 
-Naturally, you should also cite the original Contrastive Knowledge Assessment paper [1][cka] and Mass-Editing Memory in a Transformer paper [2][memit].
+Naturally, you should also cite the original Contrastive Knowledge Assessment paper [[1][cka]] and Mass-Editing Memory in a Transformer paper [[2][memit]].
 
 [notebook_cka_demo]: https://colab.research.google.com/github/daniel-furman/Capstone/blob/main/notebooks/cka_run_main_demo.ipynb
 [data]: https://github.com/daniel-furman/Capstone/tree/main/data
