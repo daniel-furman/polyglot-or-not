@@ -3,8 +3,9 @@ import numpy as np
 import torch
 from torch.nn.functional import softmax
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+if not torch.cuda.is_available():
+    raise Exception("Change runtime type to include a GPU.")
 
 def probe_flan(model, tokenizer, target_id, context, verbose=False):
 
