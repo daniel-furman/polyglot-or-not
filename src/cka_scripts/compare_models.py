@@ -22,7 +22,10 @@ if not torch.cuda.is_available():
 
 # first, write helper to pull a pretrained LM and tokenizer off the shelf
 def get_model_and_tokenizer(model_name):
-    if "flan" in model_name.lower():
+    if (
+       ("flan" in model_name.lower())
+        or "t5" in model_name.lower()
+    ):
         return T5Tokenizer.from_pretrained(
             model_name
         ), T5ForConditionalGeneration.from_pretrained(
