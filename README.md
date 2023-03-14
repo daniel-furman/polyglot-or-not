@@ -6,9 +6,9 @@
 
 This is the repo for the UC Berkeley CalibraGPT project, which aims to probe and repair large amounts of factual knowledge committed to memory in large language models. The repo contains the following:
 
-1. A [**notebook demo**][notebook_cka_demo] for contrastive knowledge assessment of large language models.
+1. A contrastive knowledge assessment probing [**notebook demo**][notebook_cka_demo] compatible with hundreds of large language models.
 2. The [**72k+ data**][data] employed for large-scale contrastive knowledge assessment probing. 
-3. Both **web apps** and **models** to come. 
+3. Supporting **web app demos** (to come).
 
 ## Data Release
 
@@ -39,7 +39,6 @@ This is the repo for the UC Berkeley CalibraGPT project, which aims to probe and
 
 * For running a notebook in Google Colab, see .ipynb files in ```./notebooks/```
 * For running locally, follow the steps below from the root dir
-    * Note, running this code requires access to a GPU
 
 ```
 pip install -r requirements.txt
