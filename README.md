@@ -6,9 +6,10 @@
 
 This is the repo for the UC Berkeley CalibraGPT project, which aims to probe and repair large amounts of factual knowledge committed to memory in large language models. The repo contains the following:
 
-1. A [**notebook demo**][notebook_cka_demo] for contrastive knowledge assessment probing of large language models.
-2. The [**72k+ data**][data] employed for our factual associations benchmark. 
-3. Supporting **web app demos** (to come).
+1. A [**notebook demo**][notebook_cka_demo] for contrastive knowledge assessment probing
+2. The [**72.3k+ data**][data] employed for our CalibraGPT factual associations benchmark
+3. Supporting **web app demos** (to come)
+4. Supporting **models** (to come)
 
 ## Data Release
 
@@ -78,6 +79,6 @@ Naturally, you should also cite the original Contrastive Knowledge Assessment pa
 2. Kevin Meng, Arnab Sen Sharma, Alex Andonian, Yonatan Belinkov, and David Bau. "Mass Editing Memory in a Transformer." arXiv preprint [arXiv:2210.07229][memit] (2022).
 
 [notebook_cka_demo]: https://colab.research.google.com/github/daniel-furman/Capstone/blob/main/notebooks/cka_run_main_demo.ipynb
-[data]: https://github.com/daniel-furman/Capstone/tree/main/data
+[data]: https://github.com/daniel-furman/Capstone/tree/main/data/calibragpt_full_input_information.json
 [cka]: https://arxiv.org/abs/2210.03329
 [memit]: https://arxiv.org/abs/2210.07229
