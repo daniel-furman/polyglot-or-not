@@ -28,14 +28,14 @@ This is the repo for the UC Berkeley CalibraGPT project, which aims to probe and
 | `BERT`       | Oct 2018     | Masked LM  | Google       |
 | `GPT2`       | Feb 2019     | Causal LM  | OpenAI       |
 | `RoBERTa`    | Nov 2019     | Masked LM  | Meta AI      |
-| `t5-v1_1`    | Jun 2021     | Text2Text  | Google       |
+| `t5-v1_1`    | Jun 2021     | Seq-2-Seq  | Google       |
 | `GPT-J`      | Aug 2021     | Causal LM  | EleutherAI   |
 | `GPT-Neo`    | Apr 2022     | Causal LM  | EleutherAI   |
 | `OPT`        | May 2022     | Causal LM  | Meta AI      |
-| `Flan-t5`    | Dec 2022     | Text2Text  | Google       |
+| `Flan-t5`    | Dec 2022     | Seq2Seq    | Google       |
 | `Pythia`     | Feb 2023     | Causal LM  | EleutherAI   |
 | `LLaMa`      | Feb 2023     | Causal LM  | Meta AI      |
-| `Flan-ul2`   | Mar 2023     | Text2Text  | Google       |
+| `Flan-ul2`   | Mar 2023     | Seq2Seq    | Google       |
 
 ## Setup instructions
 
