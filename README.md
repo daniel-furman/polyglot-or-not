@@ -62,10 +62,11 @@ All grad students below contributed equally. The order is determined alphabetica
 ## Citation
 
 Please cite the repo if you use the data or code in this repo.
+
 ```
-@misc{CalibraGPT,
+@misc{calibragpt,
   author = {Shreshta Bhat and Daniel Furman and Tim Schott},
-  title = {CalibraGPT: The Search for (Mis)Information in Large Language Models },
+  title = {CalibraGPT: The Search for (Mis)Information in Large Language Models},
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub repository},
