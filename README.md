@@ -19,22 +19,6 @@ This is the repo for the UC Berkeley CalibraGPT project, which aims to probe and
 
 (To come)
 
-## Model families tested
-
-| Model family | Release date | Model type | Organization |
-|--------------|--------------|------------|--------------|
-| `BERT`       | Oct 2018     | Masked LM  | Google       |
-| `GPT2`       | Feb 2019     | Causal LM  | OpenAI       |
-| `RoBERTa`    | Nov 2019     | Masked LM  | Meta AI      |
-| `t5-v1_1`    | Jun 2021     | Seq-2-Seq  | Google       |
-| `GPT-J`      | Aug 2021     | Causal LM  | EleutherAI   |
-| `GPT-Neo`    | Apr 2022     | Causal LM  | EleutherAI   |
-| `OPT`        | May 2022     | Causal LM  | Meta AI      |
-| `Flan-t5`    | Dec 2022     | Seq2Seq    | Google       |
-| `Pythia`     | Feb 2023     | Causal LM  | EleutherAI   |
-| `LLaMa`      | Feb 2023     | Causal LM  | Meta AI      |
-| `Flan-ul2`   | Mar 2023     | Seq2Seq    | Google       |
-
 ## Selected benchmark results
 
 (More results to come)
@@ -52,6 +36,22 @@ Add info on our CalibraGPT benchmark ... As reference, random guessing would sco
 Multi-task Language Understanding ([MMLU][mmlu]) is a popular benchmark comprised of multiple-choice questions in 57 subjects (professional & academic). As reference, random guessing would score a 25.0%. As per private-access models, OpenAI's new GPT-4 model scores a whopping 86.4% while their older GPT-3.5 scores a 70.1% on MMLU. These cannot be tested yet on the CalibraGPT benchmark, which requires probing of probabilities across a model's vocabulary (only open-source models are compatible).
 
 * For MMLU, the few-shot k=5 results are reported for auto-regressive models like GPTs and seq-2-seq models like t5. In contrast, for masked language models like RoBERTa, the fine-tuned results are reported.
+
+## Model families tested
+
+| Model family | Release date | Model type | Organization |
+|--------------|--------------|------------|--------------|
+| `BERT`       | Oct 2018     | Masked LM  | Google       |
+| `GPT2`       | Feb 2019     | Causal LM  | OpenAI       |
+| `RoBERTa`    | Nov 2019     | Masked LM  | Meta AI      |
+| `t5-v1_1`    | Jun 2021     | Seq-2-Seq  | Google       |
+| `GPT-J`      | Aug 2021     | Causal LM  | EleutherAI   |
+| `GPT-Neo`    | Apr 2022     | Causal LM  | EleutherAI   |
+| `OPT`        | May 2022     | Causal LM  | Meta AI      |
+| `Flan-t5`    | Dec 2022     | Seq2Seq    | Google       |
+| `Pythia`     | Feb 2023     | Causal LM  | EleutherAI   |
+| `LLaMa`      | Feb 2023     | Causal LM  | Meta AI      |
+| `Flan-ul2`   | Mar 2023     | Seq2Seq    | Google       |
 
 ## Setup instructions
 
