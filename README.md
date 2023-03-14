@@ -19,9 +19,7 @@ This is the repo for the UC Berkeley CalibraGPT project, which aims to probe and
 
 (To come)
 
-## Benchmark
-
-(Results to come)
+## Model families tested
 
 | Model family | Release date | Model type | Organization |
 |--------------|--------------|------------|--------------|
@@ -36,6 +34,22 @@ This is the repo for the UC Berkeley CalibraGPT project, which aims to probe and
 | `Pythia`     | Feb 2023     | Causal LM  | EleutherAI   |
 | `LLaMa`      | Feb 2023     | Causal LM  | Meta AI      |
 | `Flan-ul2`   | Mar 2023     | Seq2Seq    | Google       |
+
+## Selected benchmark results
+
+(More results to come)
+
+| Model            | MMLU            | CalibraGPT         |
+|------------------|-----------------|--------------------|
+| `LLaMa-65B`      | 63.4%           |                    |
+| `flan-ul2`       | 55.7%           |                    |
+| `flan-t5-xll`    | 55.1%           |                    |
+| `gpt-neox-20b`   | 33.6%           |                    |
+| `roberta-large`  | 27.9%           |                    |
+
+Multi-task Language Understanding ([MMLU][mmlu]) is a popular benchmark comprised of multiple-choice questions in 57 subjects (professional & academic). As reference, random guessing would score a 25.0%. As per private-access models, OpenAI's new GPT-4 model scores a whopping 86.4% while their older GPT-3.5 scores a 70.1% on MMLU. These cannot be tested yet on the CalibraGPT benchmark, which requires probing of probabilities across a model's vocabulary (only open-source models are compatible).
+
+* For MMLU, the few-shot k=5 results are reported for auto-regressive models like GPTs and seq-2-seq models like t5. In contrast, for masked language models like RoBERTa, the fine-tuned results are reported.
 
 ## Setup instructions
 
@@ -83,3 +97,4 @@ Naturally, you should also cite the original Contrastive Knowledge Assessment pa
 [data]: https://github.com/daniel-furman/Capstone/tree/main/data/calibragpt_full_input_information.json
 [cka]: https://arxiv.org/abs/2210.03329
 [memit]: https://arxiv.org/abs/2210.07229
+[mmlu]: https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu
