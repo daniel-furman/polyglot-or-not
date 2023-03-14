@@ -49,7 +49,7 @@ python run_cka.py configs.tests.bert_v0
 ```
 
 ## Authors
-All grad students below contributed equally. The order is determined alphabetically by last name. 
+All grad students below contributed equally.
 
 * Shreshta Bhat <bhat_shreshta@berkeley.edu>
 * Daniel Furman <daniel_furman@berkeley.edu>
