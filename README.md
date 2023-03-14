@@ -39,13 +39,13 @@ This is the repo for the UC Berkeley CalibraGPT project, which aims to probe and
 
 (More results to come)
 
-| Model            | MMLU            | CalibraGPT         |
-|------------------|-----------------|--------------------|
+| Model            | MMLU (multiple-choice answering)            | CalibraGPT (fact completion, this work)        |
+|------------------|---------------------------------------------|------------------------------------------------|
 | `LLaMa-65B`      | 63.4%           |                    |
 | `flan-ul2`       | 55.7%           |                    |
 | `flan-t5-xll`    | 55.1%           |                    |
 | `gpt-neox-20b`   | 33.6%           |                    |
-| `roberta-large`  | 27.9%           |                    |
+| `roberta-large`  | 27.9%           | 75.5%              |
 
 Multi-task Language Understanding ([MMLU][mmlu]) is a popular benchmark comprised of multiple-choice questions in 57 subjects (professional & academic). As reference, random guessing would score a 25.0%. As per private-access models, OpenAI's new GPT-4 model scores a whopping 86.4% while their older GPT-3.5 scores a 70.1% on MMLU. These cannot be tested yet on the CalibraGPT benchmark, which requires probing of probabilities across a model's vocabulary (only open-source models are compatible).
 
