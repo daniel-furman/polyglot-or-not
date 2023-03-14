@@ -47,6 +47,8 @@ This is the repo for the UC Berkeley CalibraGPT project, which aims to probe and
 | `gpt-neox-20b`   | 33.6%           |                    |
 | `roberta-large`  | 27.9%           | 75.5%              |
 
+Add info on our CalibraGPT benchmark ... As reference, random guessing would score a 50.0%.
+
 Multi-task Language Understanding ([MMLU][mmlu]) is a popular benchmark comprised of multiple-choice questions in 57 subjects (professional & academic). As reference, random guessing would score a 25.0%. As per private-access models, OpenAI's new GPT-4 model scores a whopping 86.4% while their older GPT-3.5 scores a 70.1% on MMLU. These cannot be tested yet on the CalibraGPT benchmark, which requires probing of probabilities across a model's vocabulary (only open-source models are compatible).
 
 * For MMLU, the few-shot k=5 results are reported for auto-regressive models like GPTs and seq-2-seq models like t5. In contrast, for masked language models like RoBERTa, the fine-tuned results are reported.
