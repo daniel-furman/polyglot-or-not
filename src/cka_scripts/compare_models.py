@@ -14,7 +14,7 @@ from transformers import (
     T5ForConditionalGeneration,
 )
 
-from probe_helpers import probe_flan, probe_gpt, probe_bert, probe_llama
+from probe_helpers import probe_flan, probe_gpt, probe_bert, probe_llama, probe_t5
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 if not torch.cuda.is_available():
@@ -60,7 +60,7 @@ def get_model_and_tokenizer(model_name):
 
 # next, write a helper to pull a probe function for the given LM
 def get_probe_function(prefix):
-    probe_functions = [probe_flan, probe_gpt, probe_bert, probe_llama]
+    probe_functions = [probe_flan, probe_gpt, probe_bert, probe_llama, probe_t5]
     for func in probe_functions:
         if prefix.lower() in func.__name__:
             return func
@@ -115,10 +115,12 @@ def compare_models(model_name_list, input_pairings, verbose):
         probe_func = None
 
         # get correct CKA function
-        if ("t5" in model_name.lower()) or ("ul2" in model_name.lower()):
+        if "flan" in model_name.lower():
             prefix = "flan"
             probe_func = get_probe_function(prefix)
-
+        if "t5" in model_name.lower():
+            prefix = "t5"
+            probe_func = get_probe_function(prefix)
         elif (
             ("gpt-neo" in model_name.lower())
             or ("gpt-j" in model_name.lower())
@@ -169,6 +171,8 @@ def compare_models(model_name_list, input_pairings, verbose):
                     context += " <mask>."
                 elif prefix == "bert":
                     context += " [MASK]."
+                elif prefix == "t5":
+                    context += " <extra_id_0>."
 
                 for entity in entities:
                     target_id = None
@@ -176,7 +180,7 @@ def compare_models(model_name_list, input_pairings, verbose):
                     # first find target vocab id
                     # default to the very first token that get's predicted
                     # e.g. in the case of Tokyo, which gets split into <Tok> <yo>,
-                    if prefix == "flan":
+                    if (prefix == "flan") or (prefix == "t5"):
                         target_id = tokenizer.encode(
                             " " + entity,
                             padding="longest",

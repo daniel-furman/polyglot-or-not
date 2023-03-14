@@ -27,6 +27,7 @@ This is the repo for the UC Berkeley CalibraGPT project, which aims to probe and
 | `BERT`       | Oct 2018     | Masked LM  | Google       |
 | `GPT2`       | Feb 2019     | Causal LM  | OpenAI       |
 | `RoBERTa`    | Nov 2019     | Masked LM  | Meta AI      |
+| `t5-v1_1`    | Jun 2021     | Text2Text  | Google       |
 | `GPT-J`      | Aug 2021     | Causal LM  | EleutherAI   |
 | `GPT-Neo`    | Apr 2022     | Causal LM  | EleutherAI   |
 | `OPT`        | May 2022     | Causal LM  | Meta AI      |

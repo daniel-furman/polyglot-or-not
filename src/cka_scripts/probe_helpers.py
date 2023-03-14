@@ -48,6 +48,46 @@ def probe_flan(model, tokenizer, target_id, context, verbose=False):
     return probs[target_id.item()]
 
 
+def probe_t5(model, tokenizer, target_id, context, verbose=False):
+
+    # tokenize context
+    input_ids = tokenizer(
+        context,
+        padding="longest",
+        max_length=512,
+        truncation=True,
+        return_tensors="pt",
+    ).input_ids.to(device)
+
+    # use model to solicit a prediction
+    outputs = model(
+        input_ids=input_ids,
+        decoder_input_ids=torch.tensor([[0, 32099]], device="cuda:0"),
+        output_hidden_states=True,
+        return_dict=True,
+    )
+
+    # We have batch size of 1, so grab that, then,
+    # Take the entire first matrix which corresponds to the entity after the context
+    logits = outputs["logits"][0, 1]
+
+    # convert our prediction scores to a probability distribution with softmax
+    probs = softmax(logits, dim=-1)
+
+    probs = probs.detach().cpu().numpy()
+
+    if verbose:
+        print(f"\n\tcontext... {context}")
+        print(f"\ttokenized_context ids... {input_ids}")
+        print(f"\tdecoded tokenized_context... {tokenizer.decode(input_ids[0])}")
+        print(f"\tdecoded target id... {tokenizer.decode([target_id.item()])}")
+        print(
+            f"\tmost probable prediction id decoded... {tokenizer.decode([np.argmax(probs)])}\n"
+        )
+
+    return probs[target_id.item()]
+
+
 def probe_gpt(model, tokenizer, target_id, context, verbose=False):
 
     # tokenize context
