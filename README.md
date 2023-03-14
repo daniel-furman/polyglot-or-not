@@ -6,8 +6,8 @@
 
 This is the repo for the UC Berkeley CalibraGPT project, which aims to probe and repair large amounts of factual knowledge committed to memory in large language models. The repo contains the following:
 
-1. A contrastive knowledge assessment probing [**notebook demo**][notebook_cka_demo] compatible with hundreds of large language models.
-2. The [**72k+ data**][data] employed for large-scale contrastive knowledge assessment probing. 
+1. A [**notebook demo**][notebook_cka_demo] for contrastive knowledge assessment probing of large language models.
+2. The [**72k+ data**][data] employed for our factual associations benchmark. 
 3. Supporting **web app demos** (to come).
 
 ## Data Release
