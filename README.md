@@ -7,17 +7,19 @@
 This is the repo for the UC Berkeley CalibraGPT project, which aims to probe and repair large amounts of factual knowledge committed to memory in language models. The repo contains the following:
 
 1. A [**notebook demo**][notebook_cka_demo] for contrastive knowledge assessment probing
-2. The [**72.3k+ data**][data] employed for the CalibraGPT factual associations benchmark
-3. Supporting **web app demos** (to come)
+2. Supporting **web app demos** (to come)
+3. The [**72.3k+ data**][data] employed for the CalibraGPT factual associations benchmark
 4. Supporting **models** (to come)
 
 ## Data Release
 
-(To come)
+(Forthcoming)
+
+Cite calinet [[1][bib]] and memit [[2][bib]] data sources. 
 
 ## Models Release
 
-(To come)
+(Forthcoming)
 
 ## Selected benchmark results
 
@@ -36,12 +38,12 @@ This is the repo for the UC Berkeley CalibraGPT project, which aims to probe and
 
 Add info on the CalibraGPT benchmark ... As reference, random guessing would score a 50%.
 
-* The uncertainty estimates in the CalibraGPT results were estimated using bootstrap resampling, via 10000 random samples (with replacement) and a 95% confidence level.  
+* The uncertainty estimates in the CalibraGPT results were calculated using bootstrap resampling, via 10000 random samples (with replacement) and a 95% confidence level.  
 
-Multi-task Language Understanding (MMLU) [1] is a popular NLU benchmark comprised of multiple-choice questions in 57 subjects (professional & academic). For reference, random guessing would score a 25%. 
+Multi-task Language Understanding (MMLU) [[3][bib]] is a popular NLU benchmark comprising multiple-choice questions in 57 subjects (professional & academic). For reference, random guessing would score a 25%. 
 
 * Details on MMLU scores above: The "few-shot, k=5" results are reported for auto-regressive models like `gpt-neox-20b` while the "CoT" results are reported for seq2seq models like `flan-t5-xll`. In contrast, for masked language models like `roberta-large`, the "fine-tuned" results are reported. 
-* Performance of other models on MMLU: As far as even larger models go, Google's `Flan-PaLM` 540B parameter model scores a 70.9% (most of the 200B+ parameters models aren't available to the public). And, as per private-access models, OpenAI's new `GPT-4` model scores a whopping 86.4% while their older `GPT-3.5` scores a 70.1%. OpenAI's private-access models can't be examined with the CalibraGPT benchmark, which requires the probing of probabilities across a model's vocabulary.
+* Performance of other models on MMLU: OpenAI's new `GPT-4` model scores a whopping 86.4% while the older `GPT-3.5` scores a 70.1%. These private-access models can't today be examined on the CalibraGPT benchmark, since the contrastive knowledge assessment method requires probing probabilities across multiple tokens in a model's vocabulary.
     * See the MMLU [leaderboard][mmlu] for more on the above score details and for the results of other models. 
 
 ## Model families tested
@@ -97,13 +99,11 @@ Please cite the repo if you use the data or code in this repo.
 }
 ```
 
-## Bibliography
+## Bibliography 
 
-Naturally, you should also cite the original Contrastive Knowledge Assessment paper [2] and Mass-Editing Memory in a Transformer paper [3]. 
-
-1. Hendrycks, Dan, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt. "Measuring massive multitask language understanding." arXiv preprint [arXiv:2009.03300][mmlu_paper] (2020).
-2. Qingxiu Dong, Damai Dai, Yifan Song, Jingjing Xu, Zhifang Sui, and Lei Li."Calibrating Factual Knowledge in Pretrained Language Models". In Findings of the Association for Computational Linguistics: EMNLP 2022. [arXiv:2210.03329][cka] (2022).
-3. Kevin Meng, Arnab Sen Sharma, Alex Andonian, Yonatan Belinkov, and David Bau. "Mass Editing Memory in a Transformer." arXiv preprint [arXiv:2210.07229][memit] (2022).
+1. Qingxiu Dong, Damai Dai, Yifan Song, Jingjing Xu, Zhifang Sui, and Lei Li."Calibrating Factual Knowledge in Pretrained Language Models". In Findings of the Association for Computational Linguistics: EMNLP 2022. [arXiv:2210.03329][cka] (2022).
+2. Kevin Meng, Arnab Sen Sharma, Alex Andonian, Yonatan Belinkov, and David Bau. "Mass Editing Memory in a Transformer." arXiv preprint [arXiv:2210.07229][memit] (2022).
+3. Hendrycks, Dan, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt. "Measuring massive multitask language understanding." arXiv preprint [arXiv:2009.03300][mmlu_paper] (2020).
 
 [notebook_cka_demo]: https://colab.research.google.com/github/daniel-furman/Capstone/blob/main/notebooks/cka_run_main_demo.ipynb
 [data]: https://github.com/daniel-furman/Capstone/tree/main/data/calibragpt_full_input_information.json
@@ -111,3 +111,4 @@ Naturally, you should also cite the original Contrastive Knowledge Assessment pa
 [memit]: https://arxiv.org/abs/2210.07229
 [mmlu]: https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu
 [mmlu_paper]: https://arxiv.org/abs/2009.03300
+[bib]: https://github.com/daniel-furman/Capstone#bibliography
