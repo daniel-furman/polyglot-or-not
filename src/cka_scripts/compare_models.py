@@ -99,7 +99,7 @@ def compare_models(model_name_list, input_pairings, verbose):
     for model_name in model_name_list:
         true_count = 0
         fact_count = 0
-        p_ratio = []
+        p_differences = []
         p_trues = []
 
         print(f"CKA for {model_name}")
@@ -158,8 +158,6 @@ def compare_models(model_name_list, input_pairings, verbose):
         for _, entities_dict in tqdm.tqdm(input_pairings.items()):
 
             for counterfact in entities_dict["false"]:
-
-                fact_count += 1
 
                 context = entities_dict["stem"]
                 entities = [entities_dict["true"], counterfact]
@@ -237,67 +235,68 @@ def compare_models(model_name_list, input_pairings, verbose):
 
                     entity_count += 1
 
+                score_dict_full_data = {
+                    "stem": context,
+                    "fact": entities[0],
+                    "counterfact": entities[1],
+                    "p_true": np.round(float(p_true), decimals=7),
+                    "p_false": np.round(float(p_false), decimals=7),
+                    "p_true - p_false": np.round(
+                        float(p_true) - float(p_false), decimals=7
+                    ),
+                    "p_true > p_false": str(p_true > p_false),
+                }
                 try:
-                    score_dict_full[model_name.lower()].append(
-                        {
-                            context
-                            + " "
-                            + f"{entities}": {
-                                "p_true": float(p_true),
-                                "p_false": float(p_false),
-                                "p_true - p_false": float(p_true) - float(p_false),
-                                "p_true > p_false": str(p_true > p_false),
-                                "p_true / (p_true + p_false)": float(p_true)
-                                / (float(p_true) + float(p_false) + 1e-8),
-                            }
-                        }
-                    )
+                    score_dict_full_data["subject"] = entities_dict["subject"]
                 except KeyError:
-                    score_dict_full[model_name.lower()] = [
-                        {
-                            context
-                            + " "
-                            + f"{entities}": {
-                                "p_true": float(p_true),
-                                "p_false": float(p_false),
-                                "p_true - p_false": float(p_true) - float(p_false),
-                                "p_true > p_false": str(p_true > p_false),
-                                "p_true / (p_true + p_false)": float(p_true)
-                                / (float(p_true) + float(p_false) + 1e-8),
-                            }
-                        }
+                    pass
+
+                try:
+                    score_dict_full_data["dataset_original"] = entities_dict[
+                        "dataset_original"
                     ]
+                except KeyError:
+                    pass
+
+                try:
+                    score_dict_full_data["case_id"] = entities_dict["case_id"]
+                except KeyError:
+                    pass
+
+                try:
+                    score_dict_full_data["fact_id"] = entities_dict["fact_id"]
+                except KeyError:
+                    pass
+
+                try:
+                    score_dict_full[model_name.lower()].append(score_dict_full_data)
+                except KeyError:
+                    score_dict_full[model_name.lower()] = [score_dict_full_data]
 
                 try:
                     score_dict_succinct[model_name.lower()].append(
                         {
-                            context
-                            + " "
-                            + f"{entities}": {
-                                "p_true > p_false": str(p_true > p_false),
-                            }
+                            "p_true > p_false": str(p_true > p_false),
                         }
                     )
                 except KeyError:
                     score_dict_succinct[model_name.lower()] = [
                         {
-                            context
-                            + " "
-                            + f"{entities}": {
-                                "p_true > p_false": str(p_true > p_false),
-                            }
+                            "p_true > p_false": str(p_true > p_false),
                         }
                     ]
 
                 if p_true > p_false:
                     true_count += 1
 
-                p_ratio.append(float(p_true) / (float(p_true) + float(p_false) + 1e-8))
+                p_differences.append((float(p_true) - float(p_false)))
                 p_trues.append(float(p_true))
+
+                fact_count += 1
 
         score_dict_summary[
             model_name.lower()
-        ] = f"This model predicted {true_count}/{fact_count} facts at a higher prob than the given counterfactual. The mean p_true / (p_true + p_false) was {np.round(np.mean(np.array(p_ratio)), decimals=4)} while the mean p_true was {np.round(np.mean(np.array(p_trues)), decimals=4)}"
+        ] = f"This model predicted {true_count}/{fact_count} facts at a higher prob than the given counterfactual. The mean p_true - p_false difference was {np.round(np.mean(np.array(p_differences)), decimals=4)} while the mean p_true was {np.round(np.mean(np.array(p_trues)), decimals=4)}"
 
         print("Done\n")
         del tokenizer
@@ -309,7 +308,11 @@ def compare_models(model_name_list, input_pairings, verbose):
     # logging
     score_dicts_logging = {}
     score_dicts_logging["curr_datetime"] = str(now)
-    score_dicts_logging["model_name"] = model_name
+    try:
+        score_dicts_logging["model_name"].append(model_name)
+    except KeyError:
+        score_dicts_logging["model_name"] = [model_name]
+
     score_dicts_logging["score_dict_summary"] = score_dict_summary
     score_dicts_logging["score_dict_full"] = score_dict_full
     score_dicts_logging["score_dict_succinct"] = score_dict_succinct
