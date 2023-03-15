@@ -23,17 +23,17 @@ Cite calinet [[1][bib]] and memit [[2][bib]] data sources.
 
 ## Selected benchmark results
 
-(More results to come)
+(Results coming)
 
 | Model            | MMLU (multiple-choice answering)            | CalibraGPT (fact completion, this work)        |
 |------------------|---------------------------------------------|------------------------------------------------|
 | `llama-65b`      | 63.4%           |                    |
 | `flan-ul2`       | 55.7%           |                    |
 | `flan-t5-xll`    | 48.6%           |                    |
-| `llama-7b`       | 35.1%           | 85.7% (+/- 0.2%)   |
+| `llama-7b`       | 35.1%           |                    |
 | `flan-t5-base`   | 33.7%           |                    |
 | `gpt-neox-20b`   | 33.6%           |                    |
-| `roberta-large`  | 27.9%           | 75.5% (+/- 0.3%)   |
+| `roberta-large`  | 27.9%           |                    |
 
 
 Add info on the CalibraGPT benchmark ... As reference, random guessing would score a 50%.
