@@ -18,7 +18,7 @@ Cite calinet [[1][bib]] and memit [[2][bib]] data sources.
 
 **English** results:
 
-| Model            | Num Parameters | CalibraGPT (fact completion, this work)     | MMLU (multiple-choice answering, reference)     |
+| Model Name            | Num Parameters | CalibraGPT (fact completion, this work)     | MMLU (multiple-choice answering, reference)     |
 |------------------|----------------|-----------------------------|------------------------------------------------|
 | `llama-65b`      | 65B   |    | 63.4%           |
 | `flan-ul2`       | 20B   |    | 52.2%           |
