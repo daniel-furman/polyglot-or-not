@@ -16,17 +16,18 @@ Cite calinet [[1][bib]] and memit [[2][bib]] data sources.
 
 ## Selected benchmark results
 
-(English results)
+**English** results:
 
-| Model            | MMLU (multiple-choice answering)            | CalibraGPT (fact completion, this work)        |
-|------------------|---------------------------------------------|------------------------------------------------|
-| `llama-65b`      | 63.4%           |                    |
-| `flan-ul2`       | 55.7%           |                    |
-| `flan-t5-xll`    | 48.6%           |                    |
-| `llama-7b`       | 35.1%           |                    |
-| `flan-t5-base`   | 33.7%           |                    |
-| `gpt-neox-20b`   | 33.6%           |                    |
-| `roberta-large`  | 27.9%           |                    |
+| Model            | Num Parameters | CalibraGPT (fact completion, this work)     | MMLU (multiple-choice answering reference)     |
+|------------------|----------------|-----------------------------|------------------------------------------------|
+| **`llama-65b`**      | 65B   |    | 63.4%           |
+| **`flan-ul2`**       | 20B   |    | 52.2%           |
+| **`flan-t5-xll`**    | 11B   |    | 48.6%           |
+| **`llama-13b`**      | 13B   |    | 35.1%           |
+| **`flan-t5-large`**  | 780M  |    | 40.5%           |
+| **`llama-7b`**       | 7B    |    | 35.1%           |
+| **`gpt-neox-20b`**   | 20B   |    | 33.6%           |
+| **`roberta-large`**  | 354M  |    | 27.9%           |
 
 
 Add info on the CalibraGPT benchmark ... As reference, random guessing would score a 50%.
@@ -39,7 +40,7 @@ Multi-task Language Understanding (MMLU) [[3][bib]] is a popular NLU benchmark c
 * Performance of other models on MMLU: OpenAI's new `GPT-4` model scores a whopping 86.4% while the older `GPT-3.5` scores a 70.1%. These private-access models can't today be examined on the CalibraGPT benchmark, since the contrastive knowledge assessment method requires probing probabilities across multiple tokens in a model's vocabulary.
     * See the MMLU [leaderboard][mmlu] for more on the above score details and for the results of other models. 
 
-(Multilingual results coming)
+**Multilingual** results (coming)
 
 ## Model families tested
 
