@@ -18,16 +18,16 @@ Cite calinet [[1][bib]] and memit [[2][bib]] data sources.
 
 **English** results:
 
-| Model Name            | Num Parameters | CalibraGPT (fact completion, this work)     | MMLU (multiple-choice answering, reference)     |
+| Model name (# params)           | CalibraGPT (fact completion, this work)     | MMLU (multiple-choice answering, reference)     |
 |------------------|----------------|-----------------------------|------------------------------------------------|
-| `llama-65b`      | 65B   |    | 63.4%           |
-| `flan-ul2`       | 20B   |    | 52.2%           |
-| `flan-t5-xll`    | 11B   |    | 48.6%           |
-| `llama-13b`      | 13B   |    | 35.1%           |
-| `flan-t5-large`  | 780M  |    | 40.5%           |
-| `llama-7b`       | 7B    |    | 35.1%           |
-| `gpt-neox-20b`   | 20B   |    | 33.6%           |
-| `roberta-large`  | 354M  |    | 27.9%           |
+| `llama-65b` (65B)   |    | 63.4%           |
+| `flan-ul2` (20B)    |    | 52.2%           |
+| `flan-t5-xll` (11B) |    | 48.6%           |
+| `llama-13b` (13B)   |    | 35.1%           |
+| `flan-t5-large` (780M)  |    | 40.5%           |
+| `llama-7b` (7B)     |    | 35.1%           |
+| `gpt-neox-20b` (20B)   |    | 33.6%           |
+| `roberta-large` (354M)  |    | 27.9%           |
 
 Add info on the CalibraGPT benchmark ... As reference, random guessing would score a 50%.
 
