@@ -11,7 +11,7 @@ from transformers import (
     AutoModelForCausalLM,
     AutoModelForMaskedLM,
     T5Tokenizer,
-    T5ForConditionalGeneration
+    T5ForConditionalGeneration,
 )
 
 from probe_helpers import probe_flan, probe_gpt, probe_bert, probe_llama, probe_t5
