@@ -11,8 +11,8 @@ from transformers import (
     AutoModelForMaskedLM,
     T5Tokenizer,
     T5ForConditionalGeneration,
-    LLaMATokenizer,
-    LLaMAForCausalLM,
+    LlamaTokenizer,
+    LlamaForCausalLM,
 )
 
 from probe_helpers import probe_flan, probe_gpt, probe_bert, probe_llama, probe_t5
@@ -52,9 +52,9 @@ def get_model_and_tokenizer(model_name):
         )
 
     elif "llama" in model_name.lower():
-        return LLaMATokenizer.from_pretrained(
+        return LlamaTokenizer.from_pretrained(
             "/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/tokenizer/"
-        ), LLaMAForCausalLM.from_pretrained(
+        ), LlamaForCausalLM.from_pretrained(
             model_name, load_in_8bit=True, device_map="auto", torch_dtype=torch.float16
         )
 
