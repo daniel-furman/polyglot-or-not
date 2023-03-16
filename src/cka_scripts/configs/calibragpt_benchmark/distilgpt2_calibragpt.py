@@ -8,5 +8,5 @@ config = {
         "distilgpt2",
     ],
     "input_information": input_info,
-    "verbosity": True,
+    "verbosity": False,
 }
