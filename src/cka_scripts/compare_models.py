@@ -45,7 +45,7 @@ def get_model_and_tokenizer(model_name):
         return AutoTokenizer.from_pretrained(
             model_name
         ), AutoModelForMaskedLM.from_pretrained(
-            model_name, torch_dtype=torch.float16
+            model_name, torch_dtype=torch.bfloat16
         ).to(
             device
         )
