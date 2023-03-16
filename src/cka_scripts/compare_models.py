@@ -54,7 +54,7 @@ def get_model_and_tokenizer(model_name):
         return transformers.LLaMATokenizer.from_pretrained(
             "/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/tokenizer/"
         ), transformers.LLaMAForCausalLM.from_pretrained(
-            model_name, load_in_8bit=True, device_map="auto"
+            model_name, load_in_8bit=True, device_map="auto", torch_dtype=torch.float16
         )
 
 
