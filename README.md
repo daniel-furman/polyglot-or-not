@@ -6,24 +6,17 @@
 
 This is the repo for the UC Berkeley CalibraGPT project, which aims to probe and repair large amounts of factual knowledge committed to memory in language models. The repo contains the following:
 
-1. A [**notebook demo**][notebook_cka_demo] for contrastive knowledge assessment probing
-2. Supporting **web app demos** (to come)
-3. The [**72.3k+ data**][data] employed for the CalibraGPT factual associations benchmark
-4. Supporting **models** (to come)
+1. The [**72.3k+ English data**][data] employed for the fact completion benchmark, 20+ more languages to come
+2. A [**notebook demo**][notebook_cka_demo] for running lightweight contrastive knowledge assessment probing
+3. The **code** for running the fact completion benchmark with a (Hugging Face compatible) language model
 
 ## Data Release
 
-(Forthcoming)
-
 Cite calinet [[1][bib]] and memit [[2][bib]] data sources. 
-
-## Models Release
-
-(Forthcoming)
 
 ## Selected benchmark results
 
-(Results coming)
+(English results)
 
 | Model            | MMLU (multiple-choice answering)            | CalibraGPT (fact completion, this work)        |
 |------------------|---------------------------------------------|------------------------------------------------|
@@ -38,13 +31,15 @@ Cite calinet [[1][bib]] and memit [[2][bib]] data sources.
 
 Add info on the CalibraGPT benchmark ... As reference, random guessing would score a 50%.
 
-* The uncertainty estimates in the CalibraGPT results were calculated using bootstrap resampling, via 10000 random samples (with replacement) and a 95% confidence level.  
+* The uncertainty estimates in the CalibraGPT results were calculated using bootstrap resampling, via 10,000 random samples with replacement and a 95% confidence level.  
 
 Multi-task Language Understanding (MMLU) [[3][bib]] is a popular NLU benchmark comprising multiple-choice questions in 57 subjects (professional & academic). For reference, random guessing would score a 25%. 
 
 * Details on MMLU scores above: The "few-shot, k=5" results are reported for auto-regressive models like `gpt-neox-20b` while the "CoT" results are reported for seq2seq models like `flan-t5-xll`. In contrast, for masked language models like `roberta-large`, the "fine-tuned" results are reported. 
 * Performance of other models on MMLU: OpenAI's new `GPT-4` model scores a whopping 86.4% while the older `GPT-3.5` scores a 70.1%. These private-access models can't today be examined on the CalibraGPT benchmark, since the contrastive knowledge assessment method requires probing probabilities across multiple tokens in a model's vocabulary.
     * See the MMLU [leaderboard][mmlu] for more on the above score details and for the results of other models. 
+
+(Multilingual results coming)
 
 ## Model families tested
 
@@ -61,6 +56,8 @@ Multi-task Language Understanding (MMLU) [[3][bib]] is a popular NLU benchmark c
 | `Pythia`     | Feb 2023     | Causal LM  | EleutherAI   |
 | `LLaMa`      | Feb 2023     | Causal LM  | Meta AI      |
 | `Flan-ul2`   | Mar 2023     | Seq2Seq    | Google       |
+
+## Models Release
 
 ## Setup instructions
 
