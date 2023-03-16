@@ -25,12 +25,13 @@ Cite calinet [[1][bib]] and memit [[2][bib]] data sources.
 | `flan-t5-xll`   |    | 48.6%           |
 | `llama-13b`    |    | 46.9%           |
 | `flan-t5-large`|    | 40.5%           |
-| `llama-7b`      |    | 35.1%           |
+| `llama-7b`      | 85.68% (+/-0.25%)    | 35.1%           |
 | `flan-t5-base`  |    | 33.7%           |
 | `gpt-neox-20b`  |    | 33.6%           |
-| `roberta-large` |    | 27.9%           |
+| `roberta-large` | 75.53% (+/-0.31%)   | 27.9%           |
+| Random guessing | 50%   | 25%           |
 
-Add info on the CalibraGPT benchmark ... As reference, random guessing would score a 50%.
+Add info on the CalibraGPT benchmark ... For reference, random guessing would score a 50%.
 
 * The uncertainty estimates in the CalibraGPT results were calculated using bootstrap resampling, via 10,000 random samples with replacement and a 95% confidence level.  
 
