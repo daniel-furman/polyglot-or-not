@@ -29,7 +29,7 @@ Cite calinet [[1][bib]] and memit [[2][bib]] data sources.
 | `flan-t5-base`  |    | 33.7%           |
 | `gpt-neox-20b`  |    | 33.6%           |
 | `roberta-large` | 75.53% (+/-0.31%)   | 27.9%           |
-| Random guessing | 50%   | 25%           |
+| `Random guessing` | 50%   | 25%           |
 
 Add info on the CalibraGPT benchmark ... For reference, random guessing would score a 50%.
 
