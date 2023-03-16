@@ -12,5 +12,5 @@ config = {
         # "xlm-roberta-large",  # 354M params
     ],
     "input_information": input_info,
-    "verbosity": False,
+    "verbosity": True,
 }

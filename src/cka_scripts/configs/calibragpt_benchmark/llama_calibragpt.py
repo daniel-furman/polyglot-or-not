@@ -8,5 +8,5 @@ config = {
         "/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-7b/",
     ],
     "input_information": input_info,
-    "verbosity": False,
+    "verbosity": True,
 }
