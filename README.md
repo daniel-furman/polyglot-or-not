@@ -23,9 +23,10 @@ Cite calinet [[1][bib]] and memit [[2][bib]] data sources.
 | `llama-65b`    |    | 63.4%           |
 | `flan-ul2`      |    | 52.2%           |
 | `flan-t5-xll`   |    | 48.6%           |
-| `llama-13b`    |    | 35.1%           |
+| `llama-13b`    |    | 46.9%           |
 | `flan-t5-large`|    | 40.5%           |
 | `llama-7b`      |    | 35.1%           |
+| `flan-t5-base`  |    | 33.7%           |
 | `gpt-neox-20b`  |    | 33.6%           |
 | `roberta-large` |    | 27.9%           |
 
