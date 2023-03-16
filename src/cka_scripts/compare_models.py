@@ -5,13 +5,14 @@ import numpy as np
 import tqdm
 import torch
 
-import transformers
 from transformers import (
     AutoTokenizer,
     AutoModelForCausalLM,
     AutoModelForMaskedLM,
     T5Tokenizer,
     T5ForConditionalGeneration,
+    LLaMATokenizer,
+    LLaMAForCausalLM,
 )
 
 from probe_helpers import probe_flan, probe_gpt, probe_bert, probe_llama, probe_t5
@@ -51,9 +52,9 @@ def get_model_and_tokenizer(model_name):
         )
 
     elif "llama" in model_name.lower():
-        return transformers.LLaMATokenizer.from_pretrained(
+        return LLaMATokenizer.from_pretrained(
             "/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/tokenizer/"
-        ), transformers.LLaMAForCausalLM.from_pretrained(
+        ), LLaMAForCausalLM.from_pretrained(
             model_name, load_in_8bit=True, device_map="auto", torch_dtype=torch.float16
         )
 
