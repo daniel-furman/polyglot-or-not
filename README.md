@@ -18,20 +18,20 @@ Cite calinet [[1][bib]] and memit [[2][bib]] data sources.
 
 **English** results:
 
-| Model           | CalibraGPT (fact completion, this work)     | MMLU (multiple-choice answering)     |
+| Model           | CalibraGPT (fact completion %)     | MMLU (multiple-choice answering %)    |
 |------------------|---------------------------------------------|------------------------------------------------|
-| `llama-65b`    |    | 63.4%           |
-| `llama-33b`    |    | 57.8%           |
-| `flan-ul2`      |    | 52.2%           |
-| `flan-t5-xll`   |    | 48.6%           |
-| `llama-13b`    | 86.44% (+/- 0.25%)   | 46.9%           |
-| `flan-t5-xl`| 81.06% (+/- 0.25%)   | 45.5%           |
-| `flan-t5-large`| 77.89% (+/- 0.30%)   | 40.5%           |
-| `llama-7b`      | 85.68% (+/- 0.25%)    | 35.1%           |
-| `flan-t5-base`  | 73.78% (+/- 0.32%)    | 33.7%           |
-| `gpt-neox-20b`  |    | 33.6%           |
-| `roberta-large` | 75.53% (+/- 0.31%)   | 27.9%           |
-| `Random guessing` | 50%   | 25%           |
+| `llama-65b`    |    | 63.4           |
+| `llama-33b`    |    | 57.8           |
+| `flan-ul2`      |    | 52.2           |
+| `flan-t5-xll`   |    | 48.6           |
+| `llama-13b`    | 86.44 (+/- 0.25)   | 46.9           |
+| `flan-t5-xl`| 81.06 (+/- 0.25)   | 45.5           |
+| `flan-t5-large`| 77.89 (+/- 0.30)   | 40.5           |
+| `llama-7b`      | 85.68 (+/- 0.25)    | 35.1           |
+| `flan-t5-base`  | 73.78 (+/- 0.32)    | 33.7           |
+| `gpt-neox-20b`  |    | 33.6           |
+| `roberta-large` | 75.53 (+/- 0.31)   | 27.9           |
+| `Random guessing` | 50   | 25           |
 
 Add info on the CalibraGPT benchmark ... For reference, random guessing would score a 50%.
 
