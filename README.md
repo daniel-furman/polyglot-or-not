@@ -21,12 +21,14 @@ Cite calinet [[1][bib]] and memit [[2][bib]] data sources.
 | Model           | CalibraGPT (fact completion, this work)     | MMLU (multiple-choice answering)     |
 |------------------|---------------------------------------------|------------------------------------------------|
 | `llama-65b`    |    | 63.4%           |
+| `llama-33b`    |    | 57.8%           |
 | `flan-ul2`      |    | 52.2%           |
 | `flan-t5-xll`   |    | 48.6%           |
 | `llama-13b`    |    | 46.9%           |
+| `flan-t5-xl`|    | 45.5%           |
 | `flan-t5-large`|    | 40.5%           |
 | `llama-7b`      | 85.68% (+/- 0.25%)    | 35.1%           |
-| `flan-t5-base`  |    | 33.7%           |
+| `flan-t5-base`  | 73.78% (+/- 0.32%)    | 33.7%           |
 | `gpt-neox-20b`  |    | 33.6%           |
 | `roberta-large` | 75.53% (+/- 0.31%)   | 27.9%           |
 | `Random guessing` | 50%   | 25%           |
@@ -50,7 +52,7 @@ Multi-task Language Understanding (MMLU) [[3][bib]] is a popular NLU benchmark c
 | `BERT`       | Oct 2018     | Masked LM  | Google       |
 | `GPT2`       | Feb 2019     | Causal LM  | OpenAI       |
 | `RoBERTa`    | Nov 2019     | Masked LM  | Meta AI      |
-| `t5-v1_1`    | Jun 2021     | Seq-2-Seq  | Google       |
+| `t5-v1_1`    | Jun 2021     | Seq2Seq    | Google       |
 | `GPT-J`      | Aug 2021     | Causal LM  | EleutherAI   |
 | `GPT-Neo`    | Apr 2022     | Causal LM  | EleutherAI   |
 | `OPT`        | May 2022     | Causal LM  | Meta AI      |
