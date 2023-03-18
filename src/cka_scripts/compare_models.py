@@ -34,6 +34,7 @@ def get_model_and_tokenizer(model_name):
         ("gpt" in model_name.lower())
         or ("opt" in model_name.lower())
         or ("pythia" in model_name.lower())
+        or ("bloom" in model_name.lower())
     ):
         return AutoTokenizer.from_pretrained(
             model_name
@@ -117,7 +118,7 @@ def compare_models(model_name_list, input_pairings, verbose):
         if "flan" in model_name.lower():
             prefix = "flan"
             probe_func = get_probe_function(prefix)
-        if "t5" in model_name.lower():
+        elif "t5" in model_name.lower():
             prefix = "t5"
             probe_func = get_probe_function(prefix)
         elif (
@@ -147,6 +148,10 @@ def compare_models(model_name_list, input_pairings, verbose):
         elif "llama" in model_name.lower():
             prefix = "llama"
             probe_func = get_probe_function(prefix)
+
+        elif "bloom" in model_name.lower():
+            prefix = "bloom"
+            probe_func = get_probe_function("gpt")
 
         # iterate over context/entity pairings
         # input_pairings is a dict
@@ -192,7 +197,9 @@ def compare_models(model_name_list, input_pairings, verbose):
                         return_tensors="pt",
                     ).to(device)[0][0]
 
-                elif (prefix == "gpt") or (prefix == "eleutherai"):
+                elif (
+                    (prefix == "gpt") or (prefix == "eleutherai") or (prefix == "bloom")
+                ):
                     target_id = tokenizer.encode(" " + entity, return_tensors="pt").to(
                         device
                     )[0][0]
