@@ -8,7 +8,7 @@ This is the repo for the UC Berkeley CalibraGPT project, which aims to probe fac
 
 1. The [**72.3k+ English data**][data] employed for the fact completion benchmark, 20+ more languages to come
 2. A [**notebook demo**][notebook_cka_demo] for running lightweight contrastive knowledge assessment probing
-3. The **code** for running the fact completion benchmark with a (Hugging Face compatible) language model
+3. The **code** for running the fact completion benchmark with a [compatible](https://github.com/daniel-furman/Capstone#model-families-tested) language model
 
 ## Data Release
 
