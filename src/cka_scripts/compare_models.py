@@ -27,7 +27,7 @@ def get_model_and_tokenizer(model_name):
         return T5Tokenizer.from_pretrained(
             model_name
         ), T5ForConditionalGeneration.from_pretrained(
-            model_name, load_in_8bit=True, device_map="auto", torch_dtype=torch.float16
+            model_name, load_in_8bit=True, device_map="auto"
         )
 
     elif (
@@ -38,7 +38,7 @@ def get_model_and_tokenizer(model_name):
         return AutoTokenizer.from_pretrained(
             model_name
         ), AutoModelForCausalLM.from_pretrained(
-            model_name, load_in_8bit=True, device_map="auto", torch_dtype=torch.float16
+            model_name, load_in_8bit=True, device_map="auto"
         )
 
     elif "bert" in model_name.lower():
@@ -54,7 +54,7 @@ def get_model_and_tokenizer(model_name):
         return transformers.LLaMATokenizer.from_pretrained(
             "/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/tokenizer/"
         ), transformers.LLaMAForCausalLM.from_pretrained(
-            model_name, load_in_8bit=True, device_map="auto", torch_dtype=torch.float16
+            model_name, load_in_8bit=True, device_map="auto"
         )
 
 
@@ -85,7 +85,6 @@ def compare_models(model_name_list, input_pairings, verbose):
     """
 
     score_dict_full = {}
-    score_dict_succinct = {}
     score_dict_summary = {}
 
     if not os.path.isdir("/content"):
@@ -99,7 +98,7 @@ def compare_models(model_name_list, input_pairings, verbose):
     for model_name in model_name_list:
         true_count = 0
         fact_count = 0
-        p_differences = []
+        p_falses = []
         p_trues = []
 
         print(f"CKA for {model_name}")
@@ -157,14 +156,22 @@ def compare_models(model_name_list, input_pairings, verbose):
 
         for _, entities_dict in tqdm.tqdm(input_pairings.items()):
 
-            for counterfact in entities_dict["false"]:
+            p_true = 0.0
+            p_false = 0.0
+            p_false_list_inner = []
 
+            entities = [entities_dict["true"]]
+            entities.extend(entities_dict["false"])
+
+            for entity_count, entity in enumerate(entities):
+
+                # change to grabbing stem index in a list of stems
                 context = entities_dict["stem"]
-                entities = [entities_dict["true"], counterfact]
-                entity_count = 0
-                p_true = 0.0
-                p_false = 0.0
-
+                # if multiple stems are stored, grab the correct one
+                # (zeroeth stem is true fact, next ones are counterfacts)
+                if type(context) == list:
+                    context = context[entity_count]
+                # add necessary additions based on model type
                 if prefix == "roberta":
                     context += " <mask>."
                 elif prefix == "bert":
@@ -172,138 +179,125 @@ def compare_models(model_name_list, input_pairings, verbose):
                 elif prefix == "t5":
                     context += " <extra_id_0>."
 
-                for entity in entities:
-                    target_id = None
+                # first find target vocab id
+                # default to the very first token that get's predicted
+                # e.g. in the case of Tokyo, which gets split into <Tok> <yo>,
+                target_id = None
+                if (prefix == "flan") or (prefix == "t5"):
+                    target_id = tokenizer.encode(
+                        " " + entity,
+                        padding="longest",
+                        max_length=512,
+                        truncation=True,
+                        return_tensors="pt",
+                    ).to(device)[0][0]
 
-                    # first find target vocab id
-                    # default to the very first token that get's predicted
-                    # e.g. in the case of Tokyo, which gets split into <Tok> <yo>,
-                    if (prefix == "flan") or (prefix == "t5"):
-                        target_id = tokenizer.encode(
-                            " " + entity,
-                            padding="longest",
-                            max_length=512,
-                            truncation=True,
-                            return_tensors="pt",
-                        ).to(device)[0][0]
+                elif (prefix == "gpt") or (prefix == "eleutherai"):
+                    target_id = tokenizer.encode(" " + entity, return_tensors="pt").to(
+                        device
+                    )[0][0]
 
-                    elif (prefix == "gpt") or (prefix == "eleutherai"):
-                        target_id = tokenizer.encode(
-                            " " + entity, return_tensors="pt"
-                        ).to(device)[0][0]
+                elif prefix == "opt":
+                    target_id = tokenizer.encode(" " + entity, return_tensors="pt").to(
+                        device
+                    )[0][1]
 
-                    elif prefix == "opt":
-                        target_id = tokenizer.encode(
-                            " " + entity, return_tensors="pt"
-                        ).to(device)[0][1]
+                elif prefix == "roberta":
+                    target_id = tokenizer.encode(
+                        " " + entity,
+                        padding="longest",
+                        max_length=512,
+                        truncation=True,
+                        return_tensors="pt",
+                    ).to(device)[0][1]
 
-                    elif prefix == "roberta":
-                        target_id = tokenizer.encode(
-                            " " + entity,
-                            padding="longest",
-                            max_length=512,
-                            truncation=True,
-                            return_tensors="pt",
-                        ).to(device)[0][1]
+                elif prefix == "bert":
+                    target_id = tokenizer.encode(
+                        entity,
+                        padding="longest",
+                        max_length=512,
+                        truncation=True,
+                        return_tensors="pt",
+                    ).to(device)[0][1]
 
-                    elif prefix == "bert":
-                        target_id = tokenizer.encode(
-                            entity,
-                            padding="longest",
-                            max_length=512,
-                            truncation=True,
-                            return_tensors="pt",
-                        ).to(device)[0][1]
+                elif prefix == "llama":
+                    target_id = tokenizer.encode(" " + entity, return_tensors="pt").to(
+                        device
+                    )[0][2]
 
-                    elif prefix == "llama":
-                        target_id = tokenizer.encode(
-                            " " + entity, return_tensors="pt"
-                        ).to(device)[0][2]
+                # next call probe function
+                model_prob = probe_func(model, tokenizer, target_id, context, verbose)
 
-                    # next call probe function
-                    model_prob = probe_func(
-                        model, tokenizer, target_id, context, verbose
-                    )
+                # lastly, register results
+                # if it is the first time through, it is the fact
+                if entity_count == 0:
+                    p_true = model_prob
+                # if it is the second+ time through, it is the counterfactual(s)
+                else:
+                    p_false += model_prob
+                    p_false_list_inner.append(float(model_prob))
 
-                    # lastly, register results
-                    # if it is the first time through, it is the fact
-                    if entity_count == 0:
-                        p_true = model_prob
-                    # if it is the second time through, it is the counterfactual
-                    else:
-                        p_false = model_prob
+            # entity count is equal to the num counterfactuals
+            # (since it started at a 0 index in the enumerate)
+            p_false /= entity_count
 
-                    entity_count += 1
+            # record results:
+            score_dict_full_data = {
+                "stem": context,
+                "fact": entities[0],
+                "counterfact": entities[1:],
+                "p_true": float(p_true),
+                "p_false_list": p_false_list_inner,
+                "p_false_average": float(p_false),
+                "p_true / p_false_average": np.round(
+                    float(p_true) / (float(p_false) + 1e-13), decimals=4
+                ),
+                "p_true > p_false_average": str(float(p_true) > float(p_false)),
+            }
+            try:
+                score_dict_full_data["subject"] = entities_dict["subject"]
+            except KeyError:
+                pass
 
-                score_dict_full_data = {
-                    "stem": context,
-                    "fact": entities[0],
-                    "counterfact": entities[1],
-                    "p_true": np.round(float(p_true), decimals=7),
-                    "p_false": np.round(float(p_false), decimals=7),
-                    "p_true - p_false": np.round(
-                        float(p_true) - float(p_false), decimals=7
-                    ),
-                    "p_true > p_false": str(p_true > p_false),
-                }
-                try:
-                    score_dict_full_data["subject"] = entities_dict["subject"]
-                except KeyError:
-                    pass
+            try:
+                score_dict_full_data["dataset_original"] = entities_dict[
+                    "dataset_original"
+                ]
+            except KeyError:
+                pass
 
-                try:
-                    score_dict_full_data["dataset_original"] = entities_dict[
-                        "dataset_original"
-                    ]
-                except KeyError:
-                    pass
+            try:
+                score_dict_full_data["case_id"] = entities_dict["case_id"]
+            except KeyError:
+                pass
 
-                try:
-                    score_dict_full_data["case_id"] = entities_dict["case_id"]
-                except KeyError:
-                    pass
+            try:
+                score_dict_full_data["fact_id"] = entities_dict["fact_id"]
+            except KeyError:
+                pass
 
-                try:
-                    score_dict_full_data["fact_id"] = entities_dict["fact_id"]
-                except KeyError:
-                    pass
+            try:
+                score_dict_full[model_name.lower()].append(score_dict_full_data)
+            except KeyError:
+                score_dict_full[model_name.lower()] = [score_dict_full_data]
 
-                try:
-                    score_dict_full[model_name.lower()].append(score_dict_full_data)
-                except KeyError:
-                    score_dict_full[model_name.lower()] = [score_dict_full_data]
+            p_falses.append(float(p_false))
+            p_trues.append(float(p_true))
 
-                try:
-                    score_dict_succinct[model_name.lower()].append(
-                        {
-                            "p_true > p_false": str(p_true > p_false),
-                        }
-                    )
-                except KeyError:
-                    score_dict_succinct[model_name.lower()] = [
-                        {
-                            "p_true > p_false": str(p_true > p_false),
-                        }
-                    ]
-
-                if p_true > p_false:
-                    true_count += 1
-
-                p_differences.append((float(p_true) - float(p_false)))
-                p_trues.append(float(p_true))
-
-                fact_count += 1
+            if p_true > p_false:
+                true_count += 1
+            fact_count += 1
 
         score_dict_summary[
             model_name.lower()
-        ] = f"This model predicted {true_count}/{fact_count} facts at a higher prob than the given counterfactual. The mean p_true - p_false difference was {np.round(np.mean(np.array(p_differences)), decimals=4)} while the mean p_true was {np.round(np.mean(np.array(p_trues)), decimals=4)}"
+        ] = f"This model predicted {true_count}/{fact_count} facts at a higher prob than the given counterfactual. The mean p_true was {np.round(np.mean(np.array(p_trues)), decimals=4)} whule the mean p_false_average was {np.round(np.mean(np.array(p_falses)), decimals=4)}."
 
         print("Done\n")
         del tokenizer
         del model
         torch.cuda.empty_cache()
 
-    score_dicts = [score_dict_full, score_dict_succinct, score_dict_summary]
+    score_dicts = [score_dict_full, score_dict_summary]
 
     # logging
     score_dicts_logging = {}
@@ -315,7 +309,6 @@ def compare_models(model_name_list, input_pairings, verbose):
 
     score_dicts_logging["score_dict_summary"] = score_dict_summary
     score_dicts_logging["score_dict_full"] = score_dict_full
-    score_dicts_logging["score_dict_succinct"] = score_dict_succinct
 
     with open(
         f"/content/logging/{prefix}_logged_cka_outputs_{dt_string}.json", "w"
