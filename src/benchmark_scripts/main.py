@@ -9,9 +9,8 @@ def main(args):
 
     set_seed(42)
 
-    # change data loading from json to Hugging Face dataset
     # load in the dataset for the input language
-    if args.language == "english":
+    if (args.language.lower() == "english") or (args.language.lower() == "en"):
         with open("../../data/calibragpt_full_input_information.json", "r") as f:
             input_info = json.load(f)
     else:
@@ -37,7 +36,7 @@ def main(args):
 
     if not model_supported:
         raise Exception(
-            "Model not supported yet, create an issue / PR to add a new HF compatible model"
+            "Model not supported yet, create an issue / PR to add a new HF model"
         )
 
     # create a config for running the pipeline
@@ -64,7 +63,15 @@ if __name__ == "__main__":
         "-m",
         type=str,
         default="google/flan-t5-small",
+        help="Name of a hugging face model to run."
     )
-    parser.add_argument("--language", "-l", type=str, default="english")
+    parser.add_argument(
+        "--language", 
+        "-l",
+        type=str, 
+        default="english", 
+        help="Name of a language, both full names (english) and abbreviations (en) accepted."
+    )
+
     args = parser.parse_args()
     main(args)
