@@ -7,8 +7,8 @@
 This is the repo for the UC Berkeley CalibraGPT project, which aims to assess how large language models handle matters of veracity and store facts across different languages. The repo contains the following:
 
 1. The [**72.3k+ English data**][data] employed for the fact completion benchmark, **20+ more languages to come**
-2. A [**notebook demo**][notebook_cka_demo] for running lightweight contrastive knowledge assessment probing
-3. The **code** for running the fact completion benchmark with a [compatible](https://github.com/daniel-furman/Capstone#model-families-tested) language model
+2. A [**notebook demo**][notebook_cka_demo] for running lightweight contrastive knowledge assessment (i.e., factual completion probing)
+3. The [**code**][benchmark_cka_code] for running the fact completion benchmark with a [compatible](https://github.com/daniel-furman/Capstone#model-families-tested) language model
 
 ## Data Release
 
@@ -18,20 +18,20 @@ Cite calinet [[1][bib]], memit [[2][bib]], and t-rex [[3][bib]].
 
 **English** results:
 
-| Model           | CalibraGPT (% correct) <br />Fact completion checking  |
+| Model           | CalibraGPT Benchmark <br />Fact Completion Probing (% Correct) |
 |------------------|---------------------------------------------|
-| `llama-33b`    | 88.29 (+/- 0.23)   |
-| `llama-13b`    | 86.44 (+/- 0.25)   | 
+| `llama-33b`     | 88.29 (+/- 0.23)   |
+| `llama-13b`     | 86.44 (+/- 0.25)   | 
 | `llama-7b`      | 85.68 (+/- 0.25)    | 
-| `flan-t5-xl`| 81.06 (+/- 0.25)   | 
-| `flan-t5-large`| 77.89 (+/- 0.30)   | 
+| `flan-t5-xl`    | 81.06 (+/- 0.25)   | 
+| `flan-t5-large` | 77.89 (+/- 0.30)   | 
 | `roberta-large` | 75.53 (+/- 0.31)   | 
 | `flan-t5-base`  | 73.78 (+/- 0.32)    | 
 | `Random guessing` | 50   | 
 
 Add info on the CalibraGPT benchmark ... For reference, random guessing would score a 50%.
 
-* The uncertainty estimates in the CalibraGPT results were calculated using bootstrap resampling, via 10,000 random samples with replacement and a 95% confidence level.  
+* The uncertainty estimates in the CalibraGPT results were calculated using bootstrap resampling (10,000 random samples with replacement, 95% confidence level).  
 
 **Multilingual** results (coming)
 
@@ -42,7 +42,7 @@ Add info on the CalibraGPT benchmark ... For reference, random guessing would sc
 | `BERT`       | Oct 2018     | Masked LM  | Google       |
 | `GPT2`       | Feb 2019     | Causal LM  | OpenAI       |
 | `RoBERTa`    | Nov 2019     | Masked LM  | Meta AI      |
-| `t5-v1_1`    | Jun 2021     | Seq2Seq    | Google       |
+| `T5     `    | Jul 2020     | Seq2Seq    | Google       |
 | `GPT-J`      | Aug 2021     | Causal LM  | EleutherAI   |
 | `GPT-Neo`    | Apr 2022     | Causal LM  | EleutherAI   |
 | `OPT`        | May 2022     | Causal LM  | Meta AI      |
@@ -94,7 +94,7 @@ Please cite the repo if you use the data or code in this repo.
 
 1. Qingxiu Dong, Damai Dai, Yifan Song, Jingjing Xu, Zhifang Sui, and Lei Li."Calibrating Factual Knowledge in Pretrained Language Models". In Findings of the Association for Computational Linguistics: EMNLP 2022. [arXiv:2210.03329][cka] (2022).
 2. Kevin Meng, Arnab Sen Sharma, Alex Andonian, Yonatan Belinkov, and David Bau. "Mass Editing Memory in a Transformer." arXiv preprint [arXiv:2210.07229][memit] (2022).
-3. ElSahar, Hady, Pavlos Vougiouklis, Arslen Remaci, Christophe Gravier, Jonathon S. Hare, Frédérique Laforest and Elena Paslaru Bontas Simperl. “T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples.” International Conference on Language Resources and Evaluation. [link][trex] (2018).
+3. Hady ElSahar, Pavlos Vougiouklis, Arslen Remaci, Christophe Gravier, Jonathon S. Hare, Frédérique Laforest and Elena Paslaru Bontas Simperl. “T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples.” International Conference on Language Resources and Evaluation. [Link][trex] (2018).
 
 [notebook_cka_demo]: https://colab.research.google.com/github/daniel-furman/Capstone/blob/main/notebooks/cka_run_main_demo.ipynb
 [data]: https://github.com/daniel-furman/Capstone/tree/main/data/calibragpt_full_input_information.json
@@ -104,3 +104,4 @@ Please cite the repo if you use the data or code in this repo.
 [mmlu_paper]: https://arxiv.org/abs/2009.03300
 [bib]: https://github.com/daniel-furman/Capstone#bibliography
 [trex]: http://aclanthology.lst.uni-saarland.de/L18-1544.pdf
+[benchmark_cka_code]: https://github.com/daniel-furman/Capstone/blob/main/src/cka_scripts/run_cka_full_benchmark.py
