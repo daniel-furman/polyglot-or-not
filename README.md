@@ -6,9 +6,9 @@
 
 This is the repo for the UC Berkeley CalibraGPT project, which aims to assess how large language models handle matters of veracity and store facts across different languages. The repo contains the following:
 
-1. The [**72.3k+ English data**][data] employed for the fact completion benchmark, **20+ more languages to come**
-2. The [**code**][benchmark_cka_code] for running the full benchmark in a given language with a [compatible](https://github.com/daniel-furman/Capstone#model-families-tested) model
-3. A [**notebook demo**][notebook_cka_demo] for lightweight contrastive knowledge assessment (i.e., fact completion probing)
+1. The [**72.3k+ English data**][data] used for the fact completion benchmark, **20+ more languages to come**
+2. The [**code**][benchmark_cka_code] for running the full benchmark with a [compatible](https://github.com/daniel-furman/Capstone#model-families-tested) language model
+3. A [**notebook demo**][notebook_cka_demo] for running contrastive knowledge assessment (fact completion probing)
 
 ## Data Release
 
