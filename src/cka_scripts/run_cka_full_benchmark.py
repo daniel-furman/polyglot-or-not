@@ -27,7 +27,7 @@ def main(args):
         config["models"], config["input_information"], config["verbosity"]
     )
 
-    # add logic for saving logs to content/logging/x.json 
+    # add logic for saving logs to content/logging/<name>.json
 
     print(f"\nScore dict summary:\n{score_dicts[1]}")
 

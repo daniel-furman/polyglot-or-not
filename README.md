@@ -18,7 +18,7 @@ Cite calinet [[1][bib]], memit [[2][bib]], and t-rex [[3][bib]].
 
 **English** results:
 
-| Model           | CalibraGPT Benchmark <br />Fact Completion Probing (% Correct) |
+| Model           | Fact completion benchmark (% correct) |
 |------------------|---------------------------------------------|
 | `llama-33b`     | 88.29 (+/- 0.23)   |
 | `llama-13b`     | 86.44 (+/- 0.25)   | 
@@ -42,7 +42,7 @@ Add info on the CalibraGPT benchmark ... For reference, random guessing would sc
 | `BERT`       | Oct 2018     | Masked LM  | Google       |
 | `GPT2`       | Feb 2019     | Causal LM  | OpenAI       |
 | `RoBERTa`    | Nov 2019     | Masked LM  | Meta AI      |
-| `T5     `    | Jul 2020     | Seq2Seq    | Google       |
+| `T5`     `    | Jul 2020     | Seq2Seq    | Google       |
 | `GPT-J`      | Aug 2021     | Causal LM  | EleutherAI   |
 | `GPT-Neo`    | Apr 2022     | Causal LM  | EleutherAI   |
 | `OPT`        | May 2022     | Causal LM  | Meta AI      |
