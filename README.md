@@ -18,7 +18,7 @@ Cite calinet [[1][bib]], memit [[2][bib]], and t-rex [[3][bib]].
 
 **English** results:
 
-| Model           | Fact completion benchmark (% correct) |
+| Model           | Fact completion benchmark<br />(% correct) |
 |------------------|---------------------------------------------|
 | `llama-33b`     | 88.29 (+/- 0.23)   |
 | `llama-13b`     | 86.44 (+/- 0.25)   | 
