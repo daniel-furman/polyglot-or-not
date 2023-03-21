@@ -4,11 +4,11 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
 
-This is the repo for the UC Berkeley CalibraGPT project, which aims to assess how large language models handle matters of veracity and store facts across different languages. The repo contains the following:
+This is the repo for the UC Berkeley CalibraGPT project, which aims to assess how modern language models handle matters of veracity and store facts across different languages. The repo contains the following:
 
-1. The [**72.3k+ English data**][data] used for the fact completion benchmark, **20+ more languages to come**
-2. The [**code**][benchmark_cka_code] for running the full benchmark with a [compatible](https://github.com/daniel-furman/Capstone#model-families-tested) language model
-3. A [**notebook demo**][notebook_cka_demo] for running contrastive knowledge assessment (fact completion probing)
+1. The [**main code**][benchmark_cka_code] for running the fact-checking benchmark with a compatible language model
+2. The [**72.3k+ English data**][data] used for the fact-checking benchmark, **20+ more languages to come**
+3. A [**notebook demo**][notebook_cka_demo] for running fact-checking via contrastive knowledge assessment
 
 ## Data Release
 
@@ -18,7 +18,7 @@ Cite calinet [[1][bib]], memit [[2][bib]], and t-rex [[3][bib]].
 
 **English** results:
 
-| Model           | Fact completion benchmark<br />(% correct) |
+| Model           | Fact-checking benchmark<br />(% correct) |
 |------------------|---------------------------------------------|
 | `llama-33b`     | 88.29 (+/- 0.23)   |
 | `llama-13b`     | 86.44 (+/- 0.25)   | 
@@ -104,4 +104,4 @@ Please cite the repo if you use the data or code in this repo.
 [mmlu_paper]: https://arxiv.org/abs/2009.03300
 [bib]: https://github.com/daniel-furman/Capstone#bibliography
 [trex]: http://aclanthology.lst.uni-saarland.de/L18-1544.pdf
-[benchmark_cka_code]: https://github.com/daniel-furman/Capstone/blob/main/src/cka_scripts/run_cka_full_benchmark.py
+[benchmark_cka_code]: https://github.com/daniel-furman/Capstone/blob/main/src/benchmark_scripts/main.py
