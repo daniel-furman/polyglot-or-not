@@ -110,8 +110,7 @@ def convert_log_to_memit_format(log_filename, prefix="../../src/benchmark_script
 
     except ValueError:
         print(f"problem decoding log file {log_filename}")
-        return None
-
+        raise Exception
 
 # helper to split off the entity at the start of the stem
 # from the template portion that follows it
