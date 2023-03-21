@@ -29,9 +29,9 @@ Cite calinet [[1][bib]], memit [[2][bib]], and t-rex [[3][bib]].
 | `flan-t5-base`  | 73.78 (+/- 0.32)    | 
 | `Random guessing` | 50   | 
 
-Add info on the CalibraGPT benchmark ... For reference, random guessing would score a 50%.
+Add info on the fact-checking benchmark ... For reference, random guessing would score a 50%.
 
-* The uncertainty estimates in the CalibraGPT results were calculated using bootstrap resampling (10,000 random samples with replacement, 95% confidence level).  
+* The uncertainty estimates in the fact-checking results were calculated using bootstrap resampling (10,000 random samples with replacement, 95% confidence level).  
 
 **Multilingual** results (coming)
 
@@ -96,12 +96,12 @@ Please cite the repo if you use the data or code in this repo.
 2. Kevin Meng, Arnab Sen Sharma, Alex Andonian, Yonatan Belinkov, and David Bau. "Mass Editing Memory in a Transformer." arXiv preprint [arXiv:2210.07229][memit] (2022).
 3. Hady ElSahar, Pavlos Vougiouklis, Arslen Remaci, Christophe Gravier, Jonathon S. Hare, Frédérique Laforest and Elena Paslaru Bontas Simperl. “T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples.” International Conference on Language Resources and Evaluation. [Link][trex] (2018).
 
-[notebook_cka_demo]: https://colab.research.google.com/github/daniel-furman/Capstone/blob/main/notebooks/cka_run_main_demo.ipynb
-[data]: https://github.com/daniel-furman/Capstone/tree/main/data/calibragpt_full_input_information.json
+[notebook_cka_demo]: https://colab.research.google.com/github/daniel-furman/Capstone/blob/main/notebooks/fact_checking_run_main_demo.ipynb
+[data]: https://github.com/daniel-furman/Capstone/tree/main/data/calibragpt_full_input_information_3_20_23.csv
 [cka]: https://arxiv.org/abs/2210.03329
 [memit]: https://arxiv.org/abs/2210.07229
 [mmlu]: https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu
 [mmlu_paper]: https://arxiv.org/abs/2009.03300
 [bib]: https://github.com/daniel-furman/Capstone#bibliography
 [trex]: http://aclanthology.lst.uni-saarland.de/L18-1544.pdf
-[benchmark_cka_code]: https://github.com/daniel-furman/Capstone/blob/main/src/benchmark_scripts/main.py
+[benchmark_cka_code]: https://github.com/daniel-furman/Capstone/blob/main/src/fact_checking_scripts/main.py

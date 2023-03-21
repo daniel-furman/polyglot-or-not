@@ -35,9 +35,7 @@ def main(args):
             model_supported = True
 
     if not model_supported:
-        raise Exception(
-            "Model not supported."
-        )
+        raise Exception("Model not supported.")
 
     # create a config for running the pipeline
     config = {
@@ -63,14 +61,14 @@ if __name__ == "__main__":
         "-m",
         type=str,
         default="google/flan-t5-small",
-        help='Name of the hugging face model to run (e.g., "distilbert-base-uncased").'
+        help='Name of the hugging face model to run (e.g., "distilbert-base-uncased").',
     )
     parser.add_argument(
-        "--language", 
+        "--language",
         "-l",
-        type=str, 
-        default="english", 
-        help='Name of the language to run (e.g., "english" or "en").'
+        type=str,
+        default="english",
+        help='Name of the language to run (e.g., "english" or "en").',
     )
 
     args = parser.parse_args()
