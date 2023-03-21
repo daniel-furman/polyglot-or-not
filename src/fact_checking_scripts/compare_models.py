@@ -52,8 +52,11 @@ def get_model_and_tokenizer(model_name):
         )
 
     elif "llama" in model_name.lower():
+        # llama tokenizer path is expected to be one folder back from the input model
+        # weights in a folder called "tokenizer"
+        tokenizer_path = "/".join(model_name.split("/")[0:-1]) + "/tokenizer/"
         return transformers.LLaMATokenizer.from_pretrained(
-            "/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/tokenizer/"
+            tokenizer_path
         ), transformers.LLaMAForCausalLM.from_pretrained(
             model_name, load_in_8bit=True, device_map="auto", torch_dtype=torch.float16
         )
