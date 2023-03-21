@@ -27,7 +27,7 @@ def get_model_and_tokenizer(model_name):
         return T5Tokenizer.from_pretrained(
             model_name
         ), T5ForConditionalGeneration.from_pretrained(
-            model_name, load_in_8bit=True, device_map="auto"
+            model_name, load_in_8bit=True, device_map="auto", torch_dtype=torch.float16
         )
 
     elif (
@@ -39,7 +39,7 @@ def get_model_and_tokenizer(model_name):
         return AutoTokenizer.from_pretrained(
             model_name
         ), AutoModelForCausalLM.from_pretrained(
-            model_name, load_in_8bit=True, device_map="auto"
+            model_name, load_in_8bit=True, device_map="auto", torch_dtype=torch.float16
         )
 
     elif "bert" in model_name.lower():
@@ -55,7 +55,7 @@ def get_model_and_tokenizer(model_name):
         return transformers.LLaMATokenizer.from_pretrained(
             "/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/tokenizer/"
         ), transformers.LLaMAForCausalLM.from_pretrained(
-            model_name, load_in_8bit=True, device_map="auto"
+            model_name, load_in_8bit=True, device_map="auto", torch_dtype=torch.float16
         )
 
 
