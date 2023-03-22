@@ -1,6 +1,7 @@
 from argparse import ArgumentParser
 import json
 from transformers import set_seed
+from datasets import load_dataset
 
 from compare_models import compare_models
 
@@ -11,8 +12,7 @@ def main(args):
 
     # load in the dataset corresponding to the input language
     if (args.language.lower() == "english") or (args.language.lower() == "en"):
-        with open("../../data/calibragpt_full_input_information.json", "r") as f:
-            input_info = json.load(f)
+        dataset = load_dataset("dfurman/Fact_Completion", split="English")
     else:
         raise Exception("Language not supported.")
 
@@ -40,7 +40,7 @@ def main(args):
     # create a config for running the pipeline
     config = {
         "models": [args.model],
-        "input_information": input_info,
+        "input_information": dataset,
         "verbosity": False,
     }
 

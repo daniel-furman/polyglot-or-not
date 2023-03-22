@@ -6,9 +6,9 @@
 
 This is the repo for the UC Berkeley CalibraGPT project, which aims to assess how modern language models handle matters of veracity and store facts across different languages. The repo contains the following:
 
-1. The [**main code**][benchmark_cka_code] for running the fact-checking benchmark with a compatible language model
-2. The [**72.3k+ English data**][data] used for the fact-checking benchmark, **20+ more languages to come**
-3. A [**notebook demo**][notebook_cka_demo] for running fact-checking via contrastive knowledge assessment
+1. The [**code**][benchmark_cka_code] for running the fact-checking benchmark with a compatible language model
+2. The [**72.3k+ data**][hf_data] used for the fact-checking benchmark, **more languages to come**
+3. A [**demo**][notebook_cka_demo] of fact-checking language models via contrastive knowledge assessment
 
 ## Data Release
 
@@ -92,12 +92,12 @@ Please cite the repo if you use the data or code in this repo.
 
 ## Bibliography 
 
-1. Qingxiu Dong, Damai Dai, Yifan Song, Jingjing Xu, Zhifang Sui, and Lei Li."Calibrating Factual Knowledge in Pretrained Language Models". In Findings of the Association for Computational Linguistics: EMNLP 2022. [arXiv:2210.03329][cka] (2022).
+1. Qingxiu Dong, Damai Dai, Yifan Song, Jingjing Xu, Zhifang Sui, and Lei Li. "Calibrating Factual Knowledge in Pretrained Language Models". In Findings of the Association for Computational Linguistics: EMNLP 2022. [arXiv:2210.03329][cka] (2022).
 2. Kevin Meng, Arnab Sen Sharma, Alex Andonian, Yonatan Belinkov, and David Bau. "Mass Editing Memory in a Transformer." arXiv preprint [arXiv:2210.07229][memit] (2022).
 3. Hady ElSahar, Pavlos Vougiouklis, Arslen Remaci, Christophe Gravier, Jonathon S. Hare, Frédérique Laforest and Elena Paslaru Bontas Simperl. “T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples.” International Conference on Language Resources and Evaluation. [Link][trex] (2018).
 
 [notebook_cka_demo]: https://colab.research.google.com/github/daniel-furman/Capstone/blob/main/notebooks/fact_checking_run_main_demo.ipynb
-[data]: https://github.com/daniel-furman/Capstone/tree/main/data/
+[hf_data]: https://huggingface.co/datasets/dfurman/Fact_Completion
 [cka]: https://arxiv.org/abs/2210.03329
 [memit]: https://arxiv.org/abs/2210.07229
 [mmlu]: https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu

@@ -3,6 +3,7 @@ sentencepiece==0.1.97
 --extra-index-url https://download.pytorch.org/whl/cu116
 torch==1.13.1
 transformers==4.26.1
+datasets==2.10.1
 accelerate==0.16.0
 bitsandbytes==0.37.0
 tqdm==4.65.0
