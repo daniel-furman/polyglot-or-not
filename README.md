@@ -97,7 +97,7 @@ Please cite the repo if you use the data or code in this repo.
 3. Hady ElSahar, Pavlos Vougiouklis, Arslen Remaci, Christophe Gravier, Jonathon S. Hare, Frédérique Laforest and Elena Paslaru Bontas Simperl. “T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples.” International Conference on Language Resources and Evaluation. [Link][trex] (2018).
 
 [notebook_cka_demo]: https://colab.research.google.com/github/daniel-furman/Capstone/blob/main/notebooks/fact_checking_run_main_demo.ipynb
-[hf_data]: https://huggingface.co/datasets/dfurman/Fact_Completion
+[hf_data]: https://huggingface.co/datasets/CalibraGPT/Fact_Checking
 [cka]: https://arxiv.org/abs/2210.03329
 [memit]: https://arxiv.org/abs/2210.07229
 [mmlu]: https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu
