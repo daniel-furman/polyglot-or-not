@@ -125,7 +125,7 @@ def convert_log_to_memit_format(
                         raise Exception
 
             if facts_to_correct != n_wrong:
-                print(f"mismatch between model inaccuracies and log-conversion output")
+                print("mismatch between model inaccuracies and log-conversion output")
                 raise Exception
             else:
                 print(

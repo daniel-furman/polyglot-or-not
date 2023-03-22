@@ -1,5 +1,4 @@
 from argparse import ArgumentParser
-import json
 from transformers import set_seed
 from datasets import load_dataset
 

@@ -5,7 +5,6 @@ import numpy as np
 import tqdm
 import torch
 
-from datasets import load_dataset
 import transformers
 from transformers import (
     AutoTokenizer,
@@ -72,7 +71,7 @@ def get_probe_function(prefix):
 
 
 # lastly, write a wrapper function to compare models
-def compare_models(model_name_list, input_pairings, verbose):
+def compare_models(model_name_list, input_dataset, verbose):
 
     """
     Model-wise comparison helper function
@@ -158,23 +157,34 @@ def compare_models(model_name_list, input_pairings, verbose):
             probe_func = get_probe_function("gpt")
 
         # iterate over context/entity pairings
-        # input_pairings is a dict
+        # input_dataset is a datasets dataset
         # context is a plain string (since our context's will be unique)
         # and entities is a list containing, in the first slot, the true
         # value for the statement and in the subsequent slots, incorrect information
 
-        for _, entities_dict in tqdm.tqdm(input_pairings.items()):
+        for entities_dict in tqdm.tqdm(input_dataset):
+            # convert string of list into a real list
+            counterfacts_list = (
+                entities_dict["false"]
+                .replace("[", "")
+                .replace("]", "")
+                .replace("'", "")
+                .split(", ")
+            )
 
+            # intitiate vars
             p_true = 0.0
             p_false = 0.0
             p_false_list_inner = []
 
+            # grab true and false entities
             entities = [entities_dict["true"]]
-            entities.extend(entities_dict["false"])
+            entities.extend(counterfacts_list)
 
+            # iterate through each fact and counterfact
             for entity_count, entity in enumerate(entities):
 
-                # change to grabbing stem index in a list of stems
+                # grab the context
                 context = entities_dict["stem"]
                 # if multiple stems are stored, grab the correct one
                 # (zeroeth stem is true fact, next ones are counterfacts)
@@ -265,40 +275,29 @@ def compare_models(model_name_list, input_pairings, verbose):
                 ),
                 "p_true > p_false_average": str(float(p_true) > float(p_false)),
             }
-            try:
-                score_dict_full_data["subject"] = entities_dict["subject"]
-            except KeyError:
-                pass
 
-            try:
-                score_dict_full_data["dataset_original"] = entities_dict[
-                    "dataset_original"
-                ]
-            except KeyError:
-                pass
+            # record the rest of the metadata
+            score_dict_full_data["subject"] = entities_dict["subject"]
+            score_dict_full_data["object"] = entities_dict["object"]
+            score_dict_full_data["relation"] = entities_dict["relation"]
+            score_dict_full_data["dataset_id"] = entities_dict["dataset_id"]
 
-            try:
-                score_dict_full_data["case_id"] = entities_dict["case_id"]
-            except KeyError:
-                pass
-
-            try:
-                score_dict_full_data["fact_id"] = entities_dict["fact_id"]
-            except KeyError:
-                pass
-
+            # add results to the given model name
             try:
                 score_dict_full[model_name.lower()].append(score_dict_full_data)
             except KeyError:
                 score_dict_full[model_name.lower()] = [score_dict_full_data]
 
+            # append p_false and p_true
             p_falses.append(float(p_false))
             p_trues.append(float(p_true))
 
+            # update counts based on probs
             if p_true > p_false:
                 true_count += 1
             fact_count += 1
 
+        # record the summary dict
         score_dict_summary[
             model_name.lower()
         ] = f"This model predicted {true_count}/{fact_count} facts at a higher prob than the given counterfactual. The mean p_true was {np.round(np.mean(np.array(p_trues)), decimals=4)} while the mean p_false_average was {np.round(np.mean(np.array(p_falses)), decimals=4)}."
