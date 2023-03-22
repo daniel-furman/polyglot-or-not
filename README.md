@@ -42,7 +42,7 @@ Add info on the fact-checking benchmark ... For reference, random guessing would
 | `BERT`       | Oct 2018     | Masked LM  | Google       |
 | `GPT2`       | Feb 2019     | Causal LM  | OpenAI       |
 | `RoBERTa`    | Nov 2019     | Masked LM  | Meta AI      |
-| `T5`     `    | Jul 2020     | Seq2Seq    | Google       |
+| `T5`         | Jul 2020     | Seq2Seq    | Google       |
 | `GPT-J`      | Aug 2021     | Causal LM  | EleutherAI   |
 | `GPT-Neo`    | Apr 2022     | Causal LM  | EleutherAI   |
 | `OPT`        | May 2022     | Causal LM  | Meta AI      |

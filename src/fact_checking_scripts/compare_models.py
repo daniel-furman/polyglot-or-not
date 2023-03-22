@@ -277,10 +277,22 @@ def compare_models(model_name_list, input_dataset, verbose):
             }
 
             # record the rest of the metadata
-            score_dict_full_data["subject"] = entities_dict["subject"]
-            score_dict_full_data["object"] = entities_dict["object"]
-            score_dict_full_data["relation"] = entities_dict["relation"]
-            score_dict_full_data["dataset_id"] = entities_dict["dataset_id"]
+            try:
+                score_dict_full_data["subject"] = entities_dict["subject"]
+            except KeyError:
+                pass
+            try:
+                score_dict_full_data["object"] = entities_dict["object"]
+            except KeyError:
+                pass
+            try:
+                score_dict_full_data["relation"] = entities_dict["relation"]
+            except KeyError:
+                pass
+            try:
+                score_dict_full_data["dataset_id"] = entities_dict["dataset_id"]
+            except KeyError:
+                pass
 
             # add results to the given model name
             try:
