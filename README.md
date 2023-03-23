@@ -7,7 +7,7 @@
 This is the repo for the UC Berkeley CalibraGPT project, which aims to assess how modern language models handle matters of veracity and store facts across different languages. The repo contains the following:
 
 1. The [**code**][benchmark_cka_code] for running the fact-checking benchmark with a compatible language model
-2. The [**72.3k+ data**][hf_data] used for the fact-checking benchmark, **more languages to come**
+2. The [data**][hf_data] used for the fact-checking benchmark, **more languages to come**
 3. A [**demo**][notebook_cka_demo] for fact-checking language models via contrastive knowledge assessment
 
 ## Data Release
