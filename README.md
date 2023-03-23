@@ -12,7 +12,7 @@ This is the repo for the UC Berkeley CalibraGPT project, which aims to assess ho
 
 ## Data Release
 
-Cite calinet [[1][bib]], memit [[2][bib]], and t-rex [[3][bib]].
+Cite calinet [[1][bib]], memit [[2][bib]], t-rex [[3][bib]], and polyjuice [[4][bib]] papers.
 
 ## Selected benchmark results
 
@@ -92,9 +92,11 @@ Please cite the repo if you use the data or code in this repo.
 
 ## Bibliography 
 
-1. Qingxiu Dong, Damai Dai, Yifan Song, Jingjing Xu, Zhifang Sui, and Lei Li. "Calibrating Factual Knowledge in Pretrained Language Models". In Findings of the Association for Computational Linguistics: EMNLP 2022. [arXiv:2210.03329][cka] (2022).
-2. Kevin Meng, Arnab Sen Sharma, Alex Andonian, Yonatan Belinkov, and David Bau. "Mass Editing Memory in a Transformer." arXiv preprint [arXiv:2210.07229][memit] (2022).
-3. Hady ElSahar, Pavlos Vougiouklis, Arslen Remaci, Christophe Gravier, Jonathon S. Hare, Frédérique Laforest and Elena Paslaru Bontas Simperl. “T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples.” International Conference on Language Resources and Evaluation. [Link][trex] (2018).
+1. Dong, Qingxiu, Damai Dai, Yifan Song, Jingjing Xu, Zhifang Sui, and Lei Li. "Calibrating Factual Knowledge in Pretrained Language Models". In Findings of the Association for Computational Linguistics: EMNLP 2022. [arXiv:2210.03329][cka] (2022).
+2. Meng, Kevin, Arnab Sen Sharma, Alex Andonian, Yonatan Belinkov, and David Bau. "Mass Editing Memory in a Transformer." arXiv preprint [arXiv:2210.07229][memit] (2022).
+3. ElSahar, Hady, Pavlos Vougiouklis, Arslen Remaci, Christophe Gravier, Jonathon S. Hare, Frédérique Laforest and Elena Paslaru Bontas Simperl. “T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples.” International Conference on Language Resources and Evaluation. [Link][trex] (2018).
+4. Wu, Tongshuang, Marco Tulio Ribeiro, Jeffrey Heer, and Daniel S. Weld. "Polyjuice: Generating counterfactuals for explaining, evaluating, and improving models." arXiv preprint [arXiv:2101.00288](polyjuice) (2021).
+
 
 [notebook_cka_demo]: https://colab.research.google.com/github/daniel-furman/Capstone/blob/main/notebooks/fact_checking_run_main_demo.ipynb
 [hf_data]: https://huggingface.co/datasets/CalibraGPT/Fact_Checking
@@ -105,3 +107,4 @@ Please cite the repo if you use the data or code in this repo.
 [bib]: https://github.com/daniel-furman/Capstone#bibliography
 [trex]: http://aclanthology.lst.uni-saarland.de/L18-1544.pdf
 [benchmark_cka_code]: https://github.com/daniel-furman/Capstone/blob/main/src/fact_checking_scripts/main.py
+[polyjuice]: https://arxiv.org/abs/2101.00288
