@@ -11,7 +11,7 @@ def main(args):
 
     # load in the dataset corresponding to the input language
     if (args.language.lower() == "english") or (args.language.lower() == "en"):
-        dataset = load_dataset("CalibraGPT/Fact_Completion", split="English")
+        dataset = load_dataset("CalibraGPT/Fact_Checking", split="English")
     else:
         raise Exception("Language not supported.")
 
