@@ -1,3 +1,7 @@
+"""
+Wrapper helpers for running fact checking with contrastive knowledge assessment
+"""
+
 import datetime
 import json
 import os

@@ -98,7 +98,7 @@ Please cite the repo if you use the data or code in this repo.
 4. Wu, Tongshuang, Marco Tulio Ribeiro, Jeffrey Heer, and Daniel S. Weld. "Polyjuice: Generating counterfactuals for explaining, evaluating, and improving models." arXiv preprint [arXiv:2101.00288][polyjuice] (2021).
 
 
-[notebook_cka_demo]: https://colab.research.google.com/github/daniel-furman/Capstone/blob/main/notebooks/fact_checking_run_main_demo.ipynb
+[notebook_cka_demo]: https://colab.research.google.com/github/daniel-furman/Capstone/blob/main/notebooks/fact_checking_notebooks/fact-checking-demo.ipynb
 [hf_data]: https://huggingface.co/datasets/CalibraGPT/Fact_Checking
 [cka]: https://arxiv.org/abs/2210.03329
 [memit]: https://arxiv.org/abs/2210.07229
