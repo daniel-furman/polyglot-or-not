@@ -327,7 +327,7 @@ def main(args):
     ]
     # write to file as .csv
     mixed_df.to_csv(
-        "../../data/ingestion_data/fact-checking-full-input-information-3-20-23.csv",
+        "../../data/ingested_data/fact-checking-full-input-information-3-20-23.csv",
         index=False,
     )
     mixed_df
@@ -555,7 +555,7 @@ def main(args):
     mixed_df
     # write to file as .csv
     mixed_df.to_csv(
-        "../../data/ingestion_data/fact-checking-full-input-information-3-21-23.csv",
+        "../../data/ingested_data/fact-checking-full-input-information-3-21-23.csv",
         index=False,
     )
 
@@ -563,7 +563,7 @@ def main(args):
     if args.hugging_face:
 
         data_files = {
-            "English": "../../data/ingestion_data/fact-checking-full-input-information-3-21-23.csv",
+            "English": "../../data/ingested_data/fact-checking-full-input-information-3-21-23.csv",
         }
         dataset = load_dataset("csv", data_files=data_files)
 

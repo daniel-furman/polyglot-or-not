@@ -91,7 +91,7 @@ def bootstrap(results: List[int], B: int = 10000, confidence_level: int = 0.95) 
     return e_bar, median, percentiles
 
 
-bootstrap_results = bootstrap(results, B=100)
+bootstrap_results = bootstrap(results)
 
 print(
     f"\tThe 95% uncertainty estimate is +/- {str(100 * bootstrap_results[0])[0:5]}%\n"
