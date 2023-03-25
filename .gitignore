@@ -1,6 +1,3 @@
-# Keep old notebooks on local
-old/
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -106,7 +103,7 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
+.venv*
 env/
 venv/
 ENV/
@@ -130,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# DS_Store
+.DS_Store

@@ -1,5 +1,8 @@
-import numpy as np
+"""
+Helpers for probing large language model prediction probabilities
+"""
 
+import numpy as np
 import torch
 from torch.nn.functional import softmax
 

@@ -1,3 +1,11 @@
+"""
+Main script for running fact checking with contrastive knowledge assessment
+
+Instead of running the full benchmark, this script enables users to enter a 
+custom config file for their experiment. For example, the demo notebook that 
+tests a handful of example facts uses this function.
+"""
+
 from argparse import ArgumentParser
 import importlib
 from transformers import set_seed

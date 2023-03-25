@@ -1,3 +1,10 @@
+"""
+Main script for running fact checking with contrastive knowledge assessment
+
+Runs the full CalibraGPT/Fact_Checking benchmark dataset with a user-specified 
+language/model
+"""
+
 from argparse import ArgumentParser
 from transformers import set_seed
 from datasets import load_dataset
@@ -6,6 +13,8 @@ from compare_models import compare_models
 
 
 def main(args):
+
+    print("Running the fact_checking benchmark...")
 
     set_seed(42)
 

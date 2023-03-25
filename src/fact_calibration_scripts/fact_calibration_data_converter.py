@@ -1,3 +1,11 @@
+"""
+Fact Calibration Data Converter Helper
+
+Use this function to convert log data into a format that the 
+MEMIT algorithm can parse
+"""
+
+
 import json
 import pandas as pd
 import re
