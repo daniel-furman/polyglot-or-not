@@ -25,7 +25,6 @@ Cite calinet [[1][bib]], memit [[2][bib]], t-rex [[3][bib]], and polyjuice [[4][
 | `llama-7b`      | 85.68 (+/- 0.25)    | 
 | `flan-t5-xl`    | 81.06 (+/- 0.25)   | 
 | `flan-t5-large` | 77.89 (+/- 0.30)   | 
-| `roberta-large` | 75.53 (+/- 0.31)   | 
 | `flan-t5-base`  | 73.78 (+/- 0.32)    | 
 | `Random guessing` | 50   | 
 
@@ -44,7 +43,7 @@ Add info on the fact-checking benchmark ... For reference, random guessing would
 | `RoBERTa`    | Nov 2019     | Masked LM  | Meta AI      |
 | `T5`         | Jul 2020     | Seq2Seq    | Google       |
 | `GPT-J`      | Aug 2021     | Causal LM  | EleutherAI   |
-| `GPT-Neo`    | Apr 2022     | Causal LM  | EleutherAI   |
+| `GPT-NeoX`   | Apr 2022     | Causal LM  | EleutherAI   |
 | `OPT`        | May 2022     | Causal LM  | Meta AI      |
 | `Flan-t5`    | Dec 2022     | Seq2Seq    | Google       |
 | `Pythia`     | Feb 2023     | Causal LM  | EleutherAI   |

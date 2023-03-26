@@ -9,7 +9,7 @@ import json
 import pandas as pd
 
 # change input filename to the path to the log to be processed
-input_filename = "../../src/fact_checking_scripts/output_logs/gpt_logged_cka_outputs_22_03_2023_05_43_44.json"
+input_filename = "../../src/fact_checking_scripts/output_logs/gpt-j-6b-logged-cka-outputs-25-03-2023-17-30-19.json"
 print(f"Running post-processing for {input_filename}...")
 
 with open(input_filename, "r") as f:
@@ -52,7 +52,7 @@ results = results_false + results_true
 # should be ~33k
 print(f"\tThere are {len(results)} stem/fact pairs in the log")
 print(
-    f"\tThe model got {str(100 * np.sum(results) / len(results))[0:4]}% of facts correct"
+    f"\tThe model got {np.round(100 * np.sum(results) / len(results), decimals=3)}% of facts correct"
 )
 
 # create bootstrap estimates from logs
@@ -91,10 +91,10 @@ def bootstrap(results: List[int], B: int = 10000, confidence_level: int = 0.95) 
     return e_bar, median, percentiles
 
 
-bootstrap_results = bootstrap(results)
+bootstrap_results = bootstrap(results, B=10000)
 
 print(
-    f"\tThe 95% uncertainty estimate is +/- {str(100 * bootstrap_results[0])[0:5]}%\n"
+    f"\tThe 95% uncertainty estimate is +/- {np.round(100 * bootstrap_results[0], decimals=3)}%\n"
 )
 
 ## Grab items with the most negative p_false_average - p_true value
@@ -107,4 +107,4 @@ error_df = error_df[["model", "dataset_id", "differences", "resolution", "facts"
 print(error_df)
 
 # optionally save:
-# error_df.to_csv(<input path>, index=False)
+# error_df.to_csv('./roberta-large-error-analysis.csv', index=False)

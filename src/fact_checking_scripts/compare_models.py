@@ -101,7 +101,7 @@ def compare_models(model_name_list, input_dataset, verbose):
         os.mkdir("/content/logging")
 
     now = datetime.datetime.now()
-    dt_string = now.strftime("%d_%m_%Y_%H_%M_%S")
+    dt_string = now.strftime("%d-%m-%Y-%H-%M-%S")
 
     for model_name in model_name_list:
         true_count = 0
@@ -337,7 +337,7 @@ def compare_models(model_name_list, input_dataset, verbose):
     score_dicts_logging["score_dict_full"] = score_dict_full
 
     with open(
-        f"/content/logging/{prefix}_logged_cka_outputs_{dt_string}.json", "w"
+        f"/content/logging/{prefix}-logged-cka-outputs-{dt_string}.json", "w"
     ) as outfile:
         json.dump(score_dicts_logging, outfile)
 
