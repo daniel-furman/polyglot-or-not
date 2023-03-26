@@ -402,7 +402,8 @@ def main(args):
         "rome_15982",
         "rome_12882",
         "rome_796",
-        
+        "rome_7201",
+        "rome_5908",
         # random finds
         "calinet_9032",
     ]
@@ -443,6 +444,7 @@ def main(args):
         "calinet_7790": {"false": ["Hebrew", "Swahili"]},
         "rome_11311": {"false": ["Russian"], "true": "French", "object": "French"},
         "rome_17917": {"false": ["French"], "true": "Russian", "object": "Russian"},
+        "calinet_7612": {"false": ["Phir Subah Hogi"]},
     }
 
     for key, dictionary in rows_to_alter.items():
