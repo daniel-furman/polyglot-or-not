@@ -12,7 +12,6 @@ if not torch.cuda.is_available():
 
 
 def probe_flan(model, tokenizer, target_id, context, verbose=False):
-
     # tokenize context
     input_ids = tokenizer(
         context,
@@ -52,7 +51,6 @@ def probe_flan(model, tokenizer, target_id, context, verbose=False):
 
 
 def probe_t5(model, tokenizer, target_id, context, verbose=False):
-
     # tokenize context
     input_ids = tokenizer(
         context,
@@ -92,7 +90,6 @@ def probe_t5(model, tokenizer, target_id, context, verbose=False):
 
 
 def probe_gpt(model, tokenizer, target_id, context, verbose=False):
-
     # tokenize context
     input_ids = tokenizer(
         context,
@@ -131,13 +128,11 @@ def probe_gpt(model, tokenizer, target_id, context, verbose=False):
         return np.take(probs, [target_scalar])[0]
 
     except IndexError:
-
         print("target index not in model vocabulary scope; raising IndexError")
         return None
 
 
 def probe_bert(model, tokenizer, target_id, context, verbose=False):
-
     # tokenize context
     input_ids = tokenizer(
         context,
@@ -173,7 +168,6 @@ def probe_bert(model, tokenizer, target_id, context, verbose=False):
 
 
 def probe_llama(model, tokenizer, target_id, context, verbose=False):
-
     # tokenize context
     input_ids = tokenizer(
         context,
@@ -212,6 +206,5 @@ def probe_llama(model, tokenizer, target_id, context, verbose=False):
         return np.take(probs, [target_scalar])[0]
 
     except IndexError:
-
         print("target index not in model vocabulary scope; raising IndexError")
         return None

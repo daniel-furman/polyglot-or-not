@@ -76,7 +76,6 @@ def get_probe_function(prefix):
 
 # lastly, write a wrapper function to compare models
 def compare_models(model_name_list, input_dataset, verbose):
-
     """
     Model-wise comparison helper function
 
@@ -187,7 +186,6 @@ def compare_models(model_name_list, input_dataset, verbose):
 
             # iterate through each fact and counterfact
             for entity_count, entity in enumerate(entities):
-
                 # grab the context
                 context = entities_dict["stem"]
                 # if multiple stems are stored, grab the correct one

@@ -1,7 +1,7 @@
 """
 Fact Calibration Data Converter Helper
 
-Use this function to convert log data into a format that the 
+Use this function to convert log data into a format that the
 MEMIT algorithm can parse
 """
 
@@ -29,7 +29,6 @@ def load_full_dataset(
 def convert_log_to_memit_format(
     log_filename, prefix="../../src/benchmark_scripts/output_logs/", verbose=False
 ):
-
     full_df = load_full_dataset()
 
     try:
@@ -82,7 +81,6 @@ def convert_log_to_memit_format(
             facts_to_correct = 0
 
             for fact_output in score_dict:
-
                 if fact_output["p_true > p_false_average"] == "False":
                     # determine which dataset the entry came from
                     dataset = (
@@ -151,7 +149,6 @@ def convert_log_to_memit_format(
 # helper to split off the entity at the start of the stem
 # from the template portion that follows it
 def parse_stem(id, df, dataset):
-
     df_id = "rome_" + str(id) if dataset == "rome" else "calinet_" + str(id)
 
     # get the row for that id in the df using the dataset info

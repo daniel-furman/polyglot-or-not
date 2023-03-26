@@ -146,6 +146,7 @@ def select_surprise_explanations(
             perturb_doc: the perturbed doc))
         }
     """
+
     # compute whether the perturbation is a surprising one.
     def is_surprise(
         delta_pred_prob,

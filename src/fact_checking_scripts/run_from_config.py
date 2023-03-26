@@ -1,8 +1,8 @@
 """
 Main script for running fact checking with contrastive knowledge assessment
 
-Instead of running the full benchmark, this script enables users to enter a 
-custom config file for their experiment. For example, the demo notebook that 
+Instead of running the full benchmark, this script enables users to enter a
+custom config file for their experiment. For example, the demo notebook that
 tests a handful of example facts uses this function.
 """
 
@@ -14,7 +14,6 @@ from compare_models import compare_models
 
 
 def main(config):
-
     set_seed(42)
 
     score_dicts = compare_models(

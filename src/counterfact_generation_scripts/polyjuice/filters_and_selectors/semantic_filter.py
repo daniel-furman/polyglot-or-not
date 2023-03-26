@@ -1,6 +1,7 @@
 import scipy
 from sentence_transformers import SentenceTransformer
 
+
 #########################################################################
 ### compute similarity
 #########################################################################

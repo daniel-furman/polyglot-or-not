@@ -877,7 +877,6 @@ class SentenceMetadata(object):
             phrases = self.phrases
         a, b = ("afull", "bfull") if use_full else ("acore", "bcore")
         if merge_entire:
-
             acore_starts = [p.acore.start for p in phrases]
             acore_ends = [p.acore.end for p in phrases]
             bcore_starts = [p.bcore.start for p in phrases]

@@ -2,6 +2,7 @@ import difflib
 from ..helpers import _normalize_chunk
 from munch import Munch
 
+
 #########################################################################
 ### helper functions for computing polyjuice changes
 #########################################################################

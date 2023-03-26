@@ -76,7 +76,6 @@ def generate_on_prompts(
     batch_size=128,
     **kwargs,
 ):
-
     preds_list = batched_generate(
         generator,
         prompts,

@@ -15,7 +15,6 @@ from compare_models import compare_models
 
 
 def main(args):
-
     print("Running the fact_checking benchmark...")
 
     set_seed(42)

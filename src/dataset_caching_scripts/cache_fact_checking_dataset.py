@@ -19,7 +19,6 @@ from dotenv import load_dotenv
 
 
 def main(args):
-
     print("Caching the fact_checking dataset...")
 
     # Load calinet data
@@ -50,7 +49,6 @@ def main(args):
     for index, row in starter_df.iterrows():
         sentence_list = row["sentences"]
         for entry in sentence_list:
-
             # minor cleanup
             cleaned_stem = entry[0].replace("<extra_id_0>", "[BLANK]").strip()
             cleaned_correct = (
@@ -404,6 +402,7 @@ def main(args):
         "rome_796",
         "rome_7201",
         "rome_5908",
+        "rome_4998",
         # random finds
         "calinet_9032",
     ]
@@ -424,7 +423,6 @@ def main(args):
     # delete stems that end with "a" or "an"
     itr = 0
     for i in list(mixed_df.index):
-
         if (mixed_df.loc[i].stem[-2:] == " a") or (mixed_df.loc[i].stem[-3:] == " an"):
             itr += 1
             mixed_df.drop(i, axis=0, inplace=True)
@@ -445,6 +443,11 @@ def main(args):
         "rome_11311": {"false": ["Russian"], "true": "French", "object": "French"},
         "rome_17917": {"false": ["French"], "true": "Russian", "object": "Russian"},
         "calinet_7612": {"false": ["Phir Subah Hogi"]},
+        "calinet_12317": {
+            "false": ["Emperor", "Prime Minister"],
+            "true": "President",
+            "object": "President",
+        },
     }
 
     for key, dictionary in rows_to_alter.items():
@@ -521,7 +524,6 @@ def main(args):
     for i in range(len(mixed_df)):
         key_item = mixed_df.loc[i].stem + " " + mixed_df.loc[i].true
         if key_item in list(new_counterfacts_2.keys()):
-
             mixed_df.loc[i, "false"] = new_counterfacts_2[key_item]
 
     mixed_df.drop_duplicates(subset=["stem", "true"], inplace=True)
@@ -575,7 +577,6 @@ def main(args):
 
     # Optionally upload final csv to HuggingFace
     if args.hugging_face:
-
         data_files = {
             "English": "../../data/ingested_data/fact-checking-full-input-information-3-21-23.csv",
         }

@@ -1,5 +1,5 @@
 """
-Process fact-checking logs to generate bootstrap estimates and error analysis data 
+Process fact-checking logs to generate bootstrap estimates and error analysis data
 
 Example usage:
 python post_process_logs.py --filename roberta-large-logged-cka-outputs-25-03-2023-17-28-56.json --num_resamples 100 --save_results True
@@ -14,7 +14,6 @@ from argparse import ArgumentParser
 
 
 def post_process(args):
-
     filename = args.filename
     num_resamples = args.num_resamples
     save_results = args.save_results
@@ -41,7 +40,6 @@ def post_process(args):
     false_facts["resolution"] = []
 
     for itr, fact in enumerate(data["score_dict_full"][model_name.lower()]):
-
         if fact["p_true > p_false_average"] != "True":
             false_facts_itrs.append(itr)
             false_facts_list.append([fact["stem"], [fact["fact"], fact["counterfact"]]])
@@ -75,7 +73,7 @@ def post_process(args):
         f"\tThe 95% uncertainty estimate is +/- {np.round(100 * bootstrap_results[0], decimals=3)}%\n"
     )
 
-    ## Grab items with the most negative p_false_average - p_true value
+    # Grab items with the most negative p_false_average - p_true value
     # order results by p_true - p_false, return top n rows
 
     n = 100
@@ -90,7 +88,6 @@ def post_process(args):
 
 
 def bootstrap(results: List[int], B: int = 10000, confidence_level: int = 0.95) -> int:
-
     """
     helper function for providing confidence intervals for sentiment tool
     """
