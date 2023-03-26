@@ -331,14 +331,12 @@ def main(args):
         "../../data/ingested_data/fact-checking-full-input-information-3-20-23.csv",
         index=False,
     )
-    mixed_df
+
     # further cleanup based on an analysis of the top-100 most confident misses
     # delete erroneous entries in the dataset
     # (these were not exhaustively searched for, some
     # errors could still exist in the data)
-
     rows_to_delete = [
-        # llama-33b:
         "rome_19765",
         "calinet_9087",
         "rome_9674",
@@ -373,7 +371,6 @@ def main(args):
         "calinet_12777",
         "rome_13682",
         "calinet_29",
-        # flan-t5-xl:
         "calinet_3198",
         "rome_10178",
         "rome_19495",
@@ -393,9 +390,7 @@ def main(args):
         "calinet_5133",
         "calinet_5185",
         "rome_1525",
-        # roberta-large
         "rome_5796",
-        # gpt-j-6b
         "rome_1359",
         "rome_15982",
         "rome_12882",
@@ -403,7 +398,6 @@ def main(args):
         "rome_7201",
         "rome_5908",
         "rome_4998",
-        # random finds
         "calinet_9032",
     ]
 
@@ -416,8 +410,6 @@ def main(args):
     print(
         f"\t- Combined dataset: Removed {len(set(rows_to_delete))} rows that were manually flagged as errors."
     )
-
-    # STOPPED HERE
 
     mixed_df.shape[0]
     # delete stems that end with "a" or "an"
@@ -432,11 +424,10 @@ def main(args):
     )
     mixed_df.reset_index(drop=True, inplace=True)
     mixed_df.shape[0]
+
     # modify errors when sandwitched with correct data where possible
     # dictionary: dataset_id and new counterfact list, with the error removed
-
     rows_to_alter = {
-        # llama-33b:
         "calinet_7809": {"false": "['Gaulish', 'Georgian']"},
         "calinet_1917": {"false": "['theology', 'free software', 'accounting']"},
         "calinet_7790": {"false": ["Hebrew", "Swahili"]},
@@ -456,7 +447,6 @@ def main(args):
             mixed_df.loc[row_ind, column] = edit
 
     # fix small syntax and grammatical errors:
-
     for i in range(len(mixed_df)):
         if "shares border with" in mixed_df.loc[i].stem:
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
@@ -485,7 +475,6 @@ def main(args):
 
     # find any duplicates resulting from above fixes
     # start with [stem + fact] pairs
-
     pairs_list = []
     pairs_list_duplicated = []
     itrs_duplicated = []
