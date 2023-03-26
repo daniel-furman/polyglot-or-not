@@ -1,8 +1,10 @@
 """
 Main script for running fact checking with contrastive knowledge assessment
 
-Runs the full CalibraGPT/Fact_Checking benchmark dataset with a user-specified 
-language/model
+Runs the full CalibraGPT/Fact_Checking benchmark dataset
+
+Example usage:
+python main.py --model distilgpt2 --language en
 """
 
 from argparse import ArgumentParser

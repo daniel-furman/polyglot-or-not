@@ -3,6 +3,9 @@ Fact Checking Dataset Caching Script
 
 Run this script to re-produce caching the CalibraGPT/Fact_Checking dataset
 Original sources cited in the project's README
+
+Example usage:
+python cache_fact_checking_dataset.py --hugging_face False
 """
 
 import os
@@ -392,6 +395,14 @@ def main(args):
         "calinet_5133",
         "calinet_5185",
         "rome_1525",
+        # roberta-large
+        "rome_5796",
+        # gpt-j-6b
+        "rome_1359",
+        "rome_15982",
+        "rome_12882",
+        "rome_796",
+        
         # random finds
         "calinet_9032",
     ]
@@ -431,6 +442,7 @@ def main(args):
         "calinet_1917": {"false": "['theology', 'free software', 'accounting']"},
         "calinet_7790": {"false": ["Hebrew", "Swahili"]},
         "rome_11311": {"false": ["Russian"], "true": "French", "object": "French"},
+        "rome_17917": {"false": ["French"], "true": "Russian", "object": "Russian"},
     }
 
     for key, dictionary in rows_to_alter.items():
