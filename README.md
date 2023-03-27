@@ -16,16 +16,10 @@ Cite calinet [[1][bib]], memit [[2][bib]], t-rex [[3][bib]], and polyjuice [[4][
 
 ## Selected benchmark results
 
-**English** results:
+**English** results (forthcoming)
 
 | Model           | Fact-checking benchmark<br />(% correct) |
 |------------------|---------------------------------------------|
-| `llama-33b`     | 88.29 (+/- 0.23)   |
-| `llama-13b`     | 86.44 (+/- 0.25)   | 
-| `llama-7b`      | 85.68 (+/- 0.25)    | 
-| `flan-t5-xl`    | 81.06 (+/- 0.25)   | 
-| `flan-t5-large` | 77.89 (+/- 0.30)   | 
-| `flan-t5-base`  | 73.78 (+/- 0.32)    | 
 | `Random guessing` | 50   | 
 
 Add info on the fact-checking benchmark ... For reference, random guessing would score a 50%.
@@ -33,6 +27,10 @@ Add info on the fact-checking benchmark ... For reference, random guessing would
 * The uncertainty estimates in the fact-checking results were calculated using bootstrap resampling (10,000 random samples with replacement, 95% confidence level).  
 
 **Multilingual** results (forthcoming)
+
+| Model           | Fact-checking benchmark<br />(% correct) |
+|------------------|---------------------------------------------|
+| `Random guessing` | 50   | 
 
 ## Model families tested
 
