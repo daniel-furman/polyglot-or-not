@@ -32,7 +32,7 @@ Add info on the fact-checking benchmark ... For reference, random guessing would
 
 * The uncertainty estimates in the fact-checking results were calculated using bootstrap resampling (10,000 random samples with replacement, 95% confidence level).  
 
-**Multilingual** results (coming)
+**Multilingual** results (forthcoming)
 
 ## Model families tested
 
