@@ -41,8 +41,10 @@ Add info on the fact-checking benchmark ... For reference, random guessing would
 | `RoBERTa`    | Nov 2019     | Masked LM  | Meta AI      |
 | `T5`         | Jul 2020     | Seq2Seq    | Google       |
 | `GPT-J`      | Aug 2021     | Causal LM  | EleutherAI   |
-| `GPT-NeoX`   | Apr 2022     | Causal LM  | EleutherAI   |
+| `GPT-NeoX`   | Feb 2022     | Causal LM  | EleutherAI   |
+| `BLOOM`      | Mar 2022     | Causal LM  | Big Science  |
 | `OPT`        | May 2022     | Causal LM  | Meta AI      |
+| `YaLM`       | Jun 2022     | Causal LM  | Yandex       |
 | `Flan-t5`    | Dec 2022     | Seq2Seq    | Google       |
 | `Pythia`     | Feb 2023     | Causal LM  | EleutherAI   |
 | `LLaMa`      | Feb 2023     | Causal LM  | Meta AI      |
