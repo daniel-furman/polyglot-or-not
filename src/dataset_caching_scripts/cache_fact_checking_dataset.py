@@ -399,6 +399,10 @@ def main(args):
         "rome_5908",
         "rome_4998",
         "calinet_9032",
+        "rome_15759",
+        "rome_8513",
+        "rome_9528",
+        "rome_9653",
     ]
 
     # delete these rows
