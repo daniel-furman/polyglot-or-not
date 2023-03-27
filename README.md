@@ -32,7 +32,7 @@ Add info on the fact-checking benchmark ... For reference, random guessing would
 
 * The uncertainty estimates in the fact-checking results were calculated using bootstrap resampling (10,000 random samples with replacement, 95% confidence level).  
 
-**Multilingual** results (coming)
+**Multilingual** results (forthcoming)
 
 ## Model families tested
 
@@ -64,6 +64,7 @@ python run_cka.py configs.tests.bert_v0
 ```
 
 ## Authors
+
 All grad students below contributed equally.
 
 * Shreshta Bhat <bhat_shreshta@berkeley.edu>
@@ -76,7 +77,7 @@ All grad students below contributed equally.
 
 ## Citation
 
-Please cite the repo if you use the data or code in this repo.
+Please cite this repository, as follows, if you use its data or code:
 
 ```
 @misc{calibragpt,
