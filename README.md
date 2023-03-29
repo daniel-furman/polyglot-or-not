@@ -22,7 +22,7 @@ Cite calinet [[1][bib]], memit [[2][bib]], t-rex [[3][bib]], and polyjuice [[4][
 |------------------|---------------------------------------------|
 | `Random guessing` | 50   | 
 
-Add info on the fact-checking benchmark. (As a reference, random guessing would score a 50%.)
+Add info on the fact-checking benchmark. As a reference, random guessing would score a 50%.
 
 * The uncertainty estimates in the fact-checking results were calculated using bootstrap resampling (10,000 random samples with replacement, 95% confidence level).  
 
