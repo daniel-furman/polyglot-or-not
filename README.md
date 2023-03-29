@@ -77,7 +77,7 @@ All grad students below contributed equally.
 
 ## Citation
 
-Please cite this repository, as follows, if you use its data or code:
+Please cite this repository as follows if you use its data or code:
 
 ```
 @misc{calibragpt,
