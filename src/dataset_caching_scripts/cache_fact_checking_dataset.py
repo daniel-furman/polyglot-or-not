@@ -396,13 +396,23 @@ def main(args):
         "rome_12882",
         "rome_796",
         "rome_7201",
-        "rome_5908",
         "rome_4998",
         "calinet_9032",
         "rome_15759",
         "rome_8513",
         "rome_9528",
         "rome_9653",
+        "rome_13961",
+        "rome_14778",
+        "rome_2140",
+        "rome_16482",
+        "rome_4091",
+        "rome_11399",
+        "rome_19798",
+        "calinet_8491",
+        "calinet_8312",
+
+        # TO DO keep randomly checking diff shuffles tnit and tmro
     ]
 
     # delete these rows
@@ -442,6 +452,10 @@ def main(args):
             "true": "President",
             "object": "President",
         },
+        "rome_5908": {"false": ["violin"], "true": "guitar", "object": "guitar"},
+        "rome_21907": {"false": ["French"], "true": "English", "object": "English"},
+        "calinet_11761": {"false": "['Apple']"},
+        "calinet_2821": {"stem": "The Italian capital is", "subject": "capital"},
     }
 
     for key, dictionary in rows_to_alter.items():
@@ -450,6 +464,8 @@ def main(args):
             mixed_df.loc[row_ind, column] = edit
 
     # fix small syntax and grammatical errors, remove templates scheduled to be dropped
+
+    # TO DO add ending in "debuted" to "debuted on"
     itr_religion = 0
     for i in range(len(mixed_df)):
         # bespoke syntax fixes
@@ -473,13 +489,43 @@ def main(args):
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
                 "The Smashing Pumpkins, who plays", "The Smashing Pumpkins, who play"
             )
+        elif "is to debut on" in mixed_df.loc[i].stem:
+            mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
+                "is to debut on", "originally aired on"
+            )
 
-        # remove religion related rows
+    # remove religion related rows
+    for i in range(len(mixed_df)):
         if mixed_df.loc[i].relation == "P140":
             itr_religion += 1
             mixed_df.drop(index=i, inplace=True)
+
     print(
         f"\t- Combined dataset: Removed {itr_religion} stem/fact pairs that were relation P140 (religion related)"
+    )
+    mixed_df.reset_index(drop=True, inplace=True)
+
+    # remove soccer/football comparisons
+    itr_football_soccer = 0
+    for i in range(len(mixed_df)):
+        if (mixed_df.loc[i].true == "soccer") or (mixed_df.loc[i].true == "football"):
+            if ("soccer" in mixed_df.loc[i].false) or (
+                "football" in mixed_df.loc[i].false
+            ):
+                if len(mixed_df.loc[i].false) == 1:
+                    itr_football_soccer += 1
+                    mixed_df.drop(index=i, inplace=True)
+                else:
+                    if "soccer" in mixed_df.loc[i].false:
+                        false_list = copy.deepcopy(mixed_df.loc[i].false)
+                        false_list.remove("soccer")
+                        mixed_df.loc[i, "false"] = false_list
+                    if "football" in mixed_df.loc[i].false:
+                        false_list = copy.deepcopy(mixed_df.loc[i].false)
+                        false_list.remove("football")
+                        mixed_df.loc[i, "false"] = false_list
+    print(
+        f"\t- Combined dataset: Removed {itr_football_soccer} stem/fact pairs that compared football with soccer"
     )
     mixed_df.reset_index(drop=True, inplace=True)
 
@@ -565,7 +611,7 @@ def main(args):
 
     # shuffle the df's rows (without replacement)
     mixed_df = mixed_df.sample(
-        frac=1, replace=False, random_state=42, ignore_index=True
+        frac=1, replace=False, random_state=44, ignore_index=True
     )
     # write to file as .csv
     mixed_df.to_csv(
