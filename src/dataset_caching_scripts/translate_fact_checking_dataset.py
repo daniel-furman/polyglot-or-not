@@ -165,7 +165,7 @@ def main(args):
             subject = GoogleTranslator(source="en", target=language[0]).translate(
                 dataset[i]["subject"]
             )
-            if (dataset[i]["subject"] in translated_true):
+            if dataset[i]["subject"] in translated_true:
                 try:
                     pd_df_dict["subject"].append(dataset[i]["subject"])
                 except KeyError:

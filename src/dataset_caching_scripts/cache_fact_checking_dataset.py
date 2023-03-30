@@ -411,7 +411,6 @@ def main(args):
         "rome_19798",
         "calinet_8491",
         "calinet_8312",
-
         # TO DO keep randomly checking diff shuffles tnit and tmro
     ]
 
