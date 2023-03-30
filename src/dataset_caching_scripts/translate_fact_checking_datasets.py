@@ -9,11 +9,10 @@ Example usage:
 python cache_multilingual_fact_checking_dataset.py --hugging_face False
 """
 
-import os
 import re
-import json
 import pandas as pd
-import copy
+import os
+import tqdm
 from argparse import ArgumentParser
 from datasets import load_dataset
 from huggingface_hub import login
@@ -25,115 +24,217 @@ from nltk.tokenize import word_tokenize
 def main(args):
     print("Translating the fact_checking dataset into Non-English languages...")
 
-    pd_df_dict = {}
-    dataset = load_dataset("CalibraGPT/Fact_Checking", split="English")
-    # print(dataset[0], "\n")
+    # nltk comp languages:
+    languages = [("fr", "french")]
 
-    for i in range(3):  # len(dataset)):
-        true_pair = dataset[i]["stem"] + " " + dataset[i]["true"]
-        counterfacts_list = (
-            dataset[i]["false"]
-            .replace("[", "")
-            .replace("]", "")
-            .replace("'", "")
-            .split(", ")
-        )
+    for language in languages:
 
-        false_pair_list = []
-        for counterfact in counterfacts_list:
-            false_pair_list.append(dataset[i]["stem"] + " " + counterfact)
+        pd_df_dict = {}
+        dataset = load_dataset("CalibraGPT/Fact_Checking", split="English")
 
-        translated_true = GoogleTranslator(source="en", target="fr").translate(
-            true_pair
-        )
-        translated_false_list = []
-        for false_pair in false_pair_list:
-            translated_false_list.append(
-                GoogleTranslator(source="en", target="fr").translate(false_pair)
+        for i in tqdm.tqdm(range(50)):  # tqdm.tqdm(range(len(dataset))):
+            true_pair = dataset[i]["stem"] + " " + dataset[i]["true"]
+            counterfacts_list = (
+                dataset[i]["false"]
+                .replace("[", "")
+                .replace("]", "")
+                .replace("'", "")
+                .split(", ")
             )
 
-        translated_true_tokenized = word_tokenize(translated_true, language="french")
+            false_pair_list = []
+            for counterfact in counterfacts_list:
+                false_pair_list.append(dataset[i]["stem"] + " " + counterfact)
 
-        translated_false_tokenized_list = []
-        for itr, false_pair in enumerate(false_pair_list):
-            translated_false_tokenized_list.append(
-                word_tokenize(translated_false_list[itr], language="french")
+            translated_true = GoogleTranslator(
+                source="en", target=language[0]
+            ).translate(true_pair)
+            translated_false_list = []
+            for false_pair in false_pair_list:
+                translated_false_list.append(
+                    GoogleTranslator(source="en", target=language[0]).translate(
+                        false_pair
+                    )
+                )
+
+            translated_true_tokenized = word_tokenize(
+                translated_true, language=language[1]
             )
 
-        # grab values for all the different colunmns in fact_checking
+            translated_false_tokenized_list = []
+            for itr, false_pair in enumerate(false_pair_list):
+                translated_false_tokenized_list.append(
+                    word_tokenize(translated_false_list[itr], language=language[1])
+                )
 
-        # grab the stems
-        stems = []
-        # start with the true fact
-        true_fact_translated = GoogleTranslator(source="en", target="fr").translate(
-            dataset[i]["true"]
-        )
-        # see if the french translated object is at the end of the sentence
-        index_after = len(translated_true_tokenized) - len(word_tokenize(true_fact_translated, language="french"))
-        if true_fact_translated.lower() in " ".join(translated_true_tokenized[index_after:]).lower():            
-            pattern = re.compile(true_fact_translated, re.IGNORECASE)
-            pattern = pattern.sub("", translated_true)
-            if pattern[-1] == ' ':
-                pattern = pattern[0:-1]
-            print(true_fact_translated)
-            print(translated_true)
-            stems.append(pattern)
-        # otherwise, check if the original english object is at the end of the sentence
-        else:
-            index_after = len(translated_true_tokenized) - len(word_tokenize(dataset[i]["true"], language="english"))
-            if dataset[i]["true"].lower() in " ".join(translated_true_tokenized[index_after:]).lower():
-                pattern = re.compile(dataset[i]["true"], re.IGNORECASE)
-                pattern = pattern.sub("", translated_true)
-                if pattern[-1] == ' ':
-                    pattern = pattern[:-1]
-                print(dataset[i]["true"])
-                print(translated_true)
-                stems.append(pattern)
-
-        # if neither, delete this row
-        print(stems)
-
-
-        # now add stems for all the counterfacts
-        # STOPPED DEV HERE
-        for itr, counterfact in enumerate(counterfacts_list):
-            #print(word_tokenize(counterfact, language="english"))
-            false_translated = GoogleTranslator(source="en", target="fr").translate(
-                counterfact
-            )
-            #print(word_tokenize(false_translated, language="french"))
-            #print(translated_false_tokenized_list[itr])
-
-        same_stem = True
-        for itr, false_pair_tokenized in enumerate(translated_false_tokenized_list):
-            if false_pair_tokenized[:-1] != translated_true_tokenized[:-1]:
-                same_stem = False
-        if same_stem:
-            # print(" ".join(translated_true_tokenized[:-1]))
-            pass
-        else:
+            # grab values for all the different colunmns in fact_checking
+            # grab the stems
             stems = []
-            stems.append(" ".join(translated_true_tokenized[:-1]))
-            for false_pair_tokenized in translated_false_tokenized_list:
-                stems.extend([" ".join(false_pair_tokenized[:-1])])
-            # print(stems)
-        # add logic to ignore if any of the objects don't end at the end here
+            # start with the true fact
+            true_fact_translated = GoogleTranslator(
+                source="en", target=language[0]
+            ).translate(dataset[i]["true"])
+            # see if the translated object is at the end of the sentence
+            index_fact = len(translated_true_tokenized) - len(
+                word_tokenize(true_fact_translated, language=language[1])
+            )
+            if (
+                true_fact_translated.lower()
+                in " ".join(translated_true_tokenized[index_fact:]).lower()
+            ):
+                stem_pattern = re.compile(true_fact_translated, re.IGNORECASE)
+                stem_pattern = stem_pattern.sub("", translated_true)
+                if stem_pattern[-1] == " ":
+                    stem_pattern = stem_pattern[0:-1]
 
-        # if logic passes:
+                try:
+                    pd_df_dict["true"].append(true_fact_translated)
+                except KeyError:
+                    pd_df_dict["true"] = [true_fact_translated]
 
-        try:
-            pd_df_dict["dataset_id"].append(dataset[i]["dataset_id"])
-        except KeyError:
-            pd_df_dict["dataset_id"] = [dataset[i]["dataset_id"]]
-        try:
-            pd_df_dict["relation"].append(dataset[i]["relation"])
-        except KeyError:
-            pd_df_dict["relation"] = [dataset[i]["relation"]]
+                stems.append(stem_pattern)
+            # otherwise, check if the original english object is at the end of the sentence
+            else:
+                index_fact = len(translated_true_tokenized) - len(
+                    word_tokenize(dataset[i]["true"], language="english")
+                )
+                if (
+                    dataset[i]["true"].lower()
+                    in " ".join(translated_true_tokenized[index_fact:]).lower()
+                ):
+                    stem_pattern = re.compile(dataset[i]["true"], re.IGNORECASE)
+                    stem_pattern = stem_pattern.sub("", translated_true)
+                    if stem_pattern[-1] == " ":
+                        stem_pattern = stem_pattern[:-1]
+                    stems.append(stem_pattern)
+                try:
+                    pd_df_dict["true"].append(dataset[i]["true"])
+                except KeyError:
+                    pd_df_dict["true"] = [dataset[i]["true"]]
 
-        print("\n")
-    # 'stem': 'The location of Rosstown Railway is', 'true': 'Melbourne', 'false': "['England']", 'subject': 'Rosstown Railway', 'object': 'Melbourne'}
+            counterfact_save_list = []
+            # now add data for all the counterfacts
+            for itr, counterfact in enumerate(counterfacts_list):
+                false_fact_translated = GoogleTranslator(
+                    source="en", target=language[0]
+                ).translate(counterfact)
+                # print(translated_false_list[itr])
+                # see if the french translated object is at the end of the sentence
+                index_fact = len(translated_false_tokenized_list[itr]) - len(
+                    word_tokenize(false_fact_translated, language=language[1])
+                )
+                if (
+                    false_fact_translated.lower()
+                    in " ".join(
+                        translated_false_tokenized_list[itr][index_fact:]
+                    ).lower()
+                ):
+                    counterfact_save_list.append(false_fact_translated)
+                    stem_pattern = re.compile(false_fact_translated, re.IGNORECASE)
+                    stem_pattern = stem_pattern.sub("", translated_false_list[itr])
+                    if stem_pattern[-1] == " ":
+                        stem_pattern = stem_pattern[0:-1]
 
-    print(pd_df_dict)
+                    stems.append(stem_pattern)
+
+                # otherwise, check if the original english object is at the end of the sentence
+                else:
+
+                    index_fact = len(translated_false_tokenized_list[itr]) - len(
+                        word_tokenize(counterfacts_list[itr], language="english")
+                    )
+
+                    if (
+                        counterfacts_list[itr]
+                        in " ".join(
+                            translated_false_tokenized_list[itr][index_fact:]
+                        ).lower()
+                    ):
+                        counterfact_save_list.append(counterfacts_list[itr])
+                        stem_pattern = re.compile(counterfacts_list[itr], re.IGNORECASE)
+                        stem_pattern = stem_pattern.sub("", translated_false_list[itr])
+                        if stem_pattern[-1] == " ":
+                            stem_pattern = stem_pattern[:-1]
+
+                        stems.append(stem_pattern)
+
+            subject = GoogleTranslator(source="en", target=language[0]).translate(
+                dataset[i]["subject"]
+            )
+            try:
+                pd_df_dict["subject"].append(subject)
+            except KeyError:
+                pd_df_dict["subject"] = [subject]
+
+            object = GoogleTranslator(source="en", target=language[0]).translate(
+                dataset[i]["object"]
+            )
+            try:
+                pd_df_dict["object"].append(object)
+            except KeyError:
+                pd_df_dict["object"] = [object]
+
+            try:
+                pd_df_dict["false"].append(counterfact_save_list)
+            except KeyError:
+                pd_df_dict["false"] = [counterfact_save_list]
+            # if all the stems are the same, just save that one
+            if len(set(stems)) == 1:
+                try:
+                    pd_df_dict["stem"].append(stems[0])
+                except KeyError:
+                    pd_df_dict["stem"] = [stems[0]]
+            else:
+                try:
+                    pd_df_dict["stem"].append(str(stems))
+                except KeyError:
+                    pd_df_dict["stem"] = [str(stems)]
+            same_stem = True
+
+            if same_stem:
+                # print(" ".join(translated_true_tokenized[:-1]))
+                pass
+            else:
+                stems = []
+                # print(stems)
+
+            try:
+                pd_df_dict["dataset_id"].append(dataset[i]["dataset_id"])
+            except KeyError:
+                pd_df_dict["dataset_id"] = [dataset[i]["dataset_id"]]
+            try:
+                pd_df_dict["relation"].append(dataset[i]["relation"])
+            except KeyError:
+                pd_df_dict["relation"] = [dataset[i]["relation"]]
+
+        # print(pd_df_dict)
+        df = pd.DataFrame.from_dict(pd_df_dict)
+        df = df[
+            ["dataset_id", "stem", "true", "false", "relation", "subject", "object"]
+        ]
+        for itr in range(len(df)):
+            if len(df.loc[itr, "false"]) == 0:
+                df.drop(itr, inplace=True)
+        df.dropna(inplace=True)
+        print(df)
+        df.to_csv("test_translation.csv", index=False)
+
+        # Optionally upload final csv to HuggingFace
+        if args.hugging_face:
+            data_files = {
+                "English": "../../data/ingested_data/fact-checking-full-input-information-3-21-23.csv",
+                "French": "test_translation.csv",
+            }
+            dataset = load_dataset("csv", data_files=data_files)
+
+            # This reads the environment variables inside .env
+            load_dotenv()
+            # Logs into HF hub
+            login(os.getenv("HF_TOKEN"))
+            # push to hub
+            dataset.push_to_hub("CalibraGPT/Fact_Checking")
+            # test loading from hub
+            load_dataset("CalibraGPT/Fact_Checking")
 
 
 if __name__ == "__main__":

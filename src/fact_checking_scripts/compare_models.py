@@ -190,6 +190,14 @@ def compare_models(model_name_list, input_dataset, verbose):
                 context = entities_dict["stem"]
                 # if multiple stems are stored, grab the correct one
                 # (zeroeth stem is true fact, next ones are counterfacts)
+                if context[0] == ["["]:
+                    context = (
+                        context.replace("[", "")
+                        .replace("]", "")
+                        .replace("'", "")
+                        .split(", ")
+                    )
+
                 if type(context) == list:
                     context = context[entity_count]
                 # add necessary additions based on model type

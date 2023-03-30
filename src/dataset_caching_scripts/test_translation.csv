@@ -1,0 +1,40 @@
+dataset_id,stem,true,false,relation,subject,object
+calinet_6985,"['FSLN a son siège à', 'FSLN a son siège à', 'FSLN a son siège à', 'FSLN a son siège social dans le', 'Le FSLN a son siège à', ""FSLN a son siège social dans l'""]",Managua,"['Paris', 'Floridsdorf', 'Massachusetts', 'Nampa', 'Idaho']",P159,FSLN,Managua
+rome_6123,"Aux Seychelles, une langue officielle est l'",Anglais,['Espagnol'],P37,les Seychelles,Anglais
+calinet_8410,"['les musiciens de thrash metal', 'thrash metal musiciens', 'musiciens de thrash metal']",Metallica,"['télé-réalité', 'Sanda']",P136,Métallique,thrash métal
+rome_14296,Joe Montana joue au poste de,quarterback,['gardien de but'],P413,Joe Montana,stratège
+rome_7578,"Optimus Rhyme, créé à",Seattle,['Atlanta'],P740,Comptine Optimus,Seattle
+rome_20830,Le mont Hallgren est en,Antarctique,['Afrique'],P30,Mont Hallgren,Antarctique
+calinet_4580,les débuts de Channel 4 de,Popworld,['COLUMBO'],P449,Popmonde,Canal 4
+calinet_8866,"[' 1100 est créé par', 'Nokia 1100 est créé par']",Nokia,['Deptford'],P176,Nokia 1100,Nokia
+calinet_2430,Paxton était employé à,Londres,['Drenthe'],P937,Paxton,Londres
+calinet_4507,Big Love fait ses débuts sur,HBO,['TG4'],P449,Grand amour,HBO
+rome_19321,"['Saint-Sépulcre,  est dans', 'Saint-Sépulcre, Cambridge est en']",Cambridge,['Louisiane'],P131,"Saint-Sépulcre, Cambridge",Cambridge
+rome_11564,Le projet Ara a été créé par,Google,['Yahoo'],P178,Projet Ara,Google
+rome_3830,Ursula Caberta était employée à,Hambourg,['Paris'],P937,Ursule Caberta,Hambourg
+rome_13845,"['Le siège de er AK 07 est à', 'Le siège de Berliner AK 07 est au']",Berlin,['Caire'],P159,Berliner AK 07,Berlin
+rome_19991,A quel poste joue Nolan Ryan ? Ils jouent comme,lanceur,['milieu de terrain'],P413,Nolan Ryan,lanceur
+calinet_3550,"['métal progressif, créé au', 'métal progressif, créé en', 'métal progressif, créé en', 'métal progressif, créé en']",American,"['Sri Lanka', 'Tunisie', 'islandais', 'grec archaïque']",P495,métal progressif,Américain
+rome_20533,Ribeirinho a expiré à,Lisbonne,['Paris'],P20,Ribeirinho,Lisbonne
+rome_1210,Quelle est la ville jumelle de Miskolc ? C'est,Cleveland,['Varsovie'],P190,Miskolč,Cleveland
+calinet_3444,"[""Officiellement, ES est la langue de l'"", 'Officiellement, ES est la langue de', 'Officiellement, ES est la langue du']",ONU,"['កម្ពុជា', 'New Hampshire']",P37,ONU,ES
+rome_5513,Howie Morenz joue au,hockey,['base-ball'],P641,Howie Morenz,le hockey
+rome_14592,"['Madeleine Peyroux est connue pour jouer du', 'Madeleine Peyroux est connue pour son']",jazz,['opéra'],P136,Madeleine Peyroux,le jazz
+rome_18007,"['Giuseppe Tornatore parle la langue ne', ""Giuseppe Tornatore parle l'""]",italien,['hébreu'],P1412,Giuseppe Tornatore,italien
+rome_13256,"[""La Belgique est affiliée à l'"", 'La Belgique est affiliée à la']",OTAN,['FIFA'],P463,Belgique,OTAN
+calinet_7876,"['Le français est la langue de', 'Le français est la langue du', 'Le français est la langue de']",L'Internationale,"['tamoul', 'Kampen om tungtvannet']",P364,L'Internationale,Français
+rome_18852,"[""A quoi joue Mario Del Monaco ? Ils jouent de l'"", 'A quoi joue Mario Del Monaco ? Ils jouent du']",opéra,['jazz'],P136,Mario Del Monaco,opéra
+calinet_3973,"['Martha Schwendener, qui a été développé en', 'Martha Schwendener, qui a été développée à', 'Martha Schwendener, qui a été développé en', 'Martha Schwendener, qui a été développé en', ""Martha Schwendener, qui a été développée dans l'"", 'Martha Schwendener, qui a été développé en', 'Martha Schwendener, qui a été développée au']",American,"['pH', 'Valence', 'Irlandais du Nord', 'Néerlandais', 'État de la Cité du Vatican', 'Macédonien', 'Turkménistan']",P495,Martha Schwendener,Américain
+calinet_12576,"Patton, représenté par",Ipecac Recordings,['TDE'],P264,Patton,Enregistrements d'ipéca
+rome_18605,"['Antelope Canyon est situé en', 'Antelope Canyon est situé au']",Arizona,['Kerala'],P131,Canyon de l'antilope,Arizona
+rome_904,Edguy a été développé en,Allemagne,['Belgique'],P495,Edguy,Allemagne
+rome_14423,"Skavlan, créé en",Suède,['Finlande'],P495,Skavlan,Suède
+calinet_10211,"['Charles West Cope est membre de', 'Charles West Cope est membre du']",RA,"[""Forum de dialogue de l'IBSA""]",P463,Charles West Chape,AR
+rome_15004,"['Les rébellions kurdes en  se trouvent en', 'Les rébellions kurdes en Turquie se trouvent à']",Turquie,['Vancouver'],P276,Rébellions kurdes en Turquie,Turquie
+calinet_8578,Les APU sont développés par,AMD,"['Heckler & Koch GmbH', 'BFW']",P176,APU,DMLA
+calinet_6035,"['Tito Minniti est décédé à', 'Tito Minniti est décédé aux', 'Tito Minniti est décédé à', 'Tito Minniti est décédé dans le']",Degehabur,"['Saxons', 'Nagpur', ""Comté d'Albemarle""]",P20,Tito Minniti,Degehabur
+rome_2573,"[""L'expertise de Gilbert Blane est la"", ""L'expertise de Gilbert Blane est""]",médecine,['la physique'],P101,Gilbert Blane,médecine
+rome_266,"[""Moscou est une ville jumelle d'"", 'Moscou est une ville jumelle de']",Amsterdam,['Miami'],P190,Moscou,Amsterdam
+rome_15426,"['London Art Fair est à', ""La foire d'art de Londres est à""]",Londres,['Bangkok'],P276,Foire d'art de Londres,Londres
+rome_14369,"LaMarr Woodley, qui joue le poste de",secondeur,['défenseur'],P413,LaMarr Woodley,secondeur
+calinet_9368,"[""L'anglais est la langue des"", ""L'anglais est la langue de"", ""L'anglais est la langue de""]",Adbusters,"['La langue coréenne', 'Don Ottavio']",P407,Adbusters,Anglais
