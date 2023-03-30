@@ -5,7 +5,7 @@ Run this script to re-produce caching the CalibraGPT/Fact_Checking dataset
 Original sources cited in the project's README
 
 Example usage:
-python cache_fact_checking_dataset.py --hugging_face False
+python cache_fact_checking_dataset.py
 """
 
 import os
@@ -427,7 +427,6 @@ def main(args):
         f'\t- Combined dataset: Removed {itr} stem/fact pairs that contained "a/an + _" grammatical errors.'
     )
     mixed_df.reset_index(drop=True, inplace=True)
-    mixed_df.shape[0]
 
     # modify errors when sandwitched with correct data where possible
     # dictionary: dataset_id and new counterfact list, with the error removed
@@ -450,32 +449,39 @@ def main(args):
             row_ind = mixed_df[mixed_df.dataset_id == key].false.index[0]
             mixed_df.loc[row_ind, column] = edit
 
-    # fix small syntax and grammatical errors:
+    # fix small syntax and grammatical errors, remove templates scheduled to be dropped
+    itr_religion = 0
     for i in range(len(mixed_df)):
+        # bespoke syntax fixes
         if "shares border with" in mixed_df.loc[i].stem:
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
                 "shares border with", "shares a border with"
             )
-
         elif "shares the border with" in mixed_df.loc[i].stem:
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
                 "shares the border with", "shares a border with"
             )
-
         elif "borders with" in mixed_df.loc[i].stem:
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
                 "borders with", "shares a border with"
             )
-
         elif "premiered" in mixed_df.loc[i].stem:
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
                 "premiered", "originally aired"
             )
-
         elif "The Smashing Pumpkins, who plays" in mixed_df.loc[i].stem:
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
                 "The Smashing Pumpkins, who plays", "The Smashing Pumpkins, who play"
             )
+
+        # remove religion related rows
+        if mixed_df.loc[i].relation == "P140":
+            itr_religion += 1
+            mixed_df.drop(index=i, inplace=True)
+    print(
+        f"\t- Combined dataset: Removed {itr_religion} stem/fact pairs that were relation P140 (religion related)"
+    )
+    mixed_df.reset_index(drop=True, inplace=True)
 
     # find any duplicates resulting from above fixes
     # start with [stem + fact] pairs
@@ -561,7 +567,6 @@ def main(args):
     mixed_df = mixed_df.sample(
         frac=1, replace=False, random_state=42, ignore_index=True
     )
-    mixed_df
     # write to file as .csv
     mixed_df.to_csv(
         "../../data/ingested_data/fact-checking-full-input-information-3-21-23.csv",
