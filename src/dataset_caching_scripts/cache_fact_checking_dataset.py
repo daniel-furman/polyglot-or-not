@@ -411,7 +411,20 @@ def main(args):
         "rome_19798",
         "calinet_8491",
         "calinet_8312",
-        # TO DO keep randomly checking diff shuffles tnit and tmro
+        "calinet_8413",
+        "rome_11510",
+        "calinet_1609",
+        "calinet_10514",
+        "calinet_8022",
+        "calinet_3508",
+        "calinet_10716",
+        "calinet_10294",
+        "calinet_5256",
+        "calinet_11265",
+        "calinet_11400",
+        "calinet_3307",
+        "rome_14732",
+        "rome_2374",
     ]
 
     # delete these rows
@@ -464,7 +477,6 @@ def main(args):
 
     # fix small syntax and grammatical errors, remove templates scheduled to be dropped
 
-    # TO DO add ending in "debuted" to "debuted on"
     itr_religion = 0
     for i in range(len(mixed_df)):
         # bespoke syntax fixes
@@ -492,6 +504,8 @@ def main(args):
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
                 "is to debut on", "originally aired on"
             )
+        elif mixed_df.loc[i].stem.split(" ")[-1] == "debuted":
+            mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem + " on"
 
     # remove religion related rows
     for i in range(len(mixed_df)):
@@ -501,6 +515,18 @@ def main(args):
 
     print(
         f"\t- Combined dataset: Removed {itr_religion} stem/fact pairs that were relation P140 (religion related)"
+    )
+    mixed_df.reset_index(drop=True, inplace=True)
+
+    # remove "tie diplomatic ties" items
+    itr_diplomatic = 0
+    for i in range(len(mixed_df)):
+        if mixed_df.loc[i].relation == "P530":
+            itr_diplomatic += 1
+            mixed_df.drop(index=i, inplace=True)
+
+    print(
+        f"\t- Combined dataset: Removed {itr_diplomatic} stem/fact pairs that were relation P530 (diplomatic relations)"
     )
     mixed_df.reset_index(drop=True, inplace=True)
 
@@ -564,7 +590,6 @@ def main(args):
     for x, y in new_counterfacts.items():
         new_counterfacts_2[x] = list(set(y))
 
-    # new_counterfacts_2
     for i in range(len(mixed_df)):
         key_item = mixed_df.loc[i].stem + " " + mixed_df.loc[i].true
         if key_item in list(new_counterfacts_2.keys()):
@@ -584,34 +609,56 @@ def main(args):
     for i in range(len(mixed_df)):
         mixed_df.loc[i, "false"] = list(set(mixed_df.loc[i, "false"]))
 
+    # shuffle the df's rows (without replacement)
+    mixed_df = mixed_df.sample(
+        frac=1, replace=False, random_state=44, ignore_index=True
+    )
+
+    # grab a subsest to include at the head, for sharing purposes
+    good_subset = [
+        "rome_11754",
+        "calinet_10852",
+        "calinet_8922",
+        "calinet_2820",
+        "rome_10452",
+        "rome_5025",
+        "rome_15553",
+        "rome_13484",
+        "rome_20283",
+        "rome_957",
+        "rome_15088",
+        "rome_14462",
+        "rome_20584",
+        "rome_11479",
+        "calinet_10906",
+    ]
+    good_subset.reverse()
+    for dataset_id in good_subset:
+        id = mixed_df[mixed_df.dataset_id == dataset_id].index
+        mixed_df = pd.concat([mixed_df.loc[id], mixed_df])
+    mixed_df.drop_duplicates(subset=["dataset_id"], inplace=True)
+    mixed_df.reset_index(drop=True, inplace=True)
+
     # find any trio duplicates remaining (there shouldn't be, after the set command above)
     pairs_list = []
     for i in range(len(mixed_df)):
-        for item in mixed_df.loc[i].false:
-            pairs = (mixed_df.loc[i].stem, mixed_df.loc[i].true, item)
-            pairs_list.append(pairs)
+        pairs = (mixed_df.loc[i].stem, mixed_df.loc[i].true)
+        pairs_list.append(pairs)
+    print(
+        f'\t- Combined dataset: There are {len(set(pairs_list))} unique stem/fact pairs remaining in the final "CalibraGPT/Fact_Checking" dataset.'
+    )
+    assert len(set(pairs_list)) == len(mixed_df)
 
     pairs_list = []
     for i in range(len(mixed_df)):
         for item in mixed_df.loc[i].false:
             pairs = (mixed_df.loc[i].stem, mixed_df.loc[i].true, item)
             pairs_list.append(pairs)
-    print(
-        f'\t- Combined dataset: There are {len(set(pairs_list))} unique stem/fact pairs remaining in the final "CalibraGPT/Fact_Checking" dataset.'
-    )
-    pairs_list = []
-    for i in range(len(mixed_df)):
-        pairs = (mixed_df.loc[i].stem, mixed_df.loc[i].true)
-        pairs_list.append(pairs)
 
     print(
         f'\t- Combined dataset: There are {len(set(pairs_list))} unique counterfacts remaining in the final "CalibraGPT/Fact_Checking" dataset.'
     )
 
-    # shuffle the df's rows (without replacement)
-    mixed_df = mixed_df.sample(
-        frac=1, replace=False, random_state=44, ignore_index=True
-    )
     # write to file as .csv
     mixed_df.to_csv(
         "../../data/ingested_data/fact-checking-full-input-information-3-21-23.csv",

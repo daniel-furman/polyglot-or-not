@@ -1,44 +1,39 @@
 dataset_id,stem,true,false,relation,subject,object
-rome_20625,"['Quintin Hogg, baron Hailsham de St Marylebone parle la langue e', 'Quintin Hogg, baron Hailsham de St Marylebone parle la langue ne']",Anglais,['italien'],P1412,"Quintin Hogg, baron Hailsham de St Marylebone",Anglais
-rome_4704,"La Bavière, dont la capitale est",Munich,['Varsovie'],P36,Bavière,Munich
-rome_20801,"[""Le domaine d'activité de James Clerk Maxwell est"", ""Le domaine d'activité de James Clerk Maxwell est la""]",la physique,['physiologie'],P101,James Clerk Maxwell,la physique
-rome_15401,"[""La langue d'origine de Tokyo Pop était l'"", ""La langue d'origine de Tokyo Pop était le""]",Anglais,['suédois'],P364,Tokyo Pop,Anglais
-rome_20709,Le poste de Piero Fassino est,maire,['évêque'],P39,Piero Fassino,maire
-rome_4071,"Windows 8, un produit développé par",Microsoft,['Adobe'],P178,Windows 8,Microsoft
-calinet_76,"[""L'Espagne partage une frontière avec la"", ""L'Espagne partage une frontière avec"", ""L'Espagne partage une frontière avec le"", ""L'Espagne partage une frontière avec"", ""L'Espagne partage une frontière avec le""]",France,"['Venray', 'District de Wong Tai Sin', 'Spicheren', 'District de Balasore']",P47,Espagne,France
-rome_20076,Conrad Graf était employé à,Vienne,['Kiev'],P937,Conrad Graf,Vienne
-rome_2921,"Leo Fong, qui travaille comme",acteur,['compositeur'],P106,Leo Fong,acteur
-calinet_9808,"['HCMV porte le nom de', 'HCMV porte le nom de la', 'HCMV porte le nom de', ""HCMV porte le nom d'"", 'HCMV porte le nom de']",Ho Chi Minh,"['rivière Regen', 'Karl Menger', 'El Nido', 'Palawan']",P138,HCMC,Ho Chi Minh
-rome_4860,Otto Jelinek est originaire de,Prague,['Denver'],P19,Otto Jelinek,Prague
-calinet_687,Robert Ssejjemba était originaire de,Kampala,"['Livourne', 'Kilmacolm']",P19,Robert Ssejjemba,Kampala
-rome_11368,Otis Redding a perdu la vie à,Madison,['Manille'],P20,Otis Redding,Madison
-rome_9372,"['Gare de Providence, depuis', 'Station Providence, de']",Amtrak,['Microsoft'],P127,Gare de la Providence,Amtrak
-calinet_8312,"['Hotel California, qui joue du', 'Hotel California, qui joue', 'Hotel California, qui joue', 'Hotel California, qui joue le']",rock,"['Hladno pivo', 'Marido En Alquiler', 'journaliste sportif']",P136,Hotel California,rock
-rome_883,"Journaled File System, un produit développé par",IBM,['Microsoft'],P178,Journaled File System,IBM
-calinet_762,"['Kwak Kyung-taek est né à', 'Kwak Kyung-taek est né à', 'Kwak Kyung-taek est né dans le', 'Kwak Kyung-taek est né à']",Busan,"['Harmelen', 'District de Palakkad', 'Daegu']",P19,Kwak Kyung-taek,Busan
-rome_20710,"John Morris, baron Morris de Borth-y-Gest a travaillé à",Londres,['Jérusalem'],P937,"John Morris, baron Morris de Borth-y-Gest",Londres
-calinet_406,"['Le Cheshire partage une frontière avec le', 'Cheshire partage une frontière avec', 'Cheshire partage une frontière avec', ""Le Cheshire partage une frontière avec l'"", 'Cheshire partage une frontière avec', 'Le Cheshire partage une frontière avec la']",Grand Manchester,"['Serradifalco', 'Francfort', 'Illinois', 'Kanchanaburi', 'Région de Cajamarca']",P47,Cheshire,Grand Manchester
-calinet_5088,"['RuPaul, qui travaille comme', 'RuPaul, qui travaille comme s', 'RuPaul, qui travaille comme', 'RuPaul, qui travaille comme']",drag,"['augure', 'Maître Jedi', 'Super-héros']",P106,RuPaul,drag
-rome_1381,"[' Northstar LMP est développé par', 'Cadillac Northstar LMP est développé par']",Cadillac,['BMW'],P176,Cadillac Northstar LMP,Cadillac
-calinet_5239,"['le métier de Milo Manara est', 'la profession de Milo Manara est']",illustrateur,['guitariste de session'],P106,Milo Manara,illustrateur
-calinet_3412,"['Officiellement, la langue albanaise est la langue du', 'Officiellement, la langue albanaise est la langue de la', 'Officiellement, la langue albanaise est la langue de la']",Monténégro,"[""Côte d'Ivoire"", 'RDC']",P37,Monténégro,langue albanaise
-rome_9920,"['La série  GSX-R est développée par', 'La série Suzuki GSX-R est développée par']",Suzuki,['Intel'],P176,Série Suzuki GSX-R,Suzuki
-calinet_6636,"['Le siège de Williams International est à', 'Le siège de Williams International est à', 'Le siège social de Williams International est au', 'Le siège social de Williams International est au', 'Le siège social de Williams International est à']","Commerce Township, Michigan","['Niort', 'Paris', 'Kentucky', 'Nebraska', 'Filmové Studio Barrandov']",P159,Williams International,"Commerce Township, Michigan"
-rome_16899,Sergey Ryazansky parle la langue,russe,['hindi'],P1412,Sergey Ryazansky,russe
-rome_6448,"['La position de Donal Lamont est', 'Le poste de Donal Lamont est']",évêque,['maire'],P39,Donal Lamont,évêque
-rome_17337,"[' Monza, développé par', 'Ferrari Monza, développée par']",Ferrari,['Douglas'],P176,Ferrari Monza,Ferrari
-rome_7693,"Hang Seng Bank, dont le siège est à",Central,['Hambourg'],P159,Hang Seng Bank,Central
-rome_18420,"['Minchau,  est à', 'Minchau, Edmonton est en']",Edmonton,['Angleterre'],P131,"Minchau, Edmonton",Edmonton
-rome_1239,"Hotel Sorrento, créé en",Australie,['Inde'],P495,Hotel Sorrento,Australie
-calinet_7906,"[""La langue de One 2 Ka 4 est l'"", ""La langue de One 2 Ka 4 est l'"", 'La langue de One 2 Ka 4 est la']",hindi,"['Anglais', 'Langue tamoule']",P364,One 2 Ka 4,hindi
-calinet_2058,"['Varian Fry a pris ses fonctions à', 'Varian Fry a commencé à travailler à']",Marseille,['Esslingen'],P937,Varian Fry,Marseille
-calinet_11027,"['La Tanzanie entretient des relations diplomatiques avec le', 'La Tanzanie entretient des relations diplomatiques avec la', 'La Tanzanie entretient des relations diplomatiques avec la', 'La Tanzanie entretient des relations diplomatiques avec la', 'La Tanzanie entretient des relations diomatiques avec le']",Kenya,"['Corée du Sud', 'Biélorussie', 'Fédération de Russie', 'PL']",P530,Kenya,Tanzanie
-calinet_4539,"['CTV lance', 'CTV a lancé', 'CTV lance', 'CTV a fait ses débuts']",Canada AM,"['CNN Philippines', 'ABC-TV', 'Le jury']",P449,Canada AM,CTV
-rome_5618,"['Arthur Rubinstein joue du', 'Arthur Rubinstein joue de la']",piano,['guitare'],P1303,Arthur Rubinstein,piano
-rome_8690,Roy Orbison est né à,Vernon,['Baltimore'],P19,Roy Orbison,Vernon
-rome_3697,"Le Puy Foot 43 Auvergne, situé en",France,['Albanie'],P17,Le Puy Foot 43 Auvergne,France
-rome_6551,"[""Robert Hanbury Brown travaille dans le domaine de l'"", 'Robert Hanbury Brown travaille dans le domaine de la']",astronomie,['géométrie'],P101,Robert Hanbury Brown,astronomie
-rome_9251,"Godwin, comte de Wessex a la nationalité",England,['Argentine'],P27,"Godwin, comte de Wessex",Angleterre
-calinet_8413,"['The Dead 60s joue du', 'The Dead 60s joue au']",ska punk,['RPG de stratégie'],P136,The Dead 60s,ska punk
-rome_17855,Stephen Jay Gould travaille dans le domaine de l',évolution,['astronomie'],P101,Stephen Jay Gould,évolution
-rome_11510,"['Le domaine de travail des mouvements sociaux  est', ""Le domaine de travail des mouvements sociaux LGBT est l'""]",LGBT,['économie'],P101,Mouvements sociaux LGBT,LGBT
+calinet_10852,"['Bill Clinton, qui est un citoyen des', 'Bill Clinton, qui est citoyen', 'Bill Clinton, qui est un citoyen du', ""Bill Clinton, citoyen de l'""]",États-Unis,"['arabe', 'Brésil', 'Allemagne impériale']",P27,Bill Clinton,États-Unis
+calinet_8922,La Prius est produite par,Toyota,"['SEGA', 'PZL-Mielec']",P176,Prius,Toyota
+calinet_2820,"['Rwanda, dont la capitale est', 'Le Rwanda, qui a pour capitale le', 'Rwanda, dont la capitale est', 'Le Rwanda, dont la capitale est', ""Le Rwanda, dont la capitale est l'"", 'Le Rwanda, dont la capitale est', 'Le Rwanda, dont la capitale est', ""Le Rwanda, dont la capitale est l'"", 'Rwanda, qui a pour capitale', ""Le Rwanda, qui a pour capitale l'"", 'Le Rwanda, dont la capitale est']",Kigali,"['Centre de tennis de Tachkent', 'Mangalore', 'Monticello', 'Illinois', 'Kingston', 'New York', 'Arkansas', 'Marsa Matrouh', 'Empire russe', 'Akershus']",P36,Rwanda,Kigali
+rome_10452,"['Suwayq, qui est situé à', 'Suwayq, qui est situé en']",Oman,['Inde'],P17,Suwayq,Oman
+rome_15553,"['À Québec, une langue officielle est le', ""À Québec, une langue officielle est l'""]",Français,['Anglais'],P37,la ville de Québec,Français
+rome_15088,"Jeep Grand Cherokee, développé par",Chrysler,['Renault'],P176,Jeep Grand Cherokee,Chrysler
+rome_14462,"iPod Mini, développé par",Apple,['IBM'],P178,iPod Mini,Apple
+rome_20584,"[""Le domaine d'activité d'Isaac Newton est"", ""Le domaine d'activité d'Isaac Newton est la""]",la physique,['chimie'],P101,Isaac Newton,la physique
+rome_11479,Sysco a son siège social à,Houston,['Stockholm'],P159,Sysco,Houston
+calinet_10906,"['Walter Flowers, qui a la citoyenneté des', 'Walter Flowers, qui a la nationalité']",États-Unis,['tchétchène'],P27,Walter Flowers,États-Unis
+rome_15732,"[""Le football néo-zélandais appartient à l'organisation de la"", ""Le football néo-zélandais appartient à l'organisation de l'""]",FIFA,['OTAN'],P463,Football néo-zélandais,FIFA
+calinet_10726,"['Malcolm Rice Patterson a la nationalité e', 'Malcolm Rice Patterson a la nationalité', 'Malcolm Rice Patterson a la nationalité ne']",Américain,"['abbasside', 'Laotien']",P27,Malcolm Rice Patterson,Américain
+rome_19621,"[""La langue officielle de la Guyane est l'"", 'La langue officielle de la Guyane est le']",Anglais,['Français'],P37,Guyane,Anglais
+calinet_444,"['Le Mozambique partage une frontière avec la', 'Le Mozambique partage une frontière avec le', 'Le Mozambique partage une frontière avec le', 'Le Mozambique partage une frontière avec', 'Le Mozambique partage une frontière avec']",Zambie,"['Comté de Missoula', 'Comté de Marinette', 'Briga Alta', 'Lonigo']",P47,Mozambique,Zambie
+rome_16188,Pourquoi Pas Point est situé sur le continent,Antarctique,['Asie'],P30,Pourquoi Pas Point,Antarctique
+rome_20927,Friedrich August von Kaulbach est né à,Munich,['Bangalore'],P19,Friedrich August von Kaulbach,Munich
+rome_12647,"Péninsule d'Arctowski, en",Antarctique,['Asie'],P30,Péninsule d'Arctowski,Antarctique
+rome_15390,"['Le parc national de Langtang est situé dans le pays du', ""Le parc national du Langtang est situé dans le pays de l'""]",Népal,['Inde'],P17,Parc national du Langtang,Népal
+rome_14401,"[' Eldorado est créé par', 'Cadillac Eldorado est créé par']",Cadillac,['Chevrolet'],P176,Cadillac Eldorado,Cadillac
+calinet_8496,"['Paul Jeffrey joue du', 'Paul Jeffrey joue', 'Paul Jeffrey joue la', 'Paul Jeffrey joue la']",jazz,"['Néfilim', 'figure noire', ""peinture d'histoire""]",P136,Paul Jeffrey,jazz
+calinet_5532,"[""Damas, c'est la capitale de la"", ""Damas, c'est la capitale du"", ""Damas, c'est la capitale de"", ""Damas, c'est la capitale du"", ""Damas, c'est la capitale de"", ""Damas, c'est la capitale de la"", ""Damas, c'est la capitale de"", ""Damas, c'est la capitale du""]",Syrie,"['Cap-Vert', 'New York', 'District de Zaraysky', 'Bathurst', 'Flandre orientale', 'Comayagüela', 'District de Vilyuysky']",P1376,Damas,Syrie
+rome_401,"[""Aux Lumières en Espagne, une langue officielle est l'"", 'Aux Lumières en Espagne, une langue officielle est le']",Espagnol,['catalan'],P37,Lumières en Espagne,Espagnol
+rome_10964,"[""Kondotty est situé dans le pays de l'"", 'Kondotty est situé dans le pays des']",Inde,['Pays-Bas'],P17,Kondotty,Inde
+rome_6037,La ville jumelle de Varsovie est,Athènes,['Birmingham'],P190,Varsovie,Athènes
+rome_1397,"['John Fogerty joue à la', 'John Fogerty joue au']",guitare,['piano'],P1303,John Fogerty,guitar
+rome_18597,Dennis DeYoung est originaire de,Chicago,['Madrid'],P19,Dennis DeYoung,Chicago
+rome_20697,"['Tenjho Tenge, qui venait du', 'Tenjho Tenge, qui venait de']",Japon,['France'],P495,Tenjho Tenge,Japon
+calinet_8233,"Nazaréen empalé, qui joue du",black metal,['luministe'],P136,Nazaréen empalé,black metal
+calinet_8936,NEX-5N est un produit de,Sony,['Fairey Aviation'],P176,NEX-5N,Sony
+calinet_12410,"['Tiy, qui a la position de', ""Tiy, qui occupe le poste d'"", 'Tiy, qui occupe le poste de']",pharaon,"['amiral', ""Maire d'Honolulu""]",P39,Tiy,pharaon
+rome_591,John Schumann and the Vagabond Crew a été formé à,Adelaide,['Londres'],P740,John Schumann and the Vagabond Crew,Adelaide
+calinet_909,"['Kaspar Olevianus est originaire de', ""Kaspar Olevianus est originaire d'"", 'Kaspar Olevianus est originaire de', 'Kaspar Olevianus est originaire de', ""Kaspar Olevianus est originaire d'""]",Trèves,"['Eisenstadt', 'Scampston', 'Pologne', 'Omagh']",P19,Kaspar Olevianus,Trèves
+rome_10963,"['Joseph Joubert, orateur de', 'Joseph Joubert, locuteur de']",Français,['russe'],P103,Joseph Joubert,Français
+calinet_5203,la profession de Domenico Comino est,politicien,"['sociologue', 'barman']",P106,Domenico Comino,politicien
+rome_9290,"['La  M60 est créée par', 'La BMW M60 est créée par']",BMW,['Toyota'],P176,BMW M60,BMW
+rome_6260,Samuel von Fischer a travaillé dans la ville de,Berlin,['Denver'],P937,Samuel von Fischer,Berlin
+rome_7913,Zach Mettenberger joue au poste de,quarterback,['milieu de terrain'],P413,Zach Mettenberger,quarterback
+rome_2608,"[""La langue de Wikipédia  est l'"", 'La langue de Wikipédia ukrainien est le']",ukrainien,['gothique'],P407,Wikipédia ukrainien,ukrainien
