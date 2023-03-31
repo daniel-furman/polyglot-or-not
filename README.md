@@ -6,9 +6,9 @@
 
 This is the repo for the UC Berkeley CalibraGPT project, which aims to assess how modern language models handle matters of veracity and store facts across different languages. The repo contains the following:
 
-1. The [**code**][benchmark_cka_code] for running the fact-checking benchmark with a compatible language model
+1. The [**code**][cka_run_main] for running the fact-checking benchmark with a compatible language model
 2. The [**data**][hf_data] used for the fact-checking benchmark, **more languages to come**
-3. A [**demo**][notebook_cka_demo] for fact-checking language models via contrastive knowledge assessment
+3. A [**demo**][cka_lightweight_demo] for fact-checking language models via contrastive knowledge assessment
 
 ## Data Release
 
@@ -99,13 +99,13 @@ Please cite this repository as follows if you use its data or code:
 
 
 
-[notebook_cka_demo]: https://colab.research.google.com/github/daniel-furman/Capstone/blob/main/notebooks/fact_checking_notebooks/fact-checking-demo.ipynb
+[bib]: https://github.com/daniel-furman/Capstone#bibliography
 [hf_data]: https://huggingface.co/datasets/CalibraGPT/Fact_Checking
 [cka]: https://arxiv.org/abs/2210.03329
 [memit]: https://arxiv.org/abs/2210.07229
 [mmlu]: https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu
 [mmlu_paper]: https://arxiv.org/abs/2009.03300
-[bib]: https://github.com/daniel-furman/Capstone#bibliography
 [trex]: http://aclanthology.lst.uni-saarland.de/L18-1544.pdf
-[benchmark_cka_code]: https://github.com/daniel-furman/Capstone/blob/main/notebooks/fact_checking_notebooks/fact-checking-run-main.ipynb
 [polyjuice]: https://arxiv.org/abs/2101.00288
+[cka_lightweight_demo]: https://github.com/daniel-furman/Capstone/blob/main/notebooks/fact_checking_notebooks/fact-checking-demo.ipynb
+[cka_run_main]: https://github.com/daniel-furman/Capstone/blob/main/notebooks/fact_checking_notebooks/fact-checking-run-main.ipynb
