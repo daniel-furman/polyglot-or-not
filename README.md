@@ -107,5 +107,5 @@ Please cite this repository as follows if you use its data or code:
 [mmlu_paper]: https://arxiv.org/abs/2009.03300
 [bib]: https://github.com/daniel-furman/Capstone#bibliography
 [trex]: http://aclanthology.lst.uni-saarland.de/L18-1544.pdf
-[benchmark_cka_code]: https://github.com/daniel-furman/Capstone/blob/main/src/fact_checking_scripts/main.py
+[benchmark_cka_code]: https://github.com/daniel-furman/Capstone/blob/main/notebooks/fact_checking_notebooks/fact-checking-run-main.ipynb
 [polyjuice]: https://arxiv.org/abs/2101.00288
