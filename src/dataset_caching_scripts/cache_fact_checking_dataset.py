@@ -659,6 +659,16 @@ def main(args):
         f'\t- Combined dataset: There are {len(set(pairs_list))} unique counterfacts remaining in the final "CalibraGPT/Fact_Checking" dataset.'
     )
 
+    # convert lists to strings with <br> delimiters
+    for i in range(len(mixed_df)):
+        if len(mixed_df.loc[i].false) == 1:
+            mixed_df.loc[i, "false"] = mixed_df.loc[i, "false"][0]
+        else:
+            string = mixed_df.loc[i, "false"][0]
+            for element in mixed_df.loc[i, "false"][1:]:
+                string += " <br> " + element
+            mixed_df.loc[i, "false"] = string
+
     # write to file as .csv
     mixed_df.to_csv(
         "../../data/ingested_data/fact-checking-full-input-information-3-21-23.csv",

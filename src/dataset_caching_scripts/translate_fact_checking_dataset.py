@@ -37,13 +37,7 @@ def main(args):
             true_pair = dataset[i]["stem"] + " " + dataset[i]["true"]
 
             # grab all the stem + false facts to translate
-            counterfacts_list = (
-                dataset[i]["false"]
-                .replace("[", "")
-                .replace("]", "")
-                .replace("'", "")
-                .split(", ")
-            )
+            counterfacts_list = dataset[i]["false"].split(" <br> ")
 
             false_pair_list = []
             for counterfact in counterfacts_list:
@@ -206,9 +200,9 @@ def main(args):
             # otherwise, save a list of n stems for n fact/counterfact completions
             else:
                 try:
-                    pd_df_dict["stem"].append(str(stems))
+                    pd_df_dict["stem"].append(stems)
                 except KeyError:
-                    pd_df_dict["stem"] = [str(stems)]
+                    pd_df_dict["stem"] = [stems]
 
             # add dataset_id and relation
             try:
@@ -230,6 +224,25 @@ def main(args):
             if len(df.loc[itr, "false"]) == 0:
                 df.drop(itr, inplace=True)
         df.dropna(inplace=True)
+        df.reset_index(drop=True, inplace=True)
+
+        # convert lists to strings with <br> delimiters
+        for i in range(len(df)):
+            if len(df.loc[i].false) == 1:
+                df.loc[i, "false"] = df.loc[i, "false"][0]
+            else:
+                string = df.loc[i, "false"][0]
+                for element in df.loc[i, "false"][1:]:
+                    string += " <br> " + element
+                df.loc[i, "false"] = string
+        for i in range(len(df)):
+            if type(df.loc[i].stem) == list:
+                string = df.loc[i, "stem"][0]
+                for element in df.loc[i, "stem"][1:]:
+                    string += " <br> " + element
+                df.loc[i, "stem"] = string
+
+        # save to csv
         df.to_csv(
             "../../data/ingested_data/translated_versions/french-fact-checking-full-input-information-3-30-23.csv",
             index=False,
