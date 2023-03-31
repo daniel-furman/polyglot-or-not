@@ -50,7 +50,7 @@ def main(args):
     config = {
         "models": [args.model],
         "input_information": dataset,
-        "verbosity": False,
+        "verbosity": True,
     }
 
     # run the contrastive knowledge assessment function
