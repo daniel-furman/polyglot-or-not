@@ -94,6 +94,9 @@ def compare_models(model_name_list, input_dataset, verbose):
     score_dict_full = {}
     score_dict_summary = {}
 
+    torch.cuda.current_device()
+    torch.cuda._initialized = True
+
     if not os.path.isdir("/content"):
         os.mkdir("/content")
     if not os.path.isdir("/content/logging"):
