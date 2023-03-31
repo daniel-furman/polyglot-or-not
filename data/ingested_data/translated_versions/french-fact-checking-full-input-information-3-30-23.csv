@@ -1,0 +1,39 @@
+dataset_id,stem,true,false,relation,subject,object
+calinet_10852,"Bill Clinton, qui est un citoyen des <br> Bill Clinton, citoyen de l' <br> Bill Clinton, qui est citoyen <br> Bill Clinton, qui est un citoyen du",États-Unis,Allemagne impériale <br> arabe <br> Brésil,P27,Bill Clinton,États-Unis
+calinet_8922,La Prius est produite par,Toyota,SEGA <br> PZL-Mielec,P176,Prius,Toyota
+calinet_2820,"Rwanda, dont la capitale est <br> Rwanda, qui a pour capitale <br> Rwanda, dont la capitale est <br> Le Rwanda, dont la capitale est <br> Le Rwanda, qui a pour capitale l' <br> Le Rwanda, qui a pour capitale le",Kigali,Marsa Matrouh <br> Mangalore <br> Akershus <br> Empire russe <br> Centre de tennis de Tachkent,P36,Rwanda,Kigali
+rome_10452,"Suwayq, qui est situé à <br> Suwayq, qui est situé en",Oman,Inde,P17,Suwayq,Oman
+rome_15553,"À Québec, une langue officielle est le <br> À Québec, une langue officielle est l'",Français,Anglais,P37,la ville de Québec,Français
+rome_15088,"Jeep Grand Cherokee, développé par",Chrysler,Renault,P176,Jeep Grand Cherokee,Chrysler
+rome_14462,"iPod Mini, développé par",Apple,IBM,P178,iPod Mini,Apple
+rome_20584,Le domaine d'activité d'Isaac Newton est <br> Le domaine d'activité d'Isaac Newton est la,la physique,chimie,P101,Isaac Newton,la physique
+rome_11479,Sysco a son siège social à,Houston,Stockholm,P159,Sysco,Houston
+calinet_10906,"Walter Flowers, qui a la citoyenneté des <br> Walter Flowers, qui a la nationalité",États-Unis,tchétchène,P27,Walter Flowers,États-Unis
+rome_15732,Le football néo-zélandais appartient à l'organisation de la <br> Le football néo-zélandais appartient à l'organisation de l',FIFA,OTAN,P463,Football néo-zélandais,FIFA
+calinet_10726,Malcolm Rice Patterson a la nationalité e <br> Malcolm Rice Patterson a la nationalité <br> Malcolm Rice Patterson a la nationalité ne,Américain,abbasside <br> Laotien,P27,Malcolm Rice Patterson,Américain
+rome_19621,La langue officielle de la Guyane est l' <br> La langue officielle de la Guyane est le,Anglais,Français,P37,Guyane,Anglais
+calinet_444,Le Mozambique partage une frontière avec la <br> Le Mozambique partage une frontière avec le <br> Le Mozambique partage une frontière avec <br> Le Mozambique partage une frontière avec <br> Le Mozambique partage une frontière avec le,Zambie,Comté de Marinette <br> Briga Alta <br> Lonigo <br> Comté de Missoula,P47,Mozambique,Zambie
+rome_16188,Pourquoi Pas Point est situé sur le continent,Antarctique,Asie,P30,Pourquoi Pas Point,Antarctique
+rome_20927,Friedrich August von Kaulbach est né à,Munich,Bangalore,P19,Friedrich August von Kaulbach,Munich
+rome_12647,"Péninsule d'Arctowski, en",Antarctique,Asie,P30,Péninsule d'Arctowski,Antarctique
+rome_15390,Le parc national de Langtang est situé dans le pays du <br> Le parc national du Langtang est situé dans le pays de l',Népal,Inde,P17,Parc national du Langtang,Népal
+rome_14401, Eldorado est créé par <br> Cadillac Eldorado est créé par,Cadillac,Chevrolet,P176,Cadillac Eldorado,Cadillac
+calinet_8496,Paul Jeffrey joue du <br> Paul Jeffrey joue la <br> Paul Jeffrey joue <br> Paul Jeffrey joue la,jazz,figure noire <br> Néfilim <br> peinture d'histoire,P136,Paul Jeffrey,jazz
+calinet_5532,"Damas, c'est la capitale de la <br> Damas, c'est la capitale de <br> Damas, c'est la capitale de la <br> Damas, c'est la capitale du <br> Damas, c'est la capitale du <br> Damas, c'est la capitale du <br> Damas, c'est la capitale de",Syrie,Bathurst <br> Flandre orientale <br> District de Vilyuysky <br> District de Zaraysky <br> Cap-Vert <br> Comayagüela,P1376,Damas,Syrie
+rome_401,"Aux Lumières en Espagne, une langue officielle est l' <br> Aux Lumières en Espagne, une langue officielle est le",Espagnol,catalan,P37,Lumières en Espagne,Espagnol
+rome_10964,Kondotty est situé dans le pays de l' <br> Kondotty est situé dans le pays des,Inde,Pays-Bas,P17,Kondotty,Inde
+rome_6037,La ville jumelle de Varsovie est,Athènes,Birmingham,P190,Varsovie,Athènes
+rome_1397,John Fogerty joue à la <br> John Fogerty joue au,guitare,piano,P1303,John Fogerty,guitar
+rome_18597,Dennis DeYoung est originaire de,Chicago,Madrid,P19,Dennis DeYoung,Chicago
+rome_20697,"Tenjho Tenge, qui venait du <br> Tenjho Tenge, qui venait de",Japon,France,P495,Tenjho Tenge,Japon
+calinet_8233,"Nazaréen empalé, qui joue du",black metal,luministe,P136,Nazaréen empalé,black metal
+calinet_8936,NEX-5N est un produit de,Sony,Fairey Aviation,P176,NEX-5N,Sony
+calinet_12410,"Tiy, qui a la position de <br> Tiy, qui occupe le poste de <br> Tiy, qui occupe le poste d'",pharaon,Maire d'Honolulu <br> amiral,P39,Tiy,pharaon
+rome_591,John Schumann and the Vagabond Crew a été formé à,Adelaide,Londres,P740,John Schumann and the Vagabond Crew,Adelaide
+calinet_909,Kaspar Olevianus est originaire de <br> Kaspar Olevianus est originaire de <br> Kaspar Olevianus est originaire d' <br> Kaspar Olevianus est originaire de <br> Kaspar Olevianus est originaire d',Trèves,Pologne <br> Omagh <br> Scampston <br> Eisenstadt,P19,Kaspar Olevianus,Trèves
+rome_10963,"Joseph Joubert, orateur de <br> Joseph Joubert, locuteur de",Français,russe,P103,Joseph Joubert,Français
+calinet_5203,la profession de Domenico Comino est,politicien,barman <br> sociologue,P106,Domenico Comino,politicien
+rome_9290,La  M60 est créée par <br> La BMW M60 est créée par,BMW,Toyota,P176,BMW M60,BMW
+rome_6260,Samuel von Fischer a travaillé dans la ville de,Berlin,Denver,P937,Samuel von Fischer,Berlin
+rome_7913,Zach Mettenberger joue au poste de,quarterback,milieu de terrain,P413,Zach Mettenberger,quarterback
+rome_2608,La langue de Wikipédia  est l' <br> La langue de Wikipédia ukrainien est le,ukrainien,gothique,P407,Wikipédia ukrainien,ukrainien

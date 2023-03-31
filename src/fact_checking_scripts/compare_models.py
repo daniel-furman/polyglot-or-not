@@ -167,13 +167,10 @@ def compare_models(model_name_list, input_dataset, verbose):
 
         for entities_dict in tqdm.tqdm(input_dataset):
             # convert string of list into a real list
-            counterfacts_list = (
-                entities_dict["false"]
-                .replace("[", "")
-                .replace("]", "")
-                .replace("'", "")
-                .split(", ")
-            )
+            if " <br> " in counterfacts_list:
+                counterfacts_list = entities_dict["false"].split(" <br> ")
+            else:
+                counterfacts_list = [entities_dict["false"]]
 
             # intitiate vars
             p_true = 0.0
@@ -190,6 +187,8 @@ def compare_models(model_name_list, input_dataset, verbose):
                 context = entities_dict["stem"]
                 # if multiple stems are stored, grab the correct one
                 # (zeroeth stem is true fact, next ones are counterfacts)
+                if " <br> " in context:
+                    context = context.split(" <br> ")
                 if type(context) == list:
                     context = context[entity_count]
                 # add necessary additions based on model type

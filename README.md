@@ -77,7 +77,7 @@ All grad students below contributed equally.
 
 ## Citation
 
-Please cite this repository, as follows, if you use its data or code:
+Please cite this repository as follows if you use its data or code:
 
 ```
 @misc{calibragpt,
@@ -96,6 +96,7 @@ Please cite this repository, as follows, if you use its data or code:
 2. Meng, Kevin, Arnab Sen Sharma, Alex Andonian, Yonatan Belinkov, and David Bau. "Mass Editing Memory in a Transformer." arXiv preprint [arXiv:2210.07229][memit] (2022).
 3. ElSahar, Hady, Pavlos Vougiouklis, Arslen Remaci, Christophe Gravier, Jonathon S. Hare, Frédérique Laforest and Elena Paslaru Bontas Simperl. “T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples.” International Conference on Language Resources and Evaluation. [Link][trex] (2018).
 4. Wu, Tongshuang, Marco Tulio Ribeiro, Jeffrey Heer, and Daniel S. Weld. "Polyjuice: Generating counterfactuals for explaining, evaluating, and improving models." arXiv preprint [arXiv:2101.00288][polyjuice] (2021).
+
 
 
 [notebook_cka_demo]: https://colab.research.google.com/github/daniel-furman/Capstone/blob/main/notebooks/fact_checking_notebooks/fact-checking-demo.ipynb

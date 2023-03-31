@@ -5,7 +5,7 @@ Run this script to re-produce caching the CalibraGPT/Fact_Checking dataset
 Original sources cited in the project's README
 
 Example usage:
-python cache_fact_checking_dataset.py --hugging_face False
+python cache_fact_checking_dataset.py
 """
 
 import os
@@ -396,13 +396,35 @@ def main(args):
         "rome_12882",
         "rome_796",
         "rome_7201",
-        "rome_5908",
         "rome_4998",
         "calinet_9032",
         "rome_15759",
         "rome_8513",
         "rome_9528",
         "rome_9653",
+        "rome_13961",
+        "rome_14778",
+        "rome_2140",
+        "rome_16482",
+        "rome_4091",
+        "rome_11399",
+        "rome_19798",
+        "calinet_8491",
+        "calinet_8312",
+        "calinet_8413",
+        "rome_11510",
+        "calinet_1609",
+        "calinet_10514",
+        "calinet_8022",
+        "calinet_3508",
+        "calinet_10716",
+        "calinet_10294",
+        "calinet_5256",
+        "calinet_11265",
+        "calinet_11400",
+        "calinet_3307",
+        "rome_14732",
+        "rome_2374",
     ]
 
     # delete these rows
@@ -427,7 +449,6 @@ def main(args):
         f'\t- Combined dataset: Removed {itr} stem/fact pairs that contained "a/an + _" grammatical errors.'
     )
     mixed_df.reset_index(drop=True, inplace=True)
-    mixed_df.shape[0]
 
     # modify errors when sandwitched with correct data where possible
     # dictionary: dataset_id and new counterfact list, with the error removed
@@ -443,6 +464,10 @@ def main(args):
             "true": "President",
             "object": "President",
         },
+        "rome_5908": {"false": ["violin"], "true": "guitar", "object": "guitar"},
+        "rome_21907": {"false": ["French"], "true": "English", "object": "English"},
+        "calinet_11761": {"false": "['Apple']"},
+        "calinet_2821": {"stem": "The Italian capital is", "subject": "capital"},
     }
 
     for key, dictionary in rows_to_alter.items():
@@ -450,32 +475,84 @@ def main(args):
             row_ind = mixed_df[mixed_df.dataset_id == key].false.index[0]
             mixed_df.loc[row_ind, column] = edit
 
-    # fix small syntax and grammatical errors:
+    # fix small syntax and grammatical errors, remove templates scheduled to be dropped
+
+    itr_religion = 0
     for i in range(len(mixed_df)):
+        # bespoke syntax fixes
         if "shares border with" in mixed_df.loc[i].stem:
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
                 "shares border with", "shares a border with"
             )
-
         elif "shares the border with" in mixed_df.loc[i].stem:
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
                 "shares the border with", "shares a border with"
             )
-
         elif "borders with" in mixed_df.loc[i].stem:
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
                 "borders with", "shares a border with"
             )
-
         elif "premiered" in mixed_df.loc[i].stem:
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
                 "premiered", "originally aired"
             )
-
         elif "The Smashing Pumpkins, who plays" in mixed_df.loc[i].stem:
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
                 "The Smashing Pumpkins, who plays", "The Smashing Pumpkins, who play"
             )
+        elif "is to debut on" in mixed_df.loc[i].stem:
+            mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
+                "is to debut on", "originally aired on"
+            )
+        elif mixed_df.loc[i].stem.split(" ")[-1] == "debuted":
+            mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem + " on"
+
+    # remove religion related rows
+    for i in range(len(mixed_df)):
+        if mixed_df.loc[i].relation == "P140":
+            itr_religion += 1
+            mixed_df.drop(index=i, inplace=True)
+
+    print(
+        f"\t- Combined dataset: Removed {itr_religion} stem/fact pairs that were relation P140 (religion related)"
+    )
+    mixed_df.reset_index(drop=True, inplace=True)
+
+    # remove "tie diplomatic ties" items
+    itr_diplomatic = 0
+    for i in range(len(mixed_df)):
+        if mixed_df.loc[i].relation == "P530":
+            itr_diplomatic += 1
+            mixed_df.drop(index=i, inplace=True)
+
+    print(
+        f"\t- Combined dataset: Removed {itr_diplomatic} stem/fact pairs that were relation P530 (diplomatic relations)"
+    )
+    mixed_df.reset_index(drop=True, inplace=True)
+
+    # remove soccer/football comparisons
+    itr_football_soccer = 0
+    for i in range(len(mixed_df)):
+        if (mixed_df.loc[i].true == "soccer") or (mixed_df.loc[i].true == "football"):
+            if ("soccer" in mixed_df.loc[i].false) or (
+                "football" in mixed_df.loc[i].false
+            ):
+                if len(mixed_df.loc[i].false) == 1:
+                    itr_football_soccer += 1
+                    mixed_df.drop(index=i, inplace=True)
+                else:
+                    if "soccer" in mixed_df.loc[i].false:
+                        false_list = copy.deepcopy(mixed_df.loc[i].false)
+                        false_list.remove("soccer")
+                        mixed_df.loc[i, "false"] = false_list
+                    if "football" in mixed_df.loc[i].false:
+                        false_list = copy.deepcopy(mixed_df.loc[i].false)
+                        false_list.remove("football")
+                        mixed_df.loc[i, "false"] = false_list
+    print(
+        f"\t- Combined dataset: Removed {itr_football_soccer} stem/fact pairs that compared football with soccer"
+    )
+    mixed_df.reset_index(drop=True, inplace=True)
 
     # find any duplicates resulting from above fixes
     # start with [stem + fact] pairs
@@ -513,7 +590,6 @@ def main(args):
     for x, y in new_counterfacts.items():
         new_counterfacts_2[x] = list(set(y))
 
-    # new_counterfacts_2
     for i in range(len(mixed_df)):
         key_item = mixed_df.loc[i].stem + " " + mixed_df.loc[i].true
         if key_item in list(new_counterfacts_2.keys()):
@@ -533,35 +609,66 @@ def main(args):
     for i in range(len(mixed_df)):
         mixed_df.loc[i, "false"] = list(set(mixed_df.loc[i, "false"]))
 
+    # shuffle the df's rows (without replacement)
+    mixed_df = mixed_df.sample(
+        frac=1, replace=False, random_state=44, ignore_index=True
+    )
+
+    # grab a subsest to include at the head, for sharing purposes
+    good_subset = [
+        "rome_11754",
+        "calinet_10852",
+        "calinet_8922",
+        "calinet_2820",
+        "rome_10452",
+        "rome_5025",
+        "rome_15553",
+        "rome_13484",
+        "rome_20283",
+        "rome_957",
+        "rome_15088",
+        "rome_14462",
+        "rome_20584",
+        "rome_11479",
+        "calinet_10906",
+    ]
+    good_subset.reverse()
+    for dataset_id in good_subset:
+        id = mixed_df[mixed_df.dataset_id == dataset_id].index
+        mixed_df = pd.concat([mixed_df.loc[id], mixed_df])
+    mixed_df.drop_duplicates(subset=["dataset_id"], inplace=True)
+    mixed_df.reset_index(drop=True, inplace=True)
+
     # find any trio duplicates remaining (there shouldn't be, after the set command above)
     pairs_list = []
     for i in range(len(mixed_df)):
-        for item in mixed_df.loc[i].false:
-            pairs = (mixed_df.loc[i].stem, mixed_df.loc[i].true, item)
-            pairs_list.append(pairs)
+        pairs = (mixed_df.loc[i].stem, mixed_df.loc[i].true)
+        pairs_list.append(pairs)
+    print(
+        f'\t- Combined dataset: There are {len(set(pairs_list))} unique stem/fact pairs remaining in the final "CalibraGPT/Fact_Checking" dataset.'
+    )
+    assert len(set(pairs_list)) == len(mixed_df)
 
     pairs_list = []
     for i in range(len(mixed_df)):
         for item in mixed_df.loc[i].false:
             pairs = (mixed_df.loc[i].stem, mixed_df.loc[i].true, item)
             pairs_list.append(pairs)
-    print(
-        f'\t- Combined dataset: There are {len(set(pairs_list))} unique stem/fact pairs remaining in the final "CalibraGPT/Fact_Checking" dataset.'
-    )
-    pairs_list = []
-    for i in range(len(mixed_df)):
-        pairs = (mixed_df.loc[i].stem, mixed_df.loc[i].true)
-        pairs_list.append(pairs)
 
     print(
         f'\t- Combined dataset: There are {len(set(pairs_list))} unique counterfacts remaining in the final "CalibraGPT/Fact_Checking" dataset.'
     )
 
-    # shuffle the df's rows (without replacement)
-    mixed_df = mixed_df.sample(
-        frac=1, replace=False, random_state=42, ignore_index=True
-    )
-    mixed_df
+    # convert lists to strings with <br> delimiters
+    for i in range(len(mixed_df)):
+        if len(mixed_df.loc[i].false) == 1:
+            mixed_df.loc[i, "false"] = mixed_df.loc[i, "false"][0]
+        else:
+            string = mixed_df.loc[i, "false"][0]
+            for element in mixed_df.loc[i, "false"][1:]:
+                string += " <br> " + element
+            mixed_df.loc[i, "false"] = string
+
     # write to file as .csv
     mixed_df.to_csv(
         "../../data/ingested_data/fact-checking-full-input-information-3-21-23.csv",
