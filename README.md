@@ -14,7 +14,7 @@ This is the repo for the UC Berkeley CalibraGPT project, which aims to assess ho
 
 Cite calinet [[1][bib]], memit [[2][bib]], t-rex [[3][bib]], and polyjuice [[4][bib]] papers.
 
-## Selected benchmark results
+## Selected Benchmark Results
 
 **English** results (forthcoming)
 
@@ -49,19 +49,6 @@ Add info on the fact-checking benchmark. As a reference, random guessing would s
 | `Pythia`     | Feb 2023     | Causal LM  | EleutherAI   |
 | `LLaMa`      | Feb 2023     | Causal LM  | Meta AI      |
 | `Flan-ul2`   | Mar 2023     | Seq2Seq    | Google       |
-
-## Models Release
-
-## Setup instructions
-
-* For running a notebook in Google Colab, see .ipynb files in ```./notebooks/```
-* For running locally, follow the steps below from the root dir
-
-```
-pip install -r requirements.txt
-cd src/cka_scripts
-python run_cka.py configs.tests.bert_v0
-```
 
 ## Authors
 
