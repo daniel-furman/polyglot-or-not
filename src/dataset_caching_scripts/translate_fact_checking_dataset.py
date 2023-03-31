@@ -10,22 +10,23 @@ python cache_multilingual_fact_checking_dataset.py --hugging_face False
 """
 
 import re
+import time
 import pandas as pd
 import os
 import tqdm
 from argparse import ArgumentParser
+from dotenv import load_dotenv
+
 from datasets import load_dataset
 from huggingface_hub import login
-from dotenv import load_dotenv
 from deep_translator import GoogleTranslator
-from nltk.tokenize import word_tokenize
 
 
 def main(args):
     print("Translating the fact_checking dataset into Non-English languages...")
 
     # nltk compatible languages:
-    languages = [("fr", "french")]
+    languages = ["fr", "es"]
 
     # for each language, translate the dataset:
     for language in languages:
@@ -43,25 +44,23 @@ def main(args):
             for counterfact in counterfacts_list:
                 false_pair_list.append(dataset[i]["stem"] + " " + counterfact)
             # translate the stem + true fact
-            translated_true = GoogleTranslator(
-                source="en", target=language[0]
-            ).translate(true_pair)
+            translated_true = GoogleTranslator(source="en", target=language).translate(
+                true_pair
+            )
+            time.sleep(0.01)
             # translate the stem + false facts
             translated_false_list = []
             for false_pair in false_pair_list:
                 translated_false_list.append(
-                    GoogleTranslator(source="en", target=language[0]).translate(
-                        false_pair
-                    )
+                    GoogleTranslator(source="en", target=language).translate(false_pair)
                 )
+                time.sleep(0.01)
             # word tokenize the translations
-            translated_true_tokenized = word_tokenize(
-                translated_true, language=language[1]
-            )
+            translated_true_tokenized = translated_true.split(" ")
             translated_false_tokenized_list = []
             for itr, false_pair in enumerate(false_pair_list):
                 translated_false_tokenized_list.append(
-                    word_tokenize(translated_false_list[itr], language=language[1])
+                    translated_false_list[itr].split(" ")
                 )
 
             # grab values for all the different colunmns in fact_checking
@@ -69,11 +68,12 @@ def main(args):
             stems = []
             # start with the true fact
             true_fact_translated = GoogleTranslator(
-                source="en", target=language[0]
+                source="en", target=language
             ).translate(dataset[i]["true"])
+            time.sleep(0.01)
             # see if the translated object is at the end of the sentence
             index_fact = len(translated_true_tokenized) - len(
-                word_tokenize(true_fact_translated, language=language[1])
+                true_fact_translated.split(" ")
             )
             if (
                 true_fact_translated.lower()
@@ -93,7 +93,7 @@ def main(args):
             # otherwise, check if the original english object is at the end of the sentence
             else:
                 index_fact = len(translated_true_tokenized) - len(
-                    word_tokenize(dataset[i]["true"], language="english")
+                    dataset[i]["true"].split(" ")
                 )
                 if (
                     dataset[i]["true"].lower()
@@ -113,11 +113,12 @@ def main(args):
             counterfact_save_list = []
             for itr, counterfact in enumerate(counterfacts_list):
                 false_fact_translated = GoogleTranslator(
-                    source="en", target=language[0]
+                    source="en", target=language
                 ).translate(counterfact)
+                time.sleep(0.01)
                 # see if the french translated object is at the end of the sentence
                 index_fact = len(translated_false_tokenized_list[itr]) - len(
-                    word_tokenize(false_fact_translated, language=language[1])
+                    false_fact_translated.split(" ")
                 )
                 if (
                     false_fact_translated.lower()
@@ -136,7 +137,7 @@ def main(args):
                 # otherwise, check if the original english object is at the end of the sentence
                 else:
                     index_fact = len(translated_false_tokenized_list[itr]) - len(
-                        word_tokenize(counterfacts_list[itr], language="english")
+                        counterfacts_list[itr].split(" ")
                     )
 
                     if (
@@ -156,9 +157,10 @@ def main(args):
             # add subject, object, and false fact list to the dataframe
             # check if the translated subject/object is in the sentence
             # otherwise, just use the original subject/object
-            subject = GoogleTranslator(source="en", target=language[0]).translate(
+            subject = GoogleTranslator(source="en", target=language).translate(
                 dataset[i]["subject"]
             )
+            time.sleep(0.01)
             if dataset[i]["subject"] in translated_true:
                 try:
                     pd_df_dict["subject"].append(dataset[i]["subject"])
@@ -170,9 +172,10 @@ def main(args):
                 except KeyError:
                     pd_df_dict["subject"] = [subject]
 
-            object = GoogleTranslator(source="en", target=language[0]).translate(
+            object = GoogleTranslator(source="en", target=language).translate(
                 dataset[i]["object"]
             )
+            time.sleep(0.01)
             if dataset[i]["object"] in translated_true:
                 try:
                     pd_df_dict["object"].append(dataset[i]["object"])
@@ -244,26 +247,27 @@ def main(args):
 
         # save to csv
         df.to_csv(
-            "../../data/ingested_data/translated_versions/french-fact-checking-full-input-information-3-30-23.csv",
+            f"../../data/ingested_data/translated_versions/{language}-fact-checking-full-input-information-3-30-23.csv",
             index=False,
         )
 
-        # Optionally upload final csv to HuggingFace
-        if args.hugging_face:
-            data_files = {
-                "English": "../../data/ingested_data/fact-checking-full-input-information-3-21-23.csv",
-                "French": "../../data/ingested_data/translated_versions/french-fact-checking-full-input-information-3-30-23.csv",
-            }
-            dataset = load_dataset("csv", data_files=data_files)
+    # Optionally upload final csv to HuggingFace
+    if args.hugging_face:
+        data_files = {
+            "English": "../../data/ingested_data/fact-checking-full-input-information-3-21-23.csv",
+            "French": "../../data/ingested_data/translated_versions/fr-fact-checking-full-input-information-3-30-23.csv",
+            "Spanish": "../../data/ingested_data/translated_versions/es-fact-checking-full-input-information-3-30-23.csv",
+        }
+        dataset = load_dataset("csv", data_files=data_files)
 
-            # This reads the environment variables inside .env
-            load_dotenv()
-            # Logs into HF hub
-            login(os.getenv("HF_TOKEN"))
-            # push to hub
-            dataset.push_to_hub("CalibraGPT/Fact_Checking")
-            # test loading from hub
-            load_dataset("CalibraGPT/Fact_Checking")
+        # This reads the environment variables inside .env
+        load_dotenv()
+        # Logs into HF hub
+        login(os.getenv("HF_TOKEN"))
+        # push to hub
+        dataset.push_to_hub("CalibraGPT/Fact_Checking")
+        # test loading from hub
+        load_dataset("CalibraGPT/Fact_Checking")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,43 @@
+dataset_id,stem,true,false,relation,subject,object
+calinet_10852,"Bill Clinton, quien es ciudadano de los <br> Bill Clinton, ciudadano de la <br> Bill Clinton, que es ciudadano del <br> Bill Clinton, quien es ciudadano de",Estados Unidos,Alemania imperial <br> gobierno de mysore <br> Brasil,P27,Bill Clinton,Estados Unidos
+calinet_8922,Prius es producido por,Toyota,SEGA <br> Motores de reacción <br> PZL-Mielec,P176,Prius,Toyota
+calinet_2820,"Ruanda, que tiene la capital <br> Ruanda, cuya capital es <br> Ruanda, que tiene la capital <br> Ruanda, cuya capital es <br> Ruanda, que tiene la capital <br> Ruanda, que tiene la capital del <br> Ruanda, que tiene como capital <br> Ruanda, que tiene como capital el <br> Ruanda, que tiene como capital la",Kigali,"Marsa Matrouh <br> Mangalore <br> Kingston, Nueva York <br> Akershus <br> Imperio ruso <br> Monticello, Illinois <br> Centro de tenis de Tashkent <br> Ciudad de Arkansas, Arkansas",P36,Ruanda,Kigali
+rome_10452,"Suwayq, que se encuentra en <br> Suwayq, que se encuentra en la",Omán,India,P17,Suwayq,Omán
+rome_15553,"En la ciudad de Quebec, un idioma oficial es el .",Francés,Inglés,P37,La ciudad de Quebec,Francés
+rome_13484,La plataforma de hielo Riiser-Larsen pertenece al continente de la <br> La plataforma de hielo Riiser-Larsen pertenece al continente de,Antártida,Asia,P30,Plataforma de hielo Riiser-Larsen,Antártida
+rome_20283,"En Hawái, un idioma oficial es el .",hawaiano,finlandés,P37,Hawai,hawaiano
+rome_957,Cheers se emitió originalmente en,NBC,CBS,P449,Cheers,NBC
+rome_15088,"Jeep Grand Cherokee, desarrollado por",chrysler,renault,P176,Jeep Grand Cherokee,Chrysler
+rome_14462,"iPod Mini, desarrollado por",Apple,IBM,P178,iPod Mini,Apple
+rome_20584,El dominio de actividad de Isaac Newton es la .,física,química,P101,Isaac Newton,física
+rome_11479,Sysco tiene su sede en,houston,Estocolmo,P159,Sysco,Houston
+rome_15732,New Zealand Football pertenece a la organización de la,fifa,OTAN,P463,New Zealand Football,FIFA
+calinet_10726,Malcolm Rice Patterson tiene ciudadanía de <br> Malcolm Rice Patterson tiene ciudadanía de <br> Malcolm Rice Patterson tiene ciudadanía,American,mongoles <br> Bielorrusia <br> abasí,P27,Malcolm Rice Patterson,Americano
+rome_19621,El idioma oficial de Guayana es el .,Inglés,Francés,P37,Guayana,Inglés
+calinet_444,Mozambique comparte frontera con <br> Mozambique comparte frontera con el <br> Mozambique comparte frontera con <br> Mozambique comparte frontera con el,Zambia,Condado de Marinette <br> lonigo <br> Condado de Missoula,P47,Mozambique,Zambia
+rome_16188,Pourquoi Pas Point se encuentra en el continente,Antártida,Asia,P30,Pourquoi Pas Point,Antártida
+rome_20927,Friedrich August von Kaulbach nació en,Munich,Bangalore,P19,Friedrich August von Kaulbach,Munich
+rome_5150,The Space Kidettes fue lanzado en,NBC,CBS,P449,The Space Kidettes,NBC
+rome_12647,"Península de Arctowski, en la <br> Península de Arctowski, en",Antártida,Asia,P30,Península de Arctowski,Antártida
+rome_15390,Parque Nacional Langtang está situado en el país de <br> Parque Nacional Langtang está situado en el país de la,Nepal,India,P17,Parque Nacional Langtang,Nepal
+calinet_8496,Paul Jeffrey toca <br> Paul Jeffrey interpreta a la <br> Paul Jeffrey interpreta a los <br> Paul Jeffrey juega a la,jazz,figura negra <br> Nefilim <br> pintura de historia,P136,Paul Jeffrey,jazz
+rome_19806,Gianni Ferrio tiene ciudadanía de <br> Gianni Ferrio tiene ciudadanía,Italia,India,P27,Gianni Ferrio,Italia
+calinet_5532,"Damasco, que es la ciudad capital de <br> Damasco, que es la ciudad capital de <br> Damasco, que es la ciudad capital de <br> Damasco, que es la ciudad capital del <br> Damasco, que es la ciudad capital de la <br> Damasco, que es la ciudad capital del <br> Damasco, que es la ciudad capital de las <br> Damasco, que es la ciudad capital de <br> Damasco, que es la ciudad capital del <br> Damasco, que es la capital de <br> Damasco, que es la ciudad capital de",Siria,"Maimana <br> Bathurst <br> este de Flandes <br> Ciudad de Nueva York, Nueva York, EE. UU. <br> Distrito de Vilyuysky <br> Islas Marshall <br> Hoima <br> Distrito de Lodeynopolsky <br> Cabo Verde <br> Comayagüela",P1376,Damasco,Siria
+rome_401,"En la Ilustración en España, una lengua oficial es el",Español,catalán,P37,Ilustración en España,Español
+rome_10964,Kondotty está situado en los país de,India,Países Bajos,P17,Kondotty,India
+rome_6037,La ciudad gemela de Varsovia es,Atenas,Birmingham,P190,Varsovia,Atenas
+rome_1397,John Fogerty toca la <br> John Fogerty toca el,guitarra,piano,P1303,John Fogerty,guitar
+rome_18597,Dennis DeYoung es originario de,chicago,Madrid,P19,Dennis DeYoung,Chicago
+rome_20697,"Tenjho Tenge, eso era de",Japón,Francia,P495,Tenjho Tenge,Japón
+calinet_8233,"Impaled Nazarene, que toca <br> Nazareno Empalado, que interpreta al",Black metal,luminista,P136,Impaled Nazarene,black metal
+rome_8296,Wrestling Society X se emitió originalmente en,mtv,CBS,P449,Wrestling Society X,MTV
+calinet_8936,NEX-5N es un producto de <br> NEX-5N es un producto de la,sony,oficina de diseño de kuznetsov,P176,NEX-5N,Sony
+calinet_12410,"Tiy, que tiene el cargo de",faraón,cardenal camarlengo <br> almirante,P39,Tiy,faraón
+rome_591,John Schumann y Vagabond Crew se formaron en <br> John Schumann and the Vagabond Crew se formó en,Adelaide,Londres,P740,John Schumann y la tripulación vagabunda,Adelaide
+calinet_909,Kaspar Olevianus es nativo de,Trier,Polonia <br> Omagh <br> Scampston <br> Eisenstadt,P19,Kaspar Olevianus,Trier
+rome_10963,"Joseph Joubert, hablante de",Francés,ruso,P103,Joseph Joubert,Francés
+calinet_5203,la ocupación de Domenico Comino es,politician,fiscal <br> sociólogo,P106,Domenico Comino,político
+rome_9290, M60 es creado por <br> BMW M60 es creado por,BMW,Toyota,P176,BMW M60,BMW
+rome_6260,Samuel von Fischer trabajaba en la ciudad de,Berlin,denver,P937,Samuel von Fischer,Berlina
+rome_7913,Zach Mettenberger juega en la posición de,quarterback,centrocampista,P413,Zach Mettenberger,jugador de ataque
+rome_2608,El idioma de la Wikipedia en ucraniano es el .,Ukrainian,gótico,P407,Wikipedia en ucraniano,ucranio

@@ -425,6 +425,7 @@ def main(args):
         "calinet_3307",
         "rome_14732",
         "rome_2374",
+        "rome_7730",
     ]
 
     # delete these rows
@@ -631,6 +632,7 @@ def main(args):
         "rome_20584",
         "rome_11479",
         "calinet_10906",
+        "calinet_5926",
     ]
     good_subset.reverse()
     for dataset_id in good_subset:

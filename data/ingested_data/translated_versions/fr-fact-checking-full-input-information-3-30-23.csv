@@ -1,7 +1,7 @@
 dataset_id,stem,true,false,relation,subject,object
 calinet_10852,"Bill Clinton, qui est un citoyen des <br> Bill Clinton, citoyen de l' <br> Bill Clinton, qui est citoyen <br> Bill Clinton, qui est un citoyen du",États-Unis,Allemagne impériale <br> arabe <br> Brésil,P27,Bill Clinton,États-Unis
 calinet_8922,La Prius est produite par,Toyota,SEGA <br> PZL-Mielec,P176,Prius,Toyota
-calinet_2820,"Rwanda, dont la capitale est <br> Rwanda, qui a pour capitale <br> Rwanda, dont la capitale est <br> Le Rwanda, dont la capitale est <br> Le Rwanda, qui a pour capitale l' <br> Le Rwanda, qui a pour capitale le",Kigali,Marsa Matrouh <br> Mangalore <br> Akershus <br> Empire russe <br> Centre de tennis de Tachkent,P36,Rwanda,Kigali
+calinet_2820,"Rwanda, dont la capitale est <br> Rwanda, qui a pour capitale <br> Rwanda, dont la capitale est <br> Rwanda, dont la capitale est <br> Le Rwanda, dont la capitale est <br> Le Rwanda, qui a pour capitale l' <br> Rwanda, dont la capitale est <br> Le Rwanda, qui a pour capitale le <br> Rwanda, qui a la capitale",Kigali,"Marsa Matrouh <br> Mangalore <br> Kingston, New York <br> Akershus <br> Empire russe <br> Monticello, Illinois <br> Centre de tennis de Tachkent <br> Arkansas City, Arkansas",P36,Rwanda,Kigali
 rome_10452,"Suwayq, qui est situé à <br> Suwayq, qui est situé en",Oman,Inde,P17,Suwayq,Oman
 rome_15553,"À Québec, une langue officielle est le <br> À Québec, une langue officielle est l'",Français,Anglais,P37,la ville de Québec,Français
 rome_15088,"Jeep Grand Cherokee, développé par",Chrysler,Renault,P176,Jeep Grand Cherokee,Chrysler
