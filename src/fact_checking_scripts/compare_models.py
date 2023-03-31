@@ -91,11 +91,13 @@ def compare_models(model_name_list, input_dataset, verbose):
 
     """
 
+    print("Made it to start of compare models")
+
     score_dict_full = {}
     score_dict_summary = {}
 
-    torch.cuda.current_device()
-    torch.cuda._initialized = True
+    # torch.cuda.current_device()
+    # torch.cuda._initialized = True
 
     if not os.path.isdir("/content"):
         os.mkdir("/content")

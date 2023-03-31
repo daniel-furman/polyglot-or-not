@@ -53,6 +53,7 @@ def main(args):
         "verbosity": True,
     }
 
+    print(config)
     # run the contrastive knowledge assessment function
     # logs saved at './content/logging/'
     score_dicts = compare_models(
