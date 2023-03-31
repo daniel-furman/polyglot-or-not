@@ -32,7 +32,7 @@ Add info on the fact-checking benchmark. As a reference, random guessing would s
 |------------------|---------------------------------------------|
 | `Random guessing` | 50   | 
 
-## Model families tested
+## Model Families Tested
 
 | Model family | Release date | Model type | Organization |
 |--------------|--------------|------------|--------------|
