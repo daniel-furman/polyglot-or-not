@@ -433,6 +433,8 @@ def main(args):
         "calinet_3132",
         "calinet_10574",
         "calinet_3306",
+        "calinet_7200",
+        "calinet_8310",
     ]
 
     # delete these rows
@@ -658,7 +660,8 @@ def main(args):
         "calinet_3184",
         "rome_8783",
         "rome_700",
-        "calinet_12059",  # 26
+        "calinet_12059",
+        "calinet_4311",
     ]
     good_subset.reverse()
     for dataset_id in good_subset:
