@@ -449,6 +449,9 @@ def main(args):
         "rome_1814",
         "calinet_5334",
         "rome_16980",
+        "calinet_12130",
+        "calinet_494",
+        "calinet_1878",
     ]
 
     # delete these rows
@@ -530,6 +533,11 @@ def main(args):
             "false": ["Houston"],
             "object": "Los Angeles",
         },
+        "calinet_681": {
+            "true": "Athens",
+            "false": ["Sparta", "Corinth"],
+            "object": "Athens",
+        },
     }
 
     for key, dictionary in rows_to_alter.items():
@@ -570,7 +578,11 @@ def main(args):
     # remove rows where the true answer is in the stem
     itr_true_in_stem = 0
     for i in range(len(mixed_df)):
-        if mixed_df.loc[i].stem.lower().count(mixed_df.loc[i].true.lower()) > 0:
+        delete_bool = False
+        for word in mixed_df.loc[i].true.lower().split(" "):
+            if mixed_df.loc[i].stem.lower().count(word) > 0:
+                delete_bool = True
+        if delete_bool:
             itr_true_in_stem += 1
             mixed_df.drop(index=i, inplace=True)
 
@@ -578,6 +590,19 @@ def main(args):
         f"\t- Combined dataset: Removed {itr_true_in_stem} stem/fact pairs where the fact is explicitly stated in the stem"
     )
     mixed_df.reset_index(drop=True, inplace=True)
+
+    # remove sister city related relations
+    itr_sister_city = 0
+    for i in range(len(mixed_df)):
+        if mixed_df.loc[i].relation == "P190":
+            itr_sister_city += 1
+            mixed_df.drop(index=i, inplace=True)
+
+    print(
+        f"\t- Combined dataset: Removed {itr_sister_city} stem/fact pairs that were relation P190 (sister city related)"
+    )
+    mixed_df.reset_index(drop=True, inplace=True)
+
     # remove religion related rows
     itr_religion = 0
     for i in range(len(mixed_df)):
@@ -728,6 +753,10 @@ def main(args):
         "rome_15752",
         "rome_19787",
         "calinet_6228",
+        "calinet_2742",
+        "rome_15619",
+        "calinet_681",
+        "rome_11341",
     ]
     good_subset.reverse()
     for dataset_id in good_subset:

@@ -1,7 +1,7 @@
 dataset_id,stem,true,false,relation,subject,object
-calinet_10852,"Bill Clinton, qui est un citoyen des <br> Bill Clinton, qui est citoyen <br> Bill Clinton, qui est un citoyen du <br> Bill Clinton, citoyen de l'",États-Unis,arabe <br> Brésil <br> Allemagne impériale,P27,Bill Clinton,États-Unis
+calinet_10852,"Bill Clinton, qui est un citoyen des <br> Bill Clinton, qui est citoyen <br> Bill Clinton, citoyen de l' <br> Bill Clinton, qui est un citoyen du",États-Unis,arabe <br> Allemagne impériale <br> Brésil,P27,Bill Clinton,États-Unis
 calinet_8922,La Prius est produite par,Toyota,SEGA <br> PZL-Mielec,P176,Prius,Toyota
-calinet_2820,"Rwanda, dont la capitale est <br> Rwanda, dont la capitale est <br> Le Rwanda, qui a pour capitale l' <br> Rwanda, dont la capitale est <br> Le Rwanda, qui a pour capitale le <br> Le Rwanda, dont la capitale est <br> Rwanda, qui a la capitale <br> Rwanda, qui a pour capitale <br> Rwanda, dont la capitale est",Kigali,"Kingston, New York <br> Empire russe <br> Mangalore <br> Centre de tennis de Tachkent <br> Akershus <br> Arkansas City, Arkansas <br> Marsa Matrouh <br> Monticello, Illinois",P36,Rwanda,Kigali
+calinet_2820,"Rwanda, dont la capitale est <br> Rwanda, dont la capitale est <br> Le Rwanda, dont la capitale est <br> Rwanda, qui a pour capitale <br> Rwanda, qui a la capitale <br> Le Rwanda, qui a pour capitale l' <br> Rwanda, dont la capitale est <br> Rwanda, dont la capitale est <br> Le Rwanda, qui a pour capitale le",Kigali,"Kingston, New York <br> Akershus <br> Marsa Matrouh <br> Arkansas City, Arkansas <br> Empire russe <br> Mangalore <br> Monticello, Illinois <br> Centre de tennis de Tachkent",P36,Rwanda,Kigali
 rome_10452,"Suwayq, qui est situé à <br> Suwayq, qui est situé en",Oman,Inde,P17,Suwayq,Oman
 rome_15553,"À Québec, une langue officielle est le <br> À Québec, une langue officielle est l'",Français,Anglais,P37,la ville de Québec,Français
 rome_15088,"Jeep Grand Cherokee, développé par",Chrysler,Renault,P176,Jeep Grand Cherokee,Chrysler
@@ -9,11 +9,28 @@ rome_14462,"IPod Mini, développé par <br> IPod Mini, développé par",Apple,IB
 rome_20584,Le domaine d'activité d'Isaac Newton est <br> Le domaine d'activité d'Isaac Newton est la,la physique,chimie,P101,Isaac Newton,la physique
 rome_11479,Sysco a son siège social à,Houston,Stockholm,P159,Sysco,Houston
 calinet_10906,"Walter Flowers, qui a la citoyenneté des <br> Walter Flowers, qui a la nationalité",États-Unis,tchétchène,P27,Walter Flowers,États-Unis
-calinet_5926,Wuhan est la capitale de la <br> Wuhan est la capitale de la <br> Wuhan est la capitale de <br> Wuhan est la capitale de la <br> Wuhan est la capitale de <br> Wuhan est la capitale de,Province du Hubei,Municipalité d'Osby <br> Shinyanga <br> Carélie <br> New York <br> Rothera,P1376,Wuhan,Province du Hubei
+calinet_5926,Wuhan est la capitale de la <br> Wuhan est la capitale de la <br> Wuhan est la capitale de <br> Wuhan est la capitale de <br> Wuhan est la capitale de la <br> Wuhan est la capitale de,Province du Hubei,Municipalité d'Osby <br> Shinyanga <br> Rothera <br> Carélie <br> New York,P1376,Wuhan,Province du Hubei
 rome_1397,John Fogerty joue à la <br> John Fogerty joue au,guitare,piano,P1303,John Fogerty,guitar
 calinet_12363,"Poutine, qui occupe le poste de",Président russe,président biélorusse <br> Commissaire de la NBA,P39,Poutine,Président russe
 rome_8738,"A Sint Maarten, ils comprennent le",Néerlandais,danois,P37,Sint Maarten,Néerlandais
-calinet_5824,"La Hongrie, dont la capitale est <br> La Hongrie, dont la capitale est <br> La Hongrie, qui a pour capitale le <br> La Hongrie, dont la capitale est <br> La Hongrie, dont la capitale est t <br> La Hongrie, dont la capitale est",Budapest,Gangtok <br> District d'Aksaysky <br> Gwened <br> Louis Trichard <br> Indianapolis,P1376,Budapest,Hongrie
-calinet_3184,La langue officielle du Mozambique est le,Portugais,russe <br> basque <br> sierra léonais,P37,Mozambique,Portugais
+calinet_5824,"La Hongrie, dont la capitale est <br> La Hongrie, dont la capitale est <br> La Hongrie, qui a pour capitale le <br> La Hongrie, dont la capitale est t <br> La Hongrie, dont la capitale est <br> La Hongrie, dont la capitale est",Budapest,Gangtok <br> District d'Aksaysky <br> Louis Trichard <br> Gwened <br> Indianapolis,P1376,Budapest,Hongrie
+calinet_3184,La langue officielle du Mozambique est le,Portugais,basque <br> russe <br> sierra léonais,P37,Mozambique,Portugais
 rome_8783,Haas House est situé à <br> La maison Haas est située en,Vienne,Alberta,P131,Haas House,Vienne
 calinet_12059,Nancy Pelosi occupe le poste de e,House Speaker,Président,P39,Nancy Pelosi,Locataire de maison
+calinet_4311,Henrik Lundqvist joue au poste de,goaltender,milieu de terrain <br> receveur,P413,Henrik Lundqvist,gardien de but
+rome_19449,"Aux îles Caïmans, une langue officielle est l' <br> Aux îles Caïmans, une langue officielle est le",Anglais,Français,P37,Îles Caïmans,Anglais
+calinet_143,La Floride partage une frontière avec l' <br> La Floride partage une frontière avec le <br> La Floride partage une frontière avec la,Alabama,Canada <br> Californie,P47,Floride,Alabama
+calinet_2180,Antonio Gava a travaillé à,Rome,"Munich <br> Denver, Colorado <br> Boston",P937,Antonio Gava,Rome
+rome_13432,La langue maternelle de J. Robert Oppenheimer est l' <br> La langue maternelle de J. Robert Oppenheimer est le,Anglais,Néerlandais,P103,J. Robert Oppenheimer,Anglais
+rome_3074,Drexel University College of Medicine est situé en,Pennsylvanie,Californie,P131,Drexel University College of Medicine,Pennsylvanie
+rome_20293,Crate & Barrel a été lancé à,Chicago,Toronto,P740,Crate & Barrel,Chicago
+calinet_12403,"Margaret Thatcher, qui occupe le poste de <br> Margaret Thatcher, qui occupe le poste de <br> Margaret Thatcher, qui occupe le poste de e",premier ministre,Gouverneur <br> Président,P39,Margaret Thatcher,premier ministre
+rome_1437,Elinor Ostrom travaille dans le domaine de l',économie,écologie,P101,Elinor Ostrom,économie
+calinet_4036,Jerry Rice joue au poste de,wide receiver,secondeur,P413,Jerry Rice,récepteur large
+rome_12802,L'Iran est situé sur le continent,Asie,Afrique,P30,Iran,Asie
+rome_19787,Les attentats de Bombay de 1993 ont eu lieu à,Mumbai,Belfast,P276,Attentats de Bombay de 1993,Mumbai
+calinet_6228,Marvin Gaye est décédé à,Los Angeles,Houston,P20,Marvin Gaye,Los Angeles
+calinet_2742,"Bavière, qui a la capitale Munich (München) <br> La Bavière, dont la capitale est e <br> Bavière, qui a pour capitale <br> Bavière, dont la capitale est la <br> La Bavière, dont la capitale est <br> Bavière, dont la capitale est la <br> La Bavière, dont la capitale est <br> La Bavière, dont la capitale est <br> Bavière, dont la capitale est <br> La Bavière, dont la capitale est e <br> Bavière, dont la capitale est",Munich (München),"mozambicain <br> Webster, Dakota du Sud <br> Province de Diyala <br> Hodgenville <br> Roumanie <br> Tournai <br> Abuja <br> Brandebourg <br> Ceylanais <br> Mexico, District fédéral",P36,Bavière,Munich (München)
+rome_15619,"Quartiers de Kolkata, qui se trouve en <br> Quartiers de Kolkata, qui est situé en",Inde,Suède,P17,Quartiers à Calcutta,Inde
+calinet_681,Socrate était originaire d' <br> Socrate était originaire de <br> Socrate était originaire de,Athènes,Sparte <br> Corinthe,P19,Socrate,Athènes
+rome_11341,La langue officielle du Canada est l' <br> La langue officielle du Canada est le,Anglais,suédois,P37,Canada,Anglais

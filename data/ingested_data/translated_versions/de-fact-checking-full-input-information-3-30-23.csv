@@ -1,14 +1,25 @@
 dataset_id,stem,true,false,relation,subject,object
 rome_11754,Wilt Chamberlain ist ein Profi-er <br> Wilt Chamberlain ist ein profi,Basketball,Fußball,P641,Wilt Chamberlain,Basketball
-calinet_2820,Ruanda mit der Hauptstadt,Kigali,"Mangalore <br> Akershus <br> Arkansas City, Arkansas <br> Monticello, Illinois",P36,Ruanda,Kigali
+calinet_2820,Ruanda mit der Hauptstadt,Kigali,"Akershus <br> Arkansas City, Arkansas <br> Mangalore <br> Monticello, Illinois",P36,Ruanda,Kigali
 rome_15088,"Jeep Grand Cherokee, entwickelt von",Chrysler,Renault,P176,Jeep Grand Cherokee,Chrysler
 rome_14462,"IPod Mini, entwickelt von",Apple,IBM,P178,iPod Mini,Apple
 rome_20584,Das Wirkungsfeld von Isaac Newton ist die <br> Das Betätigungsfeld von Isaac Newton ist die,Physik,Chemie,P101,Isaac Newton,Physik
 rome_11479,Sysco hat seinen Hauptsitz in,Houston,Stockholm,P159,Sysco,Houston
-calinet_5926,Wuhan ist die Hauptstadt der <br> Wuhan ist die Hauptstadt der <br> Wuhan ist die Hauptstadt von <br> Wuhan ist die Hauptstadt von <br> Wuhan ist die Hauptstadt s <br> Wuhan ist die Hauptstadt von,Provinz Hubei,Gemeinde Osby <br> Shinyanga <br> Karelien <br> New York <br> Rothera,P1376,Wuhan,Provinz Hubei
+calinet_5926,Wuhan ist die Hauptstadt der <br> Wuhan ist die Hauptstadt der <br> Wuhan ist die Hauptstadt von <br> Wuhan ist die Hauptstadt von <br> Wuhan ist die Hauptstadt von <br> Wuhan ist die Hauptstadt s,Provinz Hubei,Gemeinde Osby <br> Shinyanga <br> Rothera <br> Karelien <br> New York,P1376,Wuhan,Provinz Hubei
 rome_21333,"Hauptstadt der Volksrepublik China,",Peking,Kabul,P36,Volksrepublik China,Peking
 rome_8738,Auf Sint Maarten versteht man,Niederländisch,dänisch,P37,Sint Maarten,Niederländisch
-calinet_5824,Ungarn mit der Hauptstadt,Budapest,Gangtok <br> Benguela <br> Cuzco <br> Estado Aragua <br> Gwened <br> Indianapolis,P1376,Budapest,Ungarn
-calinet_3184,Die Amtssprache von Mosambik ist <br> Die Amtssprache von Mosambik ist <br> Die Amtssprache von Mosambik ist <br> Die Amtssprache von Mosambik ist <br> Die offizielle Sprache von Mosambik ist an,Portugiesisch,Russisch <br> baskisch <br> Wallonisch <br> Sierra Leone,P37,Mosambik,Portugiesisch
+calinet_5824,Ungarn mit der Hauptstadt,Budapest,Gangtok <br> Benguela <br> Cuzco <br> Gwened <br> Indianapolis <br> Estado Aragua,P1376,Budapest,Ungarn
+calinet_3184,Die Amtssprache von Mosambik ist <br> Die Amtssprache von Mosambik ist <br> Die Amtssprache von Mosambik ist <br> Die offizielle Sprache von Mosambik ist an <br> Die Amtssprache von Mosambik ist,Portugiesisch,baskisch <br> Russisch <br> Sierra Leone <br> Wallonisch,P37,Mosambik,Portugiesisch
 rome_8783,Haas House befindet sich in,Wien,Alberta,P131,Haas House,Wien
 calinet_12059,Nancy Pelosi bekleidet die Position der in,House Speaker,Präsident,P39,Nancy Pelosi,Haussprecher
+calinet_4311,Henrik Lundqvist spielt auf der Position des s,goaltender,Mittelfeldspieler <br> catcher,P413,Henrik Lundqvist,Torwart
+calinet_143,Florida grenzt an,Alabama,Kanada <br> Kalifornien,P47,Florida,Alabama
+calinet_2180,Antonio Gava arbeitete in,Rom,"München <br> Denver, Colorado <br> Boston",P937,Antonio Gava,Rom
+rome_13432,Die Muttersprache von J. Robert Oppenheimer ist,Englisch,Niederländisch,P103,J. Robert Oppenheimer,Englisch
+rome_3074,Das Drexel University College of Medicine befindet sich in,Pennsylvania,Kalifornien,P131,Drexel University College of Medicine,Pennsylvania
+rome_1437,Elinor Ostrom arbeitet im Bereich swissenschaften <br> Elinor Ostrom arbeitet im Bereich,Wirtschaft,Ökologie,P101,Elinor Ostrom,Wirtschaft
+calinet_4036,Jerry Rice spielt auf der Position des s,wide receiver,Linebacker,P413,Jerry Rice,breiter Empfänger
+rome_12802,Iran liegt auf dem Kontinent <br> Der Iran liegt auf dem Kontinent,Asien,Afrika,P30,Iran,Asien
+rome_15752,Da Ali G Show Premiere auf,HBO,CBS,P449,Da Ali G Show,HBO
+calinet_681,Sokrates stammte ursprünglich aus,Athen,Sparta <br> Korinth,P19,Sokrates,Athen
+rome_11341,Die Amtssprache Kanadas ist,Englisch,Schwedisch,P37,Kanada,Englisch
