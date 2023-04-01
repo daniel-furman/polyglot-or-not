@@ -435,6 +435,20 @@ def main(args):
         "calinet_3306",
         "calinet_7200",
         "calinet_8310",
+        "calinet_3199",
+        "calinet_10171",
+        "calinet_9368",
+        "calinet_5324",
+        "calinet_470",
+        "calinet_9347",
+        "calinet_10393",
+        "calinet_9445",
+        "rome_10198",
+        "calinet_5669",
+        "rome_7352",
+        "rome_1814",
+        "calinet_5334",
+        "rome_16980",
     ]
 
     # delete these rows
@@ -488,6 +502,34 @@ def main(args):
         "calinet_12059": {
             "false": ["President", "Supreme Court Justice"],
         },
+        "calinet_143": {
+            "false": ["California", "Canada"],
+        },
+        "calinet_5721": {
+            "stem": "New Delhi is the capital city of",
+            "true": "India",
+            "false": ["Pakistan"],
+            "subject": "New Delhi",
+        },
+        "calinet_12403": {
+            "true": "Prime Minister",
+            "false": ["President", "Governor"],
+            "object": "Prime Minister",
+        },
+        "rome_18212": {
+            "stem": "The Australian Open is held in",
+            "false": ["Sydney"],
+            "subject": "The Australian Open",
+        },
+        "rome_19787": {
+            "stem": "The 1993 Bombay bombings took place in",
+        },
+        "calinet_6228": {
+            "stem": "Marvin Gaye passed way in",
+            "true": "Los Angeles",
+            "false": ["Houston"],
+            "object": "Los Angeles",
+        },
     }
 
     for key, dictionary in rows_to_alter.items():
@@ -525,6 +567,17 @@ def main(args):
         if mixed_df.loc[i].stem.split(" ")[-1] == "debuted":
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem + " on"
 
+    # remove rows where the true answer is in the stem
+    itr_true_in_stem = 0
+    for i in range(len(mixed_df)):
+        if mixed_df.loc[i].stem.lower().count(mixed_df.loc[i].true.lower()) > 0:
+            itr_true_in_stem += 1
+            mixed_df.drop(index=i, inplace=True)
+
+    print(
+        f"\t- Combined dataset: Removed {itr_true_in_stem} stem/fact pairs where the fact is explicitly stated in the stem"
+    )
+    mixed_df.reset_index(drop=True, inplace=True)
     # remove religion related rows
     itr_religion = 0
     for i in range(len(mixed_df)):
@@ -662,6 +715,19 @@ def main(args):
         "rome_700",
         "calinet_12059",
         "calinet_4311",
+        "rome_19449",
+        "calinet_143",
+        "calinet_2180",
+        "rome_13432",
+        "rome_3074",
+        "rome_20293",
+        "calinet_12403",
+        "rome_1437",
+        "calinet_4036",
+        "rome_12802",
+        "rome_15752",
+        "rome_19787",
+        "calinet_6228",
     ]
     good_subset.reverse()
     for dataset_id in good_subset:
