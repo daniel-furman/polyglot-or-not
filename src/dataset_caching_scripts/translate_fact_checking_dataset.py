@@ -14,6 +14,7 @@ import time
 import pandas as pd
 import os
 import tqdm
+import copy
 from argparse import ArgumentParser
 from dotenv import load_dotenv
 
@@ -26,7 +27,7 @@ def main(args):
     print("Translating the fact_checking dataset into Non-English languages...")
 
     # nltk compatible languages:
-    languages = ["fr", "es"]
+    languages = ["de", "zh-CN"]  # ["fr", "es", "ja"]
 
     # for each language, translate the dataset:
     for language in languages:
@@ -245,6 +246,39 @@ def main(args):
                     string += " <br> " + element
                 df.loc[i, "stem"] = string
 
+        # remove " ." at end of stem if exists, loop through list stems when <br> exists
+        # remove " " at the beginning and end of stems
+        for i in range(len(df)):
+            if df.loc[i].stem[-2:] == " .":
+                df.loc[i, "stem"] = df.loc[i].stem[:-2]
+            if " . <br> " in df.loc[i].stem:
+                df.loc[i, "stem"] = df.loc[i].stem.replace(" . <br> ", " <br> ")
+            if df.loc[i].stem[:1] == " ":
+                df.loc[i, "stem"] = df.loc[i].stem[1:]
+            if " <br>  " in df.loc[i].stem:
+                df.loc[i, "stem"] = df.loc[i].stem.replace(" <br>  ", " <br> ")
+            if "  <br> " in df.loc[i].stem:
+                df.loc[i, "stem"] = df.loc[i].stem.replace("  <br> ", " <br> ")
+            if "  <br>  " in df.loc[i].stem:
+                df.loc[i, "stem"] = df.loc[i].stem.replace("  <br>  ", " <br> ")
+
+        # capitalize the first letter
+        for i in range(len(df)):
+            stem = df.loc[i].stem[0].capitalize() + df.loc[i].stem[1:]
+            df.loc[i, "stem"] = stem
+
+        # if <br> chars present in stem, then there must be n <br> chars (n stems) for n completions
+        # ie, # <br> chars in the stem should equal # <br> chars in the counterfact + 1 for the fact
+        for i in range(len(df)):
+            if " <br> " in df.loc[i].stem:
+                if (
+                    len(df.loc[i].stem.split(" <br> "))
+                    != len(df.loc[i].false.split(" <br> ")) + 1
+                ):
+                    df.drop(i, inplace=True)
+
+        df.reset_index(drop=True, inplace=True)
+
         # save to csv
         df.to_csv(
             f"../../data/ingested_data/translated_versions/{language}-fact-checking-full-input-information-3-30-23.csv",
@@ -257,6 +291,9 @@ def main(args):
             "English": "../../data/ingested_data/fact-checking-full-input-information-3-21-23.csv",
             "French": "../../data/ingested_data/translated_versions/fr-fact-checking-full-input-information-3-30-23.csv",
             "Spanish": "../../data/ingested_data/translated_versions/es-fact-checking-full-input-information-3-30-23.csv",
+            "Japanese": "../../data/ingested_data/translated_versions/ja-fact-checking-full-input-information-3-30-23.csv",
+            "Chinese": "../../data/ingested_data/translated_versions/zh-CN-fact-checking-full-input-information-3-30-23.csv",
+            "German": "../../data/ingested_data/translated_versions/de-fact-checking-full-input-information-3-30-23.csv",
         }
         dataset = load_dataset("csv", data_files=data_files)
 

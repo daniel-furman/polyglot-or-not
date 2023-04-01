@@ -671,6 +671,11 @@ def main(args):
                 string += " <br> " + element
             mixed_df.loc[i, "false"] = string
 
+    # capitalize the first letter
+    for i in range(len(mixed_df)):
+        stem = mixed_df.loc[i].stem[0].capitalize() + mixed_df.loc[i].stem[1:]
+        mixed_df.loc[i, "stem"] = stem
+
     # write to file as .csv
     mixed_df.to_csv(
         "../../data/ingested_data/fact-checking-full-input-information-3-21-23.csv",
