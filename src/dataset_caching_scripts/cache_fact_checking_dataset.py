@@ -452,6 +452,7 @@ def main(args):
         "calinet_12130",
         "calinet_494",
         "calinet_1878",
+        "calinet_3864",
     ]
 
     # delete these rows
@@ -537,6 +538,21 @@ def main(args):
             "true": "Athens",
             "false": ["Sparta", "Corinth"],
             "object": "Athens",
+        },
+        "calinet_7198": {
+            "true": "Molsheim, France",
+            "object": "Molsheim, France",
+        },
+        "rome_17865": {
+            "stem": "What does Wanda Sykes do? They write",
+            "subject": "Wanda Sykes",
+            "false": ["literature"],
+        },
+        "calinet_3768": {
+            "stem": "Pearl Jam was formed in",
+            "true": "Seattle",
+            "object": "Seattle",
+            "false": ["Los Angeles"],
         },
     }
 
@@ -757,6 +773,9 @@ def main(args):
         "rome_15619",
         "calinet_681",
         "rome_11341",
+        "calinet_7198",
+        "rome_17865",
+        "calinet_3768",
     ]
     good_subset.reverse()
     for dataset_id in good_subset:
