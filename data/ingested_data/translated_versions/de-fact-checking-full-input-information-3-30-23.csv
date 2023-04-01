@@ -1,29 +1,14 @@
 dataset_id,stem,true,false,relation,subject,object
 rome_11754,Wilt Chamberlain ist ein Profi-er <br> Wilt Chamberlain ist ein profi,Basketball,Fußball,P641,Wilt Chamberlain,Basketball
-calinet_2820,Ruanda mit der Hauptstadt,Kigali,"Arkansas City, Arkansas <br> Mangalore <br> Akershus <br> Monticello, Illinois",P36,Ruanda,Kigali
+calinet_2820,Ruanda mit der Hauptstadt,Kigali,"Mangalore <br> Akershus <br> Arkansas City, Arkansas <br> Monticello, Illinois",P36,Ruanda,Kigali
 rome_15088,"Jeep Grand Cherokee, entwickelt von",Chrysler,Renault,P176,Jeep Grand Cherokee,Chrysler
 rome_14462,"IPod Mini, entwickelt von",Apple,IBM,P178,iPod Mini,Apple
 rome_20584,Das Wirkungsfeld von Isaac Newton ist die <br> Das Betätigungsfeld von Isaac Newton ist die,Physik,Chemie,P101,Isaac Newton,Physik
 rome_11479,Sysco hat seinen Hauptsitz in,Houston,Stockholm,P159,Sysco,Houston
-calinet_5926,Wuhan ist die Hauptstadt der <br> Wuhan ist die Hauptstadt von <br> Wuhan ist die Hauptstadt der <br> Wuhan ist die Hauptstadt s <br> Wuhan ist die Hauptstadt von <br> Wuhan ist die Hauptstadt von,Provinz Hubei,Karelien <br> Gemeinde Osby <br> New York <br> Shinyanga <br> Rothera,P1376,Wuhan,Provinz Hubei
-rome_19621,Die Amtssprache Guyanas ist,Englisch,Französisch,P37,Guyana,Englisch
-calinet_444,Mosambik grenzt an,Sambia,Marinette County <br> Lonigo <br> Missoula County,P47,Mosambik,Sambia
-rome_16190,"The Pictures, gegründet in",Melbourne,Dublin,P740,The Pictures,Melbourne
-rome_18691,Jane Franklin Hall liegt in <br> Jane Franklin Hall ist in,Tasmanien,England,P131,Jane Franklin Hall,Tasmanien
-rome_21182,Was ist die Partnerstadt Wellington? Es ist,Peking,Sydney,P190,Wellington,Peking
-rome_14402,Die Originalsprache von Hedda Gabler war,norwegisch,Spanisch,P364,Hedda Gabler,norwegisch
-calinet_8496,Paul Jeffrey spielt <br> Paul Jeffrey spielt eine <br> Paul Jeffrey spielt,Jazz,schwarze Figur <br> Nefilim,P136,Paul Jeffrey,Jazz
-calinet_5532,"Damaskus, das ist die Hauptstadt von <br> Damaskus, das ist die Hauptstadt von <br> Damaskus, das ist die Hauptstadt von <br> Damaskus, das ist die Hauptstadt von <br> Damaskus, das ist die Hauptstadt von <br> Damaskus, das ist die Hauptstadt von <br> Damaskus, das ist die Hauptstadt der <br> Damaskus, das ist die Hauptstadt der <br> Damaskus, das ist die Hauptstadt von <br> Damaskus, das ist die Hauptstadt von",Syrien,"Bathurst <br> Kap Verde <br> New York City, New York, USA <br> Hoima <br> Ostflandern <br> Marshallinseln <br> Metropole Tokio <br> Maimana <br> Comayagüela",P1376,Damaskus,Syrien
-rome_10965,Der Standort der Tripura University ist,Indien,Aden,P276,Tripura University,Indien
-rome_6037,Die Partnerstadt von Warschau ist,Athen,Birmingham,P190,Warschau,Athen
-rome_18597,Dennis DeYoung stammt aus,Chicago,Madrid,P19,Dennis DeYoung,Chicago
-rome_20697,"Tenjho Tenge, das war aus",Japan,Frankreich,P495,Tenjho Tenge,Japan
-rome_8298,Sora Ltd. mit Hauptsitz in <br> Sora Ltd. mit Sitz in,Tokio,Chicago,P159,Sora Ltd.,Tokio
-calinet_8936,NEX-5N ist ein Produkt von,Sony,Fairey Aviation,P176,NEX-5N,Sony
-rome_5060,Keith Peacock spielt auf der Position des s,Mittelfeldspieler,Quarterback,P413,Keith Peacock,Mittelfeldspieler
-calinet_909,Kaspar Olevianus stammt aus,Trier,Eisenstadt <br> Polen <br> Omagh,P19,Kaspar Olevianus,Trier
-rome_10964,Kondotty befindet sich in,India,Niederlande,P17,Kondotty,Indien
-calinet_5203,Der Beruf von Domenico Comino ist,Politiker,Comiczeichner <br> Soziologe,P106,Domenico Comino,Politiker
-rome_9291,Der Vermilion Pass liegt in <br> Vermilion Pass ist in,Alberta,Seattle,P131,Vermilion Pass,Alberta
-rome_6260,Samuel von Fischer arbeitete in der Stadt,Berlin,Denver,P937,Samuel von Fischer,Berlin
-rome_7915,Simon Brotherton von der <br> Simon Brotherton von,BBC,Microsoft,P108,Simon Brotherton,BBC
+calinet_5926,Wuhan ist die Hauptstadt der <br> Wuhan ist die Hauptstadt der <br> Wuhan ist die Hauptstadt von <br> Wuhan ist die Hauptstadt von <br> Wuhan ist die Hauptstadt s <br> Wuhan ist die Hauptstadt von,Provinz Hubei,Gemeinde Osby <br> Shinyanga <br> Karelien <br> New York <br> Rothera,P1376,Wuhan,Provinz Hubei
+rome_21333,"Hauptstadt der Volksrepublik China,",Peking,Kabul,P36,Volksrepublik China,Peking
+rome_8738,Auf Sint Maarten versteht man,Niederländisch,dänisch,P37,Sint Maarten,Niederländisch
+calinet_5824,Ungarn mit der Hauptstadt,Budapest,Gangtok <br> Benguela <br> Cuzco <br> Estado Aragua <br> Gwened <br> Indianapolis,P1376,Budapest,Ungarn
+calinet_3184,Die Amtssprache von Mosambik ist <br> Die Amtssprache von Mosambik ist <br> Die Amtssprache von Mosambik ist <br> Die Amtssprache von Mosambik ist <br> Die offizielle Sprache von Mosambik ist an,Portugiesisch,Russisch <br> baskisch <br> Wallonisch <br> Sierra Leone,P37,Mosambik,Portugiesisch
+rome_8783,Haas House befindet sich in,Wien,Alberta,P131,Haas House,Wien
+calinet_12059,Nancy Pelosi bekleidet die Position der in,House Speaker,Präsident,P39,Nancy Pelosi,Haussprecher

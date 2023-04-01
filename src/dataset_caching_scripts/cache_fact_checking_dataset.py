@@ -426,6 +426,13 @@ def main(args):
         "rome_14732",
         "rome_2374",
         "rome_7730",
+        "calinet_10137",
+        "calinet_10391",
+        "calinet_3722",
+        "calinet_3613",
+        "calinet_3132",
+        "calinet_10574",
+        "calinet_3306",
     ]
 
     # delete these rows
@@ -469,6 +476,16 @@ def main(args):
         "rome_21907": {"false": ["French"], "true": "English", "object": "English"},
         "calinet_11761": {"false": "['Apple']"},
         "calinet_2821": {"stem": "The Italian capital is", "subject": "capital"},
+        "rome_21182": {"false": "['Melbourne']"},
+        "calinet_5824": {"stem": "Hungary, which has the capital", "object": "Hungary"},
+        "calinet_10786": {
+            "false": ["America", "Germany"],
+            "true": "Russia",
+            "object": "Russia",
+        },
+        "calinet_12059": {
+            "false": ["President", "Supreme Court Justice"],
+        },
     }
 
     for key, dictionary in rows_to_alter.items():
@@ -477,8 +494,6 @@ def main(args):
             mixed_df.loc[row_ind, column] = edit
 
     # fix small syntax and grammatical errors, remove templates scheduled to be dropped
-
-    itr_religion = 0
     for i in range(len(mixed_df)):
         # bespoke syntax fixes
         if "shares border with" in mixed_df.loc[i].stem:
@@ -493,22 +508,23 @@ def main(args):
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
                 "borders with", "shares a border with"
             )
-        elif "premiered" in mixed_df.loc[i].stem:
+        if "premiered" in mixed_df.loc[i].stem:
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
                 "premiered", "originally aired"
             )
-        elif "The Smashing Pumpkins, who plays" in mixed_df.loc[i].stem:
+        if "The Smashing Pumpkins, who plays" in mixed_df.loc[i].stem:
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
                 "The Smashing Pumpkins, who plays", "The Smashing Pumpkins, who play"
             )
-        elif "is to debut on" in mixed_df.loc[i].stem:
+        if "is to debut on" in mixed_df.loc[i].stem:
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem.replace(
                 "is to debut on", "originally aired on"
             )
-        elif mixed_df.loc[i].stem.split(" ")[-1] == "debuted":
+        if mixed_df.loc[i].stem.split(" ")[-1] == "debuted":
             mixed_df.loc[i, "stem"] = mixed_df.loc[i].stem + " on"
 
     # remove religion related rows
+    itr_religion = 0
     for i in range(len(mixed_df)):
         if mixed_df.loc[i].relation == "P140":
             itr_religion += 1
@@ -633,6 +649,16 @@ def main(args):
         "rome_11479",
         "calinet_10906",
         "calinet_5926",
+        "rome_21182",
+        "rome_1397",
+        "calinet_12363",
+        "rome_21333",
+        "rome_8738",
+        "calinet_5824",
+        "calinet_3184",
+        "rome_8783",
+        "rome_700",
+        "calinet_12059",  # 26
     ]
     good_subset.reverse()
     for dataset_id in good_subset:
@@ -686,6 +712,11 @@ def main(args):
     if args.hugging_face:
         data_files = {
             "English": "../../data/ingested_data/fact-checking-full-input-information-3-21-23.csv",
+            "French": "../../data/ingested_data/translated_versions/fr-fact-checking-full-input-information-3-30-23.csv",
+            "Spanish": "../../data/ingested_data/translated_versions/es-fact-checking-full-input-information-3-30-23.csv",
+            "Japanese": "../../data/ingested_data/translated_versions/ja-fact-checking-full-input-information-3-30-23.csv",
+            "Chinese": "../../data/ingested_data/translated_versions/zh-CN-fact-checking-full-input-information-3-30-23.csv",
+            "German": "../../data/ingested_data/translated_versions/de-fact-checking-full-input-information-3-30-23.csv",
         }
         dataset = load_dataset("csv", data_files=data_files)
 

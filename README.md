@@ -4,15 +4,15 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
 
-This is the repo for the UC Berkeley CalibraGPT project, which aims to assess how modern language models handle matters of veracity and store facts across different languages. The repo contains the following:
+This is the repo for the UC Berkeley CalibraGPT project, which aims to assess how modern language models handle matters of veracity and store facts across different languages. It contains the following:
 
 1. The [**code**][cka_run_main] for running the fact-checking benchmark with a compatible language model
-2. The [**data**][hf_data] used for the fact-checking benchmark, **more languages to come**
+2. The [**data**][hf_data] used for the fact-checking benchmark, which contains over 20 languages
 3. A [**demo**][cka_lightweight_demo] for fact-checking language models via contrastive knowledge assessment
 
 ## Data Release
 
-Cite calinet [[1][bib]], memit [[2][bib]], t-rex [[3][bib]], and polyjuice [[4][bib]] papers.
+Cite calinet [[1][bib]], memit [[2][bib]], and t-rex [[3][bib]] papers.
 
 ## Selected Benchmark Results
 
@@ -79,11 +79,11 @@ Please cite this repository as follows if you use its data or code:
 
 ## Bibliography 
 
-1. Dong, Qingxiu, Damai Dai, Yifan Song, Jingjing Xu, Zhifang Sui, and Lei Li. "Calibrating Factual Knowledge in Pretrained Language Models". In Findings of the Association for Computational Linguistics: EMNLP 2022. [arXiv:2210.03329][cka] (2022).
-2. Meng, Kevin, Arnab Sen Sharma, Alex Andonian, Yonatan Belinkov, and David Bau. "Mass Editing Memory in a Transformer." arXiv preprint [arXiv:2210.07229][memit] (2022).
-3. ElSahar, Hady, Pavlos Vougiouklis, Arslen Remaci, Christophe Gravier, Jonathon S. Hare, Frédérique Laforest and Elena Paslaru Bontas Simperl. “T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples.” International Conference on Language Resources and Evaluation. [Link][trex] (2018).
-4. Wu, Tongshuang, Marco Tulio Ribeiro, Jeffrey Heer, and Daniel S. Weld. "Polyjuice: Generating counterfactuals for explaining, evaluating, and improving models." arXiv preprint [arXiv:2101.00288][polyjuice] (2021).
+[1] Dong, Qingxiu, Damai Dai, Yifan Song, Jingjing Xu, Zhifang Sui, and Lei Li. "Calibrating Factual Knowledge in Pretrained Language Models". In Findings of the Association for Computational Linguistics: EMNLP 2022. [arXiv:2210.03329][cka] (2022).
 
+[2] Meng, Kevin, Arnab Sen Sharma, Alex Andonian, Yonatan Belinkov, and David Bau. "Mass Editing Memory in a Transformer." arXiv preprint [arXiv:2210.07229][memit] (2022).
+
+[3] ElSahar, Hady, Pavlos Vougiouklis, Arslen Remaci, Christophe Gravier, Jonathon S. Hare, Frédérique Laforest and Elena Paslaru Bontas Simperl. “T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples.” International Conference on Language Resources and Evaluation. [Link][trex] (2018).
 
 
 [bib]: https://github.com/daniel-furman/Capstone#bibliography
@@ -93,6 +93,5 @@ Please cite this repository as follows if you use its data or code:
 [mmlu]: https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu
 [mmlu_paper]: https://arxiv.org/abs/2009.03300
 [trex]: http://aclanthology.lst.uni-saarland.de/L18-1544.pdf
-[polyjuice]: https://arxiv.org/abs/2101.00288
 [cka_lightweight_demo]: https://github.com/daniel-furman/Capstone/blob/main/notebooks/fact_checking_notebooks/fact-checking-demo.ipynb
 [cka_run_main]: https://github.com/daniel-furman/Capstone/blob/main/notebooks/fact_checking_notebooks/fact-checking-run-main.ipynb

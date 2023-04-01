@@ -1,7 +1,7 @@
 dataset_id,stem,true,false,relation,subject,object
 rome_11754,威尔特张伯伦是职业 <br> 威尔特·张伯伦是职业,篮球,足球,P641,威尔特·张伯伦,篮球
-calinet_10852,比尔克林顿，公民 <br> 比尔克林顿，公民 <br> 比尔克林顿，公民 <br> 比尔·克林顿 (Bill Clinton)，他是的公民 <br> 比尔·克林顿 (Bill Clinton)，公民,美国,巴西 <br> 阿拉伯 <br> 迈索尔政府 <br> 德意志帝国,P27,比尔·克林顿,美国
-calinet_2820,卢旺达，首都 <br> 卢旺达，首都 <br> 拥有首都的卢旺达 <br> 首都的卢旺达 <br> 拥有首都的卢旺达 <br> 卢旺达，首都 <br> 卢旺达，首都 <br> 首都的卢旺达,基加利,阿肯色州阿肯色城 <br> 俄罗斯帝国 <br> 阿克斯胡斯 <br> 塔什干网球中心 <br> 伊利诺伊州蒙蒂塞洛 <br> 马萨马特鲁 <br> 中国中华人民共和国,P36,卢旺达,基加利
+calinet_10852,比尔克林顿，公民 <br> 比尔·克林顿 (Bill Clinton)，他是的公民 <br> 比尔克林顿，公民 <br> 比尔克林顿，公民 <br> 比尔·克林顿 (Bill Clinton)，公民,美国,迈索尔政府 <br> 阿拉伯 <br> 巴西 <br> 德意志帝国,P27,比尔·克林顿,美国
+calinet_2820,卢旺达，首都 <br> 拥有首都的卢旺达 <br> 拥有首都的卢旺达 <br> 首都的卢旺达 <br> 卢旺达，首都 <br> 卢旺达，首都 <br> 卢旺达，首都 <br> 首都的卢旺达,基加利,俄罗斯帝国 <br> 塔什干网球中心 <br> 阿克斯胡斯 <br> 阿肯色州阿肯色城 <br> 马萨马特鲁 <br> 伊利诺伊州蒙蒂塞洛 <br> 中国中华人民共和国,P36,卢旺达,基加利
 rome_10452,Suwayq，位于,阿曼,印度,P17,Suwayq,阿曼
 rome_15553,在魁北克市，官方语言是,法语,英语,P37,魁北克市,法语
 rome_13484,里瑟-拉森冰架属于大陆,Antarctica,亚洲,P30,里瑟-拉森冰架,南极洲
@@ -10,31 +10,12 @@ rome_957,欢呼声最初在播出,NBC,哥伦比亚广播公司,P449,干杯,NBC
 rome_15088,吉普大切诺基，由开发 <br> 开发的吉普大切诺基,克莱斯勒,雷诺,P176,吉普大切诺基,克莱斯勒
 rome_20584,艾萨克·牛顿的活动领域是学 <br> 艾萨克·牛顿的活动领域是,物理,化学,P101,艾萨克·牛顿,物理
 rome_11479,Sysco 总部位于,Houston,斯德哥尔摩,P159,Sysco,休斯顿
-calinet_5926,武汉是省会 <br> 武汉是的首都 <br> 武汉是的首府 <br> 武汉是的首府 <br> 武汉是的首都 <br> 武汉是的首都,湖北省,卡累利阿 <br> 奥斯比市 <br> 达拉纳县 <br> 纽约 <br> 罗瑟拉,P1376,武汉,湖北省
-rome_19621,圭亚那的官方语言是,英语,法语,P37,圭亚那,英语
-calinet_444,莫桑比克与接壤,赞比亚,马里内特县 <br> 米苏拉县,P47,莫桑比克,赞比亚
-rome_16190,The Pictures，成立于,墨尔本,都柏林,P740,The Pictures,墨尔本
-rome_12648,彼得诺维克在受雇 <br> Peter Novick 受雇于,芝加哥,汉堡,P937,彼得·诺维克,芝加哥
-rome_15391,Nikki Webster，持有公民身份 <br> Nikki Webster，拥有公民身份,澳大利亚,巴西,P27,Nikki Webster,澳大利亚
-rome_21182,惠灵顿双子城是什么？是 <br> 惠灵顿双子城是什么？这是,北京,悉尼,P190,惠灵顿,北京
-rome_14402,Hedda Gabler 的原始语言是语 <br> Hedda Gabler 的原始语言是,挪威,西班牙语,P364,Hedda Gabler,挪威
-rome_19806,Gianni Ferrio 拥有国籍,意大利,印度,P27,Gianni Ferrio,意大利
-calinet_5532,大马士革，那是的首都 <br> 大马士革，那是的首都 <br> 大马士革，的首都 <br> 大马士革，即的首府 <br> 大马士革，即省的首府 <br> 大马士革，的首都 <br> 大马士革，也就是的首都 <br> 大马士革，这是的首都 <br> 大马士革，这是的首都,叙利亚,巴瑟斯特 <br> 佛得角 <br> 美国纽约州纽约市 <br> 东佛兰德 <br> 马绍尔群岛 <br> 东京都 <br> 迈马纳 <br> 科马亚圭拉,P1376,大马士革,叙利亚
-rome_401,在西班牙的启蒙运动中，官方语言是,西班牙语,加泰罗尼亚语,P37,启蒙运动在西班牙,西班牙语
-rome_10965,特里普拉大学在的位置 <br> 特里普拉大学的位置是,印度,亚丁,P276,特里普拉大学,印度
-rome_6037,华沙的孪生城市是,雅典,伯明翰,P190,华沙,雅典
+calinet_5926,武汉是省会 <br> 武汉是的首府 <br> 武汉是的首都 <br> 武汉是的首都 <br> 武汉是的首府 <br> 武汉是的首都,湖北省,奥斯比市 <br> 卡累利阿 <br> 纽约 <br> 达拉纳县 <br> 罗瑟拉,P1376,武汉,湖北省
 rome_1397,John Fogerty 演奏 <br> 约翰·福格蒂 (John Fogerty) 演奏,吉他,钢琴,P1303,John Fogerty,吉他
-rome_18597,Dennis DeYoung 来自 <br> 丹尼斯德扬来自,芝加哥,马德里,P19,Dennis DeYoung,芝加哥
-rome_20697,Tenjho Tenge，来自,日本,法国,P495,Tenjho Tenge,日本
-calinet_8233,Impaled Nazarene，演奏 <br> 被刺穿的拿撒勒人，扮演,黑金属,发光师,P136,Impaled Nazarene,黑金属
-rome_8298,Sora Ltd.，其总部位于,东京,芝加哥,P159,Sora Ltd.,东京
-calinet_8936,NEX-5N是的产品,索尼,库兹涅佐夫设计局,P176,NEX-5N,索尼
-calinet_12410,拥有海军职位的Tiy,Pharaoh,上将,P39,Tiy,老王
-rome_591,John Schumann and the Vagabond Crew 在成立,Adelaide,伦敦,P740,John Schumann and the Vagabond Crew,Adelaide
-rome_5060,Keith Peacock 司职 <br> Keith Peacock 打的位置,中场,四分卫,P413,Keith Peacock,中场
-calinet_909,Kaspar Olevianus 原产于,特里尔,艾森施塔特 <br> 波兰 <br> 斯坎普斯顿 <br> 奥马,P19,Kaspar Olevianus,特里尔
-rome_10964,Kondotty 位于在的国家 <br> Kondotty 位于的国家,印度,荷兰,P17,Kondotty,印度
-calinet_5203,Domenico Comino 的职业是,政治家,调酒师 <br> 检察官 <br> 社会学家,P106,Domenico Comino,政治家
-rome_9291,Vermilion Pass 位于 <br> Vermilion Pass 在,艾伯塔省,西雅图,P131,Vermilion Pass,艾伯塔省
-rome_6260,Samuel von Fischer 在市工作,柏林,丹佛,P937,Samuel von Fischer,柏林
-rome_7915,西蒙·布拉瑟顿，,BBC,微软,P108,西蒙布罗顿,BBC
+calinet_12363,担任的普京 <br> 担任的普京 <br> 担任一职的普京 <br> 担任职务的普京,俄罗斯总统,白俄罗斯总统 <br> NBA总裁 <br> 联合国秘书长,P39,普京,俄罗斯总统
+rome_21333,中华人民共和国首都,北京,喀布尔,P36,中华人民共和国,北京
+rome_8738,在圣马丁岛，他们懂,荷兰语,丹麦语,P37,圣马丁岛,荷兰语
+calinet_5824,匈牙利，首都 <br> 首都的匈牙利 <br> 匈牙利，首都 <br> 匈牙利，首都 <br> 匈牙利，首都 <br> 匈牙利，首都 <br> 匈牙利，首都,布达佩斯,甘托克 <br> 本格拉 <br> 阿克赛斯基区 <br> 库斯科 <br> 印第安纳波利斯 <br> 南吉普斯兰郡,P1376,布达佩斯,匈牙利
+calinet_3184,莫桑比克的官方语言是 <br> 莫桑比克的官方语言是 <br> 莫桑比克的官方语言是语 <br> 莫桑比克的官方语言是语,葡萄牙语,俄语 <br> 巴斯克 <br> 瓦隆,P37,莫桑比克,葡萄牙语
+rome_8783,哈斯之家在的位置 <br> 哈斯之家位于,维也纳,艾伯塔省,P131,哈斯之家,维也纳
+calinet_12059,南希佩洛西担任众议院 <br> 南希佩洛西担任 <br> 南希·佩洛西 (Nancy Pelosi) 担任,议长,总统 <br> 最高法院大法官,P39,南希·佩洛西,议长

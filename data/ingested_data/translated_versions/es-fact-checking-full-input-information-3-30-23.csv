@@ -1,7 +1,7 @@
 dataset_id,stem,true,false,relation,subject,object
-calinet_10852,"Bill Clinton, quien es ciudadano de los <br> Bill Clinton, quien es ciudadano de <br> Bill Clinton, que es ciudadano del <br> Bill Clinton, ciudadano de la",Estados Unidos,Brasil <br> gobierno de mysore <br> Alemania imperial,P27,Bill Clinton,Estados Unidos
-calinet_8922,Prius es producido por,Toyota,PZL-Mielec <br> SEGA <br> Motores de reacción,P176,Prius,Toyota
-calinet_2820,"Ruanda, que tiene la capital <br> Ruanda, que tiene como capital la <br> Ruanda, que tiene la capital <br> Ruanda, que tiene la capital del <br> Ruanda, que tiene la capital <br> Ruanda, cuya capital es <br> Ruanda, que tiene como capital el <br> Ruanda, que tiene como capital <br> Ruanda, cuya capital es",Kigali,"Ciudad de Arkansas, Arkansas <br> Mangalore <br> Imperio ruso <br> Akershus <br> Kingston, Nueva York <br> Centro de tenis de Tashkent <br> Monticello, Illinois <br> Marsa Matrouh",P36,Ruanda,Kigali
+calinet_10852,"Bill Clinton, quien es ciudadano de los <br> Bill Clinton, que es ciudadano del <br> Bill Clinton, quien es ciudadano de <br> Bill Clinton, ciudadano de la",Estados Unidos,gobierno de mysore <br> Brasil <br> Alemania imperial,P27,Bill Clinton,Estados Unidos
+calinet_8922,Prius es producido por,Toyota,SEGA <br> Motores de reacción <br> PZL-Mielec,P176,Prius,Toyota
+calinet_2820,"Ruanda, que tiene la capital <br> Ruanda, cuya capital es <br> Ruanda, que tiene la capital del <br> Ruanda, que tiene la capital <br> Ruanda, que tiene como capital el <br> Ruanda, que tiene la capital <br> Ruanda, que tiene como capital la <br> Ruanda, cuya capital es <br> Ruanda, que tiene como capital",Kigali,"Kingston, Nueva York <br> Imperio ruso <br> Mangalore <br> Centro de tenis de Tashkent <br> Akershus <br> Ciudad de Arkansas, Arkansas <br> Marsa Matrouh <br> Monticello, Illinois",P36,Ruanda,Kigali
 rome_10452,"Suwayq, que se encuentra en <br> Suwayq, que se encuentra en la",Omán,India,P17,Suwayq,Omán
 rome_15553,"En la ciudad de Quebec, un idioma oficial es el",Francés,Inglés,P37,La ciudad de Quebec,Francés
 rome_13484,La plataforma de hielo Riiser-Larsen pertenece al continente de la <br> La plataforma de hielo Riiser-Larsen pertenece al continente de,Antártida,Asia,P30,Plataforma de hielo Riiser-Larsen,Antártida
@@ -11,31 +11,12 @@ rome_15088,"Jeep Grand Cherokee, desarrollado por",chrysler,renault,P176,Jeep Gr
 rome_14462,"IPod Mini, desarrollado por",Apple,IBM,P178,mini ipod,Apple
 rome_20584,El dominio de actividad de Isaac Newton es la,física,química,P101,Isaac Newton,física
 rome_11479,Sysco tiene su sede en,houston,Estocolmo,P159,Sysco,Houston
-calinet_5926,Wuhan es la capital de la <br> Wuhan es la capital de <br> Wuhan es la capital del <br> Wuhan es la capital del <br> Wuhan es la capital de <br> Wuhan es la capital de <br> Wuhan es la capital de,Provincia de Hubei,Carelia <br> Municipio de Osby <br> Condado de Dalarna <br> Nueva York <br> Shinyanga <br> Rothera,P1376,Wuhan,Provincia de Hubei
-rome_15733,Ark II se emitió originalmente en,CBS,hbo,P449,Ark II,CBS
-rome_19621,El idioma oficial de Guayana es el,Inglés,Francés,P37,Guayana,Inglés
-calinet_444,Mozambique comparte frontera con <br> Mozambique comparte frontera con el <br> Mozambique comparte frontera con <br> Mozambique comparte frontera con el,Zambia,Condado de Marinette <br> lonigo <br> Condado de Missoula,P47,Mozambique,Zambia
-rome_16190,"The Pictures, fundada en",melbourne,Dublín,P740,The Pictures,Melbourne
-rome_18691,Jane Franklin Hall está en,Tasmania,Inglaterra,P131,Jane Franklin Hall,Tasmania
-rome_5150,The Space Kidettes fue lanzado en,NBC,CBS,P449,The Space Kidettes,NBC
-rome_12648,Peter Novick fue empleado en <br> Peter Novick trabajaba en,chicago,Hamburgo,P937,Peter Novick,Chicago
-rome_15391,"Nikki Webster, que tiene ciudadanía de <br> Nikki Webster, quien tiene ciudadanía de",Australia,Brasil,P27,Nikki Webster,Australia
-rome_14402,El idioma original de Hedda Gabler era el <br> El idioma original de Hedda Gabler era el,noruego,Español,P364,Hedda Gabler,noruego
-calinet_8496,Paul Jeffrey toca <br> Paul Jeffrey interpreta a la <br> Paul Jeffrey interpreta a los <br> Paul Jeffrey juega a la,jazz,figura negra <br> Nefilim <br> pintura de historia,P136,Paul Jeffrey,jazz
-rome_19806,Gianni Ferrio tiene ciudadanía de <br> Gianni Ferrio tiene ciudadanía,Italia,India,P27,Gianni Ferrio,Italia
-calinet_5532,"Damasco, que es la ciudad capital de <br> Damasco, que es la ciudad capital de <br> Damasco, que es la capital de <br> Damasco, que es la ciudad capital de la <br> Damasco, que es la ciudad capital del <br> Damasco, que es la ciudad capital del <br> Damasco, que es la ciudad capital de <br> Damasco, que es la ciudad capital del <br> Damasco, que es la ciudad capital de las <br> Damasco, que es la ciudad capital de <br> Damasco, que es la ciudad capital de",Siria,"Bathurst <br> Cabo Verde <br> Ciudad de Nueva York, Nueva York, EE. UU. <br> Distrito de Vilyuysky <br> Distrito de Lodeynopolsky <br> Hoima <br> este de Flandes <br> Islas Marshall <br> Maimana <br> Comayagüela",P1376,Damasco,Siria
-rome_401,"En la Ilustración en España, una lengua oficial es el",Español,catalán,P37,Ilustración en España,Español
-rome_6037,La ciudad gemela de Varsovia es,Atenas,Birmingham,P190,Varsovia,Atenas
+calinet_5926,Wuhan es la capital de la <br> Wuhan es la capital del <br> Wuhan es la capital de <br> Wuhan es la capital de <br> Wuhan es la capital de <br> Wuhan es la capital del <br> Wuhan es la capital de,Provincia de Hubei,Municipio de Osby <br> Shinyanga <br> Carelia <br> Nueva York <br> Condado de Dalarna <br> Rothera,P1376,Wuhan,Provincia de Hubei
 rome_1397,John Fogerty toca la <br> John Fogerty toca el,guitarra,piano,P1303,John Fogerty,guitar
-rome_18597,Dennis DeYoung es originario de,chicago,Madrid,P19,Dennis DeYoung,Chicago
-rome_20697,"Tenjho Tenge, eso era de",Japón,Francia,P495,Tenjho Tenge,Japón
-calinet_8233,"Impaled Nazarene, que toca <br> Nazareno Empalado, que interpreta al",Black metal,luminista,P136,Impaled Nazarene,black metal
-rome_8298,"Sora Ltd., cuya sede se encuentra en",tokio,chicago,P159,Sora Ltd.,tokio
-calinet_8936,NEX-5N es un producto de <br> NEX-5N es un producto de la,sony,oficina de diseño de kuznetsov,P176,NEX-5N,Sony
-calinet_12410,"Tiy, que tiene el cargo de",faraón,cardenal camarlengo <br> almirante,P39,Tiy,faraón
-rome_591,John Schumann y Vagabond Crew se formaron en <br> John Schumann and the Vagabond Crew se formó en,Adelaide,Londres,P740,John Schumann y la tripulación vagabunda,Adelaide
-calinet_909,Kaspar Olevianus es nativo de,Trier,Eisenstadt <br> Polonia <br> Scampston <br> Omagh,P19,Kaspar Olevianus,Trier
-rome_10964,Kondotty está situado en los país de,India,Países Bajos,P17,Kondotty,India
-rome_9291,Vermilion Pass está en,Alberta,Seattle,P131,Vermilion Pass,Alberta
-rome_6260,Samuel von Fischer trabajaba en la ciudad de,Berlin,denver,P937,Samuel von Fischer,Berlina
-rome_7915,"Simón Brotherton, de la <br> Simón Brotherton, de",BBC,microsoft,P108,Simón Brotherton,BBC
+calinet_12363,"Putin, que tiene el cargo de",presidente ruso,comisionado de la NBA,P39,Putin,presidente ruso
+rome_21333,"La capital de la República Popular China,",Beijing,Kabul,P36,República Popular de China,Beijing
+rome_8738,"En Sint Maarten, entienden <br> En Sint Maarten entienden",Holandés,danés,P37,Sint Maarten,Holandés
+calinet_5824,"Hungría, que tiene como capital <br> Hungría, que tiene la capital <br> Hungría, que tiene la capital <br> Hungría, que tiene como capital el <br> Hungría, que tiene como capital <br> Hungría, que tiene como capital el <br> Hungría, que tiene la capital <br> Hungría, que tiene como capital",budapest,Gangtok <br> Benguela <br> Distrito de Aksaysky <br> Cuzco <br> Estado Aragua <br> gwened <br> Indianápolis,P1376,Budapest,Hungría
+calinet_3184,El idioma oficial de Mozambique es el,portugués,ruso <br> valón,P37,Mozambique,portugués
+rome_8783,Haas House se encuentra en,Viena,Alberta,P131,Haas House,Viena
+rome_700,Cómo conocí a vuestra madre se estrena en,CBS,NBC,P449,Cómo conocí a vuestra madre,CBS
