@@ -6,7 +6,7 @@ dataset's Non-English splits
 Original sources cited in the project's README
 
 Example usage:
-python cache_multilingual_fact_checking_dataset.py --hugging_face False
+python translate_multilingual_fact_checking_dataset.py --hugging_face False
 """
 
 import re
@@ -14,7 +14,6 @@ import time
 import pandas as pd
 import os
 import tqdm
-import copy
 from argparse import ArgumentParser
 from dotenv import load_dotenv
 
