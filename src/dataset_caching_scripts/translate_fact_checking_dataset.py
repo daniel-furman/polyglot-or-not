@@ -32,7 +32,7 @@ def main(args):
         pd_df_dict = {}
         dataset = load_dataset("CalibraGPT/Fact_Checking", split="English")
 
-        for i in tqdm.tqdm(range(100)):  # tqdm.tqdm(range(len(dataset))):
+        for i in tqdm.tqdm(range(25)):  # tqdm.tqdm(range(len(dataset))):
             # grab the stem + true fact to translate
             true_pair = dataset[i]["stem"] + " " + dataset[i]["true"]
 
@@ -286,23 +286,23 @@ def main(args):
 
         df.reset_index(drop=True, inplace=True)
 
-        # save to csv
-        df.to_csv(
-            f"../../data/ingested_data/translated_versions/{language}-fact-checking-full-input-information-3-30-23.csv",
+        # save to parquet
+        df.to_parquet(
+            f"../../data/ingested_data/translated_versions/{language}-fact-checking-3-30-23.parquet",
             index=False,
         )
 
-    # Optionally upload final csv to HuggingFace
+    # Optionally upload final parquet to HuggingFace
     if args.hugging_face:
         data_files = {
-            "English": "../../data/ingested_data/fact-checking-full-input-information-3-21-23.csv",
-            "French": "../../data/ingested_data/translated_versions/fr-fact-checking-full-input-information-3-30-23.csv",
-            "Spanish": "../../data/ingested_data/translated_versions/es-fact-checking-full-input-information-3-30-23.csv",
-            "Japanese": "../../data/ingested_data/translated_versions/ja-fact-checking-full-input-information-3-30-23.csv",
-            "Chinese": "../../data/ingested_data/translated_versions/zh-CN-fact-checking-full-input-information-3-30-23.csv",
-            "German": "../../data/ingested_data/translated_versions/de-fact-checking-full-input-information-3-30-23.csv",
+            "English": "../../data/ingested_data/fact-checking-3-21-23.parquet",
+            "French": "../../data/ingested_data/translated_versions/fr-fact-checking-3-30-23.parquet",
+            "Spanish": "../../data/ingested_data/translated_versions/es-fact-checking-3-30-23.parquet",
+            "Japanese": "../../data/ingested_data/translated_versions/ja-fact-checking-3-30-23.parquet",
+            "Chinese": "../../data/ingested_data/translated_versions/zh-CN-fact-checking-3-30-23.parquet",
+            "German": "../../data/ingested_data/translated_versions/de-fact-checking-3-30-23.parquet",
         }
-        dataset = load_dataset("csv", data_files=data_files)
+        dataset = load_dataset("parquet", data_files=data_files)
 
         # This reads the environment variables inside .env
         load_dotenv()
@@ -325,3 +325,9 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     main(args)
+
+
+# TO DO
+
+# - Fix "la physique" issues
+#   - Sep by space, translate each word, move words like "the" or "of" into stem

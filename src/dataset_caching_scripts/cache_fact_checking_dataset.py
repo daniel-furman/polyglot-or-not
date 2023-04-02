@@ -328,9 +328,9 @@ def main(args):
     mixed_df = mixed_df[
         ["dataset_id", "stem", "true", "false", "relation", "subject", "object"]
     ]
-    # write to file as .csv
-    mixed_df.to_csv(
-        "../../data/ingested_data/fact-checking-full-input-information-3-20-23.csv",
+    # write to file as .parquet
+    mixed_df.to_parquet(
+        "../../data/ingested_data/fact-checking-3-20-23.parquet",
         index=False,
     )
 
@@ -981,23 +981,18 @@ def main(args):
         stem = mixed_df.loc[i].stem[0].capitalize() + mixed_df.loc[i].stem[1:]
         mixed_df.loc[i, "stem"] = stem
 
-    # write to file as .csv
-    mixed_df.to_csv(
-        "../../data/ingested_data/fact-checking-full-input-information-3-21-23.csv",
+    # write to file as .parquet
+    mixed_df.to_parquet(
+        "../../data/ingested_data/fact-checking-3-21-23.parquet",
         index=False,
     )
 
-    # Optionally upload final csv to HuggingFace
+    # Optionally upload final parquet to HuggingFace
     if args.hugging_face:
         data_files = {
-            "English": "../../data/ingested_data/fact-checking-full-input-information-3-21-23.csv",
-            "French": "../../data/ingested_data/translated_versions/fr-fact-checking-full-input-information-3-30-23.csv",
-            "Spanish": "../../data/ingested_data/translated_versions/es-fact-checking-full-input-information-3-30-23.csv",
-            "Japanese": "../../data/ingested_data/translated_versions/ja-fact-checking-full-input-information-3-30-23.csv",
-            "Chinese": "../../data/ingested_data/translated_versions/zh-CN-fact-checking-full-input-information-3-30-23.csv",
-            "German": "../../data/ingested_data/translated_versions/de-fact-checking-full-input-information-3-30-23.csv",
+            "English": "../../data/ingested_data/fact-checking-3-21-23.parquet",
         }
-        dataset = load_dataset("csv", data_files=data_files)
+        dataset = load_dataset("parquet", data_files=data_files)
 
         # This reads the environment variables inside .env
         load_dotenv()
@@ -1022,3 +1017,8 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     main(args)
+
+
+# TO DO
+
+# - more error analysis
