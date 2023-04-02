@@ -9,6 +9,7 @@ python cache_fact_checking_dataset.py
 """
 
 import os
+import random
 import json
 import pandas as pd
 import copy
@@ -16,6 +17,7 @@ from argparse import ArgumentParser
 from datasets import load_dataset
 from huggingface_hub import login
 from dotenv import load_dotenv
+from nltk import word_tokenize, pos_tag
 
 
 def main(args):
@@ -453,6 +455,36 @@ def main(args):
         "calinet_494",
         "calinet_1878",
         "calinet_3864",
+        "rome_9081",
+        "calinet_5849",
+        "calinet_8111",
+        "rome_8201",
+        "calinet_4579",
+        "calinet_10145",
+        "calinet_1637",
+        "calinet_5803",
+        "rome_626",
+        "calinet_9319",
+        "calinet_5982",
+        "calinet_6694",
+        "calinet_6537",
+        "calinet_5736",
+        "calinet_1522",
+        "calinet_5551",
+        "calinet_10221",
+        "calinet_3969",
+        "calinet_6304",
+        "calinet_3549",
+        "calinet_1829",
+        "calinet_3544",
+        "calinet_8465",
+        "calinet_6629",
+        "calinet_12082",
+        "calinet_1819",
+        "rome_9477",
+        "calinet_10184",
+        "calinet_5905",
+        "calinet_5671",
     ]
 
     # delete these rows
@@ -481,8 +513,8 @@ def main(args):
     # modify errors when sandwitched with correct data where possible
     # dictionary: dataset_id and new counterfact list, with the error removed
     rows_to_alter = {
-        "calinet_7809": {"false": "['Gaulish', 'Georgian']"},
-        "calinet_1917": {"false": "['theology', 'free software', 'accounting']"},
+        "calinet_7809": {"false": ["Gaulish", "Georgian"]},
+        "calinet_1917": {"false": ["theology", "free software", "accounting"]},
         "calinet_7790": {"false": ["Hebrew", "Swahili"]},
         "rome_11311": {"false": ["Russian"], "true": "French", "object": "French"},
         "rome_17917": {"false": ["French"], "true": "Russian", "object": "Russian"},
@@ -494,9 +526,9 @@ def main(args):
         },
         "rome_5908": {"false": ["violin"], "true": "guitar", "object": "guitar"},
         "rome_21907": {"false": ["French"], "true": "English", "object": "English"},
-        "calinet_11761": {"false": "['Apple']"},
+        "calinet_11761": {"false": ["Apple"]},
         "calinet_2821": {"stem": "The Italian capital is", "subject": "capital"},
-        "rome_21182": {"false": "['Melbourne']"},
+        "rome_21182": {"false": ["Melbourne"]},
         "calinet_5824": {"stem": "Hungary, which has the capital", "object": "Hungary"},
         "calinet_10786": {
             "false": ["America", "Germany"],
@@ -527,6 +559,7 @@ def main(args):
         },
         "rome_19787": {
             "stem": "The 1993 Bombay bombings took place in",
+            "false": ["New Delhi"],
         },
         "calinet_6228": {
             "stem": "Marvin Gaye passed way in",
@@ -542,6 +575,7 @@ def main(args):
         "calinet_7198": {
             "true": "Molsheim, France",
             "object": "Molsheim, France",
+            "false": ["Maranello, Italy"],
         },
         "rome_17865": {
             "stem": "What does Wanda Sykes do? They write",
@@ -553,6 +587,59 @@ def main(args):
             "true": "Seattle",
             "object": "Seattle",
             "false": ["Los Angeles"],
+        },
+        "calinet_9216": {
+            "stem": "Rolling Stone Magazine is written in",
+            "subject": "Rolling Stone Magazine",
+            "false": ["Spanish"],
+        },
+        "calinet_5824": {
+            "stem": "Hungary, which has the capital",
+            "object": "Hungary",
+            "false": ["Vienna"],
+        },
+        "calinet_12363": {
+            "false": ["Senator"],
+            "true": "President",
+            "object": "President",
+        },
+        "calinet_2180": {
+            "false": ["Munich, Denver, Boston"],
+        },
+        "calinet_2742": {
+            "true": "Munich",
+            "false": ["Prague"],
+            "object": "Munich",
+        },
+        "calinet_2820": {
+            "false": ["Kampala"],
+        },
+        "calinet_8922": {
+            "false": ["Honda"],
+        },
+        "calinet_5926": {
+            "false": ["Zhejiang Province"],
+        },
+        "calinet_10906": {
+            "false": ["Canada"],
+        },
+        "calinet_3184": {
+            "false": ["Russian", "French"],
+        },
+        "calinet_10852": {"false": ["Canada"], "true": "America", "object": "America"},
+        "calinet_5749": {
+            "true": "Lebanon",
+            "false": ["Syria"],
+            "object": "Lebanon",
+        },
+        "calinet_2811": {
+            "stem": "The capital city of America is",
+            "subject": "America",
+        },
+        "calinet_10312": {
+            "stem": "America is affiliated with",
+            "false": ["Warsaw Pact"],
+            "subject": "America",
         },
     }
 
@@ -643,6 +730,18 @@ def main(args):
     )
     mixed_df.reset_index(drop=True, inplace=True)
 
+    # remove "citizen of" items
+    itr_citizen = 0
+    for i in range(len(mixed_df)):
+        if mixed_df.loc[i].relation == "P27":
+            itr_citizen += 1
+            mixed_df.drop(index=i, inplace=True)
+
+    print(
+        f"\t- Combined dataset: Removed {itr_citizen} stem/fact pairs that were relation P27 (citizen of relations)"
+    )
+    mixed_df.reset_index(drop=True, inplace=True)
+
     # remove soccer/football comparisons
     itr_football_soccer = 0
     for i in range(len(mixed_df)):
@@ -665,6 +764,70 @@ def main(args):
     print(
         f"\t- Combined dataset: Removed {itr_football_soccer} stem/fact pairs that compared football with soccer"
     )
+    mixed_df.reset_index(drop=True, inplace=True)
+
+    # remove rows where subject, and/or objects aren't nouns
+    # remove falses that aren't nouns, remove rows where no falses remain
+    itr_not_nouns = 0
+    for i in range(len(mixed_df)):
+        deleted_bool = False
+        true_pair = mixed_df.loc[i].stem + " " + mixed_df.loc[i].true
+        true_tagged = pos_tag(word_tokenize(true_pair))
+
+        # test if the object is a noun
+        noun_error = []
+        for tag in true_tagged:
+            # word tokenize subject
+            for word in word_tokenize(mixed_df.loc[i].object):
+                if tag[0] == word:
+                    if tag[1] not in ["NN", "NNS", "NNP", "NNPS"]:
+                        noun_error.append(True)
+                    else:
+                        noun_error.append(False)
+        if list(set(noun_error)) == [True]:
+            itr_not_nouns += 1
+            deleted_bool = True
+            mixed_df.drop(index=i, inplace=True)
+
+        # test if the subject is a noun
+        if not deleted_bool:
+            noun_error = []
+            for tag in true_tagged:
+                # word tokenize subject
+                for word in word_tokenize(mixed_df.loc[i].subject):
+                    if tag[0] == word:
+                        if tag[1] not in ["NN", "NNS", "NNP", "NNPS"]:
+                            noun_error.append(True)
+                        else:
+                            noun_error.append(False)
+            if (list(set(noun_error)) == [True]) and (not deleted_bool):
+                itr_not_nouns += 1
+                deleted_bool = True
+                mixed_df.drop(index=i, inplace=True)
+
+        # test if the false items in the counterfact list are nouns
+        if not deleted_bool:
+            false_list = copy.deepcopy(mixed_df.loc[i].false)
+            for false in mixed_df.loc[i].false:
+                false_pair = mixed_df.loc[i].stem + " " + false
+                false_tagged = pos_tag(word_tokenize(false_pair))
+                noun_error = []
+                for tag in false_tagged:
+                    # word tokenize subject
+                    for word in word_tokenize(false):
+                        if tag[0] == word:
+                            if tag[1] not in ["NN", "NNS", "NNP", "NNPS"]:
+                                noun_error.append(True)
+                            else:
+                                noun_error.append(False)
+                if list(set(noun_error)) == [True]:
+                    false_list.remove(false)
+            if len(false_list) > 0:
+                mixed_df.loc[i, "false"] = false_list
+            else:
+                mixed_df.drop(index=i, inplace=True)
+                itr_not_nouns += 1
+    print(f"\t- Combined dataset: Removed {itr_not_nouns} items with non-noun errors")
     mixed_df.reset_index(drop=True, inplace=True)
 
     # find any duplicates resulting from above fixes
@@ -691,23 +854,19 @@ def main(args):
             pairs_list_collect.append(
                 (mixed_df.loc[i].stem, mixed_df.loc[i].true, mixed_df.loc[i].false)
             )
-
     new_counterfacts = {}
     for element in pairs_list_collect:
         try:
             new_counterfacts[element[0] + " " + element[1]].extend(element[2])
         except KeyError:
             new_counterfacts[element[0] + " " + element[1]] = element[2]
-
     new_counterfacts_2 = {}
     for x, y in new_counterfacts.items():
         new_counterfacts_2[x] = list(set(y))
-
     for i in range(len(mixed_df)):
         key_item = mixed_df.loc[i].stem + " " + mixed_df.loc[i].true
         if key_item in list(new_counterfacts_2.keys()):
             mixed_df.loc[i, "false"] = new_counterfacts_2[key_item]
-
     mixed_df.drop_duplicates(subset=["stem", "true"], inplace=True)
     mixed_df.reset_index(drop=True, inplace=True)
 
@@ -717,11 +876,6 @@ def main(args):
         pairs = (mixed_df.loc[i].stem, mixed_df.loc[i].true)
         pairs_list.append(pairs)
 
-    # make sure all counterfacts are sets
-    pairs_list = []
-    for i in range(len(mixed_df)):
-        mixed_df.loc[i, "false"] = list(set(mixed_df.loc[i, "false"]))
-
     # shuffle the df's rows (without replacement)
     mixed_df = mixed_df.sample(
         frac=1, replace=False, random_state=44, ignore_index=True
@@ -730,7 +884,6 @@ def main(args):
     # grab a subsest to include at the head, for sharing purposes
     good_subset = [
         "rome_11754",
-        "calinet_10852",
         "calinet_8922",
         "calinet_2820",
         "rome_10452",
@@ -743,7 +896,6 @@ def main(args):
         "rome_14462",
         "rome_20584",
         "rome_11479",
-        "calinet_10906",
         "calinet_5926",
         "rome_21182",
         "rome_1397",
@@ -776,13 +928,23 @@ def main(args):
         "calinet_7198",
         "rome_17865",
         "calinet_3768",
+        "calinet_9216",
+        "calinet_12590",
+        "calinet_5749",
+        "rome_13221",
+        "calinet_10312",
     ]
-    good_subset.reverse()
+    random.shuffle(good_subset)
     for dataset_id in good_subset:
         id = mixed_df[mixed_df.dataset_id == dataset_id].index
         mixed_df = pd.concat([mixed_df.loc[id], mixed_df])
     mixed_df.drop_duplicates(subset=["dataset_id"], inplace=True)
     mixed_df.reset_index(drop=True, inplace=True)
+
+    # make sure all counterfacts are sets
+    pairs_list = []
+    for i in range(len(mixed_df)):
+        mixed_df.loc[i, "false"] = list(set(mixed_df.loc[i, "false"]))
 
     # find any trio duplicates remaining (there shouldn't be, after the set command above)
     pairs_list = []
