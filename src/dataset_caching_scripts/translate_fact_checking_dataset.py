@@ -89,7 +89,8 @@ def main(args):
                     pd_df_dict["true"] = [true_fact_translated]
 
                 stems.append(stem_pattern)
-            # otherwise, check if the original english object is at the end of the sentence
+            # otherwise, check if the original english object is at
+            # the end of the sentence
             else:
                 index_fact = len(translated_true_tokenized) - len(
                     dataset[i]["true"].split(" ")
@@ -134,7 +135,8 @@ def main(args):
 
                         stems.append(stem_pattern)
 
-                    # otherwise, check if the original english object is at the end of the sentence
+                    # otherwise, check if the original english object is at the
+                    # end of the sentence
                     else:
                         index_fact = len(translated_false_tokenized_list[itr]) - len(
                             counterfacts_list[itr].split(" ")
@@ -274,8 +276,8 @@ def main(args):
             stem = df.loc[i].stem[0].capitalize() + df.loc[i].stem[1:]
             df.loc[i, "stem"] = stem
 
-        # if <br> chars present in stem, then there must be n <br> chars (n stems) for n completions
-        # ie, # <br> chars in the stem should equal # <br> chars in the counterfact + 1 for the fact
+        # check that the num of <br> chars are consistent between
+        # stem and fact/counterfacts
         for i in range(len(df)):
             if " <br> " in df.loc[i].stem:
                 if (

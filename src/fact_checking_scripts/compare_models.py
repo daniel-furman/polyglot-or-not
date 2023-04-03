@@ -86,8 +86,10 @@ def compare_models(model_name_list, input_dataset, verbose):
       * and get an output report that contains..
         * the 'result' ie is true > false
         * the probabilities of both of those values
-      * running this method over a large set of positive/negative pairings should result in a large pool of information that can be used to compare model-families
-      * we can also look at the relative 'certainty' across different models (at least in orders of magnitude)
+      * running this method over a large set of positive/negative pairings should
+      result in a large pool of information that can be used to compare model-families
+      * we can also look at the relative 'certainty' across different models
+      (at least in orders of magnitude)
 
     """
 
@@ -318,7 +320,10 @@ def compare_models(model_name_list, input_dataset, verbose):
         # record the summary dict
         score_dict_summary[
             model_name.lower()
-        ] = f"This model predicted {true_count}/{fact_count} facts at a higher prob than the given counterfactual. The mean p_true was {np.round(np.mean(np.array(p_trues)), decimals=4)} while the mean p_false_average was {np.round(np.mean(np.array(p_falses)), decimals=4)}."
+        ] = f"This model predicted {true_count}/{fact_count} facts at a higher"
+        " prob than the given counterfactual. In addition, the mean p_true was"
+        f" {np.round(np.mean(np.array(p_trues)), decimals=4)} while the mean"
+        f" p_false_average was {np.round(np.mean(np.array(p_falses)), decimals=4)}."
 
         print("Done\n")
         del tokenizer

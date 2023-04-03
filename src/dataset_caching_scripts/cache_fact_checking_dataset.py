@@ -12,6 +12,7 @@ import os
 import random
 import json
 import pandas as pd
+import numpy as np
 import copy
 from argparse import ArgumentParser
 from datasets import load_dataset
@@ -106,7 +107,8 @@ def main(args):
         f"\t- Calinet dataset: There are {c} valid stem/fact pairs in the source data."
     )
     print(
-        f"\t- Calinet dataset: There are {len(trex_df)} valid counterfacts in the source data."
+        f"\t- Calinet dataset: There are {len(trex_df)} valid counterfacts"
+        " in the source data."
     )
 
     def check_for_causal_compatibility(stem):
@@ -123,8 +125,12 @@ def main(args):
     trimmed_stems = trex_causal_df.apply(lambda x: trim_stem(x.stem), axis=1)
     trex_causal_df["stem"] = list(trimmed_stems)
 
+    unique_trex = (
+        len(trex_causal_df["fact_id"].unique()) / len(trex_causal_df["fact_id"]) * 100
+    )
     print(
-        f'\t- Calinet dataset: Only about {str(len(trex_causal_df["fact_id"].unique())/len(trex_causal_df["fact_id"])*100)[0:4]}% of the stem/fact pairs are unique (many are paraphrased).'
+        f"\t- Calinet dataset: Only about {np.round(unique_trex, decimals=1)}"
+        "% of the stem/fact pairs are unique (many are paraphrased)."
     )
 
     # before sampling, attach arbitrary counter ID, to then track who gets removed
@@ -155,7 +161,8 @@ def main(args):
             else:
                 removed_counterfacts[str(fact_id)] = [counterfact]
 
-    # did we remove as many rows as eq to the difference between the full calinet dataset row number and the unique count?
+    # did we remove as many rows as eq to the difference between the full calinet
+    # dataset row number and the unique count?
     assert len(removed_ids) == trex_causal_df.shape[0] - len(
         trex_causal_df["fact_id"].unique()
     )
@@ -199,23 +206,25 @@ def main(args):
         num_pairs += len(data_calinet_input_information[x]["false"])
 
     print(
-        f"\t- Calinet dataset: There are {len(data_calinet_input_information)} stem/fact pairs left after removing paraphrases."
+        f"\t- Calinet dataset: There are {len(data_calinet_input_information)}"
+        " stem/fact pairs left after removing paraphrases."
     )
     print(
-        f"\t- Calinet dataset: There are {num_pairs} counterfacts left after removing paraphrases."
+        f"\t- Calinet dataset: There are {num_pairs} counterfacts left after"
+        " removing paraphrases."
     )
-    # out of curiosity, which relation templates persist in the cleaned, 'causal friendly' set...
-    # print(trex_causal_df["relation"].value_counts())
 
     # Load in ROME counterfact data
     with open("../../data/rome_data_original/counterfact.json", "r") as f:
         data_rome = json.load(f)
 
     print(
-        f"\n\t- Rome dataset: There are {len(data_rome)} valid stem/fact pairs in the source data."
+        f"\n\t- Rome dataset: There are {len(data_rome)} valid stem/fact pairs"
+        " in the source data."
     )
     print(
-        f"\t- Rome dataset: There are {len(data_rome)} valid counterfacts in the source data."
+        f"\t- Rome dataset: There are {len(data_rome)} valid counterfacts in"
+        " the source data."
     )
     data_rome_input_information = {}
 
@@ -257,7 +266,8 @@ def main(args):
         pairs_list.append(pairs)
 
     print(
-        f"\n\t- Combined dataset: There are {len(pairs_list)} stem/fact pairs after combining data."
+        f"\n\t- Combined dataset: There are {len(pairs_list)} stem/fact"
+        " pairs after combining data."
     )
 
     pairs_list = []
@@ -267,7 +277,8 @@ def main(args):
             pairs_list.append(pairs)
 
     print(
-        f"\t- Combined dataset: There are {len(pairs_list)} counterfacts after combining data."
+        f"\t- Combined dataset: There are {len(pairs_list)} counterfacts"
+        " after combining data."
     )
 
     # update mixed_df to have all info for rome then write that out.
@@ -493,6 +504,74 @@ def main(args):
         "rome_18739",
         "rome_3929",
         "calinet_4504",
+        "calinet_2829",
+        "calinet_2263",
+        "calinet_6596",
+        "calinet_7812",
+        "calinet_12256",
+        "calinet_5838",
+        "calinet_1577",
+        "calinet_1538",
+        "rome_4716",
+        "rome_7858",
+        "calinet_12153",
+        "calinet_8452",
+        "rome_19436",
+        "calinet_8223",
+        "rome_9317",
+        "calinet_9578",
+        "calinet_1602",
+        "calinet_3377",
+        "calinet_7072",
+        "calinet_8153",
+        "calinet_2832",
+        "calinet_7417",
+        "calinet_7676",
+        "calinet_10130",
+        "calinet_8450",
+        "calinet_7898",
+        "calinet_9660",
+        "calinet_10233",
+        "rome_1131",
+        "calinet_8450",
+        "rome_18347",
+        "rome_17012",
+        "calinet_3302",
+        "rome_2809",
+        "calinet_5713",
+        "rome_12017",
+        "calinet_9441",
+        "calinet_5750",
+        "calinet_3636",
+        "calinet_12289",
+        "calinet_3556",
+        "calinet_3589",
+        "calinet_3523",
+        "calinet_2807",
+        "calinet_6282",
+        "calinet_3605",
+        "calinet_104",
+        "calinet_447",
+        "calinet_3947",
+        "calinet_3966",
+        "calinet_12194",
+        "calinet_401",
+        "rome_3244",
+        "calinet_6969",
+        "rome_5017",
+        "calinet_2379",
+        "calinet_2063",
+        "calinet_2140",
+        "calinet_9994",
+        "calinet_2418",
+        "calinet_2084",
+        "calinet_1941",
+        "rome_4233",
+        "calinet_7183",
+        "calinet_12628",
+        "calinet_9160",
+        "calinet_12789",
+        "rome_1906",
     ]
 
     # delete these rows
@@ -502,7 +581,8 @@ def main(args):
             mixed_df.drop(i, axis=0, inplace=True)
 
     print(
-        f"\t- Combined dataset: Removed {len(set(rows_to_delete))} rows that were manually flagged as errors."
+        f"\t- Combined dataset: Removed {len(set(rows_to_delete))}"
+        " stem/fact pairs that were manually flagged as errors."
     )
 
     mixed_df.shape[0]
@@ -513,9 +593,7 @@ def main(args):
             itr += 1
             mixed_df.drop(i, axis=0, inplace=True)
 
-    print(
-        f'\t- Combined dataset: Removed {itr} stem/fact pairs that contained "a/an + _" grammatical errors.'
-    )
+    print(f'\t- Combined dataset: Removed {itr} stem/fact pairs with "a/an + _".')
     mixed_df.reset_index(drop=True, inplace=True)
 
     # modify errors when sandwitched with correct data where possible
@@ -537,7 +615,6 @@ def main(args):
         "calinet_11761": {"false": ["Apple"]},
         "calinet_2821": {"stem": "The Italian capital is", "subject": "capital"},
         "rome_21182": {"false": ["Melbourne"]},
-        "calinet_5824": {"stem": "Hungary, which has the capital", "object": "Hungary"},
         "calinet_10786": {
             "false": ["America", "Germany"],
             "true": "Russia",
@@ -667,6 +744,31 @@ def main(args):
         "calinet_5516": {
             "false": ["Norway"],
         },
+        "calinet_8388": {
+            "false": ["hip hop"],
+        },
+        "rome_9037": {
+            "stem": "How I Met Your Mother is a",
+        },
+        "calinet_12121": {
+            "stem": "Lyndon Johnson, who has the position of",
+            "false": ["Vice President", "UN Secretary-General"],
+        },
+        "calinet_6983": {
+            "false": ["New York City, New York"],
+        },
+        "calinet_8410": {"stem": "Metal musicians", "false": ["Coldplay"]},
+        "rome_15790": {
+            "true": "astronomy",
+            "object": "astronomy",
+            "false": ["literature"],
+        },
+        "calinet_1797": {
+            "false": ["anthropology"],
+        },
+        "rome_17056": {
+            "false": ["literature"],
+        },
     }
 
     for key, dictionary in rows_to_alter.items():
@@ -716,7 +818,8 @@ def main(args):
             mixed_df.drop(index=i, inplace=True)
 
     print(
-        f"\t- Combined dataset: Removed {itr_true_in_stem} stem/fact pairs where the fact is explicitly stated in the stem"
+        f"\t- Combined dataset: Removed {itr_true_in_stem} stem/fact pairs"
+        " where the fact is explicitly stated in the stem"
     )
     mixed_df.reset_index(drop=True, inplace=True)
 
@@ -728,7 +831,8 @@ def main(args):
             mixed_df.drop(index=i, inplace=True)
 
     print(
-        f"\t- Combined dataset: Removed {itr_sister_city} stem/fact pairs that were relation P190 (sister city related)"
+        f"\t- Combined dataset: Removed {itr_sister_city} stem/fact pairs"
+        " that were relation P190 (sister city)"
     )
     mixed_df.reset_index(drop=True, inplace=True)
 
@@ -740,7 +844,8 @@ def main(args):
             mixed_df.drop(index=i, inplace=True)
 
     print(
-        f"\t- Combined dataset: Removed {itr_religion} stem/fact pairs that were relation P140 (religion related)"
+        f"\t- Combined dataset: Removed {itr_religion} stem/fact pairs"
+        " that were relation P140 (religion)"
     )
     mixed_df.reset_index(drop=True, inplace=True)
 
@@ -752,7 +857,8 @@ def main(args):
             mixed_df.drop(index=i, inplace=True)
 
     print(
-        f"\t- Combined dataset: Removed {itr_diplomatic} stem/fact pairs that were relation P530 (diplomatic relations)"
+        f"\t- Combined dataset: Removed {itr_diplomatic} stem/fact pairs"
+        " that were relation P530 (diplomatic ties)"
     )
     mixed_df.reset_index(drop=True, inplace=True)
 
@@ -764,7 +870,21 @@ def main(args):
             mixed_df.drop(index=i, inplace=True)
 
     print(
-        f"\t- Combined dataset: Removed {itr_citizen} stem/fact pairs that were relation P27 (citizen of relations)"
+        f"\t- Combined dataset: Removed {itr_citizen} stem/fact pairs that"
+        " were relation P27 (citizen of)"
+    )
+    mixed_df.reset_index(drop=True, inplace=True)
+
+    # remove "affiliated with" items
+    itr_affiliated = 0
+    for i in range(len(mixed_df)):
+        if mixed_df.loc[i].relation == "P463":
+            itr_affiliated += 1
+            mixed_df.drop(index=i, inplace=True)
+
+    print(
+        f"\t- Combined dataset: Removed {itr_affiliated} stem/fact pairs"
+        " that were relation P463 (affiliated with)"
     )
     mixed_df.reset_index(drop=True, inplace=True)
 
@@ -788,7 +908,68 @@ def main(args):
                         false_list.remove("football")
                         mixed_df.loc[i, "false"] = false_list
     print(
-        f"\t- Combined dataset: Removed {itr_football_soccer} stem/fact pairs that compared football with soccer"
+        f"\t- Combined dataset: Removed {itr_football_soccer} stem/fact pairs"
+        " that compared football with soccer"
+    )
+    mixed_df.reset_index(drop=True, inplace=True)
+
+    # remove rows with "expired at"
+    itr_expired = 0
+    for i in range(len(mixed_df)):
+        if mixed_df.loc[i].stem.lower().count("expired at") > 0:
+            itr_expired += 1
+            mixed_df.drop(index=i, inplace=True)
+
+    print(
+        f"\t- Combined dataset: Removed {itr_expired} stem/fact pairs with"
+        ' "expired at" wording'
+    )
+    mixed_df.reset_index(drop=True, inplace=True)
+
+    # remove stems / true / false elements with "-language" in them
+    itr_dash_language = 0
+    for i in range(len(mixed_df)):
+        if mixed_df.loc[i].true.lower().count("-language") > 0:
+            itr_dash_language += 1
+            mixed_df.drop(index=i, inplace=True)
+        elif mixed_df.loc[i].stem.lower().count("-language") > 0:
+            itr_dash_language += 1
+            mixed_df.drop(index=i, inplace=True)
+        else:
+            false_list = copy.deepcopy(mixed_df.loc[i].false)
+            for false in mixed_df.loc[i].false:
+                if false.lower().count("-language") > 0:
+                    false_list.remove(false)
+            if len(false_list) > 0:
+                mixed_df.loc[i, "false"] = false_list
+            else:
+                itr_dash_language += 1
+                mixed_df.drop(index=i, inplace=True)
+    print(
+        f"\t- Combined dataset: Removed {itr_dash_language} stem/fact pairs"
+        ' with "-language" wording'
+    )
+    mixed_df.reset_index(drop=True, inplace=True)
+
+    # remove true / false elements that start with "the"
+    itr_the = 0
+    for i in range(len(mixed_df)):
+        if mixed_df.loc[i].true.lower().split(" ")[0] == "the":
+            itr_the += 1
+            mixed_df.drop(index=i, inplace=True)
+        else:
+            false_list = copy.deepcopy(mixed_df.loc[i].false)
+            for false in mixed_df.loc[i].false:
+                if false.lower().split(" ")[0] == "the":
+                    false_list.remove(false)
+            if len(false_list) > 0:
+                mixed_df.loc[i, "false"] = false_list
+            else:
+                itr_the += 1
+                mixed_df.drop(index=i, inplace=True)
+    print(
+        f"\t- Combined dataset: Removed {itr_the} stem/fact pairs with"
+        ' facts/counterfacts starting with "the"'
     )
     mixed_df.reset_index(drop=True, inplace=True)
 
@@ -853,7 +1034,10 @@ def main(args):
             else:
                 mixed_df.drop(index=i, inplace=True)
                 itr_not_nouns += 1
-    print(f"\t- Combined dataset: Removed {itr_not_nouns} items with non-noun errors")
+    print(
+        f"\t- Combined dataset: Removed {itr_not_nouns} stem/fact pairs with"
+        " facts/counterfacts that didn't have at least one noun"
+    )
     mixed_df.reset_index(drop=True, inplace=True)
 
     # find any duplicates resulting from above fixes
@@ -869,7 +1053,8 @@ def main(args):
         pairs_list.append(pairs)
 
     print(
-        f"\t- Combined dataset: Removed {len(pairs_list) - len(set(pairs_list))} stem/fact pair duplicates."
+        f"\t- Combined dataset: Removed {len(pairs_list) - len(set(pairs_list))}"
+        " stem/fact pair duplicates."
     )
 
     # repair any duplicates resulting from above fixes
@@ -968,6 +1153,37 @@ def main(args):
         "rome_17929",
         "calinet_7004",
         "calinet_5516",
+        "rome_14610",
+        "calinet_8388",
+        "rome_20965",
+        "rome_9037",
+        "rome_10068",
+        "rome_11693",
+        "calinet_5684",
+        "rome_3161",
+        "calinet_12121",
+        "rome_9881",
+        "calinet_6266",
+        "rome_16867",
+        "calinet_8410",
+        "rome_4790",
+        "rome_15892",
+        "calinet_10027",
+        "rome_3586",
+        "rome_259",
+        "rome_10548",
+        "rome_10145",
+        "rome_15334",
+        "calinet_4853",
+        "calinet_8153",
+        "calinet_7490",
+        "calinet_7109",
+        "rome_21525",
+        "rome_2650",
+        "rome_4897",
+        "calinet_1797",
+        "rome_17056",
+        "rome_1633",
     ]
     random.shuffle(good_subset)
     for dataset_id in good_subset:
@@ -981,13 +1197,15 @@ def main(args):
     for i in range(len(mixed_df)):
         mixed_df.loc[i, "false"] = list(set(mixed_df.loc[i, "false"]))
 
-    # find any trio duplicates remaining (there shouldn't be, after the set command above)
+    # find any trio duplicates remaining
+    # there shouldn't be, after the set command above
     pairs_list = []
     for i in range(len(mixed_df)):
         pairs = (mixed_df.loc[i].stem, mixed_df.loc[i].true)
         pairs_list.append(pairs)
     print(
-        f'\t- Combined dataset: There are {len(set(pairs_list))} unique stem/fact pairs remaining in the final "CalibraGPT/Fact_Checking" dataset.'
+        f"\t- Combined dataset: There are {len(set(pairs_list))} unique stem/fact pairs"
+        ' remaining in the final "CalibraGPT/Fact_Checking" dataset.'
     )
     assert len(set(pairs_list)) == len(mixed_df)
 
@@ -998,7 +1216,8 @@ def main(args):
             pairs_list.append(pairs)
 
     print(
-        f'\t- Combined dataset: There are {len(set(pairs_list))} unique counterfacts remaining in the final "CalibraGPT/Fact_Checking" dataset.'
+        f"\t- Combined dataset: There are {len(set(pairs_list))} unique counterfacts"
+        ' remaining in the final "CalibraGPT/Fact_Checking" dataset.'
     )
 
     # convert lists to strings with <br> delimiters
@@ -1056,4 +1275,6 @@ if __name__ == "__main__":
 
 # TO DO
 
-# - more error analysis
+# review later, fix them, include in good subset
+#  - calinet_3106, rome_21008, calinet_1941, calinet_13, calinet_5819, calinet_451,
+#  - calinet_3205, calinet_6739, calinet_2640, rome_11966, rome_19266, rome_1513

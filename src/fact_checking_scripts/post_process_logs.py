@@ -2,7 +2,9 @@
 Process fact-checking logs to generate bootstrap estimates and error analysis data
 
 Example usage:
-python post_process_logs.py --filename roberta-large-logged-cka-outputs-25-03-2023-17-28-56.json --num_resamples 100 --save_results True
+python post_process_logs.py \
+    --filename roberta-large-logged-cka-outputs-25-03-2023-17-28-56.json \
+    --num_resamples 100 --save_results True
 """
 
 from typing import List
