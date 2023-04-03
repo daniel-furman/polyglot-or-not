@@ -485,6 +485,8 @@ def main(args):
         "calinet_10184",
         "calinet_5905",
         "calinet_5671",
+        "rome_15012",
+        "rome_398",
     ]
 
     # delete these rows
@@ -933,6 +935,7 @@ def main(args):
         "calinet_5749",
         "rome_13221",
         "calinet_10312",
+        "calinet_6356",
     ]
     random.shuffle(good_subset)
     for dataset_id in good_subset:
