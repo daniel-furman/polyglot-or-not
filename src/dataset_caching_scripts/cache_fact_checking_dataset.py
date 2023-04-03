@@ -487,6 +487,12 @@ def main(args):
         "calinet_5671",
         "rome_15012",
         "rome_398",
+        "calinet_12611",
+        "calinet_609",
+        "rome_3106",
+        "rome_18739",
+        "rome_3929",
+        "calinet_4504",
     ]
 
     # delete these rows
@@ -642,6 +648,24 @@ def main(args):
             "stem": "America is affiliated with",
             "false": ["Warsaw Pact"],
             "subject": "America",
+        },
+        "calinet_5576": {
+            "false": ["Jamaica"],
+        },
+        "calinet_6356": {
+            "false": ["Philadelphia"],
+        },
+        "calinet_156": {
+            "false": ["Uganda"],
+        },
+        "calinet_8171": {
+            "false": ["Taylor Swift"],
+        },
+        "calinet_7004": {
+            "false": ["Seattle, Washington"],
+        },
+        "calinet_5516": {
+            "false": ["Norway"],
         },
     }
 
@@ -936,6 +960,14 @@ def main(args):
         "rome_13221",
         "calinet_10312",
         "calinet_6356",
+        "calinet_5576",
+        "rome_18369",
+        "calinet_156",
+        "rome_5419",
+        "calinet_8171",
+        "rome_17929",
+        "calinet_7004",
+        "calinet_5516",
     ]
     random.shuffle(good_subset)
     for dataset_id in good_subset:
