@@ -6,7 +6,7 @@ dataset's Non-English splits
 Original sources cited in the project's README
 
 Example usage:
-python translate_multilingual_fact_checking_dataset.py --hugging_face False
+python translate_fact_checking_dataset.py
 """
 
 import re
