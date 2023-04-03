@@ -32,7 +32,7 @@ def main(args):
         pd_df_dict = {}
         dataset = load_dataset("CalibraGPT/Fact_Checking", split="English")
 
-        for i in tqdm.tqdm(range(25)):  # tqdm.tqdm(range(len(dataset))):
+        for i in tqdm.tqdm(range(len(dataset))):
             # grab the stem + true fact to translate
             true_pair = dataset[i]["stem"] + " " + dataset[i]["true"]
 
@@ -297,12 +297,12 @@ def main(args):
     # Optionally upload final parquet to HuggingFace
     if args.hugging_face:
         data_files = {
-            "English": "../../data/ingested_data/fact-checking-3-21-23.parquet",
+            "English": "../../data/ingested_data/en-fact-checking-3-21-23.parquet",
             "French": "../../data/ingested_data/translated_versions/fr-fact-checking-3-30-23.parquet",
-            "Spanish": "../../data/ingested_data/translated_versions/es-fact-checking-3-30-23.parquet",
-            "Japanese": "../../data/ingested_data/translated_versions/ja-fact-checking-3-30-23.parquet",
-            "Chinese": "../../data/ingested_data/translated_versions/zh-CN-fact-checking-3-30-23.parquet",
-            "German": "../../data/ingested_data/translated_versions/de-fact-checking-3-30-23.parquet",
+            # "Spanish": "../../data/ingested_data/translated_versions/es-fact-checking-3-30-23.parquet",
+            # "Japanese": "../../data/ingested_data/translated_versions/ja-fact-checking-3-30-23.parquet",
+            # "Chinese": "../../data/ingested_data/translated_versions/zh-CN-fact-checking-3-30-23.parquet",
+            # "German": "../../data/ingested_data/translated_versions/de-fact-checking-3-30-23.parquet",
         }
         dataset = load_dataset("parquet", data_files=data_files)
 

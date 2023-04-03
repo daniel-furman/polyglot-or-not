@@ -341,7 +341,7 @@ def main(args):
     ]
     # write to file as .parquet
     mixed_df.to_parquet(
-        "../../data/ingested_data/fact-checking-3-20-23.parquet",
+        "../../data/ingested_data/en-fact-checking-3-20-23.parquet",
         index=False,
     )
 
@@ -572,6 +572,13 @@ def main(args):
         "calinet_9160",
         "calinet_12789",
         "rome_1906",
+        "calinet_137",
+        "calinet_4516",
+        "rome_19266",
+        "rome_15136",
+        "rome_15088",
+        "calinet_5977",
+        "calinet_3324",
     ]
 
     # delete these rows
@@ -614,7 +621,6 @@ def main(args):
         "rome_21907": {"false": ["French"], "true": "English", "object": "English"},
         "calinet_11761": {"false": ["Apple"]},
         "calinet_2821": {"stem": "The Italian capital is", "subject": "capital"},
-        "rome_21182": {"false": ["Melbourne"]},
         "calinet_10786": {
             "false": ["America", "Germany"],
             "true": "Russia",
@@ -708,9 +714,6 @@ def main(args):
         "calinet_10906": {
             "false": ["Canada"],
         },
-        "calinet_3184": {
-            "false": ["Russian", "French"],
-        },
         "calinet_10852": {"false": ["Canada"], "true": "America", "object": "America"},
         "calinet_5749": {
             "true": "Lebanon",
@@ -768,6 +771,29 @@ def main(args):
         },
         "rome_17056": {
             "false": ["literature"],
+        },
+        "calinet_3106": {
+            "false": ["Pakistan"],
+        },
+        "calinet_5819": {
+            "false": ["Vancouver", "Quebec City", "Toronto"],
+        },
+        "calinet_6739": {
+            "false": ["London"],
+            "true": "Cambridge",
+            "object": "Cambridge",
+        },
+        "calinet_2640": {"false": ["Kyoto"], "true": "Tokyo", "object": "Tokyo"},
+        "rome_11966": {
+            "false": ["Budapest"],
+            "stem": "Austria, which has the capital",
+            "subject": "Austria",
+        },
+        "calinet_7356": {
+            "false": ["Rome"],
+        },
+        "calinet_209": {
+            "false": ["Thailand"],
         },
     }
 
@@ -1101,28 +1127,21 @@ def main(args):
         "rome_5025",
         "rome_15553",
         "rome_13484",
-        "rome_20283",
         "rome_957",
-        "rome_15088",
         "rome_14462",
         "rome_20584",
         "rome_11479",
         "calinet_5926",
-        "rome_21182",
         "rome_1397",
         "calinet_12363",
         "rome_21333",
         "rome_8738",
         "calinet_5824",
-        "calinet_3184",
         "rome_8783",
         "rome_700",
         "calinet_12059",
         "calinet_4311",
-        "rome_19449",
         "calinet_143",
-        "calinet_2180",
-        "rome_13432",
         "rome_3074",
         "rome_20293",
         "calinet_12403",
@@ -1135,14 +1154,12 @@ def main(args):
         "calinet_2742",
         "rome_15619",
         "calinet_681",
-        "rome_11341",
         "calinet_7198",
         "rome_17865",
         "calinet_3768",
         "calinet_9216",
         "calinet_12590",
         "calinet_5749",
-        "rome_13221",
         "calinet_10312",
         "calinet_6356",
         "calinet_5576",
@@ -1175,7 +1192,6 @@ def main(args):
         "rome_10145",
         "rome_15334",
         "calinet_4853",
-        "calinet_8153",
         "calinet_7490",
         "calinet_7109",
         "rome_21525",
@@ -1184,6 +1200,18 @@ def main(args):
         "calinet_1797",
         "rome_17056",
         "rome_1633",
+        "rome_6657",
+        "rome_21008",
+        "calinet_5819",
+        "calinet_6739",
+        "rome_17595",
+        "rome_20749",
+        "rome_7651",
+        "calinet_5813",
+        "calinet_7356",
+        "calinet_209",
+        "rome_1077",
+        "rome_21420",
     ]
     random.shuffle(good_subset)
     for dataset_id in good_subset:
@@ -1192,12 +1220,14 @@ def main(args):
     mixed_df.drop_duplicates(subset=["dataset_id"], inplace=True)
     mixed_df.reset_index(drop=True, inplace=True)
 
+    # consider adding a batch of custom examples
+
     # make sure all counterfacts are sets
     pairs_list = []
     for i in range(len(mixed_df)):
         mixed_df.loc[i, "false"] = list(set(mixed_df.loc[i, "false"]))
 
-    # find any trio duplicates remaining
+    # find any duplicates remaining
     # there shouldn't be, after the set command above
     pairs_list = []
     for i in range(len(mixed_df)):
@@ -1237,14 +1267,14 @@ def main(args):
 
     # write to file as .parquet
     mixed_df.to_parquet(
-        "../../data/ingested_data/fact-checking-3-21-23.parquet",
+        "../../data/ingested_data/en-fact-checking-3-21-23.parquet",
         index=False,
     )
 
     # Optionally upload final parquet to HuggingFace
     if args.hugging_face:
         data_files = {
-            "English": "../../data/ingested_data/fact-checking-3-21-23.parquet",
+            "English": "../../data/ingested_data/en-fact-checking-3-21-23.parquet",
         }
         dataset = load_dataset("parquet", data_files=data_files)
 
@@ -1271,10 +1301,3 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     main(args)
-
-
-# TO DO
-
-# review later, fix them, include in good subset
-#  - calinet_3106, rome_21008, calinet_1941, calinet_13, calinet_5819, calinet_451,
-#  - calinet_3205, calinet_6739, calinet_2640, rome_11966, rome_19266, rome_1513
