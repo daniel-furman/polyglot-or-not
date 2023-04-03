@@ -52,11 +52,9 @@ Add info on the fact-checking benchmark. As a reference, random guessing would s
 
 ## Authors
 
-All grad students below contributed equally.
-
-* Shreshta Bhat <bhat_shreshta@berkeley.edu>
 * Daniel Furman <daniel_furman@berkeley.edu>
 * Tim Schott <timschott@berkeley.edu>
+* Shreshta Bhat <bhat_shreshta@berkeley.edu>
 
 ## Advisor
 
@@ -93,5 +91,5 @@ Please cite this repository as follows if you use its data or code:
 [mmlu]: https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu
 [mmlu_paper]: https://arxiv.org/abs/2009.03300
 [trex]: http://aclanthology.lst.uni-saarland.de/L18-1544.pdf
-[cka_lightweight_demo]: https://github.com/daniel-furman/Capstone/blob/main/notebooks/fact_checking_notebooks/fact-checking-demo.ipynb
-[cka_run_main]: https://github.com/daniel-furman/Capstone/blob/main/notebooks/fact_checking_notebooks/fact-checking-run-main.ipynb
+[cka_lightweight_demo]: https://github.com/daniel-furman/Capstone/blob/main/notebooks/fact_checking_notebooks/fact-checking-lightweight-demo.ipynb
+[cka_run_main]: https://github.com/daniel-furman/Capstone/blob/main/notebooks/fact_checking_notebooks/fact-checking-full-benchmark.ipynb
