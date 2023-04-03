@@ -18,7 +18,6 @@ from argparse import ArgumentParser
 from datasets import load_dataset
 from huggingface_hub import login
 from dotenv import load_dotenv
-from nltk import word_tokenize, pos_tag
 
 
 def main(args):
@@ -579,6 +578,7 @@ def main(args):
         "rome_15088",
         "calinet_5977",
         "calinet_3324",
+        "calinet_8503",
     ]
 
     # delete these rows
@@ -795,6 +795,20 @@ def main(args):
         "calinet_209": {
             "false": ["Thailand"],
         },
+        "calinet_42": {
+            "false": ["Texas"],
+        },
+        "calinet_7125": {
+            "false": ["Dallas", "San Francisco", "Chicago"],
+        },
+        "rome_9881": {
+            "true": "folk",
+            "object": "folk",
+        },
+        "rome_9646": {
+            "true": "Basel",
+            "object": "Basel",
+        },
     }
 
     for key, dictionary in rows_to_alter.items():
@@ -999,73 +1013,6 @@ def main(args):
     )
     mixed_df.reset_index(drop=True, inplace=True)
 
-    # remove rows where subject, and/or objects aren't nouns
-    # remove falses that aren't nouns, remove rows where no falses remain
-    itr_not_nouns = 0
-    for i in range(len(mixed_df)):
-        deleted_bool = False
-        true_pair = mixed_df.loc[i].stem + " " + mixed_df.loc[i].true
-        true_tagged = pos_tag(word_tokenize(true_pair))
-
-        # test if the object is a noun
-        noun_error = []
-        for tag in true_tagged:
-            # word tokenize subject
-            for word in word_tokenize(mixed_df.loc[i].object):
-                if tag[0] == word:
-                    if tag[1] not in ["NN", "NNS", "NNP", "NNPS"]:
-                        noun_error.append(True)
-                    else:
-                        noun_error.append(False)
-        if list(set(noun_error)) == [True]:
-            itr_not_nouns += 1
-            deleted_bool = True
-            mixed_df.drop(index=i, inplace=True)
-
-        # test if the subject is a noun
-        if not deleted_bool:
-            noun_error = []
-            for tag in true_tagged:
-                # word tokenize subject
-                for word in word_tokenize(mixed_df.loc[i].subject):
-                    if tag[0] == word:
-                        if tag[1] not in ["NN", "NNS", "NNP", "NNPS"]:
-                            noun_error.append(True)
-                        else:
-                            noun_error.append(False)
-            if (list(set(noun_error)) == [True]) and (not deleted_bool):
-                itr_not_nouns += 1
-                deleted_bool = True
-                mixed_df.drop(index=i, inplace=True)
-
-        # test if the false items in the counterfact list are nouns
-        if not deleted_bool:
-            false_list = copy.deepcopy(mixed_df.loc[i].false)
-            for false in mixed_df.loc[i].false:
-                false_pair = mixed_df.loc[i].stem + " " + false
-                false_tagged = pos_tag(word_tokenize(false_pair))
-                noun_error = []
-                for tag in false_tagged:
-                    # word tokenize subject
-                    for word in word_tokenize(false):
-                        if tag[0] == word:
-                            if tag[1] not in ["NN", "NNS", "NNP", "NNPS"]:
-                                noun_error.append(True)
-                            else:
-                                noun_error.append(False)
-                if list(set(noun_error)) == [True]:
-                    false_list.remove(false)
-            if len(false_list) > 0:
-                mixed_df.loc[i, "false"] = false_list
-            else:
-                mixed_df.drop(index=i, inplace=True)
-                itr_not_nouns += 1
-    print(
-        f"\t- Combined dataset: Removed {itr_not_nouns} stem/fact pairs with"
-        " facts/counterfacts that didn't have at least one noun"
-    )
-    mixed_df.reset_index(drop=True, inplace=True)
-
     # find any duplicates resulting from above fixes
     # start with [stem + fact] pairs
     pairs_list = []
@@ -1120,6 +1067,7 @@ def main(args):
 
     # grab a subsest to include at the head, for sharing purposes
     good_subset = [
+        "rome_9881",
         "rome_11754",
         "calinet_8922",
         "calinet_2820",
@@ -1179,7 +1127,6 @@ def main(args):
         "calinet_5684",
         "rome_3161",
         "calinet_12121",
-        "rome_9881",
         "calinet_6266",
         "rome_16867",
         "calinet_8410",
@@ -1212,16 +1159,33 @@ def main(args):
         "calinet_209",
         "rome_1077",
         "rome_21420",
+        "calinet_42",
+        "rome_15949",
+        "rome_9753",
+        "calinet_7125",
+        "rome_20823",
+        "rome_6678",
+        "rome_9989",
+        "rome_997",
+        "rome_9925",
+        "rome_991",
+        "rome_9836",
+        "rome_9740",
+        "rome_9717",
+        "rome_9707",
+        "rome_9646",
+        "rome_964",
+        "rome_9628",
+        "rome_9606",
     ]
-    random.shuffle(good_subset)
+    # random.shuffle(good_subset)
+    good_subset.reverse()
     for dataset_id in good_subset:
         id = mixed_df[mixed_df.dataset_id == dataset_id].index
         mixed_df = pd.concat([mixed_df.loc[id], mixed_df])
     mixed_df.drop_duplicates(subset=["dataset_id"], inplace=True)
+    mixed_df.dropna(inplace=True)
     mixed_df.reset_index(drop=True, inplace=True)
-
-    # consider adding a batch of custom examples
-
     # make sure all counterfacts are sets
     pairs_list = []
     for i in range(len(mixed_df)):

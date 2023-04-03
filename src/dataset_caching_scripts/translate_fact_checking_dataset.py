@@ -327,9 +327,3 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     main(args)
-
-
-# TO DO
-
-# - Fix "la physique" issues
-#   - Sep by space, translate each word, move words like "the" or "of" into stem
