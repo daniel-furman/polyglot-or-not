@@ -33,199 +33,211 @@ def main(args):
         dataset = load_dataset("CalibraGPT/Fact_Checking", split="English")
 
         for i in tqdm.tqdm(range(len(dataset))):
-            # grab the stem + true fact to translate
-            true_pair = dataset[i]["stem"] + " " + dataset[i]["true"]
+            try:
+                # grab the stem + true fact to translate
+                true_pair = dataset[i]["stem"] + " " + dataset[i]["true"]
 
-            # grab all the stem + false facts to translate
-            counterfacts_list = dataset[i]["false"].split(" <br> ")
+                # grab all the stem + false facts to translate
+                counterfacts_list = dataset[i]["false"].split(" <br> ")
 
-            false_pair_list = []
-            for counterfact in counterfacts_list:
-                false_pair_list.append(dataset[i]["stem"] + " " + counterfact)
-            # translate the stem + true fact
-            translated_true = GoogleTranslator(source="en", target=language).translate(
-                true_pair
-            )
-            time.sleep(0.01)
-            # translate the stem + false facts
-            translated_false_list = []
-            for false_pair in false_pair_list:
-                translated_false_list.append(
-                    GoogleTranslator(source="en", target=language).translate(false_pair)
-                )
+                false_pair_list = []
+                for counterfact in counterfacts_list:
+                    false_pair_list.append(dataset[i]["stem"] + " " + counterfact)
+                # translate the stem + true fact
+                translated_true = GoogleTranslator(
+                    source="en", target=language
+                ).translate(true_pair)
                 time.sleep(0.01)
-            # word tokenize the translations
-            translated_true_tokenized = translated_true.split(" ")
-            translated_false_tokenized_list = []
-            for itr, false_pair in enumerate(false_pair_list):
-                translated_false_tokenized_list.append(
-                    translated_false_list[itr].split(" ")
-                )
+                # translate the stem + false facts
+                translated_false_list = []
+                for false_pair in false_pair_list:
+                    translated_false_list.append(
+                        GoogleTranslator(source="en", target=language).translate(
+                            false_pair
+                        )
+                    )
+                    time.sleep(0.01)
+                # word tokenize the translations
+                translated_true_tokenized = translated_true.split(" ")
+                translated_false_tokenized_list = []
+                for itr, false_pair in enumerate(false_pair_list):
+                    translated_false_tokenized_list.append(
+                        translated_false_list[itr].split(" ")
+                    )
 
-            # grab values for all the different colunmns in fact_checking
-            # grab the stems first
-            stems = []
-            # start with the true fact
-            true_fact_translated = GoogleTranslator(
-                source="en", target=language
-            ).translate(dataset[i]["true"])
-            time.sleep(0.01)
-            # see if the translated object is at the end of the sentence
-            index_fact = len(translated_true_tokenized) - len(
-                true_fact_translated.split(" ")
-            )
-            if (
-                true_fact_translated.lower()
-                in " ".join(translated_true_tokenized[index_fact:]).lower()
-            ):
-                stem_pattern = re.compile(true_fact_translated, re.IGNORECASE)
-                stem_pattern = stem_pattern.sub("", translated_true)
-                if stem_pattern[-1] == " ":
-                    stem_pattern = stem_pattern[0:-1]
-
-                try:
-                    pd_df_dict["true"].append(true_fact_translated)
-                except KeyError:
-                    pd_df_dict["true"] = [true_fact_translated]
-
-                stems.append(stem_pattern)
-            # otherwise, check if the original english object is at
-            # the end of the sentence
-            else:
+                # grab values for all the different colunmns in fact_checking
+                # grab the stems first
+                stems = []
+                # start with the true fact
+                true_fact_translated = GoogleTranslator(
+                    source="en", target=language
+                ).translate(dataset[i]["true"])
+                time.sleep(0.01)
+                # see if the translated object is at the end of the sentence
                 index_fact = len(translated_true_tokenized) - len(
-                    dataset[i]["true"].split(" ")
+                    true_fact_translated.split(" ")
                 )
                 if (
-                    dataset[i]["true"].lower()
+                    true_fact_translated.lower()
                     in " ".join(translated_true_tokenized[index_fact:]).lower()
                 ):
-                    stem_pattern = re.compile(dataset[i]["true"], re.IGNORECASE)
+                    stem_pattern = re.compile(true_fact_translated, re.IGNORECASE)
                     stem_pattern = stem_pattern.sub("", translated_true)
                     if stem_pattern[-1] == " ":
-                        stem_pattern = stem_pattern[:-1]
-                    stems.append(stem_pattern)
-                try:
-                    pd_df_dict["true"].append(dataset[i]["true"])
-                except KeyError:
-                    pd_df_dict["true"] = [dataset[i]["true"]]
+                        stem_pattern = stem_pattern[0:-1]
 
-            # now add data for all the counterfacts
-            try:
-                counterfact_save_list = []
-                for itr, counterfact in enumerate(counterfacts_list):
-                    false_fact_translated = GoogleTranslator(
-                        source="en", target=language
-                    ).translate(counterfact)
-                    time.sleep(0.01)
-                    # see if the translated object is at the end of the sentence
-                    index_fact = len(translated_false_tokenized_list[itr]) - len(
-                        false_fact_translated.split(" ")
+                    try:
+                        pd_df_dict["true"].append(true_fact_translated)
+                    except KeyError:
+                        pd_df_dict["true"] = [true_fact_translated]
+
+                    stems.append(stem_pattern)
+                # otherwise, check if the original english object is at
+                # the end of the sentence
+                else:
+                    index_fact = len(translated_true_tokenized) - len(
+                        dataset[i]["true"].split(" ")
                     )
                     if (
-                        false_fact_translated.lower()
-                        in " ".join(
-                            translated_false_tokenized_list[itr][index_fact:]
-                        ).lower()
+                        dataset[i]["true"].lower()
+                        in " ".join(translated_true_tokenized[index_fact:]).lower()
                     ):
-                        counterfact_save_list.append(false_fact_translated)
-                        stem_pattern = re.compile(false_fact_translated, re.IGNORECASE)
-                        stem_pattern = stem_pattern.sub("", translated_false_list[itr])
+                        stem_pattern = re.compile(dataset[i]["true"], re.IGNORECASE)
+                        stem_pattern = stem_pattern.sub("", translated_true)
                         if stem_pattern[-1] == " ":
-                            stem_pattern = stem_pattern[0:-1]
-
+                            stem_pattern = stem_pattern[:-1]
                         stems.append(stem_pattern)
+                    try:
+                        pd_df_dict["true"].append(dataset[i]["true"])
+                    except KeyError:
+                        pd_df_dict["true"] = [dataset[i]["true"]]
 
-                    # otherwise, check if the original english object is at the
-                    # end of the sentence
-                    else:
+                # now add data for all the counterfacts
+                try:
+                    counterfact_save_list = []
+                    for itr, counterfact in enumerate(counterfacts_list):
+                        false_fact_translated = GoogleTranslator(
+                            source="en", target=language
+                        ).translate(counterfact)
+                        time.sleep(0.01)
+                        # see if the translated object is at the end of the sentence
                         index_fact = len(translated_false_tokenized_list[itr]) - len(
-                            counterfacts_list[itr].split(" ")
+                            false_fact_translated.split(" ")
                         )
-
                         if (
-                            counterfacts_list[itr]
+                            false_fact_translated.lower()
                             in " ".join(
                                 translated_false_tokenized_list[itr][index_fact:]
                             ).lower()
                         ):
-                            counterfact_save_list.append(counterfacts_list[itr])
+                            counterfact_save_list.append(false_fact_translated)
                             stem_pattern = re.compile(
-                                counterfacts_list[itr], re.IGNORECASE
+                                false_fact_translated, re.IGNORECASE
                             )
                             stem_pattern = stem_pattern.sub(
                                 "", translated_false_list[itr]
                             )
                             if stem_pattern[-1] == " ":
-                                stem_pattern = stem_pattern[:-1]
+                                stem_pattern = stem_pattern[0:-1]
 
                             stems.append(stem_pattern)
 
-            except AttributeError:
-                pd_df_dict["true"].pop()
-                continue
+                        # otherwise, check if the original english object is at the
+                        # end of the sentence
+                        else:
+                            index_fact = len(
+                                translated_false_tokenized_list[itr]
+                            ) - len(counterfacts_list[itr].split(" "))
 
-            # add subject, object, and false fact list to the dataframe
-            # check if the translated subject/object is in the sentence
-            # otherwise, just use the original subject/object
-            subject = GoogleTranslator(source="en", target=language).translate(
-                dataset[i]["subject"]
-            )
-            time.sleep(0.01)
-            if dataset[i]["subject"] in translated_true:
-                try:
-                    pd_df_dict["subject"].append(dataset[i]["subject"])
-                except KeyError:
-                    pd_df_dict["subject"] = [dataset[i]["subject"]]
-            else:
-                try:
-                    pd_df_dict["subject"].append(subject)
-                except KeyError:
-                    pd_df_dict["subject"] = [subject]
+                            if (
+                                counterfacts_list[itr]
+                                in " ".join(
+                                    translated_false_tokenized_list[itr][index_fact:]
+                                ).lower()
+                            ):
+                                counterfact_save_list.append(counterfacts_list[itr])
+                                stem_pattern = re.compile(
+                                    counterfacts_list[itr], re.IGNORECASE
+                                )
+                                stem_pattern = stem_pattern.sub(
+                                    "", translated_false_list[itr]
+                                )
+                                if stem_pattern[-1] == " ":
+                                    stem_pattern = stem_pattern[:-1]
 
-            object = GoogleTranslator(source="en", target=language).translate(
-                dataset[i]["object"]
-            )
-            time.sleep(0.01)
-            if dataset[i]["object"] in translated_true:
-                try:
-                    pd_df_dict["object"].append(dataset[i]["object"])
-                except KeyError:
-                    pd_df_dict["object"] = [dataset[i]["object"]]
-            else:
-                try:
-                    pd_df_dict["object"].append(object)
-                except KeyError:
-                    pd_df_dict["object"] = [object]
+                                stems.append(stem_pattern)
 
-            # add the false fact list to the dataframe
-            try:
-                pd_df_dict["false"].append(counterfact_save_list)
-            except KeyError:
-                pd_df_dict["false"] = [counterfact_save_list]
+                except AttributeError:
+                    pd_df_dict["true"].pop()
+                    continue
 
-            # if all the stems are the same, save the one stem to the dataframe
-            if len(set(stems)) == 1:
+                # add subject, object, and false fact list to the dataframe
+                # check if the translated subject/object is in the sentence
+                # otherwise, just use the original subject/object
+                subject = GoogleTranslator(source="en", target=language).translate(
+                    dataset[i]["subject"]
+                )
+                time.sleep(0.01)
+                if dataset[i]["subject"] in translated_true:
+                    try:
+                        pd_df_dict["subject"].append(dataset[i]["subject"])
+                    except KeyError:
+                        pd_df_dict["subject"] = [dataset[i]["subject"]]
+                else:
+                    try:
+                        pd_df_dict["subject"].append(subject)
+                    except KeyError:
+                        pd_df_dict["subject"] = [subject]
+
+                object = GoogleTranslator(source="en", target=language).translate(
+                    dataset[i]["object"]
+                )
+                time.sleep(0.01)
+                if dataset[i]["object"] in translated_true:
+                    try:
+                        pd_df_dict["object"].append(dataset[i]["object"])
+                    except KeyError:
+                        pd_df_dict["object"] = [dataset[i]["object"]]
+                else:
+                    try:
+                        pd_df_dict["object"].append(object)
+                    except KeyError:
+                        pd_df_dict["object"] = [object]
+
+                # add the false fact list to the dataframe
                 try:
-                    pd_df_dict["stem"].append(stems[0])
+                    pd_df_dict["false"].append(counterfact_save_list)
                 except KeyError:
-                    pd_df_dict["stem"] = [stems[0]]
+                    pd_df_dict["false"] = [counterfact_save_list]
 
-            # otherwise, save a list of n stems for n fact/counterfact completions
-            else:
+                # if all the stems are the same, save the one stem to the dataframe
+                if len(set(stems)) == 1:
+                    try:
+                        pd_df_dict["stem"].append(stems[0])
+                    except KeyError:
+                        pd_df_dict["stem"] = [stems[0]]
+
+                # otherwise, save a list of n stems for n fact/counterfact completions
+                else:
+                    try:
+                        pd_df_dict["stem"].append(stems)
+                    except KeyError:
+                        pd_df_dict["stem"] = [stems]
+
+                # add dataset_id and relation
                 try:
-                    pd_df_dict["stem"].append(stems)
+                    pd_df_dict["dataset_id"].append(dataset[i]["dataset_id"])
                 except KeyError:
-                    pd_df_dict["stem"] = [stems]
+                    pd_df_dict["dataset_id"] = [dataset[i]["dataset_id"]]
+                try:
+                    pd_df_dict["relation"].append(dataset[i]["relation"])
+                except KeyError:
+                    pd_df_dict["relation"] = [dataset[i]["relation"]]
 
-            # add dataset_id and relation
-            try:
-                pd_df_dict["dataset_id"].append(dataset[i]["dataset_id"])
-            except KeyError:
-                pd_df_dict["dataset_id"] = [dataset[i]["dataset_id"]]
-            try:
-                pd_df_dict["relation"].append(dataset[i]["relation"])
-            except KeyError:
-                pd_df_dict["relation"] = [dataset[i]["relation"]]
+            except:
+                print(f"ERROR: {dataset.loc[i].dataset_id}")
+                print(dataset.loc[i])
+                print("\n")
 
         df = pd.DataFrame.from_dict(pd_df_dict)
         df = df[
