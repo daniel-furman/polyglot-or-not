@@ -14,7 +14,7 @@ This is the repo for the UC Berkeley CalibraGPT project, which aims to assess ho
 
 Cite calinet [[1][bib]], memit [[2][bib]], and t-rex [[3][bib]] papers.
 
-## Selected Benchmark Results
+## Benchmark Results
 
 **English** results (forthcoming)
 
@@ -22,9 +22,7 @@ Cite calinet [[1][bib]], memit [[2][bib]], and t-rex [[3][bib]] papers.
 |------------------|---------------------------------------------|
 | `Random guessing` | 50   | 
 
-Add info on the fact-checking benchmark. As a reference, random guessing would score a 50%.
-
-* The uncertainty estimates in the fact-checking results were calculated using bootstrap resampling (10,000 random samples with replacement, 95% confidence level).  
+* The uncertainty estimates were calculated via bootstrap resampling (10,000 samples with replacement, 95% confidence level).  
 
 **Multilingual** results (forthcoming)
 
