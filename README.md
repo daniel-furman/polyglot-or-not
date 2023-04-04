@@ -1,10 +1,10 @@
-# CalibraGPT: The Search for (Mis)Information in Large Language Models
+# CalibraGPT: The Search for (Mis)Information in Foundation Language Models
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/daniel-furman/Capstone/blob/main/LICENSE) 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
 
-This is the repo for the UC Berkeley CalibraGPT project, which aims to assess how modern language models handle matters of veracity and store facts across different languages. It contains the following:
+This is the repo for the UC Berkeley CalibraGPT project, which aims to assess how massively pre-trained foundation language models handle matters of veracity and store facts across different languages. It contains the following:
 
 1. The [**code**][cka_run_main] for running the fact-checking benchmark with a compatible language model
 2. The [**data**][hf_data] used for the fact-checking benchmark, which contains over 20 languages
@@ -66,7 +66,7 @@ Please cite this repository as follows if you use its data or code:
 
 @misc{calibragpt,
   author = {Daniel Furman and Tim Schott and Shreshta Bhat},
-  title = {CalibraGPT: The Search for (Mis)Information in Large Language Models},
+  title = {CalibraGPT: The Search for (Mis)Information in Foundation Language Models},
   year = {2023}
   publisher = {GitHub},
   howpublished = {\url{https://github.com/daniel-furman/Capstone}},
