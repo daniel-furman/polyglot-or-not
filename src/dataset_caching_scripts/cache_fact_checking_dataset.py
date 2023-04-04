@@ -9,7 +9,6 @@ python cache_fact_checking_dataset.py
 """
 
 import os
-import random
 import json
 import pandas as pd
 import numpy as np
@@ -1178,7 +1177,6 @@ def main(args):
         "rome_9628",
         "rome_9606",
     ]
-    # random.shuffle(good_subset)
     good_subset.reverse()
     for dataset_id in good_subset:
         id = mixed_df[mixed_df.dataset_id == dataset_id].index
@@ -1239,7 +1237,12 @@ def main(args):
     if args.hugging_face:
         data_files = {
             "English": "../../data/ingested_data/en-fact-checking-3-21-23.parquet",
-            "Ukrainian": "../../data/ingested_data/translated_versions/uk-fact-checking-4-4-2023.parquet",
+            "Ukrainian": "../../data/ingested_data/translated_versions/uk-fact-checking-4-4-23.parquet",
+            "French": "../../data/ingested_data/translated_versions/fr-fact-checking-3-30-23.parquet",
+            "Spanish": "../../data/ingested_data/translated_versions/es-fact-checking-3-30-23.parquet",
+            "German": "../../data/ingested_data/translated_versions/de-fact-checking-3-30-23.parquet",
+            "Chinese": "../../data/ingested_data/translated_versions/zh-fact-checking-3-30-23.parquet",
+            "Japanese": "../../data/ingested_data/translated_versions/ja-fact-checking-3-30-23.parquet",
         }
         dataset = load_dataset("parquet", data_files=data_files)
 

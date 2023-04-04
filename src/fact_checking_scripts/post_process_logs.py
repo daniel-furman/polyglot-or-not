@@ -21,7 +21,7 @@ def post_process(args):
     save_results = args.save_results
 
     # change input filename to the path to the log to be processed
-    input_filename = f"../../src/fact_checking_scripts/output_logs/{filename}"
+    input_filename = f"../../data/result_logs/{filename}"
     print(f"Running post-processing for {input_filename}...")
 
     with open(input_filename, "r") as f:
@@ -126,7 +126,7 @@ if __name__ == "__main__":
         "--filename",
         type=str,
         default="bert-tiny-logged-cka-outputs-26-03-2023-02-33-08.json",
-        help="Filename of a log in 'output_logs/",
+        help="Filename of a log in 'data/result_logs",
     )
     parser.add_argument(
         "--num_resamples",

@@ -97,6 +97,8 @@ def compare_models(model_name_list, input_dataset, verbose):
 
     score_dict_full = {}
     score_dict_summary = {}
+    itr_run_babysitting = 0
+    list_run_babysitting = list(np.arange(0, 26300, 1000))
 
     # torch.cuda.current_device()
     # torch.cuda._initialized = True
@@ -169,8 +171,9 @@ def compare_models(model_name_list, input_dataset, verbose):
         # context is a plain string (since our context's will be unique)
         # and entities is a list containing, in the first slot, the true
         # value for the statement and in the subsequent slots, incorrect information
-
+        itr_run_babysitting = 0
         for entities_dict in tqdm.tqdm(input_dataset):
+
             # convert string of list into a real list
             if " <br> " in entities_dict["false"]:
                 counterfacts_list = entities_dict["false"].split(" <br> ")
@@ -314,6 +317,13 @@ def compare_models(model_name_list, input_dataset, verbose):
             if p_true > p_false:
                 true_count += 1
             fact_count += 1
+
+            # randomly print some during training to checkin on thing
+            if itr_run_babysitting in list_run_babysitting:
+                print(
+                    f"\nRandom prints, itr {itr_run_babysitting}: \n\t{score_dict_full_data}"
+                )
+            itr_run_babysitting += 1
 
         # record the summary dict
         score_dict_summary[
