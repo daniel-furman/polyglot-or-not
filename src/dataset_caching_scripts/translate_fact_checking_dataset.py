@@ -1,38 +1,28 @@
 """
-Language Translation Dataset Caching Script
-
-Run this script to re-produce caching the CalibraGPT/Fact_Checking
-dataset's Non-English splits
-Original sources cited in the project's README
-
-Example usage:
-python translate_fact_checking_dataset.py
+Colab helper function for translating data into other languages
+with Google Translate
 """
 
 import re
 import time
 import pandas as pd
-import os
 import tqdm
-from argparse import ArgumentParser
-from dotenv import load_dotenv
 
 from datasets import load_dataset
-from huggingface_hub import login
 from deep_translator import GoogleTranslator
 
 
 def main(args):
     print("Translating the fact_checking dataset into Non-English languages...")
 
-    languages = ["de", "zh-CN", "fr", "es", "ja"]
+    languages = [args.language]
 
     # for each language, translate the dataset:
     for language in languages:
         pd_df_dict = {}
         dataset = load_dataset("CalibraGPT/Fact_Checking", split="English")
 
-        for i in tqdm.tqdm(range(len(50))):
+        for i in tqdm.tqdm(range(100)):  # len(dataset)
             try:
                 # grab the stem + true fact to translate
                 true_pair = dataset[i]["stem"] + " " + dataset[i]["true"]
@@ -301,40 +291,6 @@ def main(args):
 
         # save to parquet
         df.to_parquet(
-            f"../../data/ingested_data/translated_versions/{language}-fact-checking-3-30-23.parquet",
+            f"/content/{args.language}-fact-checking-{args.datetime}.parquet",
             index=False,
         )
-
-    # Optionally upload final parquet to HuggingFace
-    if args.hugging_face:
-        data_files = {
-            "English": "../../data/ingested_data/en-fact-checking-3-21-23.parquet",
-            "French": "../../data/ingested_data/translated_versions/fr-fact-checking-3-30-23.parquet",
-            # "Spanish": "../../data/ingested_data/translated_versions/es-fact-checking-3-30-23.parquet",
-            # "Japanese": "../../data/ingested_data/translated_versions/ja-fact-checking-3-30-23.parquet",
-            # "Chinese": "../../data/ingested_data/translated_versions/zh-CN-fact-checking-3-30-23.parquet",
-            # "German": "../../data/ingested_data/translated_versions/de-fact-checking-3-30-23.parquet",
-        }
-        dataset = load_dataset("parquet", data_files=data_files)
-
-        # This reads the environment variables inside .env
-        load_dotenv()
-        # Logs into HF hub
-        login(os.getenv("HF_TOKEN"))
-        # push to hub
-        dataset.push_to_hub("CalibraGPT/Fact_Checking")
-        # test loading from hub
-        load_dataset("CalibraGPT/Fact_Checking")
-
-
-if __name__ == "__main__":
-    parser = ArgumentParser()
-    parser.add_argument(
-        "--hugging_face",
-        type=bool,
-        default=False,
-        help="Whether or not to write to Hugging Face (access required)",
-    )
-
-    args = parser.parse_args()
-    main(args)
