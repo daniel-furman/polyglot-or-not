@@ -32,7 +32,7 @@ def main(args):
         pd_df_dict = {}
         dataset = load_dataset("CalibraGPT/Fact_Checking", split="English")
 
-        for i in tqdm.tqdm(range(len(dataset))):
+        for i in tqdm.tqdm(range(len(50))):
             try:
                 # grab the stem + true fact to translate
                 true_pair = dataset[i]["stem"] + " " + dataset[i]["true"]
@@ -235,8 +235,7 @@ def main(args):
                     pd_df_dict["relation"] = [dataset[i]["relation"]]
 
             except:
-                print(f"ERROR: {dataset.loc[i].dataset_id}")
-                print(dataset.loc[i])
+                print(f'ERROR: {dataset[i]["dataset_id"]}')
                 print("\n")
 
         df = pd.DataFrame.from_dict(pd_df_dict)

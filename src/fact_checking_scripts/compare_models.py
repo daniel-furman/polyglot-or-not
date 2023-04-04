@@ -101,10 +101,8 @@ def compare_models(model_name_list, input_dataset, verbose):
     # torch.cuda.current_device()
     # torch.cuda._initialized = True
 
-    if not os.path.isdir("/content"):
-        os.mkdir("/content")
-    if not os.path.isdir("/content/logging"):
-        os.mkdir("/content/logging")
+    if not os.path.isdir("logging"):
+        os.mkdir("logging")
 
     now = datetime.datetime.now()
     dt_string = now.strftime("%d-%m-%Y-%H-%M-%S")
@@ -343,9 +341,7 @@ def compare_models(model_name_list, input_dataset, verbose):
     score_dicts_logging["score_dict_summary"] = score_dict_summary
     score_dicts_logging["score_dict_full"] = score_dict_full
 
-    with open(
-        f"/content/logging/{prefix}-logged-cka-outputs-{dt_string}.json", "w"
-    ) as outfile:
+    with open(f"logging/{prefix}-logged-cka-outputs-{dt_string}.json", "w") as outfile:
         json.dump(score_dicts_logging, outfile)
 
     return score_dicts
