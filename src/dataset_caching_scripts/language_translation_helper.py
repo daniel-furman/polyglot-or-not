@@ -22,11 +22,13 @@ def main(args):
         pd_df_dict = {}
         dataset = load_dataset("CalibraGPT/Fact_Checking", split="English")
         if args.first_100:
-            num_loops = 100
+            loop_itrs = range(0, 100)
+        elif args.first_half:
+            loop_itrs = range(0, len(dataset) // 2)
         else:
-            num_loops = len(dataset)
+            loop_itrs = range(len(dataset) // 2, len(dataset))
 
-        for i in tqdm.tqdm(range(num_loops)):
+        for i in tqdm.tqdm(loop_itrs):
             try:
                 # grab the stem + true fact to translate
                 true_pair = dataset[i]["stem"] + " " + dataset[i]["true"]
