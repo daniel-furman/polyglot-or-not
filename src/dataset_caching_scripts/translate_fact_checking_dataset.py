@@ -21,8 +21,12 @@ def main(args):
     for language in languages:
         pd_df_dict = {}
         dataset = load_dataset("CalibraGPT/Fact_Checking", split="English")
+        if args.first_100:
+            num_loops = 100
+        else:
+            num_loops = len(dataset)
 
-        for i in tqdm.tqdm(range(100)):  # len(dataset)
+        for i in tqdm.tqdm(range(num_loops)):
             try:
                 # grab the stem + true fact to translate
                 true_pair = dataset[i]["stem"] + " " + dataset[i]["true"]
