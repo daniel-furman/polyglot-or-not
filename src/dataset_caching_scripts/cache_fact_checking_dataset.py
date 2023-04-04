@@ -1239,6 +1239,7 @@ def main(args):
     if args.hugging_face:
         data_files = {
             "English": "../../data/ingested_data/en-fact-checking-3-21-23.parquet",
+            "Ukrainian": "../../data/ingested_data/translated_versions/uk-fact-checking-4-4-2023.parquet",
         }
         dataset = load_dataset("parquet", data_files=data_files)
 
