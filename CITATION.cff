@@ -11,16 +11,3 @@ title: "CalibraGPT: The Search for (Mis)Information in Large Language Models"
 version: 0.0.1
 date-released: 2023-04-01
 url: "https://github.com/daniel-furman/Capstone"
-preferred-citation:
-  type: generic
-  authors:
-  - family-names: "Daniel"
-    given-names: "Furman"
-  - family-names: "Tim"
-    given-names: "Schott"
-  - family-names: "Shreshta"
-    given-names: "Bhatt"
-  journal: "GitHub Repository"
-  month: 4
-  title: "CalibraGPT: The Search for (Mis)Information in Large Language Models"
-  year: 2023
