@@ -65,14 +65,15 @@ Add info on the fact-checking benchmark. As a reference, random guessing would s
 Please cite this repository as follows if you use its data or code:
 
 ```
+
 @misc{calibragpt,
-  author = {Shreshta Bhat and Daniel Furman and Tim Schott},
+  author = {Daniel Furman and Tim Schott and Shreshta Bhat},
   title = {CalibraGPT: The Search for (Mis)Information in Large Language Models},
-  year = {2023},
+  year = {2023}
   publisher = {GitHub},
-  journal = {GitHub repository},
   howpublished = {\url{https://github.com/daniel-furman/Capstone}},
 }
+
 ```
 
 ## Bibliography 
