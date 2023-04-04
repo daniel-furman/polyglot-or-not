@@ -63,7 +63,6 @@ Add intro info. The uncertainty estimates were calculated via bootstrap resampli
 Please cite this repository as follows if you use its data or code:
 
 ```
-
 @misc{calibragpt,
   author = {Daniel Furman and Tim Schott and Shreshta Bhat},
   title = {CalibraGPT: The Search for (Mis)Information in Foundation Language Models},
@@ -71,7 +70,6 @@ Please cite this repository as follows if you use its data or code:
   publisher = {GitHub},
   howpublished = {\url{https://github.com/daniel-furman/Capstone}},
 }
-
 ```
 
 ## Bibliography 
