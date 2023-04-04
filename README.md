@@ -4,7 +4,7 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
 
-This is the repo for the UC Berkeley CalibraGPT project, which aims to assess how massively pre-trained foundation language models handle matters of veracity and store facts across different languages. It contains the following:
+This is the repo for the UC Berkeley CalibraGPT project, which aims to assess how massively pre-trained language models handle matters of veracity and store facts across different languages. It contains the following:
 
 1. The [**code**][cka_run_main] for running the fact-checking benchmark with a compatible language model
 2. The [**data**][hf_data] used for the fact-checking benchmark, which contains over 20 languages
