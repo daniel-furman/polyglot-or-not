@@ -16,13 +16,13 @@ Cite calinet [[1][bib]], memit [[2][bib]], and t-rex [[3][bib]] papers.
 
 ## Benchmark Results
 
+Add intro info. The uncertainty estimates were calculated via bootstrap resampling (10,000 samples with replacement, 95% confidence level).  
+
 **English** results (forthcoming)
 
 | Model           | Fact-checking benchmark<br />(% correct) |
 |------------------|---------------------------------------------|
 | `Random guessing` | 50   | 
-
-* The uncertainty estimates were calculated via bootstrap resampling (10,000 samples with replacement, 95% confidence level).  
 
 **Multilingual** results (forthcoming)
 
