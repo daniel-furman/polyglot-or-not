@@ -258,7 +258,6 @@ def main(args):
         mixed_itr += 1
 
     # Convert dicts to pandas, then optionally upload to HuggingFace
-
     pairs_list = []
     for x, y in mixed_df.items():
         pairs = y["stem"] + " " + y["true"]
@@ -593,6 +592,7 @@ def main(args):
     )
 
     mixed_df.shape[0]
+
     # delete stems that end with "a" or "an"
     itr = 0
     for i in list(mixed_df.index):
