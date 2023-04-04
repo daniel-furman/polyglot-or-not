@@ -173,7 +173,6 @@ def compare_models(model_name_list, input_dataset, verbose):
         # value for the statement and in the subsequent slots, incorrect information
         itr_run_babysitting = 0
         for entities_dict in tqdm.tqdm(input_dataset):
-
             # convert string of list into a real list
             if " <br> " in entities_dict["false"]:
                 counterfacts_list = entities_dict["false"].split(" <br> ")
