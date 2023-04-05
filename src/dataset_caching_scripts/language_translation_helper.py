@@ -80,7 +80,7 @@ def main(args):
                 )
                 if (
                     true_fact_translated.lower()
-                    in " ".join(translated_true_tokenized[index_fact:]).lower()
+                    == " ".join(translated_true_tokenized[index_fact:]).lower()
                 ):
                     stem_pattern = re.compile(true_fact_translated, re.IGNORECASE)
                     stem_pattern = stem_pattern.sub("", translated_true)
@@ -98,7 +98,7 @@ def main(args):
                     )
                     if (
                         dataset[i]["true"].lower()
-                        in " ".join(translated_true_tokenized[index_fact:]).lower()
+                        == " ".join(translated_true_tokenized[index_fact:]).lower()
                     ):
                         stem_pattern = re.compile(dataset[i]["true"], re.IGNORECASE)
                         stem_pattern = stem_pattern.sub("", translated_true)
@@ -125,7 +125,7 @@ def main(args):
                         )
                         if (
                             false_fact_translated.lower()
-                            in " ".join(
+                            == " ".join(
                                 translated_false_tokenized_list[itr][index_fact:]
                             ).lower()
                         ):
@@ -149,8 +149,8 @@ def main(args):
                             ) - len(counterfacts_list[itr].split(" "))
 
                             if (
-                                counterfacts_list[itr]
-                                in " ".join(
+                                counterfacts_list[itr].lower()
+                                == " ".join(
                                     translated_false_tokenized_list[itr][index_fact:]
                                 ).lower()
                             ):
@@ -241,7 +241,7 @@ def main(args):
                 if itr_run_babysitting in list_run_babysitting:
                     print(
                         f"\nRandom prints, itr {itr_run_babysitting}: "
-                        f"\n\t{(dataset[i]['dataset_id'], stems[0] + ' ' + true_save, stems[1] + ' ' + counterfact_save_list[0])}"
+                        f"\n\t{(dataset[i]['dataset_id'], 'true: ' + stems[0] + ' ' + true_save, 'false[0]: ' + stems[1] + ' ' + counterfact_save_list[0])}"
                     )
                 itr_run_babysitting += 1
 
