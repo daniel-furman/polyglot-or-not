@@ -3,11 +3,11 @@ Colab helper function for translating data into other languages
 with Google Translate
 """
 
-from logging import raiseExceptions
 import re
 import time
 import pandas as pd
 import tqdm
+import numpy as np
 
 from datasets import load_dataset
 from deep_translator import GoogleTranslator
@@ -16,15 +16,18 @@ from deep_translator import GoogleTranslator
 def main(args):
     print("Translating the fact_checking dataset into Non-English languages...")
     languages = [args.language]
+    itr_run_babysitting = 0
+    list_run_babysitting = list(np.arange(0, 26300, 500))
 
     # for each language, translate the dataset:
     for language in languages:
         pd_df_dict = {}
         dataset = load_dataset("CalibraGPT/Fact_Checking", split="English")
+
         if args.first_100:
             loop_itrs = range(0, 100)
         elif args.first_half:
-            loop_itrs = range(0, len(dataset) // 2)
+            loop_itrs = range(0, len(dataset) // 4)
         else:
             loop_itrs = range(len(dataset) // 2, len(dataset))
 
@@ -64,6 +67,7 @@ def main(args):
                 # grab values for all the different colunmns in fact_checking
                 # grab the stems first
                 stems = []
+                true_save = None
                 # start with the true fact
                 true_fact_translated = GoogleTranslator(
                     source="en", target=language
@@ -82,12 +86,9 @@ def main(args):
                     if stem_pattern[-1] == " ":
                         stem_pattern = stem_pattern[0:-1]
 
-                    try:
-                        pd_df_dict["true"].append(true_fact_translated)
-                    except KeyError:
-                        pd_df_dict["true"] = [true_fact_translated]
-
+                    true_save = true_fact_translated
                     stems.append(stem_pattern)
+
                 # otherwise, check if the original english object is at
                 # the end of the sentence
                 else:
@@ -102,11 +103,12 @@ def main(args):
                         stem_pattern = stem_pattern.sub("", translated_true)
                         if stem_pattern[-1] == " ":
                             stem_pattern = stem_pattern[:-1]
+                        true_save = dataset[i]["true"]
                         stems.append(stem_pattern)
-                    try:
-                        pd_df_dict["true"].append(dataset[i]["true"])
-                    except KeyError:
-                        pd_df_dict["true"] = [dataset[i]["true"]]
+
+                # if neither, continue
+                if true_save is None:
+                    continue
 
                 # now add data for all the counterfacts
                 try:
@@ -164,12 +166,16 @@ def main(args):
                                 stems.append(stem_pattern)
 
                 except AttributeError:
-                    pd_df_dict["true"].pop()
                     continue
 
-                # add subject, object, and false fact list to the dataframe
-                # check if the translated subject/object is in the sentence
-                # otherwise, just use the original subject/object
+                # add the elements to the pd_df_dict
+                # add the true fact
+                try:
+                    pd_df_dict["true"].append(true_save)
+                except KeyError:
+                    pd_df_dict["true"] = [true_save]
+
+                # add the subject
                 subject = GoogleTranslator(source="en", target=language).translate(
                     dataset[i]["subject"]
                 )
@@ -184,7 +190,7 @@ def main(args):
                         pd_df_dict["subject"].append(subject)
                     except KeyError:
                         pd_df_dict["subject"] = [subject]
-
+                # add the object
                 object = GoogleTranslator(source="en", target=language).translate(
                     dataset[i]["object"]
                 )
@@ -230,6 +236,13 @@ def main(args):
                 except KeyError:
                     pd_df_dict["relation"] = [dataset[i]["relation"]]
 
+                # randomly print some during training to checkin on thing
+                if itr_run_babysitting in list_run_babysitting:
+                    print(
+                        f"\nRandom prints, itr {itr_run_babysitting}: \n\t{(dataset[i]['dataset_id'], stems[0], true_save)}"
+                    )
+                itr_run_babysitting += 1
+
             except:
                 print(f'ERROR: {dataset[i]["dataset_id"]}')
                 print("\n")
@@ -263,12 +276,15 @@ def main(args):
                 df.loc[i, "stem"] = string
 
         # remove " ." at end of stem if exists, loop through list stems when <br> exists
+        # remove "." at end of stem if exists, loop through list stems when <br> exists
         # remove " " at the beginning and end of stems
         for i in range(len(df)):
             if df.loc[i].stem[-2:] == " .":
                 df.loc[i, "stem"] = df.loc[i].stem[:-2]
-            if " . <br> " in df.loc[i].stem:
-                df.loc[i, "stem"] = df.loc[i].stem.replace(" . <br> ", " <br> ")
+            if df.loc[i].stem[-1:] == ".":
+                df.loc[i, "stem"] = df.loc[i].stem[:-1]
+            if ". <br> " in df.loc[i].stem:
+                df.loc[i, "stem"] = df.loc[i].stem.replace(". <br> ", " <br> ")
             if df.loc[i].stem[:1] == " ":
                 df.loc[i, "stem"] = df.loc[i].stem[1:]
             if " <br>  " in df.loc[i].stem:

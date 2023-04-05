@@ -171,7 +171,6 @@ def compare_models(model_name_list, input_dataset, verbose):
         # context is a plain string (since our context's will be unique)
         # and entities is a list containing, in the first slot, the true
         # value for the statement and in the subsequent slots, incorrect information
-        itr_run_babysitting = 0
         for entities_dict in tqdm.tqdm(input_dataset):
             # convert string of list into a real list
             if " <br> " in entities_dict["false"]:
