@@ -9,6 +9,7 @@ import pandas as pd
 import tqdm
 import numpy as np
 
+
 from datasets import load_dataset
 from deep_translator import GoogleTranslator
 
@@ -239,7 +240,8 @@ def main(args):
                 # randomly print some during training to checkin on thing
                 if itr_run_babysitting in list_run_babysitting:
                     print(
-                        f"\nRandom prints, itr {itr_run_babysitting}: \n\t{(dataset[i]['dataset_id'], stems[0], true_save)}"
+                        f"\nRandom prints, itr {itr_run_babysitting}: "
+                        f"\n\t{(dataset[i]['dataset_id'], stems[0] + ' ' + true_save, stems[1] + ' ' + counterfact_save_list[0])}"
                     )
                 itr_run_babysitting += 1
 
