@@ -4,7 +4,7 @@ Process fact-checking logs to generate bootstrap estimates and error analysis da
 Example usage:
 python post_process_logs.py \
     --filename roberta-large-logged-cka-outputs-25-03-2023-17-28-56.json \
-    --num_resamples 100 --save_results True
+    --num_resamples 10000 --save_results True
 """
 
 from typing import List
@@ -78,11 +78,10 @@ def post_process(args):
     # Grab items with the most negative p_false_average - p_true value
     # order results by p_true - p_false, return top n rows
 
-    n = 100
     error_df = pd.DataFrame.from_dict(false_facts)
-    error_df = error_df.sort_values(by="differences").head(n).reset_index(drop=True)
+    error_df = error_df.sort_values(by="differences").reset_index(drop=True)
     error_df = error_df[["model", "dataset_id", "differences", "resolution", "facts"]]
-    print(error_df)
+    # print(error_df)
 
     # optionally save:
     if save_results:

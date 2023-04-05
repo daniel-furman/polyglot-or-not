@@ -15,10 +15,7 @@ from deep_translator import GoogleTranslator
 
 def main(args):
     print("Translating the fact_checking dataset into Non-English languages...")
-    if type(args.language) == list:
-        languages = args.language
-    elif type(args.language) == str:
-        languages = [args.language]
+    languages = [args.language]
 
     # for each language, translate the dataset:
     for language in languages:
