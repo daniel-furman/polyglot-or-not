@@ -3,6 +3,7 @@ Colab helper function for translating data into other languages
 with Google Translate
 """
 
+from logging import raiseExceptions
 import re
 import time
 import pandas as pd
@@ -14,8 +15,10 @@ from deep_translator import GoogleTranslator
 
 def main(args):
     print("Translating the fact_checking dataset into Non-English languages...")
-
-    languages = [args.language]
+    if type(args.language) == list:
+        languages = args.language
+    elif type(args.language) == str:
+        languages = [args.language]
 
     # for each language, translate the dataset:
     for language in languages:

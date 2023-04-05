@@ -1066,6 +1066,8 @@ def main(args):
 
     # grab a subsest to include at the head, for sharing purposes
     good_subset = [
+        "rome_21844",
+        "rome_9500",
         "rome_9881",
         "rome_11754",
         "calinet_8922",
@@ -1237,12 +1239,12 @@ def main(args):
     if args.hugging_face:
         data_files = {
             "English": "../../data/ingested_data/en-fact-checking-3-21-23.parquet",
-            "Ukrainian": "../../data/ingested_data/translated_versions/uk-fact-checking-4-4-23.parquet",
-            "French": "../../data/ingested_data/translated_versions/fr-fact-checking-3-30-23.parquet",
-            "Spanish": "../../data/ingested_data/translated_versions/es-fact-checking-3-30-23.parquet",
-            "German": "../../data/ingested_data/translated_versions/de-fact-checking-3-30-23.parquet",
-            "Chinese": "../../data/ingested_data/translated_versions/zh-fact-checking-3-30-23.parquet",
-            "Japanese": "../../data/ingested_data/translated_versions/ja-fact-checking-3-30-23.parquet",
+            "Ukrainian": "../../data/ingested_data/translated_versions/uk-fact-checking-05-04-2023-04-31-02-first-100.parquet",
+            "French": "../../data/ingested_data/translated_versions/fr-fact-checking-05-04-2023-04-48-04-first-100.parquet",
+            "Spanish": "../../data/ingested_data/translated_versions/es-fact-checking-05-04-2023-04-53-47-first-100.parquet",
+            "German": "../../data/ingested_data/translated_versions/de-fact-checking-05-04-2023-04-35-21-first-100.parquet",
+            "Chinese": "../../data/ingested_data/translated_versions/zh-CN-fact-checking-05-04-2023-04-56-19-first-100.parquet",
+            "Japanese": "../../data/ingested_data/translated_versions/ja-fact-checking-05-04-2023-04-57-16-first-100.parquet",
         }
         dataset = load_dataset("parquet", data_files=data_files)
 
