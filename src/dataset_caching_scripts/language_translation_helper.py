@@ -1,6 +1,9 @@
 """
 Colab helper function for translating data into other languages
 with Google Translate
+
+See: notebooks/dataset_caching_notebooks/
+dataset-preprocessing-language-translation.ipynb
 """
 
 import re
