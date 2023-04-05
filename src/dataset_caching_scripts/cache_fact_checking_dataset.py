@@ -1235,16 +1235,34 @@ def main(args):
         index=False,
     )
 
+    # order by language popularity
+
     # Optionally upload final parquet to HuggingFace
     if args.hugging_face:
         data_files = {
             "English": "../../data/ingested_data/en-fact-checking-3-21-23.parquet",
-            "Ukrainian": "../../data/ingested_data/translated_versions/uk-fact-checking-05-04-2023-04-31-02-first-100.parquet",
-            "French": "../../data/ingested_data/translated_versions/fr-fact-checking-05-04-2023-04-48-04-first-100.parquet",
-            "Spanish": "../../data/ingested_data/translated_versions/es-fact-checking-05-04-2023-04-53-47-first-100.parquet",
-            "German": "../../data/ingested_data/translated_versions/de-fact-checking-05-04-2023-04-35-21-first-100.parquet",
             "Chinese": "../../data/ingested_data/translated_versions/zh-CN-fact-checking-05-04-2023-04-56-19-first-100.parquet",
+            "Hindi": "../../data/ingested_data/translated_versions/hi-fact-checking-05-04-2023-05-39-08-first-100.parquet",
+            "Spanish": "../../data/ingested_data/translated_versions/es-fact-checking-05-04-2023-04-53-47-first-100.parquet",
+            "French": "../../data/ingested_data/translated_versions/fr-fact-checking-05-04-2023-04-48-04-first-100.parquet",
+            "Russian": "../../data/ingested_data/translated_versions/ru-fact-checking-05-04-2023-06-38-39-first-100.parquet",
+            "Portuguese": "../../data/ingested_data/translated_versions/pt-fact-checking-05-04-2023-06-28-35-first-100.parquet",
+            "German": "../../data/ingested_data/translated_versions/de-fact-checking-05-04-2023-04-35-21-first-100.parquet",
             "Japanese": "../../data/ingested_data/translated_versions/ja-fact-checking-05-04-2023-04-57-16-first-100.parquet",
+            "Italian": "../../data/ingested_data/translated_versions/it-fact-checking-05-04-2023-06-10-45-first-100.parquet",
+            "Ukrainian": "../../data/ingested_data/translated_versions/uk-fact-checking-05-04-2023-04-31-02-first-100.parquet",
+            "Romanian": "../../data/ingested_data/translated_versions/ro-fact-checking-05-04-2023-06-34-16-first-100.parquet",
+            "Czech": "../../data/ingested_data/translated_versions/cs-fact-checking-05-04-2023-05-48-44-first-100.parquet",
+            "Bulgarian": "../../data/ingested_data/translated_versions/bg-fact-checking-05-04-2023-05-43-23-first-100.parquet",
+            "Serbian": "../../data/ingested_data/translated_versions/sr-fact-checking-05-04-2023-06-48-02-first-100.parquet",
+            "Hungarian": "../../data/ingested_data/translated_versions/hu-fact-checking-05-04-2023-06-02-54-first-100.parquet",
+            "Croatian": "../../data/ingested_data/translated_versions/hr-fact-checking-05-04-2023-05-57-11-first-100.parquet",
+            "Danish": "../../data/ingested_data/translated_versions/da-fact-checking-05-04-2023-05-54-24-first-100.parquet",
+            "Slovenian": "../../data/ingested_data/translated_versions/sl-fact-checking-05-04-2023-06-42-07-first-100.parquet",
+            "Polish": "../../data/ingested_data/translated_versions/pl-fact-checking-05-04-2023-06-24-34-first-100.parquet",
+            "Dutch": "../../data/ingested_data/translated_versions/nl-fact-checking-05-04-2023-06-20-12-first-100.parquet",
+            "Catalan": "../../data/ingested_data/translated_versions/ca-fact-checking-05-04-2023-05-44-35-first-100.parquet",
+            "Swedish": "../../data/ingested_data/translated_versions/sv-fact-checking-05-04-2023-06-53-08-first-100.parquet",
         }
         dataset = load_dataset("parquet", data_files=data_files)
 
