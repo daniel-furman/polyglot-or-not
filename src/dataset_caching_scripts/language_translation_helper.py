@@ -18,7 +18,7 @@ from deep_translator import GoogleTranslator
 
 
 def main(args):
-    print("Translating the fact_checking dataset into Non-English languages...")
+    print("Translating the CalibraGPT/Fact-Completion dataset into Non-English languages...")
     languages = [args.language]
     itr_run_babysitting = 0
     list_run_babysitting = list(np.arange(0, 26300, 500))
@@ -26,7 +26,7 @@ def main(args):
     # for each language, translate the dataset:
     for language in languages:
         pd_df_dict = {}
-        dataset = load_dataset("CalibraGPT/Fact_Checking", split="English")
+        dataset = load_dataset("CalibraGPT/Fact-Completion", split="English")
 
         for i in tqdm.tqdm(range(args.start_index, args.end_index)):
             try:
@@ -61,7 +61,7 @@ def main(args):
                         translated_false_list[itr].split(" ")
                     )
 
-                # grab values for all the different colunmns in fact_checking
+                # grab values for all the different colunmns in CalibraGPT/Fact-Completion
                 # grab the stems first
                 stems = []
                 true_save = None
@@ -324,6 +324,6 @@ def main(args):
 
         # save to parquet
         df.to_parquet(
-            f"/content/{args.language}-fact-checking-{args.datetime}-startindex-{args.start_index}-endindex-{args.end_index}.parquet",
+            f"/content/{args.language}-fact-completion-{args.datetime}-startindex-{args.start_index}-endindex-{args.end_index}.parquet",
             index=False,
         )
