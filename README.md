@@ -4,13 +4,11 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
 
-This is the repository for [Measuring Multilingual Encyclopedic Knowledge Representation in Foundation Language Models](https://bit.ly/ischool-berkeley-capstone). It contains the following:
+This is the repository for [Measuring Multilingual Encyclopedic Knowledge Representation in Foundation Language Models](https://bit.ly/ischool-berkeley-capstone). It contains several research artifacts including:
 
 1. The [**code**][cka_run_main] for running the fact-completion benchmark with a compatible language model
 2. The [**data**][hf_data] used for the fact-completion benchmark, which contains 20 languages
 3. A [**demo**][cka_lightweight_demo] for fact-completion language models via contrastive knowledge assessment
-
-The project's motivation is to assess how massively pre-trained language models handle matters of veracity and store factual associations across different languages. In particular, we are focusing on foundation language models. Foundation language models are defined as models trained on general data (using self-supervision at scale) that can be fine-tuned to a wide range of downstream tasks.
 
 ## Test Leaderboard
 
@@ -21,9 +19,9 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 | [`llama-30b`](https://arxiv.org/abs/2302.13971) | Touvron et al., 2023 | 89.40 +/- 0.38 |
 | [`flan-t5-xxl`](https://arxiv.org/abs/2210.11416) | Chung et al., 2022 | |
 | [`gpt-neox-20b`](https://arxiv.org/abs/2204.06745) | Black et al., 2022 | |
-| [`bloom-7b1`](https://arxiv.org/abs/2211.05100) | Scao et al., 2022 | |
 | [`gpt-j-6b`](https://github.com/kingoflolz/mesh-transformer-jax/#gpt-j-6b) | Wang et al., 2021 | |
-| [`gpt2-xl`](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | Radford et al., 2018 | |
+| [`bloom-7b1`](https://arxiv.org/abs/2211.05100) | Scao et al., 2022 | 76.16 +/- 0.51 |
+| [`gpt2-xl`](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | Radford et al., 2018 | 73.76 +/- 0.54 |
 | [`xlm-roberta-large`](https://arxiv.org/abs/1911.02116) | Conneau et al., 2019 | 61.55 +/- 0.59 |
 | `Random guessing` | N/A | 50   | 
 
