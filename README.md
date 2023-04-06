@@ -22,8 +22,8 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 | [`flan-t5-xxl`](https://arxiv.org/abs/2210.11416) | Chung et al., 2022 | |
 | [`gpt-neox-20b`](https://arxiv.org/abs/2204.06745) | Black et al., 2022 | |
 | [`bloom-7b1`](https://arxiv.org/abs/2211.05100) | Scao et al., 2022 | |
-| [`gpt-j-6b`](https://arankomatsuzaki.wordpress.com/2021/06/04/gpt-j/) | Wang et al., 2021 | |
-| [`gpt2-xl`](https://github.com/kingoflolz/mesh-transformer-jax/#gpt-j-6b) | Radford et al., 2018 | |
+| [`gpt-j-6b`](https://github.com/kingoflolz/mesh-transformer-jax/#gpt-j-6b) | Wang et al., 2021 | |
+| [`gpt2-xl`](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | Radford et al., 2018 | |
 | [`xlm-roberta-large`](https://arxiv.org/abs/1911.02116) | Conneau et al., 2019 | 61.55 +/- 0.59 |
 | `Random guessing` | 50   | 
 
