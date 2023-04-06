@@ -7,7 +7,7 @@
 This is the repository for [Measuring Multilingual Encyclopedic Knowledge Representation in Foundation Language Models](https://bit.ly/ischool-berkeley-capstone). It contains the following:
 
 1. The [**code**][cka_run_main] for running the fact-completion benchmark with a compatible language model
-2. The [**data**][hf_data] used for the fact-completion benchmark, which contains over 20 languages
+2. The [**data**][hf_data] used for the fact-completion benchmark, which contains 20 languages
 3. A [**demo**][cka_lightweight_demo] for fact-completion language models via contrastive knowledge assessment
 
 The project's motivation is to assess how massively pre-trained language models handle matters of veracity and store factual associations across dozens of languages. In particular, we are focusing on foundation language models. Foundation language models are defined as models trained on broad data (generally using self-supervision at scale) that can be adapted to a wide range of downstream tasks.
@@ -20,9 +20,9 @@ If you want to have your model added to the leaderboard, please reach out to us 
 
 | Model           | Fact-completion benchmark<br />(% correct) |
 |------------------|---------------------------------------------|
-| `llama-30b` | 89.40 +/- 0.38 |
-| `bloom-7b1` |  |
-| `xlm-roberta-large` |  |
+| `[llama-30b](https://arxiv.org/abs/2302.13971)` | 89.40 +/- 0.38 |
+| `[bloom-7b1](https://arxiv.org/abs/2211.05100)` |  |
+| `[xlm-roberta-large](https://arxiv.org/abs/1911.02116)` |  |
 | `Random guessing` | 50   | 
 
 **Multilingual** results (forthcoming)
@@ -63,9 +63,9 @@ Cite calinet [[1][bib]], memit [[2][bib]], and t-rex [[3][bib]] papers.
 Please cite this repository as follows if you use its data or code:
 
 ```
-@misc{calibragpt,
+@misc{Measuring_Multilingual_Encyclopedic_Knowledge_2023,
   author = {Daniel Furman and Tim Schott and Shreshta Bhat},
-  title = {CalibraGPT: The Search for (Mis)Information in Foundation Language Models},
+  title = {Measuring Multilingual Encyclopedic Knowledge Representation in Foundation Language Models},
   year = {2023}
   publisher = {GitHub},
   howpublished = {\url{https://github.com/daniel-furman/Capstone}},
