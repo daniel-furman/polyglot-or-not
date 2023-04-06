@@ -18,7 +18,9 @@ from deep_translator import GoogleTranslator
 
 
 def main(args):
-    print("Translating the CalibraGPT/Fact-Completion dataset into Non-English languages...")
+    print(
+        "Translating the CalibraGPT/Fact-Completion dataset into Non-English languages..."
+    )
     languages = [args.language]
     itr_run_babysitting = 0
     list_run_babysitting = list(np.arange(0, 26300, 500))
@@ -173,17 +175,6 @@ def main(args):
                     )
                 itr_run_babysitting += 1
 
-                # add the elements to the pd_df_dict
-                # add the true fact
-                print("\n")
-                row = df_pd[df_pd.dataset_id == dataset[i]["dataset_id"]]
-                print(dataset[i]["dataset_id"], row.dataset_id)
-                print(stems, row.stem)
-                print(true_save, row.true)
-                print(counterfact_save_list, row.false)
-
-                print("\n")
-
                 # translate object and subject
                 subject = GoogleTranslator(source="en", target=language).translate(
                     str(dataset[i]["subject"])
@@ -321,6 +312,9 @@ def main(args):
                     df.drop(i, inplace=True)
 
         df.reset_index(drop=True, inplace=True)
+
+        # drop articles at beginning of true/false here, bring back to end of stem
+        # call set on stems again
 
         # save to parquet
         df.to_parquet(
