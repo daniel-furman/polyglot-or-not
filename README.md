@@ -18,19 +18,19 @@ Cite calinet [[1][bib]], memit [[2][bib]], and t-rex [[3][bib]] papers.
 
 Add intro info. The uncertainty estimates were calculated via bootstrap resampling (10,000 samples with replacement, 95% confidence level).  
 
-**English** results (forthcoming)
+**English** results (more coming)
 
 | Model           | Fact-completion benchmark<br />(% correct) |
 |------------------|---------------------------------------------|
+| `llama-30b` | 89.40 +/- 0.38 |
+| `bloom-7b1` |  |
+| `xlm-roberta-large` |  |
 | `Random guessing` | 50   | 
 
 **Multilingual** results (forthcoming)
 
-| Model           | Fact-completion benchmark<br />(% correct) |
-|------------------|---------------------------------------------|
-| `Random guessing` | 50   | 
 
-## Model Families Tested
+## Compatible Language Model Families
 
 | Model family | Release date | Model type | Organization |
 |--------------|--------------|------------|--------------|
@@ -42,11 +42,10 @@ Add intro info. The uncertainty estimates were calculated via bootstrap resampli
 | `GPT-NeoX`   | Feb 2022     | Causal LM  | EleutherAI   |
 | `BLOOM`      | Mar 2022     | Causal LM  | Big Science  |
 | `OPT`        | May 2022     | Causal LM  | Meta AI      |
-| `YaLM`       | Jun 2022     | Causal LM  | Yandex       |
-| `Flan-t5`    | Dec 2022     | Seq2Seq    | Google       |
+| `Flan-T5`    | Dec 2022     | Seq2Seq    | Google       |
 | `Pythia`     | Feb 2023     | Causal LM  | EleutherAI   |
 | `LLaMa`      | Feb 2023     | Causal LM  | Meta AI      |
-| `Flan-ul2`   | Mar 2023     | Seq2Seq    | Google       |
+| `Flan-UL2`   | Mar 2023     | Seq2Seq    | Google       |
 
 ## Authors
 
