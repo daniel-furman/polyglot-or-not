@@ -10,7 +10,7 @@ This is the repository for [Measuring Multilingual Encyclopedic Knowledge Repres
 2. The [**data**][hf_data] used for the fact-completion benchmark, which contains 20 languages
 3. A [**demo**][cka_lightweight_demo] for fact-completion language models via contrastive knowledge assessment
 
-The project's motivation is to assess how massively pre-trained language models handle matters of veracity and store factual associations across dozens of languages. In particular, we are focusing on foundation language models. Foundation language models are defined as models trained on broad data (generally using self-supervision at scale) that can be adapted to a wide range of downstream tasks.
+The project's motivation is to assess how massively pre-trained language models handle matters of veracity and store factual associations across different languages. In particular, we are focusing on foundation language models. Foundation language models are defined as models trained on general data (using self-supervision at scale) that can be fine-tuned to a wide range of downstream tasks.
 
 ## Test Leaderboard
 
