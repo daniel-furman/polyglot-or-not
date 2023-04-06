@@ -17,9 +17,7 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 | Model            | Authors      | English        | French        | German | Romanian |
 |------------------|--------------|:--------------:|:--------------:|:--------------:|:--------------:|
 | [`llama-30b`](https://arxiv.org/abs/2302.13971) | Touvron et al., 2023 | 89.40 +/- 0.38 | | | |
-| [`gpt-neox-20b`](https://arxiv.org/abs/2204.06745) | Black et al., 2022 | | -- | -- | -- |
 | [`gpt-j-6b`](https://github.com/kingoflolz/mesh-transformer-jax/#gpt-j-6b) | Wang et al., 2021 | 81.14 +/- 0.47 |  -- | -- | -- |
-| [`t5-xxl`](https://jmlr.org/papers/volume21/20-074/20-074.pdf) | Raffel et al., 2020 | | | | | |
 | [`flan-t5-xxl`](https://arxiv.org/abs/2210.11416) | Chung et al., 2022 | 78.17 +/- 0.51 | | | | |
 | [`bloom-7b1`](https://arxiv.org/abs/2211.05100) | Scao et al., 2022 | 76.16 +/- 0.51 | 72.35 +/- 0.64 | | | |
 | [`gpt2-xl`](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | Radford et al., 2018 | 73.76 +/- 0.54 |  -- | -- | -- |
