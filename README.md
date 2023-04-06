@@ -31,23 +31,6 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 
 Cite calinet [[1][bib]], memit [[2][bib]], and t-rex [[3][bib]] papers.
 
-## Compatible Language Model Families
-
-| Model family | Release date | Model type | Organization |
-|--------------|--------------|------------|--------------|
-| `BERT`       | Oct 2018     | Masked LM  | Google       |
-| `GPT2`       | Feb 2019     | Causal LM  | OpenAI       |
-| `RoBERTa`    | Nov 2019     | Masked LM  | Meta AI      |
-| `T5`         | Jul 2020     | Seq2Seq    | Google       |
-| `GPT-J`      | Aug 2021     | Causal LM  | EleutherAI   |
-| `GPT-NeoX`   | Feb 2022     | Causal LM  | EleutherAI   |
-| `BLOOM`      | Mar 2022     | Causal LM  | Big Science  |
-| `OPT`        | May 2022     | Causal LM  | Meta AI      |
-| `Flan-T5`    | Dec 2022     | Seq2Seq    | Google       |
-| `Pythia`     | Feb 2023     | Causal LM  | EleutherAI   |
-| `LLaMa`      | Feb 2023     | Causal LM  | Meta AI      |
-| `Flan-UL2`   | Mar 2023     | Seq2Seq    | Google       |
-
 ## Authors
 
 * Daniel Furman <daniel_furman@berkeley.edu>
