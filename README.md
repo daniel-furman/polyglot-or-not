@@ -1,11 +1,10 @@
-# Measuring Multilingual Encyclopedic Knowledge Representation In Foundation Language Models
-## AKA, The Search For (Mis)Information In Foundation Language Models
+# Measuring Multilingual Encyclopedic Knowledge Representation in Foundation Language Models
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/daniel-furman/Capstone/blob/main/LICENSE) 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
 
-This is the repository for [Measuring Multilingual Encyclopedic Knowledge Representation In Foundation Language Models](https://bit.ly/ischool-berkeley-capstone). It contains the following:
+This is the repository for [Measuring Multilingual Encyclopedic Knowledge Representation in Foundation Language Models](https://bit.ly/ischool-berkeley-capstone). It contains the following:
 
 1. The [**code**][cka_run_main] for running the fact-completion benchmark with a compatible language model
 2. The [**data**][hf_data] used for the fact-completion benchmark, which contains over 20 languages
@@ -17,9 +16,7 @@ The project's motivation is to assess how massively pre-trained language models 
 
 If you want to have your model added to the leaderboard, please reach out to us or submit a pull request.
 
-Results of the test:
-
-**English** results (more coming)
+**English** results (more coming):
 
 | Model           | Fact-completion benchmark<br />(% correct) |
 |------------------|---------------------------------------------|
