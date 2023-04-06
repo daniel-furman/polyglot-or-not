@@ -313,9 +313,6 @@ def main(args):
 
         df.reset_index(drop=True, inplace=True)
 
-        # drop articles at beginning of true/false here, bring back to end of stem
-        # call set on stems again
-
         # save to parquet
         df.to_parquet(
             f"/content/{args.language}-fact-completion-{args.datetime}-startindex-{args.start_index}-endindex-{args.end_index}.parquet",
