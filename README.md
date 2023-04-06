@@ -14,12 +14,10 @@ The project's motivation is to assess how massively pre-trained language models 
 
 ## Test Leaderboard
 
-If you want to have your model added to the leaderboard, please reach out to us or submit a pull request.
+To add a new model to the leaderboard, please reach out to us or submit a pull request.
 
-**English** results (more coming):
-
-| Model            | Authors      | English |
-|------------------|--------------|:-------:|
+| Model            | Authors      | English        |
+|------------------|--------------|:--------------:|
 | [`llama-30b`](https://arxiv.org/abs/2302.13971) | Touvron et al., 2023 | 89.40 +/- 0.38 |
 | [`bloom-7b1`](https://arxiv.org/abs/2211.05100) | BigScience Workshop, 2022 | |
 | [`xlm-roberta-large`](https://arxiv.org/abs/1911.02116) | Conneau et al., 2019 | |
