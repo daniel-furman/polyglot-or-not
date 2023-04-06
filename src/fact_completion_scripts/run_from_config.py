@@ -1,5 +1,5 @@
 """
-Main script for running fact checking with contrastive knowledge assessment
+Main script for running fact completion with contrastive knowledge assessment
 
 Instead of running the full benchmark, this script enables users to enter a
 custom config file for their experiment. For example, the demo notebook that

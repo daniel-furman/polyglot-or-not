@@ -1,5 +1,5 @@
 """
-Wrapper helpers for running fact checking with contrastive knowledge assessment
+Wrapper helpers for running fact completion with contrastive knowledge assessment
 """
 
 import datetime

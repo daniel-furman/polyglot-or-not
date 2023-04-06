@@ -5,7 +5,7 @@ Run this script to re-produce caching the CalibraGPT/Fact_Checking dataset
 Original sources cited in the project's README
 
 Example usage:
-python cache_fact_checking_dataset.py
+python cache_fact_completion_dataset.py
 """
 
 import os
@@ -20,7 +20,7 @@ from dotenv import load_dotenv
 
 
 def main(args):
-    print("Caching the fact_checking dataset...")
+    print("Caching the fact_completion dataset...")
 
     # Load calinet data
     with open(
@@ -338,7 +338,7 @@ def main(args):
     ]
     # write to file as .parquet
     mixed_df.to_parquet(
-        "../../data/ingested_data/en-fact-checking-3-20-23.parquet",
+        "../../data/ingested_data/en-fact-completion-3-20-23.parquet",
         index=False,
     )
 
@@ -1231,7 +1231,7 @@ def main(args):
 
     # write to file as .parquet
     mixed_df.to_parquet(
-        "../../data/ingested_data/en-fact-checking-3-21-23.parquet",
+        "../../data/ingested_data/en-fact-completion-3-21-23.parquet",
         index=False,
     )
 
@@ -1240,29 +1240,26 @@ def main(args):
     # Optionally upload final parquet to HuggingFace
     if args.hugging_face:
         data_files = {
-            "English": "../../data/ingested_data/en-fact-checking-3-21-23.parquet",
-            # "Chinese": "../../data/ingested_data/translated_versions/zh-CN-fact-checking-4-5-23.parquet",
-            # "Hindi": "../../data/ingested_data/translated_versions/hi-fact-checking-4-5-23.parquet",
-            "Spanish": "../../data/ingested_data/translated_versions/es-fact-checking-4-5-23.parquet",
-            "French": "../../data/ingested_data/translated_versions/fr-fact-checking-4-5-23.parquet",
-            "Russian": "../../data/ingested_data/translated_versions/ru-fact-checking-4-5-23.parquet",
-            "Portuguese": "../../data/ingested_data/translated_versions/pt-fact-checking-4-5-23.parquet",
-            "German": "../../data/ingested_data/translated_versions/de-fact-checking-4-5-23.parquet",
-            # "Japanese": "../../data/ingested_data/translated_versions/ja-fact-checking-4-5-23.parquet",
-            "Italian": "../../data/ingested_data/translated_versions/it-fact-checking-4-5-23.parquet",
-            "Ukrainian": "../../data/ingested_data/translated_versions/uk-fact-checking-4-5-23.parquet",
-            "Romanian": "../../data/ingested_data/translated_versions/ro-fact-checking-4-5-23.parquet",
-            "Czech": "../../data/ingested_data/translated_versions/cs-fact-checking-4-5-23.parquet",
-            "Bulgarian": "../../data/ingested_data/translated_versions/bg-fact-checking-4-5-23.parquet",
-            "Serbian": "../../data/ingested_data/translated_versions/sr-fact-checking-4-5-23.parquet",
-            "Hungarian": "../../data/ingested_data/translated_versions/hu-fact-checking-4-5-23.parquet",
-            "Croatian": "../../data/ingested_data/translated_versions/hr-fact-checking-4-5-23.parquet",
-            "Danish": "../../data/ingested_data/translated_versions/da-fact-checking-4-5-23.parquet",
-            "Slovenian": "../../data/ingested_data/translated_versions/sl-fact-checking-4-5-23.parquet",
-            "Polish": "../../data/ingested_data/translated_versions/pl-fact-checking-4-5-23.parquet",
-            "Dutch": "../../data/ingested_data/translated_versions/nl-fact-checking-4-5-23.parquet",
-            "Catalan": "../../data/ingested_data/translated_versions/ca-fact-checking-4-5-23.parquet",
-            "Swedish": "../../data/ingested_data/translated_versions/sv-fact-checking-4-5-23.parquet",
+            "English": "../../data/ingested_data/en-fact-completion-3-21-23.parquet",
+            "Spanish": "../../data/ingested_data/translated_versions/es-fact-completion-4-5-23.parquet",
+            "French": "../../data/ingested_data/translated_versions/fr-fact-completion-4-5-23.parquet",
+            "Russian": "../../data/ingested_data/translated_versions/ru-fact-completion-4-5-23.parquet",
+            "Portuguese": "../../data/ingested_data/translated_versions/pt-fact-completion-4-5-23.parquet",
+            "German": "../../data/ingested_data/translated_versions/de-fact-completion-4-5-23.parquet",
+            "Italian": "../../data/ingested_data/translated_versions/it-fact-completion-4-5-23.parquet",
+            "Ukrainian": "../../data/ingested_data/translated_versions/uk-fact-completion-4-5-23.parquet",
+            "Romanian": "../../data/ingested_data/translated_versions/ro-fact-completion-4-5-23.parquet",
+            "Czech": "../../data/ingested_data/translated_versions/cs-fact-completion-4-5-23.parquet",
+            "Bulgarian": "../../data/ingested_data/translated_versions/bg-fact-completion-4-5-23.parquet",
+            "Serbian": "../../data/ingested_data/translated_versions/sr-fact-completion-4-5-23.parquet",
+            "Hungarian": "../../data/ingested_data/translated_versions/hu-fact-completion-4-5-23.parquet",
+            "Croatian": "../../data/ingested_data/translated_versions/hr-fact-completion-4-5-23.parquet",
+            "Danish": "../../data/ingested_data/translated_versions/da-fact-completion-4-5-23.parquet",
+            "Slovenian": "../../data/ingested_data/translated_versions/sl-fact-completion-4-5-23.parquet",
+            "Polish": "../../data/ingested_data/translated_versions/pl-fact-completion-4-5-23.parquet",
+            "Dutch": "../../data/ingested_data/translated_versions/nl-fact-completion-4-5-23.parquet",
+            "Catalan": "../../data/ingested_data/translated_versions/ca-fact-completion-4-5-23.parquet",
+            "Swedish": "../../data/ingested_data/translated_versions/sv-fact-completion-4-5-23.parquet",
         }
         dataset = load_dataset("parquet", data_files=data_files)
 
@@ -1271,9 +1268,9 @@ def main(args):
         # Logs into HF hub
         login(os.getenv("HF_TOKEN"))
         # push to hub
-        dataset.push_to_hub("CalibraGPT/Fact_Checking")
+        dataset.push_to_hub("CalibraGPT/Fact-Completion")
         # test loading from hub
-        load_dataset("CalibraGPT/Fact_Checking")
+        load_dataset("CalibraGPT/Fact-Completion")
 
     return None
 

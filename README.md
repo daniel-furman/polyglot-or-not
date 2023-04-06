@@ -6,9 +6,9 @@
 
 This is the repo for the UC Berkeley CalibraGPT project, which aims to assess how massively pre-trained language models handle matters of veracity and store facts across different languages. It contains the following:
 
-1. The [**code**][cka_run_main] for running the fact-checking benchmark with a compatible language model
-2. The [**data**][hf_data] used for the fact-checking benchmark, which contains over 20 languages
-3. A [**demo**][cka_lightweight_demo] for fact-checking language models via contrastive knowledge assessment
+1. The [**code**][cka_run_main] for running the fact-completion benchmark with a compatible language model
+2. The [**data**][hf_data] used for the fact-completion benchmark, which contains over 20 languages
+3. A [**demo**][cka_lightweight_demo] for fact-completion language models via contrastive knowledge assessment
 
 ## Data Release
 
@@ -20,13 +20,13 @@ Add intro info. The uncertainty estimates were calculated via bootstrap resampli
 
 **English** results (forthcoming)
 
-| Model           | Fact-checking benchmark<br />(% correct) |
+| Model           | Fact-completion benchmark<br />(% correct) |
 |------------------|---------------------------------------------|
 | `Random guessing` | 50   | 
 
 **Multilingual** results (forthcoming)
 
-| Model           | Fact-checking benchmark<br />(% correct) |
+| Model           | Fact-completion benchmark<br />(% correct) |
 |------------------|---------------------------------------------|
 | `Random guessing` | 50   | 
 
@@ -82,11 +82,11 @@ Please cite this repository as follows if you use its data or code:
 
 
 [bib]: https://github.com/daniel-furman/Capstone#bibliography
-[hf_data]: https://huggingface.co/datasets/CalibraGPT/Fact_Checking
+[hf_data]: https://huggingface.co/datasets/CalibraGPT/Fact-Completion
 [cka]: https://arxiv.org/abs/2210.03329
 [memit]: https://arxiv.org/abs/2210.07229
 [mmlu]: https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu
 [mmlu_paper]: https://arxiv.org/abs/2009.03300
 [trex]: http://aclanthology.lst.uni-saarland.de/L18-1544.pdf
-[cka_lightweight_demo]: https://github.com/daniel-furman/Capstone/blob/main/notebooks/fact_checking_notebooks/fact-checking-lightweight-demo.ipynb
-[cka_run_main]: https://github.com/daniel-furman/Capstone/blob/main/notebooks/fact_checking_notebooks/fact-checking-full-benchmark.ipynb
+[cka_lightweight_demo]: https://github.com/daniel-furman/Capstone/blob/main/notebooks/fact_completion_notebooks/fact-completion-lightweight-demo.ipynb
+[cka_run_main]: https://github.com/daniel-furman/Capstone/blob/main/notebooks/fact_completion_notebooks/fact-completion-full-benchmark.ipynb
