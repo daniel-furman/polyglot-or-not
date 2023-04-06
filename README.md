@@ -18,14 +18,12 @@ If you want to have your model added to the leaderboard, please reach out to us 
 
 **English** results (more coming):
 
-| Model           | Fact-completion benchmark<br />(% correct) |
-|------------------|---------------------------------------------|
-| [`llama-30b`](https://arxiv.org/abs/2302.13971) | 89.40 +/- 0.38 |
-| [`bloom-7b1`](https://arxiv.org/abs/2211.05100) |  |
-| [`xlm-roberta-large`](https://arxiv.org/abs/1911.02116) |  |
+| Model            | Authors      | English |
+|------------------|--------------|:-------:|
+| [`llama-30b`](https://arxiv.org/abs/2302.13971) | Hoffmann et al., 2022 | 89.40 +/- 0.38 |
+| [`bloom-7b1`](https://arxiv.org/abs/2211.05100) |  | |
+| [`xlm-roberta-large`](https://arxiv.org/abs/1911.02116) |  | |
 | `Random guessing` | 50   | 
-
-**Multilingual** results (forthcoming)
 
 ## Data Release
 
