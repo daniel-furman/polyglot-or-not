@@ -326,10 +326,7 @@ def compare_models(model_name_list, input_dataset, verbose):
         # record the summary dict
         score_dict_summary[
             model_name.lower()
-        ] = f"This model predicted {true_count}/{fact_count} facts at a higher"
-        " prob than the given counterfactual. In addition, the mean p_true was"
-        f" {np.round(np.mean(np.array(p_trues)), decimals=4)} while the mean"
-        f" p_false_average was {np.round(np.mean(np.array(p_falses)), decimals=4)}."
+        ] = f'This model predicted {true_count}/{fact_count} facts at a higher prob than the given counterfactual. In addition, the mean p_true was" {np.round(np.mean(np.array(p_trues)), decimals=4)} while the mean p_false_average was {np.round(np.mean(np.array(p_falses)), decimals=4)}.'
 
         print("Done\n")
         del tokenizer

@@ -28,14 +28,7 @@ def main(args):
         pd_df_dict = {}
         dataset = load_dataset("CalibraGPT/Fact_Checking", split="English")
 
-        if args.first_100:
-            loop_itrs = range(0, 100)
-        elif args.first_half:
-            loop_itrs = range(0, len(dataset) // 4)
-        else:
-            loop_itrs = range(len(dataset) // 2, len(dataset))
-
-        for i in tqdm.tqdm(loop_itrs):
+        for i in tqdm.tqdm(range(args.start_index, args.end_index)):
             try:
                 # grab the stem + true fact to translate
                 true_pair = dataset[i]["stem"] + " " + dataset[i]["true"]
@@ -172,18 +165,37 @@ def main(args):
                 except AttributeError:
                     continue
 
+                # randomly print some during training to checkin on thing
+                if itr_run_babysitting in list_run_babysitting:
+                    print(
+                        f"\nRandom prints, itr {itr_run_babysitting}: "
+                        f"\n\t{(dataset[i]['dataset_id'], 'true: ' + stems[0] + ' ' + true_save, 'false[0]: ' + stems[1] + ' ' + counterfact_save_list[0])}"
+                    )
+                itr_run_babysitting += 1
+
                 # add the elements to the pd_df_dict
                 # add the true fact
-                try:
-                    pd_df_dict["true"].append(true_save)
-                except KeyError:
-                    pd_df_dict["true"] = [true_save]
+                print("\n")
+                row = df_pd[df_pd.dataset_id == dataset[i]["dataset_id"]]
+                print(dataset[i]["dataset_id"], row.dataset_id)
+                print(stems, row.stem)
+                print(true_save, row.true)
+                print(counterfact_save_list, row.false)
 
-                # add the subject
+                print("\n")
+
+                # translate object and subject
                 subject = GoogleTranslator(source="en", target=language).translate(
-                    dataset[i]["subject"]
+                    str(dataset[i]["subject"])
                 )
                 time.sleep(0.01)
+                object_ = GoogleTranslator(source="en", target=language).translate(
+                    str(dataset[i]["object"])
+                )
+                time.sleep(0.01)
+
+                # add all the metadata if no erros to this point
+                # add the subject
                 if dataset[i]["subject"] in translated_true:
                     try:
                         pd_df_dict["subject"].append(dataset[i]["subject"])
@@ -195,10 +207,7 @@ def main(args):
                     except KeyError:
                         pd_df_dict["subject"] = [subject]
                 # add the object
-                object = GoogleTranslator(source="en", target=language).translate(
-                    dataset[i]["object"]
-                )
-                time.sleep(0.01)
+
                 if dataset[i]["object"] in translated_true:
                     try:
                         pd_df_dict["object"].append(dataset[i]["object"])
@@ -206,10 +215,13 @@ def main(args):
                         pd_df_dict["object"] = [dataset[i]["object"]]
                 else:
                     try:
-                        pd_df_dict["object"].append(object)
+                        pd_df_dict["object"].append(object_)
                     except KeyError:
-                        pd_df_dict["object"] = [object]
-
+                        pd_df_dict["object"] = [object_]
+                try:
+                    pd_df_dict["true"].append(true_save)
+                except KeyError:
+                    pd_df_dict["true"] = [true_save]
                 # add the false fact list to the dataframe
                 try:
                     pd_df_dict["false"].append(counterfact_save_list)
@@ -239,14 +251,6 @@ def main(args):
                     pd_df_dict["relation"].append(dataset[i]["relation"])
                 except KeyError:
                     pd_df_dict["relation"] = [dataset[i]["relation"]]
-
-                # randomly print some during training to checkin on thing
-                if itr_run_babysitting in list_run_babysitting:
-                    print(
-                        f"\nRandom prints, itr {itr_run_babysitting}: "
-                        f"\n\t{(dataset[i]['dataset_id'], 'true: ' + stems[0] + ' ' + true_save, 'false[0]: ' + stems[1] + ' ' + counterfact_save_list[0])}"
-                    )
-                itr_run_babysitting += 1
 
             except:
                 print(f'ERROR: {dataset[i]["dataset_id"]}')
@@ -292,6 +296,8 @@ def main(args):
                 df.loc[i, "stem"] = df.loc[i].stem.replace(". <br> ", " <br> ")
             if df.loc[i].stem[:1] == " ":
                 df.loc[i, "stem"] = df.loc[i].stem[1:]
+            if df.loc[i].stem[-1] == " ":
+                df.loc[i, "stem"] = df.loc[i].stem[:-1]
             if " <br>  " in df.loc[i].stem:
                 df.loc[i, "stem"] = df.loc[i].stem.replace(" <br>  ", " <br> ")
             if "  <br> " in df.loc[i].stem:
@@ -318,6 +324,6 @@ def main(args):
 
         # save to parquet
         df.to_parquet(
-            f"/content/{args.language}-fact-checking-{args.datetime}.parquet",
+            f"/content/{args.language}-fact-checking-{args.datetime}-startindex-{args.start_index}-endindex-{args.end_index}.parquet",
             index=False,
         )

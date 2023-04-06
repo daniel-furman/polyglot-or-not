@@ -1241,14 +1241,14 @@ def main(args):
     if args.hugging_face:
         data_files = {
             "English": "../../data/ingested_data/en-fact-checking-3-21-23.parquet",
-            "Chinese": "../../data/ingested_data/translated_versions/zh-CN-fact-checking-4-5-23.parquet",
-            "Hindi": "../../data/ingested_data/translated_versions/hi-fact-checking-4-5-23.parquet",
+            # "Chinese": "../../data/ingested_data/translated_versions/zh-CN-fact-checking-4-5-23.parquet",
+            # "Hindi": "../../data/ingested_data/translated_versions/hi-fact-checking-4-5-23.parquet",
             "Spanish": "../../data/ingested_data/translated_versions/es-fact-checking-4-5-23.parquet",
             "French": "../../data/ingested_data/translated_versions/fr-fact-checking-4-5-23.parquet",
             "Russian": "../../data/ingested_data/translated_versions/ru-fact-checking-4-5-23.parquet",
             "Portuguese": "../../data/ingested_data/translated_versions/pt-fact-checking-4-5-23.parquet",
             "German": "../../data/ingested_data/translated_versions/de-fact-checking-4-5-23.parquet",
-            "Japanese": "../../data/ingested_data/translated_versions/ja-fact-checking-4-5-23.parquet",
+            # "Japanese": "../../data/ingested_data/translated_versions/ja-fact-checking-4-5-23.parquet",
             "Italian": "../../data/ingested_data/translated_versions/it-fact-checking-4-5-23.parquet",
             "Ukrainian": "../../data/ingested_data/translated_versions/uk-fact-checking-4-5-23.parquet",
             "Romanian": "../../data/ingested_data/translated_versions/ro-fact-checking-4-5-23.parquet",
