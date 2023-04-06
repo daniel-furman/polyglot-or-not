@@ -20,9 +20,9 @@ If you want to have your model added to the leaderboard, please reach out to us 
 
 | Model           | Fact-completion benchmark<br />(% correct) |
 |------------------|---------------------------------------------|
-| `[llama-30b](https://arxiv.org/abs/2302.13971)` | 89.40 +/- 0.38 |
-| `[bloom-7b1](https://arxiv.org/abs/2211.05100)` |  |
-| `[xlm-roberta-large](https://arxiv.org/abs/1911.02116)` |  |
+| [`llama-30b`](https://arxiv.org/abs/2302.13971) | 89.40 +/- 0.38 |
+| [`bloom-7b1`](https://arxiv.org/abs/2211.05100) |  |
+| [`xlm-roberta-large`](https://arxiv.org/abs/1911.02116) |  |
 | `Random guessing` | 50   | 
 
 **Multilingual** results (forthcoming)
