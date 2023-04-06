@@ -346,7 +346,9 @@ def compare_models(model_name_list, input_dataset, verbose):
     score_dicts_logging["score_dict_summary"] = score_dict_summary
     score_dicts_logging["score_dict_full"] = score_dict_full
 
-    with open(f"logging/{prefix}-logged-cka-outputs-{dt_string}.json", "w") as outfile:
+    log_fpath = f"logging/{prefix}-logged-cka-outputs-{dt_string}.json"
+
+    with open(log_fpath, "w") as outfile:
         json.dump(score_dicts_logging, outfile)
 
-    return score_dicts
+    return score_dicts, log_fpath
