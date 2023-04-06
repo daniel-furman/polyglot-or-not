@@ -22,7 +22,7 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 | [`flan-t5-xxl`](https://arxiv.org/abs/2210.11416) | Chung et al., 2022 | 78.17 +/- 0.51 | | | | |
 | [`bloom-7b1`](https://arxiv.org/abs/2211.05100) | Scao et al., 2022 | 76.16 +/- 0.51 | 72.35 +/- 0.64 | | | |
 | [`gpt2-xl`](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | Radford et al., 2018 | 73.76 +/- 0.54 |  -- | -- | -- |
-| [`bert-base-multilingual-cased`](https://arxiv.org/abs/1810.04805) | Devlin et al., 2018 | 71.80 +/- 0.55 | 64.61 +/- 0.69 |  | | 
+| [`m-bert-base`](https://arxiv.org/abs/1810.04805) | Devlin et al., 2018 | 71.80 +/- 0.55 | 64.61 +/- 0.69 |  | | 
 | [`xlm-roberta-large`](https://arxiv.org/abs/1911.02116) | Conneau et al., 2019 | 61.55 +/- 0.59 | 54.75 +/- 0.72 |  | | 
 | `Random guessing` | N/A | 50   |  50   |  50   |  50   | 
 
