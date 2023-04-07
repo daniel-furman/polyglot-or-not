@@ -4,7 +4,7 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
 
-This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval in Foundation Language Models](https://bit.ly/ischool-berkeley-capstone). It contains several research artifacts including:
+This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models](https://bit.ly/ischool-berkeley-capstone). It contains several research artifacts including:
 
 1. The [**code**][cka_run_main] for running the fact-completion benchmark with a compatible language model
 2. The [**data**][hf_data] used for the fact-completion benchmark, which contains 20 languages
