@@ -1,10 +1,10 @@
-# Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Representation in Foundation Language Models
+  # Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://github.com/daniel-furman/Capstone/blob/main/LICENSE) 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
 
-This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Representation in Foundation Language Models](https://bit.ly/ischool-berkeley-capstone). It contains several research artifacts including:
+This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval in Foundation Language Models](https://bit.ly/ischool-berkeley-capstone). It contains several research artifacts including:
 
 1. The [**code**][cka_run_main] for running the fact-completion benchmark with a compatible language model
 2. The [**data**][hf_data] used for the fact-completion benchmark, which contains 20 languages
@@ -44,9 +44,9 @@ Cite calinet [[1][bib]], memit [[2][bib]], and t-rex [[3][bib]] papers.
 Please cite this repository as follows if you use its data or code:
 
 ```
-@misc{Measuring_Multilingual_Encyclopedic_Knowledge_2023,
+@misc{polyglot_or_not,
   author = {Daniel Furman and Tim Schott and Shreshta Bhat},
-  title = {Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Representation in Foundation Language Models},
+  title = {Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models},
   year = {2023}
   publisher = {GitHub},
   howpublished = {\url{https://github.com/daniel-furman/Capstone}},
