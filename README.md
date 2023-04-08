@@ -8,7 +8,7 @@ This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedi
 
 1. The main [**code**][cka_run_main] for running the fact-completion benchmark with a compatible language model
 2. The [**data**][hf_data] used for the fact-completion benchmark, which contains 20 languages
-3. A lightweight [**demo**][cka_lightweight_demo] for running fact-completion tests with language models via contrastive knowledge assessment
+3. A lightweight [**demo**][cka_lightweight_demo] for running fact-completion tests via contrastive knowledge assessment
 
 ## Test Leaderboard
 
