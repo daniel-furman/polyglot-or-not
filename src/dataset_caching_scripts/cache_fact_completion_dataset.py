@@ -1240,7 +1240,7 @@ def main(args):
     if args.hugging_face:
         data_files = {
             "English": "../../data/ingested_data/en-fact-completion-3-21-23.parquet",
-            "Spanish": "../../data/ingested_data/translated_versions/es-fact-completion-4-5-23.parquet",
+            "Spanish": "../../data/ingested_data/translated_versions/es-fact-completion-4-8-23.parquet",
             "French": "../../data/ingested_data/translated_versions/fr-fact-completion-4-5-23.parquet",
             "Russian": "../../data/ingested_data/translated_versions/ru-fact-completion-4-7-23.parquet",
             "Portuguese": "../../data/ingested_data/translated_versions/pt-fact-completion-4-5-23.parquet",
