@@ -30,15 +30,13 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 
 **Multilingual** results: 
 
-| Model            | [`llama-30b`](https://arxiv.org/abs/2302.13971)        |
+| Model            | [llama-30b](https://arxiv.org/abs/2302.13971)        |
 |------------------|:--------------:|
 | English | 89.40 +/- 0.38 | 
 | German | 85.74 +/- 0.54 | 
 | French | 84.18  +/- 0.53 | 
 | Spanish | 81.74 +/- 0.54 | 
-
-
-| `Random guessing` | N/A | 50   |  
+| `Random guessing` | 50   |  
 
 ## Data Release
 
