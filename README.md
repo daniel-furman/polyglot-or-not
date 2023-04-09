@@ -10,11 +10,11 @@ This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedi
 2. The [**data**][hf_data] used for the fact-completion benchmark, which contains 20 languages
 3. A lightweight [**demo**][cka_lightweight_demo] for running fact-completion tests via contrastive knowledge assessment
 
-## Test Leaderboard
+## Test Leaderboards
 
 To add a new model to the leaderboard, please reach out to us or submit a pull request.
 
-**Multilingual** results forthcoming. 
+**English** results: 
 
 | Model            | Authors      | English        |
 |------------------|--------------|:--------------:|
@@ -26,6 +26,18 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 | [`gpt2-xl`](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | Radford et al., 2018 | 73.76 +/- 0.54 | 
 | [`m-bert-base`](https://arxiv.org/abs/1810.04805) | Devlin et al., 2018 | 71.80 +/- 0.55 | 
 | [`xlm-roberta-large`](https://arxiv.org/abs/1911.02116) | Conneau et al., 2019 | 61.55 +/- 0.59 | 
+| `Random guessing` | N/A | 50   |  
+
+**Multilingual** results: 
+
+| Model            | [`llama-30b`](https://arxiv.org/abs/2302.13971)        |
+|------------------|:--------------:|
+| English | 89.40 +/- 0.38 | 
+| German | 85.74 +/- 0.54 | 
+| French | 84.18  +/- 0.53 | 
+| Spanish | 81.74 +/- 0.54 | 
+
+
 | `Random guessing` | N/A | 50   |  
 
 ## Data Release
