@@ -36,6 +36,7 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 | German | 85.74 +/- 0.54 | 
 | French | 84.18  +/- 0.53 | 
 | Spanish | 81.74 +/- 0.54 | 
+| Russian | 69.72 +/- 1.58 | 
 | Random guessing | 50   |  
 
 ## Data Release
