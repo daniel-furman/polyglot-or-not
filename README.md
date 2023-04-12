@@ -16,7 +16,7 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 
 **English** results: 
 
-| Model            | Authors      | English (% completions correct)      |
+| Model            | Authors      | English (%)      |
 |------------------|--------------|:--------------:|
 | [`llama-30b`](https://arxiv.org/abs/2302.13971) | Touvron et al., 2023 | 89.40 +/- 0.38 | 
 | [`gpt-neox-20b`](https://arxiv.org/abs/2204.06745) | Black et al., 2022 | 81.50 +/- 0.47 |
@@ -30,7 +30,7 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 
 **Multilingual** results: 
 
-| Language            | [llama-30b](https://arxiv.org/abs/2302.13971) (% completions correct)       |
+| Language            | [llama-30b](https://arxiv.org/abs/2302.13971) (%)       |
 |------------------|:--------------:|
 | English | 89.40 +/- 0.38 | 
 | German | 85.74 +/- 0.54 | 
@@ -41,7 +41,8 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 | Russian | 69.72 +/- 1.58 | 
 | Random guessing | 50   |  
 
-Uncertainty estimates (+/-) in the above tables represent 95% confidence intervals computed from 10000 bootstrap iterations.
+* The (%) values in the above tables represent the percentage of fact completion examples fed into the model where the probability of the true token was greater than the averaged probabilities of the false tokens. In other words, the percentage of fact completions that the model predicted correctly in contrastive knowledge assessment testing.
+* Uncertainty estimates (+/-) in the above tables represent 95% confidence intervals computed from 10000 bootstrap iterations.
 
 ## Data Release
 
