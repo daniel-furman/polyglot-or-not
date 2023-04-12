@@ -1251,14 +1251,14 @@ def main(args):
             "Czech": "../../data/ingested_data/translated_versions/cs-fact-completion-4-10-23.parquet",
             "Bulgarian": "../../data/ingested_data/translated_versions/bg-fact-completion-4-10-23.parquet",
             "Swedish": "../../data/ingested_data/translated_versions/sv-fact-completion-4-10-23.parquet",
-            "Serbian": "../../data/ingested_data/translated_versions/sr-fact-completion-4-5-23.parquet",
-            "Hungarian": "../../data/ingested_data/translated_versions/hu-fact-completion-4-5-23.parquet",
+            "Serbian": "../../data/ingested_data/translated_versions/sr-fact-completion-4-12-23.parquet",
+            "Hungarian": "../../data/ingested_data/translated_versions/hu-fact-completion-4-12-23.parquet",
             "Croatian": "../../data/ingested_data/translated_versions/hr-fact-completion-4-5-23.parquet",
-            "Danish": "../../data/ingested_data/translated_versions/da-fact-completion-4-5-23.parquet",
-            "Slovenian": "../../data/ingested_data/translated_versions/sl-fact-completion-4-5-23.parquet",
-            "Polish": "../../data/ingested_data/translated_versions/pl-fact-completion-4-5-23.parquet",
-            "Dutch": "../../data/ingested_data/translated_versions/nl-fact-completion-4-5-23.parquet",
-            "Catalan": "../../data/ingested_data/translated_versions/ca-fact-completion-4-5-23.parquet",
+            "Danish": "../../data/ingested_data/translated_versions/da-fact-completion-4-12-23.parquet",
+            "Slovenian": "../../data/ingested_data/translated_versions/sl-fact-completion-4-12-23.parquet",
+            "Polish": "../../data/ingested_data/translated_versions/pl-fact-completion-4-12-23.parquet",
+            "Dutch": "../../data/ingested_data/translated_versions/nl-fact-completion-4-12-23.parquet",
+            "Catalan": "../../data/ingested_data/translated_versions/ca-fact-completion-4-12-23.parquet",
         }
         dataset = load_dataset("parquet", data_files=data_files)
 
