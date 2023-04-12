@@ -16,7 +16,7 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 
 **English** results: 
 
-| Model            | Authors      | English        |
+| Model            | Authors      | English (% completions correct)      |
 |------------------|--------------|:--------------:|
 | [`llama-30b`](https://arxiv.org/abs/2302.13971) | Touvron et al., 2023 | 89.40 +/- 0.38 | 
 | [`gpt-neox-20b`](https://arxiv.org/abs/2204.06745) | Black et al., 2022 | 81.50 +/- 0.47 |
@@ -30,15 +30,18 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 
 **Multilingual** results: 
 
-| Language            | [llama-30b](https://arxiv.org/abs/2302.13971)        |
+| Language            | [llama-30b](https://arxiv.org/abs/2302.13971) (% completions correct)       |
 |------------------|:--------------:|
 | English | 89.40 +/- 0.38 | 
 | German | 85.74 +/- 0.54 | 
 | French | 84.18  +/- 0.53 | 
 | Spanish | 81.74 +/- 0.54 | 
 | Ukrainian | 73.00 +/- 0.97 | 
+| Bulgarian | 72.50 +/- 0.61 | 
 | Russian | 69.72 +/- 1.58 | 
 | Random guessing | 50   |  
+
+Uncertainty estimates (+/-) in the above tables represent 95% confidence intervals computed from 10000 bootstrap iterations.
 
 ## Data Release
 
