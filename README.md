@@ -34,7 +34,9 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 |------------------|:--------------:|
 | English | 89.40 +/- 0.38 | 
 | German | 85.74 +/- 0.54 | 
-| French | 84.18  +/- 0.53 | 
+| French | 84.18  +/- 0.53 |
+| Portuguese | 83.81  +/- 0.48 | 
+| Danish | 81.79  +/- 0.49 | 
 | Spanish | 81.74 +/- 0.54 | 
 | Ukrainian | 73.00 +/- 0.97 | 
 | Bulgarian | 72.50 +/- 0.61 | 
