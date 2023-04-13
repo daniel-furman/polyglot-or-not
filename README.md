@@ -41,8 +41,9 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 | Russian | 69.72 +/- 1.58 | 
 | Random guessing | 50   |  
 
-* The (%) values in the above tables represent the percentage of fact completion examples fed into the model where the probability of the true token was greater than the averaged probabilities of the false tokens. In other words, the percentage of fact completions that the model predicted correctly in contrastive knowledge assessment testing.
-* Uncertainty estimates (+/-) in the above tables represent 95% confidence intervals computed from 10000 bootstrap iterations.
+Notes on above tables:
+* The values represent the percentage of fact completions that the model got "right" during the fact completion test. To get a fact correct, the model must predict the "true" token with a greater probablity than the false token(s).
+* Uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
 
 ## Data Release
 
