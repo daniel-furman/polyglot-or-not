@@ -42,7 +42,7 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 | Random guessing | 50   |  
 
 Notes on above tables:
-* The values represent the percentage of fact completions that the model got "right" during the fact completion test. To get a fact correct, the model must predict the "true" token with a greater probablity than the false token(s).
+* The values represent the percentage of fact completions that the model got "correct" during the test. A correct fact completion indicates that the model predicted the true token with a greater probablity than the false token(s).
 * Uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
 
 ## Data Release
