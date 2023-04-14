@@ -18,15 +18,15 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 
 | Model            | Authors      | English (%)      |
 |------------------|--------------|:--------------:|
-| [`llama-30b`](https://arxiv.org/abs/2302.13971) | Touvron et al., 2023 | 89.40 +/- 0.38 | 
-| [`gpt-neox-20b`](https://arxiv.org/abs/2204.06745) | Black et al., 2022 | 81.50 +/- 0.47 |
-| [`gpt-j-6b`](https://github.com/kingoflolz/mesh-transformer-jax/#gpt-j-6b) | Wang et al., 2021 | 81.14 +/- 0.47 |
-| [`flan-t5-xxl`](https://arxiv.org/abs/2210.11416) | Chung et al., 2022 | 78.17 +/- 0.51 | 
-| [`bloom-7b1`](https://arxiv.org/abs/2211.05100) | Scao et al., 2022 | 76.16 +/- 0.51 | 
-| [`gpt2-xl`](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | Radford et al., 2018 | 73.76 +/- 0.54 | 
-| [`m-bert-base`](https://arxiv.org/abs/1810.04805) | Devlin et al., 2018 | 71.80 +/- 0.55 | 
-| [`xlm-roberta-large`](https://arxiv.org/abs/1911.02116) | Conneau et al., 2019 | 61.55 +/- 0.59 | 
-| `Random guessing` | N/A | 50   |  
+| [llama-30b](https://arxiv.org/abs/2302.13971) | Touvron et al., 2023 | 89.40 +/- 0.38 | 
+| [gpt-neox-20b](https://arxiv.org/abs/2204.06745) | Black et al., 2022 | 81.50 +/- 0.47 |
+| [gpt-j-6b](https://github.com/kingoflolz/mesh-transformer-jax/#gpt-j-6b) | Wang et al., 2021 | 81.14 +/- 0.47 |
+| [flan-t5-xxl](https://arxiv.org/abs/2210.11416) | Chung et al., 2022 | 78.17 +/- 0.51 | 
+| [bloom-7b1](https://arxiv.org/abs/2211.05100) | Scao et al., 2022 | 76.16 +/- 0.51 | 
+| [gpt2-xl](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | Radford et al., 2018 | 73.76 +/- 0.54 | 
+| [m-bert-base](https://arxiv.org/abs/1810.04805) | Devlin et al., 2018 | 71.80 +/- 0.55 | 
+| [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | Conneau et al., 2019 | 61.55 +/- 0.59 | 
+| Random guessing | N/A | 50   |  
 
 **Multilingual** results: 
 
@@ -34,6 +34,8 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 |------------------|:--------------:|
 | English | 89.40 +/- 0.38 | 
 | German | 85.74 +/- 0.54 | 
+| Dutch | 85.35 +/- 0.46 | 
+| Italian | 84.39 +/- 0.50 | 
 | French | 84.18  +/- 0.53 |
 | Portuguese | 83.81  +/- 0.48 | 
 | Danish | 81.79  +/- 0.49 | 
@@ -43,7 +45,7 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 | Ukrainian | 73.00 +/- 0.97 | 
 | Bulgarian | 72.50 +/- 0.61 | 
 | Russian | 69.72 +/- 1.58 | 
-| Random guessing | 50   |  
+| Random guessing | 50 | 
 
 Notes on above: The values represent the percentage of fact completions the model predicted correctly. A correct fact completion indicates that the model predicted the true token with a greater probablity than the false token(s). The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
 
