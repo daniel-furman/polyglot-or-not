@@ -22,7 +22,7 @@ Table 1: **Multilingual** results.
 
 | Language            | Authors     |  20 Language Average (%)       |
 |------------------|--------------|:--------------:|
-| [llama-30b](https://arxiv.org/abs/2302.13971) | Touvron et al., 2023 | (forthcoming) | 
+| [llama-30b](https://arxiv.org/abs/2302.13971) | Touvron et al., 2023 | **79.31** +/- 0.74| 
 | [bloom-7b1](https://arxiv.org/abs/2211.05100) | Scao et al., 2022 | (forthcoming) | 
 | [m-bert-base](https://arxiv.org/abs/1810.04805) | Devlin et al., 2018 | (forthcoming) | 
 | [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | Conneau et al., 2019 | (forthcoming) | 
@@ -44,7 +44,8 @@ Table 2: **English** results.
 
 Figure 1: **LLaMa** results. 
 
-Figure: (forthcoming)
+![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_annotated.png)
+
 
 The above results compare the percentage of factual statements that each model completed correctly. A correct fact completion indicates the model predicted the true word token with a greater probability than the false token(s). The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
 
