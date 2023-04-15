@@ -42,7 +42,7 @@ Figure 1: **LLaMa** results.
 
 Figure: (forthcoming)
 
-The test results represent the percentage of fact completions the model predicted correctly. A correct fact completion indicates the model predicted the true token with a greater probability than the false token(s). The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
+The test results represent the percentage of fact completions each model predicted correctly. A correct fact completion indicates the model predicted the true token with a greater probability than the false token(s). The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
 
 
 ## Data Release
