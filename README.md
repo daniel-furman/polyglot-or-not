@@ -47,7 +47,7 @@ Figure 1: **LLaMa** results.
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_annotated.png)
 
 
-The above results compare the percentage of factual statements that each model completed correctly. A correct fact completion indicates the model predicted the true word token with a greater probability than the false token(s). The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
+The above results compare the percentage of factual statements that the language model completed correctly. A correct fact completion indicates the given model predicted the true word token with a greater probability than the false token(s). The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
 
 ## Authors
 
