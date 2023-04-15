@@ -40,7 +40,7 @@ Table 2: **English** results.
 | [gpt2-xl](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | Radford et al., 2018 | **73.76** +/- 0.54 | 
 | [m-bert-base](https://arxiv.org/abs/1810.04805) | Devlin et al., 2018 | **71.80** +/- 0.55 | 
 | [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | Conneau et al., 2019 | **61.55** +/- 0.59 | 
-| Random guessing | N/A | **50**   |  
+| Random guessing | N/A | 50   |  
 
 Figure 1: **LLaMa** results. 
 
