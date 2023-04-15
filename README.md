@@ -4,7 +4,7 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
 
-This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models](https://bit.ly/ischool-berkeley-capstone). It contains several research artifacts including:
+This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models](https://bit.ly/ischool-berkeley-capstone). It contains several research artifacts, including:
 
 1. The main [**code**][cka_run_main] for running the "Polyglot or Not?" fact-completion benchmark
 2. The [**data**][hf_data] used for the fact-completion benchmark, which contains 20 languages
@@ -12,16 +12,16 @@ This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedi
 
 ## Test Leaderboards
 
-To add a new model to the "Polyglot or Not?" benchmark leaderboard, please reach out to us or submit a pull request.
+To add a new model to the leaderboard, please reach out to us or submit a pull request.
 
 Table 1: **Multilingual** results.
 
-| Language            |  20 Language Average (%)       |
-|------------------|:--------------:|
-| [llama-30b](https://arxiv.org/abs/2302.13971) | (forthcoming) | 
-| [bloom-7b1](https://arxiv.org/abs/2211.05100) | (forthcoming) | 
-| [m-bert-base](https://arxiv.org/abs/1810.04805) | (forthcoming) | 
-| [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | (forthcoming) | 
+| Language            | Authors     |  20 Language Average (%)       |
+|------------------|--------------|:--------------:|
+| [llama-30b](https://arxiv.org/abs/2302.13971) | Touvron et al., 2023 | (forthcoming) | 
+| [bloom-7b1](https://arxiv.org/abs/2211.05100) | Scao et al., 2022 | (forthcoming) | 
+| [m-bert-base](https://arxiv.org/abs/1810.04805) | Devlin et al., 2018 | (forthcoming) | 
+| [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | Conneau et al., 2019 | (forthcoming) | 
 | Random guessing | 50 | 
 
 Table 2: **English** results.
@@ -42,7 +42,7 @@ Figure 1: **LLaMa** results.
 
 Figure: (forthcoming)
 
-The values above represent the percentage of fact completions that the model predicted correctly. A correct fact completion indicates that the model predicted the true token with a greater probability than the false token(s). The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
+The test results represent the percentage of fact completions the model predicted correctly. A correct fact completion indicates the model predicted the true token with a greater probability than the false token(s). The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
 
 
 ## Data Release
