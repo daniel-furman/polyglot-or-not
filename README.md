@@ -22,7 +22,7 @@ Table 1: **Multilingual** results.
 | [bloom-7b1](https://arxiv.org/abs/2211.05100) | Scao et al., 2022 | (forthcoming) | 
 | [m-bert-base](https://arxiv.org/abs/1810.04805) | Devlin et al., 2018 | (forthcoming) | 
 | [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | Conneau et al., 2019 | (forthcoming) | 
-| Random guessing | 50 | 
+| Random guessing | N/A | 50 | 
 
 Table 2: **English** results.
 
