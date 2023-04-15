@@ -6,15 +6,25 @@
 
 This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models](https://bit.ly/ischool-berkeley-capstone). It contains several research artifacts including:
 
-1. The main [**code**][cka_run_main] for running the fact-completion benchmark with a compatible language model
+1. The main [**code**][cka_run_main] for running the "Polyglot or Not?" fact-completion benchmark
 2. The [**data**][hf_data] used for the fact-completion benchmark, which contains 20 languages
 3. A lightweight [**demo**][cka_lightweight_demo] for running fact-completion tests via contrastive knowledge assessment
 
 ## Test Leaderboards
 
-To add a new model to the leaderboard, please reach out to us or submit a pull request.
+To add a new model to the "Polyglot or Not?" benchmark leaderboard, please reach out to us or submit a pull request.
 
-**English** results: 
+Table 1: **Multilingual** results.
+
+| Language            |  20 Language Average (%)       |
+|------------------|:--------------:|
+| [llama-30b](https://arxiv.org/abs/2302.13971) | (forthcoming) | 
+| [bloom-7b1](https://arxiv.org/abs/2211.05100) | (forthcoming) | 
+| [m-bert-base](https://arxiv.org/abs/1810.04805) | (forthcoming) | 
+| [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | (forthcoming) | 
+| Random guessing | 50 | 
+
+Table 2: **English** results.
 
 | Model            | Authors      | English (%)      |
 |------------------|--------------|:--------------:|
@@ -28,31 +38,16 @@ To add a new model to the leaderboard, please reach out to us or submit a pull r
 | [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | Conneau et al., 2019 | 61.55 +/- 0.59 | 
 | Random guessing | N/A | 50   |  
 
-**Multilingual** results: 
+Figure 1: **LLaMa** results. 
 
-| Language            | [llama-30b](https://arxiv.org/abs/2302.13971) (%)       |
-|------------------|:--------------:|
-| English | 89.40 +/- 0.38 | 
-| German | 85.74 +/- 0.54 | 
-| Dutch | 85.35 +/- 0.46 | 
-| Italian | 84.39 +/- 0.50 | 
-| French | 84.18  +/- 0.53 |
-| Portuguese | 83.81  +/- 0.48 | 
-| Danish | 81.79  +/- 0.49 | 
-| Spanish | 81.74 +/- 0.54 | 
-| Polish | 77.50 +/- 0.83 | 
-| Croatian | 76.69 +/- 0.97 | 
-| Slovenian | 75.99 +/- 0.96 | 
-| Ukrainian | 73.00 +/- 0.97 | 
-| Bulgarian | 72.50 +/- 0.61 | 
-| Russian | 69.72 +/- 1.58 | 
-| Random guessing | 50 | 
+Figure: (forthcoming)
 
-Notes on above: The values represent the percentage of fact completions the model predicted correctly. A correct fact completion indicates that the model predicted the true token with a greater probability than the false token(s). The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
+The values above represent the percentage of fact completions that the model predicted correctly. A correct fact completion indicates that the model predicted the true token with a greater probability than the false token(s). The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
+
 
 ## Data Release
 
-Cite calinet [[1][bib]], memit [[2][bib]], and t-rex [[3][bib]] papers.
+[`Fact-Completion.parquet`][hf_data] contains 303k fact-completion examples used for the "Polyglot or Not?" benchmark. The dataset includes 20 languages overall, which use either Latin or Cyrillic scripts. We sourced the English cut of the dataset from [[1][bib]] and [[2][bib]] and then used Google Translate to produce the other language cuts. 
 
 ## Authors
 
