@@ -6,8 +6,8 @@
 
 This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models](https://bit.ly/ischool-berkeley-capstone). It contains several research artifacts, including:
 
-1. The main [**code**][cka_run_main] for running the "Polyglot or Not?" fact-completion benchmark
-2. The [**data**][hf_data] used for the fact-completion benchmark, which contains 20 languages
+1. The main [**code**][cka_run_main] for running the "Polyglot or Not?" fact-completion test
+2. The [**data**][hf_data] used for the test, which contains 20 languages
 3. A lightweight [**demo**][cka_lightweight_demo] for running fact-completion tests via contrastive knowledge assessment
 
 ## Test Leaderboards
@@ -47,7 +47,7 @@ The test results represent the percentage of fact completions each model predict
 
 ## Data Release
 
-[`Fact-Completion.parquet`][hf_data] contains 303k fact-completion examples used for the "Polyglot or Not?" benchmark. The dataset includes 20 languages overall, which use either Latin or Cyrillic scripts. We sourced the English cut of the dataset from [[1][bib]] and [[2][bib]] and then used Google Translate to produce the other language cuts. 
+[`Fact-Completion.parquet`][hf_data] contains 303k fact-completions used for the "Polyglot or Not?" test. The dataset includes 20 languages overall, which use either the Latin or Cyrillic scripts. We sourced the English cut of the dataset from [[1][bib]] and [[2][bib]] and used Google Translate to produce the other language cuts. 
 
 ## Authors
 
