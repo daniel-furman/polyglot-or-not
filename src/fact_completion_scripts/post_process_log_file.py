@@ -20,7 +20,6 @@ def post_process(args):
     num_resamples = args.num_resamples
     save_results = args.save_results
 
-    # change input filename to the path to the log to be processed
     input_filename = f"../../data/result_logs/{filename}"
     print(f"Running post-processing for {input_filename}...")
 

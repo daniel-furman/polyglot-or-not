@@ -1247,7 +1247,7 @@ def main(args):
             "German": "../../data/ingested_data/translated_versions/de-fact-completion-4-7-23.parquet",
             "Italian": "../../data/ingested_data/translated_versions/it-fact-completion-4-9-23.parquet",
             "Ukrainian": "../../data/ingested_data/translated_versions/uk-fact-completion-4-9-23.parquet",
-            "Polish": "../../data/ingested_data/translated_versions/pl-fact-completion-4-12-23.parquet",            
+            "Polish": "../../data/ingested_data/translated_versions/pl-fact-completion-4-12-23.parquet",
             "Romanian": "../../data/ingested_data/translated_versions/ro-fact-completion-4-5-23.parquet",
             "Czech": "../../data/ingested_data/translated_versions/cs-fact-completion-4-10-23.parquet",
             "Bulgarian": "../../data/ingested_data/translated_versions/bg-fact-completion-4-10-23.parquet",
