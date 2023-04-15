@@ -10,6 +10,10 @@ This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedi
 2. The [**data**][hf_data] used for the test, which contains 20 languages
 3. A lightweight [**demo**][cka_lightweight_demo] for running fact-completion tests via contrastive knowledge assessment
 
+## Data Release
+
+[`Fact-Completion.parquet`][hf_data] contains **303k** fact-completions used for the "Polyglot or Not?" test. The dataset includes **20 languages** overall, which use either the Latin or Cyrillic scripts. We sourced the English cut of the dataset from [[1][bib]] and [[2][bib]] and used the Google Translate API to produce the other 19 language cuts. 
+
 ## Test Leaderboards
 
 To add a new model to the leaderboard, please reach out to us or submit a pull request.
@@ -28,26 +32,21 @@ Table 2: **English** results.
 
 | Model            | Authors      | English (%)      |
 |------------------|--------------|:--------------:|
-| [llama-30b](https://arxiv.org/abs/2302.13971) | Touvron et al., 2023 | 89.40 +/- 0.38 | 
-| [gpt-neox-20b](https://arxiv.org/abs/2204.06745) | Black et al., 2022 | 81.50 +/- 0.47 |
-| [gpt-j-6b](https://github.com/kingoflolz/mesh-transformer-jax/#gpt-j-6b) | Wang et al., 2021 | 81.14 +/- 0.47 |
-| [flan-t5-xxl](https://arxiv.org/abs/2210.11416) | Chung et al., 2022 | 78.17 +/- 0.51 | 
-| [bloom-7b1](https://arxiv.org/abs/2211.05100) | Scao et al., 2022 | 76.16 +/- 0.51 | 
-| [gpt2-xl](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | Radford et al., 2018 | 73.76 +/- 0.54 | 
-| [m-bert-base](https://arxiv.org/abs/1810.04805) | Devlin et al., 2018 | 71.80 +/- 0.55 | 
-| [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | Conneau et al., 2019 | 61.55 +/- 0.59 | 
-| Random guessing | N/A | 50   |  
+| [llama-30b](https://arxiv.org/abs/2302.13971) | Touvron et al., 2023 | **89.40** +/- 0.38 | 
+| [gpt-neox-20b](https://arxiv.org/abs/2204.06745) | Black et al., 2022 | **81.50** +/- 0.47 |
+| [gpt-j-6b](https://github.com/kingoflolz/mesh-transformer-jax/#gpt-j-6b) | Wang et al., 2021 | **81.14** +/- 0.47 |
+| [flan-t5-xxl](https://arxiv.org/abs/2210.11416) | Chung et al., 2022 | **78.17** +/- 0.51 | 
+| [bloom-7b1](https://arxiv.org/abs/2211.05100) | Scao et al., 2022 | **76.16** +/- 0.51 | 
+| [gpt2-xl](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | Radford et al., 2018 | **73.76** +/- 0.54 | 
+| [m-bert-base](https://arxiv.org/abs/1810.04805) | Devlin et al., 2018 | **71.80** +/- 0.55 | 
+| [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | Conneau et al., 2019 | **61.55** +/- 0.59 | 
+| Random guessing | N/A | **50**   |  
 
 Figure 1: **LLaMa** results. 
 
 Figure: (forthcoming)
 
-The test results represent the percentage of fact completions each model predicted correctly. A correct fact completion indicates the model predicted the true token with a greater probability than the false token(s). The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
-
-
-## Data Release
-
-[`Fact-Completion.parquet`][hf_data] contains 303k fact-completions used for the "Polyglot or Not?" test. The dataset includes 20 languages overall, which use either the Latin or Cyrillic scripts. We sourced the English cut of the dataset from [[1][bib]] and [[2][bib]] and used Google Translate to produce the other language cuts. 
+The above results compare the percentage of factual statements that each model completed correctly. A correct fact completion indicates the model predicted the true word token with a greater probability than the false token(s). The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
 
 ## Authors
 
