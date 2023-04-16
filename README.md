@@ -18,8 +18,6 @@ This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedi
 
 To add a new model to the leaderboard, please reach out to us or submit a pull request.
 
-Table 1: **Multilingual** results.
-
 | Language            | Authors     |  20 Language Average (%)       |
 |------------------|--------------|:--------------:|
 | [llama-30b](https://arxiv.org/abs/2302.13971) | Touvron et al., 2023 | **79.31** +/- 0.74| 
@@ -28,7 +26,7 @@ Table 1: **Multilingual** results.
 | [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | Conneau et al., 2019 | (forthcoming) | 
 | Random guessing | N/A | 50 | 
 
-Table 2: **English** results.
+Table 1: **Multilingual** results.
 
 | Model            | Authors      | English (%)      |
 |------------------|--------------|:--------------:|
@@ -42,9 +40,11 @@ Table 2: **English** results.
 | [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | Conneau et al., 2019 | **61.55** +/- 0.59 | 
 | Random guessing | N/A | 50   |  
 
-Figure 1: **LLaMa** results. 
+Table 2: **English** results.
 
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_annotated.png)
+
+Figure 1: **LLaMa** results. 
 
 
 The above results compare the percentage of factual statements that the language model completed correctly. A correct fact completion indicates the given model predicted the true word token with a greater probability than the false token(s). The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
