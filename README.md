@@ -42,7 +42,7 @@ Table 1: **Multilingual** results.
 
 Table 2: **English** results.
 
-![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_annotated.png)
+![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_annotated_final.png)
 
 Figure 1: **LLaMa** results. 
 

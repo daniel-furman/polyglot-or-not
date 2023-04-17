@@ -2,7 +2,7 @@
 Process fact-completion logs to generate bootstrap estimates and error analysis data
 
 Example usage:
-python post_process_logs.py \
+python post_process_logs_folder.py \
     --folder /Users/danielfurman/Desktop/tmp_logs
 """
 
