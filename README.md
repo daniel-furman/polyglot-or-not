@@ -1,4 +1,4 @@
-  # Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models
+# Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://github.com/daniel-furman/Capstone/blob/main/LICENSE) 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
@@ -9,6 +9,10 @@ This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedi
 1. The main [**code**][cka_run_main] for running the "Polyglot or Not?" fact-completion test
 2. The [**data**][hf_data] used for the test, which contains 20 languages
 3. A lightweight [**demo**][cka_lightweight_demo] for running fact-completion tests via contrastive knowledge assessment
+
+## Abstract
+
+Can foundation language models be used as multilingual knowledge bases? We propose a new test to measure a text model’s fact completion accuracy across different languages. To attain high accuracy on this test, models must possess extensive encyclopedic knowledge across a wide range of topics. Our experiments uncover important differences in the accuracy of various foundation models when working with translated counterfactuals. Ultimately, we find that the promise of utilizing foundation language models as bonafide polyglots is greatly diminished when they are tasked with retrieving information in languages other than English. 
 
 ## Data Release
 
