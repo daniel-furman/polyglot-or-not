@@ -14,6 +14,17 @@ This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedi
 
 Can foundation language models be used as multilingual knowledge bases? We propose a new test to measure a text model’s fact completion accuracy across different languages. To attain high accuracy on this test, models must possess extensive encyclopedic knowledge across a wide range of topics. Our experiments uncover important differences in the accuracy of various foundation models when working with translated counterfactuals. Ultimately, we find that the promise of utilizing foundation language models as bonafide polyglots is greatly diminished when they are tasked with retrieving information in languages other than English. 
 
+## Test Description
+
+Given a factual association such as "The capital of France is Paris", we determine whether a model adequately "knows" this information with the following test:
+
+1. prompt the model to predict the likelihood of the token "Paris" following "The Capital of France is".
+2. prompt the model to predict the average likelihood of a set of false, counterfactual tokens following the same stem.
+
+If the value from **1.** is greater than the value from **2.** we can conclude that model adequately recalls that fact as set out in [[1][bib]]. 
+
+We test a model's ability to carry this out on facts translated into 20 languages. In total, for every foundation model of interest, we score its performance on 303k fact-completions.
+
 ## Data Release
 
 [`Fact-Completion.parquet`][hf_data] contains 303k fact-completions used for the "Polyglot or Not?" test. The dataset includes 20 languages based in Latin or Cyrillic script. We sourced the English cut of the dataset from [[1][bib]] and [[2][bib]] and used the Google Translate API to produce the other 19 language cuts.
