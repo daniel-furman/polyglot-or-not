@@ -18,21 +18,15 @@ Can foundation language models be used as multilingual knowledge bases? We propo
 
 Given a factual association such as *The capital of France is **Paris***, we determine whether a model adequately "knows" this information with the following test:
 
-**1** prompt the model to predict the likelihood of the token **Paris** following *The Capital of France is*
+* Step **1**: prompt the model to predict the likelihood of the token **Paris** following *The Capital of France is*
 
-**2** prompt the model to predict the average likelihood of a set of false, counterfactual tokens following the same stem.
+* Step **2**: prompt the model to predict the average likelihood of a set of false, counterfactual tokens following the same stem.
 
 If the value from **1** is greater than the value from **2** we conclude that model adequately recalls that fact. Formally, this is an application of the Contrastive Knowledge Assessment proposed in [[1][bib]]. 
 
-We test a model's ability to carry this out on a set of facts translated into 20 languages.
+For every foundation model of interest (like [LLaMA](https://arxiv.org/abs/2302.13971)), we perform this assessment on a set of facts translated into 20 languages. All told, we score foundation models on 303k fact-completions ([results](https://github.com/daniel-furman/capstone#multilingual-fact-completion-results)). 
 
-For every foundation model of interest (like [LLaMA](https://arxiv.org/abs/2302.13971)), this entails rating performance on 303k fact-completions (#Table 1). 
-
-We also score monolingual models (like [GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)) on English-only fact-completion (#Table 2).
-
-## Data Release
-
-[`Fact-Completion.parquet`][hf_data] contains 303k fact-completions used for the "Polyglot or Not?" test. The dataset includes 20 languages based in Latin or Cyrillic script. We sourced the English cut of the dataset from [[1][bib]] and [[2][bib]] and used the Google Translate API to produce the other 19 language cuts.
+We also score monolingual models (like [GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)) on English-only fact-completion ([results](https://github.com/daniel-furman/capstone#english-fact-completion-results)).
 
 ## Test Results
 
@@ -69,6 +63,10 @@ We also score monolingual models (like [GPT-2](https://d4mucfpksywv.cloudfront.n
 ### Full **LLaMa** results across all 20 languages. 
 
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
+
+## Data Release
+
+[`Fact-Completion.parquet`][hf_data] contains 303k fact-completions used for the "Polyglot or Not?" test. The dataset includes 20 languages based in Latin or Cyrillic script. We sourced the English cut of the dataset from [[1][bib]] and [[2][bib]] and used the Google Translate API to produce the other 19 language cuts.
 
 ## Authors
 
