@@ -62,7 +62,7 @@ We also score monolingual models (like [GPT-2](https://d4mucfpksywv.cloudfront.n
 
 ### Full **LLaMa** results across all 20 languages. 
 
-![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
+![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final_annotated.png)
 
 ## Data Release
 
