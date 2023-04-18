@@ -1,0 +1,148 @@
+Running post-processing for ../../data/result_logs/bloom...
+
+	The model name is bigscience/bloom-7b1
+	The language is italian
+	There are 20448 stem/fact pairs in the log
+	The model got 63.38% of facts correct
+	The 95% uncertainty estimate is +/- 0.663%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is bulgarian
+	There are 20577 stem/fact pairs in the log
+	The model got 48.88% of facts correct
+	The 95% uncertainty estimate is +/- 0.68%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is swedish
+	There are 21576 stem/fact pairs in the log
+	The model got 57.207% of facts correct
+	The 95% uncertainty estimate is +/- 0.656%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is slovenian
+	There are 7873 stem/fact pairs in the log
+	The model got 47.745% of facts correct
+	The 95% uncertainty estimate is +/- 1.099%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is ukrainian
+	There are 7918 stem/fact pairs in the log
+	The model got 50.152% of facts correct
+	The 95% uncertainty estimate is +/- 1.111%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is french
+	There are 18395 stem/fact pairs in the log
+	The model got 72.351% of facts correct
+	The 95% uncertainty estimate is +/- 0.65%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is hungarian
+	There are 4650 stem/fact pairs in the log
+	The model got 48.753% of facts correct
+	The 95% uncertainty estimate is +/- 1.462%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is german
+	There are 16287 stem/fact pairs in the log
+	The model got 63.517% of facts correct
+	The 95% uncertainty estimate is +/- 0.725%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is german
+	There are 16287 stem/fact pairs in the log
+	The model got 63.677% of facts correct
+	The 95% uncertainty estimate is +/- 0.74%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is croatian
+	There are 7358 stem/fact pairs in the log
+	The model got 49.239% of facts correct
+	The 95% uncertainty estimate is +/- 1.155%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is catalan
+	There are 18898 stem/fact pairs in the log
+	The model got 70.806% of facts correct
+	The 95% uncertainty estimate is +/- 0.646%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is serbian
+	There are 5426 stem/fact pairs in the log
+	The model got 45.724% of facts correct
+	The 95% uncertainty estimate is +/- 1.318%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is russian
+	There are 3289 stem/fact pairs in the log
+	The model got 53.268% of facts correct
+	The 95% uncertainty estimate is +/- 1.703%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is english
+	There are 26254 stem/fact pairs in the log
+	The model got 76.16% of facts correct
+	The 95% uncertainty estimate is +/- 0.514%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is czech
+	There are 9427 stem/fact pairs in the log
+	The model got 50.133% of facts correct
+	The 95% uncertainty estimate is +/- 1.013%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is danish
+	There are 23365 stem/fact pairs in the log
+	The model got 55.66% of facts correct
+	The 95% uncertainty estimate is +/- 0.642%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is portuguese
+	There are 22974 stem/fact pairs in the log
+	The model got 71.881% of facts correct
+	The 95% uncertainty estimate is +/- 0.581%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is romanian
+	There are 17568 stem/fact pairs in the log
+	The model got 52.567% of facts correct
+	The 95% uncertainty estimate is +/- 0.743%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is spanish
+	There are 18786 stem/fact pairs in the log
+	The model got 69.232% of facts correct
+	The 95% uncertainty estimate is +/- 0.655%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is polish
+	There are 9484 stem/fact pairs in the log
+	The model got 49.167% of facts correct
+	The 95% uncertainty estimate is +/- 1.002%
+
+
+	The model name is bigscience/bloom-7b1
+	The language is dutch
+	There are 22590 stem/fact pairs in the log
+	The model got 58.101% of facts correct
+	The 95% uncertainty estimate is +/- 0.651%
+

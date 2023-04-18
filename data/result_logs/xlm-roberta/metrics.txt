@@ -1,0 +1,141 @@
+Running post-processing for ../../data/result_logs/xlm-roberta...
+
+	The model name is xlm-roberta-large
+	The language is dutch
+	There are 22590 stem/fact pairs in the log
+	The model got 57.494% of facts correct
+	The 95% uncertainty estimate is +/- 0.657%
+
+
+	The model name is xlm-roberta-large
+	The language is catalan
+	There are 18898 stem/fact pairs in the log
+	The model got 54.916% of facts correct
+	The 95% uncertainty estimate is +/- 0.701%
+
+
+	The model name is xlm-roberta-large
+	The language is czech
+	There are 9427 stem/fact pairs in the log
+	The model got 55.67% of facts correct
+	The 95% uncertainty estimate is +/- 0.997%
+
+
+	The model name is xlm-roberta-large
+	The language is croatian
+	There are 7358 stem/fact pairs in the log
+	The model got 56.782% of facts correct
+	The 95% uncertainty estimate is +/- 1.128%
+
+
+	The model name is xlm-roberta-large
+	The language is polish
+	There are 9484 stem/fact pairs in the log
+	The model got 55.894% of facts correct
+	The 95% uncertainty estimate is +/- 1.007%
+
+
+	The model name is xlm-roberta-large
+	The language is serbian
+	There are 5426 stem/fact pairs in the log
+	The model got 48.71% of facts correct
+	The 95% uncertainty estimate is +/- 1.327%
+
+
+	The model name is xlm-roberta-large
+	The language is italian
+	There are 20448 stem/fact pairs in the log
+	The model got 56.592% of facts correct
+	The 95% uncertainty estimate is +/- 0.68%
+
+
+	The model name is xlm-roberta-large
+	The language is swedish
+	There are 21576 stem/fact pairs in the log
+	The model got 59.664% of facts correct
+	The 95% uncertainty estimate is +/- 0.647%
+
+
+	The model name is xlm-roberta-large
+	The language is german
+	There are 16287 stem/fact pairs in the log
+	The model got 59.194% of facts correct
+	The 95% uncertainty estimate is +/- 0.749%
+
+
+	The model name is xlm-roberta-large
+	The language is bulgarian
+	There are 20577 stem/fact pairs in the log
+	The model got 55.076% of facts correct
+	The 95% uncertainty estimate is +/- 0.683%
+
+
+	The model name is xlm-roberta-large
+	The language is spanish
+	There are 18786 stem/fact pairs in the log
+	The model got 53.045% of facts correct
+	The 95% uncertainty estimate is +/- 0.711%
+
+
+	The model name is xlm-roberta-large
+	The language is hungarian
+	There are 4650 stem/fact pairs in the log
+	The model got 55.462% of facts correct
+	The 95% uncertainty estimate is +/- 1.419%
+
+
+	The model name is xlm-roberta-large
+	The language is russian
+	There are 3289 stem/fact pairs in the log
+	The model got 54.393% of facts correct
+	The 95% uncertainty estimate is +/- 1.687%
+
+
+	The model name is xlm-roberta-large
+	The language is ukrainian
+	There are 7918 stem/fact pairs in the log
+	The model got 53.764% of facts correct
+	The 95% uncertainty estimate is +/- 1.111%
+
+
+	The model name is xlm-roberta-large
+	The language is french
+	There are 18395 stem/fact pairs in the log
+	The model got 54.754% of facts correct
+	The 95% uncertainty estimate is +/- 0.734%
+
+
+	The model name is xlm-roberta-large
+	The language is english
+	There are 26254 stem/fact pairs in the log
+	The model got 61.553% of facts correct
+	The 95% uncertainty estimate is +/- 0.59%
+
+
+	The model name is xlm-roberta-large
+	The language is romanian
+	There are 17568 stem/fact pairs in the log
+	The model got 57.622% of facts correct
+	The 95% uncertainty estimate is +/- 0.731%
+
+
+	The model name is xlm-roberta-large
+	The language is slovenian
+	There are 7873 stem/fact pairs in the log
+	The model got 54.211% of facts correct
+	The 95% uncertainty estimate is +/- 1.092%
+
+
+	The model name is xlm-roberta-large
+	The language is danish
+	There are 23365 stem/fact pairs in the log
+	The model got 61.019% of facts correct
+	The 95% uncertainty estimate is +/- 0.631%
+
+
+	The model name is xlm-roberta-large
+	The language is portuguese
+	There are 22974 stem/fact pairs in the log
+	The model got 54.784% of facts correct
+	The 95% uncertainty estimate is +/- 0.642%
+

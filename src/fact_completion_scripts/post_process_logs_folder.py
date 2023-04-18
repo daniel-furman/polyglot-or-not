@@ -14,72 +14,79 @@ import pandas as pd
 from argparse import ArgumentParser
 import glob
 import os
+import sys
 
 
 def post_process(args):
     num_resamples = args.num_resamples
     input_folder = args.folder
-    print(f"Running post-processing for {input_folder}...")
-    fpaths = glob.glob(os.path.join(input_folder, "*.json"))
-    for fpath in fpaths:
-        with open(fpath, "r") as f:
-            data = json.load(f)
 
-        model_name = data["model_name"][0]
-        print(f"\n\tThe model name is {model_name}")
-        print(
-            f"\tThe language is {supported_languages[fpath.split('/')[-1].split('-')[0]]}"
-        )
+    # Open a file for writing
+    with open(os.path.join(input_folder,'metrics.txt'), 'w') as f:
+        # Redirect stdout to the file
+        sys.stdout = f
 
-        false_facts_itrs = []
-        false_facts_list = []
-        true_facts_itrs = []
+        print(f"Running post-processing for {input_folder}...")
+        fpaths = glob.glob(os.path.join(input_folder, "*.json"))
+        for fpath in fpaths:
+            with open(fpath, "r") as f:
+                data = json.load(f)
 
-        false_facts = {}
-        false_facts["model"] = []
-        false_facts["dataset_id"] = []
-        false_facts["differences"] = []
-        false_facts["facts"] = []
-        false_facts["resolution"] = []
+            model_name = data["model_name"][0]
+            print(f"\n\tThe model name is {model_name}")
+            print(
+                f"\tThe language is {supported_languages[fpath.split('/')[-1].split('-')[0]]}"
+            )
 
-        for itr, fact in enumerate(data["score_dict_full"][model_name.lower()]):
-            if fact["p_true > p_false_average"] != "True":
-                false_facts_itrs.append(itr)
-                false_facts_list.append(
-                    [fact["stem"], [fact["fact"], fact["counterfact"]]]
-                )
-                false_facts["differences"].append(
-                    fact["p_true"] - fact["p_false_average"]
-                )
-                false_facts["facts"].append(
-                    f"{fact['stem']} [ true: {fact['fact']}; false: {fact['counterfact']} ]"
-                )
-                false_facts["model"].append(model_name)
-                false_facts["dataset_id"].append(fact["dataset_id"])
-                false_facts["resolution"].append("to do")
+            false_facts_itrs = []
+            false_facts_list = []
+            true_facts_itrs = []
 
-            elif fact["p_true > p_false_average"] == "True":
-                true_facts_itrs.append(itr)
-        # make a results list compatible with the bootstrap:
+            false_facts = {}
+            false_facts["model"] = []
+            false_facts["dataset_id"] = []
+            false_facts["differences"] = []
+            false_facts["facts"] = []
+            false_facts["resolution"] = []
 
-        results_false = [0] * len(false_facts_itrs)
-        results_true = [1] * len(true_facts_itrs)
-        results = results_false + results_true
-        # should be ~33k
-        print(f"\tThere are {len(results)} stem/fact pairs in the log")
-        print(
-            f"\tThe model got {np.round(100 * np.sum(results) / len(results), decimals=3)}% of facts correct"
-        )
+            for itr, fact in enumerate(data["score_dict_full"][model_name.lower()]):
+                if fact["p_true > p_false_average"] != "True":
+                    false_facts_itrs.append(itr)
+                    false_facts_list.append(
+                        [fact["stem"], [fact["fact"], fact["counterfact"]]]
+                    )
+                    false_facts["differences"].append(
+                        fact["p_true"] - fact["p_false_average"]
+                    )
+                    false_facts["facts"].append(
+                        f"{fact['stem']} [ true: {fact['fact']}; false: {fact['counterfact']} ]"
+                    )
+                    false_facts["model"].append(model_name)
+                    false_facts["dataset_id"].append(fact["dataset_id"])
+                    false_facts["resolution"].append("to do")
 
-        # create bootstrap estimates from logs
-        # calculate percentage with this to check
+                elif fact["p_true > p_false_average"] == "True":
+                    true_facts_itrs.append(itr)
+            # make a results list compatible with the bootstrap:
 
-        bootstrap_results = bootstrap(results, B=num_resamples)
+            results_false = [0] * len(false_facts_itrs)
+            results_true = [1] * len(true_facts_itrs)
+            results = results_false + results_true
+            # should be ~33k
+            print(f"\tThere are {len(results)} stem/fact pairs in the log")
+            print(
+                f"\tThe model got {np.round(100 * np.sum(results) / len(results), decimals=3)}% of facts correct"
+            )
 
-        print(
-            f"\tThe 95% uncertainty estimate is +/- {np.round(100 * bootstrap_results[0], decimals=3)}%\n"
-        )
+            # create bootstrap estimates from logs
+            # calculate percentage with this to check
 
+            bootstrap_results = bootstrap(results, B=num_resamples)
+
+            print(
+                f"\tThe 95% uncertainty estimate is +/- {np.round(100 * bootstrap_results[0], decimals=3)}%\n"
+            )
+    sys.stdout = sys.__stdout__
 
 def bootstrap(results: List[int], B: int = 10000, confidence_level: int = 0.95) -> int:
     """
