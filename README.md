@@ -26,7 +26,7 @@ Can foundation language models be used as multilingual knowledge bases? We propo
 
 ## Test Results
 
-**NB**: The bolded values indicate the overall percentage of fact completions adequately recalled by the model. The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap sampling iterations.
+**NB**: The bolded values indicate the overall percentage of fact completions adequately recalled by the model. The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
 
 ### **Multilingual** fact-completion results.
 
