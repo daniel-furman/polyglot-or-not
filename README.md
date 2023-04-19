@@ -50,7 +50,7 @@ We also score monolingual models (like [GPT-2](https://d4mucfpksywv.cloudfront.n
 
 &nbsp;
 
-### **English**-only fact-completion results.
+### **English** fact-completion results.
 
 | Model            | Authors      | English      |
 |------------------|--------------|:--------------:|
