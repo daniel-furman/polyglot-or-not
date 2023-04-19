@@ -16,19 +16,17 @@ Can foundation language models be used as multilingual knowledge bases? We propo
 
 ## Test Description
 
-Given a factual association such as *The capital of France is **Paris***, we determine whether a model adequately "knows" this information with the following test:
-
-* Step **1**: prompt the model to predict the likelihood of the token **Paris** following *The Capital of France is*
-
-* Step **2**: prompt the model to predict the average likelihood of a set of false, counterfactual tokens following the same stem.
-
-If the value from **1** is greater than the value from **2** we conclude that model adequately recalls that fact. Formally, this is an application of the Contrastive Knowledge Assessment proposed in [[1][bib]]. 
-
-For every foundation model of interest (like [LLaMA](https://arxiv.org/abs/2302.13971)), we perform this assessment on a set of facts translated into 20 languages. All told, we score foundation models on 303k fact-completions ([results](https://github.com/daniel-furman/capstone#multilingual-fact-completion-results)). 
-
-We also score monolingual models (like [GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)) on English-only fact-completion ([results](https://github.com/daniel-furman/capstone#english-fact-completion-results)).
+ Given a factual association such as *The capital of France is **Paris***, we determine whether a model adequately "knows" this information with the following test:
+ 
+ * Step **1**: prompt the model to predict the likelihood of the token **Paris** following *The Capital of France is*
+ 
+ * Step **2**: prompt the model to predict the average likelihood of a set of false, counterfactual tokens following the same stem.
+ 
+ If the value from **1** is greater than the value from **2** we conclude that model adequately recalls that fact. Formally, this is an application of the Contrastive Knowledge Assessment proposed in [[1][bib]]. For every foundation model of interest (like [LLaMA](https://arxiv.org/abs/2302.13971)), we perform this assessment on a set of facts translated into 20 languages. All told, we score foundation models on 303k fact-completions ([results](https://github.com/daniel-furman/capstone#multilingual-fact-completion-results)). We also score monolingual models (like [GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)) on English-only fact-completion ([results](https://github.com/daniel-furman/capstone#english-fact-completion-results)).
 
 ## Test Results
+
+**NB**: The uncertainty estimates (+/-) below represent 95% confidence intervals computed from 10000 bootstrap sampling iterations.
 
 ### **Multilingual** fact-completion results.
 
@@ -39,12 +37,6 @@ We also score monolingual models (like [GPT-2](https://d4mucfpksywv.cloudfront.n
 | [bloom-7b1](https://arxiv.org/abs/2211.05100) | Scao et al., 2022 | **57.70** +/- 0.88 | 
 | [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | Conneau et al., 2019 | **56.03** +/- 0.90 | 
 | Random Baseline | &nbsp; | 50 |
-
-&nbsp;
-
-### **LLaMa** fact-completion results across all 20 languages. 
-
-![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
 &nbsp;
 
@@ -64,7 +56,9 @@ We also score monolingual models (like [GPT-2](https://d4mucfpksywv.cloudfront.n
 
 &nbsp;
 
-* **NB**: The uncertainty estimates (+/-) above represent 95% confidence intervals computed from 10000 bootstrap sampling iterations.
+### **LLaMa** fact-completion results across all 20 languages. 
+
+![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
 &nbsp;
 

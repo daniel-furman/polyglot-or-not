@@ -22,7 +22,7 @@ def post_process(args):
     input_folder = args.folder
 
     # Open a file for writing
-    with open(os.path.join(input_folder,'metrics.txt'), 'w') as f:
+    with open(os.path.join(input_folder, "metrics.txt"), "w") as f:
         # Redirect stdout to the file
         sys.stdout = f
 
@@ -87,6 +87,7 @@ def post_process(args):
                 f"\tThe 95% uncertainty estimate is +/- {np.round(100 * bootstrap_results[0], decimals=3)}%\n"
             )
     sys.stdout = sys.__stdout__
+
 
 def bootstrap(results: List[int], B: int = 10000, confidence_level: int = 0.95) -> int:
     """
