@@ -42,8 +42,6 @@ We also score monolingual models (like [GPT-2](https://d4mucfpksywv.cloudfront.n
 
 &nbsp;
 
-* **NB**: The uncertainty estimates (+/-) throughout represent 95% confidence intervals computed from 10000 bootstrap sampling iterations.
-
 ### **LLaMa** fact-completion results across all 20 languages. 
 
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
@@ -63,6 +61,13 @@ We also score monolingual models (like [GPT-2](https://d4mucfpksywv.cloudfront.n
 | [m-bert-base](https://arxiv.org/abs/1810.04805) | Devlin et al., 2018 | **71.80** +/- 0.55 | 
 | [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | Conneau et al., 2019 | **61.55** +/- 0.59 | 
 | Random Baseline | &nbsp; | 50   |  
+
+&nbsp;
+
+* **NB**: The uncertainty estimates (+/-) above represent 95% confidence intervals computed from 10000 bootstrap sampling iterations.
+
+&nbsp;
+
 
 ## Data Release
 
