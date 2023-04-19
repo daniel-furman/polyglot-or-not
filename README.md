@@ -8,7 +8,7 @@ This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedi
 
 1. The main [code][cka_run_main] for running the fact-completion test
 2. The [data][hf_data] used for the test, which contains 20 languages
-3. A lightweight [demo][cka_lightweight_demo] for running tests with contrastive knowledge assessment
+3. A lightweight [demo][cka_lightweight_demo] for contrastive knowledge assessment
 
 ## Abstract
 
@@ -16,7 +16,7 @@ Can foundation language models be used as multilingual knowledge bases? We propo
 
 ## Data Release
 
-We present [`CalibraGPT/Fact-Completion.parquet`][hf_data]---a fact completion dataset covering 20 languages with 303k fact-counterfact pairs. The dataset's languages use either the Latin or Cyrillic scripts and include: `bg`, `ca`, `cs`, `da`, `de`, `en`, `es`, `fr`, `hr`, `hu`, `it`, `nl`, `pl`, `pt`, `ro`, `ru`, `sl`, `sr`, `sv`, `uk`. The English cut of the dataset was sourced from [[1][bib]] and [[2][bib]]. We then used the Google Translate API to produce the other 19 language cuts.
+We present [`CalibraGPT/Fact-Completion.parquet`][hf_data]---a fact completion dataset covering 20 languages in Latin or Cyrillic script with 303k fact-counterfact pairs in total. The English cut of the dataset was sourced from [[1][bib]] and [[2][bib]]. We used the Google Translate API to produce the other 19 language cuts.
 
 ## Test Description
 
