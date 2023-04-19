@@ -10,23 +10,14 @@ This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedi
 2. The [data][hf_data] used for the test, which contains 20 languages
 3. A lightweight [demo][cka_lightweight_demo] for contrastive knowledge assessment
 
-## Abstract
-
-Can foundation language models be used as multilingual knowledge bases? We propose a new test to measure a text model’s fact completion accuracy across different languages. To attain high accuracy on this test, models must possess extensive encyclopedic knowledge across a wide range of topics. Our experiments uncover significant differences in the accuracy of various foundation models when working with translated counterfactuals. Ultimately, we find that the promise of utilizing foundation language models as bonafide polyglots is greatly diminished when they are tasked with retrieving information in languages other than English. 
-
-## Data Release
-
-We present [`CalibraGPT/Fact-Completion.parquet`][hf_data]---a fact completion dataset with 303k fact-counterfact pairs in total. The dataset covers 20 languages, which use either the Latin or Cyrillic scripts: bg, ca, cs, da, de, en, es, fr, hr, hu, it, nl, pl, pt, ro, ru, sl, sr, sv, uk. The English cut of the dataset was sourced from [[1][bib]] and [[2][bib]]. We used the Google Translate API to generate the other 19 language cuts.
-
 ## Test Description
 
- Given a factual association such as *The capital of France is **Paris***, we determine whether a model adequately "knows" this information with the following test:
+Given a factual association such as *The capital of France is **Paris***, we determine whether a model adequately "knows" this information with the following test:
  
- * Step **1**: prompt the model to predict the likelihood of the token **Paris** following *The Capital of France is*
+* Step **1**: prompt the model to predict the likelihood of the token **Paris** following *The Capital of France is*
+* Step **2**: prompt the model to predict the average likelihood of a set of false, counterfactual tokens following the same stem.
  
- * Step **2**: prompt the model to predict the average likelihood of a set of false, counterfactual tokens following the same stem.
- 
- If the value from **1** is greater than the value from **2** we conclude that model adequately recalls that fact. Formally, this is an application of the Contrastive Knowledge Assessment proposed in [[1][bib]]. For every foundation model of interest (like [LLaMA](https://arxiv.org/abs/2302.13971)), we perform this assessment on a set of facts translated into 20 languages. All told, we score foundation models on 303k fact-completions ([results](https://github.com/daniel-furman/capstone#multilingual-fact-completion-results)). We also score monolingual models (like [GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)) on English-only fact-completion ([results](https://github.com/daniel-furman/capstone#english-fact-completion-results)).
+If the value from **1** is greater than the value from **2** we conclude that model adequately recalls that fact. Formally, this is an application of the Contrastive Knowledge Assessment proposed in [[1][bib]]. For every foundation model of interest (like [LLaMA](https://arxiv.org/abs/2302.13971)), we perform this assessment on a set of facts translated into 20 languages. All told, we score foundation models on 303k fact-completions ([results](https://github.com/daniel-furman/capstone#multilingual-fact-completion-results)). We also score monolingual models (like [GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)) on English-only fact-completion ([results](https://github.com/daniel-furman/capstone#english-fact-completion-results)).
 
 ## Test Results
 
@@ -65,6 +56,16 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data]---a fact completion d
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
 &nbsp;
+
+## Abstract
+
+Can foundation language models be used as multilingual knowledge bases? We propose a new test to measure a text model’s fact completion accuracy across different languages. To attain high accuracy on this test, models must possess extensive encyclopedic knowledge across a wide range of topics. Our experiments uncover significant differences in the accuracy of various foundation models when working with translated counterfactuals. Ultimately, we find that the promise of utilizing foundation language models as bonafide polyglots is greatly diminished when they are tasked with retrieving information in languages other than English. 
+
+## Data Release
+
+We present [`CalibraGPT/Fact-Completion.parquet`][hf_data]---a fact completion dataset with 303k fact-counterfact pairs in total. 
+* The dataset covers 20 languages, which use either the Latin or Cyrillic scripts: bg, ca, cs, da, de, en, es, fr, hr, hu, it, nl, pl, pt, ro, ru, sl, sr, sv, uk. 
+* The English cut of the dataset was sourced from [[1][bib]] and [[2][bib]]. We used the Google Translate API to generate the other 19 language cuts.
 
 ## Authors
 
