@@ -6,13 +6,17 @@
 
 This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models](https://bit.ly/ischool-berkeley-capstone). It contains several research artifacts, including:
 
-1. The main [code][cka_run_main] for running the "Polyglot or Not?" fact-completion test
+1. The main [code][cka_run_main] for running the fact-completion test
 2. The [data][hf_data] used for the test, which contains 20 languages
-3. A lightweight [demo][cka_lightweight_demo] for running fact-completion tests via contrastive knowledge assessment
+3. A lightweight [demo][cka_lightweight_demo] for running tests with contrastive knowledge assessment
 
 ## Abstract
 
-Can foundation language models be used as multilingual knowledge bases? We propose a new test to measure a text model’s fact completion accuracy across different languages. To attain high accuracy on this test, models must possess extensive encyclopedic knowledge across a wide range of topics. Our experiments uncover important differences in the accuracy of various foundation models when working with translated counterfactuals. Ultimately, we find that the promise of utilizing foundation language models as bonafide polyglots is greatly diminished when they are tasked with retrieving information in languages other than English. 
+Can foundation language models be used as multilingual knowledge bases? We propose a new test to measure a text model’s fact completion accuracy across different languages. To attain high accuracy on this test, models must possess extensive encyclopedic knowledge across a wide range of topics. Our experiments uncover significant differences in the accuracy of various foundation models when working with translated counterfactuals. Ultimately, we find that the promise of utilizing foundation language models as bonafide polyglots is greatly diminished when they are tasked with retrieving information in languages other than English. 
+
+## Data Release
+
+We present [`CalibraGPT/Fact-Completion.parquet`][hf_data]---a fact completion dataset covering 20 languages with 303k fact-counterfact pairs. The dataset's languages use either the Latin or Cyrillic scripts and include: `bg`, `ca`, `cs`, `da`, `de`, `en`, `es`, `fr`, `hr`, `hu`, `it`, `nl`, `pl`, `pt`, `ro`, `ru`, `sl`, `sr`, `sv`, `uk`. The English cut of the dataset was sourced from [[1][bib]] and [[2][bib]]. We then used the Google Translate API to produce the other 19 language cuts.
 
 ## Test Description
 
@@ -61,11 +65,6 @@ Can foundation language models be used as multilingual knowledge bases? We propo
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
 &nbsp;
-
-
-## Data Release
-
-[`Fact-Completion.parquet`][hf_data] contains 303k fact-completions used for the "Polyglot or Not?" test. The dataset includes 20 languages based in Latin or Cyrillic script. We sourced the English cut of the dataset from [[1][bib]] and [[2][bib]] and used the Google Translate API to produce the other 19 language cuts.
 
 ## Authors
 
