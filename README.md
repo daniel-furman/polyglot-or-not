@@ -16,7 +16,7 @@ Can foundation language models be used as multilingual knowledge bases? We propo
 
 ## Data Release
 
-We present [`CalibraGPT/Fact-Completion.parquet`][hf_data]---a fact completion dataset with 303k fact-counterfact pairs in total. The dataset covers 20 languages, which use either the Latin or Cyrillic scripts: bg, ca, cs, da, de, en, es, fr, hr, hu, it, nl, pl, pt, ro, ru, sl, sr, sv, uk.The The English cut of the dataset was sourced from [[1][bib]] and [[2][bib]]. We used the Google Translate API to generate the other 19 language cuts.
+We present [`CalibraGPT/Fact-Completion.parquet`][hf_data]---a fact completion dataset with 303k fact-counterfact pairs in total. The dataset covers 20 languages, which use either the Latin or Cyrillic scripts: bg, ca, cs, da, de, en, es, fr, hr, hu, it, nl, pl, pt, ro, ru, sl, sr, sv, uk. The English cut of the dataset was sourced from [[1][bib]] and [[2][bib]]. We used the Google Translate API to generate the other 19 language cuts.
 
 ## Test Description
 
