@@ -3,7 +3,7 @@ Process fact-completion logs to generate bootstrap estimates and error analysis 
 
 Example usage:
 python post_process_logs.py \
-    --path /Users/danielfurman/Desktop/tmp_logs
+    --path data/result_logs/llama
 """
 
 from typing import List
@@ -25,32 +25,32 @@ def post_process(args):
     # check if input is a file or folder
     if os.path.isfile(input_path):
         input = [input_path]
-        output_file = os.path.splitext(input_path)[0] + '-metrics.csv'
+        output_file = os.path.splitext(input_path)[0] + "-metrics.csv"
 
     elif os.path.isdir(input_path):
         input = glob.glob(os.path.join(input_path, "*.json"))
-        output_file = os.path.join(input_path, 'metrics.csv')
+        output_file = os.path.join(input_path, "metrics.csv")
     else:
         print("Invalid input path!")
         return
 
-    with open(output_file, 'w', newline='') as f:
+    with open(output_file, "w", newline="") as f:
         writer = csv.writer(f)
 
         # write header row
-        writer.writerow(['model_name', 'language', 'num_total', 'num_correct', 'uncertainty'])
+        writer.writerow(
+            ["model_name", "language", "num_total", "num_correct", "uncertainty"]
+        )
 
         for input_file in input:
             with open(input_file, "r") as f:
                 data = json.load(f)
 
             model_name = data["model_name"][0]
-            language = supported_languages[input_file.split('/')[-1].split('-')[0]]
+            language = supported_languages[input_file.split("/")[-1].split("-")[0]]
 
             print(f"\n\tThe model name is {model_name}")
-            print(
-                f"\tThe language is {language}"
-            )
+            print(f"\tThe language is {language}")
 
             false_facts_itrs = []
             false_facts_list = []
@@ -90,11 +90,8 @@ def post_process(args):
             num_total = len(results)
             num_correct = np.round(100 * np.sum(results) / len(results), decimals=3)
             print(f"\tThere are {num_total} stem/fact pairs in the log")
-            print(
-                f"\tThe model got {num_correct}% of facts correct"
-            )
+            print(f"\tThe model got {num_correct}% of facts correct")
 
-            
             # create bootstrap estimates from logs
             # calculate percentage with this to check
 
@@ -102,9 +99,8 @@ def post_process(args):
             uncertainty = np.round(100 * bootstrap_results[0], decimals=3)
             writer.writerow([model_name, language, num_total, num_correct, uncertainty])
 
-            print(
-                f"\tThe 95% uncertainty estimate is +/- {uncertainty}%\n"
-            )
+            print(f"\tThe 95% uncertainty estimate is +/- {uncertainty}%\n")
+
 
 def bootstrap(results: List[int], B: int = 10000, confidence_level: int = 0.95) -> int:
     """

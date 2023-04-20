@@ -3,7 +3,8 @@ Process fact-completion logs to generate bootstrap estimates and error analysis 
 
 Example usage:
 python post_process_logs_folder.py \
-    --folder /Users/danielfurman/Desktop/tmp_logs
+    --folder ../../data/result_logs/llama \
+    --write_errors True
 """
 
 from typing import List
@@ -15,6 +16,7 @@ from argparse import ArgumentParser
 import glob
 import os
 import sys
+import tqdm
 
 
 def post_process(args):
@@ -28,15 +30,14 @@ def post_process(args):
 
         print(f"Running post-processing for {input_folder}...")
         fpaths = glob.glob(os.path.join(input_folder, "*.json"))
-        for fpath in fpaths:
+        for fpath in tqdm.tqdm(fpaths):
             with open(fpath, "r") as f:
                 data = json.load(f)
 
             model_name = data["model_name"][0]
             print(f"\n\tThe model name is {model_name}")
-            print(
-                f"\tThe language is {supported_languages[fpath.split('/')[-1].split('-')[0]]}"
-            )
+            lang = supported_languages[fpath.split("/")[-1].split("-")[0]]
+            print(f"\tThe language is {lang}")
 
             false_facts_itrs = []
             false_facts_list = []
@@ -86,6 +87,25 @@ def post_process(args):
             print(
                 f"\tThe 95% uncertainty estimate is +/- {np.round(100 * bootstrap_results[0], decimals=3)}%\n"
             )
+            # Grab items with the most negative p_false_average - p_true value
+
+            # order results by p_true - p_false, return top n rows
+
+            error_df = pd.DataFrame.from_dict(false_facts)
+            error_df = error_df.sort_values(by="differences").reset_index(drop=True)
+            error_df = error_df[
+                ["model", "dataset_id", "differences", "resolution", "facts"]
+            ]
+            # print(error_df)
+
+            if args.write_errors:
+                if not os.path.isdir("./error-analysis"):
+                    os.mkdir("./error-analysis")
+                error_df.to_csv(
+                    f"./error-analysis/error-analysis-{model_name.split('/')[-1]}-{lang}.csv",
+                    index=False,
+                )
+
     sys.stdout = sys.__stdout__
 
 
@@ -150,6 +170,12 @@ if __name__ == "__main__":
         type=str,
         default="",
         help="Folder of logs",
+    )
+    parser.add_argument(
+        "--write_errors",
+        type=bool,
+        default=False,
+        help="Whether to write errors",
     )
     parser.add_argument(
         "--num_resamples",

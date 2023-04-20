@@ -3,7 +3,7 @@ Process fact-completion logs to generate bootstrap estimates and error analysis 
 
 Example usage:
 python post_process_log_file.py \
-    --filename roberta-large-logged-cka-outputs-25-03-2023-17-28-56.json
+    --filename bg-llama-30b-logged-cka-outputs-11-04-2023-14-51-47.json
 """
 
 from typing import List
