@@ -132,7 +132,7 @@ def compare_models(model_name_list, input_dataset, verbose):
             probe_func = get_probe_function(prefix)
         elif "mt5" in model_name.lower():
             prefix = "mt5"
-            probe_func = get_probe_function(prefix)
+            probe_func = get_probe_function("t5")
 
         elif "t5" in model_name.lower():
             prefix = "t5"
