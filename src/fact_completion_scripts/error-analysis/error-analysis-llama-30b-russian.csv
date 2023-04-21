@@ -1,0 +1,997 @@
+model,dataset_id,differences,resolution,facts
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6598,-0.2941436767578125,to do,Каким видом спорта занимается Хосе Кансеко? Они играют в [ true: бейсбол; false: ['футбол'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11758,-0.19281005859375,to do,"Metroid, разработанный [ true: Nintendo; false: ['Nautilus'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14649,-0.10953712463378906,to do,Премьера шоу в четверг вечером на канале [ true: ESPN; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10419,-0.103973388671875,to do,Каким видом спорта занимается Лайонел Коначер? Они играют в [ true: хоккей; false: ['футбол'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2250,-0.098052978515625,to do,Каким видом спорта занимается Джим Баннинг? Они играют в [ true: бейсбол; false: ['футбол'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12964,-0.09612178802490234,to do,Премьера шоу Фила Сильверса на канале [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21188,-0.09203147888183594,to do,Британская империя расположена на континенте [ true: Америка; false: ['Азия'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7793,-0.08673381805419922,to do,Национальный чемпионат по хедз-ап покеру дебютировал на канале [ true: NBC; false: ['PBS'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12055,-0.08063888549804688,to do,Аскола находится в стране [ true: Финляндия; false: ['Ирландия'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15320,-0.07790184020996094,to do,Рэнди Сабьен играет в [ true: джаз; false: ['покер'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8284,-0.07489013671875,to do,"Эндрю файловая система, продукт производства [ true: IBM; false: ['Microsoft'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19690,-0.0690460205078125,to do,Йоги Берра играет в [ true: бейсбол; false: ['футбол'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4339,-0.061279296875,to do,Каким видом спорта занимается Джо Ди Маджио? Они играют в [ true: бейсбол; false: ['футбол'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6577,-0.054347991943359375,to do,"Фесс Уильямс, играющий в стиле [ true: джаз; false: ['фанк'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12443,-0.0448760986328125,to do,"Пайнкрик, штат [ true: Миннесота; false: ['Юта'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8182,-0.043987274169921875,to do,"Музыканты научно-фантастического телевидения, такие как [ true: Доктор Кто; false: ['Джимми Дейл Гилмор'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12929,-0.041534423828125,to do,Премьера сериала «Исчезающие акты» на канале [ true: HBO; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12586,-0.037069082260131836,to do,Премьера «Ухаживание за Алексом» на канале [ true: CBS; false: ['HBO'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1199,-0.0366363525390625,to do,Премьера «Шоу Маленькой Лулу» на канале [ true: HBO; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10439,-0.035308837890625,to do,"Стив Гэдд, играющий в стиле [ true: джаз; false: ['фанк'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_700,-0.034236907958984375,to do,Премьера фильма «Как я встретил вашу маму» на канале [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10548,-0.033069610595703125,to do,Каким видом спорта занимается Хонус Вагнер? Они играют в [ true: бейсбол; false: ['футбол'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18898,-0.03143310546875,to do,Премьера шоу Джина Отри на канале [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9104,-0.031197965145111084,to do,Язык американки был [ true: Английский; false: ['словенский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8076,-0.030229568481445312,to do,"Музыканты-фантасты, такие как [ true: Доктор Кто; false: ['Эми Мария'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19708,-0.02973175048828125,to do,Премьера сериала «Это шоу-бизнес» на канале [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15801,-0.02945244312286377,to do,Премьера фильма «Артур Годфри и его друзья» на канале [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2811,-0.027309060096740723,to do,DinoSquad был выпущен на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17600,-0.027299880981445312,to do,Премьера «Путеводного света» на канале [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7441,-0.0267333984375,to do,Премьера Frontier на [ true: NBC; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19752,-0.02652841806411743,to do,"Bundesautobahn 555, компания [ true: Германия; false: ['BP'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7399,-0.02593231201171875,to do,Muppet Babies Джима Хенсона был выпущен на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2665,-0.0241851806640625,to do,Фарид Закария GPS первоначально транслировался на [ true: CNN; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_850,-0.023888587951660156,to do,"Ассигинак, [ true: Онтарио; false: ['Вирджиния'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21423,-0.0233154296875,to do,"V8, продукт производства [ true: Google; false: ['Microsoft'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11582,-0.023255348205566406,to do,"Buggy Boy, разработанный [ true: Тацуми; false: ['Tango Gameworks'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_975,-0.0224761962890625,to do,Видео Bing от [ true: Microsoft; false: ['Google'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8035,-0.021709442138671875,to do,Blues Brothers 2000 играет [ true: музыкальный комедийный фильм; false: ['поп-панк'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15424,-0.021453857421875,to do,Кульминация! первоначально транслировался на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11397,-0.020811080932617188,to do,Во что играет Герд Дудек? Они играют в [ true: джаз; false: ['портрет'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5238,-0.019839763641357422,to do,"Юлий Цезарь, работающий в [ true: политик; false: ['реалити-шоу'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7141,-0.018588542938232422,to do,Владелец Оборонпрома [ true: Россия; false: ['Анахайм'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3425,-0.017730712890625,to do,Сулия находится в стране [ true: Венесуэла; false: ['Мали'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11045,-0.01771831512451172,to do,В Королевстве Болгария понимают [ true: болгарский; false: ['иврит'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14407,-0.01694488525390625,to do,Роджер Марис играет в [ true: бейсбол; false: ['футбол'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8494,-0.01663932204246521,to do,"Рок-музыканты, такие как [ true: Сантана; false: ['симфонические движения', 'Эл Кэмпбелл'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5061,-0.016208648681640625,to do,Top Cops дебютировали на [ true: CBS; false: ['MTV'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8392,-0.015886783599853516,to do,"Христианские музыканты, такие как [ true: Seventh Angel; false: ['Tap Tap Revenge'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8133,-0.015849590301513672,to do,"Музыканты-приключенцы, такие как [ true: Onimusha; false: ['Дэйв Грузин', 'историческая живопись'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11478,-0.015161991119384766,to do,Tattletales дебютировали на [ true: CBS; false: ['MTV'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16626,-0.01513671875,to do,Каким видом спорта занимается Борис Дьяу? Они играют в [ true: баскетбол; false: ['футбол'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8040,-0.01497429609298706,to do,"Файтинг музыканты [ true: BloodStorm; false: ['El Clon', 'слэшеры'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18322,-0.014675140380859375,to do,Рози Грир играет в [ true: футбол; false: ['бейсбол'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8157,-0.014404773712158203,to do,"Музыканты из криминальных фильмов, такие как [ true: Pale Flower; false: ['Сэм Суини'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9473,-0.014398574829101562,to do,Во что играет Джерард Пресенсер? Они играют в [ true: джаз; false: ['портрет'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8110,-0.014314532279968262,to do,"Соул-музыканты, такие как [ true: Реддинг; false: ['Акустический рок', 'Phantom Blue'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_79,-0.014312744140625,to do,Роберто Клементе играет в [ true: бейсбол; false: ['футбол'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5212,-0.01409149169921875,to do,"Альберто Фухимори, [ true: политик; false: ['Первая леди'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18283,-0.013783693313598633,to do,Симпсоны играют [ true: ситком; false: ['портрет'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6269,-0.01346588134765625,to do,Река Майя находится в стране [ true: Россия; false: ['Гватемала'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21651,-0.012887001037597656,to do,Мультиинтерфейсный башмак производства [ true: Sony; false: ['Fiat'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3682,-0.012758255004882812,to do,Ян Лиминг работает в [ true: BBC; false: ['Microsoft'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12853,-0.012139678001403809,to do,"Pixie Lott, представленный [ true: Mercury Records; false: ['Адаадат', 'Infectious Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1100,-0.011875152587890625,to do,"Колдер Фриуэй, штат [ true: Виктория; false: ['Керала'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8234,-0.011676967144012451,to do,"Рэп-музыканты, такие как [ true: Totally Insane; false: ['Aggrotech'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2711,-0.011641502380371094,to do,Сфера деятельности Матиаса Лерха – [ true: математика; false: ['философ'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1643,-0.011522918939590454,to do,"Опыт Уильяма Харви - [ true: физиология; false: ['STUK', 'здравоохранение', 'грамматическая категория', 'гомеопатия'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12800,-0.0115203857421875,to do,Рэнди Мосс играет в [ true: футбол; false: ['баскетбол'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8457,-0.011402130126953125,to do,"Музыканты рассказов, такие как [ true: Blowups Happen; false: ['Джимми Льюис'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20455,-0.011222243309020996,to do,В Карибских Нидерландах понимают [ true: Голландский; false: ['итальянский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16476,-0.011178970336914062,to do,"Зай Беннетт, сотрудник [ true: BBC; false: ['Microsoft'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16307,-0.010875701904296875,to do,«Мыслить как преступник» дебютировал на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21136,-0.010869503021240234,to do,Питер М. Бауэрс работает в [ true: Boeing; false: ['Microsoft'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14739,-0.010377883911132812,to do,Bodega Band играет [ true: джаз; false: ['блюз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5513,-0.010318756103515625,to do,Хоуи Моренц играет в [ true: хоккей; false: ['бейсбол'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8244,-0.010310649871826172,to do,"Музыканты музыки кантри, такие как [ true: Пэт Банч; false: ['Hellburner', 'Эдди Кларк'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14720,-0.010213851928710938,to do,Джастин Уэбб работает в [ true: BBC; false: ['Microsoft'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5220,-0.009996652603149414,to do,"Элли Шиди, [ true: киноактриса; false: ['автор манги'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14852,-0.00988006591796875,to do,Ник Свишер играет в [ true: бейсбол; false: ['баскетбол'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1794,-0.009722232818603516,to do,"Экспертиза Казимежа Айдукевича – [ true: логик; false: ['прагматика', 'фотограф', 'экспериментальный фильм'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5762,-0.009378433227539062,to do,В кантоне Берн понимают [ true: Немецкий; false: ['итальянский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1290,-0.009281158447265625,to do,Энтони Фишер работал в городе [ true: Сидней; false: ['Кёльн'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13378,-0.00914764404296875,to do,"Эй, Джинни! первоначально транслировался на [ true: CBS; false: ['NBC'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6801,-0.009124755859375,to do,В поисках Картера первоначально транслировался на [ true: MTV; false: ['CBS'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8409,-0.00909423828125,to do,"Burning Heads, играющий [ true: панк; false: ['Ска', 'инди-фолк'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2946,-0.009042143821716309,to do,"Столица Ренфрушира, [ true: Пейсли; false: ['Волга', 'Киевская Русь', 'Свадлинкот'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6994,-0.00904083251953125,to do,Кадастровый муниципалитет находится в стране [ true: Нидерланды; false: ['Швеция'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11231,-0.00899505615234375,to do,"Пенна Ахобилам, [ true: Индия; false: ['Малайзия'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12566,-0.008960723876953125,to do,Брайант Такерман работает в [ true: IBM; false: ['Microsoft'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1568,-0.008951187133789062,to do,"Опыт Фредерика Эштона - [ true: балет; false: ['Энтомология', 'Микология', 'Американский импрессионист'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11087,-0.008911609649658203,to do,Скуби-Ду был выпущен на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12867,-0.008819334208965302,to do,"Артисты Columbia Records, такие как [ true: New Morning; false: ['Tzadik Records', 'Hot Water Music', 'Bethlehem', 'AFM Records', 'Skunk Records', 'Ralph Records', 'Empire Mates Entertainment', 'Айвор Катлер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8658,-0.00841832160949707,to do,S-1 разработан компанией [ true: ALCO-GE; false: ['Glock Ges.m.b.H.'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3786,-0.008239984512329102,to do,Экспертиза Николая Бернштейна – это [ true: физиология; false: ['наука'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7883,-0.008116006851196289,to do,"Эрик Машвиц, сотрудник [ true: BBC; false: ['Microsoft'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8009,-0.008081912994384766,to do,"Диктаторы, который играет [ true: панк-рок; false: ['немое кино'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8193,-0.008081793785095215,to do,"Поп-музыканты, такие как [ true: Диего Торрес; false: [""Маура О'Коннелл"", 'Wiener Philharmoniker'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7278,-0.0080413818359375,to do,Тим Кук работает на [ true: Apple; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12466,-0.007900238037109375,to do,Alcoa Hour был выпущен на [ true: NBC; false: ['CBS'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19894,-0.0075615644454956055,to do,В Международной комиссии по освещению понимают [ true: Французский; false: ['валлийский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9860,-0.0075531005859375,to do,"Том Флорес, [ true: защитник; false: ['аутфилдер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13769,-0.007500648498535156,to do,"Джесси Марш, [ true: полузащитник; false: ['аутфилдер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11122,-0.007384777069091797,to do,"Пэт Хейден, [ true: защитник; false: ['аутфилдер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19273,-0.0072765350341796875,to do,Мерлин Олсен играет в [ true: футбол; false: ['баскетбол'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16891,-0.00726318359375,to do,Премьеры NewsRadio на канале [ true: NBC; false: ['HBO'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8044,-0.0072002410888671875,to do,"Музыканты электронной музыки, такие как [ true: Daedelus; false: ['Стивен Сторас'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_549,-0.0071620941162109375,to do,Ба ФК находится в стране [ true: Фиджи; false: ['Италия'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11531,-0.007078289985656738,to do,Опыт Альфреда Тарского – это [ true: логика; false: ['классика'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8337,-0.007073819637298584,to do,"Музыканты эпической поэмы, такие как [ true: Гомер; false: ['Том Флетчер', 'Shock Rock'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8088,-0.007052421569824219,to do,"Музыканты-фантасты, такие как [ true: Norstrilia; false: ['Пол Джеффри'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9758,-0.007038116455078125,to do,"Джек Килкойн, [ true: гитара; false: ['скрипка'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14147,-0.006991386413574219,to do,Джозеф Пристли устроился на работу в [ true: Париж; false: ['Лондон'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6495,-0.0069522857666015625,to do,"Премьера Beg, Borrow & Deal на [ true: ESPN; false: ['NBC'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21571,-0.0066986083984375,to do,"Ла-Байу, [ true: Невада; false: ['Колорадо'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_692,-0.00661468505859375,to do,Sun Yingjie is native to [ true: Sujiatun; false: ['Zaporozhia'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20344,-0.006509065628051758,to do,"Калум Чемберс, [ true: защитник; false: ['аутфилдер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2234,-0.006481170654296875,to do,Химический опыт — это [ true: химия; false: ['искусство'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19062,-0.00641632080078125,to do,Горди Хоу играет в [ true: хоккей; false: ['баскетбол'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4675,-0.006381511688232422,to do,Мировые премьеры на канале [ true: BBC Two; false: ['MBC Music'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8054,-0.00635528564453125,to do,Костас сейчас первоначально транслировался на [ true: HBO; false: ['CBS'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19785,-0.0062961578369140625,to do,"Адам Девлин, [ true: гитара; false: ['скрипка'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_698,-0.00627899169921875,to do,Премьера Underdog на [ true: NBC; false: ['MTV'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12513,-0.0062580108642578125,to do,"Исполнители ECM, такие как [ true: Бобо Стенсон; false: ['Клодетт', 'Поздняя регистрация'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17504,-0.006247758865356445,to do,"Гленн Холл, [ true: вратарь; false: ['аутфилдер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19910,-0.0060863494873046875,to do,"Столица Лабуана, [ true: Виктория; false: ['Будапешт'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13082,-0.005744218826293945,to do,"Марти Шоттенхаймер, [ true: полузащитник; false: ['аутфилдер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8263,-0.0056629180908203125,to do,"Классические музыканты, такие как [ true: Тарья Турунен; false: ['Одрина', 'Орания'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5068,-0.0056511759757995605,to do,"Род занятий Давида – [ true: политик; false: ['человек эпохи Возрождения', 'концертмейстер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18323,-0.00562286376953125,to do,"Роберт Дугалл, сотрудник [ true: BBC; false: ['Microsoft'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7473,-0.005596816539764404,to do,Премьера фильма «Он и она» на канале [ true: CBS; false: ['HBO'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4926,-0.005594015121459961,to do,"Даррен Карри, [ true: полузащитник; false: ['аутфилдер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8294,-0.0055692195892333984,to do,"Музыканты документального кино, такие как [ true: Better Living Through Circuitry; false: ['Сайппуапринсси', 'Елизаветинская сцена'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18625,-0.0055370330810546875,to do,"Шон Флетчер, сотрудник [ true: BBC; false: ['Microsoft'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16547,-0.0055103302001953125,to do,Премьера Go Go Gophers на канале [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8858,-0.0053157806396484375,to do,Сабрата находится в стране [ true: Ливия; false: ['Словения'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7946,-0.0052967071533203125,to do,Оригинальный язык Они - [ true: испанский; false: ['арамейский язык'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5152,-0.005218505859375,to do,Профессия Роберта Эммса – [ true: актер; false: ['сомелье'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2874,-0.005198884010314942,to do,"Столица Клакманнаншира, [ true: Аллоа; false: ['Сиань', 'Абердин', 'Сороти', 'Tokugawa shogunate', 'Унгаран'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1050,-0.005192399024963379,to do,"Иван Гудель, [ true: полузащитник; false: ['аутфилдер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_353,-0.0051822662353515625,to do,Готика исполняет [ true: триллер; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21350,-0.005025386810302734,to do,Телефонная будка играет [ true: триллер; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21018,-0.005009651184082031,to do,"Сэмюэл Хилл-Вуд, [ true: политик; false: ['актер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2704,-0.0049686431884765625,to do,"Столица округа Кук, [ true: Чикаго; false: ['Апиа', 'Хоунсдейл', 'Аннау'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1247,-0.004913330078125,to do,"Крис Бэнгл, сотрудник [ true: Fiat; false: ['NPR'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8925,-0.0048691630363464355,to do,В Евросоюзе понимают [ true: Французский; false: ['итальянский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11352,-0.0047760009765625,to do,Премьера «Величайшей американской собаки» на канале [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5731,-0.004756927490234375,to do,"Столица Нигерии, [ true: Лагос; false: ['Абу-Даби (эмират)', 'Южная Корея', 'Уилмингтон', 'Португальский Мозамбик', 'Большой столичный Сидней'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20813,-0.00473785400390625,to do,Джефф Цукер работает в [ true: CNN; false: ['Microsoft'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21345,-0.004695892333984375,to do,Возвращение было выпущено на [ true: HBO; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5500,-0.0046797990798950195,to do,"Балачандран Чулликкаду, [ true: поэт; false: ['Балетмейстер', 'торговец'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13834,-0.004625916481018066,to do,"Джонатан Урретавиская, [ true: полузащитник; false: ['аутфилдер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4266,-0.004604816436767578,to do,Ник Поллард из [ true: BBC; false: ['WWE'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8402,-0.0045371949672698975,to do,"Джазовые музыканты, такие как [ true: Prestige; false: ['Твигги', 'Psychobilly'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5318,-0.0045146942138671875,to do,Род занятий Отто — [ true: политик; false: ['Светская львица'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10331,-0.004424095153808594,to do,Профессия Джорджа Беннарда – [ true: композитор; false: ['актер'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18199,-0.0043926239013671875,to do,"Роб Барретт, [ true: гитара; false: ['скрипка'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8288,-0.004391074180603027,to do,Хадия Таджик устроилась на работу в [ true: Осло; false: ['Париж'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12203,-0.004371702671051025,to do,Хизер Кокс работает на [ true: ESPN; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9407,-0.00433349609375,to do,Каким видом спорта занимается Алексей Ковалев? Они играют в [ true: хоккей; false: ['баскетбол'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4673,-0.00432672103246053,to do,"NBC дебютирует с [ true: Bonanza; false: ['Comedy Central', 'Hulu', 'США', 'GMA7', 'Sahara One', 'Darkwing Duck'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15262,-0.0043182373046875,to do,Профессия Оскара Лафонтена – [ true: политик; false: ['пророк'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10055,-0.0043087005615234375,to do,"Джонатан Квик, [ true: вратарь; false: ['аутфилдер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12515,-0.00428543488184611,to do,"Лейбл Ферлина Хаски: [ true: Capitol Records; false: ['Charisma Records', 'Крейзи Лысый', 'Dance Nation', 'Roc-A-Fella', 'Голова не найдена', 'Gallo Africa', 'Ferret Records', 'Aniplex', 'Slip-n-Slide Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17528,-0.0042705535888671875,to do,Майк Коулишоу работает на [ true: IBM; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19394,-0.0042438507080078125,to do,Codename Coq Rouge исполняет [ true: триллер; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17088,-0.004206657409667969,to do,Ник Шагал исполняет [ true: транс; false: ['фанк'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7839,-0.004102468490600586,to do,Kamaya Painters играет [ true: транс; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1505,-0.0040732622146606445,to do,Гамбит был выпущен на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7780,-0.00399017333984375,to do,Нева расположена на континенте [ true: Европа; false: ['Антарктида'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20961,-0.0038580894470214844,to do,Премьера Blowin 'Up на [ true: MTV; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19522,-0.0038442611694335938,to do,"Паскаль Фейндоуно, [ true: полузащитник; false: ['аутфилдер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10951,-0.003842473030090332,to do,Ян Бартлетт из [ true: BBC; false: ['WWE'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8289,-0.0038123130798339844,to do,Премьера «На арене» на канале [ true: CNN; false: ['CBS'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12563,-0.0037952959537506104,to do,"Мак Мэн, выпущенный [ true: Young Money Entertainment; false: ['Sanctuary Records', 'Deltasonic Records', 'Geneon', 'Dreamworks', 'Betty Who', 'Black Hole Recordings', 'Roton Music Romania', 'Shinkansen Recordings', 'Peacock Records', 'Wagram'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9173,-0.0037841796875,to do,Экспертиза Фестиваля геометрии – [ true: математика; false: ['геометрия'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15690,-0.0037508010864257812,to do,SpeedWeek дебютировал на [ true: ESPN; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8260,-0.0037355422973632812,to do,Sex Pistols играют [ true: панк-рок; false: ['пост-рок'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21451,-0.00372314453125,to do,Джим Браун играет в [ true: футбол; false: ['бейсбол'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12713,-0.003675505518913269,to do,"Фред Фрит, который представлен [ true: цадик; false: ['Purple Records', 'Алекс Да Кид', 'Jagjaguwar', 'Suretone Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5826,-0.0036574602127075195,to do,"Дино, разработанный [ true: Ferrari; false: ['Nissan'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12743,-0.0036280155181884766,to do,"Артисты Columbia Records, такие как [ true: Black Kids; false: ['Amphetamine Reptile', 'Samadhi Sound', 'Fearless Records', 'Джо Сатриани', 'Avant Records', 'Cascine Records', 'Candid Records', 'Slackers'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_105,-0.0035858154296875,to do,Премьера «Редиго» на канале [ true: NBC; false: ['HBO'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4836,-0.0035736560821533203,to do,"The CW представит [ true: Life Unexpected; false: ['Golf Central', 'B92', 'CBC TV', 'Western International Communications'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8356,-0.0035729408264160156,to do,"Народные музыканты, такие как [ true: Kingston Trio; false: ['Паула ДеАнда', 'Dune 2'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15914,-0.003560304641723633,to do,Профессия Джеймса Риза Европы – [ true: композитор; false: ['философ'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5082,-0.0035567283630371094,to do,"Саймон Рамзи, [ true: политик; false: ['социолог'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2284,-0.003551959991455078,to do,В ОДКБ понимают [ true: Русский; false: ['персидский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1377,-0.003500699996948242,to do,Исходный код играет [ true: триллер; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4179,-0.003427863121032715,to do,Разыгранные премьеры на [ true: MTV; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8405,-0.0034068822860717773,to do,"Эль Хадж М'Хамед Эль Анка, которая играет [ true: чааби; false: ['Элисон Михалка'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1906,-0.0033751328786214194,to do,"Опыт Роберта Риджуэя - [ true: орнитолог; false: ['искусство', 'энергетическая политика', 'актриса озвучивания'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8229,-0.0033698081970214844,to do,Расмус играет [ true: альтернативный рок; false: ['нео-соул'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17938,-0.0033635497093200684,to do,"Несодден ИФ, [ true: Норвегия; false: ['Болгария'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11834,-0.003360748291015625,to do,"Cell Processor, созданный [ true: Sony; false: ['SCO'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1147,-0.003345489501953125,to do,Постоянный садовник играет [ true: триллер; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12886,-0.003292083740234375,to do,"Столица провинции Риф-Димашк, [ true: Дамаск; false: ['Манила'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8442,-0.003284454345703125,to do,Премьера EZ Streets на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21748,-0.0032622814178466797,to do,Джим МакГрат работает в [ true: BBC; false: ['Microsoft'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12598,-0.003252565860748291,to do,"Ain't No Mountain High Enough, которую представляет [ true: Motown; false: ['Мешугга', 'J Storm', 'Uprising Records', 'Николетт Ларсон'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11012,-0.0032367706298828125,to do,Позиция Роба Форда — [ true: советник; false: ['епископ'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16458,-0.0032358169555664062,to do,Кинг Колакс играет [ true: джаз; false: ['блюз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8121,-0.0032215118408203125,to do,Вуди Герман играет в [ true: джаз; false: ['бибоп'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16280,-0.0032196044921875,to do,Ян Джейкоб работает в [ true: BBC; false: ['Google'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8349,-0.0032110214233398438,to do,Оперные музыканты [ true: Фальстаф; false: ['Скотт Энгель'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11301,-0.0032091140747070312,to do,Премьера нового Майка Хаммера на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6708,-0.0031833648681640625,to do,владелец Nismo [ true: Ниссан; false: ['Sega'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12570,-0.003168914053175185,to do,"Артисты Motown, такие как [ true: Ламонт Дозье; false: ['Джеймс Браун мертв', 'Lobster Records', 'Марк Джонсон', 'Крис Готти', 'Profane Existence', 'Cash Money Records', 'Grand Hustle', 'Big Machine', 'Suicide Commando'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4234,-0.0031664371490478516,to do,Эдди Мэйр из [ true: BBC; false: ['Nintendo'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11589,-0.0031471848487854004,to do,"VP3, созданный [ true: On2 Technologies; false: ['Pinnacle Systems', 'EA Maxis'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9244,-0.0031313300132751465,to do,В Квебеке понимают [ true: Французский; false: ['валлийский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12614,-0.0031128724416097002,to do,"Фрэнк Тернер, которого представляет [ true: Xtra Mile Recordings; false: ['Сванте Хенрисон', 'So So Def Records', 'Ротана'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21191,-0.0030794143676757812,to do,"Сеть с нулевой конфигурацией, разработанная [ true: Apple; false: ['Microsoft'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17543,-0.0030488967895507812,to do,"Кевин Нортон, [ true: композитор; false: ['актер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5088,-0.0030351877212524414,to do,Владелец ELP Communications [ true: Sony; false: ['Sega'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20078,-0.003021717071533203,to do,Banacek был выпущен на [ true: NBC; false: ['CBS'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5931,-0.0030059814453125,to do,Специализация Николая Боголюбова – [ true: математика; false: ['социология'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15226,-0.002991914749145508,to do,3 Юг был выпущен на [ true: MTV; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5145,-0.0029840469360351562,to do,"Нэн Вуд Ханиман, [ true: политик; false: ['актер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14343,-0.0029770731925964355,to do,Picket Fences дебютировали на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5250,-0.002956390380859375,to do,"Том Льюис, [ true: политик; false: ['агент по недвижимости', 'начальник станции'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4759,-0.0029358863830566406,to do,"Джулиан Бек, [ true: поэт; false: ['актер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21313,-0.002888798713684082,to do,Spyder Games вышла на [ true: MTV; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_3671,-0.002875804901123047,to do,"Ляпис Трубецкой из [ true: белорусский; false: ['Чили', 'Клазоменай'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2781,-0.0028439079012189594,to do,"РА со столицей Корфу (город) [ true: Ереван; false: ['Афина', 'Карпениси', 'Банаваси', 'Сараево', 'Капевердин', 'Стокгольмский муниципалитет', 'Корфу (город)'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5478,-0.002838134765625,to do,Премьера «Действительно дикого шоу» на [ true: BBC; false: ['MTV'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16741,-0.0028095245361328125,to do,"Кукла, Фрэн и Олли премьеры на [ true: NBC; false: ['HBO'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1883,-0.002787947654724121,to do,"Армандо Яннуччи, сотрудник [ true: BBC; false: ['NPR'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8221,-0.0027695894241333008,to do,"Музыканты регги, такие как [ true: Trojan Records; false: ['Лес Далтон'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12027,-0.002753615379333496,to do,Энда Кенни занимает пост [ true: Taoiseach; false: ['Политбюро'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1659,-0.002727508544921875,to do,Energy 52 играет [ true: транс; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12916,-0.0026976943016052248,to do,"Они, которых представляет [ true: Broken Bow Records; false: ['Грегг Александр', 'Deep Cuts', 'Vanguard Records', 'Avey Tare', 'Ви-Джей'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10023,-0.002697169780731201,to do,Вау! был выпущен на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1526,-0.0026147961616516113,to do,PGM-19 Jupiter разработан компанией [ true: Chrysler; false: ['Fiat'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20667,-0.0026006698608398438,to do,"Грег Дайк, работающий в [ true: BBC; false: ['IBM'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11753,-0.0025849342346191406,to do,WFS был разработан [ true: OGC; false: ['Сэнди Уайт'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12865,-0.0025742053985595703,to do,Майкл Бюрк из [ true: BBC; false: ['IBM'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12876,-0.0025703907012939453,to do,"Бобина, играющая [ true: транс; false: ['джаз'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8212,-0.002569913864135742,to do,Робин Тик играет [ true: R&B; false: ['блюз-рок'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5186,-0.0025446414947509766,to do,"Род занятий Яна Анхеля - [ true: политик; false: ['финансист', 'политический эксперт'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14275,-0.0025243759155273438,to do,Хедвиг Дом устроилась на работу в [ true: Берлин; false: ['Париж'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17632,-0.002524137496948242,to do,Даниэль Канди исполняет [ true: транс; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6670,-0.002482891082763672,to do,Владелец Гордини [ true: Рено; false: ['Ванкувер'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2787,-0.0024585723876953125,to do,Джеймс Мойр работает в [ true: BBC; false: ['Microsoft'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1910,-0.0024529099464416504,to do,"Опыт Джона Лоуренса ЛеКонте - это [ true: насекомое; false: ['веб-документальный фильм', 'Альфред Ньютон'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15847,-0.0024454593658447266,to do,"Рабих Абу-Халил, [ true: джаз; false: ['сатира'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16812,-0.00243377685546875,to do,Премьера Airwolf на [ true: CBS; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12616,-0.0024131337801615396,to do,"Ма Рейни, которую представляет [ true: Paramount Records; false: ['Orange Twin', 'Mshasho Productions', 'Accession Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3900,-0.002406597137451172,to do,В Хуиттинене понимают [ true: финский; false: ['сербский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8484,-0.002368927001953125,to do,Гражданин Джеймс исполняет [ true: ситком; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5280,-0.00235748291015625,to do,"Саттанар, [ true: поэт; false: ['дрессировщик лошадей'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10469,-0.0023336410522460938,to do,Фло был выпущен на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16940,-0.0023326873779296875,to do,Должность Ансгара - [ true: епископ; false: ['мэр'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5047,-0.0023113489151000977,to do,"Розмари Водри, [ true: политик; false: ['промышленник', 'Снайпер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2408,-0.0023021697998046875,to do,Тони Уилсон устроился на работу в [ true: Манчестер; false: ['Аллахабад'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1721,-0.002285480499267578,to do,"Владелец Ueno Imperial Grant Park, [ true: Токио; false: ['Калифорния'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5015,-0.00226593017578125,to do,"Не Эр, [ true: композитор; false: ['маэстро ди капелла', 'репортер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8786,-0.00226593017578125,to do,Официальный язык Европейского Союза – [ true: финский; false: ['испанский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12728,-0.0022407505247328016,to do,"Атлантические художники, такие как [ true: They; false: ['Small Sins', 'NBCUniversal Entertainment Japan', 'BMG Australia', 'Синтия Лейн', 'Better Dayz', 'EMI Music Australia', 'Sub-Pop', 'Colpix', 'WB'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17694,-0.0022096633911132812,to do,Джеймс Лэндейл работает в [ true: BBC; false: ['Google'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8315,-0.0021995604038238525,to do,"Thirsty Ear играет [ true: джаз; false: ['сэйнэн', 'Too Many Clients'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16666,-0.0021713972091674805,to do,Адам Амин работает на [ true: ESPN; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17388,-0.002132415771484375,to do,Аирто Морейра исполняет [ true: джаз; false: ['триллер'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13654,-0.002124786376953125,to do,Стэн Микита играет в [ true: хоккей; false: ['футбол'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12802,-0.002108226219813029,to do,"Билл Диксон, которого представляет [ true: Soul Note; false: ['Young Cash', 'Tzadik Records', ""Enuff Z'nuff"", 'PGP RTB', 'Стив Хоу', 'Apple Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_951,-0.0020864009857177734,to do,Майами Медикал был выпущен на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8077,-0.0020580291748046875,to do,Ankhyon Ke Jharokhon Se играет [ true: Романтический фильм; false: ['инди-фолк'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19274,-0.002056121826171875,to do,Гатанджи находится в стране [ true: Индия; false: ['Швейцария'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8095,-0.0020263195037841797,to do,"Могамбо, который играет [ true: романтический драматический фильм; false: ['Ранчера'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12725,-0.0020227313041687013,to do,"Дин Мартин, которого представляет [ true: Capitol Records; false: ['Ву Да Кид', 'Lobster Records', 'Spinefarm Records', 'Ян Эстбери', 'Виндхэм Хилл'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5457,-0.0020208358764648438,to do,"Дэвид Мэннерс, [ true: актер; false: ['битбокс'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14996,-0.002016305923461914,to do,Владелец Орла [ true: Крайслер; false: ['Финляндия'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7975,-0.0020160675048828125,to do,Баллерс дебютировал на [ true: HBO; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8395,-0.0020089149475097656,to do,"Джазовые музыканты, такие как [ true: Capitol Records; false: ['Рождественская музыка', 'Blonde Crazy'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8001,-0.0020021796226501465,to do,"Музыканты мыльной оперы, такие как [ true: EastEnders; false: ['псевдодокументальные фильмы', 'Averse Sefira'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12932,-0.001996884743372599,to do,"Их лейбл [ true: Massacre Records; false: ['Ruff Ryders', 'Wreckless Eric', 'Rhymesayers Entertainment', 'Polar Music', 'Balkanton', 'Потому что Музыка'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8363,-0.0019922256469726562,to do,"Музыканты дэнсхолла, такие как [ true: Сестра Нэнси; false: ['Риддл Гон'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17113,-0.0019903182983398438,to do,Генри Калверт Саймонс устроился на работу в [ true: Чикаго; false: ['Лондон'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20227,-0.001987934112548828,to do,"Эрик Джемба-Джемба, [ true: полузащитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18901,-0.0019865036010742188,to do,Кертис Эми исполняет [ true: джаз; false: ['ситком'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19299,-0.001980423927307129,to do,"Нина Тасслер, сотрудник [ true: CBS; false: ['BBC'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12770,-0.0019677728414535522,to do,"Tommy Tutone, представленный [ true: Columbia Records; false: ['YGEX', 'Сэм Кук', 'Volcano Records', 'Spikefarm Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16578,-0.00196075439453125,to do,"Кафрия, [ true: Сирия; false: ['Таиланд'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12816,-0.001955568790435791,to do,"Джеки Маклин, которого представляет [ true: Blue Note; false: ['Джастин Троспер', 'Hieroglyphics Imperium', 'Хавьер Колон'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12963,-0.001932382583618164,to do,"Терри Льюис, которого представляет [ true: Perspective Records; false: ['Nuclear Blast records', 'Verve Forecast Records', 'Polo Grounds Music', 'Carpark Records', 'Rawkus', 'Kitchenware Records', 'Джехст'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13295,-0.0019309520721435547,to do,"Марсело Маттос, [ true: полузащитник; false: ['аутфилдер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17384,-0.001922607421875,to do,Сфера деятельности Ильи Пригожина — [ true: физика; false: ['охота'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11883,-0.001914381980895996,to do,"Раккун-Сити, созданный [ true: Capcom; false: ['Wow Entertainment'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7571,-0.001903533935546875,to do,"Гэвин Эслер, работающий в [ true: BBC; false: ['Nintendo'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11540,-0.0018935203552246094,to do,"Тони Ла Русса Бейсбол, разработанный [ true: Stormfront Studios; false: ['BioWare Corp.', 'Epyx'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15849,-0.001880645751953125,to do,Профессия Карла Уоррена – [ true: актер; false: ['журналист'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8271,-0.0018801689147949219,to do,Фортепианные музыканты [ true: Людвиг ван Бетховен; false: ['Асгер Техау'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4893,-0.001875653862953186,to do,"CNN дебютирует [ true: Capital Gang; false: ['США', 'Научно-фантастический канал', 'TMN', 'Got Talent'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12684,-0.0018619373440742493,to do,"Джон Зорн, которого представляет [ true: цадик; false: ['Doo-Bop', 'Verve Music Group', 'Брайан Холланд', 'Алекс Да Кид', 'Slip-n-Slide', 'Breakbeat Kaos', 'Trisol', 'Motown'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8186,-0.0018396377563476562,to do,Джазовые музыканты [ true: Лу Дональдсон; false: ['Адриан Смит'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20317,-0.0018280744552612305,to do,Энди Дугид исполняет [ true: транс; false: ['триллер'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8164,-0.0018167495727539062,to do,"Музыканты Claymation, такие как [ true: Closed Mondays; false: ['Hangar 18'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17821,-0.0018114447593688965,to do,Числа дебютировали на [ true: CBS; false: ['MTV'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3553,-0.001791238784790039,to do,Анджела Арендтс работает на [ true: Apple; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16590,-0.0017833709716796875,to do,"StyleWriter, созданный [ true: Apple; false: ['Nintendo'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_503,-0.00177764892578125,to do,"Rieko Kodama was originally from [ true: Kanagawa; false: ['Iwaki, Fukushima'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12384,-0.0017519891262054443,to do,"Должность Сакаи Тадакатсу - [ true: daimyo; false: ['Romanian Prime Minister', 'Администрация Санкт-Петербурга'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12617,-0.0017475145203726633,to do,"Бонни Тайлер, которую представляет [ true: RCA; false: ['Малка Спигель', 'WEA', 'EMI Classics', 'Roc-A-Fella', 'Murder Inc Records', 'AFM Records', 'DSP Entertainment'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8175,-0.0017399191856384277,to do,"Музыканты кантри, такие как [ true: Харлан Ховард; false: ['Krautrock', 'Милт Ларкин'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6507,-0.0017331242561340332,to do,Араш Маркази работает на [ true: ESPN; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21758,-0.0017272233963012695,to do,Йонас Стер играет [ true: транс; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20238,-0.0017201900482177734,to do,Capital Gang был выпущен на [ true: CNN; false: ['HBO'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12620,-0.0017156799634297688,to do,"AFX, которую представляет [ true: Rephlex Records; false: ['Cooking Vinyl', 'Enter Shikari', 'Кенни Даверн', 'Fast Product Records', 'Sony Records', 'Мелисса Манчестер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10559,-0.0017080307006835938,to do,"Скотт Миллс, работающий в [ true: BBC; false: ['Nintendo'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5183,-0.0017054080963134766,to do,Во что играет The Book Group? Они играют [ true: ситком; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4943,-0.0017037391662597656,to do,Рэй Оззи работает на [ true: Microsoft; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9644,-0.0016982555389404297,to do,Уолтоны дебютировали на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13401,-0.001697540283203125,to do,Бобби Хамфри исполняет [ true: джаз; false: ['фанк'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8439,-0.0016951560974121094,to do,Hard rock musicians [ true: Def Leppard; false: ['Aya Matsuura'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12583,-0.001692354679107666,to do,"Дайана Росс, которую представляет [ true: Motown; false: ['Temporary Residence Ltd.', 'Бобби Джентри', 'Мантикора', ""4th & B'way"", 'Equal Vision Records', 'политическая партия'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5744,-0.001691436767578125,to do,"Столица Теланганы, [ true: Хайдарабад; false: ['Эрбиль', 'Ранонг', 'Латина, Лацио', 'Бургас', 'КУАЛА-ЛУМПУР'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16941,-0.0016903877258300781,to do,Anja Eline Skybakmoen играет [ true: джаз; false: ['блюз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10187,-0.0016844868659973145,to do,Телефонное время было выпущено на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5480,-0.0016841888427734375,to do,"Чет Бейкер, [ true: композитор; false: ['Мараджи', 'Балетмейстер', 'урбанист', 'эсперантист'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8345,-0.0016728043556213379,to do,Музыканты-фантасты [ true: Сассинак; false: ['Фрэнк Рейес'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4329,-0.0016689300537109375,to do,"Пол Дикенсон, сотрудник [ true: BBC; false: ['Apple'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5035,-0.0016684532165527344,to do,"Уильям Стерн, [ true: психолог; false: ['инженер-строитель'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21834,-0.0016527175903320312,to do,"Перрин Битти, [ true: политик; false: ['актер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1697,-0.0016503334045410156,to do,"Опыт Питера Артеди - [ true: ихтиология; false: ['фотожурналисты', 'Эрнест Орландо Лоуренс'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11742,-0.0016502141952514648,to do,ISO 32000-1 был разработан [ true: Adobe; false: ['Тацуми'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8577,-0.0016465187072753906,to do,Кое-что Уайлдер играет [ true: ситком; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12968,-0.0016404191652933755,to do,"Three 6 Mafia, которую представляет [ true: Prophet Entertainment; false: ['Mint Records', 'Stooges', 'Rise Above Records', 'Тедди Райли', 'Centricity Music', 'EMI Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17345,-0.0016312599182128906,to do,"Карл-Теодор цу Гуттенберг, [ true: политик; false: ['пророк'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15343,-0.0016289949417114258,to do,"Уотсон-Айленд, [ true: Майами; false: ['Невада'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12512,-0.0016271770000457764,to do,"Earthstar, которую представляет компания [ true: Sky Records; false: ['NorthernBlues Music', 'Дэйв Мастейн', 'Тори Амос', 'Better Youth Organization', 'Ruffhouse', 'Arena Rock Recording Co.'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14071,-0.001616358757019043,to do,Храбрый орел дебютировал на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13003,-0.0016050338745117188,to do,Профессия Уитни Хьюстон – [ true: композитор; false: ['актер'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3381,-0.0016045570373535156,to do,"Карадог Робертс, [ true: композитор; false: ['актер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5226,-0.0015999078750610352,to do,"Дэвид Мэтьюз, [ true: композитор; false: ['ведущий', 'профсоюзный организатор'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12889,-0.0015960633754730225,to do,"Они, представленные [ true: Death Row Records; false: ['Большой Уолтер Хортон', 'Alive Naturalsound Records', 'Sparmac', 'GRP Records', 'Megaforce', 'Twisted Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4952,-0.0015777647495269775,to do,"Канал Disney дебютировал на [ true: High School Musical; false: ['BBC Four', 'CityKids', 'RTL 4', 'C-SPAN'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1519,-0.0015736023585001628,to do,"Опыт Ведуте [ true: художник; false: ['Меркатор', 'инженер-программист', 'алхимический'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11243,-0.0015692710876464844,to do,Первоначальным языком Иисуса был [ true: Английский; false: ['тамильский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12830,-0.0015673041343688965,to do,"Исполнители Jet Records, такие как [ true: Secret Messages; false: ['BYO records', 'Глория Эстефан', 'fonovisa', 'Soma Quality Recordings', 'Dangerhouse Records', 'YG Entertainment', 'Aware Records', 'Клод Янг', 'Deezle', 'Moonspell', 'Satellite Records', 'MTM Records', 'Shock Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19722,-0.001561284065246582,to do,Hardwicke House исполняет [ true: ситком; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4723,-0.001559615135192871,to do,"Channel 4 дебютировал на [ true: Time Team; false: ['Sky One', 'Planet Express', 'Cagney & Lacey'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18842,-0.0015544891357421875,to do,Адриан Чайлс работает в [ true: BBC; false: ['Microsoft'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_647,-0.0015501976013183594,to do,"Джеймс Ноти, сотрудник [ true: BBC; false: ['NPR'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6339,-0.001544952392578125,to do,Саймон и Саймон был выпущен на [ true: CBS; false: ['PBS'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2493,-0.0015393495559692383,to do,Семейное дело было выпущено на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8988,-0.0015382766723632812,to do,"E8, созданный [ true: General Motors; false: ['Kværner Masa-Yards'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12569,-0.0015370420047215053,to do,"Крис Катлер, которого представляет [ true: Recommended Records; false: ['143 Records', 'Октавия Сперати', 'Янус', 'Touch & Go Records', 'Okeh', 'Modern Day Escape', 'Glass Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16091,-0.0015355944633483887,to do,Волчье озеро дебютировало на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12671,-0.0015334725379943849,to do,"Аарадна, представленная [ true: Dawn Raid Entertainment; false: ['Looking Glass Workshop', 'True North Records', 'Thrill Jockey', 'Эсперанса Сполдинг', 'CandyRat Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12832,-0.0015149354934692384,to do,"Баррет Стронг, которого представляет [ true: Motown; false: ['Fence Collective', 'Бобби Джентри', 'Мел Бэй', 'Eleven Seven Records', 'Bizaar'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12518,-0.00150527556737264,to do,"Music & Me, представленный [ true: Motown; false: ['Geneon', 'Hitsville West', 'Locomotive Music', 'Слим Данкин', 'EMI Nashville', 'Alternative Tentacles'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18787,-0.0015039443969726562,to do,"Дэвид Дикинсон, сотрудник [ true: BBC; false: ['Apple'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8987,-0.001498103141784668,to do,STAR-100 разработан [ true: CDC; false: ['НПО Энергомаш'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13387,-0.0014963150024414062,to do,Time Lapse исполняет [ true: триллер; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20955,-0.0014896392822265625,to do,Майкл Портильо работает в [ true: BBC; false: ['IBM'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12803,-0.0014757580227322048,to do,"Исполнители Capricorn Records, такие как [ true: They; false: ['Loose Nut', 'Albert Productions', 'Bethlehem', 'Parlophone Records', 'Concord', 'Smash Mouth', 'Трейси Чепмен', 'Myrrh', 'Blue Note Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1883,-0.0014697412649790445,to do,"Экспертиза Джеймса Уила — [ true: Ранний нидерландский; false: ['исторические записи', 'Авраам бар Хийя', 'американский', 'мифолог', 'проказа', 'теория управления'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8386,-0.00145721435546875,to do,"Ролевые музыканты, такие как [ true: Marvel Ultimate Alliance 2; false: ['Лиланд', 'Long Weekend'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21157,-0.0014491081237792969,to do,"Генератор программ отчетов, созданный [ true: IBM; false: ['Microsoft'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5771,-0.001444697380065918,to do,"Столица Мексики — [ true: Толука; false: ['Улунди', 'Меймане'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4195,-0.001430511474609375,to do,Премьера «Большой любви» на [ true: HBO; false: ['MTV'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19817,-0.0014226436614990234,to do,Динки Дог дебютировал на [ true: CBS; false: ['HBO'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20829,-0.0014126300811767578,to do,"Тед Лоу, сотрудник [ true: BBC; false: ['NPR'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4767,-0.001412343978881836,to do,"ABC представит [ true: OLTL; false: ['CBS Television Network', 'Дхарти Ка Вир Йодха Притхвирадж Чаухан', 'KTMA', 'Sky Arts', 'Mayberry R.F.D.'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1608,-0.001406272252400716,to do,"Компетенция Фабрициуса – [ true: насекомое; false: ['Концептуальное искусство', 'косметология', 'генетическая теория', 'рисовальщик', 'метеоролог', 'геохимия'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7862,-0.0014053583145141602,to do,Стэнли Лебовски профессия [ true: композитор; false: ['актер'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5355,-0.0013971328735351562,to do,"Хаим Гури, [ true: журналист; false: ['ресторанный критик'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8266,-0.0013898015022277832,to do,"The Shadow Returns играет в [ true: криминальный фильм; false: ['Suicide Silence', 'гоночный симулятор'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6962,-0.0013871192932128906,to do,Профессия Микачу - [ true: композитор; false: ['философ'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16867,-0.00138092041015625,to do,Арестованное развитие первоначально транслировалось на [ true: Netflix; false: ['CBS'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12838,-0.0013774335384368896,to do,"Джесси Джей, которую представляет [ true: Island Records; false: ['Daptone Records', 'Fueled By Ramen'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6625,-0.001377105712890625,to do,"Сием де Йонг, [ true: soccer; false: ['хоккей'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8720,-0.001358628273010254,to do,Aztec разработан [ true: Piper; false: ['Fincantieri Marghera'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19333,-0.00135040283203125,to do,Премьера Bonanza на [ true: NBC; false: ['CBS'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9991,-0.0013477802276611328,to do,"Эван Бэй, [ true: политик; false: ['актер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17222,-0.0013451576232910156,to do,Дактари дебютировал на [ true: CBS; false: ['HBO'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12823,-0.0013366426740373885,to do,"Drag City записывает таких исполнителей, как [ true: Scout Niblett; false: ['Tzadik Records', 'Pina Records', 'Mute records', 'Down Home', 'AIDS Wolf', 'Deep Elm Records', 'Wildstar Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12586,-0.0013335517474583217,to do,"Тим Армстронг, которого представляет [ true: Hellcat Records; false: ['Paisley Park', 'Байрон Кейдж', 'Radar Records', 'Fair Trade Services', 'Pacific Jazz', 'A&M records', 'Mwng'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9577,-0.0013275146484375,to do,Hearts Are Wild изначально транслировались на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12102,-0.0013235807418823242,to do,"Дон Шула, [ true: футбол; false: ['хоккей'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8473,-0.0013206005096435547,to do,Фредди Фендер играет в [ true: Техано; false: ['бесконечный бег'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1983,-0.0013114452362060548,to do,"Компетенция Дивизиониста - [ true: художник; false: ['психоаналитическая теория', 'экономическая наука', 'ГУЛАГ', 'санскрит', 'Вавилонский Талмуд'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8031,-0.00129777193069458,to do,"Музыканты документального кино, такие как [ true: This Is Elvis; false: ['Валленато', 'Slim & Slam'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12764,-0.001296718915303548,to do,"Дэвид Пил, который представляет [ true: Elektra Records; false: ['P.S.F.', 'U.O.Me', 'Universal J'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8261,-0.001293182373046875,to do,"Музыканты кантри, такие как [ true: Рэнди Оуэн; false: ['Билли Даффи'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12531,-0.0012924472490946453,to do,"Кристиан Баутиста, который представлен [ true: Warner Music Philippines; false: [""Stone'd Records"", 'Эван Таубенфельд', 'Fraternity Records', 'Pony Canyon', 'Universal J', 'Hieroglyphics Imperium'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12506,-0.001289534568786621,to do,"Исполнитель звукозаписи Atlantic [ true: Юсеф Латиф; false: ['Ram-Zet', 'Verve Music Group', 'Crass Records', 'Grand Royal records', 'Field Records', 'Fervent Records', 'Кандидо Камеро', 'Atlantic Records', 'Machine Shop Records', 'Stax Studios'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12814,-0.0012893180052439372,to do,"Эдвард Весала, которого представляет [ true: ECM; false: ['Chemikal Underground Records', 'Norgran Records', 'Sistar19', 'Postcard Records', 'Баддихед', 'Летучий голландец'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19684,-0.001288294792175293,to do,Дирк Мэггс из [ true: BBC; false: ['Apple'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17375,-0.0012845993041992188,to do,Стив Крэм работает в [ true: BBC; false: ['NPR'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12575,-0.0012799575924873352,to do,"Исполнители Reprise Records, такие как [ true: Brave Belt; false: ['Angular Recording Corporation', 'EPIC', 'Сиара', 'EMI Music Australia', 'Concept Records', 'Image Entertainment', ""It Doesn't Matter Anymore"", 'Steamhammer/SPV'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5154,-0.0012736320495605469,to do,"Хишам Зрейк, [ true: поэт; false: ['посвященный в рыцари', 'автор песен', 'Антрополог'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5122,-0.0012736121813456218,to do,"Свеа Холст, [ true: киноактриса; false: ['владелец СМИ', 'матадор', 'букмекерская контора'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2466,-0.0012717247009277344,to do,"Super8 и Таб, играющий [ true: транс; false: ['джаз'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12266,-0.0012662410736083984,to do,Какую позицию играет Mike Scioscia? Они играют как [ true: ловец; false: ['вратарь'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4777,-0.001263648271560669,to do,"Сеть США дебютировала на [ true: Psych; false: ['V-Me', 'Yle', 'Rai Tre', 'Плайя-дель-Соль'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11647,-0.0012596845626831055,to do,"Populous, разработанный [ true: Bullfrog; false: ['Avalanche Software'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12833,-0.0012541753905160086,to do,"Гуи Боратто, которого представляет [ true: Kompakt; false: ['Chrysalis Records', 'Loosegroove', 'Sense Field', 'Grunt Records', 'Parlophone', 'Tooth & Nail', 'Бесеркли'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12649,-0.0012528300285339355,to do,"Ширли Скотт, которую представляет [ true: Prestige; false: ['Anthem Records', 'Avantgarde Music', 'Длинная высокая Салли', 'Flying Dutchman', 'Brille', 'Brownswood Recordings', 'New World', 'Ladyhawk'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3356,-0.0012493133544921875,to do,Осип Бернштейн устроился на работу в [ true: Париж; false: ['Амстердам'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14889,-0.00124359130859375,to do,Пакет приложений был разработан [ true: Apple; false: ['Microsoft'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20871,-0.0012388229370117188,to do,Хи Хо дебютировала на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12925,-0.0012331008911132812,to do,"Songs For Young Lovers, которую представляет компания [ true: Capitol; false: ['Alligator', 'Impulse!'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11737,-0.001222372055053711,to do,"Балбесы II, разработанные [ true: Konami; false: ['Jagex'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8694,-0.0012216269969940186,to do,"FL9, созданный [ true: Electro-Motive Division; false: ['Иркут', 'GlaxoSmithKline'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5190,-0.001218348741531372,to do,"Гаспар Энейн, [ true: комик; false: ['эсперантист', 'полевой репортер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1742,-0.001216784119606018,to do,"Опыт Венделина Вернера - [ true: вероятностный; false: ['Марков', 'HVAC', 'Вероятность', 'Иоганн Баухин'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5139,-0.0012087821960449219,to do,"Ким Чен Пиль, [ true: политик; false: ['тренер по ударам'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10350,-0.0012054443359375,to do,Уилли Деннис исполняет [ true: джаз; false: ['ситком'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16557,-0.0012004375457763672,to do,Адам Шефтер работает на [ true: ESPN; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5263,-0.0011954307556152344,to do,"Николас Удалл, [ true: драматург; false: ['градостроитель', 'писатель'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8274,-0.0011951923370361328,to do,кантри музыканты [ true: Марк Чеснатт; false: ['хип-хоп музыка'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11376,-0.001194000244140625,to do,"Сид Уодделл, сотрудник [ true: BBC; false: ['NBC'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1117,-0.0011911392211914062,to do,"Терри Воган, сотрудник [ true: BBC; false: ['IBM'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8068,-0.0011878013610839844,to do,"Музыканты манги Seinen, такие как [ true: Young Magazine Uppers; false: ['японская популярная музыка', 'Prince Buster'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7565,-0.0011806488037109375,to do,Барри Дэвис работает в [ true: BBC; false: ['Microsoft'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18665,-0.0011655092239379883,to do,Обратный отсчет в понедельник вечером был выпущен на [ true: ESPN; false: ['CBS'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1387,-0.0011647939682006836,to do,"Адриан Ньюи, сотрудник [ true: McLaren; false: ['BBC'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16760,-0.001163482666015625,to do,Профессия Линн Кэрол – [ true: актер; false: ['дипломат'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12682,-0.0011610910296440125,to do,"Бобби Винтон, которого представляет [ true: Epic Records; false: ['ZYX Records', 'Century Media Records', 'Sire Records', 'Swisha House', 'Telarc', 'Синден', 'CBS Records', 'Audioboxer'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1827,-0.0011481940746307373,to do,"Экспертиза Джорджа Буля - [ true: логика; false: ['криптолог', 'Уолтер Буллер', 'фикх', 'малая планета'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16088,-0.0011453628540039062,to do,Рода дебютировала на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2058,-0.0011448860168457031,to do,Вариан Фрай устроился на работу в [ true: Марсель; false: ['Эсслинген'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8234,-0.00113677978515625,to do,Сироне играет [ true: джаз; false: ['ситком'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11701,-0.00113677978515625,to do,VMS был разработан [ true: DEC; false: ['Nihilistic Software'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1568,-0.001134634017944336,to do,Октонавты были выпущены на [ true: BBC; false: ['PBS'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8119,-0.0011305809020996094,to do,"Джазовые музыканты, такие как [ true: Black Saint; false: ['Lego Marvel Super Heroes'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4947,-0.0011142492294311523,to do,"ABS-CBN представит [ true: Sineserye Presents; false: ['TVE1', 'Fox & Friends', 'Arirang TV', 'TNA Xplosion'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5224,-0.0011043548583984375,to do,"Сун Ра, [ true: композитор; false: ['дьякон'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8285,-0.001102536916732788,to do,"Джазовые музыканты [ true: Пол Десмонд; false: ['Часто задаваемые вопросы о путешествиях во времени', 'говорящие статуи'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8428,-0.0010971426963806152,to do,Ньюхарт дебютировал на [ true: CBS; false: ['MTV'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12644,-0.001079428195953369,to do,"Ян Гарбарек, который представляет [ true: ECM; false: ['Sam & Dave', 'Юрген Паапе', 'Relentless', 'Slip-n-Slide', '2 Tone'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21223,-0.0010776519775390625,to do,Unscripted был выпущен на [ true: HBO; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1535,-0.0010680158933003743,to do,"Экспертиза Пола - [ true: ботанический; false: ['Карл Сигизмунд Кунт', 'радиохимик', 'муфассир', 'Герхард Рингель', 'фосфоресценция', 'эскаполог', 'энтомолог', 'Kardecist', 'Богданов'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14991,-0.0010585784912109375,to do,Двадцать один дебютировал на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1774,-0.0010548233985900879,to do,"Эксперт школы Тории - [ true: художник; false: ['дислексия', 'ЛГБТИ', 'Конрад Лоренц', 'музыковед', 'спиритизм', 'Наум Ильич Ахиезер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9908,-0.0010395050048828125,to do,Exmor производится [ true: Sony; false: ['Fiat'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1649,-0.0010390281677246094,to do,Список клиентов был выпущен на [ true: Lifetime; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19215,-0.00103759765625,to do,"Эндрю Оливер, [ true: политик; false: ['актер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12841,-0.0010375231504440308,to do,"Маргарет Уайтинг, которую представляет [ true: Capitol Records; false: ['Alive Records', '4AD Records', 'So So Def', 'Sue Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5240,-0.0010350346565246582,to do,"Джоан Коллинз, [ true: актриса; false: ['телевизионный режиссер', 'Генетик'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11718,-0.001031637191772461,to do,"Слай Купер, разработанный [ true: Sucker Punch; false: ['ISI'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8606,-0.0010301470756530762,to do,"VAX, созданный [ true: Digital Equipment Corporation (DEC); false: ['SIG', 'Хиро'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4553,-0.0010265707969665527,to do,ABC дебютировал на [ true: Nightline; false: ['K-Ville'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4694,-0.0010222792625427246,to do,BBC дебютирует в [ true: Countryfile; false: ['Малибу Шорс'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5942,-0.0010207891464233398,to do,Закон в Туркменистане объявляет языком [ true: Русский; false: ['финский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5649,-0.0010142326354980469,to do,Михир Бозе работает в [ true: BBC; false: ['ЮНЕСКО'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8230,-0.0010123848915100098,to do,"Панк-рок-музыканты, такие как [ true: Newtown Neurotics; false: ['Фридрих Шиллер', 'Peccatum'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3503,-0.0010118484497070312,to do,Премьера «Менталиста» на [ true: CBS; false: ['MTV'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4447,-0.0010114312171936035,to do,"Лоуренс Тиш, работающий в [ true: CBS; false: ['IBM'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12700,-0.0010050833225250244,to do,"Джонни Матис, выпущенный [ true: Columbia Records; false: ['Asylum records', 'V2', 'Jubilee Records', 'Poe Boy Entertainment', 'Cameo', 'Massacre Records', 'Stones Throw records', 'Track Records', 'Average Joes Entertainment', 'Polar Music', 'Good Girl Gone Bad', 'Caddillac Tah'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12236,-0.001003265380859375,to do,Положение Бейбарса - [ true: Султан; false: ['королева-мать'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4730,-0.0010025699933369954,to do,"KTTV представит сеть [ true: Good Day L.A.; false: ['Fox Business Network', 'Mega Disasters', 'Radio 105 Network'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12400,-0.0010013580322265625,to do,Опыт Уильяма Гершеля - [ true: астрономия; false: ['биология'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20249,-0.000995635986328125,to do,"Портбоу, [ true: Каталония; false: ['Виктория'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12807,-0.0009926060835520427,to do,"Джефф Бейтс, которого представляет [ true: Black River Entertainment; false: ['Victory', 'Epitaph', 'Элла Фицджеральд', 'Барнаби', 'Гретта Кон', 'Get Low Recordz'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8060,-0.0009914934635162354,to do,"Музыканты Super Scope, такие как [ true: Battle Clash; false: ['Майкл Хендерсон', 'тактическая ролевая игра'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4967,-0.000989288091659546,to do,"Dark Shadows дебютировали на [ true: ABC-TV; false: ['СТВ Север', 'CHRO-TV', 'Shear Genius', 'WNYW-TV'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1583,-0.0009846687316894531,to do,"Лорн Спайсер, работающий в [ true: BBC; false: ['Apple'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4980,-0.0009843196187700545,to do,"Channel 4 дебютирует [ true: Football Italia; false: ['BBC Two', 'Salute Your Shorts', 'RTL 7', 'WLVI-TV', 'ТВНЗ 7', 'CBC Television', 'Forever Eden'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3320,-0.0009789466857910156,to do,Нина Истон работает в [ true: Fortune; false: ['NPR'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12550,-0.0009760657946268718,to do,"You Better Sit Down Kids, представленный [ true: Imperial Records; false: ['Toshiba EMI', 'Plies', 'Hello Rockview', 'Kataklysm', 'Fierce Panda', 'Universal Music Sweden'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17771,-0.0009696483612060547,to do,Ален де Кадене работает на [ true: ESPN; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12635,-0.0009538133939107258,to do,"Айк и Тина Тернер, представленные [ true: United Artists Records; false: ['Concord Records', 'New Jazz', 'Standby Records', 'Revelation', 'Али и Гипп', 'Joyful Noise Recordings'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_536,-0.0009455680847167969,to do,Владелец Vevo [ true: Google; false: ['Виннипег'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5023,-0.0009450912475585938,to do,"Юэнь Во Пин, [ true: актриса; false: ['сценарист', 'Они', 'хирург-стоматолог'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8548,-0.0009436607360839844,to do,Roll Out был выпущен на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12849,-0.0009417268964979383,to do,"Исполнители Sony Music Australia, такие как [ true: Стэн Уокер; false: ['Ghost Box Music', 'Star People', 'Eyeball Records', 'Vocalion', 'Sony', 'Indecision', 'Z-Trip', 'InsideOut', 'Розмари Клуни'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7632,-0.0009415944417317708,to do,"Язык пресловутого [ true: Французский; false: ['англо-саксонский', 'индонезийский', 'До Калияан'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21058,-0.0009407401084899902,to do,Во что играют The Likely Lads? Они играют [ true: ситком; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2925,-0.0009374618530273438,to do,"Столица округа Хевеш, [ true: Эгер; false: ['Бухарест'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12906,-0.0009342730045318604,to do,"Ким Уэстон, которую представляет [ true: Motown; false: ['Sappy Records', 'цадик', 'Peacock Records', 'Phonogram', 'Virgin Music', 'Three Gut Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12546,-0.0009318093458811442,to do,"Они, которых представляет [ true: Universal Records; false: ['Babygrande', 'Phonogram Records', 'Strange Music', 'Hieroglyphics Imperium', 'Матмос', 'Ян Андерсон'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5412,-0.0009247660636901855,to do,"Роберт Ардри, [ true: драматург; false: ['математик', 'каскадер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1545,-0.000919342041015625,to do,"Опыт Стивена Хейлза [ true: физиолог; false: ['Зигмунд Фрейд', 'Иоганн Баухин', 'алхимический'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12698,-0.0009186863899230957,to do,"Мэри Форд, выпущенный [ true: Capitol Records; false: ['Sussex Records', 'Key Sounds Label', 'Helicon', 'Some Bizzare', 'V.I.P.', 'Recommended Records', 'Universal Music Sweden'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1522,-0.0009110569953918457,to do,На Бонайре понимают [ true: Голландский; false: ['шведский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16677,-0.0009090900421142578,to do,"Скотт Миланович, [ true: защитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5236,-0.0009074211120605469,to do,"Стивен Грэм, [ true: актер; false: ['ремесленник', 'концертмейстер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8202,-0.0009038448333740234,to do,"Музыканты хип-хопа, такие как [ true: Fabolous; false: ['SingStar', 'Dirtbombs'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6530,-0.0009012222290039062,to do,"Рэндалл Каннингем, [ true: защитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12920,-0.0008988142013549804,to do,"Ронни Дав, которого представляет [ true: Diamond Records; false: ['DGC', 'Pretty Hate Machine', 'Ронни Мэтьюз', 'MCA records', 'Greenthink'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12601,-0.0008906892367771693,to do,"Майлз Дэвис, представленный [ true: Prestige Records; false: ['Sussex Records', 'DGM', 'FiXT Music', 'SST Records', 'Cooking Vinyl records', 'Parkway Records', 'Three Gut Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1542,-0.0008878707885742188,to do,"Джудит Батлер по специальности [ true: странный; false: ['патологоанатом', 'вирусолог'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1864,-0.0008824268976847331,to do,"Сфера деятельности Тадаса Иванаускаса – [ true: зоолог; false: ['биоэтика', 'Уильям Херд Килпатрик', 'композитор'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11662,-0.0008783340454101562,to do,"Варша Бхосле, [ true: журналист; false: ['актер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17127,-0.0008733868598937988,to do,Карлос Гон работает на [ true: Renault; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18680,-0.0008716583251953125,to do,Кэгни и Лейси дебютировали на [ true: CBS; false: ['PBS'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5009,-0.0008695125579833984,to do,"Джордж Булос, [ true: математик; false: ['су-шеф', 'Главный дворецкий', 'федеральный делегат'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4832,-0.0008662223815917968,to do,"Syfy дебютирует на [ true: Alphas; false: ['SportsCentre', 'TVOntario', 'Al Diablo con los Guapos', 'WWVA', 'Nippon Television'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4445,-0.0008651018142700195,to do,Квотербек Принцесса дебютировала на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9638,-0.00086212158203125,to do,Род занятий Паруйра Севака - [ true: поэт; false: ['астроном'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16913,-0.0008611679077148438,to do,Премьера Cartoon Sushi на канале [ true: MTV; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8237,-0.0008576512336730957,to do,"Виновный Симпсон, играющий [ true: рэп; false: ['Вьетнам'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4835,-0.000857234001159668,to do,Speed ​​Buggy был выпущен на [ true: CBS; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12775,-0.0008559491899278429,to do,"Исполнители немецкого граммофона, такие как [ true: Юнди; false: ['Voices Music & Entertainment', 'Epic records', 'TVT Records', 'Loosegroove', 'Пабло', 'Анарбор', 'Snapper Music', 'Northwestside Records', 'DJ Food'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4789,-0.0008530616760253906,to do,Дебют Fuse в [ true: Pants-Off Dance-Off; false: ['RTL'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5139,-0.000852048397064209,to do,В Бразилии понимают [ true: португальский; false: ['шведский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11340,-0.0008486509323120117,to do,"Исайя Осборн, [ true: полузащитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20066,-0.0008449554443359375,to do,Во что играет Фрейзер? Они играют [ true: ситком; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10772,-0.0008425712585449219,to do,Hitachi Rail Italy владелец [ true: Леонардо; false: ['Nintendo'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16109,-0.0008423328399658203,to do,Bundesautobahn 6 владелец [ true: Германия; false: ['Nintendo'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8516,-0.0008365511894226074,to do,Элан разработан [ true: Lotus; false: ['Hohner'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12758,-0.0008291721343994141,to do,"Eazy-E, представленный [ true: Ruthless Records; false: ['Eyeball Records', 'ABC-Paramount', 'Нэн Уоршоу', 'Amar la Trama', 'Xemu Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6658,-0.0008268356323242188,to do,Рэй Стаббс работает в [ true: BBC; false: ['Microsoft'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8403,-0.0008251070976257324,to do,"Фрэнк Боу, [ true: BBC; false: ['ЮНЕСКО'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8167,-0.0008242130279541016,to do,"Музыканты из документальных телесериалов, такие как [ true: Hard Knocks; false: ['глэм-метал', 'Loud Like Love'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5283,-0.000820159912109375,to do,"Кристиан Скотт, [ true: композитор; false: ['ведущий новостей'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9524,-0.000818789005279541,to do,"Йоги Берра, [ true: ловец; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12543,-0.000818789005279541,to do,"Ли Морган записывался для [ true: Blue Note; false: ['DG', 'Losing My Edge', 'Cheeky Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10299,-0.0008096694946289062,to do,"Томми Смит, [ true: футбол; false: ['бейсбол'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11862,-0.0008082389831542969,to do,"KOF '98, разработанный [ true: СНК; false: ['Codo Technologies'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7824,-0.0008063316345214844,to do,"Уильям Глок, сотрудник [ true: BBC; false: ['Microsoft'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1018,-0.0008039474487304688,to do,Bundesautobahn 13 владелец [ true: Германия; false: ['Nintendo'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4549,-0.0008023977279663086,to do,"Telefe дебютирует с [ true: Chiquititas; false: ['30 Rock', 'NBC.com', 'общественное телевидение', 'Sensitive Skin'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12834,-0.0008019540044996473,to do,"Артисты Matador Records, такие как [ true: Wowee Zowee; false: ['Cryptogramophone', 'Shanachie Records', 'Tomlab', 'Kudu Records', 'Emerson String Quartet', 'Вик Шон', 'Big Beat Records', 'Apple Corps', 'Rooster Blues'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8581,-0.0008004903793334961,to do,MVS является продуктом [ true: IBM; false: ['Intel'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8462,-0.0007991790771484375,to do,"Футбольные музыканты, такие как [ true: FIFA 07; false: ['Елизаветинская драма'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8928,-0.0007991790771484375,to do,Эвальд Риг устроился на работу в [ true: Осло; false: ['Берлин'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8249,-0.000793159008026123,to do,"Музыканты боевиков, такие как [ true: Space Mutiny; false: ['Пирс Энтони', 'Уильям ДеВон'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14970,-0.0007925033569335938,to do,"Янник Картер, [ true: полузащитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5031,-0.0007863044738769531,to do,"Лукас Бельво, [ true: актер; false: ['монах', 'Десантник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12709,-0.0007790476083755493,to do,"Madchild, представленный [ true: Suburban Noize; false: ['Mshasho Records', 'P-Vine Records', 'Telstar Records', 'So So Def'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21087,-0.0007767677307128906,to do,Карл Барт устроился на работу в [ true: Берлин; false: ['Лондон'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19718,-0.0007750988006591797,to do,"Шон Гленнон, [ true: защитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8267,-0.0007722079753875732,to do,"Альтернативные рок-музыканты, такие как [ true: Manic Street Preachers; false: ['Black Samson', 'струнный квинтет'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2900,-0.000766754150390625,to do,Медовая война в [ true: Миссури; false: ['Колорадо'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11851,-0.0007658004760742188,to do,"Arcticfox был разработан [ true: Dynamix; false: ['Macromedia Inc.', 'SUSE'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7825,-0.0007649064064025879,to do,"Язык муми-троллей был [ true: шведский; false: ['Садху Миранда', 'авадхи'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2584,-0.0007630586624145508,to do,Воздушные бои дебютировали на [ true: History; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18823,-0.0007610321044921875,to do,"Бриджит Кендалл, сотрудник [ true: BBC; false: ['BMW'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8113,-0.0007494688034057617,to do,"Те, кто играет [ true: дум-метал; false: ['Тройной крест', 'Австралийский хип-хоп', 'фолк-рок'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9986,-0.0007473230361938477,to do,Интерфейсный Разработчик был создан [ true: Apple; false: ['Microsoft'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_3258,-0.0007371902465820312,to do,Хинди является официальным языком [ true: Дели; false: ['урду'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12982,-0.0007243752479553223,to do,"Лес Клейпул, который представляет [ true: Prawn Song; false: ['OKeh Records', 'Энтони Коулман', 'Punk Core Records', 'Strictly Rhythm', 'Fair Trade Services', 'Warner Music Finland'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5331,-0.0007229149341583252,to do,"Артур Освальд Джеймс Хоуп, [ true: политик; false: ['Детская актриса', 'порнозвезда'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12820,-0.0007157751492091588,to do,"Джо Уолш, представленный [ true: Dunhill Records; false: ['Lava Records', 'Боуи', 'Paramount', 'Low Spirit', 'Kung-Fu Records', 'Track Records', 'Slip-n-Slide Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8017,-0.0007150173187255859,to do,"Магнус Магнуссон, сотрудник [ true: BBC; false: ['IBM'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8026,-0.0007097125053405762,to do,"Enka музыканты [ true: Джеро; false: ['Voodoo Man', 'цифровой хардкор'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15238,-0.00070953369140625,to do,Во что играет Клир? Они играют [ true: фанк; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21780,-0.0007081031799316406,to do,Во что играет Best Selling Secrets? Они играют [ true: ситком; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1360,-0.0007038116455078125,to do,Фредди Кеппард исполняет [ true: джаз; false: ['фанк'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2787,-0.0007023811340332031,to do,"Столица Изабеллы, [ true: Илаган; false: ['Сведала', 'Батум'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1926,-0.0007019639015197754,to do,"Опыт Рэя Ланкестера - [ true: зоолог; false: ['фармакология', 'Химия'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1295,-0.000701904296875,to do,Экспертиза Рауля Ботта — [ true: геометрия; false: ['фотография'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1771,-0.0007002353668212891,to do,Опыт вагнеровца [ true: опера; false: ['Английский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11568,-0.0006988048553466797,to do,"ASCI Red, созданный [ true: Intel; false: ['Kogado Studio', 'Vint Cerf'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21605,-0.00069427490234375,to do,Салат играет [ true: фанк; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12699,-0.0006928682327270509,to do,"The Dogg, который представляет [ true: Мшашо; false: ['SRC Records', 'Джинджер Бейкер', 'For Life Music', 'Universal Republic', 'RGC'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9994,-0.000690460205078125,to do,В Центральных Висайях понимают [ true: Английский; false: ['индонезийский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4706,-0.0006843507289886475,to do,"Aliados дебютировал на [ true: Telefe; false: ['France 3', 'Katholieke Radio Omroep'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15243,-0.0006783008575439453,to do,Sylencer стартовал в [ true: Чикаго; false: ['Глазго'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12992,-0.0006757179896036783,to do,"Kentucky Woman, представленная [ true: Bang Records; false: ['Nitro Records', 'Geneon', 'MPS', 'Ваксахатчи', 'Contemporary Records', 'Grand Royal Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8411,-0.0006731748580932617,to do,Рок-музыканты [ true: You Really Got Me; false: ['Stereomud'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2750,-0.000671684741973877,to do,GE True дебютировал на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10284,-0.0006703734397888184,to do,"Вирджил Картер, [ true: защитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_958,-0.000667572021484375,to do,Грета Ван Састерен работает на [ true: CNN; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4670,-0.0006536642710367838,to do,"Мировые новости сейчас дебютировали на [ true: ABC; false: ['Hum Tv', 'BBC 2', 'Battle Fever J'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8548,-0.0006525516510009766,to do,VT100 является продуктом [ true: DEC; false: ['Fratelli Tanfoglio S.N.C.'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12955,-0.0006402879953384399,to do,"Исполнители Philadelphia International Records, такие как [ true: Back Stabbers; false: ['Asthmatic Kitty', 'Prophet Posse', 'Elektra Records', 'Sumerian', 'Гатри', 'Here Come The 123s', 'EMI Ireland', 'Silent Majority Group'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21017,-0.0006393790245056152,to do,Жюстин Суисса играет [ true: транс; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11578,-0.0006342530250549316,to do,"Сайлент Хилл, созданный [ true: Double Helix Games; false: ['Kogado Studio'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1637,-0.00063323974609375,to do,Texas Rising дебютировал на [ true: History; false: ['CBS'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2782,-0.0006331602732340494,to do,"Столица Китая город [ true: 北京; false: ['Каннаудж', 'Южный Калимантан', 'Нижегородский'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5375,-0.000632166862487793,to do,Вместе мы выстоим премьера на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12912,-0.0006190453256879534,to do,"Они, которые представлены [ true: Suretone Records; false: ['Rabid Records', 'Profile Records', 'Линда Перри', 'Hitsville West', 'Eleven Seven', 'Desert Storm Records', 'Modern Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11637,-0.000615537166595459,to do,"Осада подземелья, созданная [ true: Gas Powered Games; false: ['FSF', 'Insomniac Games'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11866,-0.0006138086318969727,to do,"Атака муравьев, созданная [ true: Quicksilva; false: ['Wavefront'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12636,-0.0006128450234731039,to do,"Джимми Кливленд, которого представляет [ true: EmArcy; false: ['Warcon', 'Метрополис', 'SteepleChase', 'Long Tall Weekend', 'Kontor Records', 'Барсук'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6945,-0.0006079673767089844,to do,"Internet Information Services, продукт [ true: Microsoft; false: ['IBM'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4517,-0.0006022850672403971,to do,"Televisa дебютировала на [ true: Sentimientos Ajenos; false: ['Soir 3', 'Jumping Ship', 'KWHY-TV'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7374,-0.0006022453308105469,to do,"Случайная рука, созданная [ true: Кейли; false: ['Кроули'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21394,-0.0005979537963867188,to do,Нимфоманку создали в стране [ true: Дания; false: ['Канада'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15484,-0.0005950927734375,to do,"Сьюзан Каре, сотрудник [ true: Apple; false: ['BBC'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4657,-0.000589442253112793,to do,"Sushi Pack дебютировал на [ true: CBS; false: ['Comic View', 'CrashBurn', 'Das Erste', 'CX', 'St Elsewhere'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12721,-0.0005872607231140137,to do,"Slippery When Ill, представленный [ true: Restless Records; false: ['Dial Records', 'Frenchkiss', 'Big Machine', 'Five Minute Walk', 'Prestige Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12653,-0.0005847130502973284,to do,"The Crew-Cuts, представленный [ true: Mercury Records; false: ['Half A Cow', 'Atco', 'Эми Итальяна', 'Bloodshot Records', 'Universal Music Group', 'Engine Company Records', 'Virgin Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8187,-0.0005846023559570312,to do,Автопортрет музыкантов [ true: Beauty Revealed; false: ['НХЛ 09'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12850,-0.000583493709564209,to do,"Их лейбл [ true: Heads Up International; false: ['Bloodshot records', 'Frenchkiss', 'PolyGram Records', 'Goo Goo Dolls', 'BME'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3439,-0.0005826950073242188,to do,"Гершель Уокер, [ true: футбол; false: ['хоккей'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4809,-0.0005820989608764648,to do,"NBC дебютировал на [ true: You Bet Your Life; false: ['Sky 1', 'SPIKE TV'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5117,-0.0005816221237182617,to do,"Габриэле Альбертини, [ true: политик; false: ['тренер', 'судовладелец', 'интендант'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1364,-0.0005772113800048828,to do,Во что играет Весинос? Они играют [ true: ситком; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3294,-0.0005758404731750488,to do,"Холли Роу, [ true: ESPN; false: ['NBC'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17197,-0.0005712509155273438,to do,"Антон Фиер, [ true: композитор; false: ['актер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6113,-0.0005707740783691406,to do,Во что играет Мика Похьёла? Они играют [ true: джаз; false: ['блюз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20928,-0.0005595684051513672,to do,Премьера фильма «Свидание с моей мамой» на [ true: MTV; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4793,-0.000557104746500651,to do,"CBS представит [ true: Navy Log; false: ['PlayMania', 'RTL5', 'AXS TV'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12210,-0.0005540847778320312,to do,Американский опыт был выпущен на [ true: PBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15805,-0.0005512833595275879,to do,Премьера Эквалайзера на [ true: CBS; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2458,-0.000550389289855957,to do,Театр кинорежиссеров дебютировал на канале [ true: NBC; false: ['HBO'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12556,-0.0005447183336530413,to do,"Тревор Хорн, представленный [ true: ZTT; false: ['Serjical Strike', 'Кларк Трейси', 'Beserkley Records', 'Radioactive Records', 'Spinefarm', 'Monument Records', 'Wrasse Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12779,-0.0005440612634023031,to do,"Джон Кейл, представленный [ true: ZE; false: ['Лео', 'Starship', 'BMG', 'ATP Recordings', 'Галло', 'Kompakt Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5403,-0.0005358308553695679,to do,"Сэр Питер Максвелл Дэвис, [ true: композитор; false: ['детектив', 'рефери', 'Playback', 'ведущий'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5199,-0.0005340576171875,to do,"Джоан Хули, [ true: актриса; false: ['военный советник', 'сценарист', 'литературный агент'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8215,-0.0005321502685546875,to do,Народные музыканты [ true: Дар Уильямс; false: ['Уоррен Фицджеральд'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12794,-0.0005287379026412964,to do,"Mac Dre записали для [ true: Thizz; false: ['Loud Records', 'Lench Mob Records', 'Messenger Records', 'Blue Thumb Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21897,-0.0005269050598144531,to do,Short Circuitz был выпущен на [ true: MTV; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3941,-0.0005161166191101074,to do,В Бенине понимают [ true: Французский; false: ['индонезийский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7819,-0.000514984130859375,to do,"Кетер Донохью, [ true: актер; false: ['философ'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12183,-0.0005095005035400391,to do,Владелец Bundesautobahn 43 [ true: Германия; false: ['Денвер'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3511,-0.0005086660385131836,to do,Во что играет Назенблутен? Они играют [ true: хардкор; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5794,-0.000508427619934082,to do,В Евросоюзе понимают [ true: Английский; false: ['шведский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12051,-0.0005011558532714844,to do,"Хамдин Сабахи, [ true: политик; false: ['актер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4991,-0.000499725341796875,to do,"ABC дебютировала на [ true: Wipeout; false: ['WBUR', 'Food Wars'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7387,-0.000499725341796875,to do,Уильям Кроули работает на [ true: BBC; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4710,-0.0004969984292984009,to do,"Выпуск BBC [ true: Comedy Playhouse; false: ['CNBC Europe', 'DWFM', 'Rai 2', 'Morning Joe'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12836,-0.0004945322871208191,to do,"Блейк Морган, которого представляет [ true: Engine Company Records; false: ['Vee-Jay Records', 'Independiente Records', 'Dawn Records', 'Criss Cross Jazz', 'Universal J', 'Grand Royal Records', 'Facedown', 'Flying Fish'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11835,-0.000492393970489502,to do,"Castle Wolfenstein, разработанный [ true: Muse Software; false: ['Firaxis Games'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6914,-0.000491797924041748,to do,В Эсватини понимают [ true: Английский; false: ['испанский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12827,-0.00048824719020298544,to do,"Исполнитель записи ECM [ true: Мик Гудрик; false: ['Volcom Entertainment', 'Alfa Records', 'Wind-Up records', 'Сатурн', 'Charnel Music', 'Майлз Смайлс', 'Scared Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4570,-0.0004879434903462728,to do,"ABC дебютировал на [ true: Red Widow; false: ['CBC Prime Time News', 'Zindagi Gulzar Hai', 'Telecinco'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5217,-0.0004856586456298828,to do,Премьера «Декабрьской невесты» на [ true: CBS; false: ['Lifetime'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12964,-0.0004848970307244195,to do,"Тот же трейлер, другой парк, выпущенный [ true: Mercury Nashville; false: ['143 Records', 'Candid', 'Daptone Records', 'Parlophone Records', 'Amrep', '2 Tone Records', 'InsideOut', 'P.Diddy', 'Fast Product'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5751,-0.00048464536666870117,to do,Пэдди Лоу работает на [ true: McLaren; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3411,-0.0004825592041015625,to do,В Сабе понимают [ true: Голландский; false: ['испанский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8083,-0.0004800558090209961,to do,Музыканты босса-новы [ true: Ситти; false: ['Имельда Мэй'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12578,-0.00047428905963897705,to do,"Народный чемпион записан для [ true: Atlantic Records; false: ['Soma Quality Recordings', 'Ignition Records', 'Albert Productions', 'Secret City', 'DefStar Records', 'Grand Royal Records', 'Outerloop Management', 'Flying Fish'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10065,-0.0004706382751464844,to do,Александр О'Нил играет [ true: фанк; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8738,-0.0004673004150390625,to do,На Синт-Мартене понимают [ true: Голландский; false: ['датский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5315,-0.0004659295082092285,to do,"Цуёси Ихара, [ true: актер; false: ['Спортивный директор', 'дорожный менеджер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8197,-0.0004649162292480469,to do,"Панк-музыканты [ true: Bad Religion; false: ['Ноктурникет', 'Эксплуатационный фильм'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8150,-0.0004634857177734375,to do,2 девчонки на мели изначально транслировались по [ true: CBS; false: ['MTV'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12981,-0.0004604756832122803,to do,"Артур Конли, которого представляет [ true: Atco Records; false: ['Every Girl', 'CBS Sony', 'Sony Records', 'Beggars Banquet Records', 'InsideOut', 'RCA Victor'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12919,-0.0004589676856994629,to do,"Красный грузовик Желтый грузовик, представленный [ true: Beggars Banquet; false: ['Барнаби', 'Hospital Records', 'Timberyard Records', 'Сигурд Вонгравен', 'Clay records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4819,-0.0004584193229675293,to do,"CW Network дебютирует [ true: Tree Hill; false: ['Le Juste Prix', 'С любовью, Сидни'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8454,-0.00045752525329589844,to do,Джазовые музыканты [ true: Чарльз Мингус; false: ['хоро'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4904,-0.00045447051525115967,to do,"Channel 4 представит [ true: Green Wing; false: ['Альфред Хичкок представляет', 'Сарво', 'Big Morning Buzz Live', 'ONE HD'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10673,-0.0004526376724243164,to do,"Винсент Лабан, [ true: полузащитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1093,-0.0004520416259765625,to do,"Энди Кершоу, сотрудник [ true: BBC; false: ['Fiat'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12545,-0.00045107801755269383,to do,"Артисты Gold Standard Laboratories, такие как [ true: Chromatics; false: ['143 Records', 'DCD2 Records', 'Atomic Bitchwax', 'Wierd Records', 'Майкл Красснер', 'Menart Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21892,-0.0004380345344543457,to do,Во что играет Челмсфорд 123? Они играют [ true: ситком; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1584,-0.0004341602325439453,to do,Компетенция Камила Звелебиля — [ true: тамильский; false: ['манга'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12946,-0.0004338820775349935,to do,"Rolling Stones, которую представляет [ true: Decca; false: ['Roc-A-Fella records', 'Flying Dutchman', 'Roc-a-Fella'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17204,-0.00042724609375,to do,"Ронни Фостер, [ true: джаз; false: ['сатира'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14552,-0.0004253387451171875,to do,Сьюзи Ариоли играет [ true: джаз; false: ['фанк'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12605,-0.0004201928774515788,to do,"Джон МакЭнти, которого представляет [ true: Relapse Records; false: ['Broken Bow Records', 'Vertigo', 'Lava Records', 'Arhoolie', 'Desert Storm Records', 'Planet Mu'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8434,-0.0004197359085083008,to do,Рок-музыканты [ true: Джон Дикон; false: ['Pardon My Sarong'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5091,-0.0004169940948486328,to do,"Монфор Стоукс, [ true: политик; false: ['Музыкальный руководитель', 'ведущий'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1479,-0.00041490793228149414,to do,Эллен Хэнкок работает на [ true: IBM; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15692,-0.00041294097900390625,to do,Профессия Махешвари - [ true: актер; false: ['философ'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12984,-0.0004114678927830287,to do,"Pye исполнители, такие как [ true: Sunny Afternoon; false: ['Мик Милл', 'Mercury Records', 'Tamla-Motown', 'Helicon Records', 'Irregular Records', 'Trax Records', 'Dependent Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12907,-0.0004101991653442383,to do,"Put It On The Line, представленный [ true: Ghostface; false: ['ACT Music', 'Mojo', 'Lonestar'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8769,-0.0004049539566040039,to do,"E9 создан [ true: General Motors; false: ['Cadillac Gage', 'Nintendo'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3193,-0.0004044771194458008,to do,"Джонни Унитас, [ true: защитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11714,-0.0004031658172607422,to do,Обряд играет [ true: триллер; false: ['ситком'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9811,-0.000400543212890625,to do,Адам Эльшаймер устроился на работу в [ true: Рим; false: ['Лондон'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11385,-0.0003914833068847656,to do,Мумий Тролль находится в стране [ true: Россия; false: ['Сирия'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8824,-0.00039005279541015625,to do,Хассо Платтнер работает на [ true: IBM; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4585,-0.00037982066472371423,to do,"CBS представит [ true: Y&R; false: ['Nova TV', 'BBC One Scotland', 'DD Metro'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12631,-0.00036910921335220337,to do,"Исполнитель записи TDE [ true: Кендрик Ламар; false: ['Equity Music Group', 'Danse Macabre', 'Fearless Records', 'Get Ready', '20th Century Fox', 'Fair Trade', 'Soul Note', 'Better Looking Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19427,-0.0003681182861328125,to do,Панама Фрэнсис играет [ true: джаз; false: ['ситком'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5972,-0.0003648911203656878,to do,"Столица США, [ true: Филадельфия, Пенсильвания; false: ['Гларис', 'Фритаун', 'Перак', 'провинция Оксапампа', 'Тунис', 'Акмолинская область', 'Муниципалитет Мотала'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20012,-0.00036460161209106445,to do,"Стивен Сакур, [ true: BBC; false: ['NPR'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5164,-0.00035858154296875,to do,Род занятий Райнера Тейлора - [ true: композитор; false: ['поэт'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1840,-0.00035841975893293105,to do,"Экспертиза Яна Ходдера - [ true: археология; false: ['алгебраический геометр', 'Эби Варбург', 'Карл Вильгельм фон Далла Торре', 'педагогика', 'QED', 'контрразведка', 'астрономия'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12539,-0.00035656040365045726,to do,"Художники Apple, такие как [ true: Beatles; false: ['Chancellor Records', 'SRC Records', 'Ghetto Commission', 'Brand New Music', 'Quarterstick Records', 'SubPop', 'Eastwest Records', 'Ciroc Entertainment', 'Greenthink', 'Verve records', 'Black Prairie'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2728,-0.0003558993339538574,to do,"Андерс Лимпар, [ true: полузащитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21786,-0.00035572052001953125,to do,"Давид Мендес да Силва, [ true: полузащитник; false: ['защитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12821,-0.0003489851951599121,to do,"Джейсон Аалон Батлер, которого представляет [ true: Epitaph Records; false: ['Lava Music', 'DreamWorks Nashville', 'Corporate Thugz Entertainment', 'Герн Бландстен', 'CBS Records', 'Dolton Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1703,-0.0003413856029510498,to do,"Экспертиза ташизма - [ true: художник; false: ['Ранний нидерландский', 'цитолог', 'Джозеф Домби', 'паразитология'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8226,-0.00034105777740478516,to do,"Флемминг Нильсен, [ true: полузащитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8100,-0.0003395676612854004,to do,"Рок-музыканты, такие как [ true: Velvet Underground; false: ['Тамара Джи', 'Doo-Wop'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1950,-0.0003380030393600464,to do,"Экспертиза Майра - [ true: систематик; false: ['Витгенштейн', 'Южная Африка эпохи апартеида', 'Музыкант', 'френология'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12926,-0.00033448636531829834,to do,"Исполнители Island Records, такие как [ true: Hey DJ; false: ['Hannibal Records', 'Fat Possum', 'Arts & Crafts Records', 'Brainfeeder', 'Wordshaker', 'Universal Island Records', 'Catamenia', 'Jeepster'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15433,-0.0003330707550048828,to do,Закон Шанхайской организации сотрудничества объявляет языком [ true: Русский; false: ['Английский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12788,-0.0003299713134765625,to do,"Sun Caged, представленный [ true: Lion Music; false: ['Джеральд Олбрайт', 'Будда', 'Луака Боп', 'Kru-Cut'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8031,-0.00032711029052734375,to do,В Рабинале понимают [ true: испанский; false: ['болгарский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2798,-0.0003266334533691406,to do,Bundesautobahn 52 владелец [ true: Германия; false: ['Fiat'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12703,-0.0003254744741651747,to do,"Джун Табор, выпущенный [ true: Topic Records; false: ['Ensign Records', 'Sony', 'Loose', 'Sweet Talker', 'Tear Da Club Up Thugs', 'Xpressway', 'Apple Corps', 'Lowercase people records', 'Blackground'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13132,-0.00032067298889160156,to do,"Артур Милтон, [ true: полузащитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11919,-0.000319749116897583,to do,"Коппермайн, созданный [ true: Intel; false: ['Lockheed', 'AGEIA'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14608,-0.0003191828727722168,to do,"Хуан Родриго Рохас, [ true: полузащитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12846,-0.00031792266028268,to do,"Рэй Чарльз, представленный [ true: ABC-Paramount; false: ['Wea Records', 'Toshiba-EMI', 'Maranatha!', 'Delmark', 'Fantasy Records', 'WB', 'Fifth Colvmn Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19611,-0.00031757354736328125,to do,Премьера «Нищего моего соседа» на [ true: BBC; false: ['MTV'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11898,-0.0003161430358886719,to do,Авторское лево разработано [ true: FSF; false: ['SCO'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6373,-0.0003091096878051758,to do,В Карибских Нидерландах понимают [ true: Английский; false: ['финский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9177,-0.000308990478515625,to do,Томми Виг исполняет [ true: джаз; false: ['триллер'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8281,-0.00030857324600219727,to do,Неоклассические музыканты [ true: Time Requiem; false: ['Виктор Борге'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4663,-0.00030808789389474053,to do,"ABC представит [ true: Modern Family; false: ['Serbisyo All Access', 'Solar Sports', 'WNYC', 'Hay Superstar', 'Mayberry R.F.D.', 'WGN Morning News', 'DD Metro'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_773,-0.0003076791763305664,to do,"Стэн Гелбо, [ true: защитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5197,-0.00030612945556640625,to do,"Альберто Клозас, [ true: актер; false: ['придворный художник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8972,-0.00029909610748291016,to do,УСМ создан [ true: Canon; false: ['НГУ'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15706,-0.0002988576889038086,to do,"Фил Харрисон, [ true: Microsoft; false: ['BBC'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12519,-0.0002988080183664958,to do,"Чарли Паттон, которого представляет [ true: Paramount; false: ['Enter Shikari', 'Дим Мак', 'Carpark Records', 'Victor Entertainment', 'Roc Nation', 'SPV GmbH'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15607,-0.0002951622009277344,to do,"Тони Реали, работающий на [ true: ESPN; false: ['BBC'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12792,-0.00029389063517252606,to do,"Исполнитель записи ECM [ true: Терье Рипдал; false: ['Pacific Jazz Records', 'Beady Eye', 'KRS', 'Александра Стэн', 'Boompa', 'One Little Indian', 'Gotham Records', 'Венди Карлос', 'A&M'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18208,-0.00029087066650390625,to do,"Сикихор, [ true: Филиппины; false: ['Кения'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19554,-0.0002899169921875,to do,Джереми Вайн работает в [ true: BBC; false: ['Microsoft'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19222,-0.00028890371322631836,to do,В Бельгии понимают [ true: Голландский; false: ['исландский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12863,-0.0002880096435546875,to do,"Руджеро Сеттимо, [ true: политик; false: ['химик'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14906,-0.0002880096435546875,to do,Стефани Фландерс работает в [ true: BBC; false: ['Microsoft'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12507,-0.00028788447380065916,to do,"Исполнитель записи Decca Records [ true: Джонни Кэрролл; false: ['Лиззи Мерсье Десклу', 'Solar Records', 'BEC Recordings', 'А. Р. Кейн', 'Reel Life Productions', 'Moonfog Productions', 'Federal Records', 'Avex Group', 'Rhythm Zone', 'FOLKWAYS RECORDS'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5037,-0.0002841949462890625,to do,"Бикс Байдербеке, [ true: труба; false: ['гитара'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21696,-0.00028383731842041016,to do,"Калу Уче, [ true: полузащитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2324,-0.0002804100513458252,to do,"Густав Шрек устроился на работу в [ true: Лейпциг; false: ['Ватикан', 'Мюнхен'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12526,-0.0002803802490234375,to do,В Ньоне понимают [ true: Французский; false: ['датский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8415,-0.0002803802490234375,to do,Музыканты дип-хауса [ true: Джейми Оделл; false: ['Готическая фантастика'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_318,-0.0002799034118652344,to do,Во что играет Пийрпауке? Они играют в [ true: джаз; false: ['триллер'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20567,-0.00027942657470703125,to do,Сфера деятельности Германа Шварца – [ true: математика; false: ['физика'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5248,-0.00027632713317871094,to do,Род занятий Клаудии Брант - [ true: композитор; false: ['гетера'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11878,-0.00027441978454589844,to do,"MFS, созданный [ true: Apple; false: ['CCP Games', 'Xiph.Org Foundation'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9792,-0.00026679039001464844,to do,Закон в Донецке объявляет языком [ true: Русский; false: ['финский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18423,-0.0002636909484863281,to do,Опыт Шона М. Кэрролла - [ true: физика; false: ['геометрия'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1102,-0.00026297569274902344,to do,Pawn Stars дебютировали на [ true: History; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3784,-0.0002601146697998047,to do,Парк Чукчанси от [ true: Фресно; false: ['Yahoo'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17454,-0.0002524852752685547,to do,"Алессио Черчи, [ true: полузащитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12855,-0.0002519573484148298,to do,"Ник Венет, представленный [ true: Capitol Records; false: ['Bigger Picture Music Group', 'Fat Possum Records', 'Warner Bros.', 'Plan 9', 'Music For Nations', 'Don Giovanni records', 'Regurgitate'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8265,-0.0002504587173461914,to do,Аллен Коллинз играет [ true: Южный рок; false: ['Farscape'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_6745,-0.00024956464767456055,to do,Соединенные Штаты являются домом для [ true: WNBA; false: ['Глен Димплекс'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8325,-0.00024884939193725586,to do,Музыканты тактики в реальном времени [ true: Sudden Strike; false: ['Evo'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4872,-0.0002472996711730957,to do,"MTV дебютировал на [ true: Singled Out; false: ['SBS MTV', 'Televisa', 'Discovery Real Time'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5149,-0.00024700164794921875,to do,"Марк Уорнер, [ true: политик; false: ['рисовальщик'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3987,-0.0002465248107910156,to do,"Джонни Юн, [ true: комик; false: ['политик'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20786,-0.00024235248565673828,to do,"Пэт Корралес, [ true: ловец; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2739,-0.00023746490478515625,to do,Столица Мексики – [ true: Толука; false: ['Чили'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4737,-0.00023339192072550452,to do,"CNBC дебютировал на [ true: Kudlow & Company; false: ['Grampian Television', 'NHK', 'Блюз Бэй-Сити'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_588,-0.00023221969604492188,to do,"Жорж Альтман, [ true: журналист; false: ['актер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12750,-0.00023192167282104492,to do,"Марвин Гэй, которого представляет [ true: Тамла; false: ['Star Trak', 'Contemporary Records', 'XL Recordings', 'PIR'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12507,-0.00023025274276733398,to do,"Дацакорн Тонглао, [ true: полузащитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19575,-0.00022977590560913086,to do,"Джош Гибсон, [ true: ловец; false: ['защитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_915,-0.00022852420806884766,to do,"Цифровая наковальня, [ true: Microsoft; false: ['Анахайм'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9903,-0.00022614002227783203,to do,"Тайлер Палко, [ true: защитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14902,-0.00022393465042114258,to do,Закон Всемирной организации здравоохранения объявляет языком [ true: Русский; false: ['финский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14243,-0.0002231597900390625,to do,"Джефф Ульбрих, [ true: полузащитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12607,-0.0002172986666361491,to do,"Electric Blue, представленный [ true: Chrysalis Records; false: ['Warcon', 'One Little Indian', 'Kapp Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10158,-0.00021314620971679688,to do,"Надежные источники, первоначально транслировавшиеся на [ true: CNN; false: ['CBS'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6739,-0.00021219253540039062,to do,В Евросоюзе понимают [ true: Голландский; false: ['финский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2909,-0.00020853678385416668,to do,"Столица графства Саффолк, [ true: Риверхед, Нью-Йорк; false: ['Казахстан', 'Хофхайм', 'Наас'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5975,-0.00020769238471984863,to do,"Египет со столицей [ true: Аль-Кахира; false: ['Илава', 'Бразилия', 'Титоград', 'Иерусалим'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3019,-0.00020742416381835938,to do,Закон в Сиикайнене объявляет языком [ true: финский; false: ['Английский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1772,-0.00020372867584228516,to do,"Опыт Бертольда Карла Зеемана [ true: ботаник; false: ['Интернет', 'филологический'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12547,-0.00020252466201782228,to do,"Берри Горди, представленный [ true: Motown; false: ['Voodoo Glow Skulls', 'Beggars Banquet records', 'YGEX', 'No Knife', 'Dot Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12818,-0.00020194053649902344,to do,"A Little More Personal (Raw) записана для [ true: Casablanca Records; false: ['Kingsize', 'Saddle Creek', 'Heaven Music'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4680,-0.0002019206682840983,to do,"C-SPAN представит отчет [ true: Booknotes; false: ['STAR One', 'Fox Kids', 'GMA Flash Report'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4661,-0.00020019710063934326,to do,"SVT2 представит [ true: Aktuellt; false: ['WLWI', 'KBS2', 'Ugly Betty', 'PRO TV'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5397,-0.0001971721649169922,to do,"Джеймс Моррисон, [ true: актер; false: ['Художник-постановщик', 'дрессировщик лошадей'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12632,-0.000193635622660319,to do,"Антология 1, которую представляет [ true: Apple Records; false: ['Dance Nation', 'HIM International Music', 'Барсук'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19229,-0.00019234418869018555,to do,Закон Всемирной организации здравоохранения объявляет языком [ true: Английский; false: ['финский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8818,-0.00019168853759765625,to do,В Уругвае понимают [ true: испанский; false: ['финский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10773,-0.00019055604934692383,to do,"Даррин Флетчер, [ true: ловец; false: ['защитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2252,-0.00018924474716186523,to do,"Магнум, П.И. был выпущен на [ true: CBS; false: ['МТВ'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11840,-0.00018793344497680664,to do,"Boston Dynamics, [ true: Google; false: ['Nissan'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1885,-0.00018656253814697266,to do,"Лерин Дуарте, [ true: полузащитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2372,-0.00018596649169921875,to do,"Джон Инвердейл, сотрудник [ true: BBC; false: ['PBS'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16062,-0.00018453598022460938,to do,"Крейг Чарльз, [ true: комик; false: ['поэт'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4601,-0.0001835942268371582,to do,"RTL5 представит [ true: Expeditie Robinson; false: ['Asianet', 'Alpha TV', 'SVT', 'Under Wraps', 'C-SPAN 2'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8109,-0.00018334388732910156,to do,"Музыканты кантри [ true: Уэйлон Дженнингс; false: ['Синдром Эбола', 'Стоунер рок'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21635,-0.00017452239990234375,to do,Хьюберт Грегг работает в [ true: BBC; false: ['IBM'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12864,-0.00017381707827250162,to do,"Naildown, представленный [ true: Spinefarm Records; false: ['Opus Records', 'Tommy heavenly6', 'YGEX', 'Columbia Records', 'Prosthetic Records', 'Avey Tare'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11544,-0.00017368793487548828,to do,Эд Логг работает в [ true: Atari; false: ['Apple'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1564,-0.00017309188842773438,to do,"Спенсер Келли, сотрудник [ true: BBC; false: ['CNN'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5116,-0.00017189979553222656,to do,"Мустафа-паша, [ true: политик; false: ['дирижер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12837,-0.00017115804884168837,to do,"Исполнитель звукозаписи Atlantic [ true: Милт Джексон; false: ['Takeover Entertainment Limited', 'Top Dawg', 'Victory', 'ESL music', 'Northwestside records', 'Some Bizzare', 'Cadet Concept Records', 'At Folsom Prison', 'Lyrics Born'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8017,-0.00017023086547851562,to do,Векторная графика музыкантов [ true: SVG; false: ['NZ Performance Car'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12654,-0.00016876061757405603,to do,"Рошель Стюарт, которую представляет [ true: RCA; false: ['Уичито', 'Crown Records', 'Lil Soldiers', 'DFA', 'Digital Hardcore', 'Havoc Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4649,-0.00016762812932332355,to do,"MTV представит [ true: My Super Sweet 16; false: ['Poker Royale', 'Ion Television', 'iTunes'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2044,-0.0001659393310546875,to do,"Франсис Коклен, [ true: полузащитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9473,-0.0001659095287322998,to do,"Язык жизни был [ true: Русский; false: ['LibreOffice', 'шкип'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4681,-0.00016322731971740723,to do,"Канал Disney дебютировал на [ true: Handy Manny; false: ['Standing Room Only', 'Main Abdul Qadir Hoon', 'Headline News', 'WEWS-TV'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12924,-0.00016247481107711792,to do,"Пятый записывающийся исполнитель Colvmn Records [ true: Chemlab; false: ['Джон Майер', 'RAK Records', 'Джаз Фа', 'Simple Machines', 'Regal Zonophone', 'A&M', 'NTT Publishing', 'XL Recordings'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8616,-0.00016123056411743164,to do,C300 создан [ true: Canon; false: ['Saleen'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8996,-0.0001582801342010498,to do,"U-7 является продуктом [ true: Germaniawerft; false: ['Шевроле', 'ELDO'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6927,-0.000156402587890625,to do,Love Monkey был выпущен на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4635,-0.00015556812286376953,to do,"Das Erste дебютирует с [ true: Verbotene Liebe; false: ['ITV2', 'Jeopardy!', 'ABC', 'Merry Madagascar', 'Sinasamba Kita'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5293,-0.00015532970428466797,to do,"Кэрол Демпстер, [ true: киноактриса; false: ['музыкальный инженер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5569,-0.0001551508903503418,to do,В Швейцарии понимают [ true: Немецкий; false: ['испанский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13379,-0.0001538395881652832,to do,"Honda Center, [ true: Анахайм; false: ['Yahoo'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11885,-0.000152587890625,to do,"CIF, созданный [ true: IUCr; false: ['Spiderweb Software', 'Ubisoft Shanghai'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8251,-0.00015103816986083984,to do,Электронные музыканты [ true: Моби; false: ['Ями Боло'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7423,-0.0001507401466369629,to do,Владелец Grantland [ true: ESPN; false: ['Yahoo'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12736,-0.00015006065368652343,to do,"Monte Cazazza, представленный [ true: Industrial Records; false: ['Ganksta N-I-P', 'Nonesuch', 'Binyl Records', 'Nutone Records', 'Outerloop Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18003,-0.0001499652862548828,to do,"Дон Майковски, [ true: защитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12128,-0.00014984607696533203,to do,"Джей Ди Клоссер, [ true: ловец; false: ['защитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4685,-0.00014980634053548178,to do,"Выпуск Comedy Central [ true: Exit 57; false: ['WPVI-TV', 'McMillan & Wife', 'High Incident'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8062,-0.00014972686767578125,to do,Музыканты-рэперы [ true: Т.И.; false: ['Deryni Checkmate'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15643,-0.00014925003051757812,to do,"Сара Монтегю, сотрудник [ true: BBC; false: ['PBS'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8848,-0.00014853477478027344,to do,Autozam Scrum создан на базе [ true: Mazda; false: ['BMW 320si'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5223,-0.0001477400461832682,to do,"Уолтер Форвард, [ true: политик; false: ['автомеханик', 'капеллан', 'генеральный викарий'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12659,-0.00014540127345493862,to do,"Они, представленные [ true: E1 Music; false: ['Universal Music Norway', 'Criss Cross Jazz', 'Greedhead Music', 'Билл Коннорс', 'Cryptic Corporation', 'Deutsche Grammophon', 'T La Rock'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11747,-0.00014474987983703613,to do,"Сервер разработан [ true: Apple Inc.; false: ['Ion Storm', 'Access Games'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12706,-0.00014403462409973145,to do,"Fudge Tunnel, представленный [ true: Earache; false: ['Fat Possum', 'Ghost Opera', 'Full Surface', 'Byg'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4669,-0.00014346837997436523,to do,ABC выпустила [ true: FlashForward; false: ['Dino-Riders'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1353,-0.00014257431030273438,to do,"Джонни Луджек, [ true: защитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8412,-0.0001398921012878418,to do,"Музыканты R&B, такие как [ true: Con Funk Shun; false: ['Vib-Ribbon'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4390,-0.0001392364501953125,to do,Braingames первоначально транслировался на [ true: HBO; false: ['CBS'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_960,-0.00013875961303710938,to do,Закон в Международном олимпийском комитете объявляет языком [ true: Английский; false: ['финский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6473,-0.00013685226440429688,to do,В Анголе понимают [ true: португальский; false: ['испанский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12810,-0.00013514540412209251,to do,"Исполнитель записи Warner Music [ true: Donkeyboy; false: ['Mercury Records Nashville', 'Бадмоторфингер', 'Chop Shop Records', 'Burrito Deluxe', 'Зуниор', 'MCA records', 'mau5trap', 'Cash Money Records', 'Revelation', 'T-Neck', 'Firebox Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13838,-0.00013494491577148438,to do,"Bpost, [ true: Бельгия; false: ['Google'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12782,-0.0001337130864461263,to do,"Билли Дин, представленный [ true: Capitol Records; false: ['Minos EMI', 'Soulive', '4,5,6', 'Apple Records', 'Slava Music', 'Okeh records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10040,-0.000133514404296875,to do,Владелец Cognos [ true: IBM; false: ['WWE'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12132,-0.00013267993927001953,to do,"Гаррет Фитцджеральд, занимающий должность [ true: Taoiseach; false: ['DNI', 'USFS'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12676,-0.00013091415166854858,to do,"Десять лет спустя, выпущенный [ true: Deram; false: ['Tabu', 'Musea', 'Suburban Noize', 'Alligator', 'Backstreet Records', 'Slip-n-Slide', 'Boogie On Reggae Woman', 'Fat Cat Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_316,-0.00013053417205810547,to do,"Корки Миллер, [ true: ловец; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4052,-0.00012969970703125,to do,Орест Кипренский играет [ true: портрет; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2299,-0.0001283884048461914,to do,Лейбл McGuire Sisters: [ true: Coral; false: ['лебедь'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1974,-0.0001277327537536621,to do,В Вайоминге понимают [ true: Английский; false: ['испанский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12693,-0.0001276797718471951,to do,"Исполнитель звукозаписи Motown [ true: Velvelettes; false: ['Earache Records', 'Verve Forecast', 'Projekt', 'Rawkus Records', 'Bow Wow', 'W&G', 'Ариэль Пинк', 'Tradition Records', 'K-Dot'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4379,-0.0001270771026611328,to do,"Пол Инс, [ true: полузащитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21864,-0.00012683868408203125,to do,"Карло Порта, [ true: поэт; false: ['актер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6285,-0.000125885009765625,to do,Сайрус Честнат исполняет [ true: джаз; false: ['триллер'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11571,-0.00012552738189697266,to do,"Спаситель вампиров, созданный [ true: Capcom; false: ['Sonic Team', 'Zend Technologies'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4687,-0.00012242794036865234,to do,"ESPN2 дебютировал на [ true: SportsNation; false: ['I Need Romance', 'Hulu', 'LWT', 'BBC'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15868,-0.00012159347534179688,to do,"Теренс Бланшар, [ true: труба; false: ['гитара'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8406,-0.00012135505676269531,to do,Музыканты теленовеллы [ true: Graduados; false: ['музыкальный импрессионизм'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11687,-0.00012129545211791992,to do,"Ролевая игра, созданная [ true: IBM; false: ['НПО Энергомаш', 'Moving Picture Experts Group'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12588,-0.00012127161026000976,to do,"Baby I'm Yours, представленный [ true: Atlantic; false: ['Ze Records', 'Kindercore', 'Load Records', 'RCA records', 'New Line Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12909,-0.00012048653193882534,to do,"Оркестр Casa Loma, представленный [ true: Decca; false: ['EDEL', 'Rough Trade Records', 'DGC', 'Dark Lotus', 'Brille Records', 'Echo', 'Roulette'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12978,-0.00012011528015136718,to do,"Майкл Хеджес, представленный [ true: Windham Hill; false: ['Swan Records', 'Whole Lotta Love', 'Times New Viking', 'People Mountain People Sea', 'EMI Publishing'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8526,-0.0001195073127746582,to do,GP32 создан [ true: Game Park; false: ['RPC Fort'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18409,-0.00011742115020751953,to do,"Куинн Грей, [ true: защитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17492,-0.00011706352233886719,to do,Владелец AgustaWestland [ true: Леонардо; false: ['Окленд'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21264,-0.00011622905731201172,to do,В Евросоюзе официальным языком является [ true: Чешский; false: ['Французский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12615,-0.00011610984802246094,to do,"Видимый мир, представленный [ true: ECM; false: ['Temporary Residence Ltd.', 'Relentless', 'CandyRat Records', 'Barking Pumpkin Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16125,-0.00011348724365234375,to do,В Дели понимают [ true: хинди; false: ['испанский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6537,-0.00010985136032104492,to do,3 фунта был выпущен на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11734,-0.00010824203491210938,to do,"Мэл Янг, работающий на [ true: BBC; false: ['CBS'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1840,-0.0001074075698852539,to do,Джордж Боденхаймер работает в [ true: ESPN; false: ['McLaren'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18879,-0.00010627508163452148,to do,"Уорд Каннингем, [ true: Microsoft; false: ['BBC'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14248,-0.0001061558723449707,to do,Бад Триббл работает на [ true: Apple; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16696,-0.00010597705841064453,to do,Молодожены были выпущены на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12903,-0.00010473281145095825,to do,"Исполнитель звукозаписи Festival Records [ true: Cam-Pact; false: ['Drive Thru Records', 'EMI America Records', 'Universal Music Japan', 'BYO Records', 'Five Minute Walk', 'Бинг', 'WEA Records', 'Kung-Fu Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12786,-0.00010466575622558594,to do,"Майкл, выпущенный [ true: Epic Records; false: ['Vagrant Records', 'Def Soul', 'Warner Music Japan', 'Prestige Records', 'Rounder', ""Hoo-Bangin' Records"", 'Basick Records', 'Flipmode Entertainment'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8472,-0.00010418891906738281,to do,Музыканты мыльной оперы [ true: Hollyoaks; false: ['Джанет Кей'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14335,-0.00010251998901367188,to do,"Ник Лукас, которого представляет [ true: Brunswick; false: ['Paramount'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12566,-0.00010232414518083845,to do,"Они, представленные [ true: Warcon Records; false: ['Work Records', 'Победа', 'Rich Gang', 'Gore Obsessed', 'mau5trap', 'Gucci Mane', 'CBS Greece'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12622,-0.00010230143864949544,to do,"Исполнитель записи Amphetamine Reptile [ true: Гелиос Крид; false: ['Rivulets', 'Greedhead Music', 'Rowdy Records', 'LaFace', 'ECR Music Group', 'Big Gates', 'Good Hearted Woman', 'Nutone Records', 'Flipmode Entertainment'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1645,-0.00010132789611816406,to do,"Экспертиза Института Куранта - [ true: математика; false: ['фрактальная геометрия', 'интегральные уравнения', 'Коперник', 'Палеонтология', 'протеаза', 'Уильям Исаак Томас'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6717,-0.00010097026824951172,to do,"Бришер Ю. Грей, [ true: актер; false: ['политик'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12648,-0.00010078400373458862,to do,"Убить артистов рок-звезд, таких как [ true: Deerhoof; false: ['Terror Squad', 'Sonic Groove', 'Thirsty Ear', 'Plan 9 Records', 'New World', 'Марк Болан', '31G Records', 'Nutone Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8642,-0.0001004338264465332,to do,Окленд создан [ true: General Motors; false: ['GMD'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12564,-9.987354278564453e-05,to do,"Джонни Бристоль, выпущенный [ true: Motown; false: ['My Own Way', 'EMI Music Greece', 'Virgin Records Nashville', 'Universal Music Japan', 'BMG-Ariola', 'Recess Records', 'Liberty', 'Radioactive Records', 'Darla Records', 'Disturbing tha Peace'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19254,-9.948015213012695e-05,to do,Южное очарование дебютировало на [ true: Bravo; false: ['CBS'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8917,-9.695688883463542e-05,to do,"Swift создан [ true: Suzuki; false: ['Fairchild Republic', 'Hasbro', 'AeroVironment'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11383,-9.560585021972656e-05,to do,Фрэнк Гиллард из [ true: BBC; false: ['IBM'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12619,-9.05593236287435e-05,to do,"Исполнитель записи White Label Records [ true: Пол Келли; false: ['Sony Music Колумбия', 'Paramount Records', 'Polo Grounds Music', 'KOCH Records', 'Гудда Гудда', 'SPV Records', 'Анушка Шанкар', 'Prawn Song', 'Coconut Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12532,-9.013712406158447e-05,to do,"Искушения, выпущенные [ true: Motown; false: ['Tiny Vipers', 'Sanctuary Records', 'InsideOut Music', 'Pool It!'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5504,-8.96453857421875e-05,to do,"Мишал Хусейн, сотрудник [ true: BBC; false: ['Nintendo'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1922,-8.958578109741211e-05,to do,Эдди Кью работает на [ true: Apple; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10478,-8.821487426757812e-05,to do,"Джачинто Андреа Чиконини, [ true: поэт; false: ['композитор'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18670,-8.7738037109375e-05,to do,Dinnerladies играет [ true: ситком; false: ['джаз'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12781,-8.484721183776855e-05,to do,"Rich Mullins, представленный [ true: Reunion Records; false: ['B-Unique Records', 'Make It Happen', 'Sony Music', 'Drag City Records', 'Def Jux', 'Fonovisa'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17013,-8.463859558105469e-05,to do,"Боб Гриз, [ true: защитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14550,-8.416175842285156e-05,to do,"Лес Хорват, [ true: защитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2991,-8.372465769449869e-05,to do,"Округ Беркли, столица Западной Вирджинии, [ true: Мартинсбург; false: ['Сепутех', 'Икаст-Бранде', 'Гайана', 'Слагельсе', 'Жоб', 'Ираклион'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16984,-8.237361907958984e-05,to do,Джон Ронсон из [ true: BBC; false: ['Google'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7287,-8.082389831542969e-05,to do,Гарри Карпентер работает в [ true: BBC; false: ['IBM'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8547,-7.623434066772461e-05,to do,"46 класс разработан [ true: Beyer, Peacock; false: ['Xerox Data Systems', 'Oshkosh', 'Quantum Effect Design'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8162,-7.605552673339844e-05,to do,"Музыканты-фантасты, такие как [ true: Battlestar Galactica; false: ['AFX', 'Heath Brothers'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8092,-7.426738739013672e-05,to do,"Музыканты-платформеры [ true: Castlevania; false: ['Blissfully Yours', 'танцевальная музыка'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12851,-7.33222280229841e-05,to do,"Исполнитель звукозаписи Riverside Records [ true: Уэс Монтгомери; false: ['AVEX', 'Extreme Records', 'UK Records', 'Atlantic record', 'Рокафелла', 'Outlaw Recordz', 'DTP'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13071,-7.164478302001953e-05,to do,"Спящие, [ true: Париж; false: ['Франция'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10216,-6.961822509765625e-05,to do,Арлисс был выпущен на [ true: HBO; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6707,-6.890296936035156e-05,to do,"Хэнк Аарон, владелец стадиона, [ true: Mobile; false: ['Гавайи'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7861,-6.884336471557617e-05,to do,"Терри Майерсон, [ true: Microsoft; false: ['BBC'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12831,-6.854534149169922e-05,to do,"Cannibal Corpse, которого представляет [ true: Metal Blade Records; false: ['WEA', 'Idol Records', 'True North', 'Мантроник', 'DefSTAR Records', 'Руна Граммофон'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9771,-6.628036499023438e-05,to do,"Энтони Маджакомо, [ true: полузащитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18696,-6.473064422607422e-05,to do,Квадратные колышки были выпущены на [ true: CBS; false: ['NBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11836,-6.449222564697266e-05,to do,"Красная Земля, созданная [ true: Capcom; false: ['Douglas Aircraft Company', 'ISC'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12503,-6.418568747384206e-05,to do,"Deceptive Records записывает исполнителя [ true: Эластика; false: ['Reprise', 'Select Records', 'Hi Records', 'Stomp Records', 'Spinefarm Records', 'Sony Music Greece', 'Hieroglyphics Imperium'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4885,-6.242096424102783e-05,to do,"ABC-TV дебютировал на [ true: My Pet Monster; false: ['Gadget Man', 'GMA7', 'Young Blades', 'ION Television'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12587,-6.233794348580495e-05,to do,"Вера Линн, которую представляет [ true: Decca; false: ['Kill Rock Stars', 'Florence And The Machine', 'Universal Music', 'Рон Картер', 'CBS Sony', 'Volcano Records', 'Ви-Джей'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17653,-6.103515625e-05,to do,"Убальдо Ригетти, [ true: защитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4553,-5.805492401123047e-05,to do,"Джим Планкетт, [ true: защитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11638,-5.7697296142578125e-05,to do,"Страдание, созданное [ true: Surreal Software; false: ['Frog City Software', 'SoftQuad'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8102,-5.7081381479899086e-05,to do,"Фараон, который играет [ true: Евродэнс; false: ['Фолк-рок', 'Блюз-рок', 'Diddy Kong Racing'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11057,-5.698204040527344e-05,to do,"Чин-хуэй Цао, [ true: кувшин; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8753,-5.519390106201172e-05,to do,В Энгельберге понимают [ true: Немецкий; false: ['испанский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19021,-5.3763389587402344e-05,to do,"Эдвард Додсли Бэрроу, [ true: политик; false: ['актер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12472,-5.352497100830078e-05,to do,Элеонора Олдройд из [ true: BBC; false: ['Apple'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12561,-5.3485234578450516e-05,to do,"Пол Мотян, которого представляет [ true: ECM; false: ['Combat Records', 'Cloud Nine', 'Undertow Music', 'Clay records', 'Ferret Records', 'Fonovisa'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9455,-5.2094459533691406e-05,to do,"Гарри Джеймс, выпущенный [ true: Brunswick; false: ['Harvest'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21508,-5.054473876953125e-05,to do,Альфред Флехтхайм устроился на работу в [ true: Берлин; false: ['Лондон'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2710,-5.030632019042969e-05,to do,Тегеран - столица [ true: Пехлеви; false: ['Хака'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8264,-4.9114227294921875e-05,to do,Поп-рок-музыканты [ true: Марк Баллас; false: ['Джонни Ботвелл'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20140,-4.7266483306884766e-05,to do,"Бобби Дарин, которого представляет [ true: Brunswick; false: ['Harvest'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14048,-4.6253204345703125e-05,to do,"Кингсли Коман, [ true: полузащитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20876,-4.589557647705078e-05,to do,"Брайан Лабоне, [ true: защитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8798,-4.5865774154663086e-05,to do,"M25 Tank Transporter, созданный [ true: Paccar; false: ['Henschel', 'Scaled Composites'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14908,-4.5180320739746094e-05,to do,Вассос Александр работает в [ true: BBC; false: ['IBM'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11521,-4.503130912780762e-05,to do,"Хроники снов, созданные [ true: KatGames; false: ['Obsidian', 'Unisys'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9241,-4.410743713378906e-05,to do,Владелец RE/MAX Field [ true: Эдмонтон; false: ['Денвер'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5287,-4.363059997558594e-05,to do,"Дэвид Деген, [ true: полузащитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4909,-4.342794418334961e-05,to do,"Syndicated дебютировал на [ true: Inside Edition; false: ['Gilmore Girls', 'Anything But Love', 'Italia 1', 'Teletoon', 'Every Witch Way'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8721,-4.297494888305664e-05,to do,KitchenAid создан компанией [ true: Bauknecht; false: ['ALCO-GE'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9972,-4.291534423828125e-05,to do,Дес Линам работает в [ true: BBC; false: ['NPR'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11502,-4.1812658309936523e-05,to do,"Летние дни, созданные [ true: 0verflow; false: ['ProQuest', 'AMD Graphics'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8312,-4.1365623474121094e-05,to do,"Генри Беррис, [ true: защитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19049,-3.814697265625e-05,to do,"Эндрю Салки, [ true: поэт; false: ['актер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12538,-3.682821989059448e-05,to do,"Righteous Babe Records записывает исполнителя [ true: Они; false: ['Prophet Posse', 'Inpop Records', 'музыкальная группа will.i.am', 'Scantraxx', 'Sub-Pop', 'Рекомендуемые записи', 'Донхэ и Ынхёк', 'Labrador records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8614,-3.647804260253906e-05,to do,"Крейг Федериги, [ true: Apple; false: ['IBM'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14156,-3.647804260253906e-05,to do,"Филип Дон Эстридж, [ true: IBM; false: ['BBC'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21021,-3.62396240234375e-05,to do,"Эрманно Вольф-Феррари, [ true: композитор; false: ['политик'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2454,-3.5762786865234375e-05,to do,Хасекура Цуненага устроилась на работу в [ true: Рим; false: ['Париж'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12629,-3.550450007120768e-05,to do,"Ванна со стальным столбом, представленная [ true: They; false: ['Epitaph', 'GUN Records', 'avex'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11550,-3.4809112548828125e-05,to do,"Halo 4, автор [ true: 343 Industries; false: ['Ростислав Евгеньевич Алексеев'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10784,-3.3020973205566406e-05,to do,"Гейл Гилберт, [ true: защитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4682,-3.2842159271240234e-05,to do,"Выпуск HBO [ true: Costas Now; false: ['STV North', 'Lock-Up', 'Star Trek Voyager', 'High Maintenance 90210'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12517,-3.196299076080322e-05,to do,"Джордж Уоллингтон, выпущенный [ true: Blue Note; false: ['Vanguard', 'JYP', 'Secretly Canadian', 'Gayoon', 'Big Beat Records', 'Twista', 'MTM Records', 'Fantasy Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7276,-3.141164779663086e-05,to do,Братская жизнь была выпущена на [ true: MTV; false: ['CBS'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1940,-3.069639205932617e-05,to do,Эдвард Кертис Уэллс работает в [ true: Boeing; false: ['Intel'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10276,-3.0279159545898438e-05,to do,Лена Яда работает на [ true: WWE; false: ['BBC'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8641,-3.0219554901123047e-05,to do,Prahaar создан [ true: DRDO; false: ['Microsoft'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4859,-2.956390380859375e-05,to do,"PBS представит [ true: Театр шедевров; false: ['Columbia Broadcasting System', 'Art Angel', 'BET Networks'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11564,-2.855062484741211e-05,to do,Проект Ара был создан [ true: Google; false: ['Yahoo'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3821,-2.8371810913085938e-05,to do,"Гай Мусси, [ true: полузащитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8818,-2.7686357498168945e-05,to do,"X 4500, созданный [ true: ANF; false: ['Heineken International', 'Korean Aerospace Industries'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4754,-2.7418136596679688e-05,to do,"Йохан Херман Вессель, [ true: поэт; false: ['актер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5445,-2.6861826578776114e-05,to do,"Макс Нойфельд, [ true: актер; false: ['куратор музея', 'казначей', 'ремесленник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5722,-2.6285648345947266e-05,to do,"Дэн Ле Батар, [ true: ESPN; false: ['BBC'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13087,-2.580881118774414e-05,to do,"PGM-11 Redstone, разработанный [ true: Chrysler; false: ['Nissan'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12822,-2.5391578674316406e-05,to do,"Ваша драгоценная любовь, представленная [ true: Motown; false: ['Rephlex Records', 'Тупак Шакур', 'Era Records', '2Point9 Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3668,-2.5153160095214844e-05,to do,"Деннис Франклин, [ true: защитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12719,-2.4586915969848633e-05,to do,"Гэри Маркс, представленный [ true: Merciful Release; false: ['See If I Care', 'Peaceville', 'Purple Records', 'Some Bizzare', 'Universal Records', 'Xtreem Music'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16156,-2.4378299713134766e-05,to do,"Раджакокила, [ true: актер; false: ['политик'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9257,-2.294778823852539e-05,to do,"Английский был языком [ true: Yardbirds; false: [""L'Instant X""] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14807,-2.2232532501220703e-05,to do,"Ju Yingzhi, the [ true: midfielder; false: ['goaltender'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2830,-2.104043960571289e-05,to do,"Даниэль Гайгакс, [ true: полузащитник; false: ['защитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2506,-2.0325183868408203e-05,to do,"Билли Холидей, выпущенная [ true: Brunswick; false: ['Sunshine'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12664,-2.0100010765923394e-05,to do,"Фредди Хаббард, выпущенный [ true: Atlantic Records; false: ['Asthmatic Kitty', 'Velvet Acid Christ', 'Ninja Tunes', 'Mau5trap', 'Purple Ribbon Records', 'Xpressway', 'Victor Records', 'FOLKWAYS RECORDS', 'Fueled By Ramen'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4941,-2.002716064453125e-05,to do,"WB представит [ true: 7th Heaven; false: ['Nashville Network', 'Fox Business News'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12806,-1.996755599975586e-05,to do,В Донецкой области понимают [ true: Русский; false: ['Немецкий'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11618,-1.9550323486328125e-05,to do,"Джеймс Э. Фергюсон, [ true: политик; false: ['актер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2077,-1.8894672393798828e-05,to do,"CAMI Automotive, [ true: Suzuki; false: ['Intel'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13925,-1.8537044525146484e-05,to do,"Йосип Скоко, [ true: полузащитник; false: ['защитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21275,-1.8477439880371094e-05,to do,В Ветциконе понимают [ true: Немецкий; false: ['португальский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14589,-1.6987323760986328e-05,to do,"Гарба Лаваль, [ true: полузащитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5144,-1.6808509826660156e-05,to do,В Гонконге понимают [ true: Английский; false: ['португальский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8686,-1.6689300537109375e-05,to do,Z-car создан [ true: Nissan; false: ['Deschimag'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11101,-1.5437602996826172e-05,to do,"Санти Касорла, [ true: полузащитник; false: ['вратарь'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11798,-1.4692544937133789e-05,to do,"Профиль Валькирии, созданный [ true: tri-Ace; false: ['Native Instruments', 'Sumo Digital'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11772,-1.4632940292358398e-05,to do,"Карнов разработан [ true: Data East; false: ['Cyan Worlds', 'Bluepoint Games'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6870,-1.4543533325195312e-05,to do,Ригси из [ true: BBC; false: ['Microsoft'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20412,-1.4483928680419922e-05,to do,FairPlay создан [ true: Apple; false: ['Microsoft'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19995,-1.3947486877441406e-05,to do,"Клифф Морган, [ true: BBC; false: ['Microsoft'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5665,-1.3172626495361328e-05,to do,Джин Меткалф из [ true: BBC; false: ['Toyota'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8570,-1.2785196304321289e-05,to do,"Excel производится [ true: Lotus; false: ['Hasbro', 'Compaq Computer Corporation'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10793,-1.2636184692382812e-05,to do,Владелец Mark sense [ true: IBM; false: ['Google'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8500,-1.2129545211791992e-05,to do,"Grand strategy musicians [ true: Europa Universalis; false: ['Bluegrass music', 'Akiko Suwanai'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12625,-1.1767659868512843e-05,to do,"Sound Loaded записан для [ true: Columbia Records; false: ['NMC Music', 'Fearless', 'Ninja Tune Records', 'Fania Records', 'Argo', 'Warner Music Sweden', 'Wrasse Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12711,-1.163780689239502e-05,to do,"Исполнитель записи Epitaph Records [ true: Offspring; false: ['Def American Recordings', 'Barenaked Ladies Are Me', 'Hatebreed', 'Universal Music Norway', 'DCide Records', 'Universal Records', 'Fullsteam Records', 'Facedown Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11629,-1.1056661605834961e-05,to do,"Рука Бога, созданная [ true: Clover Studio; false: ['Jellyvision Games', '2K Marin'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2358,-1.0132789611816406e-05,to do,"Пол Отеллини, [ true: Intel; false: ['IBM'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1038,-9.894371032714844e-06,to do,"Мануэль Руис Соса, [ true: полузащитник; false: ['защитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2858,-9.775161743164062e-06,to do,"Амиэль Демион, представленный [ true: Festival; false: ['Fantasy'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12503,-8.64267349243164e-06,to do,В Нигере понимают [ true: Французский; false: ['Русский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1948,-8.58306884765625e-06,to do,Седрик Мессина работает на [ true: BBC; false: ['CBS'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8451,-8.225440979003906e-06,to do,"Оперные музыканты [ true: Вебер; false: ['рэгтайм', 'Ян Хамер'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6813,-8.165836334228516e-06,to do,Aeritalia от [ true: Леонардо; false: ['Amtrak'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4548,-7.893357958112443e-06,to do,"Телевизионная служба BBC выпустила [ true: Telecrime; false: ['Empire State', 'CityKids', 'Daily Politics', 'A.U.S.A.', 'Общественное телевидение Мэриленда', 'Sibs', 'HGTV Canada'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8631,-6.556510925292969e-06,to do,"Железный купол, созданный [ true: Rafael Advanced Defense Systems; false: ['Think Global'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4712,-6.318092346191406e-06,to do,NBC дебютировал на [ true: Today Show; false: ['vtm'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12548,-5.948543548583985e-06,to do,"Audio Adrenaline, представленный [ true: ForeFront Records; false: [""Stone'd Records"", 'Let Me Ride', 'Blue Note Records', 'Blackground', 'Nonesuch'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11674,-5.900859832763672e-06,to do,"Принцесса Минерва, разработанная [ true: Riverhillsoft; false: ['Cinemaware'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1023,-5.4836273193359375e-06,to do,В Pully понимают [ true: Французский; false: ['Английский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16192,-5.424022674560547e-06,to do,В Международном олимпийском комитете понимают [ true: Французский; false: ['Английский'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11980,-5.0961971282958984e-06,to do,"Dungeon Keeper, созданный [ true: Bullfrog Productions; false: ['Timex', 'Sony Computer Entertainment'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15736,-4.410743713378906e-06,to do,"Bundesautobahn 65, [ true: Германия; false: ['Google'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12559,-3.3974647521972656e-06,to do,"Slowdive, представленный [ true: Creation Records; false: ['Modern Love', 'Overcome', 'No Sleep Records'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7751,-2.86102294921875e-06,to do,"Блэкэддер, играющий [ true: ситком; false: ['джаз'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8819,-2.5033950805664062e-06,to do,"Они, созданные [ true: Yorkshire Engine Company; false: ['Navistar International'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10442,-2.4437904357910156e-06,to do,"McNichols Sports Arena, [ true: Денвер; false: ['Sky'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4961,-2.3543834686279297e-06,to do,"M-Net дебютировал на [ true: Big Brother Africa; false: ['Video On Trial', 'ARD'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6923,-1.6689300537109375e-06,to do,Универсальный идентификатор типа создан [ true: Apple; false: ['IBM'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8408,-1.4901161193847656e-06,to do,"Музыканты кантри [ true: Гретхен Уилсон; false: ['Cor Scorpii', 'трагикомедия'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1913,-1.3113021850585938e-06,to do,"Тамарин, продукт [ true: Adobe; false: ['IBM'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5000,-9.08970832824707e-07,to do,"HBO запускает [ true: Def Poetry Jam; false: ['Grampian Television', 'Hinterland', 'ASIANET', 'Associated Television'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1820,-5.662441253662109e-07,to do,"Миколог – это экспертиза [ true: Sanford Myron Zeller; false: ['Unix', 'Thoreau'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12662,-5.066394805908203e-07,to do,"Фрида, которую представляет [ true: EMI; false: ['ZYX Music', 'Musea', 'Шарифа', 'Sun Studios', 'Enemy Records', 'Мраморная арка'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10597,-4.172325134277344e-07,to do,"Мередит Эндрюс, выпущенная [ true: Word; false: ['Legacy'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8828,-2.384185791015625e-07,to do,"KeyArena, [ true: Сиэтл; false: ['BBC'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10553,-1.7881393432617188e-07,to do,Владелец Telespazio [ true: Леонардо; false: ['Луизиана'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12802,0.0,to do,Иран расположен на континенте [ true: Азия; false: ['Африка'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8851,0.0,to do,Судан расположен на континенте [ true: Африка; false: ['Азия'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19880,0.0,to do,"Мохд Амирул Хади Зайнал, [ true: полузащитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10145,0.0,to do,Сомали находится на континенте [ true: Африка; false: ['Азия'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_805,0.0,to do,"Wii Balance Board, разработанная [ true: Nintendo; false: ['Nissan'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13764,0.0,to do,"Гаэтано Д'Агостино, [ true: полузащитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6594,0.0,to do,"Марко Этчеверри, [ true: полузащитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2071,0.0,to do,"Маркус Марек, [ true: полузащитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21033,0.0,to do,"Жан Макун, [ true: полузащитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11926,0.0,to do,Mac OS X была разработана [ true: Apple Inc.; false: ['Apple.com'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16463,0.0,to do,"Мойзе Фоку, [ true: полузащитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2508,0.0,to do,"Лука Виджани, [ true: полузащитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8272,0.0,to do,"Джазовые музыканты, такие как [ true: Джин Рэми; false: ['Дэйв Диктор'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8134,0.0,to do,"Рок-музыканты, такие как [ true: Джим МакГуинн; false: ['Донни МакКларкин'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18507,0.0,to do,Game Boy Micro производства [ true: Nintendo; false: ['Nissan'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3646,0.0,to do,"Эрин Хендерсон, [ true: полузащитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2387,0.0,to do,"Стивен Нзонзи, [ true: полузащитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_867,0.0,to do,"Бобби Белл, [ true: полузащитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_426,0.0,to do,"Ник Грейзен, [ true: полузащитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20250,0.0,to do,"Марвин Митчелл, [ true: полузащитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19697,0.0,to do,"Бакари Сако, [ true: полузащитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11542,0.0,to do,PowerBuilder был разработан [ true: SAP; false: ['Sculptured Software'] ]
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2534,0.0,to do,"Рэй Ничке, [ true: полузащитник; false: ['полузащитник'] ]"
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13703,0.0,to do,"Чо Хён Ик, [ true: полузащитник; false: ['полузащитник'] ]"

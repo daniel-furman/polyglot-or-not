@@ -1,13 +1,1 @@
 Running post-processing for ../../data/result_logs/llama...
-
-	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
-	The language is hungarian
-	There are 4650 stem/fact pairs in the log
-	The model got 75.742% of facts correct
-	The 95% uncertainty estimate is +/- 1.205%
-
-
-	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
-	The language is danish
-	There are 23365 stem/fact pairs in the log
-	The model got 81.789% of facts correct

@@ -16,6 +16,7 @@ from transformers import (
     AutoModelForMaskedLM,
     T5Tokenizer,
     T5ForConditionalGeneration,
+    AutoModelForSeq2SeqLM,
 )
 
 from probe_helpers import probe_flan, probe_gpt, probe_bert, probe_llama, probe_t5
@@ -27,7 +28,13 @@ if not torch.cuda.is_available():
 
 # first, write helper to pull a pretrained LM and tokenizer off the shelf
 def get_model_and_tokenizer(model_name):
-    if ("flan" in model_name.lower()) or "t5" in model_name.lower():
+    if "mt5" in model_name.lower():
+        return AutoTokenizer.from_pretrained(
+            model_name
+        ), AutoModelForSeq2SeqLM.from_pretrained(
+            model_name, load_in_8bit=True, device_map="auto", torch_dtype=torch.float16
+        )
+    elif ("flan" in model_name.lower()) or "t5" in model_name.lower():
         return T5Tokenizer.from_pretrained(
             model_name
         ), T5ForConditionalGeneration.from_pretrained(
@@ -131,6 +138,10 @@ def compare_models(model_name_list, input_dataset, verbose):
         if "flan" in model_name.lower():
             prefix = "flan"
             probe_func = get_probe_function(prefix)
+        elif "mt5" in model_name.lower():
+            prefix = "t5"
+            probe_func = get_probe_function(prefix)
+
         elif "t5" in model_name.lower():
             prefix = "t5"
             probe_func = get_probe_function(prefix)
