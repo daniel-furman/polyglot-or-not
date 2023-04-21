@@ -1,1 +1,141 @@
 Running post-processing for ../../data/result_logs/llama...
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is hungarian
+	There are 4650 stem/fact pairs in the log
+	The model got 75.742% of facts correct
+	The 95% uncertainty estimate is +/- 1.226%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is danish
+	There are 23365 stem/fact pairs in the log
+	The model got 81.789% of facts correct
+	The 95% uncertainty estimate is +/- 0.49%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is portuguese
+	There are 22974 stem/fact pairs in the log
+	The model got 83.812% of facts correct
+	The 95% uncertainty estimate is +/- 0.477%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is russian
+	There are 3289 stem/fact pairs in the log
+	The model got 69.717% of facts correct
+	The 95% uncertainty estimate is +/- 1.566%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is french
+	There are 18395 stem/fact pairs in the log
+	The model got 84.18% of facts correct
+	The 95% uncertainty estimate is +/- 0.525%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is spanish
+	There are 18786 stem/fact pairs in the log
+	The model got 81.742% of facts correct
+	The 95% uncertainty estimate is +/- 0.556%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is romanian
+	There are 17568 stem/fact pairs in the log
+	The model got 82.724% of facts correct
+	The 95% uncertainty estimate is +/- 0.555%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is croatian
+	There are 7358 stem/fact pairs in the log
+	The model got 76.692% of facts correct
+	The 95% uncertainty estimate is +/- 0.945%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is german
+	There are 16287 stem/fact pairs in the log
+	The model got 85.737% of facts correct
+	The 95% uncertainty estimate is +/- 0.543%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is polish
+	There are 9484 stem/fact pairs in the log
+	The model got 77.467% of facts correct
+	The 95% uncertainty estimate is +/- 0.844%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is slovenian
+	There are 7873 stem/fact pairs in the log
+	The model got 75.994% of facts correct
+	The 95% uncertainty estimate is +/- 0.94%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is dutch
+	There are 22590 stem/fact pairs in the log
+	The model got 85.352% of facts correct
+	The 95% uncertainty estimate is +/- 0.456%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is italian
+	There are 20448 stem/fact pairs in the log
+	The model got 84.39% of facts correct
+	The 95% uncertainty estimate is +/- 0.499%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is czech
+	There are 9427 stem/fact pairs in the log
+	The model got 77.936% of facts correct
+	The 95% uncertainty estimate is +/- 0.843%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is ukrainian
+	There are 7918 stem/fact pairs in the log
+	The model got 72.998% of facts correct
+	The 95% uncertainty estimate is +/- 0.985%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is english
+	There are 26254 stem/fact pairs in the log
+	The model got 89.404% of facts correct
+	The 95% uncertainty estimate is +/- 0.373%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is catalan
+	There are 18898 stem/fact pairs in the log
+	The model got 84.014% of facts correct
+	The 95% uncertainty estimate is +/- 0.516%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is serbian
+	There are 5426 stem/fact pairs in the log
+	The model got 60.007% of facts correct
+	The 95% uncertainty estimate is +/- 1.299%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is bulgarian
+	There are 20577 stem/fact pairs in the log
+	The model got 72.503% of facts correct
+	The 95% uncertainty estimate is +/- 0.6%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b
+	The language is swedish
+	There are 21576 stem/fact pairs in the log
+	The model got 84.056% of facts correct
+	The 95% uncertainty estimate is +/- 0.482%
+
