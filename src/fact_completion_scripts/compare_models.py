@@ -139,8 +139,8 @@ def compare_models(model_name_list, input_dataset, verbose):
             prefix = "flan"
             probe_func = get_probe_function(prefix)
         elif "mt5" in model_name.lower():
-            prefix = "flan"
-            probe_func = get_probe_function(prefix)
+            prefix = "mt5"
+            probe_func = get_probe_function("t5")
 
         elif "t5" in model_name.lower():
             prefix = "t5"
@@ -220,7 +220,7 @@ def compare_models(model_name_list, input_dataset, verbose):
                 # default to the very first token that get's predicted
                 # e.g. in the case of Tokyo, which gets split into <Tok> <yo>,
                 target_id = None
-                if (prefix == "flan") or (prefix == "t5"):
+                if (prefix == "flan") or (prefix == "t5") or (prefix == "mt5"):
                     target_id = tokenizer.encode(
                         " " + entity,
                         padding="longest",
