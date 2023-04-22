@@ -195,16 +195,19 @@ def compare_models(model_name_list, input_dataset, verbose):
                         truncation=True,
                         return_tensors="pt",
                     ).tolist()
+                    print("target_ids:", target_ids)
+
                     space_only_token = tokenizer.encode(" ")[0]
                     try:
-                        target_ids.remove(space_only_token)
+                        target_ids[0].remove(space_only_token)
                     except ValueError:
                         pass
                     empty_only_token = tokenizer.encode("")[0]
                     try:
-                        target_ids.remove(empty_only_token)
+                        target_ids[0].remove(empty_only_token)
                     except ValueError:
                         pass
+                    print("target_ids:", target_ids)
                     target_id = torch.tensor(target_ids).to(device)[0][0]
 
                 elif (

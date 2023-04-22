@@ -1154,7 +1154,6 @@ def main(args):
         "rome_17595",
         "rome_20749",
         "rome_7651",
-        "calinet_5813",
         "calinet_7356",
         "calinet_209",
         "rome_1077",
