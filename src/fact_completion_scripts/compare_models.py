@@ -182,21 +182,26 @@ def compare_models(model_name_list, input_dataset, verbose):
                     context += " <mask>."
                 elif prefix == "bert":
                     context += " [MASK]."
-                # elif prefix == "t5":
-                # context += " <extra_id_0>."
 
                 # first find target vocab id
                 # default to the very first token that get's predicted
                 # e.g. in the case of Tokyo, which gets split into <Tok> <yo>,
                 target_id = None
                 if prefix == "t5":
-                    target_id = tokenizer.encode(
+                    target_ids = tokenizer.encode(
                         " " + entity,
                         padding="longest",
                         max_length=512,
                         truncation=True,
                         return_tensors="pt",
-                    ).to(device)[0][0]
+                    ).tolist()
+                    space_only_token = tokenizer.encode(' ')[0]
+                    try:
+                        target_ids.remove(space_only_token)
+                    except ValueError:
+                        pass
+
+                    target_id = torch.tensor(target_ids).to(device)[0][0]
 
                 elif (
                     (prefix == "gpt") or (prefix == "eleutherai") or (prefix == "bloom")
