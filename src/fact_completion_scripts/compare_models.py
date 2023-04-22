@@ -195,7 +195,7 @@ def compare_models(model_name_list, input_dataset, verbose):
                         truncation=True,
                         return_tensors="pt",
                     ).tolist()
-                    space_only_token = tokenizer.encode(' ')[0]
+                    space_only_token = tokenizer.encode(" ")[0]
                     try:
                         target_ids.remove(space_only_token)
                     except ValueError:
