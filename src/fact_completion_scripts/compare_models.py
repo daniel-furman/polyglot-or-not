@@ -200,7 +200,11 @@ def compare_models(model_name_list, input_dataset, verbose):
                         target_ids.remove(space_only_token)
                     except ValueError:
                         pass
-
+                    empty_only_token = tokenizer.encode("")[0]
+                    try:
+                        target_ids.remove(empty_only_token)
+                    except ValueError:
+                        pass
                     target_id = torch.tensor(target_ids).to(device)[0][0]
 
                 elif (
