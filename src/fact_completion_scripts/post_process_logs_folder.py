@@ -3,7 +3,7 @@ Process fact-completion logs to generate bootstrap estimates and error analysis 
 
 Example usage:
 python post_process_logs_folder.py \
-    --folder ../../data/result_logs/bloom \
+    --folder ../../data/result_logs/xlm-roberta \
     --write_errors True
 """
 

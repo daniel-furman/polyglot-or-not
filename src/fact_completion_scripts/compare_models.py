@@ -17,7 +17,7 @@ from transformers import (
     AutoModelForSeq2SeqLM,
 )
 
-from probe_helpers import probe_flan, probe_gpt, probe_bert, probe_llama, probe_t5
+from probe_helpers import probe_gpt, probe_bert, probe_llama, probe_t5
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 if not torch.cuda.is_available():
@@ -26,7 +26,7 @@ if not torch.cuda.is_available():
 
 # first, write helper to pull a pretrained LM and tokenizer off the shelf
 def get_model_and_tokenizer(model_name):
-    if ("flan" in model_name.lower()) or "t5" in model_name.lower():
+    if "t5" in model_name.lower():
         return AutoTokenizer.from_pretrained(
             model_name
         ), AutoModelForSeq2SeqLM.from_pretrained(
@@ -67,7 +67,7 @@ def get_model_and_tokenizer(model_name):
 
 # next, write a helper to pull a probe function for the given LM
 def get_probe_function(prefix):
-    probe_functions = [probe_flan, probe_gpt, probe_bert, probe_llama, probe_t5]
+    probe_functions = [probe_gpt, probe_bert, probe_llama, probe_t5]
     for func in probe_functions:
         if prefix.lower() in func.__name__:
             return func
@@ -77,19 +77,6 @@ def get_probe_function(prefix):
 def compare_models(model_name_list, input_dataset, verbose):
     """
     Model-wise comparison helper function
-
-    we should be able to do the following:
-      * input a set of models we want to evaluate
-      * input an expression of interest
-      * input a 'true' next-token alonside a false
-      * and get an output report that contains..
-        * the 'result' ie is true > false
-        * the probabilities of both of those values
-      * running this method over a large set of positive/negative pairings should
-      result in a large pool of information that can be used to compare model-families
-      * we can also look at the relative 'certainty' across different models
-      (at least in orders of magnitude)
-
     """
 
     print("Made it to start of compare models")
@@ -98,9 +85,6 @@ def compare_models(model_name_list, input_dataset, verbose):
     score_dict_summary = {}
     itr_run_babysitting = 0
     list_run_babysitting = list(np.arange(0, 26300, 1000))
-
-    # torch.cuda.current_device()
-    # torch.cuda._initialized = True
 
     if not os.path.isdir("logging"):
         os.mkdir("logging")
@@ -127,14 +111,7 @@ def compare_models(model_name_list, input_dataset, verbose):
         probe_func = None
 
         # get correct CKA function
-        if "flan" in model_name.lower():
-            prefix = "flan"
-            probe_func = get_probe_function(prefix)
-        elif "mt5" in model_name.lower():
-            prefix = "mt5"
-            probe_func = get_probe_function("t5")
-
-        elif "t5" in model_name.lower():
+        if "t5" in model_name.lower():
             prefix = "t5"
             probe_func = get_probe_function(prefix)
         elif (
@@ -200,19 +177,19 @@ def compare_models(model_name_list, input_dataset, verbose):
                     context = context.split(" <br> ")
                 if type(context) == list:
                     context = context[entity_count]
-                # add necessary additions based on model type
+                # necessary additions based on model type
                 if prefix == "roberta":
                     context += " <mask>."
                 elif prefix == "bert":
                     context += " [MASK]."
-                elif prefix == "t5":
-                    context += " <extra_id_0>."
+                # elif prefix == "t5":
+                # context += " <extra_id_0>."
 
                 # first find target vocab id
                 # default to the very first token that get's predicted
                 # e.g. in the case of Tokyo, which gets split into <Tok> <yo>,
                 target_id = None
-                if (prefix == "flan") or (prefix == "t5") or (prefix == "mt5"):
+                if prefix == "t5":
                     target_id = tokenizer.encode(
                         " " + entity,
                         padding="longest",
