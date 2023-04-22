@@ -3,7 +3,7 @@ Process fact-completion logs to generate bootstrap estimates and error analysis 
 
 Example usage:
 python post_process_logs_folder.py \
-    --folder ../../data/result_logs/llama \
+    --folder ../../data/result_logs/bloom \
     --write_errors True
 """
 
@@ -23,8 +23,12 @@ def post_process(args):
     num_resamples = args.num_resamples
     input_folder = args.folder
 
+    input_folder_metrics = os.path.join(input_folder, "results")
+    if not os.path.isdir(input_folder_metrics):
+        os.mkdir(input_folder_metrics)
+
     # Open a file for writing
-    with open(os.path.join(input_folder, "metrics.txt"), "w") as f:
+    with open(os.path.join(input_folder_metrics, "metrics.txt"), "w") as f:
         # Redirect stdout to the file
         sys.stdout = f
 
@@ -47,8 +51,10 @@ def post_process(args):
             false_facts["model"] = []
             false_facts["dataset_id"] = []
             false_facts["differences"] = []
-            false_facts["facts"] = []
-            false_facts["resolution"] = []
+            false_facts["stem"] = []
+            false_facts["true"] = []
+            false_facts["false"] = []
+            false_facts["relation"] = []
 
             for itr, fact in enumerate(data["score_dict_full"][model_name.lower()]):
                 if fact["p_true > p_false_average"] != "True":
@@ -59,17 +65,17 @@ def post_process(args):
                     false_facts["differences"].append(
                         fact["p_true"] - fact["p_false_average"]
                     )
-                    false_facts["facts"].append(
-                        f"{fact['stem']} [ true: {fact['fact']}; false: {fact['counterfact']} ]"
-                    )
+                    false_facts["stem"].append(fact["stem"])
+                    false_facts["true"].append(fact["fact"])
+                    false_facts["false"].append(fact["counterfact"])
                     false_facts["model"].append(model_name)
                     false_facts["dataset_id"].append(fact["dataset_id"])
-                    false_facts["resolution"].append("to do")
+                    false_facts["relation"].append(fact["relation"])
 
                 elif fact["p_true > p_false_average"] == "True":
                     true_facts_itrs.append(itr)
-            # make a results list compatible with the bootstrap:
 
+            # make a results list compatible with the bootstrap:
             results_false = [0] * len(false_facts_itrs)
             results_true = [1] * len(true_facts_itrs)
             results = results_false + results_true
@@ -81,28 +87,35 @@ def post_process(args):
 
             # create bootstrap estimates from logs
             # calculate percentage with this to check
-
             bootstrap_results = bootstrap(results, B=num_resamples)
 
             print(
                 f"\tThe 95% uncertainty estimate is +/- {np.round(100 * bootstrap_results[0], decimals=3)}%\n"
             )
-            # Grab items with the most negative p_false_average - p_true value
 
-            # order results by p_true - p_false, return top n rows
-
+            # write all the facts that erred to a dataframe
             error_df = pd.DataFrame.from_dict(false_facts)
             error_df = error_df.sort_values(by="differences").reset_index(drop=True)
             error_df = error_df[
-                ["model", "dataset_id", "differences", "resolution", "facts"]
+                [
+                    "model",
+                    "dataset_id",
+                    "differences",
+                    "stem",
+                    "true",
+                    "false",
+                    "relation",
+                ]
             ]
-            # print(error_df)
-
+            error_folder = os.path.join(input_folder, "error-analysis")
             if args.write_errors:
-                if not os.path.isdir("./error-analysis"):
-                    os.mkdir("./error-analysis")
+                if not os.path.isdir(error_folder):
+                    os.mkdir(error_folder)
                 error_df.to_csv(
-                    f"./error-analysis/error-analysis-{model_name.split('/')[-1]}-{lang}.csv",
+                    os.path.join(
+                        error_folder,
+                        f"error-analysis-{model_name.split('/')[-1]}-{lang}.csv",
+                    ),
                     index=False,
                 )
 

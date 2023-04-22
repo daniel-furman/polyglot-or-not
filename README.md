@@ -47,7 +47,6 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data]---a fact completion d
 | [llama](https://arxiv.org/abs/2302.13971) (30B) | Touvron et al., 2023 | **89.40** +/- 0.38 | 
 | [gpt-neox](https://arxiv.org/abs/2204.06745) (20B) | Black et al., 2022 | **81.50** +/- 0.47 |
 | [gpt-j](https://github.com/kingoflolz/mesh-transformer-jax/#gpt-j-6b) (6B) | Wang et al., 2021 | **81.14** +/- 0.47 |
-| [flan-t5-xxl](https://arxiv.org/abs/2210.11416) (11B)| Chung et al., 2022 | **78.17** +/- 0.51 |
 | [bloom](https://arxiv.org/abs/2211.05100) (7B) | Scao et al., 2022 | **76.16** +/- 0.51 | 
 | [gpt2-xl](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) (1.5B) | Radford et al., 2018 | **73.76** +/- 0.54 | 
 | [m-bert-base](https://arxiv.org/abs/1810.04805) (110M) | Devlin et al., 2018 | **71.80** +/- 0.55 | 
