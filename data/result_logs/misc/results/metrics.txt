@@ -1,22 +1,29 @@
 Running post-processing for ../../data/result_logs/misc...
 
+	The model name is google/t5-v1_1-xxl
+	The language is english
+	There are 26254 stem/fact pairs in the log
+	The model got 76.548% of facts correct
+	The 95% uncertainty estimate is +/- 0.518%
+
+
 	The model name is EleutherAI/gpt-neox-20b
 	The language is english
 	There are 26254 stem/fact pairs in the log
 	The model got 81.5% of facts correct
-	The 95% uncertainty estimate is +/- 0.47%
+	The 95% uncertainty estimate is +/- 0.465%
 
 
 	The model name is EleutherAI/gpt-j-6b
 	The language is english
 	There are 26254 stem/fact pairs in the log
 	The model got 81.146% of facts correct
-	The 95% uncertainty estimate is +/- 0.474%
+	The 95% uncertainty estimate is +/- 0.469%
 
 
 	The model name is gpt2-xl
 	The language is english
 	There are 26254 stem/fact pairs in the log
 	The model got 73.76% of facts correct
-	The 95% uncertainty estimate is +/- 0.537%
+	The 95% uncertainty estimate is +/- 0.535%
 
