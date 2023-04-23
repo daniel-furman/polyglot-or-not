@@ -1,618 +1,618 @@
 ,language,relation,percentage change,new ratio of rows,old ratio of rows,Title,Description
-0,German,P39,244.905,0.026,0.008,position held,position held
-1,English,P264,221.038,0.065,0.02,record label,record label
-2,Danish,P264,201.396,0.069,0.023,record label,record label
-3,Slovenian,P1303,179.534,0.027,0.01,instrument,instrument
-4,German,P264,172.157,0.065,0.024,record label,record label
-5,Polish,P641,151.886,0.01,0.004,sport,sport
-6,Dutch,P101,149.638,0.089,0.036,field of work,field of work
-7,Swedish,P264,147.333,0.061,0.025,record label,record label
-8,French,P264,147.04,0.07,0.028,record label,record label
-9,Romanian,P364,137.821,0.017,0.007,original language,original language
-10,English,P101,136.864,0.091,0.038,field of work,field of work
-11,Swedish,P101,130.64,0.081,0.035,field of work,field of work
-12,Czech,P1303,129.374,0.04,0.017,instrument,instrument
-13,French,P30,127.965,0.079,0.035,continent,continent
-14,Italian,P264,126.88,0.059,0.026,record label,record label
-15,Romanian,P407,125.495,0.032,0.014,language,language
-16,German,P449,123.804,0.049,0.022,original network,original network
-17,Portuguese,P264,123.366,0.052,0.023,record label,record label
-18,Ukrainian,P413,122.208,0.043,0.02,position played on team,position played on team
-19,French,P101,117.976,0.076,0.035,field of work,field of work
-20,Hungarian,P413,117.478,0.059,0.027,position played on team,position played on team
-21,Dutch,P264,115.448,0.05,0.023,record label,record label
-22,Spanish,P264,113.131,0.05,0.024,record label,record label
-23,Ukrainian,P1303,111.626,0.007,0.004,instrument,instrument
-24,Croatian,P264,110.362,0.148,0.07,record label,record label
-25,Czech,P264,109.582,0.115,0.055,record label,record label
-26,Polish,P39,108.532,0.018,0.009,position held,position held
-27,Czech,P159,106.441,0.042,0.02,headquarters location,headquarters location
-28,Slovenian,P264,103.6,0.138,0.068,record label,record label
-29,Catalan,P101,100.139,0.069,0.034,field of work,field of work
-30,German,P101,99.91,0.09,0.045,field of work,field of work
-31,Romanian,P101,99.107,0.032,0.016,field of work,field of work
-32,English,P136,98.796,0.094,0.047,genre,genre
-33,Croatian,P449,97.41,0.044,0.022,original network,original network
-34,Romanian,P264,95.129,0.059,0.03,record label,record label
-35,Danish,P101,93.569,0.068,0.035,field of work,field of work
-36,Catalan,P264,93.568,0.054,0.028,record label,record label
-37,Slovenian,P413,93.554,0.049,0.025,position played on team,position played on team
-38,Czech,P39,93.374,0.015,0.008,position held,position held
-39,Italian,P101,91.21,0.062,0.032,field of work,field of work
-40,Croatian,P159,90.684,0.009,0.005,headquarters location,headquarters location
-41,Russian,P264,89.429,0.149,0.078,record label,record label
-42,Slovenian,P159,84.702,0.025,0.013,headquarters location,headquarters location
-43,Polish,P264,84.567,0.103,0.056,record label,record label
-44,Danish,P39,83.891,0.051,0.028,position held,position held
-45,Hungarian,P1303,83.834,0.029,0.016,instrument,instrument
-46,Italian,P407,83.409,0.043,0.024,language,language
-47,Catalan,P1412,83.089,0.06,0.033,languages spoken,languages spoken
-48,Danish,P364,83.04,0.07,0.038,original language,original language
-49,German,P1303,82.8,0.034,0.019,instrument,instrument
-50,English,P106,81.299,0.068,0.038,occupation,occupation
-51,French,P364,78.293,0.03,0.017,original language,original language
-52,English,P495,77.73,0.092,0.052,country of origin,country of origin
-53,Russian,P413,77.466,0.079,0.045,position played on team,position played on team
-54,Croatian,P1303,77.336,0.018,0.01,instrument,instrument
-55,Dutch,P449,74.417,0.088,0.05,original network,original network
-56,German,P136,74.295,0.076,0.044,genre,genre
-57,Bulgarian,P264,74.292,0.045,0.026,record label,record label
-58,Spanish,P101,73.02,0.042,0.024,field of work,field of work
-59,Spanish,P364,72.562,0.013,0.008,original language,original language
-60,Dutch,P39,72.506,0.028,0.016,position held,position held
-61,Swedish,P39,72.376,0.059,0.034,position held,position held
-62,Bulgarian,P101,70.348,0.022,0.013,field of work,field of work
-63,Slovenian,P47,69.13,0.029,0.017,shares border with,shares border with
-64,Italian,P1412,67.113,0.047,0.028,languages spoken,languages spoken
-65,Serbian,P740,66.697,0.002,0.001,formation location,formation location
-66,Swedish,P20,66.281,0.089,0.054,place of death,place of death
-67,Slovenian,P39,65.556,0.049,0.03,position held,position held
-68,Catalan,P136,65.548,0.081,0.049,genre,genre
-69,Portuguese,P39,65.348,0.053,0.032,position held,position held
-70,Hungarian,P449,64.894,0.002,0.001,original network,original network
-71,Swedish,P449,64.409,0.09,0.054,original network,original network
-72,Italian,P136,62.02,0.061,0.038,genre,genre
-73,Italian,P449,61.251,0.092,0.057,original network,original network
-74,Dutch,P30,60.721,0.063,0.039,continent,continent
-75,Swedish,P136,59.981,0.088,0.055,genre,genre
-76,Slovenian,P101,59.921,0.088,0.055,field of work,field of work
-77,Hungarian,P103,59.243,0.11,0.069,native language,native language
-78,Portuguese,P101,58.378,0.059,0.038,field of work,field of work
-79,Italian,P495,58.106,0.073,0.046,country of origin,country of origin
-80,Ukrainian,P264,57.504,0.104,0.066,record label,record label
-81,Danish,P106,56.891,0.063,0.04,occupation,occupation
-82,Portuguese,P136,56.686,0.08,0.051,genre,genre
-83,French,P136,56.528,0.063,0.04,genre,genre
-84,Catalan,P641,56.389,0.011,0.007,sport,sport
-85,French,P449,55.973,0.098,0.063,original network,original network
-86,Czech,P101,55.517,0.084,0.054,field of work,field of work
-87,Italian,P39,55.463,0.062,0.04,position held,position held
-88,Croatian,P413,55.184,0.01,0.006,position played on team,position played on team
-89,Swedish,P106,55.172,0.069,0.045,occupation,occupation
-90,Hungarian,P641,54.588,0.016,0.01,sport,sport
-91,Spanish,P449,54.527,0.095,0.062,original network,original network
-92,Portuguese,P449,54.171,0.078,0.051,original network,original network
-93,Ukrainian,P641,52.917,0.03,0.02,sport,sport
-94,Polish,P136,51.999,0.076,0.05,genre,genre
-95,German,P106,51.843,0.05,0.033,occupation,occupation
-96,Hungarian,P264,51.516,0.098,0.065,record label,record label
-97,Romanian,P138,50.254,0.02,0.013,named after,named after
-98,Danish,P136,50.102,0.075,0.05,genre,genre
-99,French,P39,49.715,0.031,0.021,position held,position held
-100,Portuguese,P407,49.56,0.037,0.025,language,language
-101,Portuguese,P138,49.419,0.018,0.012,named after,named after
-102,Spanish,P136,48.968,0.069,0.046,genre,genre
-103,Dutch,P136,48.042,0.053,0.036,genre,genre
-104,Romanian,P136,47.791,0.087,0.059,genre,genre
-105,Bulgarian,P106,47.758,0.064,0.043,occupation,occupation
-106,Catalan,P449,47.536,0.091,0.062,original network,original network
-107,Ukrainian,P101,46.763,0.06,0.041,field of work,field of work
-108,Romanian,P449,46.324,0.097,0.066,original network,original network
-109,Danish,P1303,46.096,0.02,0.014,instrument,instrument
-110,Romanian,P495,45.779,0.079,0.054,country of origin,country of origin
-111,Dutch,P1303,45.614,0.023,0.016,instrument,instrument
-112,Croatian,P101,45.242,0.089,0.061,field of work,field of work
-113,Russian,P131,44.472,0.007,0.005,is in the administrative territorial entity,is in the administrative territorial entity
-114,English,P176,44.404,0.026,0.018,manufacturer,manufacturer
-115,Croatian,P47,43.013,0.001,0.001,shares border with,shares border with
-116,Hungarian,P39,42.696,0.072,0.05,position held,position held
-117,Italian,P176,42.673,0.031,0.022,manufacturer,manufacturer
-118,Ukrainian,P106,42.633,0.08,0.056,occupation,occupation
-119,Croatian,P39,41.859,0.024,0.017,position held,position held
-120,Croatian,P407,41.769,0.044,0.031,language,language
-121,Serbian,P136,41.097,0.036,0.026,genre,genre
-122,English,P449,40.281,0.063,0.045,original network,original network
-123,Catalan,P407,40.124,0.028,0.02,language,language
-124,Bulgarian,P641,40.051,0.011,0.008,sport,sport
-125,Spanish,P103,39.671,0.026,0.019,native language,native language
-126,Czech,P495,38.89,0.009,0.007,country of origin,country of origin
-127,Russian,P101,38.843,0.037,0.027,field of work,field of work
-128,Polish,P101,38.261,0.076,0.055,field of work,field of work
-129,Spanish,P37,38.204,0.031,0.023,official language,official language
-130,Swedish,P138,37.566,0.017,0.012,named after,named after
-131,Dutch,P106,37.287,0.055,0.04,occupation,occupation
-132,Polish,P364,37.018,0.074,0.054,original language,original language
-133,Romanian,P30,36.52,0.058,0.042,continent,continent
-134,Serbian,P30,36.389,0.028,0.02,continent,continent
-135,Catalan,P39,36.156,0.047,0.035,position held,position held
-136,Portuguese,P106,35.987,0.044,0.032,occupation,occupation
-137,Serbian,P449,35.852,0.032,0.023,original network,original network
-138,Italian,P106,35.475,0.044,0.032,occupation,occupation
-139,Bulgarian,P413,34.497,0.022,0.016,position played on team,position played on team
-140,Polish,P449,33.579,0.157,0.117,original network,original network
-141,English,P39,33.115,0.044,0.033,position held,position held
-142,Serbian,P264,33.003,0.104,0.078,record label,record label
-143,Ukrainian,P136,32.925,0.081,0.061,genre,genre
-144,Czech,P449,31.831,0.155,0.117,original network,original network
-145,Dutch,P407,31.526,0.019,0.014,language,language
-146,French,P138,31.461,0.016,0.012,named after,named after
-147,Italian,P138,31.208,0.016,0.012,named after,named after
-148,Bulgarian,P136,31.09,0.062,0.047,genre,genre
-149,Italian,P364,30.469,0.031,0.024,original language,original language
-150,Polish,P407,29.53,0.029,0.022,language,language
-151,Spanish,P276,28.307,0.02,0.015,located in,located in
-152,Catalan,P413,28.197,0.036,0.028,position played on team,position played on team
-153,Slovenian,P138,28.173,0.002,0.002,named after,named after
-154,German,P407,27.941,0.022,0.017,language,language
-155,Russian,P106,27.127,0.082,0.065,occupation,occupation
-156,Russian,P449,26.879,0.152,0.119,original network,original network
-157,Portuguese,P364,26.76,0.062,0.049,original language,original language
-158,Russian,P136,26.599,0.144,0.113,genre,genre
-159,Catalan,P37,26.563,0.04,0.032,official language,official language
-160,Hungarian,P106,26.43,0.126,0.1,occupation,occupation
-161,Spanish,P106,26.155,0.036,0.028,occupation,occupation
-162,Danish,P449,25.8,0.062,0.049,original network,original network
-163,Bulgarian,P1303,25.649,0.028,0.023,instrument,instrument
-164,English,P138,25.388,0.014,0.011,named after,named after
-165,Spanish,P138,25.376,0.017,0.013,named after,named after
-166,French,P176,25.287,0.03,0.024,manufacturer,manufacturer
-167,Serbian,P1303,25.023,0.018,0.014,instrument,instrument
-168,Spanish,P1412,23.961,0.045,0.036,languages spoken,languages spoken
-169,Polish,P106,23.356,0.081,0.066,occupation,occupation
-170,Bulgarian,P19,23.34,0.069,0.056,place of birth,place of birth
-171,Spanish,P176,23.078,0.029,0.024,manufacturer,manufacturer
-172,Catalan,P138,22.877,0.015,0.012,named after,named after
-173,French,P1412,22.652,0.031,0.025,languages spoken,languages spoken
-174,Romanian,P39,22.549,0.046,0.038,position held,position held
-175,Bulgarian,P30,22.471,0.029,0.024,continent,continent
-176,Serbian,P101,22.209,0.07,0.057,field of work,field of work
-177,Bulgarian,P1412,22.156,0.039,0.032,languages spoken,languages spoken
-178,German,P176,21.751,0.012,0.01,manufacturer,manufacturer
-179,Catalan,P106,20.636,0.041,0.034,occupation,occupation
-180,Catalan,P364,20.382,0.019,0.015,original language,original language
-181,Danish,P407,20.283,0.027,0.022,language,language
-182,Ukrainian,P407,20.057,0.028,0.023,language,language
-183,Ukrainian,P449,19.971,0.161,0.135,original network,original network
-184,Catalan,P495,19.497,0.049,0.041,country of origin,country of origin
-185,Polish,P138,19.23,0.008,0.007,named after,named after
-186,Bulgarian,P937,18.947,0.071,0.059,work location,work location
-187,Serbian,P407,18.693,0.035,0.029,language,language
-188,Danish,P495,18.378,0.064,0.054,country of origin,country of origin
-189,Spanish,P39,18.308,0.05,0.042,position held,position held
-190,Dutch,P176,18.272,0.024,0.02,manufacturer,manufacturer
-191,Polish,P159,18.249,0.038,0.032,headquarters location,headquarters location
-192,Portuguese,P30,17.843,0.026,0.022,continent,continent
-193,German,P30,17.644,0.053,0.045,continent,continent
-194,Portuguese,P176,17.536,0.023,0.02,manufacturer,manufacturer
-195,Romanian,P37,17.37,0.014,0.012,official language,official language
-196,Swedish,P1303,17.32,0.023,0.019,instrument,instrument
-197,Slovenian,P449,17.319,0.157,0.133,original network,original network
-198,Serbian,P106,17.278,0.171,0.146,occupation,occupation
-199,Ukrainian,P131,17.198,0.012,0.01,is in the administrative territorial entity,is in the administrative territorial entity
-200,Croatian,P495,17.01,0.002,0.001,country of origin,country of origin
-201,Swedish,P30,16.877,0.038,0.033,continent,continent
-202,Czech,P740,16.671,0.012,0.011,formation location,formation location
-203,Czech,P138,16.543,0.009,0.007,named after,named after
-204,Danish,P138,15.925,0.013,0.012,named after,named after
-205,Serbian,P413,14.775,0.013,0.011,position played on team,position played on team
-206,Polish,P1303,13.949,0.009,0.008,instrument,instrument
-207,Hungarian,P136,13.667,0.066,0.058,genre,genre
-208,Serbian,P127,13.657,0.016,0.014,owned by,owned by
-209,Russian,P641,13.513,0.022,0.019,sport,sport
-210,German,P1412,13.507,0.063,0.056,languages spoken,languages spoken
-211,Ukrainian,P159,13.371,0.021,0.019,headquarters location,headquarters location
-212,Bulgarian,P407,13.277,0.027,0.024,language,language
-213,Polish,P413,12.47,0.052,0.046,position played on team,position played on team
-214,Czech,P413,12.137,0.035,0.031,position played on team,position played on team
-215,Serbian,P641,12.09,0.018,0.016,sport,sport
-216,Croatian,P136,12.067,0.099,0.088,genre,genre
-217,Dutch,P138,11.252,0.013,0.012,named after,named after
-218,Hungarian,P407,11.238,0.03,0.027,language,language
-219,Bulgarian,P276,10.937,0.02,0.018,located in,located in
-220,German,P495,10.867,0.031,0.028,country of origin,country of origin
-221,Bulgarian,P108,10.776,0.019,0.017,employer,employer
-222,Ukrainian,P364,10.383,0.115,0.104,original language,original language
-223,Swedish,P407,10.375,0.018,0.017,language,language
-224,Russian,P1303,10.074,0.005,0.005,instrument,instrument
-225,Russian,P159,10.074,0.001,0.001,headquarters location,headquarters location
-226,Bulgarian,P20,10.035,0.059,0.053,place of death,place of death
-227,French,P407,9.936,0.025,0.023,language,language
-228,Czech,P136,9.93,0.082,0.075,genre,genre
-229,Danish,P1412,9.702,0.042,0.039,languages spoken,languages spoken
-230,Slovenian,P407,9.621,0.013,0.012,language,language
-231,Serbian,P176,9.207,0.067,0.061,manufacturer,manufacturer
-232,Ukrainian,P39,9.205,0.011,0.01,position held,position held
-233,Slovenian,P127,9.099,0.017,0.016,owned by,owned by
-234,Ukrainian,P108,9.003,0.039,0.036,employer,employer
-235,French,P106,8.789,0.045,0.042,occupation,occupation
-236,Serbian,P178,8.772,0.116,0.106,developer,developer
-237,Russian,P37,8.393,0.043,0.04,official language,official language
-238,Czech,P106,7.71,0.074,0.069,occupation,occupation
-239,Spanish,P19,7.281,0.061,0.057,place of birth,place of birth
-240,Serbian,P364,7.163,0.1,0.093,original language,original language
-241,Spanish,P740,6.917,0.062,0.058,formation location,formation location
-242,Romanian,P106,6.826,0.043,0.04,occupation,occupation
-243,Bulgarian,P39,6.664,0.033,0.031,position held,position held
-244,Catalan,P176,6.416,0.024,0.023,manufacturer,manufacturer
-245,German,P413,6.287,0.025,0.023,position played on team,position played on team
-246,Dutch,P413,6.267,0.04,0.038,position played on team,position played on team
-247,Hungarian,P364,6.135,0.122,0.115,original language,original language
-248,Czech,P47,5.4,0.01,0.009,shares border with,shares border with
-249,Ukrainian,P30,5.212,0.023,0.022,continent,continent
-250,Bulgarian,P449,4.944,0.059,0.056,original network,original network
-251,French,P127,4.597,0.008,0.008,owned by,owned by
-252,Romanian,P740,4.152,0.069,0.066,formation location,formation location
-253,Polish,P937,3.868,0.005,0.005,work location,work location
-254,Portuguese,P641,3.823,0.005,0.005,sport,sport
-255,Russian,P108,3.535,0.095,0.092,employer,employer
-256,English,P19,3.359,0.05,0.048,place of birth,place of birth
-257,English,P20,3.332,0.046,0.045,place of death,place of death
-258,Spanish,P159,2.581,0.05,0.049,headquarters location,headquarters location
-259,Croatian,P364,2.553,0.121,0.118,original language,original language
-260,Bulgarian,P138,2.535,0.011,0.011,named after,named after
-261,Catalan,P276,2.333,0.021,0.02,located in,located in
-262,Spanish,P495,2.311,0.054,0.052,country of origin,country of origin
-263,Portuguese,P276,2.172,0.017,0.017,located in,located in
-264,Slovenian,P641,2.098,0.013,0.013,sport,sport
-265,Spanish,P127,1.784,0.012,0.012,owned by,owned by
-266,German,P127,1.731,0.016,0.016,owned by,owned by
-267,Croatian,P106,1.597,0.092,0.09,occupation,occupation
-268,Hungarian,P101,1.266,0.1,0.099,field of work,field of work
-269,Slovenian,P106,1.201,0.105,0.104,occupation,occupation
-270,Ukrainian,P495,1.003,0.003,0.003,country of origin,country of origin
-271,Bulgarian,P131,0.722,0.026,0.026,is in the administrative territorial entity,is in the administrative territorial entity
-272,Romanian,P1412,0.669,0.013,0.013,languages spoken,languages spoken
-273,Czech,P641,0.021,0.015,0.015,sport,sport
-274,Czech,P407,0.007,0.023,0.023,language,language
-275,Croatian,P176,-0.041,0.052,0.052,manufacturer,manufacturer
-276,Czech,P176,-0.059,0.041,0.041,manufacturer,manufacturer
-277,Bulgarian,P103,-0.265,0.017,0.018,native language,native language
-278,Dutch,P37,-0.617,0.039,0.04,official language,official language
-279,French,P413,-0.621,0.033,0.034,position played on team,position played on team
-280,Slovenian,P136,-0.656,0.077,0.077,genre,genre
-281,Catalan,P1303,-0.706,0.023,0.023,instrument,instrument
-282,Swedish,P176,-0.749,0.021,0.021,manufacturer,manufacturer
-283,Danish,P30,-0.881,0.024,0.024,continent,continent
-284,Russian,P39,-0.934,0.006,0.006,position held,position held
-285,Portuguese,P495,-1.348,0.045,0.046,country of origin,country of origin
-286,Croatian,P641,-1.532,0.016,0.017,sport,sport
-287,Portuguese,P740,-1.77,0.05,0.051,formation location,formation location
-288,Romanian,P176,-2.041,0.025,0.026,manufacturer,manufacturer
-289,Danish,P37,-2.172,0.039,0.04,official language,official language
-290,Polish,P37,-2.214,0.067,0.068,official language,official language
-291,Swedish,P1412,-2.434,0.02,0.021,languages spoken,languages spoken
-292,Serbian,P108,-2.76,0.023,0.023,employer,employer
-293,German,P37,-2.79,0.049,0.05,official language,official language
-294,French,P740,-2.89,0.055,0.056,formation location,formation location
-295,German,P740,-2.892,0.022,0.022,formation location,formation location
-296,Danish,P127,-3.339,0.011,0.011,owned by,owned by
-297,Serbian,P17,-3.344,0.021,0.022,country,country
-298,Bulgarian,P37,-3.831,0.025,0.026,official language,official language
-299,Slovenian,P495,-3.871,0.003,0.003,country of origin,country of origin
-300,Italian,P30,-4.152,0.025,0.026,continent,continent
-301,Dutch,P364,-4.25,0.047,0.049,original language,original language
-302,Serbian,P39,-4.303,0.014,0.015,position held,position held
-303,English,P407,-4.676,0.022,0.023,language,language
-304,Italian,P127,-4.775,0.01,0.011,owned by,owned by
-305,Catalan,P740,-4.853,0.06,0.063,formation location,formation location
-306,Serbian,P276,-5.286,0.012,0.012,located in,located in
-307,French,P495,-5.526,0.042,0.045,country of origin,country of origin
-308,Russian,P364,-5.651,0.004,0.004,original language,original language
-309,German,P641,-5.868,0.012,0.013,sport,sport
-310,Slovenian,P176,-6.467,0.051,0.055,manufacturer,manufacturer
-311,French,P37,-6.555,0.018,0.019,official language,official language
-312,Czech,P19,-6.784,0.014,0.015,place of birth,place of birth
-313,Dutch,P1412,-6.869,0.034,0.036,languages spoken,languages spoken
-314,French,P641,-7.288,0.004,0.004,sport,sport
-315,Ukrainian,P276,-7.413,0.008,0.009,located in,located in
-316,Ukrainian,P138,-7.413,0.003,0.003,named after,named after
-317,Czech,P276,-7.677,0.011,0.011,located in,located in
-318,Portuguese,P37,-7.799,0.046,0.05,official language,official language
-319,Italian,P1303,-7.838,0.019,0.021,instrument,instrument
-320,Hungarian,P1412,-8.6,0.043,0.048,languages spoken,languages spoken
-321,Bulgarian,P740,-8.83,0.048,0.053,formation location,formation location
-322,French,P276,-8.915,0.017,0.019,located in,located in
-323,Russian,P937,-9.351,0.014,0.016,work location,work location
-324,German,P138,-9.533,0.002,0.002,named after,named after
-325,Russian,P407,-9.94,0.003,0.003,language,language
-326,Romanian,P1303,-10.648,0.015,0.017,instrument,instrument
-327,English,P159,-10.872,0.037,0.041,headquarters location,headquarters location
-328,Italian,P37,-11.055,0.028,0.031,official language,official language
-329,Hungarian,P17,-11.087,0.01,0.011,country,country
-330,Swedish,P37,-11.233,0.022,0.025,official language,official language
-331,Czech,P364,-11.359,0.085,0.096,original language,original language
-332,Romanian,P159,-11.622,0.05,0.056,headquarters location,headquarters location
-333,Serbian,P131,-11.748,0.003,0.003,is in the administrative territorial entity,is in the administrative territorial entity
-334,Bulgarian,P495,-11.908,0.045,0.052,country of origin,country of origin
-335,Croatian,P37,-11.992,0.079,0.09,official language,official language
-336,Danish,P641,-12.757,0.008,0.009,sport,sport
-337,Ukrainian,P47,-12.86,0.006,0.006,shares border with,shares border with
-338,Spanish,P407,-12.91,0.013,0.015,language,language
-339,Italian,P740,-13.495,0.046,0.054,formation location,formation location
-340,Italian,P276,-13.528,0.015,0.018,located in,located in
-341,German,P364,-13.931,0.059,0.069,original language,original language
-342,Polish,P176,-14.401,0.03,0.036,manufacturer,manufacturer
-343,Bulgarian,P364,-14.449,0.044,0.051,original language,original language
-344,Portuguese,P1303,-14.493,0.013,0.015,instrument,instrument
-345,Romanian,P20,-14.632,0.051,0.06,place of death,place of death
-346,Danish,P413,-14.792,0.03,0.035,position played on team,position played on team
-347,Slovenian,P364,-14.928,0.046,0.054,original language,original language
-348,Portuguese,P19,-15.192,0.045,0.054,place of birth,place of birth
-349,Danish,P20,-15.227,0.042,0.049,place of death,place of death
-350,Catalan,P17,-15.495,0.025,0.03,country,country
-351,Croatian,P127,-15.725,0.013,0.015,owned by,owned by
-352,Romanian,P276,-15.747,0.018,0.021,located in,located in
-353,English,P364,-16.205,0.037,0.044,original language,original language
-354,English,P276,-16.527,0.013,0.016,located in,located in
-355,Serbian,P47,-16.651,0.0,0.001,shares border with,shares border with
-356,English,P1303,-16.732,0.016,0.019,instrument,instrument
-357,Croatian,P276,-16.819,0.011,0.013,located in,located in
-358,Polish,P19,-17.013,0.022,0.026,place of birth,place of birth
-359,Hungarian,P495,-17.553,0.001,0.001,country of origin,country of origin
-360,Hungarian,P178,-17.553,0.001,0.001,developer,developer
-361,Dutch,P19,-17.877,0.044,0.054,place of birth,place of birth
-362,English,P740,-18.512,0.038,0.046,formation location,formation location
-363,Romanian,P19,-19.577,0.053,0.066,place of birth,place of birth
-364,Portuguese,P1412,-19.807,0.024,0.031,languages spoken,languages spoken
-365,Dutch,P127,-19.847,0.009,0.011,owned by,owned by
-366,Dutch,P740,-19.889,0.042,0.052,formation location,formation location
-367,Slovenian,P276,-19.892,0.011,0.013,located in,located in
-368,Czech,P1412,-20.171,0.015,0.019,languages spoken,languages spoken
-369,Dutch,P159,-20.309,0.036,0.046,headquarters location,headquarters location
-370,Polish,P47,-20.344,0.01,0.012,shares border with,shares border with
-371,Romanian,P413,-21.777,0.003,0.004,position played on team,position played on team
-372,Dutch,P20,-22.203,0.039,0.05,place of death,place of death
-373,Swedish,P740,-22.391,0.043,0.055,formation location,formation location
-374,Danish,P740,-22.397,0.04,0.052,formation location,formation location
-375,Serbian,P159,-22.399,0.004,0.005,headquarters location,headquarters location
-376,Portuguese,P20,-22.44,0.038,0.049,place of death,place of death
-377,Dutch,P495,-22.497,0.043,0.055,country of origin,country of origin
-378,Spanish,P937,-23.399,0.041,0.053,work location,work location
-379,Swedish,P19,-24.634,0.043,0.057,place of birth,place of birth
-380,Swedish,P364,-24.65,0.021,0.027,original language,original language
-381,Danish,P276,-24.684,0.013,0.017,located in,located in
-382,German,P19,-24.784,0.048,0.064,place of birth,place of birth
-383,Polish,P20,-24.946,0.011,0.014,place of death,place of death
-384,Danish,P176,-25.502,0.015,0.02,manufacturer,manufacturer
-385,Swedish,P495,-25.741,0.035,0.047,country of origin,country of origin
-386,Ukrainian,P740,-25.931,0.005,0.006,formation location,formation location
-387,Polish,P276,-26.033,0.01,0.013,located in,located in
-388,Spanish,P20,-26.834,0.041,0.056,place of death,place of death
-389,Czech,P108,-27.036,0.025,0.034,employer,employer
-390,Ukrainian,P176,-27.315,0.039,0.054,manufacturer,manufacturer
-391,Swedish,P276,-27.508,0.013,0.018,located in,located in
-392,Portuguese,P159,-27.949,0.033,0.046,headquarters location,headquarters location
-393,Russian,P127,-28.115,0.032,0.045,owned by,owned by
-394,Swedish,P413,-28.182,0.022,0.03,position played on team,position played on team
-395,German,P159,-28.414,0.044,0.061,headquarters location,headquarters location
-396,Czech,P937,-28.906,0.004,0.005,work location,work location
-397,French,P19,-28.952,0.037,0.052,place of birth,place of birth
-398,English,P30,-29.947,0.025,0.036,continent,continent
-399,English,P37,-30.038,0.032,0.046,official language,official language
-400,Ukrainian,P17,-30.225,0.018,0.026,country,country
-401,Danish,P19,-30.536,0.037,0.053,place of birth,place of birth
-402,Catalan,P19,-30.56,0.038,0.055,place of birth,place of birth
-403,Slovenian,P30,-30.573,0.006,0.008,continent,continent
-404,Catalan,P127,-31.132,0.004,0.006,owned by,owned by
-405,Portuguese,P413,-31.14,0.019,0.027,position played on team,position played on team
-406,French,P108,-31.553,0.012,0.017,employer,employer
-407,Portuguese,P131,-31.735,0.016,0.024,is in the administrative territorial entity,is in the administrative territorial entity
-408,Czech,P30,-32.153,0.012,0.018,continent,continent
-409,Catalan,P47,-32.256,0.016,0.023,shares border with,shares border with
-410,Spanish,P131,-32.331,0.019,0.028,is in the administrative territorial entity,is in the administrative territorial entity
-411,Portuguese,P127,-32.797,0.007,0.01,owned by,owned by
-412,Italian,P20,-33.15,0.036,0.054,place of death,place of death
-413,Russian,P176,-33.553,0.033,0.05,manufacturer,manufacturer
-414,German,P276,-33.678,0.012,0.018,located in,located in
-415,Bulgarian,P47,-33.876,0.014,0.021,shares border with,shares border with
-416,Russian,P740,-33.956,0.002,0.003,formation location,formation location
-417,Russian,P30,-33.956,0.005,0.008,continent,continent
-418,Portuguese,P937,-34.355,0.036,0.055,work location,work location
-419,Polish,P740,-34.521,0.021,0.032,formation location,formation location
-420,Croatian,P1412,-35.145,0.038,0.058,languages spoken,languages spoken
-421,Dutch,P276,-35.325,0.011,0.017,located in,located in
-422,Spanish,P1303,-35.896,0.017,0.026,instrument,instrument
-423,Bulgarian,P159,-36.23,0.029,0.046,headquarters location,headquarters location
-424,English,P413,-36.236,0.029,0.045,position played on team,position played on team
-425,Italian,P159,-36.39,0.031,0.049,headquarters location,headquarters location
-426,Dutch,P641,-36.495,0.002,0.004,sport,sport
-427,Italian,P19,-36.59,0.037,0.058,place of birth,place of birth
-428,Spanish,P413,-36.907,0.014,0.022,position played on team,position played on team
-429,Ukrainian,P937,-37.229,0.005,0.007,work location,work location
-430,German,P47,-37.4,0.017,0.028,shares border with,shares border with
-431,Ukrainian,P20,-37.474,0.006,0.01,place of death,place of death
-432,Serbian,P1412,-37.488,0.018,0.029,languages spoken,languages spoken
-433,English,P108,-37.628,0.008,0.013,employer,employer
-434,Italian,P413,-38.245,0.023,0.038,position played on team,position played on team
-435,Catalan,P20,-38.397,0.036,0.059,place of death,place of death
-436,Romanian,P103,-38.421,0.002,0.003,native language,native language
-437,French,P20,-38.634,0.035,0.058,place of death,place of death
-438,Danish,P159,-38.87,0.027,0.045,headquarters location,headquarters location
-439,Dutch,P937,-38.872,0.034,0.056,work location,work location
-440,French,P1303,-39.797,0.014,0.023,instrument,instrument
-441,Hungarian,P276,-40.16,0.016,0.027,located in,located in
-442,Ukrainian,P19,-40.267,0.005,0.008,place of birth,place of birth
-443,Swedish,P937,-40.36,0.035,0.058,work location,work location
-444,Czech,P127,-40.366,0.01,0.016,owned by,owned by
-445,German,P937,-40.41,0.028,0.046,work location,work location
-446,Romanian,P937,-40.794,0.04,0.067,work location,work location
-447,Ukrainian,P127,-41.524,0.013,0.022,owned by,owned by
-448,Polish,P495,-41.605,0.002,0.004,country of origin,country of origin
-449,Russian,P17,-41.726,0.012,0.021,country,country
-450,Serbian,P103,-41.756,0.027,0.046,native language,native language
-451,Spanish,P178,-42.035,0.023,0.039,developer,developer
-452,Catalan,P159,-42.359,0.031,0.055,headquarters location,headquarters location
-453,German,P20,-42.383,0.036,0.062,place of death,place of death
-454,Slovenian,P19,-43.196,0.002,0.003,place of birth,place of birth
-455,Bulgarian,P176,-43.498,0.013,0.022,manufacturer,manufacturer
-456,Portuguese,P47,-43.841,0.011,0.02,shares border with,shares border with
-457,English,P127,-43.869,0.006,0.01,owned by,owned by
-458,French,P159,-43.939,0.03,0.053,headquarters location,headquarters location
-459,Hungarian,P127,-44.104,0.014,0.025,owned by,owned by
-460,Italian,P937,-44.296,0.034,0.061,work location,work location
-461,Bulgarian,P127,-44.721,0.007,0.012,owned by,owned by
-462,English,P1412,-44.729,0.019,0.035,languages spoken,languages spoken
-463,German,P178,-45.01,0.012,0.022,developer,developer
-464,Polish,P131,-45.053,0.006,0.011,is in the administrative territorial entity,is in the administrative territorial entity
-465,Spanish,P47,-45.106,0.013,0.023,shares border with,shares border with
-466,Swedish,P127,-45.971,0.007,0.012,owned by,owned by
-467,French,P937,-46.044,0.035,0.065,work location,work location
-468,Serbian,P495,-46.419,0.001,0.003,country of origin,country of origin
-469,Swedish,P159,-46.703,0.024,0.045,headquarters location,headquarters location
-470,Italian,P103,-46.705,0.016,0.029,native language,native language
-471,Spanish,P30,-46.865,0.023,0.043,continent,continent
-472,Danish,P937,-47.868,0.028,0.054,work location,work location
-473,Slovenian,P103,-47.93,0.001,0.002,native language,native language
-474,Romanian,P1376,-47.969,0.008,0.015,capital of,capital of
-475,Portuguese,P1376,-47.979,0.009,0.017,capital of,capital of
-476,Italian,P131,-49.426,0.012,0.024,is in the administrative territorial entity,is in the administrative territorial entity
-477,English,P178,-49.669,0.014,0.029,developer,developer
-478,Bulgarian,P17,-49.732,0.02,0.04,country,country
-479,French,P47,-49.776,0.01,0.02,shares border with,shares border with
-480,Hungarian,P37,-49.924,0.05,0.099,official language,official language
-481,Czech,P20,-50.104,0.006,0.012,place of death,place of death
-482,Danish,P103,-50.954,0.012,0.024,native language,native language
-483,Dutch,P17,-51.305,0.015,0.032,country,country
-484,Romanian,P127,-51.538,0.006,0.012,owned by,owned by
-485,Croatian,P17,-51.658,0.005,0.01,country,country
-486,Spanish,P1376,-51.674,0.009,0.018,capital of,capital of
-487,Dutch,P1376,-52.157,0.008,0.016,capital of,capital of
-488,Dutch,P47,-52.866,0.009,0.02,shares border with,shares border with
-489,English,P937,-52.925,0.023,0.049,work location,work location
-490,German,P17,-52.953,0.018,0.038,country,country
-491,Catalan,P30,-53.083,0.001,0.002,continent,continent
-492,Dutch,P178,-53.14,0.015,0.033,developer,developer
-493,Romanian,P36,-54.009,0.01,0.021,capital,capital
-494,Hungarian,P19,-54.196,0.002,0.004,place of birth,place of birth
-495,Danish,P108,-54.24,0.007,0.015,employer,employer
-496,Croatian,P178,-54.342,0.037,0.08,developer,developer
-497,Portuguese,P178,-54.517,0.015,0.033,developer,developer
-498,Italian,P47,-54.632,0.008,0.017,shares border with,shares border with
-499,Polish,P127,-54.714,0.007,0.015,owned by,owned by
-500,Ukrainian,P103,-54.836,0.009,0.021,native language,native language
-501,Croatian,P19,-54.838,0.001,0.003,place of birth,place of birth
-502,Slovenian,P1376,-54.873,0.014,0.03,capital of,capital of
-503,Slovenian,P36,-54.966,0.019,0.042,capital,capital
-504,Serbian,P37,-55.588,0.034,0.076,official language,official language
-505,Polish,P30,-55.62,0.005,0.011,continent,continent
-506,Polish,P17,-55.62,0.006,0.014,country,country
-507,Catalan,P178,-55.986,0.016,0.035,developer,developer
-508,Ukrainian,P1412,-56.43,0.001,0.002,languages spoken,languages spoken
-509,German,P108,-56.482,0.004,0.009,employer,employer
-510,Romanian,P131,-56.802,0.013,0.031,is in the administrative territorial entity,is in the administrative territorial entity
-511,Portuguese,P108,-57.397,0.006,0.015,employer,employer
-512,Romanian,P47,-58.034,0.01,0.023,shares border with,shares border with
-513,Portuguese,P36,-58.244,0.009,0.022,capital,capital
-514,Croatian,P36,-58.437,0.018,0.043,capital,capital
-515,Ukrainian,P37,-58.719,0.016,0.04,official language,official language
-516,Russian,P495,-58.722,0.002,0.005,country of origin,country of origin
-517,Catalan,P937,-58.913,0.026,0.064,work location,work location
-518,Italian,P641,-58.936,0.002,0.004,sport,sport
-519,French,P178,-59.187,0.015,0.036,developer,developer
-520,French,P131,-59.311,0.01,0.024,is in the administrative territorial entity,is in the administrative territorial entity
-521,Danish,P47,-59.731,0.008,0.019,shares border with,shares border with
-522,Portuguese,P17,-59.828,0.014,0.035,country,country
-523,Catalan,P36,-60.477,0.01,0.024,capital,capital
-524,Swedish,P178,-60.59,0.014,0.035,developer,developer
-525,Polish,P36,-60.66,0.015,0.038,capital,capital
-526,Romanian,P178,-61.203,0.016,0.042,developer,developer
-527,Dutch,P131,-61.31,0.009,0.024,is in the administrative territorial entity,is in the administrative territorial entity
-528,Slovenian,P37,-61.35,0.01,0.025,official language,official language
-529,English,P47,-61.44,0.007,0.018,shares border with,shares border with
-530,Spanish,P36,-61.449,0.008,0.022,capital,capital
-531,French,P1376,-61.583,0.008,0.02,capital of,capital of
-532,Russian,P178,-61.691,0.05,0.131,developer,developer
-533,Croatian,P1376,-62.032,0.012,0.031,capital of,capital of
-534,Italian,P178,-62.064,0.014,0.036,developer,developer
-535,Swedish,P103,-62.284,0.008,0.021,native language,native language
-536,Polish,P108,-62.458,0.013,0.035,employer,employer
-537,Ukrainian,P36,-63.077,0.015,0.042,capital,capital
-538,Russian,P19,-63.309,0.002,0.005,place of birth,place of birth
-539,Ukrainian,P1376,-63.907,0.011,0.03,capital of,capital of
-540,Swedish,P47,-64.001,0.008,0.021,shares border with,shares border with
-541,Bulgarian,P36,-64.09,0.008,0.023,capital,capital
-542,Spanish,P108,-64.871,0.006,0.018,employer,employer
-543,Catalan,P103,-65.085,0.008,0.023,native language,native language
-544,Catalan,P131,-65.247,0.01,0.029,is in the administrative territorial entity,is in the administrative territorial entity
-545,Spanish,P641,-65.336,0.001,0.004,sport,sport
-546,Catalan,P1376,-65.534,0.007,0.019,capital of,capital of
-547,English,P1376,-65.972,0.005,0.016,capital of,capital of
-548,Polish,P178,-66.193,0.026,0.076,developer,developer
-549,Croatian,P108,-66.481,0.006,0.017,employer,employer
-550,Slovenian,P178,-66.8,0.028,0.084,developer,developer
-551,French,P103,-66.904,0.007,0.021,native language,native language
-552,Portuguese,P103,-67.108,0.009,0.026,native language,native language
-553,Czech,P17,-67.237,0.003,0.009,country,country
-554,Serbian,P1376,-67.62,0.008,0.026,capital of,capital of
-555,Croatian,P131,-68.219,0.001,0.004,is in the administrative territorial entity,is in the administrative territorial entity
-556,French,P36,-68.867,0.008,0.025,capital,capital
-557,Danish,P17,-69.158,0.011,0.035,country,country
-558,Swedish,P17,-69.179,0.012,0.038,country,country
-559,Czech,P178,-69.659,0.023,0.076,developer,developer
-560,Bulgarian,P1376,-69.78,0.005,0.017,capital of,capital of
-561,Danish,P178,-69.901,0.01,0.032,developer,developer
-562,Italian,P1376,-70.715,0.005,0.017,capital of,capital of
-563,Hungarian,P131,-70.852,0.006,0.021,is in the administrative territorial entity,is in the administrative territorial entity
-564,Dutch,P103,-71.224,0.009,0.03,native language,native language
-565,Spanish,P17,-71.431,0.012,0.042,country,country
-566,Swedish,P641,-71.49,0.002,0.006,sport,sport
-567,Hungarian,P1376,-71.505,0.013,0.047,capital of,capital of
-568,Croatian,P103,-71.578,0.012,0.043,native language,native language
-569,Serbian,P36,-71.809,0.011,0.038,capital,capital
-570,Swedish,P1376,-71.832,0.004,0.015,capital of,capital of
-571,Serbian,P19,-72.217,0.001,0.003,place of birth,place of birth
-572,Czech,P37,-72.222,0.009,0.033,official language,official language
-573,Czech,P36,-72.276,0.011,0.04,capital,capital
-574,Danish,P131,-72.642,0.007,0.024,is in the administrative territorial entity,is in the administrative territorial entity
-575,French,P17,-72.821,0.011,0.039,country,country
-576,Russian,P36,-73.501,0.013,0.049,capital,capital
-577,Czech,P1376,-73.535,0.008,0.029,capital of,capital of
-578,German,P131,-73.692,0.009,0.033,is in the administrative territorial entity,is in the administrative territorial entity
-579,Slovenian,P108,-73.76,0.008,0.032,employer,employer
-580,Italian,P17,-73.951,0.008,0.032,country,country
-581,Ukrainian,P178,-73.964,0.023,0.088,developer,developer
-582,Slovenian,P131,-74.496,0.002,0.006,is in the administrative territorial entity,is in the administrative territorial entity
-583,Dutch,P108,-74.8,0.003,0.013,employer,employer
-584,Italian,P108,-74.992,0.004,0.016,employer,employer
-585,German,P36,-75.127,0.007,0.028,capital,capital
-586,Polish,P1376,-75.246,0.007,0.026,capital of,capital of
-587,Italian,P36,-75.256,0.006,0.023,capital,capital
-588,German,P103,-75.291,0.007,0.028,native language,native language
-589,Swedish,P131,-75.447,0.006,0.026,is in the administrative territorial entity,is in the administrative territorial entity
-590,Danish,P36,-75.644,0.005,0.021,capital,capital
-591,Swedish,P108,-76.57,0.004,0.016,employer,employer
-592,Romanian,P108,-76.713,0.005,0.02,employer,employer
-593,Swedish,P36,-76.77,0.005,0.021,capital,capital
-594,German,P1376,-76.84,0.005,0.02,capital of,capital of
-595,Slovenian,P17,-76.956,0.007,0.03,country,country
-596,Bulgarian,P178,-76.995,0.008,0.036,developer,developer
-597,Romanian,P17,-78.272,0.008,0.038,country,country
-598,Catalan,P108,-78.293,0.004,0.017,employer,employer
-599,Hungarian,P159,-78.303,0.001,0.004,headquarters location,headquarters location
-600,Polish,P103,-80.074,0.005,0.026,native language,native language
-601,Dutch,P36,-80.088,0.004,0.021,capital,capital
-602,Danish,P1376,-80.707,0.003,0.016,capital of,capital of
-603,English,P131,-81.788,0.004,0.022,is in the administrative territorial entity,is in the administrative territorial entity
-604,Czech,P131,-81.871,0.001,0.005,is in the administrative territorial entity,is in the administrative territorial entity
-605,English,P36,-82.524,0.004,0.021,capital,capital
-606,Polish,P1412,-82.765,0.002,0.011,languages spoken,languages spoken
-607,Hungarian,P36,-83.148,0.012,0.068,capital,capital
-608,Romanian,P641,-83.462,0.001,0.006,sport,sport
-609,Slovenian,P937,-85.123,0.003,0.018,work location,work location
-610,Russian,P1376,-85.258,0.005,0.034,capital of,capital of
-611,English,P641,-86.173,0.001,0.01,sport,sport
-612,Czech,P103,-86.926,0.003,0.022,native language,native language
-613,Slovenian,P1412,-87.183,0.001,0.008,languages spoken,languages spoken
-614,English,P17,-87.568,0.004,0.032,country,country
-615,English,P103,-90.718,0.003,0.035,native language,native language
-616,Slovenian,P20,-94.371,0.001,0.009,place of death,place of death
+0,German,P39,244.905,0.026,0.008,position held,subject currently or formerly holds the object position or public office
+1,English,P264,221.038,0.065,0.02,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+2,Danish,P264,201.396,0.069,0.023,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+3,Slovenian,P1303,179.534,0.027,0.01,instrument,instrument that a person plays
+4,German,P264,172.157,0.065,0.024,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+5,Polish,P641,151.886,0.01,0.004,sport,sport or discipline in which the entity participates or belongs to
+6,Dutch,P101,149.638,0.089,0.036,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+7,Swedish,P264,147.333,0.061,0.025,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+8,French,P264,147.04,0.07,0.028,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+9,Romanian,P364,137.821,0.017,0.007,original language,language in which a work was originally created
+10,English,P101,136.864,0.091,0.038,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+11,Swedish,P101,130.64,0.081,0.035,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+12,Czech,P1303,129.374,0.04,0.017,instrument,instrument that a person plays
+13,French,P30,127.965,0.079,0.035,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+14,Italian,P264,126.88,0.059,0.026,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+15,Romanian,P407,125.495,0.032,0.014,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+16,German,P449,123.804,0.049,0.022,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+17,Portuguese,P264,123.366,0.052,0.023,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+18,Ukrainian,P413,122.208,0.043,0.02,position played on team,"position the player plays, e.g. Small Forward"
+19,French,P101,117.976,0.076,0.035,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+20,Hungarian,P413,117.478,0.059,0.027,position played on team,"position the player plays, e.g. Small Forward"
+21,Dutch,P264,115.448,0.05,0.023,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+22,Spanish,P264,113.131,0.05,0.024,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+23,Ukrainian,P1303,111.626,0.007,0.004,instrument,instrument that a person plays
+24,Croatian,P264,110.362,0.148,0.07,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+25,Czech,P264,109.582,0.115,0.055,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+26,Polish,P39,108.532,0.018,0.009,position held,subject currently or formerly holds the object position or public office
+27,Czech,P159,106.441,0.042,0.02,headquarters location,specific location where an organization's HQ is or has been situated
+28,Slovenian,P264,103.6,0.138,0.068,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+29,Catalan,P101,100.139,0.069,0.034,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+30,German,P101,99.91,0.09,0.045,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+31,Romanian,P101,99.107,0.032,0.016,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+32,English,P136,98.796,0.094,0.047,genre,genre of a creative work or genre in which an artist works
+33,Croatian,P449,97.41,0.044,0.022,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+34,Romanian,P264,95.129,0.059,0.03,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+35,Danish,P101,93.569,0.068,0.035,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+36,Catalan,P264,93.568,0.054,0.028,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+37,Slovenian,P413,93.554,0.049,0.025,position played on team,"position the player plays, e.g. Small Forward"
+38,Czech,P39,93.374,0.015,0.008,position held,subject currently or formerly holds the object position or public office
+39,Italian,P101,91.21,0.062,0.032,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+40,Croatian,P159,90.684,0.009,0.005,headquarters location,specific location where an organization's HQ is or has been situated
+41,Russian,P264,89.429,0.149,0.078,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+42,Slovenian,P159,84.702,0.025,0.013,headquarters location,specific location where an organization's HQ is or has been situated
+43,Polish,P264,84.567,0.103,0.056,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+44,Danish,P39,83.891,0.051,0.028,position held,subject currently or formerly holds the object position or public office
+45,Hungarian,P1303,83.834,0.029,0.016,instrument,instrument that a person plays
+46,Italian,P407,83.409,0.043,0.024,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+47,Catalan,P1412,83.089,0.06,0.033,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+48,Danish,P364,83.04,0.07,0.038,original language,language in which a work was originally created
+49,German,P1303,82.8,0.034,0.019,instrument,instrument that a person plays
+50,English,P106,81.299,0.068,0.038,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+51,French,P364,78.293,0.03,0.017,original language,language in which a work was originally created
+52,English,P495,77.73,0.092,0.052,country of origin,country of origin of the creative work or subject item
+53,Russian,P413,77.466,0.079,0.045,position played on team,"position the player plays, e.g. Small Forward"
+54,Croatian,P1303,77.336,0.018,0.01,instrument,instrument that a person plays
+55,Dutch,P449,74.417,0.088,0.05,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+56,German,P136,74.295,0.076,0.044,genre,genre of a creative work or genre in which an artist works
+57,Bulgarian,P264,74.292,0.045,0.026,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+58,Spanish,P101,73.02,0.042,0.024,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+59,Spanish,P364,72.562,0.013,0.008,original language,language in which a work was originally created
+60,Dutch,P39,72.506,0.028,0.016,position held,subject currently or formerly holds the object position or public office
+61,Swedish,P39,72.376,0.059,0.034,position held,subject currently or formerly holds the object position or public office
+62,Bulgarian,P101,70.348,0.022,0.013,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+63,Slovenian,P47,69.13,0.029,0.017,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+64,Italian,P1412,67.113,0.047,0.028,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+65,Serbian,P740,66.697,0.002,0.001,formation location,location where a group or organization was formed
+66,Swedish,P20,66.281,0.089,0.054,place of death,the most specific known (e.g. city instead of country)
+67,Slovenian,P39,65.556,0.049,0.03,position held,subject currently or formerly holds the object position or public office
+68,Catalan,P136,65.548,0.081,0.049,genre,genre of a creative work or genre in which an artist works
+69,Portuguese,P39,65.348,0.053,0.032,position held,subject currently or formerly holds the object position or public office
+70,Hungarian,P449,64.894,0.002,0.001,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+71,Swedish,P449,64.409,0.09,0.054,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+72,Italian,P136,62.02,0.061,0.038,genre,genre of a creative work or genre in which an artist works
+73,Italian,P449,61.251,0.092,0.057,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+74,Dutch,P30,60.721,0.063,0.039,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+75,Swedish,P136,59.981,0.088,0.055,genre,genre of a creative work or genre in which an artist works
+76,Slovenian,P101,59.921,0.088,0.055,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+77,Hungarian,P103,59.243,0.11,0.069,native language,language that a person learned natively
+78,Portuguese,P101,58.378,0.059,0.038,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+79,Italian,P495,58.106,0.073,0.046,country of origin,country of origin of the creative work or subject item
+80,Ukrainian,P264,57.504,0.104,0.066,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+81,Danish,P106,56.891,0.063,0.04,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+82,Portuguese,P136,56.686,0.08,0.051,genre,genre of a creative work or genre in which an artist works
+83,French,P136,56.528,0.063,0.04,genre,genre of a creative work or genre in which an artist works
+84,Catalan,P641,56.389,0.011,0.007,sport,sport or discipline in which the entity participates or belongs to
+85,French,P449,55.973,0.098,0.063,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+86,Czech,P101,55.517,0.084,0.054,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+87,Italian,P39,55.463,0.062,0.04,position held,subject currently or formerly holds the object position or public office
+88,Croatian,P413,55.184,0.01,0.006,position played on team,"position the player plays, e.g. Small Forward"
+89,Swedish,P106,55.172,0.069,0.045,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+90,Hungarian,P641,54.588,0.016,0.01,sport,sport or discipline in which the entity participates or belongs to
+91,Spanish,P449,54.527,0.095,0.062,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+92,Portuguese,P449,54.171,0.078,0.051,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+93,Ukrainian,P641,52.917,0.03,0.02,sport,sport or discipline in which the entity participates or belongs to
+94,Polish,P136,51.999,0.076,0.05,genre,genre of a creative work or genre in which an artist works
+95,German,P106,51.843,0.05,0.033,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+96,Hungarian,P264,51.516,0.098,0.065,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+97,Romanian,P138,50.254,0.02,0.013,named after,"entity or event that inspired the subject's name, or namesake (in at least one language)"
+98,Danish,P136,50.102,0.075,0.05,genre,genre of a creative work or genre in which an artist works
+99,French,P39,49.715,0.031,0.021,position held,subject currently or formerly holds the object position or public office
+100,Portuguese,P407,49.56,0.037,0.025,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+101,Portuguese,P138,49.419,0.018,0.012,named after,"entity or event that inspired the subject's name, or namesake (in at least one language)"
+102,Spanish,P136,48.968,0.069,0.046,genre,genre of a creative work or genre in which an artist works
+103,Dutch,P136,48.042,0.053,0.036,genre,genre of a creative work or genre in which an artist works
+104,Romanian,P136,47.791,0.087,0.059,genre,genre of a creative work or genre in which an artist works
+105,Bulgarian,P106,47.758,0.064,0.043,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+106,Catalan,P449,47.536,0.091,0.062,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+107,Ukrainian,P101,46.763,0.06,0.041,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+108,Romanian,P449,46.324,0.097,0.066,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+109,Danish,P1303,46.096,0.02,0.014,instrument,instrument that a person plays
+110,Romanian,P495,45.779,0.079,0.054,country of origin,country of origin of the creative work or subject item
+111,Dutch,P1303,45.614,0.023,0.016,instrument,instrument that a person plays
+112,Croatian,P101,45.242,0.089,0.061,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+113,Russian,P131,44.472,0.007,0.005,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+114,English,P176,44.404,0.026,0.018,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+115,Croatian,P47,43.013,0.001,0.001,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+116,Hungarian,P39,42.696,0.072,0.05,position held,subject currently or formerly holds the object position or public office
+117,Italian,P176,42.673,0.031,0.022,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+118,Ukrainian,P106,42.633,0.08,0.056,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+119,Croatian,P39,41.859,0.024,0.017,position held,subject currently or formerly holds the object position or public office
+120,Croatian,P407,41.769,0.044,0.031,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+121,Serbian,P136,41.097,0.036,0.026,genre,genre of a creative work or genre in which an artist works
+122,English,P449,40.281,0.063,0.045,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+123,Catalan,P407,40.124,0.028,0.02,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+124,Bulgarian,P641,40.051,0.011,0.008,sport,sport or discipline in which the entity participates or belongs to
+125,Spanish,P103,39.671,0.026,0.019,native language,language that a person learned natively
+126,Czech,P495,38.89,0.009,0.007,country of origin,country of origin of the creative work or subject item
+127,Russian,P101,38.843,0.037,0.027,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+128,Polish,P101,38.261,0.076,0.055,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+129,Spanish,P37,38.204,0.031,0.023,official language,language designated as official by this item
+130,Swedish,P138,37.566,0.017,0.012,named after,"entity or event that inspired the subject's name, or namesake (in at least one language)"
+131,Dutch,P106,37.287,0.055,0.04,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+132,Polish,P364,37.018,0.074,0.054,original language,language in which a work was originally created
+133,Romanian,P30,36.52,0.058,0.042,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+134,Serbian,P30,36.389,0.028,0.02,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+135,Catalan,P39,36.156,0.047,0.035,position held,subject currently or formerly holds the object position or public office
+136,Portuguese,P106,35.987,0.044,0.032,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+137,Serbian,P449,35.852,0.032,0.023,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+138,Italian,P106,35.475,0.044,0.032,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+139,Bulgarian,P413,34.497,0.022,0.016,position played on team,"position the player plays, e.g. Small Forward"
+140,Polish,P449,33.579,0.157,0.117,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+141,English,P39,33.115,0.044,0.033,position held,subject currently or formerly holds the object position or public office
+142,Serbian,P264,33.003,0.104,0.078,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+143,Ukrainian,P136,32.925,0.081,0.061,genre,genre of a creative work or genre in which an artist works
+144,Czech,P449,31.831,0.155,0.117,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+145,Dutch,P407,31.526,0.019,0.014,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+146,French,P138,31.461,0.016,0.012,named after,"entity or event that inspired the subject's name, or namesake (in at least one language)"
+147,Italian,P138,31.208,0.016,0.012,named after,"entity or event that inspired the subject's name, or namesake (in at least one language)"
+148,Bulgarian,P136,31.09,0.062,0.047,genre,genre of a creative work or genre in which an artist works
+149,Italian,P364,30.469,0.031,0.024,original language,language in which a work was originally created
+150,Polish,P407,29.53,0.029,0.022,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+151,Spanish,P276,28.307,0.02,0.015,located in,location the physical object or event is within
+152,Catalan,P413,28.197,0.036,0.028,position played on team,"position the player plays, e.g. Small Forward"
+153,Slovenian,P138,28.173,0.002,0.002,named after,"entity or event that inspired the subject's name, or namesake (in at least one language)"
+154,German,P407,27.941,0.022,0.017,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+155,Russian,P106,27.127,0.082,0.065,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+156,Russian,P449,26.879,0.152,0.119,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+157,Portuguese,P364,26.76,0.062,0.049,original language,language in which a work was originally created
+158,Russian,P136,26.599,0.144,0.113,genre,genre of a creative work or genre in which an artist works
+159,Catalan,P37,26.563,0.04,0.032,official language,language designated as official by this item
+160,Hungarian,P106,26.43,0.126,0.1,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+161,Spanish,P106,26.155,0.036,0.028,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+162,Danish,P449,25.8,0.062,0.049,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+163,Bulgarian,P1303,25.649,0.028,0.023,instrument,instrument that a person plays
+164,English,P138,25.388,0.014,0.011,named after,"entity or event that inspired the subject's name, or namesake (in at least one language)"
+165,Spanish,P138,25.376,0.017,0.013,named after,"entity or event that inspired the subject's name, or namesake (in at least one language)"
+166,French,P176,25.287,0.03,0.024,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+167,Serbian,P1303,25.023,0.018,0.014,instrument,instrument that a person plays
+168,Spanish,P1412,23.961,0.045,0.036,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+169,Polish,P106,23.356,0.081,0.066,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+170,Bulgarian,P19,23.34,0.069,0.056,place of birth,the most specific known (e.g. city instead of country)
+171,Spanish,P176,23.078,0.029,0.024,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+172,Catalan,P138,22.877,0.015,0.012,named after,"entity or event that inspired the subject's name, or namesake (in at least one language)"
+173,French,P1412,22.652,0.031,0.025,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+174,Romanian,P39,22.549,0.046,0.038,position held,subject currently or formerly holds the object position or public office
+175,Bulgarian,P30,22.471,0.029,0.024,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+176,Serbian,P101,22.209,0.07,0.057,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+177,Bulgarian,P1412,22.156,0.039,0.032,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+178,German,P176,21.751,0.012,0.01,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+179,Catalan,P106,20.636,0.041,0.034,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+180,Catalan,P364,20.382,0.019,0.015,original language,language in which a work was originally created
+181,Danish,P407,20.283,0.027,0.022,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+182,Ukrainian,P407,20.057,0.028,0.023,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+183,Ukrainian,P449,19.971,0.161,0.135,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+184,Catalan,P495,19.497,0.049,0.041,country of origin,country of origin of the creative work or subject item
+185,Polish,P138,19.23,0.008,0.007,named after,"entity or event that inspired the subject's name, or namesake (in at least one language)"
+186,Bulgarian,P937,18.947,0.071,0.059,work location,location(s) where the creator was active
+187,Serbian,P407,18.693,0.035,0.029,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+188,Danish,P495,18.378,0.064,0.054,country of origin,country of origin of the creative work or subject item
+189,Spanish,P39,18.308,0.05,0.042,position held,subject currently or formerly holds the object position or public office
+190,Dutch,P176,18.272,0.024,0.02,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+191,Polish,P159,18.249,0.038,0.032,headquarters location,specific location where an organization's HQ is or has been situated
+192,Portuguese,P30,17.843,0.026,0.022,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+193,German,P30,17.644,0.053,0.045,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+194,Portuguese,P176,17.536,0.023,0.02,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+195,Romanian,P37,17.37,0.014,0.012,official language,language designated as official by this item
+196,Swedish,P1303,17.32,0.023,0.019,instrument,instrument that a person plays
+197,Slovenian,P449,17.319,0.157,0.133,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+198,Serbian,P106,17.278,0.171,0.146,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+199,Ukrainian,P131,17.198,0.012,0.01,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+200,Croatian,P495,17.01,0.002,0.001,country of origin,country of origin of the creative work or subject item
+201,Swedish,P30,16.877,0.038,0.033,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+202,Czech,P740,16.671,0.012,0.011,formation location,location where a group or organization was formed
+203,Czech,P138,16.543,0.009,0.007,named after,"entity or event that inspired the subject's name, or namesake (in at least one language)"
+204,Danish,P138,15.925,0.013,0.012,named after,"entity or event that inspired the subject's name, or namesake (in at least one language)"
+205,Serbian,P413,14.775,0.013,0.011,position played on team,"position the player plays, e.g. Small Forward"
+206,Polish,P1303,13.949,0.009,0.008,instrument,instrument that a person plays
+207,Hungarian,P136,13.667,0.066,0.058,genre,genre of a creative work or genre in which an artist works
+208,Serbian,P127,13.657,0.016,0.014,owned by,owner of the subject
+209,Russian,P641,13.513,0.022,0.019,sport,sport or discipline in which the entity participates or belongs to
+210,German,P1412,13.507,0.063,0.056,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+211,Ukrainian,P159,13.371,0.021,0.019,headquarters location,specific location where an organization's HQ is or has been situated
+212,Bulgarian,P407,13.277,0.027,0.024,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+213,Polish,P413,12.47,0.052,0.046,position played on team,"position the player plays, e.g. Small Forward"
+214,Czech,P413,12.137,0.035,0.031,position played on team,"position the player plays, e.g. Small Forward"
+215,Serbian,P641,12.09,0.018,0.016,sport,sport or discipline in which the entity participates or belongs to
+216,Croatian,P136,12.067,0.099,0.088,genre,genre of a creative work or genre in which an artist works
+217,Dutch,P138,11.252,0.013,0.012,named after,"entity or event that inspired the subject's name, or namesake (in at least one language)"
+218,Hungarian,P407,11.238,0.03,0.027,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+219,Bulgarian,P276,10.937,0.02,0.018,located in,location the physical object or event is within
+220,German,P495,10.867,0.031,0.028,country of origin,country of origin of the creative work or subject item
+221,Bulgarian,P108,10.776,0.019,0.017,employer,organization for which the subject works or worked
+222,Ukrainian,P364,10.383,0.115,0.104,original language,language in which a work was originally created
+223,Swedish,P407,10.375,0.018,0.017,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+224,Russian,P1303,10.074,0.005,0.005,instrument,instrument that a person plays
+225,Russian,P159,10.074,0.001,0.001,headquarters location,specific location where an organization's HQ is or has been situated
+226,Bulgarian,P20,10.035,0.059,0.053,place of death,the most specific known (e.g. city instead of country)
+227,French,P407,9.936,0.025,0.023,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+228,Czech,P136,9.93,0.082,0.075,genre,genre of a creative work or genre in which an artist works
+229,Danish,P1412,9.702,0.042,0.039,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+230,Slovenian,P407,9.621,0.013,0.012,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+231,Serbian,P176,9.207,0.067,0.061,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+232,Ukrainian,P39,9.205,0.011,0.01,position held,subject currently or formerly holds the object position or public office
+233,Slovenian,P127,9.099,0.017,0.016,owned by,owner of the subject
+234,Ukrainian,P108,9.003,0.039,0.036,employer,organization for which the subject works or worked
+235,French,P106,8.789,0.045,0.042,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+236,Serbian,P178,8.772,0.116,0.106,developer,organisation or person that developed this item
+237,Russian,P37,8.393,0.043,0.04,official language,language designated as official by this item
+238,Czech,P106,7.71,0.074,0.069,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+239,Spanish,P19,7.281,0.061,0.057,place of birth,the most specific known (e.g. city instead of country)
+240,Serbian,P364,7.163,0.1,0.093,original language,language in which a work was originally created
+241,Spanish,P740,6.917,0.062,0.058,formation location,location where a group or organization was formed
+242,Romanian,P106,6.826,0.043,0.04,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+243,Bulgarian,P39,6.664,0.033,0.031,position held,subject currently or formerly holds the object position or public office
+244,Catalan,P176,6.416,0.024,0.023,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+245,German,P413,6.287,0.025,0.023,position played on team,"position the player plays, e.g. Small Forward"
+246,Dutch,P413,6.267,0.04,0.038,position played on team,"position the player plays, e.g. Small Forward"
+247,Hungarian,P364,6.135,0.122,0.115,original language,language in which a work was originally created
+248,Czech,P47,5.4,0.01,0.009,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+249,Ukrainian,P30,5.212,0.023,0.022,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+250,Bulgarian,P449,4.944,0.059,0.056,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+251,French,P127,4.597,0.008,0.008,owned by,owner of the subject
+252,Romanian,P740,4.152,0.069,0.066,formation location,location where a group or organization was formed
+253,Polish,P937,3.868,0.005,0.005,work location,location(s) where the creator was active
+254,Portuguese,P641,3.823,0.005,0.005,sport,sport or discipline in which the entity participates or belongs to
+255,Russian,P108,3.535,0.095,0.092,employer,organization for which the subject works or worked
+256,English,P19,3.359,0.05,0.048,place of birth,the most specific known (e.g. city instead of country)
+257,English,P20,3.332,0.046,0.045,place of death,the most specific known (e.g. city instead of country)
+258,Spanish,P159,2.581,0.05,0.049,headquarters location,specific location where an organization's HQ is or has been situated
+259,Croatian,P364,2.553,0.121,0.118,original language,language in which a work was originally created
+260,Bulgarian,P138,2.535,0.011,0.011,named after,"entity or event that inspired the subject's name, or namesake (in at least one language)"
+261,Catalan,P276,2.333,0.021,0.02,located in,location the physical object or event is within
+262,Spanish,P495,2.311,0.054,0.052,country of origin,country of origin of the creative work or subject item
+263,Portuguese,P276,2.172,0.017,0.017,located in,location the physical object or event is within
+264,Slovenian,P641,2.098,0.013,0.013,sport,sport or discipline in which the entity participates or belongs to
+265,Spanish,P127,1.784,0.012,0.012,owned by,owner of the subject
+266,German,P127,1.731,0.016,0.016,owned by,owner of the subject
+267,Croatian,P106,1.597,0.092,0.09,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+268,Hungarian,P101,1.266,0.1,0.099,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+269,Slovenian,P106,1.201,0.105,0.104,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+270,Ukrainian,P495,1.003,0.003,0.003,country of origin,country of origin of the creative work or subject item
+271,Bulgarian,P131,0.722,0.026,0.026,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+272,Romanian,P1412,0.669,0.013,0.013,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+273,Czech,P641,0.021,0.015,0.015,sport,sport or discipline in which the entity participates or belongs to
+274,Czech,P407,0.007,0.023,0.023,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+275,Croatian,P176,-0.041,0.052,0.052,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+276,Czech,P176,-0.059,0.041,0.041,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+277,Bulgarian,P103,-0.265,0.017,0.018,native language,language that a person learned natively
+278,Dutch,P37,-0.617,0.039,0.04,official language,language designated as official by this item
+279,French,P413,-0.621,0.033,0.034,position played on team,"position the player plays, e.g. Small Forward"
+280,Slovenian,P136,-0.656,0.077,0.077,genre,genre of a creative work or genre in which an artist works
+281,Catalan,P1303,-0.706,0.023,0.023,instrument,instrument that a person plays
+282,Swedish,P176,-0.749,0.021,0.021,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+283,Danish,P30,-0.881,0.024,0.024,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+284,Russian,P39,-0.934,0.006,0.006,position held,subject currently or formerly holds the object position or public office
+285,Portuguese,P495,-1.348,0.045,0.046,country of origin,country of origin of the creative work or subject item
+286,Croatian,P641,-1.532,0.016,0.017,sport,sport or discipline in which the entity participates or belongs to
+287,Portuguese,P740,-1.77,0.05,0.051,formation location,location where a group or organization was formed
+288,Romanian,P176,-2.041,0.025,0.026,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+289,Danish,P37,-2.172,0.039,0.04,official language,language designated as official by this item
+290,Polish,P37,-2.214,0.067,0.068,official language,language designated as official by this item
+291,Swedish,P1412,-2.434,0.02,0.021,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+292,Serbian,P108,-2.76,0.023,0.023,employer,organization for which the subject works or worked
+293,German,P37,-2.79,0.049,0.05,official language,language designated as official by this item
+294,French,P740,-2.89,0.055,0.056,formation location,location where a group or organization was formed
+295,German,P740,-2.892,0.022,0.022,formation location,location where a group or organization was formed
+296,Danish,P127,-3.339,0.011,0.011,owned by,owner of the subject
+297,Serbian,P17,-3.344,0.021,0.022,country,sovereign state of this item
+298,Bulgarian,P37,-3.831,0.025,0.026,official language,language designated as official by this item
+299,Slovenian,P495,-3.871,0.003,0.003,country of origin,country of origin of the creative work or subject item
+300,Italian,P30,-4.152,0.025,0.026,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+301,Dutch,P364,-4.25,0.047,0.049,original language,language in which a work was originally created
+302,Serbian,P39,-4.303,0.014,0.015,position held,subject currently or formerly holds the object position or public office
+303,English,P407,-4.676,0.022,0.023,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+304,Italian,P127,-4.775,0.01,0.011,owned by,owner of the subject
+305,Catalan,P740,-4.853,0.06,0.063,formation location,location where a group or organization was formed
+306,Serbian,P276,-5.286,0.012,0.012,located in,location the physical object or event is within
+307,French,P495,-5.526,0.042,0.045,country of origin,country of origin of the creative work or subject item
+308,Russian,P364,-5.651,0.004,0.004,original language,language in which a work was originally created
+309,German,P641,-5.868,0.012,0.013,sport,sport or discipline in which the entity participates or belongs to
+310,Slovenian,P176,-6.467,0.051,0.055,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+311,French,P37,-6.555,0.018,0.019,official language,language designated as official by this item
+312,Czech,P19,-6.784,0.014,0.015,place of birth,the most specific known (e.g. city instead of country)
+313,Dutch,P1412,-6.869,0.034,0.036,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+314,French,P641,-7.288,0.004,0.004,sport,sport or discipline in which the entity participates or belongs to
+315,Ukrainian,P276,-7.413,0.008,0.009,located in,location the physical object or event is within
+316,Ukrainian,P138,-7.413,0.003,0.003,named after,"entity or event that inspired the subject's name, or namesake (in at least one language)"
+317,Czech,P276,-7.677,0.011,0.011,located in,location the physical object or event is within
+318,Portuguese,P37,-7.799,0.046,0.05,official language,language designated as official by this item
+319,Italian,P1303,-7.838,0.019,0.021,instrument,instrument that a person plays
+320,Hungarian,P1412,-8.6,0.043,0.048,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+321,Bulgarian,P740,-8.83,0.048,0.053,formation location,location where a group or organization was formed
+322,French,P276,-8.915,0.017,0.019,located in,location the physical object or event is within
+323,Russian,P937,-9.351,0.014,0.016,work location,location(s) where the creator was active
+324,German,P138,-9.533,0.002,0.002,named after,"entity or event that inspired the subject's name, or namesake (in at least one language)"
+325,Russian,P407,-9.94,0.003,0.003,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+326,Romanian,P1303,-10.648,0.015,0.017,instrument,instrument that a person plays
+327,English,P159,-10.872,0.037,0.041,headquarters location,specific location where an organization's HQ is or has been situated
+328,Italian,P37,-11.055,0.028,0.031,official language,language designated as official by this item
+329,Hungarian,P17,-11.087,0.01,0.011,country,sovereign state of this item
+330,Swedish,P37,-11.233,0.022,0.025,official language,language designated as official by this item
+331,Czech,P364,-11.359,0.085,0.096,original language,language in which a work was originally created
+332,Romanian,P159,-11.622,0.05,0.056,headquarters location,specific location where an organization's HQ is or has been situated
+333,Serbian,P131,-11.748,0.003,0.003,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+334,Bulgarian,P495,-11.908,0.045,0.052,country of origin,country of origin of the creative work or subject item
+335,Croatian,P37,-11.992,0.079,0.09,official language,language designated as official by this item
+336,Danish,P641,-12.757,0.008,0.009,sport,sport or discipline in which the entity participates or belongs to
+337,Ukrainian,P47,-12.86,0.006,0.006,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+338,Spanish,P407,-12.91,0.013,0.015,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+339,Italian,P740,-13.495,0.046,0.054,formation location,location where a group or organization was formed
+340,Italian,P276,-13.528,0.015,0.018,located in,location the physical object or event is within
+341,German,P364,-13.931,0.059,0.069,original language,language in which a work was originally created
+342,Polish,P176,-14.401,0.03,0.036,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+343,Bulgarian,P364,-14.449,0.044,0.051,original language,language in which a work was originally created
+344,Portuguese,P1303,-14.493,0.013,0.015,instrument,instrument that a person plays
+345,Romanian,P20,-14.632,0.051,0.06,place of death,the most specific known (e.g. city instead of country)
+346,Danish,P413,-14.792,0.03,0.035,position played on team,"position the player plays, e.g. Small Forward"
+347,Slovenian,P364,-14.928,0.046,0.054,original language,language in which a work was originally created
+348,Portuguese,P19,-15.192,0.045,0.054,place of birth,the most specific known (e.g. city instead of country)
+349,Danish,P20,-15.227,0.042,0.049,place of death,the most specific known (e.g. city instead of country)
+350,Catalan,P17,-15.495,0.025,0.03,country,sovereign state of this item
+351,Croatian,P127,-15.725,0.013,0.015,owned by,owner of the subject
+352,Romanian,P276,-15.747,0.018,0.021,located in,location the physical object or event is within
+353,English,P364,-16.205,0.037,0.044,original language,language in which a work was originally created
+354,English,P276,-16.527,0.013,0.016,located in,location the physical object or event is within
+355,Serbian,P47,-16.651,0.0,0.001,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+356,English,P1303,-16.732,0.016,0.019,instrument,instrument that a person plays
+357,Croatian,P276,-16.819,0.011,0.013,located in,location the physical object or event is within
+358,Polish,P19,-17.013,0.022,0.026,place of birth,the most specific known (e.g. city instead of country)
+359,Hungarian,P495,-17.553,0.001,0.001,country of origin,country of origin of the creative work or subject item
+360,Hungarian,P178,-17.553,0.001,0.001,developer,organisation or person that developed this item
+361,Dutch,P19,-17.877,0.044,0.054,place of birth,the most specific known (e.g. city instead of country)
+362,English,P740,-18.512,0.038,0.046,formation location,location where a group or organization was formed
+363,Romanian,P19,-19.577,0.053,0.066,place of birth,the most specific known (e.g. city instead of country)
+364,Portuguese,P1412,-19.807,0.024,0.031,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+365,Dutch,P127,-19.847,0.009,0.011,owned by,owner of the subject
+366,Dutch,P740,-19.889,0.042,0.052,formation location,location where a group or organization was formed
+367,Slovenian,P276,-19.892,0.011,0.013,located in,location the physical object or event is within
+368,Czech,P1412,-20.171,0.015,0.019,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+369,Dutch,P159,-20.309,0.036,0.046,headquarters location,specific location where an organization's HQ is or has been situated
+370,Polish,P47,-20.344,0.01,0.012,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+371,Romanian,P413,-21.777,0.003,0.004,position played on team,"position the player plays, e.g. Small Forward"
+372,Dutch,P20,-22.203,0.039,0.05,place of death,the most specific known (e.g. city instead of country)
+373,Swedish,P740,-22.391,0.043,0.055,formation location,location where a group or organization was formed
+374,Danish,P740,-22.397,0.04,0.052,formation location,location where a group or organization was formed
+375,Serbian,P159,-22.399,0.004,0.005,headquarters location,specific location where an organization's HQ is or has been situated
+376,Portuguese,P20,-22.44,0.038,0.049,place of death,the most specific known (e.g. city instead of country)
+377,Dutch,P495,-22.497,0.043,0.055,country of origin,country of origin of the creative work or subject item
+378,Spanish,P937,-23.399,0.041,0.053,work location,location(s) where the creator was active
+379,Swedish,P19,-24.634,0.043,0.057,place of birth,the most specific known (e.g. city instead of country)
+380,Swedish,P364,-24.65,0.021,0.027,original language,language in which a work was originally created
+381,Danish,P276,-24.684,0.013,0.017,located in,location the physical object or event is within
+382,German,P19,-24.784,0.048,0.064,place of birth,the most specific known (e.g. city instead of country)
+383,Polish,P20,-24.946,0.011,0.014,place of death,the most specific known (e.g. city instead of country)
+384,Danish,P176,-25.502,0.015,0.02,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+385,Swedish,P495,-25.741,0.035,0.047,country of origin,country of origin of the creative work or subject item
+386,Ukrainian,P740,-25.931,0.005,0.006,formation location,location where a group or organization was formed
+387,Polish,P276,-26.033,0.01,0.013,located in,location the physical object or event is within
+388,Spanish,P20,-26.834,0.041,0.056,place of death,the most specific known (e.g. city instead of country)
+389,Czech,P108,-27.036,0.025,0.034,employer,organization for which the subject works or worked
+390,Ukrainian,P176,-27.315,0.039,0.054,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+391,Swedish,P276,-27.508,0.013,0.018,located in,location the physical object or event is within
+392,Portuguese,P159,-27.949,0.033,0.046,headquarters location,specific location where an organization's HQ is or has been situated
+393,Russian,P127,-28.115,0.032,0.045,owned by,owner of the subject
+394,Swedish,P413,-28.182,0.022,0.03,position played on team,"position the player plays, e.g. Small Forward"
+395,German,P159,-28.414,0.044,0.061,headquarters location,specific location where an organization's HQ is or has been situated
+396,Czech,P937,-28.906,0.004,0.005,work location,location(s) where the creator was active
+397,French,P19,-28.952,0.037,0.052,place of birth,the most specific known (e.g. city instead of country)
+398,English,P30,-29.947,0.025,0.036,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+399,English,P37,-30.038,0.032,0.046,official language,language designated as official by this item
+400,Ukrainian,P17,-30.225,0.018,0.026,country,sovereign state of this item
+401,Danish,P19,-30.536,0.037,0.053,place of birth,the most specific known (e.g. city instead of country)
+402,Catalan,P19,-30.56,0.038,0.055,place of birth,the most specific known (e.g. city instead of country)
+403,Slovenian,P30,-30.573,0.006,0.008,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+404,Catalan,P127,-31.132,0.004,0.006,owned by,owner of the subject
+405,Portuguese,P413,-31.14,0.019,0.027,position played on team,"position the player plays, e.g. Small Forward"
+406,French,P108,-31.553,0.012,0.017,employer,organization for which the subject works or worked
+407,Portuguese,P131,-31.735,0.016,0.024,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+408,Czech,P30,-32.153,0.012,0.018,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+409,Catalan,P47,-32.256,0.016,0.023,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+410,Spanish,P131,-32.331,0.019,0.028,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+411,Portuguese,P127,-32.797,0.007,0.01,owned by,owner of the subject
+412,Italian,P20,-33.15,0.036,0.054,place of death,the most specific known (e.g. city instead of country)
+413,Russian,P176,-33.553,0.033,0.05,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+414,German,P276,-33.678,0.012,0.018,located in,location the physical object or event is within
+415,Bulgarian,P47,-33.876,0.014,0.021,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+416,Russian,P740,-33.956,0.002,0.003,formation location,location where a group or organization was formed
+417,Russian,P30,-33.956,0.005,0.008,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+418,Portuguese,P937,-34.355,0.036,0.055,work location,location(s) where the creator was active
+419,Polish,P740,-34.521,0.021,0.032,formation location,location where a group or organization was formed
+420,Croatian,P1412,-35.145,0.038,0.058,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+421,Dutch,P276,-35.325,0.011,0.017,located in,location the physical object or event is within
+422,Spanish,P1303,-35.896,0.017,0.026,instrument,instrument that a person plays
+423,Bulgarian,P159,-36.23,0.029,0.046,headquarters location,specific location where an organization's HQ is or has been situated
+424,English,P413,-36.236,0.029,0.045,position played on team,"position the player plays, e.g. Small Forward"
+425,Italian,P159,-36.39,0.031,0.049,headquarters location,specific location where an organization's HQ is or has been situated
+426,Dutch,P641,-36.495,0.002,0.004,sport,sport or discipline in which the entity participates or belongs to
+427,Italian,P19,-36.59,0.037,0.058,place of birth,the most specific known (e.g. city instead of country)
+428,Spanish,P413,-36.907,0.014,0.022,position played on team,"position the player plays, e.g. Small Forward"
+429,Ukrainian,P937,-37.229,0.005,0.007,work location,location(s) where the creator was active
+430,German,P47,-37.4,0.017,0.028,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+431,Ukrainian,P20,-37.474,0.006,0.01,place of death,the most specific known (e.g. city instead of country)
+432,Serbian,P1412,-37.488,0.018,0.029,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+433,English,P108,-37.628,0.008,0.013,employer,organization for which the subject works or worked
+434,Italian,P413,-38.245,0.023,0.038,position played on team,"position the player plays, e.g. Small Forward"
+435,Catalan,P20,-38.397,0.036,0.059,place of death,the most specific known (e.g. city instead of country)
+436,Romanian,P103,-38.421,0.002,0.003,native language,language that a person learned natively
+437,French,P20,-38.634,0.035,0.058,place of death,the most specific known (e.g. city instead of country)
+438,Danish,P159,-38.87,0.027,0.045,headquarters location,specific location where an organization's HQ is or has been situated
+439,Dutch,P937,-38.872,0.034,0.056,work location,location(s) where the creator was active
+440,French,P1303,-39.797,0.014,0.023,instrument,instrument that a person plays
+441,Hungarian,P276,-40.16,0.016,0.027,located in,location the physical object or event is within
+442,Ukrainian,P19,-40.267,0.005,0.008,place of birth,the most specific known (e.g. city instead of country)
+443,Swedish,P937,-40.36,0.035,0.058,work location,location(s) where the creator was active
+444,Czech,P127,-40.366,0.01,0.016,owned by,owner of the subject
+445,German,P937,-40.41,0.028,0.046,work location,location(s) where the creator was active
+446,Romanian,P937,-40.794,0.04,0.067,work location,location(s) where the creator was active
+447,Ukrainian,P127,-41.524,0.013,0.022,owned by,owner of the subject
+448,Polish,P495,-41.605,0.002,0.004,country of origin,country of origin of the creative work or subject item
+449,Russian,P17,-41.726,0.012,0.021,country,sovereign state of this item
+450,Serbian,P103,-41.756,0.027,0.046,native language,language that a person learned natively
+451,Spanish,P178,-42.035,0.023,0.039,developer,organisation or person that developed this item
+452,Catalan,P159,-42.359,0.031,0.055,headquarters location,specific location where an organization's HQ is or has been situated
+453,German,P20,-42.383,0.036,0.062,place of death,the most specific known (e.g. city instead of country)
+454,Slovenian,P19,-43.196,0.002,0.003,place of birth,the most specific known (e.g. city instead of country)
+455,Bulgarian,P176,-43.498,0.013,0.022,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+456,Portuguese,P47,-43.841,0.011,0.02,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+457,English,P127,-43.869,0.006,0.01,owned by,owner of the subject
+458,French,P159,-43.939,0.03,0.053,headquarters location,specific location where an organization's HQ is or has been situated
+459,Hungarian,P127,-44.104,0.014,0.025,owned by,owner of the subject
+460,Italian,P937,-44.296,0.034,0.061,work location,location(s) where the creator was active
+461,Bulgarian,P127,-44.721,0.007,0.012,owned by,owner of the subject
+462,English,P1412,-44.729,0.019,0.035,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+463,German,P178,-45.01,0.012,0.022,developer,organisation or person that developed this item
+464,Polish,P131,-45.053,0.006,0.011,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+465,Spanish,P47,-45.106,0.013,0.023,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+466,Swedish,P127,-45.971,0.007,0.012,owned by,owner of the subject
+467,French,P937,-46.044,0.035,0.065,work location,location(s) where the creator was active
+468,Serbian,P495,-46.419,0.001,0.003,country of origin,country of origin of the creative work or subject item
+469,Swedish,P159,-46.703,0.024,0.045,headquarters location,specific location where an organization's HQ is or has been situated
+470,Italian,P103,-46.705,0.016,0.029,native language,language that a person learned natively
+471,Spanish,P30,-46.865,0.023,0.043,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+472,Danish,P937,-47.868,0.028,0.054,work location,location(s) where the creator was active
+473,Slovenian,P103,-47.93,0.001,0.002,native language,language that a person learned natively
+474,Romanian,P1376,-47.969,0.008,0.015,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+475,Portuguese,P1376,-47.979,0.009,0.017,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+476,Italian,P131,-49.426,0.012,0.024,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+477,English,P178,-49.669,0.014,0.029,developer,organisation or person that developed this item
+478,Bulgarian,P17,-49.732,0.02,0.04,country,sovereign state of this item
+479,French,P47,-49.776,0.01,0.02,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+480,Hungarian,P37,-49.924,0.05,0.099,official language,language designated as official by this item
+481,Czech,P20,-50.104,0.006,0.012,place of death,the most specific known (e.g. city instead of country)
+482,Danish,P103,-50.954,0.012,0.024,native language,language that a person learned natively
+483,Dutch,P17,-51.305,0.015,0.032,country,sovereign state of this item
+484,Romanian,P127,-51.538,0.006,0.012,owned by,owner of the subject
+485,Croatian,P17,-51.658,0.005,0.01,country,sovereign state of this item
+486,Spanish,P1376,-51.674,0.009,0.018,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+487,Dutch,P1376,-52.157,0.008,0.016,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+488,Dutch,P47,-52.866,0.009,0.02,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+489,English,P937,-52.925,0.023,0.049,work location,location(s) where the creator was active
+490,German,P17,-52.953,0.018,0.038,country,sovereign state of this item
+491,Catalan,P30,-53.083,0.001,0.002,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+492,Dutch,P178,-53.14,0.015,0.033,developer,organisation or person that developed this item
+493,Romanian,P36,-54.009,0.01,0.021,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+494,Hungarian,P19,-54.196,0.002,0.004,place of birth,the most specific known (e.g. city instead of country)
+495,Danish,P108,-54.24,0.007,0.015,employer,organization for which the subject works or worked
+496,Croatian,P178,-54.342,0.037,0.08,developer,organisation or person that developed this item
+497,Portuguese,P178,-54.517,0.015,0.033,developer,organisation or person that developed this item
+498,Italian,P47,-54.632,0.008,0.017,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+499,Polish,P127,-54.714,0.007,0.015,owned by,owner of the subject
+500,Ukrainian,P103,-54.836,0.009,0.021,native language,language that a person learned natively
+501,Croatian,P19,-54.838,0.001,0.003,place of birth,the most specific known (e.g. city instead of country)
+502,Slovenian,P1376,-54.873,0.014,0.03,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+503,Slovenian,P36,-54.966,0.019,0.042,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+504,Serbian,P37,-55.588,0.034,0.076,official language,language designated as official by this item
+505,Polish,P30,-55.62,0.005,0.011,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+506,Polish,P17,-55.62,0.006,0.014,country,sovereign state of this item
+507,Catalan,P178,-55.986,0.016,0.035,developer,organisation or person that developed this item
+508,Ukrainian,P1412,-56.43,0.001,0.002,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+509,German,P108,-56.482,0.004,0.009,employer,organization for which the subject works or worked
+510,Romanian,P131,-56.802,0.013,0.031,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+511,Portuguese,P108,-57.397,0.006,0.015,employer,organization for which the subject works or worked
+512,Romanian,P47,-58.034,0.01,0.023,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+513,Portuguese,P36,-58.244,0.009,0.022,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+514,Croatian,P36,-58.437,0.018,0.043,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+515,Ukrainian,P37,-58.719,0.016,0.04,official language,language designated as official by this item
+516,Russian,P495,-58.722,0.002,0.005,country of origin,country of origin of the creative work or subject item
+517,Catalan,P937,-58.913,0.026,0.064,work location,location(s) where the creator was active
+518,Italian,P641,-58.936,0.002,0.004,sport,sport or discipline in which the entity participates or belongs to
+519,French,P178,-59.187,0.015,0.036,developer,organisation or person that developed this item
+520,French,P131,-59.311,0.01,0.024,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+521,Danish,P47,-59.731,0.008,0.019,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+522,Portuguese,P17,-59.828,0.014,0.035,country,sovereign state of this item
+523,Catalan,P36,-60.477,0.01,0.024,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+524,Swedish,P178,-60.59,0.014,0.035,developer,organisation or person that developed this item
+525,Polish,P36,-60.66,0.015,0.038,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+526,Romanian,P178,-61.203,0.016,0.042,developer,organisation or person that developed this item
+527,Dutch,P131,-61.31,0.009,0.024,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+528,Slovenian,P37,-61.35,0.01,0.025,official language,language designated as official by this item
+529,English,P47,-61.44,0.007,0.018,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+530,Spanish,P36,-61.449,0.008,0.022,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+531,French,P1376,-61.583,0.008,0.02,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+532,Russian,P178,-61.691,0.05,0.131,developer,organisation or person that developed this item
+533,Croatian,P1376,-62.032,0.012,0.031,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+534,Italian,P178,-62.064,0.014,0.036,developer,organisation or person that developed this item
+535,Swedish,P103,-62.284,0.008,0.021,native language,language that a person learned natively
+536,Polish,P108,-62.458,0.013,0.035,employer,organization for which the subject works or worked
+537,Ukrainian,P36,-63.077,0.015,0.042,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+538,Russian,P19,-63.309,0.002,0.005,place of birth,the most specific known (e.g. city instead of country)
+539,Ukrainian,P1376,-63.907,0.011,0.03,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+540,Swedish,P47,-64.001,0.008,0.021,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+541,Bulgarian,P36,-64.09,0.008,0.023,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+542,Spanish,P108,-64.871,0.006,0.018,employer,organization for which the subject works or worked
+543,Catalan,P103,-65.085,0.008,0.023,native language,language that a person learned natively
+544,Catalan,P131,-65.247,0.01,0.029,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+545,Spanish,P641,-65.336,0.001,0.004,sport,sport or discipline in which the entity participates or belongs to
+546,Catalan,P1376,-65.534,0.007,0.019,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+547,English,P1376,-65.972,0.005,0.016,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+548,Polish,P178,-66.193,0.026,0.076,developer,organisation or person that developed this item
+549,Croatian,P108,-66.481,0.006,0.017,employer,organization for which the subject works or worked
+550,Slovenian,P178,-66.8,0.028,0.084,developer,organisation or person that developed this item
+551,French,P103,-66.904,0.007,0.021,native language,language that a person learned natively
+552,Portuguese,P103,-67.108,0.009,0.026,native language,language that a person learned natively
+553,Czech,P17,-67.237,0.003,0.009,country,sovereign state of this item
+554,Serbian,P1376,-67.62,0.008,0.026,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+555,Croatian,P131,-68.219,0.001,0.004,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+556,French,P36,-68.867,0.008,0.025,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+557,Danish,P17,-69.158,0.011,0.035,country,sovereign state of this item
+558,Swedish,P17,-69.179,0.012,0.038,country,sovereign state of this item
+559,Czech,P178,-69.659,0.023,0.076,developer,organisation or person that developed this item
+560,Bulgarian,P1376,-69.78,0.005,0.017,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+561,Danish,P178,-69.901,0.01,0.032,developer,organisation or person that developed this item
+562,Italian,P1376,-70.715,0.005,0.017,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+563,Hungarian,P131,-70.852,0.006,0.021,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+564,Dutch,P103,-71.224,0.009,0.03,native language,language that a person learned natively
+565,Spanish,P17,-71.431,0.012,0.042,country,sovereign state of this item
+566,Swedish,P641,-71.49,0.002,0.006,sport,sport or discipline in which the entity participates or belongs to
+567,Hungarian,P1376,-71.505,0.013,0.047,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+568,Croatian,P103,-71.578,0.012,0.043,native language,language that a person learned natively
+569,Serbian,P36,-71.809,0.011,0.038,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+570,Swedish,P1376,-71.832,0.004,0.015,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+571,Serbian,P19,-72.217,0.001,0.003,place of birth,the most specific known (e.g. city instead of country)
+572,Czech,P37,-72.222,0.009,0.033,official language,language designated as official by this item
+573,Czech,P36,-72.276,0.011,0.04,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+574,Danish,P131,-72.642,0.007,0.024,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+575,French,P17,-72.821,0.011,0.039,country,sovereign state of this item
+576,Russian,P36,-73.501,0.013,0.049,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+577,Czech,P1376,-73.535,0.008,0.029,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+578,German,P131,-73.692,0.009,0.033,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+579,Slovenian,P108,-73.76,0.008,0.032,employer,organization for which the subject works or worked
+580,Italian,P17,-73.951,0.008,0.032,country,sovereign state of this item
+581,Ukrainian,P178,-73.964,0.023,0.088,developer,organisation or person that developed this item
+582,Slovenian,P131,-74.496,0.002,0.006,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+583,Dutch,P108,-74.8,0.003,0.013,employer,organization for which the subject works or worked
+584,Italian,P108,-74.992,0.004,0.016,employer,organization for which the subject works or worked
+585,German,P36,-75.127,0.007,0.028,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+586,Polish,P1376,-75.246,0.007,0.026,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+587,Italian,P36,-75.256,0.006,0.023,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+588,German,P103,-75.291,0.007,0.028,native language,language that a person learned natively
+589,Swedish,P131,-75.447,0.006,0.026,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+590,Danish,P36,-75.644,0.005,0.021,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+591,Swedish,P108,-76.57,0.004,0.016,employer,organization for which the subject works or worked
+592,Romanian,P108,-76.713,0.005,0.02,employer,organization for which the subject works or worked
+593,Swedish,P36,-76.77,0.005,0.021,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+594,German,P1376,-76.84,0.005,0.02,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+595,Slovenian,P17,-76.956,0.007,0.03,country,sovereign state of this item
+596,Bulgarian,P178,-76.995,0.008,0.036,developer,organisation or person that developed this item
+597,Romanian,P17,-78.272,0.008,0.038,country,sovereign state of this item
+598,Catalan,P108,-78.293,0.004,0.017,employer,organization for which the subject works or worked
+599,Hungarian,P159,-78.303,0.001,0.004,headquarters location,specific location where an organization's HQ is or has been situated
+600,Polish,P103,-80.074,0.005,0.026,native language,language that a person learned natively
+601,Dutch,P36,-80.088,0.004,0.021,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+602,Danish,P1376,-80.707,0.003,0.016,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+603,English,P131,-81.788,0.004,0.022,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+604,Czech,P131,-81.871,0.001,0.005,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+605,English,P36,-82.524,0.004,0.021,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+606,Polish,P1412,-82.765,0.002,0.011,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+607,Hungarian,P36,-83.148,0.012,0.068,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
+608,Romanian,P641,-83.462,0.001,0.006,sport,sport or discipline in which the entity participates or belongs to
+609,Slovenian,P937,-85.123,0.003,0.018,work location,location(s) where the creator was active
+610,Russian,P1376,-85.258,0.005,0.034,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+611,English,P641,-86.173,0.001,0.01,sport,sport or discipline in which the entity participates or belongs to
+612,Czech,P103,-86.926,0.003,0.022,native language,language that a person learned natively
+613,Slovenian,P1412,-87.183,0.001,0.008,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+614,English,P17,-87.568,0.004,0.032,country,sovereign state of this item
+615,English,P103,-90.718,0.003,0.035,native language,language that a person learned natively
+616,Slovenian,P20,-94.371,0.001,0.009,place of death,the most specific known (e.g. city instead of country)

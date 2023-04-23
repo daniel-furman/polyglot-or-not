@@ -1,33 +1,33 @@
 ,relation,mean percentage change across langs,Title,Description
-0,P264,113.51705,record label,record label
-1,P101,76.44104999999999,field of work,field of work
-2,P39,55.84905,position held,position held
-3,P449,49.0586,original network,original network
-4,P136,44.37375,genre,genre
-5,P1303,36.10595,instrument,instrument
-6,P106,30.5725,occupation,occupation
-7,P407,25.765750000000004,language,language
-8,P138,21.891312499999998,named after,named after
-9,P364,20.3578,original language,original language
-10,P413,18.631,position played on team,position played on team
-11,P30,3.022888888888889,continent,continent
-12,P176,2.894631578947369,manufacturer,manufacturer
-13,P495,2.719050000000001,country of origin,country of origin
-14,P641,-2.0980499999999993,sport,sport
-15,P159,-5.912850000000001,headquarters location,headquarters location
-16,P740,-6.934705882352941,formation location,formation location
-17,P1412,-8.35642105263158,languages spoken,languages spoken
-18,P276,-13.44436842105263,located in,located in
-19,P37,-14.87845,official language,official language
-20,P127,-23.58345,owned by,owned by
-21,P20,-23.8216875,place of death,place of death
-22,P19,-27.3271,place of birth,place of birth
-23,P47,-29.18172222222222,shares border with,shares border with
-24,P937,-35.648823529411764,work location,work location
-25,P108,-46.985263157894735,employer,employer
-26,P131,-47.478899999999996,is in the administrative territorial entity,is in the administrative territorial entity
-27,P103,-48.37605263157894,native language,native language
-28,P17,-54.4773,country,country
-29,P178,-54.58635,developer,developer
-30,P1376,-65.83590000000001,capital of,capital of
-31,P36,-68.52095,capital,capital
+0,P264,113.51705,record label,brand and trademark associated with the marketing of subject music recordings and music videos
+1,P101,76.44104999999999,field of work,"fields of work related to this item (physics, history) . For occupation like physicist, historian see P106. Note: Can be used in any item besides person"
+2,P39,55.84905,position held,subject currently or formerly holds the object position or public office
+3,P449,49.0586,original network,network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.
+4,P136,44.37375,genre,genre of a creative work or genre in which an artist works
+5,P1303,36.10595,instrument,instrument that a person plays
+6,P106,30.5725,occupation,"occupation of a person; see also ""field of work"" (Property:P101)"
+7,P407,25.765750000000004,language,"language of a work (not necessarily original language, use P364 instead or as well)"
+8,P138,21.891312499999998,named after,"entity or event that inspired the subject's name, or namesake (in at least one language)"
+9,P364,20.3578,original language,language in which a work was originally created
+10,P413,18.631,position played on team,"position the player plays, e.g. Small Forward"
+11,P30,3.022888888888889,continent,"continent of which the subject is a part. Use for countries, locations in Antarctica and items located in such areas, that are located in more than one continent."
+12,P176,2.894631578947369,manufacturer,main manufacturer of this product (excluding sub-contracted manufacturers)
+13,P495,2.719050000000001,country of origin,country of origin of the creative work or subject item
+14,P641,-2.0980499999999993,sport,sport or discipline in which the entity participates or belongs to
+15,P159,-5.912850000000001,headquarters location,specific location where an organization's HQ is or has been situated
+16,P740,-6.934705882352941,formation location,location where a group or organization was formed
+17,P1412,-8.35642105263158,languages spoken,language(s) that a person speaks. Primarily used to indicate non-native languages
+18,P276,-13.44436842105263,located in,location the physical object or event is within
+19,P37,-14.87845,official language,language designated as official by this item
+20,P127,-23.58345,owned by,owner of the subject
+21,P20,-23.8216875,place of death,the most specific known (e.g. city instead of country)
+22,P19,-27.3271,place of birth,the most specific known (e.g. city instead of country)
+23,P47,-29.18172222222222,shares border with,"countries or administrative subdivisions, of equal level, that this item borders, either by land or water"
+24,P937,-35.648823529411764,work location,location(s) where the creator was active
+25,P108,-46.985263157894735,employer,organization for which the subject works or worked
+26,P131,-47.478899999999996,is in the administrative territorial entity,the item is located on the territory of the following administrative entity
+27,P103,-48.37605263157894,native language,language that a person learned natively
+28,P17,-54.4773,country,sovereign state of this item
+29,P178,-54.58635,developer,organisation or person that developed this item
+30,P1376,-65.83590000000001,capital of,"country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+31,P36,-68.52095,capital,"location (city, municipality) of governmental seat of the country, or administrative territorial entity"
