@@ -54,11 +54,12 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 | [t5-v1-xxl](https://arxiv.org/abs/1910.10683) | 11B |  Raffel et al., 2019 | Google | **76.55** +/- 0.52| 
 | [bloom-7b1](https://arxiv.org/abs/2211.05100) | 7B |  Scao et al., 2022 | BigScience | **76.16** +/- 0.51 | 
 | [gpt2-xl](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | 1.5B |  Radford et al., 2018 | OpenAI | **73.76** +/- 0.54 | 
-| [m-bert-base](https://arxiv.org/abs/1810.04805) | 110M) | Devlin et al., 2018 | Google | **71.80** +/- 0.55 | 
+| [m-bert-base](https://arxiv.org/abs/1810.04805) | 110M | Devlin et al., 2018 | Google | **71.80** +/- 0.55 | 
 | [mt5-xxl](https://arxiv.org/abs/2010.11934) | 11B |  Xue et al., 2020 | Google | **61.58** +/- 0.59| 
-| [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | 355M) | Conneau et al., 2019 | Meta | **61.55** +/- 0.59 | 
+| [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | 355M | Conneau et al., 2019 | Meta | **61.55** +/- 0.59 | 
 | [mt5-xl](https://arxiv.org/abs/2010.11934) | 3.7B |  Xue et al., 2020 | Google | **59.96** +/- 0.59| 
 | Random Baseline | &nbsp; | &nbsp; | &nbsp; | 50   |  
+
 &nbsp;
 
 ### **LLaMa** fact-completion results across all 20 languages. 
