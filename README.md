@@ -30,7 +30,7 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 ### **Multilingual** fact-completion results.
 
 | Model            | Size<br />(# params) | Authors      |  Org          | 20 Language Average<br /> (% correct)      |
-|------------------|--------------|--------------|--------------|:--------------:|
+|------------------|:--------------:|--------------|--------------|:--------------:|
 | [llama-30b](https://arxiv.org/abs/2302.13971) | 30B | Touvron et al., 2023 | Meta | **79.31** +/- 0.74| 
 | [m-bert-base](https://arxiv.org/abs/1810.04805) | 110M | Devlin et al., 2018 | Google |  **62.00** +/- 0.87 |
 | [bloom-7b1](https://arxiv.org/abs/2211.05100) | 7B | Scao et al., 2022 | BigScience | **57.70** +/- 0.88 | 
@@ -43,7 +43,7 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 ### **English** fact-completion results.
 
 | Model            | Size<br />(# params) | Authors      |  Org          | English<br /> (% correct)      |
-|------------------|--------------|--------------|--------------|:--------------:|
+|------------------|:--------------:|--------------|--------------|:--------------:|
 | [llama-30b](https://arxiv.org/abs/2302.13971) | 30B |  Touvron et al., 2023 | Meta | **89.40** +/- 0.38 | 
 | [llama-13b](https://arxiv.org/abs/2302.13971) | 13B |  Touvron et al., 2023 | Meta | **86.66** +/- 0.42 | 
 | [llama-7b](https://arxiv.org/abs/2302.13971) | 7B |  Touvron et al., 2023 | Meta | **85.53** +/- 0.43 | 
