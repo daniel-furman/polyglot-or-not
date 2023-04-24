@@ -1,0 +1,1129 @@
+model,dataset_id,differences,stem,true,false,relation
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1782,-0.9495925903320312,A Monte Cristo grófja eredeti nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9652,-0.9193077087402344,Michel-Dimitri Calvocoressi nyelve az,Francia,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_143,-0.9045867919921875,A Delusions of Grandeur eredeti nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4916,-0.8867124915122986,Keith Wood által használt nyelv az,ír,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20973,-0.8754425048828125,A Chennai 600028 eredeti nyelve az,tamil,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13846,-0.871002197265625,A Peppermint Candy eredeti nyelve az,koreai,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1190,-0.8633511066436768,A Glamourina által használt nyelv az,ukrán,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18396,-0.860626220703125,A Dhool eredeti nyelve az,tamil,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19214,-0.84991455078125,A The Immoralist eredeti nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16140,-0.839111328125,A Tetro eredeti nyelve az,spanyol,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1691,-0.8301620483398438,A The Suspended Vocation eredeti nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2461,-0.8246917724609375,A Voir eredeti nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2550,-0.800384521484375,Jean-Louis Bourlanges által használt nyelv az,Francia,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5196,-0.789522111415863,A Kopasz szoprán nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11511,-0.7647750377655029,Az Under the Sun of Satan eredeti nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16546,-0.759857177734375,Az Avishkaar eredeti nyelve az,hindi,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13541,-0.7469377517700195,A Seducing Doctor Lewis nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12038,-0.735748291015625,A Ciboulette eredeti nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15355,-0.7304420471191406,Az A Secret nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6172,-0.7195281982421875,A The Glass Agency nyelve az,perzsa,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4556,-0.678166389465332,A Sambirban hivatalos nyelv az,ukrán,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15543,-0.673553466796875,Michel Godard által használt nyelv az,Francia,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5289,-0.6649169921875,A Vishwaroopam eredeti nyelve az,hindi,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15553,-0.638702392578125,Quebec Cityben hivatalos nyelv az,Francia,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4328,-0.6273422241210938,Jean-Jacques Annaud által használt nyelv az,Francia,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4465,-0.6237640380859375,Az Office Romance nyelve az,orosz,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16946,-0.6136474609375,Adriana Russo által használt nyelv az,olasz,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8647,-0.6125850677490234,A La Chienne nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_770,-0.6063461303710938,A The Broken Ear eredeti nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11442,-0.595367431640625,Az El Mariachi nyelve az,spanyol,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_956,-0.5926285982131958,A Largo Winch II nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12445,-0.5911459922790527,A Wild Birds nyelve az,svéd,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7705,-0.5812225341796875,Robert Nivelle által használt nyelv az,Francia,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1086,-0.566162109375,Timo Koivusalo által használt nyelv az,finn,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7966,-0.5588968992233276,A Womanlight nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9107,-0.54571533203125,A Brice de Nice eredeti nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15715,-0.54132080078125,Adrianus Valerius által használt nyelv az,holland,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5775,-0.5312080383300781,A Nouvelle Star nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18756,-0.5191268920898438,A Szicíliai Királyság hivatalos nyelve a,görög,['latin'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17242,-0.5167694091796875,Anne Parillaud által használt nyelv az,Francia,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2865,-0.51318359375,A Bye Bye Brasil eredeti nyelve az,portugál,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7792,-0.51123046875,Az észak-amerikai szabadkereskedelmi megállapodásban hivatalos nyelv az,spanyol,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16683,-0.5105276107788086,Az A Very Private Affair nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7521,-0.5098876953125,Ciprus hivatalos nyelve az,török,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20114,-0.5078611373901367,Niki de Saint Phalle által használt nyelv az,Francia,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19770,-0.5046674013137817,A Fehér Gárda nyelve az,orosz,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19006,-0.47900390625,Denis Verdini által használt nyelv az,olasz,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15063,-0.466796875,A Sambhavana Sheth által használt nyelv az,hindi,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8191,-0.458984375,A Független Államok Közösségében a beszélt nyelv az,orosz,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6247,-0.4560546875,Az A Frozen Flower eredeti nyelve az,koreai,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15178,-0.455322265625,Raahében hivatalos nyelv az,finn,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_552,-0.440032958984375,A Duniya Na Mane eredeti nyelve az,hindi,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16300,-0.4334716796875,Az arahan nyelve az,koreai,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10312,-0.4316864013671875,A Pasupathy által használt nyelv az,tamil,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16686,-0.4171142578125,Nilakantha Somayaji tevékenységi területe a,csillagászat,['matematika'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2503,-0.41370391845703125,Amar Akbar Anthony nyelve az,hindi,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6182,-0.4046630859375,Jorge Glusberg által használt nyelv az,spanyol,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11115,-0.3858623504638672,Brüsszel fővárosi régiójában hivatalos nyelv az,Francia,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6324,-0.37664794921875,A Shlomo Avineri által használt nyelv az,héber,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4453,-0.372622013092041,Monsieur Gangster nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8689,-0.3527507781982422,Louis Dutens anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19946,-0.3430633544921875,Aragónia Koronája hivatalos nyelve az,latin,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3600,-0.3419380187988281,Tavannes hivatalos nyelve az,Francia,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1125,-0.33013916015625,A Do Aankhen Barah Haath eredeti nyelve az,hindi,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21717,-0.3254814147949219,Goswin de Stassart által használt nyelv az,Francia,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4970,-0.262939453125,Heinolán hivatalos nyelv az,finn,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21061,-0.2587890625,Az Olsen Gang eredeti nyelve az,dán,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_601,-0.24040985107421875,Eduardo De Filippo foglalkozása a,költő,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_401,-0.2349090576171875,A spanyol felvilágosodásban hivatalos nyelv a,spanyol,['katalán'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1452,-0.23289203643798828,Nicholas John Hannen szakmája a,diplomata,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2049,-0.22652983665466309,Az organikus cikkek eredeti nyelve a,Francia,['német'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11565,-0.22427749633789062,Alexandre Auguste Ledru-Rollin anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_580,-0.220703125,A Rajendra Prasad által használt nyelv az,hindi,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12992,-0.220123291015625,Szenegál hivatalos nyelve az,Francia,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7339,-0.2195911407470703,Nicolas Perrenot de Granvelle nyelve az,Francia,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16208,-0.215576171875,Errico Petrella által használt nyelv az,olasz,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4762,-0.2125244140625,Karviában hivatalos nyelv az,finn,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14857,-0.2099609375,A Thiruda Thirudi nyelve az,tamil,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5112,-0.208984375,A Thillu Mullu nyelve az,tamil,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_374,-0.20854949951171875,Henri Massis által használt nyelv az,Francia,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1903,-0.20458984375,A Pomarkku hivatalos nyelve az,finn,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3220,-0.190704345703125,A chaarulatha nyelve az,tamil,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9043,-0.18855109810829163,A Cyworld nyelve a,Hangul,"['koreai nyelv', 'Holland nyelv']",P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3041,-0.18105506896972656,Alexandre de Marenches által használt nyelv az,Francia,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14109,-0.1715087890625,A repülő holland nyelve az,német,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17473,-0.16259765625,Erick van Egeraat anyanyelve az,holland,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10172,-0.15873241424560547,"A Run, Man, Run eredeti nyelve! az",olasz,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20899,-0.15502452850341797,Justinus Francis Rigali pozíciója a,püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9021,-0.1522674560546875,Dániában a beszélt nyelv az,dán,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1873,-0.1522216796875,Raisióban hivatalos nyelv a,finn,['spanyol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11587,-0.14410400390625,"Georges Cottier, akinek a pozíciója a",bíboros,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1398,-0.13621139526367188,Chacabuco csata itt található:,Santiago,['Chelsea'],P276
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21765,-0.13057327270507812,Jean Bourdichon által használt nyelv az,Francia,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16954,-0.129608154296875,A Kecske ünnepe eredeti nyelve a,spanyol,['német'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9996,-0.1279287338256836,Kitee-ben hivatalos nyelv az,finn,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9480,-0.12295332551002502,A Six Songs nyelve a,angol,"['maszoréta', 'angol nyelvtan', 'katalán nyelv', 'Rub-A-Dub-Dub']",P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_861,-0.12205314636230469,A The Decameron nyelve az,olasz,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13363,-0.1162109375,Juan Bautista de Anza nyelve az,spanyol,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10847,-0.1141357421875,Antonio Moreno által használt nyelv az,spanyol,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2590,-0.11177444458007812,Jacques MacDonald anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20321,-0.11161994934082031,Mihail Leonidovics Gromov szakértelme a,geometria,['matematika'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13396,-0.10760879516601562,Felix Salmon foglalkozása a,újságíró,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9284,-0.106842041015625,Anna Mouglalis nyelve az,Francia,['olasz'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2125,-0.10666704177856445,Cyril Wong szakmája a,költő,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13012,-0.09911823272705078,Camille de Casabianca anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13003,-0.09690093994140625,Whitney Houston foglalkozása a,Zeneszerző,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_857,-0.095855712890625,Raymond Smith Dugan tevékenységi területe a,csillagászat,['matematika'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16530,-0.0952911376953125,Hall Overton műfaja az,jazz,['opera'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12025,-0.09509400526682536,"George Osborne, akinek a posztja az",Kancellár,"['Los Angeles polgármestere', 'brit miniszterelnök', 'ír elnök']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12370,-0.09125518798828125,Stanislaus Hosius pozíciója a,bíboros,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9088,-0.08931159973144531,Jean-Louis Curtis anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7509,-0.08812719583511353,Udhaya nyelve,tamil,"['walesi', 'Firebird', 'skót', 'angol nyelvtan', 'szlovén nyelv']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17221,-0.08703231811523438,Jean-Antoine Chaptal anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8234,-0.08648252487182617,"Rap zenészek, mint például az",Totally Insane,['Aggrotech'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8141,-0.0861501693725586,Az anatómiai terminológia szakértelme a,anatómia,['szociológia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4231,-0.08603668212890625,Jacques Legras anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15520,-0.08555984497070312,George Sand anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3135,-0.084930419921875,Jeanne Balibar anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_838,-0.08288955688476562,Blaise Pascal anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4457,-0.08175468444824219,Francis de Croisset anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_307,-0.08005905151367188,Chardonne-ban hivatalos nyelv az,Francia,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3032,-0.07561111450195312,Lapuában a beszélt nyelv a,finn,['spanyol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16452,-0.0754241943359375,Desmond Connell pozíciója a,püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12232,-0.07474517822265625,Bombay Jayashri foglalkozása a,Zeneszerző,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8543,-0.07425689697265625,Maurice Herzog anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8309,-0.07393854856491089,A Le Voyage en douce nyelve az,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_3437,-0.0732352336247762,Európa hivatalos nyelve a,finn,"['frank', 'egyházi szláv', 'Cossonay']",P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7517,-0.07293701171875,A Sorstalan eredeti nyelve a,Magyar,['szász'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_371,-0.07154273986816406,Anatole France anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7813,-0.07094573974609375,A Minoes eredeti nyelve a,holland,"['angol nyelvtan', 'finn nyelv']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3285,-0.07073593139648438,Ernest Armstrong szakmája a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12559,-0.06998825073242188,Az Il conformista nyelve az,olasz,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15027,-0.06884312629699707,Don Hannah foglalkozása a,regényíró,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16782,-0.06818008422851562,Friedrich Spanheim munkássága a,teológia,['kémia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7849,-0.06595611572265625,A L'amour en fuite eredeti nyelve a,Francia,"['angol nyelvtan', 'holland nyelv']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15581,-0.06589317321777344,Hollandia hivatalos nyelve az,holland,['orosz'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8932,-0.06447219848632812,William Pember Reeves szakmája a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5546,-0.061847686767578125,Mithya nyelve az,hindi,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9121,-0.06149023771286011,Az RTF nyelve a,Francia,"['angol nyelvtan', 'Spring Torrents']",P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12807,-0.0596923828125,Bernard Francis Law pozíciója a,püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_196,-0.0580291748046875,Pierre Messmer anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11124,-0.0570681095123291,Granius Licinianus szakértelme a,történelem,['csillagászat'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21489,-0.056893348693847656,A Remy de Gourmont által használt nyelv az,Francia,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2898,-0.05620294809341431,Jon Rose szakmája a,Zeneszerző,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20142,-0.0561065673828125,Wilhelm Magnus szakmája a,matematikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2720,-0.05560302734375,A Gaston Defferre által használt nyelv az,Francia,['olasz'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6214,-0.05473899841308594,Az Európai Unióban hivatalos nyelv a,dán,['német'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2054,-0.0535283088684082,Subagio Sastrowardoyo szakmája a,költő,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2276,-0.052116990089416504,A statisztikai modell szakértelme a,statisztika,['szociológia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16369,-0.051944732666015625,Frank Knox szakmája a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3691,-0.05175352096557617,A Maastrichti Szerződés nyelve a,Francia,['német'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5819,-0.05055999755859375,Hankóban hivatalos nyelv az,svéd,['orosz'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21854,-0.05048656463623047,Jean Lefebvre anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20415,-0.04885101318359375,Frank Comerford Walker foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1703,-0.0482332706451416,Paolo Casati szakmája a,matematikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17557,-0.046291351318359375,Charles Hernu anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8605,-0.04510498046875,Robert Campin által használt nyelv az,holland,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18757,-0.04449951648712158,Samuel Medary szakmája a,újságíró,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1018,-0.04336738586425781,"A Bundesautobahn 13 tulajdonosa, a",Németország,['Nintendo'],P127
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12000,-0.04313087463378906,Henri Diamant-Berger anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_42,-0.04294586181640625,Arun Nehru szakmája a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7505,-0.04248027006785075,A trinetrudu eredeti nyelve a,telugu,"['szanszkrit nyelv', 'Modern német', 'Prisoner']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12171,-0.042098402976989746,"Reagan, akinek a posztja",Kalifornia kormányzója,['az Egyesült Államok alelnöke'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15884,-0.04193115234375,Walther Meissner tevékenységi köre a,fizika,['fiziológia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2244,-0.04141998291015625,Jean-Pierre Petit nyelve az,Francia,['olasz'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1854,-0.04136466979980469,A millennializmus szakértelme a,teológia,['kémia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19795,-0.04117894172668457,I. Justin foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2854,-0.04047966003417969,Rudolf Maister szakmája a,költő,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14790,-0.04007166624069214,Robert Lecourt anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7205,-0.03993278741836548,Arthur Drews szakmája a,filozófus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17720,-0.03919106721878052,Joyce Steele foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21244,-0.03828620910644531,Peter Florin foglalkozása a,diplomata,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14806,-0.03818434476852417,Steven Mercurio szakmája a,Zeneszerző,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12597,-0.03801393508911133,A Nauka i Zhizn nyelve a,orosz,['kínai'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2964,-0.03797590732574463,Bernard de Marigny szakmája a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18045,-0.03790283203125,Walter Isard tevékenységi területe a,földrajz,['matematika'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20361,-0.037319183349609375,Horatio Bottomley foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10331,-0.037130117416381836,George Bennard foglalkozása a,Zeneszerző,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13416,-0.0368804931640625,Nikolay Dobrolyubov anyanyelve az,orosz,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12454,-0.036731719970703125,Harold Washington,Chicago polgármestere,"['Egyesült Arab Emírségek fegyveres erői', 'címzetes püspök']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10071,-0.036164283752441406,Nicolas Chamfort anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11351,-0.035816192626953125,David Harvey szakértelme az,földrajz,['építészet'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20362,-0.03499412536621094,A szív nyelve az,olasz,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20465,-0.03460359573364258,Jean Foyer anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4405,-0.03446769714355469,Bernard Menez anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12040,-0.03407573699951172,"Russell Cooper, akinek a posztja",Premier,"['ORHA', 'az Egyesült Királyság miniszterelnöke']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10314,-0.0340728759765625,Paul Morand anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15345,-0.03356742858886719,Huo Guang foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14770,-0.033023834228515625,Sabahattin Ali foglalkozása a,regényíró,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12212,-0.0330047607421875,Louis Bonaparte által használt nyelv az,Francia,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7367,-0.03290688991546631,Adam Rapacki foglalkozása a,diplomata,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2956,-0.032649993896484375,Teuvában a beszélt nyelv a,finn,['spanyol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11886,-0.03258085250854492,Murad Velshi foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2698,-0.03188323974609375,"Nestorius, akinek a pozíciója a",püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9144,-0.03173595666885376,Theodor Lipps szakértelme a,filozófus,['kémia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13030,-0.03127098083496094,Jean-Baptiste Maunier anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4623,-0.03125762939453125,Marcus Manilius foglalkozása a,költő,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9267,-0.03110504150390625,A fekete kenyér nyelve a,spanyol,['kantoni'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18950,-0.030948638916015625,Muhammad Iqbal szakmája a,költő,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18848,-0.03070068359375,Boethius foglalkozása a,filozófus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3778,-0.030457735061645508,Steve Swallow szakmája a,Zeneszerző,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4961,-0.029604434967041016,Jim Griffiths foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10521,-0.029541015625,Maurice Duverger foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12770,-0.028777122497558594,Louis Petit de Bachaumont által használt nyelv az,Francia,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11230,-0.0286102294921875,Mia Freedman foglalkozása a,újságíró,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21478,-0.028564453125,Paul Broca tevékenységi köre az,anatómia,['orvos'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17942,-0.02856266498565674,Peter McCardle szakmája a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14740,-0.028545379638671875,Pascal Gentil anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21576,-0.02852630615234375,Suzanne Crouch foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9377,-0.0283966064453125,Walter Dinsdale foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14527,-0.028338193893432617,Claude Antoine Dacosta foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3637,-0.027805328369140625,A Kakambal ni Eliana eredeti nyelve a,filippínó,['tamil'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10409,-0.027635574340820312,Theodor Rosetti foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14651,-0.027545928955078125,Carlo Rosselli foglalkozása a,újságíró,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1752,-0.026258111000061035,Dahlgren tevékenységi köre a,botanikus,"['Bioetika', 'kardiológia']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7859,-0.026232639948527016,A meqabyan eredeti nyelve a,Ge'ez,"['Smeshariki', 'Tulu', 'szász']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13272,-0.026061296463012695,Hamidou Benmassoud anyanyelve a,Francia,['koreai'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4479,-0.025892257690429688,Mary Renault foglalkozása a,regényíró,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11722,-0.02559804916381836,"Lannemezan,",Franciaország,['Görögország'],P17
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7862,-0.025504112243652344,Stanley Lebowsky foglalkozása a,Zeneszerző,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16299,-0.0247802734375,"Gerard Sagredo, akinek a pozíciója a",püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4523,-0.024608612060546875,Gabriel Horn szakmája a,biológus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1161,-0.02455902099609375,Anton Durcovici pozíciója a,püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12511,-0.02423095703125,Wil Huygen anyanyelve az,holland,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2966,-0.023949623107910156,Charles Herbert Allen foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17252,-0.02380847930908203,Stephen Colbert foglalkozása a,újságíró,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8905,-0.023681640625,"Luigi Dadaglio, akinek a posztja a",bíboros,['püspök'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1774,-0.023675918579101562,Giorgi Melikishvili szakértelme a,történelem,['kémia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16119,-0.023345947265625,Couto Mistóban a beszélt nyelv az,spanyol,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11267,-0.0233154296875,John Rentoul szakmája a,újságíró,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5172,-0.023247897624969482,Silvan Shalom foglalkozása,politikus,"['kozákok', 'rabbinikus tudós']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14583,-0.02309650182723999,A Svensson által játszott műfaj a,sitcom,['jazz'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18418,-0.022796630859375,Anti-Oidipus szakértelme a,filozófia,['kémia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_3036,-0.02277660369873047,Jereván hivatalos nyelve a,örmény,['kreyòl'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1557,-0.02257847785949707,Jean Titelouze foglalkozása a,Zeneszerző,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12486,-0.022106170654296875,"Louis-Alexandre Taschereau, akinek a pozíciója a",Miniszterelnök,['francia elnökség'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16302,-0.021898269653320312,Isabelle Caro anyanyelve a,Francia,['koreai'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19231,-0.021884918212890625,Patrick Rambaud anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14587,-0.0217132568359375,Ferdinand Hoefer által használt nyelv az,Francia,['orosz'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18029,-0.02155590057373047,Yves Bonnefoy által használt nyelv a,Francia,['kínai'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18382,-0.021375656127929688,A 13. körzet eredeti nyelve a,Francia,['hindi'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18346,-0.0211181640625,"Gaiola,",Olaszország,['Görögország'],P17
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9101,-0.02104896306991577,Az urdu Wikipédia nyelve a,اردو,"['azerbajdzsáni', 'kantoni', 'Cebuano Wikipédia', 'török \u200b\u200bnyelv']",P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4089,-0.020751953125,Giovanni Francesco Sagredo foglalkozása a,matematikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_863,-0.0206146240234375,Stuart Parkin tevékenységi területe a,fizika,['szociológia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_821,-0.020528793334960938,Claude Rich anyanyelve a,Francia,['kínai'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17756,-0.02033233642578125,A Független Horvátországban a beszélt nyelv az,horvát,['orosz'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10664,-0.02020263671875,Ullam Ketkumae nyelve,tamil,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1652,-0.020150333642959595,Albrecht Kossel tevékenységi területe,Fiziológia,"['biokémiai', 'Martin Lowry']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9822,-0.020059585571289062,Antoine Laurent de Jussieu nyelve a,Francia,['német'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2742,-0.020051956176757812,Guy Debord anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1806,-0.019263267517089844,Maliban a hivatalos nyelv a,Francia,['svéd'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9542,-0.018871545791625977,Humberto Lay foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9508,-0.018798828125,Francis de Sales pozíciója a,püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3467,-0.018667221069335938,Isabelle Nanty anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12254,-0.018567641576131184,"Imelda Marcos, akinek a posztja a",First Lady,"['nemzetbiztonsági tanácsadó', 'Antipápa', 'kerületi elnök']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8041,-0.018359661102294922,"Rockzenészek, mint például az",Anouk,['EA Sports F1 sorozat'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17133,-0.01823735237121582,Gregorio Aglipay pozíciója a,püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8562,-0.018194198608398438,A Svédország és Norvégia közötti Unióban a hivatalos nyelv a,norvég,['finn'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7114,-0.01800537109375,Nicholas Metropolis tevékenységi területe a,fizika,['matematikus'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12170,-0.017774224281311035,Andrew Cuomo pozíciója az,Kormányzó,"['SAIS', 'amerikai alelnök']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19839,-0.017730712890625,John Munch foglalkozása a,nyomozó,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5382,-0.01768338680267334,Gunther Schuller foglalkozása a,Zeneszerző,['krikett játékvezető'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21009,-0.017612457275390625,Armand Lunel anyanyelve a,Francia,['kínai'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11536,-0.017595291137695312,Rob Owen foglalkozása a,újságíró,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5931,-0.0174102783203125,Nyikolaj Bogolyubov szakértelme a,matematika,['szociológia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1135,-0.0174102783203125,Murli Deora foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10827,-0.01739656925201416,Mick Lally által használt nyelv a,ír,['koreai'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16714,-0.017211735248565674,"Geoffrey Kondogbia, az",középpályás,['elkapó'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13855,-0.016841888427734375,Tomomi Inada foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_720,-0.016632080078125,Galileo Galilei tevékenységi területe a,filozófia,['kémia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10412,-0.016546249389648438,Daniel D. Tompkins foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2928,-0.01626718044281006,Louis Cappel tevékenységi területe a,héber,['matematika'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8861,-0.016229629516601562,William Bowen Rowlands foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7988,-0.016045808792114258,David Crockett szakmája,politikus,['vegyész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6042,-0.0160064697265625,Mezeritch Dov Ber szakmája a,rabbi,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12701,-0.015932083129882812,A Respiro nyelve a,olasz,['latin'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10893,-0.015666961669921875,Jacques Attali anyanyelve a,Francia,['kínai'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14196,-0.015630722045898438,A June R eredeti nyelve a,tamil,['spanyol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20602,-0.015625,Johannes de Sacrobosco munkaterülete a,matematika,['kémia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11444,-0.015259504318237305,A Hossein Amini által használt nyelv a,perzsa,['kínai'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6389,-0.015213966369628906,Shelby Foote foglalkozása,regényíró,['költő'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20671,-0.015126705169677734,Nao Takasugi foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19700,-0.015094757080078125,A Roman Reigns egy profi,futball,['kosárlabda'],P641
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18446,-0.0150604248046875,Pierre de Marca által használt nyelv az,Francia,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14919,-0.01495361328125,William Averell Harriman szakmája a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1940,-0.014904677867889404,Jakobson tevékenységi köre a,strukturalizmus,"['Arthur Eddington', 'szemiotika', 'városkép', 'Mishpat Ivri', 'klimatológus', 'Hans Spemann', 'valószínűség', 'komplex elemzés', 'kardiológia']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5072,-0.014876365661621094,Leszetycki Teodor szakmája az,Zeneszerző,['aikidoka'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1984,-0.01452721655368805,Arthur Evans szakértelme,régész,"['kábítószer-kereskedő', 'rugalmas', 'regényíró', 'integrál egyenlet']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14150,-0.014025211334228516,A The Crime of Sylvestre Bonnard nyelve,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1804,-0.013997696340084076,Sir Alexander Cunningham szakértelme az,régészeti,"['Indológia', 'kódtörő', 'Pure Mathematics', 'szabadulóművész', 'topológia', 'paleoantropológus', 'Kroeber', 'erdészet']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12441,-0.013891547918319702,"Playford, akinek a pozíciója a",Premier,"['Egyesült Államok főbírója', 'Hawaii kormányzója']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5069,-0.013624191284179688,Szerbiában a beszélt nyelv a,szerb,['horvát'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20820,-0.013533353805541992,A Khokababu nyelve az,hindi,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7423,-0.013484358787536621,Grantland tulajdonosa a,ESPN,['Yahoo'],P127
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1468,-0.013421058654785156,"Ustevatn,",Norvégia,['Németország'],P17
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7345,-0.013330459594726562,A Phi-Phi nyelve a,Francia,['tamil'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21727,-0.01317596435546875,Matthias Jakob Schleiden tevékenységi köre a,biológia,['fiziológia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6602,-0.0130615234375,Isojokiban hivatalos nyelv az,finn,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6611,-0.0129241943359375,A Hertha Ayrton szakértelme a,matematika,['kémia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5006,-0.012801289558410645,Washington szakmája a,politikus,['lemezmérnök'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13674,-0.012602806091308594,Giorgio Tuinfort foglalkozása a,Zeneszerző,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8272,-0.012576103210449219,"Jazz zenészek, mint például",Gene Ramey,['Dave Dictor'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18026,-0.012542724609375,A Skarlát Virág eredeti nyelve a,orosz,['spanyol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1514,-0.012404016086033412,A műfaji jelenetek szakértelme a,festő,"['szúfizmus', 'Melchior Treub', 'generatív szintaxis', 'szaglás', 'Abd-Allah ibn Abbas', 'számelméleti', 'fraktálok']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8786,-0.01236724853515625,Az Európai Unió hivatalos nyelve a,finn,['spanyol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_169,-0.0123291015625,Patrick Manson foglalkozása a,orvos,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12262,-0.012280791997909546,"Winibald, akinek a pozíciója a",apát,"['kopt pápa', 'ciprusi elnök']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7632,-0.012212514877319336,A hírhedt nyelv az,Francia,"['Do Kaliyaan', 'indonéz', 'Hindi nyelv', 'angolszász']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12251,-0.012194633483886719,"Francis Eugene George, akinek a beosztása a",Érsek,"['görög külügyminiszter', 'püspökség']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9166,-0.012126922607421875,Az északi méh nyelve a,orosz,['finn'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2718,-0.011954307556152344,"Kalvola,",Finnország,['Oroszország'],P17
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12134,-0.011887073516845703,Emmanuel Chabrier foglalkozása,Zeneszerző,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4787,-0.011842727661132812,Hector Guimard nyelve az,Francia,['olasz'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_218,-0.011745452880859375,M. S. Viswanathan foglalkozása a,Zeneszerző,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_534,-0.011681139469146729,A The Departure nyelve,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12498,-0.011556506156921387,"Dolph Briscoe, akinek a pozíciója a",Kormányzó,"['orosz elnök', 'francia elnök']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8263,-0.011530965566635132,"Klasszikus zenészek, mint például",Tarja Turunen,"['Orania', 'Audrina']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8355,-0.011501312255859375,"Benedict Calvert, Baltimore báró 4. foglalkozása a",politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_962,-0.011379241943359375,Malcolm Arthur Smith foglalkozása a,orvos,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21779,-0.011322021484375,"Salzburgi Rupert, akinek a tisztsége a",püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21302,-0.011312127113342285,Donato Sbarretti pozíciója a,püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_4661,-0.011278927326202393,Az SVT2 debütál az,Aktuellt,['Ugly Betty'],P449
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12575,-0.011245936155319214,"A Reprise Records művészei, például az",Brave Belt,"['EPIC', 'Ciara', ""It Doesn't Matter Anymore"", 'EMI Music Australia', 'Concept Records', 'Steamhammer/SPV', 'Image Entertainment', 'Angular Recording Corporation']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7790,-0.011236190795898438,A Ranbir Rano eredeti nyelve a,hindi,"['szuahéli', 'héber']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19079,-0.01117706298828125,Emmanuelle Arsan anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5231,-0.011160135269165039,Merritt foglalkozása,politikus,"['szövetségi küldött', 'executive produkció']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7684,-0.011145353317260742,George Santayana foglalkozása a,regényíró,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7110,-0.011014938354492188,Pierre Beaumarchais nyelve a,Francia,['spanyol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16066,-0.01098722219467163,A Happiness Is in the Field nyelve az,Francia,['orosz'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10036,-0.010974884033203125,Dominique Perben nyelve a,Francia,['hindi'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20240,-0.010831832885742188,Kazimierz Kuratowski szakmája a,matematikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15321,-0.0107421875,"Siricius, akinek a posztja a",pápa,['püspök'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13842,-0.010631799697875977,Bernard Alane anyanyelve a,Francia,['koreai'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5088,-0.010614871978759766,"Az ELP Communications tulajdonosa,",Sony,['Sega'],P127
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5906,-0.010608673095703125,Az Egészségügyi Világszervezet hivatalos nyelve a,Francia,['spanyol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10260,-0.010575592517852783,Az Emmanuelle 4 nyelve a,Francia,['koreai'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8260,-0.010525703430175781,Polaire anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21902,-0.01052093505859375,Frantz Fanon anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9392,-0.010442733764648438,Eric Harold Neville szakértelme a,matematika,['fizika'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7530,-0.010294198989868164,Ezékiel nyelve az,héber,['eszperantisták'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5664,-0.01021575927734375,Paul-Armand Challemel-Lacour nyelve a,Francia,['hindi'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9119,-0.010189056396484375,Ian nyelve a,angol,['szanszkrit'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3943,-0.010123729705810547,Az Edward Solomon által játszott műfaj a,opera,['jazz'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12911,-0.010089942387172155,A Colourboxot képviselő zenei kiadó a,4AD,"['A Beautiful Lie', 'Asylum records', '4 Non Blondes', 'Brick Squad Monopoly', 'Mighty Atom Records', 'Taylor Gang Records', 'Leo']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21392,-0.009998321533203125,Veyrierben hivatalos nyelv az,Francia,['orosz'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12879,-0.009841591119766235,Az Uptightot képviselő kiadó a,Tamla,"['Bruce Pavitt', 'BEC Records', 'ACT', 'Roulette']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20195,-0.009840011596679688,George Osborne foglalkozása a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13907,-0.009830474853515625,Ram Rajya nyelve a,hindi,['tamil'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5368,-0.009757518768310547,Naoko Iijima szakmája,filmszínésznő,['szindikált rovatvezető'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18187,-0.009696722030639648,Samuel Fessenden foglalkozása,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1726,-0.009487468004226684,A 2. határ munkaterülete a,posztmodern irodalom,"['Filológia', 'James Waddell Alexander II', 'szociológia', 'Mishpat Ivri', 'toxinológus', 'pszichoanalízis', 'emberes feltárás', 'Charles Lemaire', 'számelméleti', 'hegesztés']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17292,-0.009451866149902344,Espooban a hivatalos nyelv az,finn,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15807,-0.009427249431610107,Samuel Cooper szakértelme a,miniatűr,['fiziológia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7874,-0.009372234344482422,Maurice Bucaille anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20879,-0.009367942810058594,Jacques Laffitte anyanyelve a,Francia,['koreai'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7878,-0.009307603041330973,A La Barbe bleue nyelve,Francia,"['pandzsábi nyelv', 'kantoni', 'I Malavoglia']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12613,-0.009297102689743042,A The Rembrandts kiadója a,Atco Records,"['Domo Records', 'Into The Dojo', 'politikai párt', 'Sarah Records', 'Rhymesayers', 'Ralph Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18575,-0.009294509887695312,Patrick Devedjian anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8157,-0.009234607219696045,"Krimifilmzenészek, mint például",Pale Flower,['Sam Sweeney'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_136,-0.009029388427734375,Domingo de Soto szakértelme a,teológia,['közgazdaságtan'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13204,-0.009021759033203125,"Walter Skirlaw, akinek a pozíciója a",püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7662,-0.008685052394866943,A l’histoire nyelve az,Francia,"['kasztíliai spanyol', 'Timecrimes', 'északi számi']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8709,-0.00861215591430664,Takuya Ōnishi foglalkozása a,űrhajós,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1579,-0.008487045764923096,Hermann Otto Sleumer szakértelme,botanikus,"['Indoeurópai nyelvészet', 'Igor Rostislavovich Shafarevich', 'szervetlen kémia', 'David Marius Bressoud', 'cionizmus', 'számelmélet', 'kábítószer-kereskedelem', 'Edward Bradford Titchener']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6379,-0.008343935012817383,Grace Williams foglalkozása a,Zeneszerző,['fizikus'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_818,-0.008312225341796875,Louis Jouvet által használt nyelv a,Francia,['katalán'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1584,-0.008281230926513672,Kamil Zvelebil szakértelme a,tamil,['manga'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14988,-0.008275985717773438,Joke Smit tevékenységi területe a,feminizmus,['fizika'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11768,-0.00823211669921875,Hermann Hagedorn foglalkozása a,költő,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19743,-0.0081024169921875,William Somerset Maugham munkaterülete a,regényíró,['pszichológia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16058,-0.008073151111602783,Sirmiumi Photinosz a,püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1800,-0.00802624225616455,Lawrie Johnson munkaterülete,botanikus,"['K+F', 'csúcsok', 'Hipergráfia', 'Pszichológia', 'Marshall Stone', 'Calliope', 'általános relativitáselmélet', 'Antony Gormley']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12324,-0.008016988635063171,"Sextus Afranius Burrus, akinek a pozíciója az",prefektus,"['porosz miniszter elnök', 'Római diktátor', 'cenzúra', 'emír']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5966,-0.008006066083908081,"Verhoyansky kerület fővárosa,",Batagay,"['Sydney nagyvárosa', 'Groblersdal', 'Kadamba', 'norvég']",P1376
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14737,-0.007869720458984375,Portugáliában hivatalos nyelv az,portugál,['olasz'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15782,-0.007863044738769531,Mario Pieri tevékenységi területe a,geometria,['csillagászat'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1582,-0.00785458939416068,A fogorvosi iskola tevékenységi köre a,Fogászat,"['idegsebészet', 'Japán tanulmányok', 'szabadulóművész', 'Maugham', 'Coria', 'klasszikus régész', 'filmzene']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7851,-0.007712852954864502,Camille nyelve a,Francia,"['Sevastopol Sketches', 'Öt lánya', 'finn', 'Telegu', 'katalán']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5042,-0.007647991180419922,Az idősebb Barack Hussein Obama szakmája a,közgazdász,"['rúnamester', 'kovácsolás']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6585,-0.00762939453125,Mounam Pesiyadhe nyelve,tamil,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7766,-0.007617950439453125,Sean Nelson szakmája a,újságíró,['fotós'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8064,-0.0076141357421875,"Életrajzi filmzenészek, mint például a",Becoming Jane,['Kortárs művészet'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5201,-0.007573413848876952,Ginger Grant foglalkozása,színésznő,"['tiszti főorvos', 'énekesek-dalszerzők', 'lepkék', 'szerzetes', 'politikai karikaturista']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_52,-0.007509708404541016,Jean Galland anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1841,-0.007354736328125,A Nanneri eredeti nyelve a,tamil,['kínai'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3662,-0.007348537445068359,Khaled Hosseini tevékenységi területe az,Afganisztán,['üstökös'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1802,-0.00733262300491333,A veduta tevékenységi területe,festő,"['történelemfestő', 'szabadulóművész', 'Thomas Andrew Knight']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1565,-0.007283687591552734,Joseph Babinski szakértelme az,neurológus,"['marxizmus', 'Alexander Fleming', 'egyéni pszichológia']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5369,-0.007155895233154297,Aldemaro Romero foglalkozása,Zeneszerző,"['sous chef', 'szűzies']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1308,-0.0070648193359375,Didier Daeninckx anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5096,-0.0070535143216451015,Michael foglalkozása,énekes-dalszerző,"['politikus', 'kaszkadőrök', 'illusztrátor']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10474,-0.00701904296875,Az Európai Unió hivatalos nyelve a,Magyar,['portugál'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7168,-0.0069942474365234375,Denis Hart pozíciója a,püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4368,-0.006927490234375,Ronan Hardiman foglalkozása a,Zeneszerző,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_349,-0.006797194480895996,Egy ezer fennsík tevékenységi területe a,filozófia,['fizika'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12360,-0.006789803504943848,Duleep Singh pozíciója a,Maharani,['püspöki felszentelés'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18342,-0.0066680908203125,VI. Urbánus beosztása a,pápa,['püspök'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8001,-0.006663143634796143,"Szappanopera zenészek, mint például",EastEnders,['Averse Sefira'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_692,-0.00661468505859375,Sun Yingjie is native to,Sujiatun,['Zaporozhia'],P19
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12757,-0.006595581769943237,A Special AKA-t képviselő zenei kiadó az,2 Tone Records,"['Yep Roc Records', 'EMI Music Australia', 'Norgran', 'Raphael Gualazzi', 'Turisas', 'EMI Music Germany']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6732,-0.006591796875,Manmadha Leelai nyelve az,tamil,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14061,-0.006590843200683594,Louis Falk pozíciója a,püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1693,-0.0065725644429524745,Turing tevékenységi területe a,Számítástechnika,"['Amerikai jelnyelv (ASL)', 'gyógyszerész', 'Weber', 'libertárius', 'szufi', 'POYi']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11613,-0.006564617156982422,Gabriel Scott által használt nyelv a,norvég,['spanyol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5347,-0.006464600563049316,Alfred foglalkozása a,politikus,"['müezzin', 'polgármester']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12969,-0.0064239501953125,Az Inspector Gadget eredeti nyelve a,Francia,['spanyol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14318,-0.0063629150390625,Jean-Louis Tixier-Vignancour szakmája a,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8356,-0.0063378214836120605,"Olyan népzenészek, mint",Kingston Trio,"['Dune 2', 'Paula DeAnda']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1767,-0.006295418739318848,Franklin Sumner Earle szakértelme a,mikológus,"['OP', 'radiokémikus', 'relativisztikus kvantumtérelmélet', 'szlavisztika', 'rácselmélet']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3733,-0.0062713623046875,Az 1992-es nyári paralimpia helyszíne,Barcelona,['Athén'],P276
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13468,-0.00620269775390625,"Colman mac Duagh, akinek a posztja a",püspök,['bíboros'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5383,-0.006168365478515625,A Gazdasági Együttműködési és Fejlesztési Szervezetben a beszélt nyelv a,Francia,['spanyol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3786,-0.00616455078125,Nikolai Bernstein szakértelme a,fiziológia,['tudomány'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7438,-0.0060443878173828125,Jo Coenen anyanyelve az,holland,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1466,-0.006031036376953125,A Chaostar által játszott műfaj a,opera,['szatíra'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1829,-0.00600433349609375,"Rankuh kerület,",Irán,['Svájc'],P17
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12825,-0.00598905086517334,"A Hot Club Records előadói, például",Jon Larsen,"['Drive-Thru Records', 'Extreme', 'NBCUniversal Entertainment Japan', 'Cameo', 'DeathRow Records', 'Mike Bordin', 'Tickle Me Pink', 'WEA Japan', 'Fat Possum Records', 'Blessthefall']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1964,-0.00597381591796875,Roland Armontel anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12835,-0.00594754729952131,Hal Russell kiadója a,Nessa,"['Nude Records', 'BEC', 'Alias', 'AVEX', 'Kung Fu Records', 'Tom Rapp', 'Portrait Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14024,-0.005938410758972168,Daniel Pennacchioni anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16719,-0.00592041015625,Sabán a beszélt nyelv az,angol,['olasz'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4784,-0.00592041015625,Joseph Reinach anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1781,-0.005877637863159179,A Log Cabin republikánusok tevékenységi területe a,LMBT,"['közgazdász', 'Domenico Maria Leone Cirillo', 'anatómia', 'SIGINT', 'politikai filozófia']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5456,-0.005873878796895345,Sugandha Mishra foglalkozása a,televíziós műsorvezető,"['élettárs', 'hangmérnök', 'hóhér']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12960,-0.0058154066403706866,A Swahili Blonde-t képviselő zenei kiadó a,Manimal vinyl,"['Eyeball Records', 'My Tiger My Timing', 'Dettinger', 'New Jazz', 'Marine Parade', 'Small Wonder Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15225,-0.005753517150878906,Kikunae Ikeda foglalkozása,vegyész,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1983,-0.005727492272853851,A divíziós szakértelem a,festő,"['Babilóniai Talmud', 'ajánlórendszerek', 'pszichoanalitikus elmélet', 'Gulág', 'szanszkrit', 'fogászati \u200b\u200bszakterületek', 'fiber artist', 'közgazdaságtudomány']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21500,-0.0056896209716796875,"Eoin Ryan, Jnr szakmája",politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1991,-0.005689399582999093,A Volcher Coiter szakértelme,anatómus,"['angol irodalom', 'Amerikai', 'buddhizmus', 'Yvonne Barr', 'Jan Denef', 'karszt', 'szoftvermérnök']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15081,-0.005664825439453125,"John Crewe, 1. Baron Crewe foglalkozása a",politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8031,-0.0056594014167785645,"Dokumentumfilmes zenészek, mint például a",This Is Elvis,"['Vallenato', 'Slim & Slam']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18917,-0.0055999755859375,"Dan Fouts, az",hátvéd,['elkapó'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10423,-0.0055751800537109375,Jan Wils anyanyelve az,holland,['olasz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8452,-0.0055332183837890625,Az A Man of Straw nyelve a,olasz,['spanyol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12457,-0.005522727966308594,Chiune Sugihara pozíciója,Alkonzul,"['jezsuita tábornok', 'nyugat-római császár', 'japán külügyminiszter']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8088,-0.005495548248291016,"Tudományos-fantasztikus zenészek, például",Norstrilia,['Paul Jeffrey'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9018,-0.005468475818634033,Daniel nyelve,orosz,"['gótikus nyelv', 'Shape Magazine', 'bibliai héber', 'Relayer', 'katalán']",P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12745,-0.005460679531097412,A Chris Staplest képviselő zenei kiadó a,Tooth & Nail Records,"['Beggars Group', 'Chess records', 'Steely Dan', 'Don Caballero', 'Big Machine Records', 'Black Jazz Records', 'Caddillac Tah', 'Triple Crown Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5248,-0.005424290895462036,Claudia Brant foglalkozása a,Zeneszerző,"['illusztrátor', 'hetaera']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13466,-0.005418181419372559,Brigitte Catillon anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20030,-0.005410671234130859,Mimie Mathy anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16109,-0.0053806304931640625,"A Bundesautobahn 6 tulajdonosa, a",Németország,['Nintendo'],P127
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12739,-0.005373020966847737,A Smokey Robinsont képviselő zenei kiadó a,Motown,"['Miles Davis', 'Firewind', 'Threshold House', 'Paramount Records', 'Sony Music Greece', 'Hey Porter']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16787,-0.00537109375,A Zöld-foki-szigetek hivatalos nyelve az,portugál,['angol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17939,-0.005315065383911133,A Rustavi 2 nyelve,grúz,['olasz'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10090,-0.005288124084472656,Delphine de Girardin anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12748,-0.005284063518047333,Maxeen lemezkiadója a,SideOneDummy Records,"['Drakkar Records', 'Willow Smith', 'BYO Records', 'Sunnyside Records', 'Desert Rose', 'Quote Unquote Records', 'Wounded Love Records', 'Necropolis Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5994,-0.005254507064819336,"FC Gorodeya,",Fehéroroszország,['Görögország'],P17
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11238,-0.005252838134765625,Sully Prudhomme anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12195,-0.005230307579040527,Osmundus pozíciója a,érsek,['CNO'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9193,-0.0051727294921875,Robert Moberly munkaterülete a,teológia,['szociológia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5203,-0.005156517028808594,Domenico Comino foglalkozása,politikus,"['szociológus', 'államügyész', 'csapos']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1000,-0.005116462707519531,A Purple Hearts kiadója a,Sunshine,['Coral'],P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11277,-0.005067050457000732,"Sir William Hart Dyke, 7. Baronet foglalkozása",politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2780,-0.0050316353638966875,Románia fővárosa,București,"['Riobamba', 'rabat', 'Bangued', 'Keleti régió', 'Mutina', 'Khost tartomány']",P36
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17144,-0.004983365535736084,A Quickie Express nyelve a,indonéz,['spanyol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12280,-0.004978358745574951,David Bennett Hill,Kormányzó,"['PEI Premier', 'kereskedelmi miniszter']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1563,-0.004969974358876546,Louis Cappel tevékenységi köre,héber,"['Nicholas Marr', 'római jog', 'kísérleti pszichológus']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12956,-0.0049580857157707214,Az Anouar Brahem kiadója a,ECM,"['DreamWorks Records', 'avex dallam', 'Fingerprint Records', 'Musica Studios', 'Eleni Karaindrou', 'El Cartel Records', 'Trustkill Records', 'BN Music']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5188,-0.00494837760925293,Inga Marte Thorkildsen foglalkozása,politikus,['kerttervező'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1142,-0.00487518310546875,Henri Gault anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8141,-0.004858642816543579,"Rockzenészek, mint például a",Cary Barlowe,"['RalliSport Challenge 2', 'Discordian']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12743,-0.004808992147445679,"A Columbia Records művészei, például a",Black Kids,"['Samadhi Sound', 'Slackers', 'Fearless Records', 'Joe Satriani', 'Public Image Ltd', 'Cascine Records', 'Avant Records', 'Candid Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18982,-0.0047779083251953125,Az Evrydiki BA 2O37 nyelve,görög,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4335,-0.004739940166473389,A The Dustbinmen által játszott műfaj a,sitcom,['jazz'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20661,-0.00472259521484375,Constand Viljoen foglalkozása,politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7719,-0.0047159989674886065,Dansinn nyelve,izlandi,"['spanyol', 'népies maláj', 'Los Cronocrímenes']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7947,-0.0047092437744140625,Germaine Dieterlen anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20478,-0.00469970703125,Dany Robin anyanyelve a,Francia,['német'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5257,-0.004698753356933594,Alain Savary anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1580,-0.00469207763671875,"Charles FitzGerald, Lecale 1. báró szakmája",politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2654,-0.0046901702880859375,Marcel Schwob anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12962,-0.004682679971059163,Az Adam F-et képviselő zenei kiadó a,Breakbeat Kaos,"['V.I.P.', 'Diddy', 'In-Fidelity Recordings', 'Quote Unquote Records', 'Surgical Steel', 'Wildside Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12513,-0.004633426666259766,"ECM művészek, mint például a",Bobo Stenson,"['Claudette', 'Késői regisztráció']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18472,-0.0045928955078125,Charles-Joseph Panckoucke anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1765,-0.004591441154479981,Carl Alexander Clerck szakértelme,arachnológus,"['Gustav Mayr', 'pszichoterapeuta', 'fiziológia', 'Csendélet', 'Peter Singer']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12791,-0.004586172103881836,A Lil Italy kiadója a,No Limit,"['Decca', 'P-Money', 'Bobby V', 'Geffen Home Video', 'Trisol']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12867,-0.004575878381729126,"A Columbia Records művészei, például",New Morning,"['Skunk Records', 'Tzadik Records', 'AFM Records', 'Hot Water Music', 'Ralph Records', 'Empire Mates Entertainment', 'Bethlehem', 'Ivor Cutler']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20856,-0.0045013427734375,Manuel Blanc anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1900,-0.0044736117124557495,Sunao Tawara tevékenységi köre az,patológus,"['Luca Ghini', 'teológus', 'tiszta matematika', 'illegális drogkereskedelem']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8392,-0.004441261291503906,"Keresztény zenészek, mint például a",Seventh Angel,['Tap Tap Revenge'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_798,-0.004401683807373047,Mentőmaszk címke:,Harvest,['Szövetségi'],P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12813,-0.004373411337534587,A Good Shoes-t képviselő zenei kiadó a,Brille Records,"['Emperor Norton Records', 'Transgressive Records', 'Rhythm Zone', 'Sony Music Canada', 'Alex Da Kid', 'Delicious Vinyl Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12869,-0.0043374598026275635,A Sakis Rouvast képviselő zenei kiadó a,PolyGram Records,"['CandyRat', 'Bluebird', 'Caldo Verde Records', 'A Medio Vivir', 'Heaven Music', 'Bridge 9', 'Alcest / Les Discrets', ""What'd I Say""]",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6734,-0.0043087005615234375,Vecinos nyelve,spanyol,['olasz'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19752,-0.004307270050048828,"Bundesautobahn 555,",Németország,['BP'],P127
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3554,-0.0043070316314697266,"Achille Lauro, akinek a posztja a",polgármester,['püspök'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1759,-0.004305541515350342,Petter Karsten tevékenységi területe,mikológus,"['Szürrealista mozgalom', 'kriminológia', 'Peter Foldes']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11012,-0.004256606101989746,Rob Ford beosztása a,tanácsos,['püspök'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_3388,-0.0041961669921875,A svájci Genf hivatalos nyelve a,Francia,"['orosz', 'Buganda régió']",P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5227,-0.00418853759765625,Denison Clift foglalkozása,filmrendező,"['szoftvermérnök', 'Grafikus']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2606,-0.004178822040557861,Suzy Prim anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5410,-0.0041713714599609375,Pierre Charles Le Monnier foglalkozása a,csillagász,['bakufu'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11257,-0.0041675567626953125,Charles Perrault anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12903,-0.00415395200252533,"A Festival Records felvevőművésze,",Cam-Pact,"['Kung-Fu Records', 'Five Minute Walk', 'Drive Thru Records', 'WEA Records', 'BYO Records', 'EMI America Records', 'Universal Music Japan', 'Bing']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19775,-0.0041351318359375,A La Crise nyelve a,Francia,['szanszkrit'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5191,-0.004089772701263428,Michael Sidney Timpson foglalkozása,Zeneszerző,['kerttervező'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11915,-0.004081249237060547,Francis Stuart foglalkozása,regényíró,['újságíró'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12737,-0.004079954964773995,A Legendary Pink Dots kiadója a,ROIR,"['Rising Tide Records', 'CandyRat', 'All Hope Is Gone', 'EPMD', 'Attic Records', 'Rhino Records', 'Wagram']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12936,-0.0040793359279632565,"A Domo Records művészei, például a",Dave Eggar,"['Morten Qvenild', 'Warner Brothers', 'Adeline records', 'Anaal Nathrakh', 'RMM Records', 'Aquarius Records', 'Steamhammer/SPV', 'Def Jam records', 'I Want You', 'Sargent House']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9267,-0.0040378570556640625,"Gangnam állomás,",Szöul,['Görögország'],P127
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12652,-0.004028892517089844,A Lamont Doziert képviselő zenei kiadó a,Motown records,"['MTM Records', 'Northwestside records', 'DRO', 'Death Row Records', 'DGC Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8293,-0.004002571105957031,Martin Drennan pozíciója a,püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13170,-0.0039501190185546875,Michel Braudeau anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7436,-0.0039348602294921875,A NATO-ban hivatalos nyelv a,Francia,['portugál'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12480,-0.003926277160644531,"Bob Holden, akinek a pozíciója",Missouri állam kincstárnoka,"['nemzetközi kereskedelmi miniszter', 'közösségi titkár', 'Vezérigazgató', 'hajib']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5147,-0.0038978755474090576,George Herbert foglalkozása,politikus,"['kettős ügynök', 'emberi beatbox', 'Qazi', 'buddhista szerzetes']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20998,-0.003877878189086914,Jean Claudio anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7579,-0.003876522183418274,A Les Chaises nyelve a,Francia,"['régi tamil', 'szindhi', 'szanszkrit nyelv', 'Kallukkul Eeram']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12897,-0.0038491619957817923,"A VIVA Records olyan előadói, mint az",Sarah Geronimo,"['Cupid & Psyche 85', 'Taylor Gang', 'Outerloop Records', 'Darla Records', 'Grant Nicholas', 'Beach Boys', 'EMI Music Greece', 'VeeJay Records', 'Ntone']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17263,-0.00384521484375,Pierre Guyotat anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18831,-0.00380706787109375,Ginette Leclerc anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12932,-0.003769169251124064,Kiadójuk a,Massacre Records,"['Tofu Records', 'Wreckless Eric', 'Rhymesayers Entertainment', 'Ruff Ryders', 'Balkanton', 'Polar Music']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12465,-0.003753483295440674,Henricus Regius szakértelme a,orvos,['vadászat'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6959,-0.0037446022033691406,Roger Caillois által használt nyelv az,Francia,['angol'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8406,-0.0037433505058288574,Telenovela zenészek,Graduados,['zenei impresszionizmus'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21481,-0.00371551513671875,A Nemzetközi Atlétikai Szövetségben hivatalos nyelv a,Francia,['hindi'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2742,-0.003686189651489258,"Bajorország, amelynek fővárosa",München,"['Varsó', 'Prága']",P36
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4099,-0.0036563873291015625,A Fashionable Nonsense eredeti nyelve a,Francia,['koreai'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17030,-0.003574371337890625,Az Egyesült Királyságban a beszélt nyelv az,walesi,['orosz'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7503,-0.0035261114438374834,A Swarabhishekam nyelve,telugu,"['Mary Poppins, viszlát', 'kecsua', 'Hindi nyelv']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21596,-0.003482818603515625,"Palana,",Oroszország,['Lengyelország'],P17
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5433,-0.003465592861175537,Patsy foglalkozása a,színésznő,"['Aufseherin', 'kaszkadőr nő', 'Major League Baseball biztos']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1656,-0.003414854407310486,Macarius szakértelme a,pap,"['filozófus', 'pszichoanalitikus elmélet', 'klasszikus mechanika', 'gráfelméleti matematika', 'Bunsen', 'Frank Kingdon-Ward', 'al-Bitruji', 'bőrgyógyászat']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10917,-0.0033707022666931152,Anne Simpson foglalkozása,regényíró,['költő'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19161,-0.003360748291015625,Georges Perec anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7593,-0.0033469597498575845,A Secret Story nyelve az,Francia,"['dán nyelv', 'Strange Tales', 'alföldi skótok']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18632,-0.003335237503051758,Yvonne de Bray anyanyelve a,Francia,['görög'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7685,-0.0033202171325683594,Jean Gabriel Marchand anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6569,-0.0033130645751953125,Robert Garnier anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12014,-0.0032951831817626953,Marc-Philippe Daubresse anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12830,-0.0032950777273911694,"Jet Records művészek, mint például a",Secret Messages,"['MTM Records', 'Shock Records', 'Deezle', 'Claude Young', 'Gloria Estefan', 'Aware Records', 'fonovisa', 'BYO records', 'Soma Quality Recordings', 'Dangerhouse Records', 'YG Entertainment', 'Moonspell', 'Satellite Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5950,-0.0032891035079956055,Annick Alane anyanyelve a,Francia,['tamil'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1950,-0.003268371025721232,Mayr szakértelme a,rendszerező,"['Tachisme', 'Wittgenstein', 'Edward Turner Bennett', 'algebrai K-elmélet', 'Zenész', 'frenológia']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_373,-0.00325697660446167,Christian Bouchet anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12815,-0.003224492073059082,A Love Hangovert képviselő kiadó a,Motown Records,"['Jazzland', 'Maranatha Music', 'Sun', 'White Whale', 'Decyfer Down', 'Delerium', 'Smekkleysa', 'Pusha T']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6666,-0.0031757354736328125,Henri Garat anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_89,-0.0031490325927734375,Zampa nyelve a,Francia,['spanyol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16723,-0.0031452178955078125,Mihail Mihajlovics Geraszimov tevékenységi köre a,antropológia,['fiziológia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_683,-0.0031128525733947754,A Vörös-tengeri cápák nyelve,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7131,-0.003105461597442627,Athalie nyelve,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10845,-0.00308990478515625,Antoine Augustin Calmet anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12862,-0.0030193328857421875,Victor de Laprade anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17790,-0.0030059814453125,A Kongói Demokratikus Köztársaságban hivatalos nyelv a,Francia,['spanyol'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12856,-0.0030002764293125695,A Slow Dazzle-t képviselő kiadó,Island Records,"['Unstable Ape', 'Prank Records', 'Fearless', 'Carpark North', 'Mediaskare Records', 'V2 Music', 'Eumir Deodato']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20073,-0.0029888153076171875,Louis Florencie anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11629,-0.0029888153076171875,Roger Nimier anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7786,-0.002980470657348633,Kothigalu Saar Kothigalu eredeti nyelve,kannada,"['Muhan Dojeon', 'hindi nyelv']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12446,-0.002965077757835388,Benjamin Netanjahu a,izraeli miniszterelnök,"['Ceann Comhairle', 'Ohio állam könyvvizsgálója', 'Főtitkár', 'Fehér Ház sajtótitkára']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13372,-0.0029639601707458496,"Tony Gwynn, a",mezőnyjátékos,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7222,-0.00293731689453125,Michel Ordener anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6782,-0.0029256343841552734,Ronny Levy által használt nyelv a,héber,['Francia'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12799,-0.0029024630784988403,Justin Bieber kiadó:,School Boy Records,"['Lex Records', 'Chrysalis Records', 'World Circuit Records', 'Hed Arzi', 'Heavenly Recordings', 'Tee Pee', 'Mighty Atom Records', 'Balkanton']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11699,-0.0028276443481445312,Claude Aveline anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13084,-0.0028228163719177246,"Melanie Behringer, az",középpályás,['elkapó'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14021,-0.0028171539306640625,Woodstock 1999 itt található:,Róma,['Kairó'],P276
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12299,-0.0027577877044677734,Isaac Isaacs a,Főkormányzó,"['Fülöp-szigeteki elnökök', 'GAA elnöke']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1682,-0.0027537494897842407,Thoreau munkaterülete,Transzcendentalista mozgalom,"['bibliometria', 'reproduktív gyógyászat', 'kriminológus', 'Cumrun Vafa']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12384,-0.002753347158432007,Sakai Tadakatsu beosztása az,daimyo,"['Romanian Prime Minister', 'Egyesült Államok pénzügyminisztere']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10216,-0.0027399063110351562,Az Arlisst megjelent az,HBO,['NBC'],P449
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12545,-0.0027374178171157837,"A Gold Standard Laboratories művészei, például",Chromatics,"['Menart Records', 'Atomic Bitchwax', '143 Records', ""Mo' Wax lemezek"", 'Wierd Records', 'Sexy, Free & Single', 'DCD2 Records', 'Michael Krassner']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8894,-0.002736687660217285,James Craig Annan foglalkozása,fotós,['költő'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7619,-0.0027217864990234375,Pierre Magnier anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13643,-0.0027074813842773438,Jean Follain anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_0,-0.0026702880859375,Danielle Darrieux anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12688,-0.0026694312691688538,A Residents lemezkiadója,Ralph,"['Dirty Records', 'Virgin Records Nashville', 'Everything You Want', 'Prophecy Productions', 'Rhythm Nation', 'Sonny Stitt', 'Loosegroove', 'Lori Carson']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4830,-0.0026397705078125,Olga Georges-Picot anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9451,-0.002628505229949951,A L'Africaine nyelve a,Francia,"['etruszk', 'Pascal programozási nyelv', 'Allgemeine Deutsche Biographie', 'Klingon']",P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12253,-0.0026131272315979004,"Julia Timosenko, akinek a tisztsége a",Ukrán miniszterelnök,"['Pápaság', 'címzetes püspök']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19171,-0.002604246139526367,Martine Brochard anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15651,-0.0025806427001953125,Jacques Toubon anyanyelve az,Francia,['olasz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12200,-0.002576986948649089,"Timothy John Bavin, akinek beosztása a",püspök,"['indonéz elnök', 'dózse', 'CPC főtitkára']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7854,-0.0025738676389058432,A The Officers' Ward eredeti nyelve az,Francia,"['frankofón', 'bengáli nyelv', 'eszperantisták', 'Household Words', 'Bewitched', 'ír']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11396,-0.0025644302368164062,"Georges-Louis Leclerc, Comte de Buffon anyanyelve az",Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7181,-0.0025634765625,Elsa Zylberstein anyanyelve a,Francia,['német'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12696,-0.002563246658870152,A Young Foolish Happyt képviselő zenei kiadó a,Mercury Records,"['Rack City', 'Myrrh Records', 'DJ Evil Dee', 'Ghostface', 'Mshasho Productions', 'Excello Records', 'Barclay Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12994,-0.00254666805267334,Buddy Holly kiadója a,Coral,['Legacy'],P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18095,-0.0025349855422973633,A Nagy Polgár nyelve a,orosz,['perzsa'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4220,-0.002482891082763672,A Kool Shen anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6350,-0.002471923828125,A Bérlő eredeti nyelve a,Francia,['tamil'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5348,-0.0024378299713134766,Nachiketa Chakraborty foglalkozása,Zeneszerző,"['szinkronszínész', 'méhész']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8294,-0.002421945333480835,"Dokumentumfilmes zenészek, mint például az",Better Living Through Circuitry,"['Saippuaprinssi', 'Erzsébet Színpad']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15204,-0.0024160146713256836,Alain Marleix anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12610,-0.002405121922492981,"A Capitol Records művészei, például a",Sean Lennon,"['Eleven Seven Records', 'PolyGram Greece', 'Hellhound', 'Kompakt Records', 'T-ara', 'Capitol-EMI', 'Volt', 'La Face Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7698,-0.0023508071899414062,Christine Boisson anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12997,-0.002321958541870117,"Daemon Records előadói, mint például a",Amy Ray,"['Low Spirit', 'Redding', 'Ze Records', 'Hat Art', 'CIMP', 'Universal Music Japan', 'Sambomaster', 'So So Def Recordings', 'Hello Rockview']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12973,-0.002319231629371643,A Desert Sessions kiadója az,Rekords Rekords,"['Fence Records', 'A-Nation', '550 Music', 'Epitaph Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20531,-0.0023097991943359375,Az irtó angyal nyelve,spanyol,['koreai'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12926,-0.002302918169233534,"Az Island Records művészei, például a",Hey DJ,"['Jeepster', 'Arts & Crafts Records', 'Universal Island Records', 'Catamenia', 'Brainfeeder', 'Wordshaker', 'Fat Possum', 'Hannibal Records', 'Poe Boy Entertainment']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9310,-0.0022988319396972656,Az Il ballo delle ingrate nyelve az,olasz,['Ogre Battle'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9080,-0.002288818359375,"Georg von Kopp, akinek a pozíciója a",püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17482,-0.0022754669189453125,Mashhadban a beszélt nyelv a,perzsa,['finn'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_418,-0.002262592315673828,A várba szóló meghívás nyelve a,Francia,['tamil'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13872,-0.00225830078125,Romain Duris anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3092,-0.0022568702697753906,A Dock Boggs lemezkiadója a,Brunswick,['Fantasy'],P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1720,-0.002244671185811361,Allan Kardec szakértelme,spiritizmus,"['számelméleti', 'emberes feltárás', 'Fiqh', 'Tafsir', 'politikai filozófia', 'George Metallinos']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1548,-0.002172529697418213,Az Early Netherlandish tevékenységi területe a,festő,"['Millenniumi Fejlesztési Célok', 'Jack Parsons', 'generatív szintaxis', 'pszichoterápia', 'szociálpszichológus', 'Ismeretelmélet', 'Shakespeare', 'Johann Benedict Listing']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1724,-0.0021538564137050086,Enrico Betti szakértelme,topológia,"['UX', 'szoftverfejlesztés', 'Edward Thorndike', 'zeneipar', 'William Nylander', 'francia konyha', 'etológus']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8348,-0.0021499693393707275,"Jazz zenészek, mint például",Nat Adderley,"['Bruckner', 'Bradbury']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12715,-0.0021465569734573364,A Bitterblue-t képviselő zenei kiadó a,Hansa Records,"['New Renaissance Records', 'Sadistik', 'Merge Records', 'Virgin Records Nashville', 'Spinefarm', 'Fiction Records', 'W&G', 'Caroline International']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12921,-0.002141594886779785,A Best Coast képviselő kiadó a,Mexican Summer,"['Nippon Columbia', 'Brandy', 'El Cartel Records', 'Cross Movement Records', 'Cody Wise', 'SMEJ']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12690,-0.0020853678385416665,A Bill Connorst képviselő zenei kiadó a,ECM,"['Emi Italiana', 'Adam Freeland', 'Kung Fu Records', 'Buddyhead', 'Buddah', 'Blue Note']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12924,-0.002082549035549164,"A Fifth Colvmn Records felvevőművésze,",Chemlab,"['NTT Publishing', 'A&M', 'Jazze Pha', 'RAK Records', 'John Mayer', 'XL Recordings', 'Simple Machines', 'Regal Zonophone']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17769,-0.002079486846923828,"Ajinomoto Stadion,",Tokió,['Németország'],P127
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7822,-0.0020751953125,A waaris eredeti nyelve a,hindi,['malajálam'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18405,-0.0020647048950195312,"Cinema Center Films,",CBS,['Nintendo'],P127
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14747,-0.002062082290649414,Julien Carette anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12434,-0.0020281275113423667,Ernst Adalbert von Harrach pozíciója az,Érsek,"['argentin elnök', 'porosz miniszter elnök', 'Egyesült Arab Emírségek fegyveres erői']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6939,-0.00201416015625,Henri Brocard szakértelme a,geometria,['fizika'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12516,-0.002007169382912772,A Koda Kumit képviselő zenei kiadó a,Rhythm Zone,"['StandBy Records', 'Ed Banger', 'Safari Records', 'Indecision', 'Six Shooter Records', 'Mshasho Records', 'Coconut Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19184,-0.0020031332969665527,Az Arliss által játszott műfaj a,sitcom,['jazz'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7687,-0.0019973814487457275,A Vaillant nyelve a,Francia,"['holland', 'Kavalkaran', 'Digesta seu Pandectae', 'Telegu']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5313,-0.0019939343134562173,Ed McNamara foglalkozása,filmszínész,"['komikus', 'Jedi Younglings', 'hírműsorvezető']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12622,-0.001981867684258355,Amfetamin Reptile felvétel művész,Helios Creed,"['Good Hearted Woman', 'Rowdy Records', 'Rivulets', 'Nutone Records', 'Greedhead Music', 'Big Gates', 'ECR Music Group', 'LaFace', 'Flipmode Entertainment']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12728,-0.001954972743988037,"Atlanti művészek, mint például a",Ők,"['Sub-Pop', 'EMI Music Australia', 'NBCUniversal Entertainment Japan', 'Cynthia Layne', 'Better Dayz', 'BMG Australia', 'WB', 'Colpix', 'Small Sins']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12804,-0.001942664384841919,"Sandie Shaw, kiadta",Pye,"['DHR', 'Sony BMG', 'PWL', 'Graham Parker']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1738,-0.0019407033920288085,Edward Drinker Cope szakértelme,paleontológus,"['német idealisták', 'orvosbiológiai etika', 'botanikus', 'geokémikus', 'Indológus']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17717,-0.001909017562866211,Larry Sanger munkaterülete a,filozófia,['fizika'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8062,-0.0019049644470214844,"A rapper zenészek,",T.I.,['Deryni Checkmate'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12281,-0.001895904541015625,Az April Captains eredeti nyelve,portugál,['hindi'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12274,-0.0018900036811828613,"Carlos Lee, a",mezőnyjátékos,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8363,-0.0018815398216247559,"Dancehall zenészek, mint például",Nancy nővér,"['Görög terrakotta figurák', 'Riddle Gawne']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12778,-0.0018506212667985396,Whitfield lemezkiadója a,Motown,"['Mel Bay', 'Moshi Moshi', 'afterEIGHT', 'Polskie Nagrania Muza', 'Murmur', 'Fast Product', 'Enja', 'Perspective Records', 'Flying Fish Records', 'Jade Tree Records', 'Lewis Recordings']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15366,-0.0018323063850402832,"Rick Wakeman, a",zongora,['hegedű'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1614,-0.0018296738465627034,Gmelin szakértelme,botanikus,"['karikaturista', 'eszperantisták', 'lemezjátszó', 'klímatudós', 'Arts & Crafts mozgalom', 'alkímiai']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6710,-0.0018067359924316406,A Courant Matematikai Tudományok Intézetének szakértelme a,matematika,['vadászat'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10125,-0.00179290771484375,Az Új Tudomány nyelve a,olasz,['tamil'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2166,-0.0017852783203125,Adriaan de Groot tevékenységi területe a,pszichológia,['fizika'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7138,-0.0017833709716796875,Pascale Ogier anyanyelve az,Francia,['olasz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12676,-0.0017832815647125244,"Ten Years After, kiadta a",Deram,"['Suburban Noize', 'Slip-n-Slide', 'Hickory', 'Alligator', 'Musea', 'Tabu']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12824,-0.001782009998957316,A Tackey & Tsubasa kiadója az,Avex,"['Volcano Entertainment', 'Kinetic Records', 'Durtro', 'Ciroc Entertainment', 'Polydor', 'Apple Corps']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_503,-0.00177764892578125,Rieko Kodama was originally from,Kanagawa,"['Iwaki, Fukushima']",P19
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8202,-0.0017609894275665283,"Hip hop zenészek, mint például a",Fabolous,"['SingStar', 'Dirtbombs']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8150,-0.0017566680908203125,Country zenei zenészek,Lonestar,['akcióvígjáték'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12581,-0.0017511606216430663,A Curtis Fullert képviselő zenei kiadó az,Blue Note,"['Paisley Park Studios', '13th Planet Records', 'Industrial Records', 'Spectrum (Say My Name)', 'Eastwest Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8167,-0.0017340779304504395,"Dokumentumfilm-sorozat zenészei, mint például a",Hard Knocks,"['glam metal', 'Loud Like Love']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10772,-0.00173187255859375,"A Hitachi Rail Italy tulajdonosa, a",Leonardo,['Nintendo'],P127
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17003,-0.001730203628540039,"George Pitt, 1. Baron Rivers foglalkozása",diplomata,['politikus'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18290,-0.0017101764678955078,Leonard Knijff anyanyelve az,holland,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8249,-0.0017091035842895508,"Akciófilmes zenészek, mint például",Space Mutiny,"['William DeVaughn', 'Piers Anthony']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12623,-0.001695394515991211,A Freddie Gormant képviselő zenei kiadó a,Motown,"[""Giro Apo T' Oneiro"", 'Cornerstone RAS', 'Clay records', 'Redrama', 'Liberty X', 'RSO Records', 'sixstepsrecords']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3022,-0.0016888976097106934,Anatolij Malcev szakértelme a,algebra,['teológia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8399,-0.0016717910766601562,"Popzenészek, mint például az",Kevin Borg,"['Jonas Bering', 'Outlaw Country']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12958,-0.0016599042075020926,Az Elvin Jonest képviselő zenei kiadó a,Enja,"['NME', 'Cameo Records', 'Psychopathic Records', 'Bill Withers', 'Om', 'Universal Music Canada', 'Trisol']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11068,-0.001657247543334961,"Alexandre Dumas, fils anyanyelve az",Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5147,-0.001648545265197754,A So Haunt Me által játszott műfaj a,sitcom,['jazz'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1690,-0.0016403496265411377,Bibiana Candelas tevékenységi köre az,strandröplabda,"['Tom Beauchamp', 'erőszakmentesség']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12850,-0.0016391277313232422,A címkéjük a,Heads Up International,"['Goo Goo Dolls', 'Bloodshot records', 'BME', 'PolyGram Records', 'Frenchkiss', 'Flipmode Entertainment']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19453,-0.0016317367553710938,Jules Paul Benjamin Delessert anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12152,-0.0016234815120697021,"Jiang Zemin, aki",Főtitkár,"['tennō', 'Az UNHCR jószolgálati nagykövete']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5671,-0.0016105175018310547,Maria Chapdelaine nyelve a,Francia,['spanyol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17643,-0.0016062259674072266,Az Aberdeen Street helyszíne,Központi,['Newport'],P276
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12639,-0.001606076955795288,A Ronnie Boykinst képviselő zenei kiadó a,ESP,"['Sugar Music', 'Lil Bow Wow', 'SMEJ', 'Checker Records', 'mau5trap', 'Carnifex']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20569,-0.0016050338745117188,Az Új partnerem nyelve a,Francia,['svéd'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_3485,-0.0015959739685058594,Vanuatu hivatalos nyelve a,Francia,['szlovén nyelv'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12069,-0.001562461256980896,George Deukmejian helyzete a,Kormányzó,"['kurd elnök', 'főrabbi', 'Egyesült Arab Emírségek fegyveres erői', 'német királyok']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12667,-0.0015550404787063599,A Carl Thomast képviselő zenei kiadó a,Bad Boy Entertainment,"['Kari Jobe', 'Field Records', 'Candyrat Records', 'Grand Royal records', 'Sony Music UK', 'Tsuyoshi Domoto', ""Mo' Wax"", 'Peacock Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1926,-0.0015523632367451985,Ray Lankester szakértelme a,zoológus,"['Louis Dollo', 'szeizmológus', 'Kémia']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21226,-0.00154876708984375,Marcel Dassault anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5696,-0.001536124282413059,"Szaha Köztársaság, amelynek fővárosa",Jakutszk,"['Mystras', 'Mogadisan', 'Craig megye, Oklahoma', 'Gyulafehérvár', 'Antlers, Oklahoma', 'Eskilstuna', 'Helmand tartomány', 'Phoenix, AZ', 'Cieszyn']",P1376
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12161,-0.0015325546264648438,Hiram Johnson posztja az,Kalifornia kormányzója,"['német császár', 'Ausztrál külügyminiszter']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8060,-0.001516193151473999,"Super Scope zenészek, mint",Battle Clash,"['taktikai szerepjáték', 'Michael Henderson']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17475,-0.0015153884887695312,Gautier de Coincy anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10176,-0.0015106201171875,Jean Rollin által használt nyelv az,Francia,['orosz'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7615,-0.0014999806880950928,Az Idióta nyelve a,orosz,"['Vinterkyss', 'Bhagvad Geeta', 'Inuktitut', 'középkori latin']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7312,-0.0014863014221191406,Vic Chou szakmája,modell,['újságíró'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_481,-0.0014860033988952637,A Platonic Academy helyszíne,Firenze,['London'],P276
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3695,-0.0014743804931640625,Edward Cassidy beosztása a,bíboros,['püspök'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12870,-0.00146484375,"Thomas Langdon Grace, akinek a pozíciója a",püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5401,-0.0014580488204956055,Michel Robin foglalkozása,filmszínész,['vakmerő'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7946,-0.001447528600692749,Az Ők eredeti nyelve az,spanyol,"['Basic English', 'arámi nyelv']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9140,-0.0014459371566772463,Az огонёк nyelve,orosz,"['bolgár', 'Kid A', ""l'Illustration"", 'RU', 'azeri']",P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9856,-0.00144118070602417,A Pourvu qu'elles soient douces nyelve,Francia,['orosz'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12852,-0.0014110654592514038,A Dreaming Neon Black kiadója a,Century Media,"[""Takin' Off"", 'InsideOut', 'Sub Pop', 'Motown Records', 'Elf Power', 'J Storm', 'Eighteenth Street Lounge', 'Floodgate Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12938,-0.0014037575040544783,Az Ivo Watts-Russellt képviselő zenei kiadó,4AD,"['SUN Studio', 'AC4', 'Brille', 'Idol Records', 'Out Here', 'Alternative Tentacles', 'kisbetűs emberek']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7870,-0.001390218734741211,Afonya nyelve a,orosz,['Mandarin'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12803,-0.0013763374752468532,"A Capricorn Records művészei, például a",Ők,"['Blue Note Records', 'Concord', 'Albert Productions', 'Myrrh', 'Smash Mouth', 'Tracy Chapman', 'Betlehem', 'Parlophone Records', 'Loose Nut']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9208,-0.001356502374013265,A Sovremennik nyelve,orosz,"['Big Bad Wolves', 'Kora újkori holland', 'Dainik Bhaskar']",P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8106,-0.001353442668914795,"J-ska zenészek, mint",Potshot,"['Mark ""The Animal"" Mendoza']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9068,-0.0013532042503356934,"Unai Emery, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12724,-0.0013516445954640706,A Bill Callahant képviselő kiadó a,Drag City,"['EastWest Records', 'Chrysalis', 'Spyro Gyra', 'Justin Oberst', 'SME', ""Cherry Poppin' Daddies""]",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18697,-0.0013508796691894531,Marco Ureña profi,futball,['kosárlabda'],P641
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16574,-0.001346588134765625,Brigitte Fontaine anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5183,-0.0013360083103179932,Padraic Colum foglalkozása,drámaíró,"['zongora', 'hangmanipuláció', 'parkőr', 'multiinstrumentalista']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7611,-0.0013343095779418945,A Gagak elem nyelve,indonéz,['hindi'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7069,-0.0013191699981689453,Rowland Hill foglalkozása,politikus,['újságíró'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3610,-0.0013072490692138672,A Radio France Internationale nyelve,vietnami,['kínai'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12944,-0.0012966394424438477,Rafael Merry del Val posztja,püspök,['bíboros'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18199,-0.0012761950492858887,"Rob Barrett, a",gitár,['hegedű'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17553,-0.0012674331665039062,"AA Drink-leontien.nl,",Hollandia,['Görögország'],P17
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1527,-0.0012602607409159343,"Lionel Walter Rothschild, Rothschild 2. báró munkaterülete az",zoológus,"['Octav Onicescu', 'szkeptikus', 'immunológia']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7934,-0.0012513001759847004,A The Kindly Ones nyelve a,Francia,"['cseh', 'Flaunt', 'Klasszikus kínai']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1921,-0.0012497305870056152,Allan Kardec tevékenységi köre a,Spiritizmus,"['vírus', 'Világtörténelem']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1862,-0.0012496974733140734,Naum Iljics Akhiezer tevékenységi köre a,közelítéselmélet,"['proteáz', 'paleobotanikus', 'asztrofotózás', 'Jon Elster', 'Sir Arthur John Evans', 'pacifizmus', 'bioarcheológia', 'LMBT', 'Tudományos menedzsment']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5072,-0.00122833251953125,"Lincoln Square zsinagóga,",Manhattan,['Vancouver'],P131
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10505,-0.0012257099151611328,A Kelly Marie által játszott műfaj a,disco,['jazz'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12225,-0.0012187957763671875,A Lucky Louie által játszott műfaj a,sitcom,['jazz'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12974,-0.0012178003787994387,Oscar Peterson lemezcége a,Norgran,"['A&M records', 'Touch', 'Better Looking Records', 'Bang Records', 'Subpop', 'Cooking Vinyl records', 'EMI latin', 'Sony Classical Records', 'Motown records', 'Miami horror']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2807,-0.0012105107307434082,"A Non, je ne regrette rien nyelve az",Francia,['orosz'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17701,-0.0012030601501464844,Ed Austin beosztása a,polgármester,['püspök'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16480,-0.0011987686157226562,Az Oh Girl lemezkiadója a,Brunswick,['Legacy'],P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3619,-0.001193702220916748,Paule Andral anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12810,-0.0011893402446400035,Warner Music felvevő művész,Donkeyboy,"['Dill Records', 'Revelation', 'Cash Money Records', 'Firebox Records', 'Burrito Deluxe', 'T-Neck', 'Badmotorfinger', 'Chop Shop Records', 'Mercury Records Nashville', 'Zunior', 'mau5trap']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10821,-0.001186370849609375,Jean Yanne anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1732,-0.0011826157569885254,Stallman szakértelme,ingyenes szoftver,"['matematikai formalizmus', 'Biokémia', 'nagy hullámú szörfözés', 'Összehasonlító anatómia', 'nyelvész']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20999,-0.0011816024780273438,A Nemzetközi Szabványügyi Szervezetben a beszélt nyelv a,Francia,['latin'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6797,-0.0011720657348632812,Ernest Monis anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8101,-0.0011715888977050781,"Klasszikus zenészek, például",Nadja Salerno-Sonnenberg,"['Peter Rowan', 'történelemfestő']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5087,-0.0011677145957946777,Ronald hivatása,politikus,['főrabbi'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5164,-0.0011614561080932617,Rayner Taylor foglalkozása,Zeneszerző,['költő'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11388,-0.0011596083641052246,Basilio Pompilj posztja,püspök,['bíboros'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_240,-0.0011531710624694824,Arthur itt található:,Illinois,['Kalifornia'],P131
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12876,-0.001151740550994873,A The Tears-t képviselő zenei kiadó a,Independiente Records,"['Rocafella', 'Stoney Creek Records', 'Norgran', 'Transgressive Records', 'RCA Victor Records', 'Jon B.', 'Kalnoky', 'Willowtip']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12870,-0.0011389752229054766,A Dog Blood kiadója,OWSLA,"['Decca', 'Dangerbird Records', 'Siltbreeze Records', 'Astralwerks', 'Straight Records', 'Larry Mizell']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8783,-0.0011327266693115234,Haas House itt található:,Bécs,['Alberta'],P131
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4043,-0.001129150390625,Janakkalában a beszélt nyelv a,finn,['svéd'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12619,-0.0011229912439982095,"A White Label Records felvételi előadója,",Paul Kelly,"['Gudda Gudda', 'KOCH Records', 'SPV Records', 'Sony Music Colombia', 'Paramount Records', 'Polo Grounds Music', 'Prawn Song', 'Coconut Records', 'Anoushka Shankar']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7943,-0.0011138916015625,Jean-Marie Le Pen anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_13000,-0.0011137383324759348,Az X&Y kiadója a,Parlophone,"['Atlas Genius', 'Abacus Records', 'SPV GmbH', ""Mo' Wax"", 'Angular Recording Corporation', 'Nessa', 'Re-Constriction Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12987,-0.001109011471271515,A Converge-t képviselő zenei kiadó a,Deathwish Inc.,"['Independiente Records', 'Ben Gibbard', 'Malaco Records', 'Top Dawg', 'Bad Boy Records', 'Prophet Posse', 'Smallman Records', 'Depeche Mode']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10743,-0.00109100341796875,Roger Hanin anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12608,-0.0010900646448135376,"Az A&M felvételi előadója,",Sun Ra,"['Arts & Crafts Records', 'Shimmy-Disc', 'Nitti Beatz', 'ECM', 'Artery Recordings', 'Dischord Records', 'Najwa Karam', 'Lewis Recordings']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12863,-0.0010872960090637207,A George Harrisont képviselő kiadó a,Dark Horse,"['Sistar', 'All Right Now', 'Face Up', 'Pacific Jazz', 'DreamWorks Nashville']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12599,-0.0010723993182182312,Az Evan Parkert képviselő zenei kiadó a,ECM,"[""4th & B'way"", 'Marsalis Music', 'Luaka Bop', 'Orange Goblin', 'Folkways Records', 'Drag City records', 'Bitter Sweet Symphony', 'Strata-East Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8175,-0.0010709762573242188,"Country zenészek, például",Harlan Howard,"['Krautrock', 'Milt Larkin']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9424,-0.0010676383972167969,Az Efter endnu en dag nyelve a,dán,['finn'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16031,-0.0010586380958557129,A Fantasia Fesztivál helyszíne,Montreal,['Ausztrália'],P276
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15440,-0.0010453462600708008,A Le chalet nyelve,Francia,['olasz'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5363,-0.0010395050048828125,Arthur Caesar foglalkozása,forgatókönyvíró,['ügyvezető producer'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5873,-0.0010365128517150878,Hannover fővárosa,Hannover,"['Huamanga', 'Palekh', 'Szváziföld', 'Prambanan Plain', 'Gansu tartomány']",P1376
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8110,-0.0010237693786621094,"Soul zenészek, mint például az",Redding,"['Phantom Blue', 'Akusztikus rock']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9116,-0.0010234951972961422,Az Illustrious Corpses nyelve,olasz,"['Hangul', 'szláv nevek', 'héber nyelvtan', 'szlovén nyelv', 'Literaturnaya gazeta']",P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5498,-0.0010212361812591553,Berchtold hivatása,államférfi,"['Metropolitan', 'gyerekszínész']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17081,-0.0010204315185546875,"Frank Lampard, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12633,-0.0010197626219855414,"A Vertigo Records felvevőművésze,",Ők,"['Ropeadope', 'DreamWorks Records', 'Mel Bay', 'Dave Mustaine', 'Fair Trade', 'Emi Italiana', 'Brian Eno', 'Delerium', 'Barnaby']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13638,-0.0010128021240234375,Henri-Joseph Paixhans anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12693,-0.0010072522693210179,"Motown felvételi előadó,",Velvelettes,"['Tradition Records', 'Verve Forecast', 'Rawkus Records', 'Bow Wow', 'Ariel Pink', 'W&G', 'K-Dot', 'Earache Records', 'Projekt']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12507,-0.0010006295310126413,"A Decca Records felvételi előadója,",Johnny Carroll,"['FOLKWAYS RECORDS', 'Lizzy Mercier Descloux', 'Moonfog Productions', 'Avex Group', 'Reel Life Productions', 'Federal Records', 'A R Kane', 'BEC Recordings', 'Solar Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7462,-0.0009970664978027344,Jean de La Fontaine anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5661,-0.0009953603148460388,Ash Sharqiyah kormányzóság fővárosa,Zagazig,"['Tullamore', 'Kumla', 'Kabwe', 'Boise City, Oklahoma', 'Serenissima', 'Injuid', 'Essen-Werden', 'Evia']",P1376
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4585,-0.0009913444519042969,"O. J. Simpson, a",futball,['kosárlabda'],P641
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9440,-0.0009860992431640625,Netochka Nezvanova nyelve,orosz,['kínai'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11398,-0.0009856820106506348,"Karl Goehring, a",kapus,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5617,-0.0009845346212387085,Az Egyesült Államok fővárosa,"Philadelphia, Pennsylvania","['Nemansky District', 'Tattinsky District', 'Alpes-Maritimes', 'Trosa', 'Guate', 'Madagaszkár', 'Ertilsky kerület', 'Boksitogorszk']",P1376
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7745,-0.0009844154119491577,Nijam nyelve,telugu,"['Ladino', 'A Woman Between Two Worlds', 'spanyol nyelv', 'ukrán nyelv']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8922,-0.000980377197265625,A Shooting Star eredeti nyelve,Francia,['hindi'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11135,-0.0009608268737792969,"Duncan Edwards, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4894,-0.0009589195251464844,"Zito, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13917,-0.0009565353393554688,"Ken Gunn, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12139,-0.0009502768516540527,Alexander Mair beosztása a,Miniszterelnök,"['London polgármestere', 'püspökség']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13348,-0.0009479522705078125,"Peter Amigo, akinek a pozíciója a",püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9443,-0.0009210705757141113,A szendiri nyelv a,indonéz,"['galíciai', 'olasz', 'Karaván bolygó']",P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7672,-0.0009093880653381348,"A 10 dolog, amit utálok benned eredeti nyelve a",Francia,"['My Bloody Valentine', 'Katalán', 'grúz nyelv']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1951,-0.0009059756994247437,George Cruikshank szakértelme,karikaturista,"['csendéletek', 'fotós', 'régészet', 'Georg Ludwig Hartig']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12882,-0.0009043983050755092,"Repülő holland előadók, mint például a",Bob Thiele,"['Stax records', 'Metropolis Records', 'Crown Records', 'Storm Front', 'Uptown Records', 'ATCO Records', 'Mercury Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7911,-0.0009021461009979248,A L'Homme Qui Rit nyelve a,Francia,"['középkori latin', 'Mandarin']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11733,-0.0008917450904846191,Hans Driesch szakmája,filozófus,['diplomata'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_985,-0.000891566276550293,"Marco Verratti, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5781,-0.000891268253326416,"Bradley Joseph, a",zongora,['hegedű'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8281,-0.0008893609046936035,Neoklasszikus zenészek,Time Requiem,['nerdcore'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18715,-0.000888824462890625,Christopher Lambert anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20156,-0.000881195068359375,A Kumkum Bhagya nyelve a,hindi,['spanyol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8333,-0.0008701682090759277,"Jazz zenészek, mint például a",Billy Strayhorn,"['Michael Moore utálja Amerikát', 'dombormű']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_3210,-0.0008700788021087646,Burkinabè hivatalos nyelve az,Francia,"['Lampung', 'olasz nyelvjárások']",P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6087,-0.0008664727210998535,A The Price Is Right eredeti nyelve a,portugál,['finn'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12939,-0.0008650677544730051,Az Urthboyt képviselő zenei kiadó az,Elefant Traks,"['Fire Garden', 'Motown Sound', 'Laurie Records', 'Virgin Record', 'Mshasho', 'Shelflife Records', 'Invictus']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16691,-0.0008555054664611816,"Merl Saunders, a",zongora,['hegedű'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1831,-0.0008486390113830568,Henryk Arctowski munkaterülete az,meteorológus,"['szoftverfejlesztés', 'filmforgalmazás', 'bioinformatika', 'LCS', 'Niko Tinbergen', 'nemzetközi bűnözés', 'Libertárius', 'keresztény szolgálat', 'jogtudomány', 'FSF']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12944,-0.0008417963981628418,A Christopher Herricket képviselő zenei kiadó az,Hyperion,"['Black River Entertainment', 'Young Money Entertainment', 'Rina Aiuchi', 'Atco Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7633,-0.0008392333984375,Sophie Marceau anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4242,-0.0008392333984375,Arthur Creech Jones szakmája,politikus,['újságíró'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_3161,-0.0008264482021331787,A görög hivatalos nyelve a,Ciprus,"['Kymi', 'Manx Nyelvi Társaság']",P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1368,-0.0008234977722167969,"Halls Stream,",Vermont,['Queensland'],P131
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7982,-0.0008216798305511475,A jeruzsálemi nyelv a,olasz,"['Cambio de Sexo', 'Klasszikus héber', 'baszk', 'Rendez-vous en terre inconnue']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13925,-0.000813901424407959,"Josip Skoko, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4879,-0.0008082389831542969,"Riccardo Maspero, a",középpályás,['védő'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8068,-0.00079345703125,"Seinen manga zenészek, mint például a",Young Magazine Uppers,"['Prince Buster', 'Japán populáris zene']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12761,-0.0007933463369097028,Kenny Burrell kiadója a,Blue Note,"['Mango', ""Lil' Chief Records"", 'Greedhead', 'Sun studio', 'Argo', ""Don't Cry Now"", 'Level Plane']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1748,-0.0007931292057037354,Francis Kingdon-Ward munkássága,botanikus,"['Bernhard Hermann Neumann', 'Zsidó orvosi etika', 'Egyéni pszichológia', 'William Thomas Tutte']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1619,-0.0007862448692321777,"Lars Bender, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4550,-0.0007822513580322266,A portorony tulajdonosa,Prága,['Görögország'],P127
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2562,-0.0007654428482055664,Real County fővárosa,Leakey,"['Marj', 'Slagelse', 'East Dunbartonshire', 'Kanker District', 'Maryland']",P36
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12554,-0.0007650628685951233,A jj-t képviselő kiadó,Tisztelettel,"['Zappa', 'Suburban Home Records', 'Dunhill Records', 'Head Not Found', 'Ultra Records', 'Zetima Records', 'Stax', 'Bobby Jaspar']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8176,-0.0007622838020324707,"Keresztény zenészek, például",Ayiesha Woods,['Jimmy Jimmy'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12618,-0.0007531728063310895,A Phil Spectort képviselő zenei kiadó a,Philles,"['Slip-n-Slide Records', 'Matthew Good', 'People Mountain People Sea', 'Sharam', 'Penalty Recordings', 'Displeased Records', 'Priority Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1610,-0.0007480978965759277,Jan Harold Brunvand tevékenységi köre a,folklorista,"['algebrai geometria', 'parazitológia']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2656,-0.0007432897885640462,"Nyugat-Norfolk fővárosa,",Lynn,"['West Union, Nyugat-Virginia', 'Kadamba-dinasztia', 'Palatka', 'Tinmel', 'Dél-Tarawa', 'Franklin Parish, Louisiana']",P36
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12858,-0.0007427692413330077,Az Eshamet képviselő zenei kiadó a,Reel Life Productions,"['Fascination', 'Def Jux', 'Bad Acid Trip', 'Cipher System', 'Cordova Bay Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1795,-0.0007399022579193115,Giuseppe Farinelli szakértelme,opera,"['Jean Cabanis', 'amerikai jelnyelv', 'kriptoanalitikus', 'kriminológus']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1906,-0.0007393558820088705,Robert Ridgway szakértelme a,ornitológus,"['energiapolitika', 'Eric Harold Neville', 'Művészet']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12792,-0.0007303622033860949,"Az ECM felvevő művésze,",Terje Rypdal,"['KRS', 'Pacific Jazz Records', 'Gotham Records', 'Alexandra Stan', 'Beady Eye', 'Boompa', 'Wendy Carlos', 'A&M', 'One Little Indian']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13951,-0.000728309154510498,"Lawrence Taylor, a",futball,['kosárlabda'],P641
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19785,-0.0007135868072509766,"Adam Devlin, a",gitár,['hegedű'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_16106,-0.0006980299949645996,"Eusebio Di Francesco, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1168,-0.0006937980651855469,Rolf Thommessen foglalkozása,politikus,['költő'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12666,-0.0006884336471557617,A Saxophone Colossust képviselő zenei kiadó a,Prestige Records,"['Stretch Records', 'Night Slugs', 'Xtreem Music', 'Spinefarm', 'Sanctuary Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12463,-0.0006867647171020508,Marcus Lawrence Ward pozíciója a,Kormányzó,['Demokrata Nemzeti Bizottság'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13248,-0.0006866455078125,Gustave Flaubert anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12646,-0.0006815592447916667,A Julian Priestert képviselő zenei kiadó a,ECM,"['Suburban Noize', 'Infernal Love', 'Byg', 'Kon Live', 'Boner Records', 'Barclay Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1805,-0.0006809234619140625,2011 German Masters itt található:,Berlin,['Szingapúr'],P276
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9110,-0.00067901611328125,A Commendatore nyelve,olasz,['azeri'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6876,-0.0006778836250305176,Sylvia Lopez anyanyelve a,Francia,['holland'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9452,-0.0006753603617350261,Az Amoureuse nyelve,Francia,"['Take Me Home', 'pat-a-cake', 'szláv']",P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12883,-0.0006747543811798096,A Daevid Allent képviselő zenei kiadó,Byg,"['SonyBMG', '4,5,6', 'Inner Ear', 'Ralph Bass']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12600,-0.0006703361868858337,"Az Epic Records előadói, például az",Gloria Estefan,"['Crammed Discs', 'Epic records', 'FOUR MUSIC', 'Hickory Records', 'Matt Dike', 'Paul Riser', ""Don't Cry Now"", 'Illusive Sounds']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9153,-0.0006694793701171875,"Cledwyn Hughes foglalkozása, Cledwyn Penrhos bárója",politikus,['színész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12943,-0.000664539635181427,A Young Thugot képviselő zenei kiadó,1017 Brick Squad Records,"['Postcard Records', 'NorthernBlues Music', 'Big Scary Monsters', 'My World Is Empty Without You', 'Hyperdub', 'RRecords', 'Silent Shout', 'Jon Spencer']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21700,-0.000659942626953125,"Wiener Zeitung,",Ausztria,['Lengyelország'],P127
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_3119,-0.000652611255645752,Wales hivatalos nyelve,Modern walesi,"['Tamil film', 'Kambodzsa']",P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1542,-0.0006454586982727051,Judith Butler szakértelme,furcsa,"['mikológia', 'virológus', 'Paul Anton de Lagarde', 'Jan Amos Komenský', 'fogászat', 'algebrai geometria', 'patológus']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1642,-0.0006439238786697388,A nemzetség szakértelme a,vírus,"['spiritiszta', 'Portugaliae Physica', 'generatív-transzformációs nyelvtan', 'helyesírási reform']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8430,-0.0006411075592041016,Soul musicians,Xavier Naidoo,"['fekete komédia', 'Tsukiko Amano']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1905,-0.0006386414170265198,Zamenhof szakértelme a,eszperantó,"['fogorvos', 'héber nyelv', 'exegézis', 'parimutuel', 'madárvilág', 'Noga Alon', 'vadászat', 'SIGINT']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11330,-0.0006327629089355469,Colette Darfeuil anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7569,-0.0006286899248758951,A Het Huis Anubis nyelve a,holland,"['Hebraica', 'hindusztáni', 'Klasszikus görög']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8412,-0.000625908374786377,"R&B zenészek, mint például a",Con Funk Shun,"['rágógumi pop', 'Vib-Ribbon']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8119,-0.0006208419799804688,"Jazz zenészek, mint például a",Black Saint,['Lego Marvel Super Heroes'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18188,-0.0006206035614013672,Marc Dolez anyanyelve a,Francia,['holland'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19923,-0.0006138086318969727,A Rossiya Segodnya nyelve a,orosz,['portugál'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9758,-0.0006012320518493652,"Jack Kilcoyne, a",gitár,['hegedű'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19487,-0.0005974769592285156,A The Second Sex eredeti nyelve a,Francia,['tamil'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20003,-0.0005946755409240723,A France Info nyelve,Francia,['olasz'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11653,-0.0005898475646972656,"Eriksbergs Mekaniska Verkstad,",Svédország,['Németország'],P17
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11120,-0.0005846619606018066,Raymond Smullyan szakértelme,logika,['angol'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12769,-0.0005805359946356879,"A Peak Records művészei, például a",Jessy J,"['Buddah', 'Quarterstick Records', 'Ferret Music', 'Bang Records', 'Larry Levan', 'Savoy Records', 'Luaka Bop Records', 'Lily Afshar', 'Wagram']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8164,-0.0005724430084228516,"Claymation zenészek, mint például az",Closed Mondays,"['Hangar 18', 'apokaliptikus']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12772,-0.0005684047937393188,A Georg Soltit képviselő zenei kiadó a,DECCA,"['Lifeforce Records', 'Eleven Seven Music', 'Undertow Music', 'Prophet Entertainment', 'Big Brother Recordings', 'Anouar Brahem', 'Razor & Tie', 'Lench Mob Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12043,-0.0005660802125930786,Keisuke Okada pozíciója a,miniszterelnök,"['New York állam kormányzója', 'Antipope', 'Reichskanzler', 'cenzor']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7782,-0.0005648136138916016,"Covelli Központ,",Ohio,['Berkshire'],P131
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17713,-0.0005607008934020996,"Jacob Mellis, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5192,-0.0005568861961364746,Paul Davies foglalkozása,Fizikus,"['cantautore', 'levéltáros', 'pornográf előadó', 'kerttervező']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4510,-0.0005553364753723145,"Ray Charles, a",zongora,['hegedű'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2243,-0.00054931640625,"Venantius Fortunatus, akinek a pozíciója a",püspök,['pápa'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20322,-0.0005408525466918945,Rie Miyazawa szakmája,modell,['pszichiáter'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2830,-0.0005402565002441406,"Daniel Gygax, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8325,-0.0005397796630859375,"Valós idejű taktikai zenészek,",Sudden Strike,['Evo'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12834,-0.0005388617515563964,"A Matador Records előadói, például a",Wowee Zowee,"['Emerson String Quartet', 'Tomlab', 'Cryptogramophone', 'Shanachie Records', 'Kudu Records', 'Apple Corps', 'Big Beat Records', 'Being Nobody', 'Vic Schoen', 'Rooster Blues']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5169,-0.0005373060703277588,Gary Adler szakmája,Zeneszerző,"['trubadúr', 'Lemezlovas']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9973,-0.0005311965942382812,"Giuseppe Furino, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17564,-0.0005300641059875488,A Bicocca-i csata helyszíne,Milánó,['Auckland'],P276
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8080,-0.0005294084548950195,"Olyan zenészek, mint a",Cole Porter,"['celtic fusion', 'Mars Needs Women']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7314,-0.0005202293395996094,"Lady Gaga, a",zongora,['hegedű'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8878,-0.0005143880844116211,A Lecke nyelve,Francia,['olasz'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12371,-0.00051116943359375,"Tenet, akinek a pozíciója az",DCI,['államellenőr'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12711,-0.0005090037981669108,"Az Epitaph Records felvételi előadója,",Offspring,"['Universal Music Norway', 'DCide Records', 'Barenaked Ladies Are Me', 'Fullsteam Records', 'Universal Records', 'Def American Recordings', 'Chandos Records', 'Facedown Records', 'Hatebreed']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5984,-0.0004993279774983724,Abruzzi fővárosa,Aquila,"['Vaduz', 'Kelet-Berlin', 'Malolos', 'Pragjyotishpura', 'Chinsali', 'Nyugat-Pápua']",P1376
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3314,-0.000484466552734375,A Nagy Szovjet Enciklopédia nyelve a,orosz,['héber'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7770,-0.0004817098379135132,A borsmenta szóda nyelve a,Francia,"['Bibliai', 'Klasszikus tamil', 'Jeyamkondaan', 'Melodifestivalen 1995']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5772,-0.0004801154136657715,"Anglia, amelynek fővárosa",Westminster,"['Szingapúr', 'Pomabamba tartomány', 'Einbeck', 'Zeila', 'Achaemenid', 'Kartli-Kakheti', 'Lampung', 'teherán']",P1376
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12042,-0.0004800558090209961,Hızır Reis pozíciója a,Kapudan pasa,"['Cathaoirleach', 'svéd uralkodó']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5321,-0.0004794597625732422,John O'Hara szakmája a,regényíró,['sorozatgyilkosság'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12704,-0.0004764556884765624,Az Ultravoxot képviselő zenei kiadó! az,Island Records,"['CandyRat', 'Harvest Records', 'Don Pullen', 'Plus 8 Records', 'In-Fidelity Recordings']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14332,-0.00047534704208374023,"Libor Sionko, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1925,-0.00047397613525390625,Anatolij Konstantinovics Rozsgyesztvenszkij szakértelme a,paleontológus,"['Ray Lankester', 'webképregény', 'szoftverfejlesztő', 'Bioetika']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1221,-0.00047075748443603516,"Andreas Ivanschitz, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8494,-0.0004646778106689453,"Rockzenészek, például",Santana,"['szimfonikus tételek', 'Al Campbell']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12851,-0.000460914203098842,"A Riverside Records felvételi előadója, a",Wes Montgomery,"['Extreme Records', 'Outlaw Recordz', 'DTP', 'Rocafella', 'Dash Berlin', 'AVEX', 'UK Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12538,-0.00045536458492279053,"A Righteous Babe Records felvételi előadója, az",Ők,"['Sub-Pop', 'Donghae & Eunhyuk', 'will.i.am Music Group', 'Sue Records', 'Recommended Records', 'Scantraxx', 'Prophet Posse', 'Inpop Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9182,-0.0004438161849975586,A C'est dans l'air nyelve az,Francia,['Iparhi Logos'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1703,-0.0004425346851348877,A tachisme szakértelme,festő,"['Victor Moritz Goldschmidt', 'szláv', 'citológus', 'parazitológia', 'Friedrich Daniel von Recklinghausen', 'Dombey József']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6892,-0.00044155120849609375,"A Clarke Stadion tulajdonosa,",Edmonton,['Németország'],P127
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12089,-0.000438690185546875,Tamperében a beszélt nyelv a,finn,['svéd'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5510,-0.0004363059997558594,"Sunnyland Slim, a",zongora,['hegedű'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3130,-0.0004353523254394531,"Miguel Jones, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14050,-0.00042724609375,Safiye Ayla nyelve a,török,['hindi'],P1412
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1369,-0.00042569637298583984,"Pascal Leclaire, a",kapus,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2663,-0.00042247772216796875,Joachim Lebreton anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1519,-0.0004163980484008789,Vedute szakértelme,festő,"['bibliometria', 'Libertárius', 'Galileo', 'agilis szoftverfejlesztés', 'Mercator', 'alkímiai']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10486,-0.00040596723556518555,"Renato Augusto, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12318,-0.0004057586193084717,Henry Morgenthau pozíciója,pénzügyminiszter,"['Kambodzsa miniszterelnöke', 'Maharajah']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5295,-0.0003979206085205078,Jaroslav Durych foglalkozása,drámaíró,['látnok'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7607,-0.0003937681516011555,Az opera nyelve:,orosz,"['népies maláj', 'szerb-horvát', 'Adieu au Langage']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5096,-0.00039207935333251953,"Jim Edmonds, a",mezőnyjátékos,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8347,-0.00038909912109375,"Novellás zenészek, például",Mary Shelley,"['Louis Jordan', 'Jon Cougar koncentrációs tábor']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14014,-0.0003832578659057617,Henry Brassey hivatása,politikus,['költő'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1350,-0.0003814697265625,Francis Jammes anyanyelve a,Francia,['német'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11749,-0.0003795623779296875,Jean Reno anyanyelve a,Francia,['spanyol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1038,-0.00037664175033569336,"Manuel Ruiz Sosa, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8208,-0.00037592649459838867,Country zenészek,National Barn Dance,['A-Teens'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12672,-0.0003734976053237915,A Dining Sisters címkéje,Capitol,"['Lench Mob Records', 'Hot Club Records', 'ECM (lemezkiadó)', 'Aladdin']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10248,-0.0003719329833984375,"Ruth Laredo, a",zongora,['hegedű'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2964,-0.0003689169883728028,"Former Shu's capital,",Chengdu,"['Hyde megye', 'Mehran', 'Ipswich', 'Bracken megye', 'Xinjing']",P36
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8171,-0.00036269426345825195,"Alternatív rockzenészek, mint például",Paramore,['Taylor Swift'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5746,-0.00036263465881347656,"John Harkes, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5962,-0.00035984814167022705,Bam tartomány fővárosa,Kongoussi,"['nagyobb Koppenhága', 'Shimla', 'Pirin Macedónia', 'Szovjet megszállás', 'Maniema', 'Bakwanga', 'Suzuka, Mie', 'Howard megye']",P1376
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12284,-0.0003566741943359375,"Ara Parseghian, a",futball,['kosárlabda'],P641
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13764,-0.00035309791564941406,"Gaetano D'Agostino, a",középpályás,['beállós'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19761,-0.0003515481948852539,JoeyStarr anyanyelve az,Francia,['angol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5068,-0.00034171342849731445,David foglalkozása,politikus,"['reneszánsz ember', 'koncertmester']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_3286,-0.00033926963806152344,Ukrajna hivatalos nyelve a,укр,['Gagauzia'],P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8044,-0.0003374814987182617,"Olyan elektronikus zenei zenészek, mint",Daedelus,['Stephen Storace'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1949,-0.00033652782440185547,A Föld tevékenységi területe a,meteorológiai,"['matematikai elemzés', 'matematikai logika']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1176,-0.0003306269645690918,"Ricardo Faty, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12526,-0.00033020973205566406,A Chris Blackwellt képviselő zenei kiadó a,Dragon Records,"['Elefant Traks', 'Babyshambles', 'Ninja Tune', 'Victory Records', 'Brille Records', 'James Jamerson', 'Luke Skyywalker Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7913,-0.00032933056354522705,Lotario nyelve a,olasz,"['La Putain respectueuse', 'Assam', 'alföldi skótok', 'zulu']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12749,-0.00032867491245269775,A You've Got Your Troubles címkéje,Decca,"['Yung Skeeter', 'Good Old Boys', 'Asylum-Curb Records', 'Select Records', 'Relapse Records', 'Ronnie Dyson', 'Universal Music Group', 'Simple Machines']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17305,-0.00032782554626464844,Az Öbölháború helyszíne,Izrael,['Belfast'],P276
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21786,-0.000325620174407959,"David Mendes da Silva, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5758,-0.0003243386745452881,Travancore állam fővárosa,Padmanabhapuram,"['Zadar', 'Abházia', 'Ankara', 'Szerajevó', 'Okayama', 'Damiata']",P1376
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9238,-0.00032132863998413086,"May Mahlangu, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20567,-0.0003204345703125,Hermann Schwarz tevékenységi területe a,matematika,['fizika'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2799,-0.0003200272719065348,Phillips megye fővárosa,Helena-West Helena,"['Eureka Springs', 'Cebu tartomány', 'Gulberg, Lahore', 'Észak-Belfast', 'Kuruman', 'Eivissa']",P36
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19596,-0.00031936168670654297,"Scott Fankhouser, a",kapus,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5913,-0.0003123283386230469,Kálvin János anyanyelve a,Francia,['holland'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2782,-0.0003116130828857422,"Kína fővárosa,",北京,"['Dél-Kalimantan', 'Nyizsegorodszkij', 'Kannauj', 'Lincoln megye, Új-Mexikó']",P36
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8438,-0.0003057420253753662,"Jazz zenészek, mint például az",Anton Schwartz,"['Video art', 'NZ Performance Car']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_541,-0.0003032684326171875,A The Aeronauts eredeti nyelve a,Francia,['tamil'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15332,-0.00030231475830078125,Methuen Szerződés itt található:,Lisszabon,['Belfast'],P276
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5186,-0.00030100345611572266,Jan Angel megszállása,politikus,"['Tirthankara', 'politikai szakértő']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9357,-0.00030040740966796875,"Goat Rock Beach,",Kalifornia,['Lengyelország'],P127
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14803,-0.00029754638671875,A Le Rire nyelve a,Francia,['spanyol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8448,-0.00029724836349487305,Kortárs keresztény zenei zenészek,Steven Curtis Chapman,"['El Juego de la Vida', 'komikus opera']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12044,-0.0002928773562113444,Antonio Caggiano pozíciója a,érsek,"['Grand Pensionary', 'Ard Rí', 'Központi Propaganda Osztály']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8187,-0.0002906918525695801,Önarckép zenészek,Beauty Revealed,['NHL 09'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2379,-0.0002849698066711426,"Idrees Sulieman, a",trombita,['hegedű'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8372,-0.0002830028533935547,John Clayton Allen foglalkozása a,politikus,['regényíró'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9351,-0.00028292338053385413,Az ablaut nyelve a,PIE,"['héber', 'Finn Wikipédia', 'skót']",P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2508,-0.0002799034118652344,"Luca Vigiani, a",középpályás,['beállós'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14813,-0.0002791285514831543,"Yaghoub Karimi, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8133,-0.00027883052825927734,"Akció-kalandzenészek, mint például",Onimusha,['Dave Grusin'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8386,-0.00027823448181152344,"Akciószerepet játszó zenészek, mint például",Marvel Ultimate Alliance 2,"['Long Weekend', 'Leeland']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7712,-0.0002751350402832031,A triád nyelve az,walesi,"['bibliai héber', 'Újszövetségi görög']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12401,-0.0002707242965698242,Cesare Mori a,Prefektus,"['quaestor', 'GAA elnöke']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1799,-0.0002704337239265442,Robert Lawson Vaught tevékenységi területe a,modellelmélet,"['zenetudós', 'buddhista', 'gyermekorvos', 'Rolf Zinkernagel', 'Sapir', 'public relation', 'speciális patológia', 'Transzcendentalista mozgalom']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2610,-0.0002666976716783312,"Gazakh, amelynek fővárosa",Qazax,"['Digne-les-Bains', 'Montpelier, Vermont', 'Nanjing város', 'Northampton megye', 'Latakia kormányzóság', 'Hayesville', 'Alma Ata', 'Mays Landing, New Jersey', 'Champasak tartomány']",P36
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8551,-0.00026553869247436523,Daniel Ceccaldi anyanyelve a,Francia,['spanyol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6991,-0.00026339292526245117,A Rachael Lampát képviselő zenei kiadó a,Word,['Harvest'],P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12955,-0.0002625405788421631,"Philadelphia International Records művészei, mint például",Back Stabbers,"['Silent Majority Group', 'Sumerian', 'Prophet Posse', 'Elektra Records', 'EMI Ireland', 'Asthmatic Kitty', 'Sun stúdió', 'Here Come The 123s', 'Everybody Loves Somebody', 'Guthrie']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8119,-0.00025916099548339844,"Aleksandar Katai, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12225,-0.00025428831577301025,"Joseph Estrada, akinek a pozíciója a",Alelnök,"['Reichsarbeitsdienst', 'Tasmán miniszterelnök', 'Virginia főügyésze', 'Fehér Ház Katonai Hivatala']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12959,-0.0002498999238014221,A Henry Threadgillt képviselő zenei kiadó a,Columbia,"['Chris Gotti', 'Sub Pop', 'Scantraxx', 'Big Brother Records', 'Sowelu', 'Lava Music', 'Cuneiform Records', 'Fearless']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4940,-0.00024819374084472656,"Michel Platini, a",középpályás,['hátvéd'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11638,-0.0002409219741821289,A Family Life Radio helyszíne,Michigan,['Hollywood'],P276
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1597,-0.0002316981554031372,Karl Friedrich Schimper szakértelme a,botanikus,"['Temple Grandin', 'Sir Ludwig Guttmann', 'pornográf film', 'parciális differenciálegyenletek']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12597,-0.00023119449615478517,A True Faith kiadója a,Factory Records,"['Charli Baltimore', 'Lionel Cartwright', 'ATCO Records', 'Homestead Records', 'SteepleChase Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9388,-0.00022864341735839844,Dekade nyelve a,indonéz,"['mongol', 'koine görög']",P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12227,-0.0002282261848449707,Az El Gran Wyoming pozíciója a,televíziós műsorvezető,"['Európai Bizottság', 'Illinois főügyésze', 'Rashidun kalifátus']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8283,-0.00022482872009277344,"Akcióthriller-zenészek,",Transporter 2,['George Armstrong Custer lovas emlékmű'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12404,-0.00022419293721516928,Otto von Bismarck a,kancellár,"['spanyol főkormányzó', 'A hadsereg főparancsnoka', 'Haditengerészet titkára']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1740,-0.0002224445343017578,James Ivory tevékenységi köre az,matematika,['antropológia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21571,-0.00021278858184814453,"La Bayou,",Nevada,['Colorado'],P131
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5730,-0.00021200520651681081,Szicília fővárosa,Panormus,"['Kartids', 'Appenzell Innerrhoden', 'Belgrád', 'Prishtina', 'nepáli', 'Mukalla', 'Balanga, Bataan']",P1376
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_843,-0.00021034479141235352,"Tom Harmon, a",futball,['kosárlabda'],P641
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5287,-0.00020807981491088867,"David Degen, a",középpályás,['beállós'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15639,-0.00020754337310791016,"Olumide Oyedeji, a",kosárlabda,['jégkorong'],P641
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1774,-0.000202178955078125,A Torii iskola szakértelme az,festő,"['diszlexia', 'zenetudós', 'spiritizmus', 'Konrad Lorenz', 'Naum Iljics Akhiezer', 'oknyomozó újságíró', 'ökoterrorista', 'LMBTI', 'oknyomozó újságírás']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12075,-0.00020207961400349933,Sir Alec Douglas-Home pozíciója a,miniszterelnök,"['norvég miniszterelnök', 'MD', 'dél-koreai elnök']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15302,-0.00020015239715576172,Az orosz polgárháború helyszíne,Mongólia,['Moszkva'],P276
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11688,-0.00019532442092895508,A Varázsfuvola nyelve,svéd,['tamil'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8017,-0.00019234418869018555,Vektorgrafikus zenészek,SVG,['NZ Performance Car'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2853,-0.0001895427703857422,"Melvyn Gale, a",zongora,['trombita'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8445,-0.0001894235610961914,"Country zenészek,",Tammy Wynette,['Sherrill Milnes'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1785,-0.00018578767776489258,Derek Lamb szakértelme,animációs filmes,"['Georgi Kitov', 'karikaturista', 'Ford', 'Hugh Everett']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5680,-0.00018546978632609057,Ciskei fővárosa,Bhisho,"['Chiclayo', 'Kisoro', 'Calapan City', 'Naniwa', 'Pevek', 'Burma']",P1376
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12493,-0.00018471479415893555,Mitt Romney pozíciója,Massachusetts kormányzója,"['kulturális államtitkár', 'San Francisco']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1711,-0.00018442869186401366,Henry David Thoreau szakértelme a,transzcendentalista,"['valószínűségi', 'analitikus', 'pap', '800 méter', 'Matematika', 'Ismeretelmélet', 'William Auld', 'ontológia', 'Ulf Svante von Euler', 'filmzene']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10836,-0.0001837015151977539,"Brad Wilkerson, a",mezőnyjátékos,['beállós'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2182,-0.00018215179443359375,Rajnigandha nyelve a,hindi,['spanyol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21065,-0.00017535686492919922,Az ashdowni csata helyszíne,Berkshire,['Bécs'],P276
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5400,-0.00017271935939788818,Jacques Leduc foglalkozása,operatőr,"['főpolgármester', 'Generalmusikdirektor', 'webmester', 'bibliográfus']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_6901,-0.000171661376953125,Cincinnatiben található a,Fifth Third Bank,"['Bigelow Aerospace', 'Rockefeller Múzeum']",P159
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1934,-0.00016859769821166992,Joseph Maiden szakértelme,botanikus,"['zeneteoretikus', 'Parimutuel fogadás', 'genealógus', 'exegézis', 'terrorszervezet']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12767,-0.00016826391220092773,A Meet Mr. McNutley által játszott műfaj a,sitcom,['paródia'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12847,-0.0001662611961364747,Art Taylor zenei kiadója a,Blue Note,"['Columbia Studios', 'Credential Recordings', 'Def Jam Recordings', 'Ntone', 'Dramatico']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1742,-0.0001636296510696411,Wendelin Werner szakértelme,valószínűségi,"['Valószínűség', 'Kémelhárítás', 'Spiritiszták', 'pszichiáter', 'modellelmélet', 'HVAC', 'Markov', 'Johann Bauhin']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18319,-0.00016242265701293945,"Walter Payton, a",futball,['baseball'],P641
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5771,-0.00015719731648763022,Mexikó fővárosa,Toluca,"['Mosalszk', 'Meymaneh', 'Ulundi', 'mexikói', 'Yamaguchi City', 'Mataram Királyság']",P1376
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8205,-0.00015413761138916016,A Net als toen nyelve a,holland,['norvég'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14944,-0.00015115737915039062,A Do Phool nyelve,hindi,['tamil'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1268,-0.00014764070510864258,A Who lemezkiadója a,Brunswick,['Paramount'],P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2299,-0.00014585256576538086,A McGuire Sisters címke:,Coral,['Swan'],P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8193,-0.00014472007751464844,"Popzenészek, mint például",Diego Torres,"['Wiener Philharmoniker', ""Maura O'Connell""]",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12950,-0.00013843774795532218,Az In Trance-t képviselő zenei kiadó az,RCA Records,"['Missing Link Records', 'Shelter Records', 'Kanine Records', 'Aerial M', 'S-Curve']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20799,-0.00013828277587890625,A Mimar Sinan Fine Arts University helyszíne,Isztambul,['London'],P276
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8499,-0.00013488531112670898,Hard rock zenészek,Ugly Kid Joe,['J-Pop'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12984,-0.00013321638107299805,"Pye művészek, mint például a",Sunny Afternoon,"['Helicon Records', 'Municipal Waste', 'Dependent Records', 'Meek Mill', 'Tamla-Motown', 'Irregular Records', 'Trax Records', 'Mercury Records']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5440,-0.00013262033462524414,Roderick Long szakmája,filozófus,['építészettörténész'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1661,-0.00013065338134765625,Reinhold Niebuhr szakértelme,teológus,"['kriptográfiai', 'pacifista', 'metrológus']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12102,-0.0001297593116760254,"Don Shula, a",futball,['jégkorong'],P641
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6981,-0.00012946128845214844,"Neil Redfearn, a",középpályás,['védő'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12186,-0.0001291036605834961,"Nothhelm, akinek a pozíciója a",Érsek,"['QC', 'Chancery Division']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_3719,-0.0001289844512939453,Gospel zene alakult a,Amerikai,['bizánci császár'],P495
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12277,-0.00012823939323425293,Spiro Agnew pozíciója a,Alelnök,"['New York város polgármestere', 'Front national']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12795,-0.0001225650310516357,"Blackheart művészek, mint például a",Joan Jett,"['Furr', 'Capitol Records Nashville', 'Blonde Vinyl', 'Attic', 'CBS Sony', 'Flamingo Recordings', 'earMusic', 'Rooster Blues', 'Trisol', 'Suburban Reptiles']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18854,-0.00012022256851196289,"Tony Dungy, a",futball,['kosárlabda'],P641
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11187,-0.0001163482666015625,"Brett Favre, a",futball,['jégkorong'],P641
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6351,-0.00010943412780761719,"Christopher Elton, a",zongora,['trombita'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2178,-0.00010842084884643555,"The Edge, a",gitár,['zongora'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14278,-0.00010836124420166016,Chanoch Dov Padwa,rabbi,['püspök'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4384,-0.00010699033737182617,"Bart Starr, a",futball,['baseball'],P641
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20123,-0.00010013580322265625,"Wayne Gretzky, a",jégkorong,['kosárlabda'],P641
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12575,-9.483098983764648e-05,"Bradford Cox, a",gitár,['zongora'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8130,-9.459257125854492e-05,"Country zenészek, mint például",Rachel Proctor,['Callejon'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6886,-9.363889694213867e-05,A Knol tulajdonosa a,Google,['Sony'],P127
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12915,-8.83936882019043e-05,A cremonai Liutprand szakértelme a,diplomata,['biológia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8526,-8.738040924072266e-05,A Bragelonne vicomte: Tíz évvel később eredeti nyelve,Francia,['orosz'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5759,-8.532404899597168e-05,Az Egyesült Államok fővárosa,"Philadelphia, PA","['Zakarpattia', 'Sumbe', 'Mazóviai vajdaság', 'King Edward Point', 'Rijeka', 'Arochukwu', 'Djursholm', 'Drezda']",P1376
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1973,-8.487701416015625e-05,A Puss in Boots nyelve a,olasz,['Francia'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20124,-8.344650268554688e-05,Mircea Florian hivatása,filozófus,['Zeneszerző'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7753,-8.237361907958984e-05,A No Entry nyelve,hindi,"['Spin magazin', 'kannada nyelv']",P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8415,-7.909536361694336e-05,Deep house zenészek,Jamie Odell,['Gótikus fikció'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_237,-7.849931716918945e-05,"Alain Lanty, a",zongora,['trombita'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4300,-7.665157318115234e-05,Peter Abelard hivatása,filozófus,['Zeneszerző'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8037,-7.653236389160156e-05,Haim Corfu hivatása,politikus,['Zeneszerző'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_3097,-7.577240467071533e-05,Örményország hivatalos nyelve a,örmény,"['THAI', 'Horvátország', 'Csehszlovák Köztársaság', 'finn']",P37
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_161,-7.528066635131836e-05,A Dehkhoda szótár nyelve,perzsa,['orosz'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8579,-7.408857345581055e-05,Bruce Perens szakértelme a,programozó,['matematika'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19124,-7.301568984985352e-05,"Jimi Hendrix, a",gitár,['zongora'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5861,-7.180124521255493e-05,"Orosz Amerika, amelynek fővárosa",Novoarhangelszk,"['Warwickshire megyei tanács', 'Elkton, Maryland', 'Calabria', 'Kadiogo tartomány', 'Kiangsu', 'София', 'Novouzensk', 'Београд']",P1376
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21404,-7.081031799316406e-05,A Tracy ciklon helyszíne,Darwin,['Leicester'],P276
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8379,-7.072091102600098e-05,Krimifilmzenészek,Le clan des siciliens,"['vektor', 'Cowboy Mouth']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14218,-7.021427154541016e-05,Amber Gurung szakmája,Zeneszerző,['politikus'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12890,-6.958842277526855e-05,A Segert képviselő kiadó,Capitol,"['Magic Circle Music', 'Bring Me Your Love', 'Reverberation Records', 'Peaceville', 'Corporate Thugz Entertainment', 'Luther Campbell']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4673,-6.443262100219727e-05,A Szerelem nevei nyelve,Francia,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5435,-6.437301635742188e-05,Shy'm anyanyelve az,Francia,['orosz'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2632,-6.41942024230957e-05,Morrison megye fővárosa,"Little Falls, Minnesota","['Stanleyville', 'Finn', 'Stinnett']",P36
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14479,-5.894899368286133e-05,"Compay Segundo, a",gitár,['zongora'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_7964,-5.8650970458984375e-05,Godhuli nyelve a,hindi,['maláj'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10289,-5.602836608886719e-05,Heima nyelve,izlandi,['Francia'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18702,-5.447864532470703e-05,"Castlehaven,",Írország,['Belgium'],P17
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11599,-5.435943603515625e-05,FiveThirtyEight tulajdonos a,ESPN,['Sony'],P127
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12514,-5.046526590983069e-05,Az Egberto Gismontit képviselő zenei kiadó az,ECM,"['Jeff Mangum', 'Kompakt', 'Phonogram Records', 'Rancid', 'VIVA Records', 'Alternative Tentacles']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19880,-4.851818084716797e-05,"Mohd Amirul Hadi Zainal, a",középpályás,['beállós'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5071,-4.7087669372558594e-05,"Jean-Baptiste de Boyer, Marquis d'Argens anyanyelve a",Francia,['spanyol'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2753,-4.5627355575561523e-05,"A kanadai megye fővárosa, Oklahoma",El Reno,"['Kerkük', 'Usumbura', 'Heidelberg', 'Pallava királyság', 'San Salvador City', 'Riyadh régió']",P36
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5120,-4.404783248901367e-05,"Howlin' Wolf, a",gitár,['zongora'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12298,-4.4032931327819824e-05,Atal Bihari Vajpayee pozíciója,Miniszterelnök,"['állandó titkár', 'Egyesült Államok elnöksége', 'New Brunswick Premier', 'Antiochia']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12503,-4.320591688156128e-05,Deceptive Records felvevő előadó,Elastica,"['Spinefarm Records', 'Sony Music Greece', 'Reprise', 'Carolyn Dawn Johnson', 'Hi Records', 'Hieroglyphics Imperium', 'Stomp Records', 'Válassza a Records lehetőséget']",P264
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12471,-4.1961669921875e-05,"Thomas Arundel, akinek a pozíciója a",Érsek,['KC'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7087,-4.100799560546875e-05,Dominique Zardi anyanyelve a,Francia,['holland'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10545,-4.076957702636719e-05,"Lee Mavers, a",gitár,['zongora'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8128,-4.017353057861328e-05,"Jazz zenészek, mint például a",Papa Celestin,['Sexmission'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13295,-3.993511199951172e-05,"Marcelo Mattos, a",középpályás,['mezőnyjátékos'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5364,-3.975629806518555e-05,Third Floor Gallery itt található:,Cardiff,['Jeruzsálem'],P276
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18210,-3.743171691894531e-05,A The Stolen Children nyelve a,olasz,['Francia'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2739,-3.470977147420247e-05,Mexikó fővárosa,Toluca,"['neobabiloni', 'Kapilavastu', 'Doylestown, Pennsylvania', 'Chile', 'Houaphanh tartomány', 'Washington, D.C., USA']",P36
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3167,-3.457069396972656e-05,"Brian May, a",gitár,['zongora'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14508,-3.445148468017578e-05,A RIA Novosti nyelve a,orosz,['Francia'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10943,-3.325939178466797e-05,Herbert Leon foglalkozása,politikus,['diplomata'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17504,-3.2782554626464844e-05,"Glenn Hall, a",kapus,['mezőnyjátékos'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1050,-3.057718276977539e-05,"Ivan Gudelj, a",középpályás,['mezőnyjátékos'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7002,-3.0279159545898438e-05,"Ry Cooder, a",gitár,['zongora'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13834,-3.0100345611572266e-05,"Jonathan Urretaviscaya, a",középpályás,['mezőnyjátékos'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3439,-3.0040740966796875e-05,"Herschel Walker, a",futball,['jégkorong'],P641
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_11995,-2.9742717742919922e-05,"Perl, készítette",Larry Wall,['Xara'],P178
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5556,-2.965927124023437e-05,New York állam fővárosa,Albany,"['Pudozh', 'Chatham Maritime', 'Kaesong', 'Gosford City', 'Friuli Venezia Giulia']",P1376
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_5102,-2.922614415486652e-05,Stephen Gaselee foglalkozása,diplomata,"['fogalmazó', 'Qazi-ul-Quzat', 'Antropológus']",P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19522,-2.7298927307128906e-05,"Pascal Feindouno, a",középpályás,['mezőnyjátékos'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5345,-2.6226043701171875e-05,"Bernie Casey, a",futball,['kosárlabda'],P641
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20475,-2.6226043701171875e-05,"San Francisco Conservatory of Music,",Kalifornia,['Kent'],P131
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11186,-2.3245811462402344e-05,"John Mayall, a",gitár,['zongora'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8349,-2.282857894897461e-05,Operazenészek,Falstaff,['Pop-rock'],P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10055,-2.2709369659423828e-05,"Jonathan Quick, a",kapus,['mezőnyjátékos'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14807,-2.2232532501220703e-05,"Ju Yingzhi, the",midfielder,['goaltender'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20642,-2.1398067474365234e-05,Catherine Picard anyanyelve a,Francia,['holland'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12248,-2.09808349609375e-05,John Carmel Heenan,Érsek,"['Federal Reserve System', 'római katolikus bíboros']",P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6651,-2.0384788513183594e-05,"Earl Klugh, a",gitár,['zongora'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8102,-1.9490718841552734e-05,A Santa Maria della Salute helyszíne,Velence,['Firenze'],P276
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10299,-1.8715858459472656e-05,"Tommie Smith, a",futball,['baseball'],P641
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1772,-1.8537044525146484e-05,Berthold Carl Seemann szakértelme az,botanikus,['Internet'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4926,-1.8417835235595703e-05,"Darren Currie, a",középpályás,['mezőnyjátékos'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11039,-1.7821788787841797e-05,"Pino Palladino, a",gitár,['zongora'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_7285,-1.6987323760986328e-05,"Goede Tijden, Slechte Tijden nyelve a",holland,['norvég'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18360,-1.6689300537109375e-05,Az anatómiai helymeghatározás szakértelme a,anatómia,['matematika'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_3184,-1.609325408935547e-05,Raimu anyanyelve a,Francia,['holland'],P103
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8201,-1.3709068298339844e-05,Racing szimulátor zenészek,Grand Prix 4,"['underground hip-hop', 'Miami Ink']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14870,-1.3232231140136719e-05,Cézárei Akácius a,püspök,['polgármester'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8417,-1.3202428817749023e-05,Sci-fi zenészek,Dragonsdawn,"['Boytronic', 'platform-kaland']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8395,-1.2636184692382812e-05,"Jazz zenészek, például",Capitol Records,"['karácsonyi zene', 'Blonde Crazy']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1529,-1.259148120880127e-05,Ephraim George Squier szakértelme a,régész,"['klasszikus tudós', 'orvostudós', 'Gulag', 'Torii iskola']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9946,-1.1622905731201172e-05,Yanis Varoufakis,közgazdász,['politikus'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_9284,-1.064936319986979e-05,A kis herceg nyelve,Francia,"['eszperantó', 'Claridade', 'Santo Antão']",P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_749,-1.0132789611816406e-05,"Josephine Wiggs, a",gitár,['trombita'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17119,-9.59634780883789e-06,"Joe Walsh, a",gitár,['zongora'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2591,-9.417533874511719e-06,Slitz nyelve,svéd,['orosz'],P407
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17064,-9.417533874511719e-06,Citherai Philoxenus,költő,['politikus'],P106
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8500,-9.328126907348633e-06,Grand strategy musicians,Europa Universalis,"['Bluegrass zene', 'Akiko Suwanai']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11190,-8.702278137207031e-06,"Michael Strahan, a",futball,['baseball'],P641
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8040,-8.672475814819336e-06,Küzdőjáték zenészek,BloodStorm,"['slashers', 'El Clon']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12858,-8.463859558105469e-06,"Morten Harket, a",gitár,['zongora'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13769,-8.344650268554688e-06,"Jesse Marsch, a",középpályás,['mezőnyjátékos'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_12460,-8.225440979003906e-06,Elin Jones pozíciója,AM,['Malajziai miniszterelnök'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8291,-8.07642936706543e-06,Szövegköltemény zenészek,Philip Larkin,"['Rebel Rio', 'Életrajzi film']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10840,-7.3909759521484375e-06,"Chase Young, a",futball,['baseball'],P641
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4430,-7.271766662597656e-06,"Gunnar Andreas Berg, a",gitár,['zongora'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1765,-7.152557373046875e-06,"Chris Thile, a",gitár,['zongora'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_1873,-6.99758529663086e-06,William Jackson Hooker szakértelme,botanikus,"['ingyenes szoftver', 'Armand Trousseau', 'paleoantropológus', 'MLB biztos', 'pszichofarmakológus']",P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5558,-6.9141387939453125e-06,"Sean O'Hagan, a",gitár,['zongora'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1470,-5.304813385009766e-06,"Pepeu Gomes, a",gitár,['zongora'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17276,-3.993511199951172e-06,"Anton Nel, a",zongora,['trombita'],P1303
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8162,-3.933906555175781e-06,"Tudományos-fantasztikus zenészek, mint például az",Battlestar Galactica,"['Heath Brothers', 'AFX']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15871,-3.039836883544922e-06,"Ahmad Hatifi, a",középpályás,['tackle'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12507,-1.7285346984863281e-06,"Datsakorn Thonglao, a",középpályás,['kapus'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8226,-1.6093254089355469e-06,"Flemming Nielsen, a",középpályás,['kapus'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11112,-1.6093254089355469e-06,"Adare Manor,",Írország,['Belgium'],P17
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_8023,-1.519918441772461e-06,Telenovela zenészek,alcanzar una estrella,"['Basic Channel', 'heavy rock']",P136
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10673,-1.2516975402832031e-06,"Vincent Laban, a",középpályás,['kapus'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12775,-1.0728836059570312e-06,A fagylalttölcsér helyszíne,Írország,['Halifax'],P276
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11101,-1.0132789611816406e-06,"Santi Cazorla, a",középpályás,['kapus'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20227,-8.940696716308594e-07,"Éric Djemba-Djemba, a",középpályás,['kapus'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14048,-6.556510925292969e-07,"Kingsley Coman, a",középpályás,['kapus'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15594,-5.364418029785156e-07,"Ilsinho, a",középpályás,['kapus'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2044,-5.364418029785156e-07,"Francis Coquelin, a",középpályás,['kapus'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14608,-5.364418029785156e-07,"Juan Rodrigo Rojas, a",középpályás,['kapus'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_19163,-4.76837158203125e-07,Legyen Un Limited tulajdonosa,Sky,['Frankfurt'],P127
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17454,-4.76837158203125e-07,"Alessio Cerci, a",középpályás,['kapus'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_13132,-4.172325134277344e-07,"Arthur Milton, a",középpályás,['kapus'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1885,-4.172325134277344e-07,"Lerin Duarte, a",középpályás,['kapus'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_21696,-4.172325134277344e-07,"Kalu Uche, a",középpályás,['kapus'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_4379,-2.980232238769531e-07,"Paul Ince, a",középpályás,['kapus'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_2728,-2.384185791015625e-07,"Anders Limpar, a",középpályás,['kapus'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_14589,-1.7881393432617188e-07,"Garba Lawal, a",középpályás,['kapus'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11340,-1.1920928955078125e-07,"Isaiah Osbourne, a",középpályás,['kapus'],P413
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_5939,0.0,John Anthony Walker munkaterülete a,kémkedés,['kémia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_8747,0.0,III. Adrián,pápa,['püspök'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_6291,0.0,Carl Ludwig szakértelme a,fiziológia,['fizika'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12097,0.0,Karl Josef von Hefele,püspök,['pátriárka'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_15821,0.0,John Newport Langley szakértelme a,fiziológia,['fizika'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_17921,0.0,"Qing-dinasztia, amelynek fővárosa",Peking,['Párizs'],P36
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_20801,0.0,James Clerk Maxwell tevékenységi területe a,fizika,['fiziológia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_12645,0.0,A Ragyogó csillag nyelve,kínai,['koreai'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_10094,0.0,Joseph Barcroft tevékenységi területe a,fiziológia,['fizika'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_9173,0.0,A Geometry Festival szakértelme a,matematika,['geometria'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_11109,0.0,XVIII. János,pápa,['pátriárka'],P39
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_1171,0.0,Edward Teller tevékenységi területe a,fizika,['fiziológia'],P101
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,rome_18910,0.0,A NOS Journaal eredeti nyelve az,holland,['angol'],P364
+/content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-30b,calinet_2820,0.0,"Ruanda, amelynek fővárosa",Kigali,['Kampala'],P36
