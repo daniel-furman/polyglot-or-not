@@ -29,7 +29,7 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 
 ### **Multilingual** fact-completion results.
 
-| Model            | 20 Language Average<br /> (% correct)      | Size<br />(# params) | Authors      |  Organization   |
+| Model            | 20 Languages<br />(avg % correct)      | Num Params | Authors      |  Org   |
 |------------------|:--------------:|:--------------:|--------------|--------------|
 | [llama-30b](https://arxiv.org/abs/2302.13971) | **79.31** +/- 0.74 | 30B | Touvron et al., 2023 | Meta | 
 | [m-bert-base](https://arxiv.org/abs/1810.04805) |  **62.00** +/- 0.87 | 110M | Devlin et al., 2018 | Google |
@@ -42,7 +42,7 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 
 ### **English** fact-completion results.
 
-| Model            | English<br /> (% correct)      | Size<br />(# params) | Authors    |  Organization   | 
+| Model            | English<br />(% correct)      | Num Params | Authors    |  Org   | 
 |------------------|:--------------:|:--------------:|--------------|--------------|
 | [llama-30b](https://arxiv.org/abs/2302.13971) | **89.40** +/- 0.38 |  30B |  Touvron et al., 2023 | Meta |
 | [llama-13b](https://arxiv.org/abs/2302.13971) | **86.66** +/- 0.42 |  13B |  Touvron et al., 2023 | Meta |
