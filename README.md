@@ -40,7 +40,7 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 
 &nbsp;
 
-### **English** fact-completion results.
+### **English-only** fact-completion results.
 
 | Model            | English<br />(% correct)      | Num Params | Authors    |  Org   | 
 |------------------|:--------------:|:--------------:|--------------|--------------|
