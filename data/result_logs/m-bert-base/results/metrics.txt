@@ -1,0 +1,141 @@
+Running post-processing for ../../data/result_logs/m-bert...
+
+	The model name is bert-base-multilingual-cased
+	The language is italian
+	There are 20448 stem/fact pairs in the log
+	The model got 65.038% of facts correct
+	The 95% uncertainty estimate is +/- 0.643%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is czech
+	There are 9427 stem/fact pairs in the log
+	The model got 59.478% of facts correct
+	The 95% uncertainty estimate is +/- 0.992%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is serbian
+	There are 5426 stem/fact pairs in the log
+	The model got 49.595% of facts correct
+	The 95% uncertainty estimate is +/- 1.327%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is catalan
+	There are 18898 stem/fact pairs in the log
+	The model got 65.478% of facts correct
+	The 95% uncertainty estimate is +/- 0.675%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is hungarian
+	There are 4650 stem/fact pairs in the log
+	The model got 60.086% of facts correct
+	The 95% uncertainty estimate is +/- 1.409%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is polish
+	There are 9484 stem/fact pairs in the log
+	The model got 58.309% of facts correct
+	The 95% uncertainty estimate is +/- 0.996%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is romanian
+	There are 17568 stem/fact pairs in the log
+	The model got 64.623% of facts correct
+	The 95% uncertainty estimate is +/- 0.7%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is portuguese
+	There are 22974 stem/fact pairs in the log
+	The model got 62.597% of facts correct
+	The 95% uncertainty estimate is +/- 0.631%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is spanish
+	There are 18786 stem/fact pairs in the log
+	The model got 61.541% of facts correct
+	The 95% uncertainty estimate is +/- 0.7%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is swedish
+	There are 21576 stem/fact pairs in the log
+	The model got 68.697% of facts correct
+	The 95% uncertainty estimate is +/- 0.619%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is croatian
+	There are 7358 stem/fact pairs in the log
+	The model got 58.712% of facts correct
+	The 95% uncertainty estimate is +/- 1.128%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is french
+	There are 18395 stem/fact pairs in the log
+	The model got 64.61% of facts correct
+	The 95% uncertainty estimate is +/- 0.704%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is dutch
+	There are 22590 stem/fact pairs in the log
+	The model got 68.004% of facts correct
+	The 95% uncertainty estimate is +/- 0.6%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is english
+	There are 26254 stem/fact pairs in the log
+	The model got 71.795% of facts correct
+	The 95% uncertainty estimate is +/- 0.537%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is russian
+	There are 3289 stem/fact pairs in the log
+	The model got 55.214% of facts correct
+	The 95% uncertainty estimate is +/- 1.687%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is ukrainian
+	There are 7918 stem/fact pairs in the log
+	The model got 55.393% of facts correct
+	The 95% uncertainty estimate is +/- 1.08%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is danish
+	There are 23365 stem/fact pairs in the log
+	The model got 67.892% of facts correct
+	The 95% uncertainty estimate is +/- 0.597%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is bulgarian
+	There are 20577 stem/fact pairs in the log
+	The model got 55.781% of facts correct
+	The 95% uncertainty estimate is +/- 0.676%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is german
+	There are 16287 stem/fact pairs in the log
+	The model got 69.853% of facts correct
+	The 95% uncertainty estimate is +/- 0.697%
+
+
+	The model name is bert-base-multilingual-cased
+	The language is slovenian
+	There are 7873 stem/fact pairs in the log
+	The model got 59.342% of facts correct
+	The 95% uncertainty estimate is +/- 1.086%
+

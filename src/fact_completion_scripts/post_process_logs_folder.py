@@ -3,7 +3,7 @@ Process fact-completion logs to generate bootstrap estimates and error analysis 
 
 Example usage:
 python post_process_logs_folder.py \
-    --folder ../../data/result_logs/llama \
+    --folder ../../data/result_logs/misc \
     --write_errors True
 """
 

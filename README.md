@@ -21,7 +21,7 @@ If the value from **1** is greater than the value from **2** we conclude that mo
 
 ## Data Release
 
-We present [`CalibraGPT/Fact-Completion.parquet`][hf_data]---a fact completion dataset with 303k fact-counterfact pairs in total. The dataset covers 20 languages, which use either the Latin or Cyrillic scripts: bg, ca, cs, da, de, en, es, fr, hr, hu, it, nl, pl, pt, ro, ru, sl, sr, sv, uk. The English cut of the dataset was sourced from [[1][bib]] and [[2][bib]]. We used the Google Translate API to generate the other 19 language cuts.
+We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion dataset with 303k fact-counterfact pairs in total. The dataset covers 20 languages, which use either the Latin or Cyrillic scripts: bg, ca, cs, da, de, en, es, fr, hr, hu, it, nl, pl, pt, ro, ru, sl, sr, sv, uk. The English cut of the dataset was sourced from [[1][bib]] and [[2][bib]]. We used the Google Translate API to generate the other 19 language cuts.
 
 ## Test Results
 
@@ -29,32 +29,36 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data]---a fact completion d
 
 ### **Multilingual** fact-completion results.
 
-| Model            | Authors     |  20 Language Average       |
-|------------------|--------------|:--------------:|
-| [llama](https://arxiv.org/abs/2302.13971) (30B) | Touvron et al., 2023 | **79.31** +/- 0.74| 
-| [m-bert-base](https://arxiv.org/abs/1810.04805) (110M) | Devlin et al., 2018 | **62.00** +/- 0.87 |
-| [bloom](https://arxiv.org/abs/2211.05100) (7B) | Scao et al., 2022 | **57.70** +/- 0.88 | 
-| [xlm-roberta-large](https://arxiv.org/abs/1911.02116) (355M) | Conneau et al., 2019 | **56.03** +/- 0.90 | 
-| [mt5-xl](https://arxiv.org/abs/2010.11934) (3.7B) | Xue et al., 2020 | **coming** +/- coming| 
-| Random Baseline | &nbsp; | 50 |
+| Model            | 20 Languages<br />(avg % correct)      | Num Params | Authors      |  Org   |
+|------------------|:--------------:|:--------------:|--------------|--------------|
+| [llama-30b](https://arxiv.org/abs/2302.13971) | **79.31** +/- 0.74 | 30B | Touvron et al., 2023 | Meta | 
+| [m-bert-base](https://arxiv.org/abs/1810.04805) |  **62.00** +/- 0.87 | 110M | Devlin et al., 2018 | Google |
+| [bloom-7b1](https://arxiv.org/abs/2211.05100) | **57.70** +/- 0.88 | 7B | Scao et al., 2022 | BigScience |
+| [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | **56.03** +/- 0.90 | 355M | Conneau et al., 2019 | Meta | 
+| [mt5-xl](https://arxiv.org/abs/2010.11934) |  **coming** +/- coming | 3.7B | Xue et al., 2020 | Google |
+| Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
 
 &nbsp;
 
 ### **English** fact-completion results.
 
-| Model            | Authors      | English      |
-|------------------|--------------|:--------------:|
-| [llama](https://arxiv.org/abs/2302.13971) (30B) | Touvron et al., 2023 | **89.40** +/- 0.38 | 
-| [gpt-neox](https://arxiv.org/abs/2204.06745) (20B) | Black et al., 2022 | **81.50** +/- 0.47 |
-| [gpt-j](https://github.com/kingoflolz/mesh-transformer-jax/#gpt-j-6b) (6B) | Wang et al., 2021 | **81.14** +/- 0.47 |
-| [t5-v1-xxl](https://arxiv.org/abs/1910.10683) (11B) | Raffel et al., 2019 | **76.55** +/- 0.52| 
-| [bloom](https://arxiv.org/abs/2211.05100) (7B) | Scao et al., 2022 | **76.16** +/- 0.51 | 
-| [gpt2-xl](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) (1.5B) | Radford et al., 2018 | **73.76** +/- 0.54 | 
-| [m-bert-base](https://arxiv.org/abs/1810.04805) (110M) | Devlin et al., 2018 | **71.80** +/- 0.55 | 
-| [mt5-xxl](https://arxiv.org/abs/2010.11934) (11B) | Xue et al., 2020 | **61.58** +/- 0.59| 
-| [xlm-roberta-large](https://arxiv.org/abs/1911.02116) (355M) | Conneau et al., 2019 | **61.55** +/- 0.59 | 
-| [mt5-xl](https://arxiv.org/abs/2010.11934) (3.7B) | Xue et al., 2020 | **59.96** +/- 0.59| 
-| Random Baseline | &nbsp; | 50   |  
+| Model            | English-only<br />(% correct)      | Num Params | Authors    |  Org   | 
+|------------------|:--------------:|:--------------:|--------------|--------------|
+| [llama-30b](https://arxiv.org/abs/2302.13971) | **89.40** +/- 0.38 |  30B |  Touvron et al., 2023 | Meta |
+| [llama-13b](https://arxiv.org/abs/2302.13971) | **86.66** +/- 0.42 |  13B |  Touvron et al., 2023 | Meta |
+| [llama-7b](https://arxiv.org/abs/2302.13971) | **85.53** +/- 0.43 |  7B |  Touvron et al., 2023 | Meta |
+| [obt-13b](https://arxiv.org/abs/2205.01068) | **81.94** +/- 0.46 | 13B |  Zhang et al., 2022 | Meta |
+| [gpt-neox-20b](https://arxiv.org/abs/2204.06745) | **81.50** +/- 0.47 | 20B |  Black et al., 2022 | EleutherAI |
+| [gpt-j-6b](https://github.com/kingoflolz/mesh-transformer-jax/#gpt-j-6B) |  **81.14** +/- 0.47 |  6B | Wang et al., 2021 | EleutherAI |
+| [pythia-12b](https://arxiv.org/abs/2304.01373) | **80.53** +/- 0.48 | 12B | Biderman et al., 2023 | EleutherAI|
+| [t5-v1-xxl](https://arxiv.org/abs/1910.10683) | **76.55** +/- 0.52 | 11B |  Raffel et al., 2019 | Google |
+| [bloom-7b1](https://arxiv.org/abs/2211.05100) | **76.16** +/- 0.51 |  7B |  Scao et al., 2022 | BigScience |
+| [gpt2-xl](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | **73.76** +/- 0.54 | 1.5B |  Radford et al., 2018 | OpenAI |
+| [m-bert-base](https://arxiv.org/abs/1810.04805) | **71.80** +/- 0.55 | 110M | Devlin et al., 2018 | Google | 
+| [mt5-xxl](https://arxiv.org/abs/2010.11934) | **61.58** +/- 0.59|  11B |  Xue et al., 2020 | Google |
+| [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | **61.55** +/- 0.59 | 355M | Conneau et al., 2019 | Meta |
+| [mt5-xl](https://arxiv.org/abs/2010.11934) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
+| Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; |  
 
 &nbsp;
 

@@ -4,14 +4,21 @@ Running post-processing for ../../data/result_logs/misc...
 	The language is english
 	There are 26254 stem/fact pairs in the log
 	The model got 76.548% of facts correct
-	The 95% uncertainty estimate is +/- 0.518%
+	The 95% uncertainty estimate is +/- 0.507%
 
 
 	The model name is EleutherAI/gpt-neox-20b
 	The language is english
 	There are 26254 stem/fact pairs in the log
 	The model got 81.5% of facts correct
-	The 95% uncertainty estimate is +/- 0.465%
+	The 95% uncertainty estimate is +/- 0.474%
+
+
+	The model name is facebook/opt-13b
+	The language is english
+	There are 26254 stem/fact pairs in the log
+	The model got 81.938% of facts correct
+	The 95% uncertainty estimate is +/- 0.463%
 
 
 	The model name is EleutherAI/gpt-j-6b
@@ -21,9 +28,37 @@ Running post-processing for ../../data/result_logs/misc...
 	The 95% uncertainty estimate is +/- 0.469%
 
 
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-7b
+	The language is english
+	There are 26254 stem/fact pairs in the log
+	The model got 85.534% of facts correct
+	The 95% uncertainty estimate is +/- 0.425%
+
+
 	The model name is gpt2-xl
 	The language is english
 	There are 26254 stem/fact pairs in the log
 	The model got 73.76% of facts correct
-	The 95% uncertainty estimate is +/- 0.535%
+	The 95% uncertainty estimate is +/- 0.533%
+
+
+	The model name is EleutherAI/pythia-12b
+	The language is english
+	There are 26254 stem/fact pairs in the log
+	The model got 80.529% of facts correct
+	The 95% uncertainty estimate is +/- 0.484%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-13b
+	The language is english
+	There are 26254 stem/fact pairs in the log
+	The model got 86.661% of facts correct
+	The 95% uncertainty estimate is +/- 0.411%
+
+
+	The model name is google/mt5-xxl
+	The language is english
+	There are 26254 stem/fact pairs in the log
+	The model got 61.575% of facts correct
+	The 95% uncertainty estimate is +/- 0.59%
 
