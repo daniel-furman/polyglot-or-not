@@ -40,9 +40,9 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 
 &nbsp;
 
-### **English-only** fact-completion results.
+### **English** fact-completion results.
 
-| Model            | English<br />(% correct)      | Num Params | Authors    |  Org   | 
+| Model            | English-only<br />(% correct)      | Num Params | Authors    |  Org   | 
 |------------------|:--------------:|:--------------:|--------------|--------------|
 | [llama-30b](https://arxiv.org/abs/2302.13971) | **89.40** +/- 0.38 |  30B |  Touvron et al., 2023 | Meta |
 | [llama-13b](https://arxiv.org/abs/2302.13971) | **86.66** +/- 0.42 |  13B |  Touvron et al., 2023 | Meta |
