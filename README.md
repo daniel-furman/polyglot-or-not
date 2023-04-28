@@ -25,11 +25,11 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 
 ## Test Results
 
+## Tables:
+
 **NB**: The bolded values indicate the overall percentage of fact completions adequately retrieved by the model. The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
 
 ### **Multilingual** fact-completion results.
-
-<center>
 
 | Model            | 20 Languages<br />(avg % correct)      | Num Params | Authors      |  Org   |
 |------------------|:--------------:|:--------------:|--------------|--------------|
@@ -40,15 +40,9 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 | [mt5-xl](https://arxiv.org/abs/2010.11934) |  **coming** +/- coming | 3.7B | Xue et al., 2020 | Google |
 | Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
 
-</center>
-
 &nbsp;
 
 ### **English** fact-completion results.
-
-![English test leaderboard](notebooks/viz/assets/english_h_bar_plot_final.png)
-
-<center>
 
 | Model            | English-only<br />(% correct)      | Num Params | Authors    |  Org   | 
 |------------------|:--------------:|:--------------:|--------------|--------------|
@@ -68,12 +62,19 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 | [mt5-xl](https://arxiv.org/abs/2010.11934) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
 | Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; |  
 
-</center>
+&nbsp;
 
+## Figures:
+
+**NB**: The percentage values in the bar plots indicate the overall percentage of fact completions adequately retrieved by the model.
+
+### **English** fact-completion results.
+
+![English test leaderboard](notebooks/viz/assets/english_h_bar_plot_final.png)
 
 &nbsp;
 
-### **LLaMa** fact-completion results across all 20 languages. 
+### **LLaMa** fact-completion results across 20 languages. 
 
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
