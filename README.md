@@ -29,6 +29,8 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 
 ### **Multilingual** fact-completion results.
 
+<center>
+
 | Model            | 20 Languages<br />(avg % correct)      | Num Params | Authors      |  Org   |
 |------------------|:--------------:|:--------------:|--------------|--------------|
 | [llama-30b](https://arxiv.org/abs/2302.13971) | **79.31** +/- 0.74 | 30B | Touvron et al., 2023 | Meta | 
@@ -38,14 +40,15 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 | [mt5-xl](https://arxiv.org/abs/2010.11934) |  **coming** +/- coming | 3.7B | Xue et al., 2020 | Google |
 | Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
 
+</center>
+
 &nbsp;
 
 ### **English** fact-completion results.
 
 ![English test leaderboard](notebooks/viz/assets/english_h_bar_plot_final.png)
 
-&nbsp;
-
+<center>
 
 | Model            | English-only<br />(% correct)      | Num Params | Authors    |  Org   | 
 |------------------|:--------------:|:--------------:|--------------|--------------|
@@ -64,6 +67,8 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 | [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | **61.55** +/- 0.59 | 355M | Conneau et al., 2019 | Meta |
 | [mt5-xl](https://arxiv.org/abs/2010.11934) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
 | Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; |  
+
+</center>
 
 
 &nbsp;
