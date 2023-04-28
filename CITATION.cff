@@ -3,11 +3,11 @@ message: "If you use this software, please cite it as below."
 preferred-citation:
   type: general
   authors:
-  - family-names: "Daniel"
-    given-names: "Furman"
-  - family-names: "Tim"
-    given-names: "Schott"
-  - family-names: "Shreshta"
-    given-names: "Bhat"
+  - family-names: "Furman"
+    given-names: "Daniel"
+  - family-names: "Schott"
+    given-names: "Timothy"
+  - family-names: "Bhat"
+    given-names: "Shreshta"
   title: "Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models"
   year: 2023
