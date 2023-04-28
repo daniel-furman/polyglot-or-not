@@ -66,15 +66,15 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 
 **NB**: The values in the bar plots indicate the overall percentage of fact completions adequately retrieved by the model.
 
-### **English** fact-completion results.
-
-![English test leaderboard](notebooks/viz/assets/english_h_bar_plot_final.png)
-
-&nbsp;
-
 ### **LLaMa** fact-completion results across 20 languages. 
 
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
+
+&nbsp;
+
+### **English** fact-completion results.
+
+![English test leaderboard](notebooks/viz/assets/english_h_bar_plot_final.png)
 
 &nbsp;
 
