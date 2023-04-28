@@ -42,6 +42,11 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 
 ### **English** fact-completion results.
 
+![English test leaderboard](notebooks/viz/assets/english_h_bar_plot_final.png)
+
+&nbsp;
+
+
 | Model            | English-only<br />(% correct)      | Num Params | Authors    |  Org   | 
 |------------------|:--------------:|:--------------:|--------------|--------------|
 | [llama-30b](https://arxiv.org/abs/2302.13971) | **89.40** +/- 0.38 |  30B |  Touvron et al., 2023 | Meta |
@@ -60,7 +65,6 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 | [mt5-xl](https://arxiv.org/abs/2010.11934) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
 | Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; |  
 
-![English test leaderboard](notebooks/viz/assets/english_h_bar_plot_final.png)
 
 &nbsp;
 
