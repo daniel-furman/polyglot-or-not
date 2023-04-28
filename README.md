@@ -23,9 +23,7 @@ If the value from **1** is greater than the value from **2** we conclude that mo
 
 We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion dataset with 303k fact-counterfact pairs in total. The dataset covers 20 languages, which use either the Latin or Cyrillic scripts: bg, ca, cs, da, de, en, es, fr, hr, hu, it, nl, pl, pt, ro, ru, sl, sr, sv, uk. The English cut of the dataset was sourced from [[1][bib]] and [[2][bib]]. We used the Google Translate API to generate the other 19 language cuts.
 
-## Test Results
-
-## Tables:
+## Tables: Test Results 
 
 **NB**: The bolded values indicate the overall percentage of fact completions adequately retrieved by the model. The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
 
@@ -64,9 +62,9 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 
 &nbsp;
 
-## Figures:
+## Figures: Test Results 
 
-**NB**: The percentage values in the bar plots indicate the overall percentage of fact completions adequately retrieved by the model.
+**NB**: The values in the bar plots indicate the overall percentage of fact completions adequately retrieved by the model.
 
 ### **English** fact-completion results.
 
