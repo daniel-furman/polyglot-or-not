@@ -35,7 +35,7 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 | [m-bert-base](https://arxiv.org/abs/1810.04805) |  **62.00** +/- 0.87 | 110M | Devlin et al., 2018 | Google |
 | [bloom-7b1](https://arxiv.org/abs/2211.05100) | **57.70** +/- 0.88 | 7B | Scao et al., 2022 | BigScience |
 | [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | **56.03** +/- 0.90 | 355M | Conneau et al., 2019 | Meta | 
-| [mt5-xl](https://arxiv.org/abs/2010.11934) |  **coming** +/- coming | 3.7B | Xue et al., 2020 | Google |
+| [mt5-xl](https://arxiv.org/abs/2010.11934) |  **52.51** +/- 0.91 | 3.7B | Xue et al., 2020 | Google |
 | Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
 
 &nbsp;
@@ -64,11 +64,17 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 
 ## Figures: Test Results 
 
-**NB**: The values in the bar plot indicate the overall percentage of fact completions adequately retrieved by the LLaMa-30b model across each language (blue), with English-only results for GPT-NeoX-20B (gray) and a Random Baseline (white) included for comparison.
+**NB**: The values in the bar plots indicate the percentage of fact completions adequately retrieved by the model. LLaMa models are displayed in blue, other foundation models are displayed in gray, and a Random Baseline is displayed in white with black borders.
 
 ### **LLaMa** fact-completion results across 20 languages. 
 
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
+
+&nbsp;
+
+### Fact-completion results averaged across 20 languages. 
+
+![Multilingual test leaderboard](notebooks/viz/assets/multilingual_h_bar_plot_final.png)
 
 &nbsp;
 
