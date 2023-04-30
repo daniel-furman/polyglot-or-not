@@ -64,7 +64,7 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 
 ## Figures: Test Results 
 
-**NB**: The values in the bar plots indicate the percentage of fact completions adequately retrieved by the LLaMa-30b model across each language (blue). The English-only results for GPT-NeoX-20B (gray) and a Random Baseline (white) were included for comparison.
+**NB**: The bar plot indicates the percentage of fact completions adequately retrieved by the LLaMa-30b model across each language (blue). Additionally, the GPT-NeoX-20B English results (gray) and a Random Baseline (white) are included for comparison.
 
 ### **LLaMa** fact-completion results across 20 languages. 
 
