@@ -248,9 +248,9 @@ def get_article_info(article_title, pageid, lang, cleanup_str, debug=False):
 
 # always search english and the native language in-case of translation inconsistencies
 def count_entities_in_article(
-    target_entities_multiling, article_content, spacy_models, lang, debug=False
+    target_entities_multiling, article_content, spacy_model, lang, debug=False
 ):
-    nlp = spacy_models[lang]
+    nlp = spacy_model
 
     all_entities = {}
 
