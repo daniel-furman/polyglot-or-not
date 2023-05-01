@@ -78,6 +78,7 @@ def load_spacy_models(code_to_spacy_model_dict):
 
     return container
 
+
 def get_mulitlingual_lookup(entity_analysis_df, code_to_lang_dict):
     # get lookup that connects the english form of an entity to its multilingual version
     # annoying that with the way the DF is set up right now, have to do manual cleanup to extract the translated forms
@@ -121,9 +122,7 @@ def get_wikipedia_pages(lang, limit=500, debug=False):
 
     if "query" not in obj or "random" not in obj["query"]:
         if debug:
-            print(
-                f"Unable to grab articles from {lang} using URL {url}."
-            )
+            print(f"Unable to grab articles from {lang} using URL {url}.")
         raise Exception
 
     mappings = obj["query"]["random"]
@@ -170,9 +169,7 @@ def get_article_info(article_title, pageid, lang, cleanup_str, debug=False):
     info_url = f"https://{lang}.wikipedia.org/w/api.php?action=query&format=json&titles={quoted_title}&prop=extracts&explaintext&format=json"
 
     if debug:
-        print(
-            f"calling {info_url} for info about {article_title} from {lang} wiki."
-        )
+        print(f"calling {info_url} for info about {article_title} from {lang} wiki.")
 
     # grab data
     try:
@@ -251,6 +248,7 @@ def get_article_info(article_title, pageid, lang, cleanup_str, debug=False):
 
     return {article_title: content}
 
+
 # always search english and the native language in-case of translation inconsistencies
 def count_entities_in_article(
     target_entities_multiling, article_content, spacy_model, lang, debug=False
@@ -300,7 +298,9 @@ def count_entities_in_article(
             all_entities[formatted_entity] += 1
 
     if debug:
-        print(f"{article_title} mentions {len(all_entities)} unique entities a total of {sum(list(all_entities.values()))} times.")
+        print(
+            f"{article_title} mentions {len(all_entities)} unique entities a total of {sum(list(all_entities.values()))} times."
+        )
 
     target_entities = {}
 
@@ -325,6 +325,8 @@ def count_entities_in_article(
                         target_entities[target_entity_english] = all_entities[e]
 
     if debug:
-        print(f"{article_title} mentions {len(target_entities)} target entities a total of {sum(list(target_entities.values()))} times.")
+        print(
+            f"{article_title} mentions {len(target_entities)} target entities a total of {sum(list(target_entities.values()))} times."
+        )
 
     return word_count, all_entities, target_entities
