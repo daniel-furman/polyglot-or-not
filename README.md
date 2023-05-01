@@ -25,7 +25,7 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 
 ## Test Results 
 
-**NB**: The bolded values in the tables below indicate the overall percentage of fact completions adequately retrieved by the model. The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
+**NB**: The bolded values in the tables indicate the percentage of fact completions adequately retrieved by the model. The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
 
 ### **Multilingual** fact-completion results.
 
@@ -37,6 +37,8 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 | [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | **56.03** +/- 0.90 | 355M | Conneau et al., 2019 | Meta | 
 | [mt5-xl](https://arxiv.org/abs/2010.11934) |  **52.51** +/- 0.91 | 3.7B | Xue et al., 2020 | Google |
 | Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
+
+**Table 1**: Insert caption.
 
 &nbsp;
 
@@ -60,13 +62,16 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 | [mt5-xl](https://arxiv.org/abs/2010.11934) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
 | Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; |  
 
-&nbsp;
+**Table 2**: Insert caption.
 
-**NB**: The bar plot below indicates the overall percentage of fact completions adequately retrieved by the LLaMa-30b model across each language (blue). Other models and a Random Baseline are also included for comparison.
+
+&nbsp;
 
 ### **LLaMa** fact-completion results across 20 languages. 
 
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
+
+**Figure 1**: The bar plot indicates the percentage of fact completions adequately retrieved across languages by the LLaMa-30b model (blue). Two English-only models (gray) and a random baseline (white) were also included for comparison's sake. Overall, the LLaMa model performed significantly better on the sixteen Latin script languages compared to the four Cyrillic script languages (i.e., the bottom four languages).
 
 &nbsp;
 
