@@ -204,11 +204,16 @@ def get_article_info(article_title, pageid, lang, cleanup_str, debug=False):
     # get pageid of the returned article
     data_pageid = list(obj["query"]["pages"].keys())[0]
 
+    if debug:
+        print(
+            f"retrieved {data_pageid} corresponding to {article_title} on {lang} wiki."
+        )
+
     # double check pageid matches the one returned by API
-    if data_pageid != str(pageid):
+    if str(data_pageid) != str(pageid):
         if debug:
             print(
-                f"id mismatch -- excpected {pageid} but retrieved {data_pageid} for {article_title} on {lang} wiki."
+                f"id mismatch -- expected {pageid} but retrieved {data_pageid} for {article_title} on {lang} wiki."
             )
         return {}
 
@@ -254,7 +259,7 @@ def count_entities_in_article(
 
     all_entities = {}
 
-    if article_content is None or article_content == {}:
+    if article_content is None or bool(article_content) == False:
         if debug:
             print("article content is empty.")
         return {}
