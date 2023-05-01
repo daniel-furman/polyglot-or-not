@@ -52,9 +52,6 @@ CODE_TO_WIKI_CLEANUP_DICT = {
     "uk": "Література",
 }
 
-# one could change this to a different model like their
-# transformer based variant
-# but that is not available for every language we want to work with
 CODE_TO_SPACY_MODEL_DICT = {
     "ca": "ca_core_news_lg",
     "da": "da_core_news_lg",
@@ -247,15 +244,6 @@ def get_article_info(article_title, pageid, lang, cleanup_str, debug=False):
     content = re.sub(r"\s{2,}", "", content)
 
     return {article_title: content}
-
-
-# for inputted article content
-# how many entities appear in the article?
-# (total as well as unique)
-# how many of our target entities appear in the text?
-# (total as well as unique)
-# how many words are in the article?
-
 
 # always search english and the native language in-case of translation inconsistencies
 def count_entities_in_article(
