@@ -79,7 +79,7 @@ def load_spacy_models(code_to_spacy_model_dict):
     return container
 
 
-def get_mulitlingual_lookup(entity_analysis_df):
+def get_mulitlingual_lookup(entity_analysis_df, code_to_lang_dict):
     # get lookup that connects the english form of an entity to its multilingual version
     # annoying that with the way the DF is set up right now, have to do manual cleanup to extract the translated forms
     # should update the other NB so that it ouptuts a well formatted json into the column
@@ -121,7 +121,7 @@ def get_wikipedia_pages(lang, debug=False):
     if "query" not in obj or "random" not in obj["query"]:
         if debug:
             print(
-                f"Unable to grab articles from {code_to_lang_dict[lang]} using URL {url}."
+                f"Unable to grab articles from {lang} using URL {url}."
             )
         raise Exception
 
@@ -131,7 +131,7 @@ def get_wikipedia_pages(lang, debug=False):
         ids[m["id"]] = m["title"]
 
     if debug:
-        print(f"Fetched {len(ids)} articles from {code_to_lang_dict[lang]} wikipedia")
+        print(f"Fetched {len(ids)} articles from {lang} wikipedia")
     return ids
 
 
