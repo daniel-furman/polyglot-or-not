@@ -171,7 +171,7 @@ def get_article_info(article_title, pageid, lang, cleanup_str, debug=False):
 
     if debug:
         print(
-            f"calling {info_url} to retrieve info about {article_title} from {lang} wiki."
+            f"calling {info_url} for info about {article_title} from {lang} wiki."
         )
 
     # grab data
@@ -206,7 +206,7 @@ def get_article_info(article_title, pageid, lang, cleanup_str, debug=False):
 
     if debug:
         print(
-            f"retrieved {data_pageid} corresponding to {article_title} on {lang} wiki."
+            f"retrieved pageid {data_pageid} corresponding to {article_title} on {lang} wiki."
         )
 
     # double check pageid matches the one returned by API
@@ -300,10 +300,7 @@ def count_entities_in_article(
             all_entities[formatted_entity] += 1
 
     if debug:
-        print(f"{article_title} mentions {len(all_entities)} unique entities.")
-        print(
-            f"{article_title} includes {sum(list(all_entities.values()))} entity mentions"
-        )
+        print(f"{article_title} mentions {len(all_entities)} unique entities a total of {sum(list(all_entities.values()))} times.")
 
     target_entities = {}
 
@@ -328,9 +325,6 @@ def count_entities_in_article(
                         target_entities[target_entity_english] = all_entities[e]
 
     if debug:
-        print(f"{article_title} mentions {len(target_entities)} target entities.")
-        print(
-            f"{article_title} includes {sum(list(target_entities.values()))} target entity mentions."
-        )
+        print(f"{article_title} mentions {len(target_entities)} target entities a total of {sum(list(target_entities.values()))} times.")
 
     return word_count, all_entities, target_entities
