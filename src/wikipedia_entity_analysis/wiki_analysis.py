@@ -205,7 +205,7 @@ def get_article_info(article_title, pageid, lang, cleanup_str, debug=False):
     data_pageid = list(obj["query"]["pages"].keys())[0]
 
     # double check pageid matches the one returned by API
-    if data_pageid != pageid:
+    if data_pageid != str(pageid):
         if debug:
             print(
                 f"id mismatch -- excpected {pageid} but retrieved {data_pageid} for {article_title} on {lang} wiki."
@@ -254,7 +254,7 @@ def count_entities_in_article(
 
     all_entities = {}
 
-    if article_content is None:
+    if article_content is None or article_content == {}:
         if debug:
             print("article content is empty.")
         return {}
