@@ -78,7 +78,6 @@ def load_spacy_models(code_to_spacy_model_dict):
 
     return container
 
-
 def get_mulitlingual_lookup(entity_analysis_df, code_to_lang_dict):
     # get lookup that connects the english form of an entity to its multilingual version
     # annoying that with the way the DF is set up right now, have to do manual cleanup to extract the translated forms
@@ -104,9 +103,9 @@ def get_mulitlingual_lookup(entity_analysis_df, code_to_lang_dict):
 
 # for a given language, randomly sample <n> articles (max of 500).
 # return a dict of their id and title.
-def get_wikipedia_pages(lang, debug=False):
+def get_wikipedia_pages(lang, limit=500, debug=False):
     # construct URL for API call
-    articles_url = f"https://{lang}.wikipedia.org/w/api.php?action=query&list=random&format=json&rnnamespace=0&rnlimit=50&format=json"
+    articles_url = f"https://{lang}.wikipedia.org/w/api.php?action=query&list=random&format=json&rnnamespace=0&rnlimit={str(limit)}&format=json"
 
     # grab data
     url = urllib.request.urlopen(articles_url)
