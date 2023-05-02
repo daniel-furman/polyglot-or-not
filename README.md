@@ -25,55 +25,56 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 
 ## Test Results 
 
-**NB**: The bolded values in the tables indicate the percentage of fact completions adequately retrieved by the model. The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
-
-### **Multilingual** fact-completion results.
-
-| Model            | 20 Languages<br />(avg % correct)      | Num Params | Authors      |  Org   |
-|------------------|:--------------:|:--------------:|--------------|--------------|
-| [llama-30b](https://arxiv.org/abs/2302.13971) | **79.31** +/- 0.74 | 30B | Touvron et al., 2023 | Meta | 
-| [m-bert-base](https://arxiv.org/abs/1810.04805) |  **62.00** +/- 0.87 | 110M | Devlin et al., 2018 | Google |
-| [bloom-7b1](https://arxiv.org/abs/2211.05100) | **57.70** +/- 0.88 | 7B | Scao et al., 2022 | BigScience |
-| [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | **56.03** +/- 0.90 | 355M | Conneau et al., 2019 | Meta | 
-| [mt5-xl](https://arxiv.org/abs/2010.11934) |  **52.51** +/- 0.91 | 3.7B | Xue et al., 2020 | Google |
-| Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
-
-**Table 1**: Insert caption.
-
-&nbsp;
-
-### **English** fact-completion results.
-
-| Model            | English-only<br />(% correct)      | Num Params | Authors    |  Org   | 
-|------------------|:--------------:|:--------------:|--------------|--------------|
-| [llama-30b](https://arxiv.org/abs/2302.13971) | **89.40** +/- 0.38 |  30B |  Touvron et al., 2023 | Meta |
-| [llama-13b](https://arxiv.org/abs/2302.13971) | **86.66** +/- 0.42 |  13B |  Touvron et al., 2023 | Meta |
-| [llama-7b](https://arxiv.org/abs/2302.13971) | **85.53** +/- 0.43 |  7B |  Touvron et al., 2023 | Meta |
-| [opt-13b](https://arxiv.org/abs/2205.01068) | **81.94** +/- 0.46 | 13B |  Zhang et al., 2022 | Meta |
-| [gpt-neox-20b](https://arxiv.org/abs/2204.06745) | **81.50** +/- 0.47 | 20B |  Black et al., 2022 | EleutherAI |
-| [gpt-j-6b](https://github.com/kingoflolz/mesh-transformer-jax/#gpt-j-6B) |  **81.14** +/- 0.47 |  6B | Wang et al., 2021 | EleutherAI |
-| [pythia-12b](https://arxiv.org/abs/2304.01373) | **80.53** +/- 0.48 | 12B | Biderman et al., 2023 | EleutherAI|
-| [t5-v1-xxl](https://arxiv.org/abs/1910.10683) | **76.55** +/- 0.52 | 11B |  Raffel et al., 2019 | Google |
-| [bloom-7b1](https://arxiv.org/abs/2211.05100) | **76.16** +/- 0.51 |  7B |  Scao et al., 2022 | BigScience |
-| [gpt2-xl](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | **73.76** +/- 0.54 | 1.5B |  Radford et al., 2018 | OpenAI |
-| [m-bert-base](https://arxiv.org/abs/1810.04805) | **71.80** +/- 0.55 | 110M | Devlin et al., 2018 | Google | 
-| [mt5-xxl](https://arxiv.org/abs/2010.11934) | **61.58** +/- 0.59|  11B |  Xue et al., 2020 | Google |
-| [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | **61.55** +/- 0.59 | 355M | Conneau et al., 2019 | Meta |
-| [mt5-xl](https://arxiv.org/abs/2010.11934) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
-| Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; |  
-
-**Table 2**: Insert caption.
-
-
-&nbsp;
-
-### **LLaMa** fact-completion results across 20 languages. 
+### **LLaMa-30B** fact-completion results across 20 languages. 
 
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
-**Figure 1**: The bar plot indicates the percentage of fact completions adequately retrieved across languages by the LLaMa-30b model (blue). Two English-only models (gray) and a random baseline (white) were also included for comparison's sake. Overall, the LLaMa model performed significantly better on the sixteen Latin script languages compared to the four Cyrillic script languages (i.e., the bottom four languages).
+**Figure 1**: The bar plot indicates the percentage of fact completions adequately retrieved by the LLaMa-30b model across languages (blue). Two English-only models (gray) and a random baseline (white) are also displayed. Overall, the LLaMa model performed significantly better on Latin script (top sixteen languages) compared to Cyrillic script (bottom four languages).
 
 &nbsp;
+
+**NB**: The bolded values in the tables below indicate the percentage of fact completions adequately retrieved by the given model. The uncertainty estimates (+/-) represent 95% confidence intervals and were computed from 10000 bootstrap iterations.
+ 
+ ### **Multilingual** fact-completion results.
+ 
+ | Model            | 20 Languages<br />(avg % correct)      | Num Params | Authors      |  Org   |
+ |------------------|:--------------:|:--------------:|--------------|--------------|
+ | [llama-30b](https://arxiv.org/abs/2302.13971) | **79.31** +/- 0.74 | 30B | Touvron et al., 2023 | Meta | 
+ | [m-bert-base](https://arxiv.org/abs/1810.04805) |  **62.00** +/- 0.87 | 110M | Devlin et al., 2018 | Google |
+ | [bloom-7b1](https://arxiv.org/abs/2211.05100) | **57.70** +/- 0.88 | 7B | Scao et al., 2022 | BigScience |
+ | [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | **56.03** +/- 0.90 | 355M | Conneau et al., 2019 | Meta | 
+ | [mt5-xl](https://arxiv.org/abs/2010.11934) |  **52.51** +/- 0.91 | 3.7B | Xue et al., 2020 | Google |
+ | Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
+ 
+ **Table 1**: Insert caption.
+ 
+ &nbsp;
+ 
+ ### **English** fact-completion results.
+ 
+ | Model            | English-only<br />(% correct)      | Num Params | Authors    |  Org   | 
+ |------------------|:--------------:|:--------------:|--------------|--------------|
+ | [llama-30b](https://arxiv.org/abs/2302.13971) | **89.40** +/- 0.38 |  30B |  Touvron et al., 2023 | Meta |
+ | [llama-13b](https://arxiv.org/abs/2302.13971) | **86.66** +/- 0.42 |  13B |  Touvron et al., 2023 | Meta |
+ | [llama-7b](https://arxiv.org/abs/2302.13971) | **85.53** +/- 0.43 |  7B |  Touvron et al., 2023 | Meta |
+ | [opt-13b](https://arxiv.org/abs/2205.01068) | **81.94** +/- 0.46 | 13B |  Zhang et al., 2022 | Meta |
+ | [gpt-neox-20b](https://arxiv.org/abs/2204.06745) | **81.50** +/- 0.47 | 20B |  Black et al., 2022 | EleutherAI |
+ | [gpt-j-6b](https://github.com/kingoflolz/mesh-transformer-jax/#gpt-j-6B) |  **81.14** +/- 0.47 |  6B | Wang et al., 2021 | EleutherAI |
+ | [pythia-12b](https://arxiv.org/abs/2304.01373) | **80.53** +/- 0.48 | 12B | Biderman et al., 2023 | EleutherAI|
+ | [t5-v1-xxl](https://arxiv.org/abs/1910.10683) | **76.55** +/- 0.52 | 11B |  Raffel et al., 2019 | Google |
+ | [bloom-7b1](https://arxiv.org/abs/2211.05100) | **76.16** +/- 0.51 |  7B |  Scao et al., 2022 | BigScience |
+ | [gpt2-xl](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | **73.76** +/- 0.54 | 1.5B |  Radford et al., 2018 | OpenAI |
+ | [m-bert-base](https://arxiv.org/abs/1810.04805) | **71.80** +/- 0.55 | 110M | Devlin et al., 2018 | Google | 
+ | [mt5-xxl](https://arxiv.org/abs/2010.11934) | **61.58** +/- 0.59|  11B |  Xue et al., 2020 | Google |
+ | [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | **61.55** +/- 0.59 | 355M | Conneau et al., 2019 | Meta |
+ | [mt5-xl](https://arxiv.org/abs/2010.11934) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
+ | Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; |  
+ 
+ **Table 2**: Insert caption.
+ 
+ 
+ &nbsp;
+ 
 
 ## Authors
 
