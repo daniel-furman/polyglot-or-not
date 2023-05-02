@@ -29,9 +29,13 @@ The factual associations were originally derived from Wikidata curated in the T-
 
 ## Test Results 
 
-&nbsp;
+### **LLaMa-30B** multilingual performance.
 
- **NB**: The bolded values in the tables indicate the percentage of fact completions adequately retrieved by the given model. The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
+![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_final.png)
+
+**Figure 1**: The percentage of fact completions adequately retrieved by the LLaMa-30b model per language (blue). Overall, LLaMa-30b performs much better on Latin script compared to Cyrillic. A chi-square test was run with the null hypothesis that language script was independent from the LLaMa-30b performance, the results of which were statistically significant with *p* < 0.001.
+ 
+&nbsp;
  
  ### **Multilingual** fact-completion results.
  
@@ -43,19 +47,7 @@ The factual associations were originally derived from Wikidata curated in the T-
  | [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | **56.03** +/- 0.90 | 355M | Conneau et al., 2019 | Meta | 
  | [mt5-xl](https://arxiv.org/abs/2010.11934) |  **52.51** +/- 0.91 | 3.7B | Xue et al., 2020 | Google |
  | Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
- 
- **Table 1**: Insert caption.
 
- &nbsp;
-
- ### **LLaMa-30B** multilingual performance.
-
-![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_final.png)
-
-**Figure 1**: The percentage of fact completions adequately retrieved by the LLaMa-30b model per language (blue). Overall, LLaMa-30b performs much better on Latin script compared to Cyrillic. A chi-square test was run with the *null* hypothesis that language script was independent from the LLaMa-30b performance, the results of which were statistically significant with *p* < 0.001.
- 
- &nbsp;
- 
  ### **English** fact-completion results.
  
  | Model            | English-only<br />(% correct)      | Num Params | Authors    |  Org   | 
@@ -79,7 +71,7 @@ The factual associations were originally derived from Wikidata curated in the T-
  | [mt5-xl](https://arxiv.org/abs/2010.11934) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
  | Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; |  
  
- **Table 2**: Insert caption.
+ **Tables 1 & 2**: The bolded values indicate the percentage of fact completions adequately retrieved by the given model. The uncertainty estimates (+/-) are 95% confidence intervals computed from 10000 bootstrap iterations.
  
  &nbsp;
  
