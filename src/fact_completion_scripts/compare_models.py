@@ -17,7 +17,7 @@ from transformers import (
     AutoModelForSeq2SeqLM,
 )
 
-from probe_helpers import probe_gpt, probe_bert, probe_llama, probe_t5
+from probe_helpers import probe_gpt, probe_bert, probe_llama, probe_t5, probe_stablelm
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 if not torch.cuda.is_available():
@@ -38,6 +38,7 @@ def get_model_and_tokenizer(model_name):
         or ("opt" in model_name.lower())
         or ("pythia" in model_name.lower())
         or ("bloom" in model_name.lower())
+        or ("stablelm" in model_name.lower())
     ):
         return AutoTokenizer.from_pretrained(
             model_name
@@ -67,7 +68,7 @@ def get_model_and_tokenizer(model_name):
 
 # next, write a helper to pull a probe function for the given LM
 def get_probe_function(prefix):
-    probe_functions = [probe_gpt, probe_bert, probe_llama, probe_t5]
+    probe_functions = [probe_gpt, probe_bert, probe_llama, probe_t5, probe_stablelm]
     for func in probe_functions:
         if prefix.lower() in func.__name__:
             return func
@@ -146,6 +147,10 @@ def compare_models(model_name_list, input_dataset, verbose):
             prefix = "bloom"
             probe_func = get_probe_function("gpt")
 
+        elif "stablelm" in model_name.lower():
+            prefix = "stablelm"
+            probe_func = get_probe_function(prefix)
+
         # iterate over context/entity pairings
         # input_dataset is a datasets dataset
         # context is a plain string (since our context's will be unique)
@@ -203,7 +208,10 @@ def compare_models(model_name_list, input_dataset, verbose):
                     target_id = torch.tensor(target_ids).to(device)[0][0]
 
                 elif (
-                    (prefix == "gpt") or (prefix == "eleutherai") or (prefix == "bloom")
+                    (prefix == "gpt")
+                    or (prefix == "eleutherai")
+                    or (prefix == "bloom")
+                    or (prefix == "stablelm")
                 ):
                     target_id = tokenizer.encode(" " + entity, return_tensors="pt").to(
                         device
