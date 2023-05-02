@@ -33,7 +33,7 @@ The factual associations were originally derived from Wikidata curated in the T-
 
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_final.png)
 
-**Figure 1**: The percentage of fact completions adequately retrieved by the LLaMa-30b model per language (blue). Overall, LLaMa-30b performs much better on Latin script compared to Cyrillic. A chi-square test was run with the null hypothesis that language script was independent from the LLaMa-30b performance, the results of which were statistically significant with *p* < 0.001.
+**Figure 1**: The percentage of fact completions adequately retrieved by the LLaMa-30b model per language (blue). Overall, LLaMa-30b performs much better on Latin script compared to Cyrillic. A chi-square test was run with the null hypothesis that language script was independent from the LLaMa-30b performance, the results of which were statistically significant with *p* < 0.001 (suggesting a rejction of the null hypothesis).
  
 &nbsp;
  
