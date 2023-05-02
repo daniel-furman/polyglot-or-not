@@ -23,7 +23,7 @@ If the value from **Step 1** is greater than the value from **Step 2** we conclu
 
 We present 303k unique fact-completions in [`CalibraGPT/Fact-Completion.parquet`][hf_data], which are in the form of stem-fact-counterfact triples. See the [dataset viewer](https://huggingface.co/datasets/CalibraGPT/Fact-Completion/viewer/CalibraGPT--Fact-Completion/English) for a closer look. 
 
-The factual associations were originally derived from Wikidata curated in the T-REx dataset [[3][bib]]. Since the T-REx dataset is English-only, we used the Google Translate API to programmatically generate the 19 non-English cuts. We then had a handful of native speakers review small samples of the dataset for select languages to validate the faithfulness of the translations. Despite the positive sentiment from these reviews, minor language translation errors likely persist in small amounts within the dataset. 
+The factual associations were originally derived from Wikidata curated in the T-REx dataset [[3][bib]]. Since the T-REx dataset is English-only, we used the Google Translate API to programmatically generate the non-English cuts. We then had a handful of native speakers review small samples of the dataset for select languages to validate the faithfulness of the translations. Despite the positive sentiment from these reviews, minor language translation errors likely persist in small amounts within the dataset. 
 
 * 20 Latin/Cyrillic script languages are included. Their ISO 639-1 language codes are: bg, ca, cs, da, de, en, es, fr, hr, hu, it, nl, pl, pt, ro, ru, sl, sr, sv, and uk. 
 
