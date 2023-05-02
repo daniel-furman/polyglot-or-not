@@ -1,6 +1,6 @@
 # Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://github.com/daniel-furman/Capstone/blob/main/LICENSE) 
+[![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/LICENSE) 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
 
@@ -17,7 +17,7 @@ Given a factual association such as *The capital of France is **Paris***, we det
 * Step **1**: prompt the model to predict the likelihood of the token **Paris** following *The Capital of France is*
 * Step **2**: prompt the model to predict the average likelihood of a set of false, counterfactual tokens following the same stem.
  
-If the value from **1** is greater than the value from **2** we conclude that model adequately recalls that fact. Formally, this is an application of the Contrastive Knowledge Assessment proposed in [[1][bib]]. For every foundation model of interest (like [LLaMa](https://arxiv.org/abs/2302.13971)), we perform this assessment on a set of facts translated into 20 languages. All told, we score foundation models on 303k fact-completions ([results](https://github.com/daniel-furman/capstone#multilingual-fact-completion-results)). We also score monolingual models (like [GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)) on English-only fact-completion ([results](https://github.com/daniel-furman/capstone#english-fact-completion-results)).
+If the value from **1** is greater than the value from **2** we conclude that model adequately recalls that fact. Formally, this is an application of the Contrastive Knowledge Assessment proposed in [[1][bib]]. For every foundation model of interest (like [LLaMa](https://arxiv.org/abs/2302.13971)), we perform this assessment on a set of facts translated into 20 languages. All told, we score foundation models on 303k fact-completions ([results](https://github.com/daniel-furman/Polyglot-or-Not#multilingual-fact-completion-results)). We also score monolingual models (like [GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)) on English-only fact-completion ([results](https://github.com/daniel-furman/Polyglot-or-Not#english-fact-completion-results)).
 
 ## Data Release
 
@@ -96,7 +96,7 @@ Please cite this repository as follows if you use its data or code:
   title = {Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models},
   year = {2023}
   publisher = {GitHub},
-  howpublished = {\url{https://github.com/daniel-furman/Capstone}},
+  howpublished = {\url{https://github.com/daniel-furman/Polyglot-or-Not}},
 }
 ```
 
@@ -109,12 +109,12 @@ Please cite this repository as follows if you use its data or code:
 [3] ElSahar, Hady, Pavlos Vougiouklis, Arslen Remaci, Christophe Gravier, Jonathon S. Hare, Frédérique Laforest and Elena Paslaru Bontas Simperl. “T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples.” International Conference on Language Resources and Evaluation. [Link][trex] (2018).
 
 
-[bib]: https://github.com/daniel-furman/Capstone#bibliography
+[bib]: https://github.com/daniel-furman/Polyglot-or-Not#bibliography
 [hf_data]: https://huggingface.co/datasets/CalibraGPT/Fact-Completion
 [cka]: https://arxiv.org/abs/2210.03329
 [memit]: https://arxiv.org/abs/2210.07229
 [mmlu]: https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu
 [mmlu_paper]: https://arxiv.org/abs/2009.03300
 [trex]: http://aclanthology.lst.uni-saarland.de/L18-1544.pdf
-[cka_lightweight_demo]: https://github.com/daniel-furman/Capstone/blob/main/notebooks/fact_completion_notebooks/fact-completion-lightweight-demo.ipynb
-[cka_run_main]: https://github.com/daniel-furman/Capstone/blob/main/notebooks/fact_completion_notebooks/fact-completion-full-benchmark.ipynb
+[cka_lightweight_demo]: https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/fact_completion_notebooks/fact-completion-lightweight-demo.ipynb
+[cka_run_main]: https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/fact_completion_notebooks/fact-completion-full-benchmark.ipynb
