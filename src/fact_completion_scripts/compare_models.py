@@ -17,7 +17,7 @@ from transformers import (
     AutoModelForSeq2SeqLM,
 )
 
-# from probe_helpers import probe_gpt, probe_bert, probe_llama, probe_t5, probe_stablelm
+from probe_helpers import probe_gpt, probe_bert, probe_llama, probe_t5, probe_stablelm
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 if not torch.cuda.is_available():
