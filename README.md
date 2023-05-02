@@ -21,7 +21,7 @@ If the value from **1** is greater than the value from **2** we conclude that mo
 
 ## Data Release
 
-We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion dataset with 303k fact-counterfact pairs in total. The dataset covers 20 languages, which use either the Latin or Cyrillic scripts: bg, ca, cs, da, de, en, es, fr, hr, hu, it, nl, pl, pt, ro, ru, sl, sr, sv, uk. The English cut of the dataset was sourced from [[1][bib]] and [[2][bib]]. We used the Google Translate API to generate the other 19 language cuts.
+We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion dataset with 303k fact-counterfact pairs in total. The dataset covers 20 languages, which use either the Latin or Cyrillic scripts: bg, ca, cs, da, de, en, es, fr, hr, hu, it, nl, pl, pt, ro, ru, sl, sr, sv, uk (ISO 639-1 language codes). The English cut of the dataset was sourced from [[1][bib]] and [[2][bib]]. We used the Google Translate API to generate the other 19 language cuts.
 
 ## Test Results 
 
@@ -29,7 +29,7 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
-**Figure 1**: The bar plot indicates the percentage of fact completions adequately retrieved by the LLaMa-30b model across languages (blue). Two English-only models (gray) and a random baseline (white) are also displayed. Overall, the LLaMa model performed better on Latin script (the top sixteen languages) compared to Cyrillic script (the bottom four languages) (p < 0.001).
+ **Figure 1**: The bar plot indicates the percentage of fact completions adequately retrieved by the LLaMa-30b model across languages (blue). Two English-only models (gray) and a random baseline (white) are also displayed. Overall, the LLaMa model performed better on Latin script (the top sixteen languages) compared to Cyrillic script (the bottom four languages). Formally, we ran a chi-squared test and rejected the null hypothesis (p < 0.001) that language script is independent from LLaMa-30B's fact-completion test performance.
 
 &nbsp;
 
