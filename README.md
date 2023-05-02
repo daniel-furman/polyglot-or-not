@@ -48,7 +48,7 @@ The factual associations were originally derived from Wikidata curated in the T-
 
  &nbsp;
 
- ### **LLaMa-30B** fact-completion results across 20 languages. 
+ ### **LLaMa-30B** multilingual performance.
 
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_final.png)
 
