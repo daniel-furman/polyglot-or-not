@@ -29,7 +29,7 @@ We present [`CalibraGPT/Fact-Completion.parquet`][hf_data], a fact completion da
 
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
- **Figure 1**: The bar plot indicates the percentage of fact completions adequately retrieved by the LLaMa-30b model across languages (blue). Two English-only models (gray) and a random baseline (white) are also displayed. Overall, the LLaMa model performed better on Latin script (the top sixteen languages) compared to Cyrillic script (the bottom four languages). Formally, we ran a chi-squared test and rejected the null hypothesis (p < 0.001) that language script is independent from LLaMa-30B's fact-completion test performance.
+**Figure 1**: The bar plot indicates the percentage of fact completions adequately retrieved by the LLaMa-30b model across languages (blue). Two English-only models (gray) and a random baseline (white) are also displayed. Overall, the LLaMa model performed much better on Latin script languages (the top sixteen performing languages) compared to Cyrillic script languages (the bottom four performing languages). We ran a chi-square test to probe statisitcal significance, the results of which suggested to reject the null hypothesis (p < 0.001) that language script is independent from the LLaMa-30B test results.
 
 &nbsp;
 
