@@ -1,0 +1,16 @@
+code,lang,average_words,average_total_entities,average_unique_entities,average_total_target_entities,average_unique_target_entities,language_script,language_family,LLama_score
+ca:,Catalan,386.4352,26.507,19.5319,3.8204,2.3064,Latin,Romance,84.01
+da:,Danish,255.7695,22.7107,16.897,3.2939,2.0761,Latin,Germanic,81.79
+de:,German,418.5911,40.9469,30.4609,3.9036,2.4097,Latin,Germanic,85.74
+en:,English,463.1478,70.1181,50.1902,6.8614,3.6812,latin,Germanic,89.4
+es:,Spanish,470.5506,33.0414,23.8025,4.2502,2.4056,Latin,Romance,81.74
+fr:,French,491.9274,36.8189,26.2652,4.4849,2.5791,Latin,Romance,84.18
+hr:,Croatian,273.2872,24.9753,19.6839,0.8701,0.5975,Latin,Slavic,76.69
+it:,Italian,391.6706,31.0902,21.523,3.9515,2.2414,Latin,Romance,84.39
+nl:,Dutch,156.5349,25.2445,19.7739,1.8523,1.2847,Latin,Germanic,85.35
+pl:,Polish,214.2879,32.7062,25.7368,0.8957,0.5988,Latin,Slavic,77.5
+pt:,Portuguese,320.4374,24.9513,17.8573,3.5956,2.1765,Latin,Romance,83.81
+ro:,Romanian,231.1006,42.7232,33.6824,2.391,1.6158,Latin,Romance,82.72
+ru:,Russian,382.836,35.7028,26.3572,0.8568,0.5799,Cyrillic,Slavic,69.72
+sv:,Swedish,95.03,9.3638,7.4199,1.2957,0.9476,Latin,Germanic,84.06
+uk:,Ukrainian,283.6425,25.317,19.8953,1.2068,0.7938,Cyrillic,Slavic,73
