@@ -73,8 +73,8 @@ The factual associations were originally derived from Wikidata curated in the T-
  | [m-bert-base](https://arxiv.org/abs/1810.04805) | **71.80** +/- 0.55 | 110M | Devlin et al., 2018 | Google | 
  | [mt5-xxl](https://arxiv.org/abs/2010.11934) | **61.58** +/- 0.59|  11B |  Xue et al., 2020 | Google |
  | [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | **61.55** +/- 0.59 | 355M | Conneau et al., 2019 | Meta |
- | [stablelm-base-7b](https://github.com/Stability-AI/StableLM) | **coming** +/- coming | 7B | &nbsp; | Stability AI |
  | [mt5-xl](https://arxiv.org/abs/2010.11934) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
+  | [stablelm-base-7b](https://github.com/Stability-AI/StableLM) | **coming** +/- coming | 7B | Stability et al., 2023 | Stability AI |
  | Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; |  
  
  **Table 2**: Insert caption.
