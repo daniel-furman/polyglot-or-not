@@ -29,15 +29,9 @@ The factual associations were originally derived from Wikidata curated in the T-
 
 ## Test Results 
 
-### **LLaMa-30B** fact-completion results across 20 languages. 
-
-![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_final.png)
-
-**Figure 1**: The bar plot indicates the percentage of fact completions adequately retrieved by the LLaMa-30b model per language (blue). Overall, LLaMa proved superior for languages with a Latin script compared to a Cyrillic script, as all four Cyrillic languages ranked at the bottom. A chi-square test was run with the null hypothesis that script was independent from the LLaMa-30B evaluation performance, the results of which were statistically significant with *p* < 0.001.
-
 &nbsp;
 
-**NB**: The bolded values in the tables below indicate the percentage of fact completions adequately retrieved by the given model. The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
+ **NB**: The bolded values in the tables indicate the percentage of fact completions adequately retrieved by the given model. The uncertainty estimates (+/-) represent 95% confidence intervals computed from 10000 bootstrap iterations.
  
  ### **Multilingual** fact-completion results.
  
@@ -51,6 +45,14 @@ The factual associations were originally derived from Wikidata curated in the T-
  | Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
  
  **Table 1**: Insert caption.
+
+ &nbsp;
+
+ ### **LLaMa-30B** fact-completion results across 20 languages. 
+
+![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_final.png)
+
+**Figure 1**: The percentage of fact completions adequately retrieved by the LLaMa-30b model per language (blue). Overall, LLaMa-30b performs much better on Latin script compared to Cyrillic. A chi-square test was run with the *null* hypothesis that language script was independent from the LLaMa-30b performance, the results of which were statistically significant with *p* < 0.001.
  
  &nbsp;
  
@@ -71,10 +73,10 @@ The factual associations were originally derived from Wikidata curated in the T-
  | [gpt2-xl](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | **73.76** +/- 0.54 | 1.5B |  Radford et al., 2018 | OpenAI |
  | [bert-base](https://arxiv.org/abs/1810.04805) | **72.60** +/- 0.54 | 110M | Devlin et al., 2018 | Google | 
  | [m-bert-base](https://arxiv.org/abs/1810.04805) | **71.80** +/- 0.55 | 110M | Devlin et al., 2018 | Google | 
+ | [stablelm-base-7b](https://github.com/Stability-AI/StableLM) | **68.85** +/- 0.55 | 7B | Stability et al., 2023 | Stability AI |
  | [mt5-xxl](https://arxiv.org/abs/2010.11934) | **61.58** +/- 0.59|  11B |  Xue et al., 2020 | Google |
  | [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | **61.55** +/- 0.59 | 355M | Conneau et al., 2019 | Meta |
  | [mt5-xl](https://arxiv.org/abs/2010.11934) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
-  | [stablelm-base-7b](https://github.com/Stability-AI/StableLM) | **coming** +/- coming | 7B | Stability et al., 2023 | Stability AI |
  | Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; |  
  
  **Table 2**: Insert caption.
