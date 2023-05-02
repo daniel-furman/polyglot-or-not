@@ -23,19 +23,19 @@ If the value from **Step 1** is greater than the value from **Step 2** we conclu
 
 We present 303k unique fact-completions in [`CalibraGPT/Fact-Completion.parquet`][hf_data], which are in the form of stem-fact-counterfact triples. See the [dataset viewer](https://huggingface.co/datasets/CalibraGPT/Fact-Completion/viewer/CalibraGPT--Fact-Completion/English) for a closer look. 
 
-The factual associations were originally derived from Wikidata curated in the T-REx dataset [[3][bib]]. Since the T-REx dataset is English-only, we used the Google Translate API to generate the non-English cuts programmatically. We then asked a handful of native speakers to review samples of the dataset to validate the faithfulness of the translations (for German, French, and Spanish). Despite the positive sentiment from these reviews, minor language translation errors may persist in small amounts across the dataset. 
+The factual associations were originally sourced from Wikidata curated in the T-REx dataset [[3][bib]]. Since the T-REx dataset is English-only, we used the Google Translate API alongside some bespoke wrapper code to programmatically generate the non-English cuts in the dataset. Subsequently, we had a handful of native speakers review samples of the dataset in an effort to qualitatively validate the faithfulness of the translations (for German, French, and Spanish). Despite the positive sentiment from these reviews, minor language translation errors may persist across the dataset. 
 
-* 20 Latin/Cyrillic script languages are included. The ISO 639-1 language codes are: bg, ca, cs, da, de, en, es, fr, hr, hu, it, nl, pl, pt, ro, ru, sl, sr, sv, and uk. 
+* 20 Latin/Cyrillic script languages are included. The ISO 639-1 language codes are: `bg`, `ca`, `cs`, `da`, `de`, `en`, `es`, `fr`, `hr`, `hu`, `it`, `nl`, `pl`, `pt`, `ro`, `ru`, `sl`, `sr`, `sv`, and `uk`. 
 
 ## Test Results 
 
-### **LLaMa-30b** fact-completion performance per language.
+### **LLaMa-30b** performance per language.
 
-![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_final.png)
+![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
-**Figure 1**: The percentage of fact completions adequately retrieved by LLaMa-30b per language (blue). Overall, LLaMa-30b performs much better on Latin script compared to Cyrillic. A chi-square test was run with the null hypothesis that language script was independent from the LLaMa-30b performance, the results of which were statistically significant with *p* < 0.001 (suggesting a rejction of the null).
+**Figure 1**: The percentage of fact completions adequately retrieved by LLaMa-30b per language (blue), as compared to a handful of English-only models (gray). The results indicate that LLaMa-30b performs much better on Latin script than Cyrillic script, as the Cyrillic script languages included in the test each score in the bottom four. A chi-square test was thus run with the null hypothesis that language script was independent from the LLaMa-30b performance, the results of which were statistically significant with *p* < 0.001 (suggesting a rejection of the null).
  
- ### **Multilingual** fact-completion performance per model.
+ ### **Multilingual** performance per model.
  
  | Model            | 20 Languages<br />(avg % correct)      | Num Params | Authors      |  Org   |
  |------------------|:--------------:|:--------------:|--------------|--------------|
@@ -46,7 +46,7 @@ The factual associations were originally derived from Wikidata curated in the T-
  | [mt5-xl](https://arxiv.org/abs/2010.11934) |  **52.51** +/- 0.91 | 3.7B | Xue et al., 2020 | Google |
  | Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
 
- ### **English-only** fact-completion performance per model.
+ ### **English-only** performance per model.
  
  | Model            | English-only<br />(% correct)      | Num Params | Authors    |  Org   | 
  |------------------|:--------------:|:--------------:|--------------|--------------|
@@ -69,7 +69,7 @@ The factual associations were originally derived from Wikidata curated in the T-
  | [mt5-xl](https://arxiv.org/abs/2010.11934) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
  | Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; |  
  
- **Tables 1 & 2**: The bolded values indicate the percentage of fact completions adequately retrieved by the given model. The uncertainty estimates (+/-) are 95% confidence intervals computed from 10000 bootstrap iterations.
+ **Tables 1 & 2**: The bolded values indicate the percentage of fact completions adequately retrieved by the given model. The uncertainty estimates (+/-) are 95% confidence intervals computed from 10000 bootstrap iterations. At a glance, these results indicate a number of interesting back-of-the-hand insights. For example, training data seems more important than model size, recent models perform better on average than older ones, and Meta by and large "beats-out" other orgs. 
  
  &nbsp;
  
