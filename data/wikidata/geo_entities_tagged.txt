@@ -1,0 +1,3248 @@
+entity	location
+People's Republic of China	AS																								
+Haas House	unsure																								
+Iran	AS																								
+Bavaria	EU																								
+Somalia	AF																								
+Halifax Regional Municipality	NA																								
+Catalonia	EU																								
+Norway	EU																								
+Petrozavodsk	EU																								
+Tartu Town Hall	EU																								
+Tuva Republic	AS																								
+Jutulsessen	EU																								
+Liechtenstein	EU																								
+Croom, County Limerick	EU																								
+Binjai	AS																								
+Buenos Aires	SA																								
+Santiago	SA																								
+Alberta Alliance Party	NA																								
+La Condamine	SA																								
+Colonial Brazil	SA																								
+Dutch East Indies	AS																								
+Antananarivo	AF																								
+Cape Town	AF																								
+Bigo Bay	AF																								
+Afghan Transitional Administration	AS																								
+Trento	EU																								
+KMVP-FM	unsure																								
+Ivory Coast	AF																								
+Warsaw	EU																								
+Agartala	AS																								
+Byers Peninsula	AN																								
+Wales	EU																								
+Zulia	SA																								
+Vantaa	EU																								
+Qing dynasty	AS																								
+Isola Dovarese	EU																								
+Pamplona	EU																								
+Achaemenid Empire	AS																								
+Manyakheta	AS																								
+Antarctic ice sheet	AN																								
+United Kingdom	EU																								
+Slovenia	EU																								
+Nebraska Peaks	NA																								
+Bhopal	AS																								
+Newcomer Glacier	AN																								
+Italy	EU																								
+Thessalian	EU																								
+Cambodia	AS																								
+Guinea	AF																								
+Madagascar	AF																								
+Palestine	AS																								
+Registro	SA																								
+Metropolitan France	EU																								
+Tinker Glacier	AN																								
+Kingdom of Mercia	EU																								
+Kyōto Prefecture	AS																								
+Rodez	EU																								
+Wallis Island	OC																								
+Helsinki	EU																								
+Brisbane, Australia	OC																								
+Saint-Louis-de-Kent, New Brunswick	NA																								
+Melnik Peak	AN																								
+Bearpaw Shale	NA																								
+Comoros	AF																								
+Tasmania	OC																								
+Abu Dhabi	AS																								
+Riyadh	AS																								
+Carryer Glacier	AN																								
+Albany	NA																								
+Tōkyō	AS																								
+Long Hills	NA																								
+Bahujan Vikas Aaghadi	AS																								
+Gazakh	EU																								
+Saffery Islands	OC																								
+Riga	EU																								
+Orikhiv	EU																								
+Sarajevo	EU																								
+South Georgia Survey	AN																								
+Daniels Range	AN																								
+Tatsuno	AS																								
+Kamchatka Krai	AS																								
+Eirodziesma	EU																								
+Israel	AS																								
+Kasai-Oriental Province	AF																								
+North Sumatra	AS																								
+Prague	EU																								
+San Juan	SA																								
+Algeria	AF																								
+Grand Duchy of Finland	EU																								
+French Polynesia	OC																								
+Croatia	EU																								
+Tursi	EU																								
+Philadelphia	NA																								
+Vietnam	AS																								
+London	EU																								
+Dufek Massif	AN																								
+Elgin West	NA																								
+Siple Dome	AN																								
+Dili	OC																								
+Miers Bluff	AN																								
+Bandung	AS																								
+Abbasid Caliphate	AS																								
+Jiangsu Province	AS																								
+Cameroon	AF																								
+Guinea-Bissau	AF																								
+Pyongyang	AS																								
+Leeton, New South Wales	OC																								
+Morrison County	NA																								
+Rome	EU																								
+Campania	EU																								
+France	EU																								
+Douglas Range	AN																								
+Bombay	AS																								
+M'banza-Kongo	AF																								
+Jiangxi	AS																								
+Tienen	EU																								
+Pecora Escarpment	AN																								
+Piedmontese	EU																								
+Suriname	SA																								
+Valencian Community	EU																								
+State of Brazil	SA																								
+Dornbirn	EU																								
+Kuala Lumpur	AS																								
+Flask Glacier	AN																								
+Madhya Pradesh	AS																								
+Masaya Department	NA																								
+Buchans	NA																								
+Basel	EU																								
+Mountaineer Range	AN																								
+Mahalangur Himal	AS																								
+Banjarmasin	AS																								
+Andvord Bay	AN																								
+East Flanders	EU																								
+Pourquoi Pas Point	AN																								
+Nyeri County	AF																								
+Kamikita District	AS																								
+Transnistria	EU																								
+Finnish Socialist Workers' Republic	EU																								
+Gazzola	EU																								
+French historian	unsure																								
+Queensland	OC																								
+Portugal	EU																								
+Kidapawan	AS																								
+Rif Dimashq Governorate	AS																								
+Kyrgyzstan	AS																								
+Baku	AS																								
+Harare	AF																								
+Hispaniola	NA																								
+Dakar	AF																								
+Novoarkhangelsk	NA																								
+Pomorie Point	EU																								
+Rio de Janeiro	SA																								
+British Empire	EU																								
+Giles County, Virginia	NA																								
+India	AS																								
+Sadr City	AS																								
+Hays Mountains	AN																								
+Kerala	AS																								
+Switzerland	EU																								
+Russia	EU/AS																								
+Bruges	EU																								
+Tuscany	EU																								
+Hawaii	NA																								
+Cape Legoupil	AN																								
+Belgium	EU																								
+Cuba	NA																								
+Brazil	SA																								
+Brandenburg-Prussia	EU																								
+Prieto Diaz	NA																								
+Ottoman Empire	unsure																								
+China	AS																								
+Lebanon	AS																								
+Oshawa	NA																								
+New France	NA																								
+Yekaterinburg	EU/AS																								
+Uusimaa	EU																								
+San Francisco de Quito	SA																								
+Air New Zealand Flight 901	unsure																								
+Ray Promontory	AN																								
+Hall County, Nebraska	NA																								
+Varna Peninsula	EU																								
+Tajik	AS																								
+Bern	EU																								
+Jerusalem	AS																								
+Straits Settlements	AS																								
+Belgrade	EU																								
+Getz Ice Shelf	AN																								
+Second Spanish Republic	EU																								
+New Castle County, Delaware	NA																								
+CFMJ	NA																								
+Ariake Coliseum	AS																								
+North Kurdufan	AF																								
+Macau	AS																								
+Argentine	SA																								
+Gmina Pokrzywnica	EU																								
+Croatian	EU																								
+Afghanistan	AS																								
+Edo	AS																								
+Guangxi Zhuang Autonomous Region	AS																								
+Shenzhen	AS																								
+Sainshand	AS																								
+Japan	AS																								
+Lazarev Ice Shelf	AN																								
+Tatarstan	EU																								
+Ioannes Paulus II Peninsula	AN																								
+Veyrier	EU																								
+Land Glacier	AN																								
+Paris	EU																								
+Quebec	NA																								
+Uruguay	SA																								
+Uttar Pradesh	AS																								
+Palladam	AS																								
+Handel Ice Piedmont	AN																								
+Jemappes	EU																								
+Vojvodina	EU																								
+Antelope Canyon	NA																								
+Aargau	EU																								
+Norfolk Air	OC																								
+Bad Schwalbach	EU																								
+capital	unsure																								
+Ballydehob	EU																								
+Zucchelli Station	AN																								
+Frasnes-lez-Anvaing	EU																								
+Llandaff Cathedral	EU																								
+Netherlands	EU																								
+Puerto Rico	NA																								
+Beijing	AS																								
+Westminster	EU																								
+Roman Empire	EU																								
+Ross Island	AN																								
+Argentina	SA																								
+Stonehouse Bay	EU																								
+Benson Point	AN																								
+Belarus	EU																								
+Chancelade	EU																								
+Sweden	EU																								
+Tibesti Region	AF																								
+Panzarini Hills	AN																								
+Czech Republic	EU																								
+Lodhran Tehsil	AS																								
+Canary Islands	AF																								
+Bahrain	AS																								
+El Salvador	NA																								
+Tuvalu	OC																								
+Larsemann Hills	AN																								
+Asmara	AF																								
+Punjab, Pakistan	AS																								
+Aucanquilcha	SA																								
+Philadelphia, PA	NA																								
+Silesia	EU																								
+Falun	EU																								
+Aalborg	EU																								
+Ireland	EU																								
+Forster Ice Piedmont	AN																								
+Nicaragua	NA																								
+Hitachinaka	AS																								
+David Glacier	AN																								
+Cork GAA	EU																								
+Mediolanum Forum	EU																								
+Spanish Empire	EU																								
+South Yemen	AS																								
+Planet Heights	unsure																								
+Alikovo	EU																								
+New Jersey	NA																								
+Jan Amora	AF																								
+Hainan	AS																								
+Democratic Republic of Afghanistan	AS																								
+Jiangxi Province	AS																								
+Kotis Point	AN																								
+Clearwater Formation	NA																								
+Saipan	OC																								
+Vinson Plateau	AN																								
+Gaborone	AF																								
+Ecuador	SA																								
+Budapest	EU																								
+Ljubljana	EU																								
+Hattfjelldal	EU																								
+Skole Raion	EU																								
+Pedro Juan Caballero	SA																								
+Antarctic Treaty System	AN																								
+French Second Empire	EU																								
+Simdega	AS																								
+South Kordofan State	AF																								
+Tajikistani	AS																								
+Kazakh	AS																								
+Mozambique	AF																								
+Union between Sweden and Norway	EU																								
+Poland	EU																								
+Nunavut	NA																								
+Darley Hills	AN																								
+Hokkaido	AS																								
+Hilir Perak	AS																								
+Kingdom of the Netherlands	EU																								
+Soviet Union	EU																								
+Islamabad	AS																								
+Finland	EU																								
+San Gregorio Armeno	EU																								
+Rajasthan	AS																								
+Turkmenistan	AS																								
+Col Agnel	AS																								
+Jones Mountains	AN																								
+Erbil SC	AS																								
+Latvia	EU																								
+Santa Cruz de Mompox	SA																								
+Lower Assam	AS																								
+Caribou County, Idaho	NA																								
+Yinchuan	AS																								
+Serbia	EU																								
+Heves County	EU																								
+Oslo	EU																								
+Jammu and Kashmir	AS																								
+Satakunta	EU																								
+Rabat	AF																								
+Egypt	AF																								
+Hungary	EU																								
+Beaglehole Glacier	AN																								
+Orange Free State	AF																								
+Indonesia	AS																								
+Kyoto University	AS																								
+Persepolis	AS																								
+Mexico	NA																								
+Cappoquin	EU																								
+Pakistan	AS																								
+Lovech Heights	EU																								
+Fawkner	AU																								
+People's Republic of Poland	EU																								
+Romania	EU																								
+Alikovsky District	EU																								
+Woodbine Racetrack	NA																								
+Mount Fridtjof Nansen	AN																								
+Allied-occupied Germany	EU																								
+Fujian	AS																								
+Naumburg (Saale)	EU																								
+Avord	EU																								
+North Ossetia	EU																								
+CHN	AS																								
+First Republic	EU																								
+Shirase Glacier	AN																								
+Humboldt County, California	NA																								
+Desolation Lava Field	NA																								
+Botswana	AF																								
+Emona Anchorage	EU																								
+Noyon	EU																								
+Maison du Peuple	EU																								
+Euphrates	AS																								
+Kuthiyathodu grama panchayat	AS																								
+Sarpsborg 08 FF	EU																								
+Aragon	EU																								
+Arab League	AS																								
+Agios Dimitrios	EU																								
+German Empire	EU																								
+Haut Atlas	AF																								
+South Africa	AF																								
+Bulgaria	EU																								
+Monte San Giorgio	EU																								
+Port-au-Prince	NA																								
+Papua New Guinea	OC																								
+Corner Cliffs	AN																								
+Venezuela	SA																								
+Slovakia	EU																								
+Kyiv	EU																								
+Kazakhstan	AS																								
+Kandiaro Taluka	AS																								
+Tughlaq dynasty	AS																								
+Kinshasa	AF																								
+Chapman Snowfield	AN																								
+Tripoli	AF																								
+Colorado	NA																								
+Recovery Glacier	AN																								
+Blaiklock Glacier	AN																								
+Queens Gardens, Brisbane	OC																								
+Copenhagen	EU																								
+Iowa	NA																								
+Kaunas Cathedral Basilica	EU																								
+Philippines	AS																								
+Marie Byrd Land	AN																								
+Ukraine	EU																								
+Bowyer Butte	NA																								
+Valea lui Mihai	EU																								
+Singapore	AS																								
+Sabratha	AF																								
+Southwest Finland	EU																								
+Avitohol Point	EU																								
+Ghatanji	AS																								
+Wellington Island	AN																								
+Kingdom of Sicily	EU																								
+Alte Oper	EU																								
+Atpadi	AS																								
+Honduras	NA																								
+ABC Futebol Clube	SA																								
+Mari El Republic	EU																								
+Cape Mousse	AF																								
+Philadelphia, Pennsylvania	NA																								
+Madrid	EU																								
+Armenia	AS																								
+MacAlpine Hills	AN																								
+Czech	EU																								
+Fish Islands	AN																								
+Barcelona	EU																								
+Free State of Prussia	EU																								
+Padmanabhapuram	AS																								
+Grossglockner	EU																								
+Zagazig	AF																								
+Kigali	AF																								
+Trentino	EU																								
+Delhi	AS																								
+Castleisland Desmonds GAA	EU																								
+Morelos	NA																								
+Bugis Junction	AS																								
+Sovereign Military Order of Malta	EU																								
+Brussels	EU																								
+Tirana	EU																								
+Kingdom of France	EU																								
+Equatorial Guinean	AF																								
+Edward VIII Bay	AN																								
+Finnish	EU																								
+Yadagirigutta Temple	AS																								
+Europe	EU																								
+Valdichiana	EU																								
+WinStar World Casino	NA																								
+Bangkok	AS																								
+Nimmitabel	OC																								
+Uganda	AF																								
+Urangan	OC																								
+Flanders	EU																								
+Pocahontas County	NA																								
+Eupen-Malmedy	EU																								
+Hungarian	EU																								
+Jamaica	NA																								
+Clothier Harbour	NA																								
+Gair Mesa	NA																								
+Hanoi	AS																								
+Kingdom of Libya	AF																								
+Czech Socialist Republic	EU																								
+Morozumi Range	AS																								
+Foothills-Rocky View	NA																								
+Al Madinah Region	AS																								
+Libya	AF																								
+Stabben	EU																								
+New Swabia	AN																								
+Mauritius	AF																								
+Al Daayen	AS																								
+Gobardanga	AS																								
+Syria	AS																								
+Cairo	AF																								
+The Forks, Winnipeg	NA																								
+Boston	NA																								
+Nile	AF																								
+Minamishitara District, Aichi	AS																								
+Papua	OC																								
+Mexican Federal District	NA																								
+Himmelbjerget	EU																								
+Mali	AF																								
+West Sumatra	AS																								
+Lazio	EU																								
+Gammalsvenskby	EU																								
+Chile	SA																								
+La Colle	EU																								
+East Belfast	EU																								
+Seine	EU																								
+Bucharest	EU																								
+Aleppo Governorate	AS																								
+Bilbao	EU																								
+Bolvadin	AS																								
+Plougonven	EU																								
+Kanagawa	AS																								
+Shipley Glacier	AN																								
+Cape Smith	NA																								
+South Korea	AS																								
+Kampala	AF																								
+Bratislava	EU																								
+Fatimid Caliphate	AF																								
+Lusaka	AF																								
+Eswatini	AF																								
+Kingdom of Iraq	AS																								
+Beascochea Bay	AN																								
+Mount Murphy	AN																								
+Pacentro	EU																								
+Havana	NA																								
+Gauteng	AF																								
+Bourbon Restoration	EU																								
+Luxembourg	EU																								
+Indian Antarctic Program	AN																								
+Banyoles	EU																								
+Northern Ireland	EU																								
+Mykolaiv Oblast	EU																								
+George VI Ice Shelf	AN																								
+Azerbaijani	AS																								
+Nigeria	AF																								
+Rantum	EU																								
+Paraguay	SA																								
+Akershus	EU																								
+Russell East Glacier	AN																								
+Northern Bahr el Ghazal	AF																								
+Nye Mountains	AN																								
+Bouygues Telecom	EU																								
+Frosinone	EU																								
+Manikata	EU																								
+Isabela	SA																								
+National Highway 45	AS																								
+McAlester, OK	NA																								
+Uttarakhand	AS																								
+Entente Florale	EU																								
+Medan	AS																								
+Selbu	EU																								
+QLD	OC																								
+Melaka TMFC	AS																								
+Danish	EU																								
+Brown Peninsula	AN																								
+Slab Point	AN																								
+Rothera Research Station	AN																								
+Jiangsu	AS																								
+Bamako	AF																								
+Uda District	AS																								
+Mandatory Palestine	AS																								
+Hanover	EU																								
+Austrian Empire	EU																								
+Levski Ridge	EU																								
+Bhinmal	AS																								
+Club Aurora	AN																								
+Coke County	NA																								
+Isfahan province	AS																								
+Montevideo	SA																								
+Tarnovo	EU																								
+Glencree	EU																								
+Nagaland	AS																								
+Prey Veng Province	AS																								
+Palermo	EU																								
+Ouachita Parish	NA																								
+Flemish Community	EU																								
+Manila	AS																								
+Kathmandu	AS																								
+Baghdad	AS																								
+Pittsburgh, Pennsylvania	NA																								
+Canadian County, Oklahoma	NA																								
+Alpokalja	EU																								
+Heidelberg	EU																								
+British America	NA																								
+Niger	AF																								
+Nizampatnam	AS																								
+Davao del Norte	AS																								
+Chukotka Autonomous Okrug	AS																								
+Central African Republic	AF																								
+Germany	EU																								
+Cook County	NA																								
+Hohenlohe-Langenburg	EU																								
+Ayyubid dynasty	AS																								
+Sapporo	AS																								
+Homs Governorate	AS																								
+Massachusetts Bay Transportation Authority	NA																								
+Jiul de Vest River	EU																								
+Mount Steere	AN																								
+Rājagaha	AS																								
+French	EU																								
+Victor Bay	AN																								
+Higashikagawa	AS																								
+Berlin	EU																								
+Rotch Dome	AN																								
+Canjuers	EU																								
+Belo Horizonte	SA																								
+Brześć	EU																								
+Valvasone	EU																								
+Denmark	EU																								
+Jakarta	AS																								
+occupation of Japan	AS																								
+Amsterdam	EU																								
+New York	NA																								
+Alexander Island	AN																								
+Qiantang	AS																								
+Hamilton County	NA																								
+Hobart	AN																								
+Bastia	EU																								
+Thailand	AS																								
+Somerset	EU																								
+Herāt	AS																								
+La Grange Nunataks	AN																								
+Edmonton	NA																								
+Mount Markham	AN																								
+Ottoman	AS																								
+Ruthweiler	EU																								
+Azerbaijan	AS																								
+Angola	AF																								
+.af	unsure																								
+United Kingdom of Great Britain and Ireland	EU																								
+Garbeta	AS																								
+Panormus	EU																								
+Bosnia	EU																								
+Berkeley County, West Virginia	NA																								
+Neryungri	AS																								
+Bolzano	EU																								
+First Czechoslovak Republic	EU																								
+Austria	EU																								
+Crown Peak	AN																								
+Hokkaidō	AS																								
+United Arab Republic	AS																								
+Berhala Island, Sabah	AS																								
+Ghora Gali	AS																								
+Tripura	AS																								
+Les Bons Villers	EU																								
+Empire of Japan	AS																								
+Didymoteicho	EU																								
+Lagos	AF																								
+Lodi dynasty	AS																								
+Dushanbe	AS																								
+Ozumba	NA																								
+Paktia province	AS																								
+Heilongjiang	AS																								
+Pampilhosa da Serra	EU																								
+Plana Peak	EU																								
+Ransom County	NA																								
+Jennings Promontory	AN																								
+Cook Islands	OC																								
+Mbabane	AF																								
+Sardent	EU																								
+Loppa	EU																								
+Brno	EU																								
+Paramaribo	SA																								
+Capoeira	SA																								
+Stratford-on-Avon	EU																								
+Kingdom of Italy	EU																								
+Bhubaneswar	AS																								
+Quarles Range	AN																								
+Rwanda	AF																								
+Tehri Garhwal district	AS																								
+Third Hellenic Republic	EU																								
+Turgai River	AS																								
+Adare Manor	EU																								
+Kongoussi	AF																								
+Covelli Centre	NA																								
+Wirth Peninsula	AN																								
+City of Cranbourne	OC																								
+Rosebud River	OC																								
+Bhisho	AF																								
+Mirbag-e Shomali Rural District	AS																								
+Washington DC	NA																								
+Guangzhou	AS																								
+Jilin	AS																								
+Augusta Raurica	EU																								
+Oates Land	AN																								
+Vilnius	EU																								
+Vientiane	AS																								
+Raft River Mountains	NA																								
+United States	NA																								
+Malaysia	AS																								
+Cloutierville	NA																								
+Villa La Pietra	EU																								
+Shoranur	AS																								
+Reinbolt Hills	AN																								
+Panega Glacier	EU																								
+Velbert	EU																								
+Kingdom of Bohemia	EU																								
+Sapo National Park	AF																								
+Dominion Range	AN																								
+Melnik Ridge	AN																								
+Tapsell Foreland	AN																								
+Vernayaz	EU																								
+Ustevatn	EU																								
+Kingdom of Hungary	EU																								
+Dumoulin Islands	AN																								
+4th of August Regime	EU																								
+Bayreuth	EU																								
+Taiyuan, China	AS																								
+Toronto Police Service	NA																								
+Tijuana River	NA																								
+Abidjan	AF																								
+Whillans Ice Stream	AN																								
+Fosdick Mountains	AN																								
+Scotland	EU																								
+Poissy	EU																								
+Pinosava	EU																								
+Moon Bay	AN																								
+Arsk	EU																								
+Bolivia	SA																								
+Miramichi Centre	NA																								
+Banten	AS																								
+Cyprus	AS																								
+Lower Juba	AF																								
+cadastral municipality	EU																								
+Willan Nunatak	AN																								
+Perth	OC																								
+Manitoba	NA																								
+Port Moresby	OC																								
+Umayyad Caliphate	AS																								
+Pahlavi	AS																								
+Medical College and Hospital, Kolkata	AS																								
+Sungai Mamberamo	OC																								
+Xi'an	AS																								
+Ghana	AF																								
+Hektoria Glacier	AN																								
+Argentina Range	AN																								
+Flieden	EU																								
+Doyran Heights	EU																								
+Cobham Range	AN																								
+Nesodden IF	EU																								
+Colony of Vancouver Island	NA																								
+Brisbane	OC																								
+Neuburg Peak	AN																								
+Aquila	EU																								
+Guyana	SA																								
+Eredivisie	EU																								
+Goat Rock Beach	NA																								
+New Hampshire	NA																								
+Bihar	AS																								
+Second French Empire	EU																								
+PMR	EU																								
+Hernando County	NA																								
+Hauser & Wirth	EU																								
+Indianapolis	NA																								
+Ostermundigen	EU																								
+Kiev	EU																								
+Kingdom of Afghanistan	AS																								
+Schokalsky Bay	AN																								
+Utah	NA																								
+Hansen Glacier	AN																								
+Fleming Glacier	AN																								
+Mawson Glacier	AN																								
+Dijon	EU																								
+Rashidun Caliphates	AS																								
+Matusevich Glacier	AN																								
+McMinn County	NA																								
+West Dunbartonshire	EU																								
+Mundraga Bay	AN																								
+Maccagno	EU																								
+Crimea	EU																								
+Zelenchukskaya	EU																								
+Breznik Heights	EU																								
+Gorseinon	EU																								
+Surrey	EU																								
+IL Brodd	EU																								
+Brandon University	NA																								
+Ghanaian	AF																								
+Samsun Province	AS																								
+Garkan Rural District	AS																								
+Liberia	AF																								
+Grianan of Aileach	EU																								
+Caracas	SA																								
+Otjozondjupa	AF																								
+Bulgarian	EU																								
+Burundi	AF																								
+Calder Freeway	AU																								
+Sebatik Island	AS																								
+Bangarapet	AS																								
+Eriksbergs Mekaniska Verkstad	EU																								
+Ottawa	NA																								
+New York City	NA																								
+Drummond Glacier	AN																								
+Hampshire	EU																								
+Lewin Brzeski	EU																								
+Colombia	SA																								
+Gobind Sagar	AS																								
+Bohemia	EU																								
+Jaipur	AS																								
+Watson Island	NA																								
+Christian Medical College Ludhiana	AS																								
+Taipei	AS																								
+Bloemfontein	AF																								
+East Java	AS																								
+Scaife Mountains	AN																								
+Shaanxi Province	AS																								
+Shipton Ridge	AN																								
+Greece	EU																								
+Mukkam	AS																								
+East Kalimantan	AS																								
+Toora	AU																								
+County Offaly	EU																								
+Carinthia	EU																								
+Aprilov Point	EU																								
+Allersberg	EU																								
+Arkansas	NA																								
+Sucre	SA																								
+Virginia	NA																								
+Khorasan	AS																								
+Bispebjerg	EU																								
+United States Army Military Government in Korea	AS																								
+Taiwan	AS																								
+Bas-Saint-Laurent	NA																								
+Matabitchuan River	NA																								
+Coulter Heights	AN																								
+Hangzhou	AS																								
+2009 Speedway Ekstraliga	EU																								
+Yerevan	AS																								
+Warsaw Uprising Museum	EU																								
+Acolman Municipality	NA																								
+Lower Saxony	EU																								
+Illinois	NA																								
+Springburn	EU																								
+Manila Bay	AS																								
+Hrtkovci	EU																								
+RA	SA																								
+Ticino	EU																								
+Askola	EU																								
+Suva	OC																								
+Jharkhand	AS																								
+Hesse-Marburg	EU																								
+Madeira	EU																								
+Kassel	EU																								
+Otway Massif	AN																								
+Welschnofen	EU																								
+Gavork-e Nalin Rural District	AS																								
+Vancouver	NA																								
+Bangladesh	AS																								
+Staten Island Heights	NA																								
+Odisha	AS																								
+Muro d'Alcoi	EU																								
+Uromi	AF																								
+Cape Northrop	AN																								
+Dziemiany	EU																								
+Assen	EU																								
+Wiltshire	EU																								
+Portbou	EU																								
+Olten railway station	EU																								
+Ternopil Oblast	EU																								
+Calabria	EU																								
+Cape Verde	AF																								
+Moubray Bay	AN																								
+Umber Island	AN																								
+Saxony	EU																								
+Isfahan International Airport	AS																								
+Fournier Bay	AN																								
+Northeast Glacier	AN																								
+Kansas	NA																								
+Barrientos Island	AN																								
+FC Volochanin-Ratmir Vyshny Volochyok	EU																								
+Fort Madalena	AN																								
+Oder-Spree District	EU																								
+Minas Gerais	SA																								
+Maebashi city	AS																								
+Signy Island	AN																								
+Douglas Peaks	AN																								
+VTB Capital	EU																								
+Roman Catholic Archdiocese of Ljubljana	EU																								
+Howchin Glacier	AN																								
+Winnebago County, Illinois	NA																								
+Sri Lanka	AS																								
+Victoria Upper Glacier	AN																								
+Central Black Forest	EU																								
+Montenegro	EU																								
+Saigon	AS																								
+Gyulafehérvár	EU																								
+Saladin Governorate	AS																								
+Borg Massif	AN																								
+Ontario	NA																								
+Munich Residence	EU																								
+Dawa River	AS																								
+Dagestan	EU																								
+La Bayou	NA																								
+Kenya	AF																								
+Riverside Expressway	AS																								
+Shastri Park	AS																								
+Mark Twain National Forest	NA																								
+Al-Aqsa Mosque	AS																								
+Kondotty	AS																								
+Rouen	EU																								
+Kingdom of Saxony	EU																								
+Carpentras	EU																								
+Gansu	AS																								
+Crosswell Glacier	AN																								
+Squantz Pond State Park	NA																								
+Yakutsk	AS																								
+Perpignan	EU																								
+Punnichy	NA																								
+Lake Timiskaming	NA																								
+Pantin	EU																								
+Posadas, Argentina	SA																								
+Saalekreis	EU																								
+Karnataka	AS																								
+Punta della Dogana	EU																								
+Limbdi	AS																								
+Crucible Theatre	EU																								
+Leinster	EU																								
+Columbia Valley	NA																								
+Zacatecas	NA																								
+Gabon	AF																								
+Calcutta	AS																								
+Festninga Mountain	AN																								
+Tokelau	OC																								
+Chengdu	AS																								
+Flin Flon	NA																								
+Clackmannanshire	EU																								
+Dhule Lok Sabha constituency	AS																								
+Tanzania	AF																								
+Hurley River	AN																								
+Two Step Cliffs	AN																								
+Russian Federation	EU																								
+Miller Range	AN																								
+Moldova	EU																								
+Vienna	EU																								
+Singel	EU																								
+Camandona	EU																								
+Houffalize	EU																								
+Lazarev Mountains	AN																								
+Licodia Eubea	EU																								
+Gmina Stara Kornica	EU																								
+Posadowsky Bay	AN																								
+Delchev Ridge	EU																								
+San Francisco Conservatory of Music	NA																								
+Namibia	AF																								
+bpost	none																								
+Iraq	AS																								
+Pragersko	EU																								
+Australian Antarctic Territory	AN																								
+L'Aquila	EU																								
+Gambia	AF																								
+Byzantine Empire	unsure																								
+Heraklion	EU																								
+Molar Massif	AN																								
+Henan	AS																								
+Limoges	EU																								
+Kingdom of Burgundy	EU																								
+Gambacorta Peak	AN																								
+Canberra	OC																								
+Cugnot Ice Piedmont	AN																								
+Sanaa	AS																								
+Bunda District	AF																								
+Umbria	EU																								
+Saratov Oblast	EU																								
+Shipka Saddle	EU																								
+Managua	NA																								
+Bintulu Division	AS																								
+Annweiler am Trifels	EU																								
+Bird's Head Peninsula	OC																								
+Ashgabat	AS																								
+Nevada	NA																								
+West Pakistan	AS																								
+Da Nang Air Base	AS																								
+CD Eldense	EU																								
+Liaoning	AS																								
+Seychelles	AF																								
+Khalji dynasty	AS																								
+Kiribati	OC																								
+Venus Glacier	AN																								
+Tarnovo Ice Piedmont	AN																								
+Wien	EU																								
+Lannemezan	EU																								
+Ulster County	NA																								
+Nicosia	AS																								
+Congo	AF																								
+Pristina	EU																								
+Grand Union Canal	EU																								
+Vrienden van het Platteland	EU																								
+Shablykinsky District	EU																								
+Spain	EU																								
+Trontano	EU																								
+Zuiderzee	EU																								
+Kiev Peninsula	EU																								
+Ba F.C.	AS																								
+Dundee Island	AN																								
+Liberty Island	NA																								
+Graz	EU																								
+Veleka Ridge	EU																								
+Nagoya University	AS																								
+Strom Glacier	AN																								
+Guangdong	AS																								
+Ang Thong	AS																								
+Lisbon	EU																								
+UL Bend National Wildlife Refuge	NA																								
+KKBQ	NA																								
+Geelong Art Gallery	OC																								
+Guatemala	NA																								
+Peru	SA																								
+Macquarie Island	AN																								
+Cerano	EU																								
+Marsh Glacier	AN																								
+Neva	EU																								
+Bose Institute	AS																								
+Changchun	AS																								
+Wyoming	NA																								
+Renfrewshire	EU																								
+Kingdom of Wessex	EU																								
+Oviedo	EU																								
+Kingstown	NA																								
+Oxford	EU																								
+Abu Ghosh	AS																								
+Skopje	EU																								
+Lisiya Ridge	AS																								
+Lucca	EU																								
+Changsha	AS																								
+Helsinki City Hall	EU																								
+Thiruvattar	AS																								
+Queen Charlotte Mountains	NA																								
+Wentworth Valley	OC																								
+Ukrainian State	EU																								
+Reiherstieg Schiffswerfte & Maschinenfabrik	EU																								
+Nasino	EU																								
+USSR	EU																								
+Wismar	EU																								
+Zbuczyn	EU																								
+Taylor Valley	AN																								
+Ambatofinandrahana District	AF																								
+Nanchang	AS																								
+Tovuz District	AS																								
+Tillya Tepe	AS																								
+Baranya County	EU																								
+Sukhumi	AS																								
+Avignon	EU																								
+Santo Stefano d'Aveto	EU																								
+Idaho	NA																								
+Laos	AS																								
+Corse-du-Sud	EU																								
+Yunnan	AS																								
+Mumbai	AS																								
+Sichuan	AS																								
+1C Company	unsure																								
+Hotel Oloffson	NA																								
+Mutsamudu	AF																								
+Wadhwan	AS																								
+Bedourie	OC																								
+Obwalden	EU																								
+Landskrona BoIS	EU																								
+Wallmerod	EU																								
+Cape Evensen	EU																								
+Jablanica District	EU																								
+Moscow	EU																								
+Halls Stream	NA																								
+SEC Armadillo	EU																								
+Real County	NA																								
+Senegal	AF																								
+Viseu	EU																								
+Kyrgyz SSR	AS																								
+Mogadishu	AF																								
+Nizamabad district	AS																								
+Andhra Pradesh	AS																								
+Canada	NA																								
+Bad Wildungen	EU																								
+Fluminense F.C.	SA																								
+Lions Rump	AF																								
+South Beaches	OC																								
+Zimbabwe	AF																								
+Uzbekistan	AS																								
+Tamil Nadu	AS																								
+Galiano Island	NA																								
+Patna	AS																								
+Anatolia Eyalet	EU																								
+Morval	EU																								
+San Giorgio Canavese	EU																								
+Mississippi	NA																								
+Pinecreek	NA																								
+Mertz Glacier	AN																								
+Winnipeg	NA																								
+Kalani High School	OC																								
+US	NA																								
+Lerik District	AS																								
+Amos Anderson Art Museum	EU																								
+Transantarctic Mountains	AN																								
+Scylla Glacier	AN																								
+Rampart Ridge	AN																								
+Hartley County	NA																								
+Mauritania	AF																								
+Canadian	NA																								
+Wiesbaden	EU																								
+America	unsure																								
+Florence	EU																								
+Tallinn	EU																								
+Astana	AS																								
+Rubicon	EU																								
+Rowhedge	EU																								
+Dunedin Range	OC																								
+Tang	AF																								
+Hood Glacier	AN																								
+Shropshire	EU																								
+Cleveland Glacier	AN																								
+Martin Hills	AN																								
+Soalala	AF																								
+Lake Vanda	AN																								
+Aylesbury	EU																								
+Amreli district	AS																								
+Mercator Ice Piedmont	AN																								
+Cadgwith	EU																								
+Buckeystown	NA																								
+Suffolk County	NA																								
+Freetown	AF																								
+Kahnawake, Quebec	NA																								
+Nizhneserginsky District	EU																								
+Langtang National Park	AS																								
+Imperial Trans-Antarctic Expedition	AN																								
+San Antonio River	NA																								
+Kalvola	EU																								
+Shimla	AS																								
+Pekanbaru	AS																								
+Tajikistan	AS																								
+Pittsburgh	NA																								
+Accra	AF																								
+New South Wales	OC																								
+Vinson Massif	AN																								
+Maharashtra	AS																								
+Pernambuco	SA																								
+Waltham High School	NA																								
+Bertram Glacier	AN																								
+Bukit Panjang Single Member Constituency	AS																								
+Canossa	EU																								
+Honey War	NA																								
+Mainz	EU																								
+Mount Hornsby	OC																								
+British Guiana	SA																								
+Waldshut-Tiengen	EU																								
+Nez Perce County	NA																								
+Paisley	EU																								
+Berkovitsa Glacier	EU																								
+Knockmealdown Mountains	EU																								
+Celilo Village	NA																								
+Demas Range	AN																								
+Pazhayangadi	AS																								
+Veracruz	NA																								
+Nouakchott	AF																								
+Hunan	AS																								
+Spanish East Indies	AS																								
+Kota Kinabalu	AS																								
+Aventine Hill	EU																								
+Babcock & Brown	unsure																								
+Sidhi district	AS																								
+Berens River	NA																								
+Mumiy Troll	EU																								
+Colombo	AS																								
+River Waveney	EU																								
+Demerara	SA																								
+Clare	EU																								
+Eureka Glacier	AN																								
+Sofia	EU																								
+Allegheny County	NA																								
+Weimar Republic	EU																								
+Makkah Region	AS																								
+Abruzzo	EU																								
+Theni district	AS																								
+Massachusetts	NA																								
+Castlehaven	EU																								
+Donskoy Monastery	EU																								
+Penclawdd	EU																								
+Baja California	NA																								
+Osaka	AS																								
+South Sudan	AF																								
+IJmuiden	EU																								
+Ixelles	EU																								
+Vaduz	EU																								
+Devon	EU																								
+Sestola	EU																								
+Hebei	AS																								
+Antim Peak	AN																								
+Delta Works	EU																								
+Venezia	EU																								
+Camarate	EU																								
+Cenepa River	SA																								
+Rewas	AS																								
+Shandong	AS																								
+Botad	AS																								
+Macedonia	EU																								
+Equatorial Guinea	AF																								
+Saint Gayane Church	AS																								
+Ateneo de Madrid	EU																								
+FC Gorodeya	EU																								
+Hohenwestedt	EU																								
+Greek People	EU																								
+Beneden Merwede	EU																								
+La Ribera Baixa	EU																								
+Bowman Peninsula	AN																								
+Dominion of Pakistan	AS																								
+Mewat	AS																								
+Foyn Coast	AN																								
+Marstrand	EU																								
+West Bengal	AS																								
+agglomeration community	unsure																								
+Wabush Airport	NA																								
+Constantinople	EU																								
+Amsterdam dance event	EU																								
+Bighorn River	NA																								
+Penna Ahobilam	AS																								
+Melbourne	OC																								
+Wilhelmina Bay	AN																								
+Gavrilovo-Posadsky District	EU																								
+Korea	AS																								
+90.3 ABC Sunshine Coast	OC																								
+Hyderabad	AS																								
+Loy Yang Power Station	OC																								
+Electoral district of Wantirna	OC																								
+Avery Plateau	OC																								
+Castrovirreyna District	SA																								
+Bad Camberg	EU																								
+Grimaldi Industri	EU																								
+Dublin	EU																								
+Indus River	AS																								
+Guelma Province	AF																								
+Concordia Station	AN																								
+Rankuh District	AS																								
+Nord-Pas-de-Calais	EU																								
+Hannover	EU																								
+Persegres Gresik United	AS																								
+Gmina Sorkwity	EU																								
+Conakry	AF																								
+Atna Peaks	AN																								
+Vale of Glamorgan	EU																								
+Araria district	AS																								
+Monrovia	AF																								
+Eldkvarn	EU																								
+Former Shu	AS																								
+Batagay	AS																								
+Kadrina Rural Municipality	EU																								
+Publications Ice Shelf	AN																								
+Bilohirsk Raion	EU																								
+Bishkek	AS																								
+Bandra	AS																								
+Windigo Lake	NA																								
+Camp Tarawa	OC																								
+Storm Peak	NA																								
+Alberta	NA																								
+Sydney	OC																								
+Carcassonne	EU																								
+Cuzco	SA																								
+Shetland Isles	EU																								
+Collina d'Oro	EU																								
+Owen Ridge	OC																								
+Sommariva del Bosco	EU																								
+Sierra Leone	AF																								
+Vorarlberg	EU																								
+Leap Castle	EU																								
+Achelous River	EU																								
+Petvar Heights	AS																								
+England	EU																								
+Australia	OC																								
+Swifts Creek	OC																								
+Turkey	AS																								
+Pechora River	EU																								
+Assiginack	NA																								
+Recife	SA																								
+Pennsylvania	NA																								
+Turku	EU																								
+Art Gallery of Ontario	NA																								
+Indira Gandhi National Open University	AS																								
+Gmina Kalinowo	EU																								
+Condor Peninsula	SA																								
+Anak Bukit	AS																								
+Buraswa	AF																								
+Ginza	AS																								
+Paulet Island	AN																								
+La Mauricie National Park	NA																								
+Nantes	EU																								
+Debenham Glacier	AN																								
+Radnevo Peak	EU																								
+Little Bear River	NA																								
+Toluca	NA																								
+Alebtong District	AF																								
+Veneto	EU																								
+Vistula	EU																								
+Sussex	EU																								
+Barwick Valley	AN																								
+Hantsavichy	EU																								
+Piasa	NA																								
+Suwayq	AS																								
+Riiser-Larsen Ice Shelf	AN																								
+Florida	NA																								
+Drexel University College of Medicine	NA																								
+Santo Domingo	NA																								
+Stockholm	EU																								
+Congo basin	AF																								
+Toronto	NA																								
+Marshall Mountains	OC																								
+University of Bern	EU																								
+Kennedy Space Center	NA																								
+NYC	NA																								
+North Holland	EU																								
+Eurostat	EU																								
+Churchill Peninsula	NA																								
+Brown University	NA																								
+Strait of Kerch	EU																								
+Big Timothy Mountain	NA																								
+Des Moines International Airport	NA																								
+Banesh Rural District	AS																								
+Srebarna Glacier	EU																								
+Eritrea	AF																								
+Executive Committee Range	AN																								
+Juan de Nova Island	AF																								
+Beall Island	NA																								
+Luapula River	AF																								
+Smith Glacier	AN																								
+Yamato Museum	AS																								
+Autonomous District Lok Sabha constituency	AS																								
+Fall Creek Falls State Park	NA																								
+Yokohama International School	AS																								
+Pesisir Selatan	AS																								
+Conneaut Creek	NA																								
+Sudan	AF																								
+Trinity Peninsula	AN																								
+Lassen County	NA																								
+Indian Institute of Science	AS																								
+NY	NA																								
+prefectural road	AS																								
+Mount Weaver	OC																								
+National Law School of India University	AS																								
+College of Engineering, Pune	AS																								
+Mauricie	NA																								
+Reverchon Park	NA																								
+Malta	EU																								
+All-Ukrainian Union \Svoboda	EU																								
+Carolingian Empire	EU																								
+Manatawny Creek	NA																								
+Panna National Park	AS																								
+Steenwijk	EU																								
+Arno	EU																								
+Trans-Sahara Highway	AF																								
+McFarlane Strait	AN																								
+Coolock	EU																								
+Pontecorvo	EU																								
+Papantla	NA																								
+Swedish Empire	EU																								
+Instituto Pedro Nunes	EU																								
+Nepal	AS																								
+Quito	SA																								
+Opel	EU																								
+Halland	EU																								
+European Physical Society	EU																								
+Smart Museum of Art	NA																								
+Pequod Glacier	AN																								
+Cape Barne	AN																								
+Kelly Field Annex	NA																								
+Dhaka	AS																								
+Vinkeveen	EU																								
+Ottawa, Ontario	NA																								
+Kyustendil Province	EU																								
+Oregon	NA																								
+Balige	AS																								
+South America	SA																								
+Prattville High School	NA																								
+Heavenly Mountain Resort	NA																								
+Charles Lang Freer House	NA																								
+Heptapyrgion	EU																								
+Gmina Leszno	EU																								
+Juan Carlos I Antarctic Base	AN																								
+Benedict College	NA																								
+Allan Cup	NA																								
+Brialmont Cove	EU																								
+Lesotho	AF																								
+Sardinia	EU																								
+Scottish	EU																								
+Russian SFSR	EU																								
+North Berwick	EU																								
+Lambert Glacier	AN																								
+Lund Municipality	EU																								
+Sitkalidak Island	NA																								
+Nyamuragira	AF																								
+Yugoslavia	EU																								
+Khmilnyk	EU																								
+Estonia	EU																								
+Prydz Bay	AN																								
+Gracie Mansion	NA																								
+Green Glacier	AN																								
+Wythenshawe Hall	EU																								
+Frostlendet Valley	AN																								
+Myongji University	AS																								
+Roman Catholic Archdiocese of Lucca	EU																								
+FC Anker Wismar	EU																								
+Albemarle County, Virginia	NA																								
+Cookley	EU																								
+Cape Williams	AN																								
+Dresden	EU																								
+Cape Colbeck	AN																								
+Whiteshell Laboratories	NA																								
+Guggenheim Museum	NA																								
+Weston GO Station	NA																								
+Chechnya	EU																								
+Tarn Taran district	AS																								
+Hong San See	AS																								
+Etobicoke North	NA																								
+Turaida	EU																								
+Kalookan	AS																								
+Roman Four Promontory	AN																								
+Mount Manthe	AF																								
+Iximche	NA																								
+Fermilab	NA																								
+Palmer Land	AN																								
+Veysian Rural District	AS																								
+Missouri	NA																								
+Iskar Glacier	EU																								
+New Smyrna Speedway	NA																								
+Turkmen	AS																								
+Dewa Province	AS																								
+McMurdo Station	AN																								
+Minnesota Glacier	AN																								
+Watson Escarpment	AN																								
+home counties	EU																								
+936 ABC Hobart	OC																								
+Second Rutte cabinet	EU																								
+Lauterecken-Wolfstein	EU																								
+Aconcagua	SA																								
+Penney Bay	NA																								
+Von Essen Mountain	AN																								
+Ma River	AS																								
+Mahur Berenji Rural District	AS																								
+Exarchate of Ravenna	EU																								
+Balochistan	AS																								
+Erfurt	EU																								
+Lithuania	EU																								
+Calw	EU																								
+Skeidshovden Mountain	EU																								
+Pigtown	NA																								
+Ulpiana	EU																								
+Hobart Zoo	OC																								
+Merrick Mountains	AN																								
+Discovery Expedition	AN																								
+Ponoy River	AS																								
+Payer Mountains	AN																								
+Hauts-de-Seine	EU																								
+Harnaut	AS																								
+Pearse Valley	AN																								
+English Channel	EU																								
+Sarnaki	EU																								
+Tom McCall Waterfront Park	NA																								
+Kume District	AS																								
+Côte d'Ivoire	AF																								
+Trelech	EU																								
+York Mills Bus Terminal	NA																								
+Garibaldi Ranges	NA																								
+North Hwanghae province	AS																								
+House of Representatives	unsure																								
+Tovarnik	EU																								
+Hoseason Island	AN																								
+Maury County	NA																								
+Guadalquivir	EU																								
+Sindh	AS																								
+Evans Peak	NA																								
+Torgau	EU																								
+2010 Winter Olympics	unsure																								
+Tbilisi	AS																								
+Tampere Cathedral	EU																								
+ITE College East	AS																								
+Helmbrechts	EU																								
+Waurn Ponds	OC																								
+Mount Discovery	AN																								
+Dandenong	OC																								
+Harsewinkel	EU																								
+La Guajira Department	SA																								
+Viking Age	EU																								
+Bhamdoun	AS																								
+Blue Earth County, Minnesota	NA																								
+Haaga	EU																								
+Knox Coast	AN																								
+Chol Kiri District	AS																								
+Pendleton Strait	OC																								
+Eland Mountains	AF																								
+Nova Scotia	NA																								
+Craiova	EU																								
+Madona District	EU																								
+Schwules Museum	EU																								
+Bernheze	EU																								
+Kolkata	AS																								
+Lakhpat	AS																								
+Cape Evans	AN																								
+Minneapolis	NA																								
+Uinta Basin	NA																								
+British Columbia	NA																								
+Rouen Mountains	AN																								
+Pautalia Glacier	EU																								
+Elbe	EU																								
+Italian	EU																								
+Gazzo Veronese	EU																								
+Warszawa Wschodnia Osobowa railway station	EU																								
+Carnegie Deli	NA																								
+Rambo Nunataks	AN																								
+Welford Road Stadium	EU																								
+Ojos del Salado	SA																								
+Kashmir	AS																								
+Telangana	AS																								
+German National Library	EU																								
+Anschutz Medical Campus	NA																								
+Alpha Island	OC																								
+Davis Sea	AN																								
+Gulf of Bothnia	EU																								
+Knoxville metropolitan area	NA																								
+Peremyshliany	EU																								
+Bertha Island	OC																								
+Despotate of Epirus	EU																								
+Murcia	EU																								
+Nairobi	AF																								
+Palais de l'Industrie	EU																								
+Schleitheim	EU																								
+Saharsa district	AS																								
+SFR Yugoslavia	EU																								
+Temples of Abu Simbel	AF																								
+Everleigh Club	NA																								
+Zoo Miami	NA																								
+Hunter College	NA																								
+Mississauga Centre	NA																								
+Udupi district	AS																								
+Kentucky	NA																								
+Bellinzona	EU																								
+Morecambe	EU																								
+Stepanakert	AS																								
+Antarctic Plateau	AN																								
+Astrolabe Glacier	AN																								
+Borgo San Martino	EU																								
+Cape Shirreff	AN																								
+Sjogren Glacier	AN																								
+Burkina Faso	AF																								
+Buryatia	AS																								
+Ichchapuram	AS																								
+Bull Pass	OC																								
+Electoral district of South Bourke	OC																								
+Hi Corbett Field	NA																								
+Hida Mountains	AS																								
+Eiger	EU																								
+Temple Lot	NA																								
+Powys	EU																								
+Gurudwara Bangla Sahib	AS																								
+Idalium	EU																								
+Upper East Region	AF																								
+Broken Pencil	unsure																								
+Williams Point	AN																								
+Bransfield Strait	AN																								
+VR warehouses	unsure																								
+Malawi	AF																								
+Birchall Peaks	AN																								
+Guldborg	EU																								
+Pulaski County Special School District	NA																								
+Tarq Rud Rural District	AS																								
+Bowman Glacier	AN																								
+Rock al Parque	SA																								
+Windischeschenbach	EU																								
+Sulaimaniyah International Airport	AS																								
+Terrebonne Parish	NA																								
+Tigris	AS																								
+Barcellona Pozzo di Gotto	EU																								
+Berkshire	EU																								
+Saskatchewan	NA																								
+Shackleton Range	AN																								
+Dundalk	EU																								
+Kuwait	AS																								
+Brooklyn Island	AN																								
+Toulouges	EU																								
+Lions' Gate	AS																								
+Bani River	AF																								
+California	NA																								
+South Korean	AS																								
+Plateau Station	AN																								
+Pensacola Mountains	AN																								
+Al Shindagha	AS																								
+Ohio	NA																								
+Colbert Mountains	AN																								
+Madhepura district	AS																								
+Paynes Prairie	NA																								
+Mitchell Peninsula	AN																								
+Tennessee	NA																								
+New Mexico	NA																								
+Mount Wade	AN																								
+Kottarakkara	AS																								
+Umatilla County, Oregon	NA																								
+Downtown Orlando	NA																								
+Ravens Mountains	AN																								
+Nimrod Glacier	AN																								
+La famille Plouffe	unsure																								
+Queen Maud Land	AN																								
+Big Thicket National Preserve	NA																								
+Kukri Hills	AS																								
+Mars Glacier	AN																								
+Lanyon Place railway station	EU																								
+Lake Marble Falls	NA																								
+Atwell Peak	AN																								
+Luray Caverns	NA																								
+Eisenach	EU																								
+Kristiania	EU																								
+Balchen Mountain	AN																								
+Zarqa Governorate	AS																								
+Edina High School	NA																								
+Rose Tower	AS																								
+Vermont	NA																								
+Great Whale River	NA																								
+Scotia Bay	AN																								
+Cornerhouse	EU																								
+Mount Mentzel	AN																								
+Marugame	AS																								
+One Raffles Place	AS																								
+Area codes 402 and 531	NA																								
+Pitt Islands	OC																								
+Clark Mountains	AN																								
+Mariner Glacier	AN																								
+Millbrae station	NA																								
+Sydney Peace Prize	AU																								
+Neptune Glacier	AN																								
+Federally Administered Tribal Areas	AS																								
+Hamilton Mountain	NA																								
+Haikou	AS																								
+Convoy Range	AN																								
+Point Douglas	NA																								
+Thiel Mountains	AN																								
+Nuri	AF																								
+Prespa Glacier	EU																								
+Cosgrove Ice Shelf	AN																								
+Mount Carmel	AS																								
+Cocconato	EU																								
+Saudi Arabia	AS																								
+Fischenthal	EU																								
+Veere	EU																								
+JVC Kenwood Victor Entertainment	AS																								
+Prussian Partition	EU																								
+McClain County	NA																								
+Bais Hatalmud	AS																								
+Tsuno District, Yamaguchi	AS																								
+Jane Franklin Hall	AU																								
+Amarkantak	AS																								
+Martinique	NA																								
+Renier Point	AN																								
+Guest Peninsula	AN																								
+Party of National Unity	unsure																								
+Drake Well	NA																								
+Emmanuel Glacier	AN																								
+Ma'rib Governorate	AS																								
+Ryder Bay	AN																								
+Sydney, Australia	OC																								
+Were Ilu	AF																								
+Collins Harbour	AN																								
+Danger Islands	AN																								
+Erlangen	EU																								
+Circuit des Ardennes	EU																								
+Buffalo County	NA																								
+Strasbourg	EU																								
+Duchy of Brabant	EU																								
+Uttaradit	AS																								
+Karimnagar district	AS																								
+Robertson Bay	AN																								
+Seal Nunataks	AN																								
+Norfolk State University	NA																								
+Botnneset Peninsula	EU																								
+AA Drink-leontien.nl	unsure																								
+Riau	AS																								
+Chad	AF																								
+Mulock Glacier	AN																								
+Uranus Glacier	AN																								
+Maya River	NA																								
+Bellingshausen Sea	AN																								
+Voden Heights	AF																								
+Primorye	AS																								
+Morocco	AF																								
+Khentii Province	AS																								
+Principality of Sealand	EU																								
+Tanga Region	AF																								
+Tiruvannamalai district	AS																								
+Circle Centre	NA																								
+Manila Light Rail Transit System	AS																								
+Puerto Maldonado	SA																								
+Robinson Group	AN																								
+Mirabito Range	AN																								
+Albanus Glacier	AN																								
+Morona Santiago	SA																								
+Evans Peninsula	AN																								
+Vermilion Pass	NA																								
+Mule Peninsula	AN																								
+Cape Waite	AN																								
+Johns Hopkins University	NA																								
+George V Coast	AN																								
+Wharton County	NA																								
+Texas	NA																								
+Martin Goodman Trail	NA																								
+Cayeux-sur-Mer	EU																								
+Anahuac National Wildlife Refuge	NA																								
+Assam	AS																								
+County of London	EU																								
+Eastern Bloc	EU																								
+San Marino	EU																								
+Ottoman State	EU																								
+Kahrizak	AS																								
+Blennerville	EU																								
+Aitcho Islands	AN																								
+Tisza	EU																								
+Nou Barris	EU																								
+Karonga	AF																								
+Ethiopia	AF																								
+Crevasse Valley Glacier	AN																								
+Odbert Island	AN																								
+Hamilton Heights	NA																								
+Mount Hallgren	AN																								
+Bosnia and Herzegovina	EU																								
+New Bedford Whaling Museum	NA																								
+Brahms Inlet	AN																								
+Sykes Glacier	AN																								
+Clare Range	AN																								
+Torresdale	NA																								
+Fort Humboldt State Historic Park	NA																								
+Timor-Leste	OC																								
+Benin	AF																								
+Milano	EU																								
+Galerie des Machines	EU																								
+Swaziland	AF																								
+Bzura	EU																								
+Cape Burks	AN																								
+Miers Valley	AN																								
+Eisenhower Range	AN																								
+Mount Boreas	AN																								
+Holtedahl Bay	AN																								
+Arctowski Peninsula	AN																								
+Noliko Maaseik	EU																								
+Edmonton City Centre (Blatchford Field) Airport	NA																								
+Alte Nationalgalerie	EU																								
+St. Louis	NA																								
+Paudash Lake	NA																								
+Chandigarh	AS																								
+Desko Mountains	AN																								
+Imsland	EU																								
+Shire of Mount Alexander	OC																								
+Grand Canyon National Park Airport	NA																								
+Medaram	AS																								
+Sevilla	EU																								
+Bourg-la-Reine	EU																								
+Montemitro	EU																								
+mumok	EU																								
+Kings Domain	OC																								
+Geelong Ring Road	OC																								
+Hammer Point	AN																								
+Albany, Texas	NA																								
+Menangle Park	OC																								
+Bullion Mountains	NA																								
+Arizona	NA																								
+Gateway Motorsports Park	NA																								
+Darwin Mountains	AN																								
+Teres Ridge	AN																								
+Avery County	NA																								
+Hull Bay	NA																								
+Coppermine Peninsula	AN																								
+Hadzhidimovo	EU																								
+Hagenow	EU																								
+Sanaag	AF																								
+Millwood Lake	NA																								
+Zwiefalten	EU																								
+Yule Bay	AN																								
+Reedy Glacier	AN																								
+Nintendo	unsure																								
+Gordon Glacier	AN																								
+Keith County	NA																								
+University of Vermont	NA																								
+Yoro	NA																								
+Washington Escarpment	AN																								
+Museo Correr	EU																								
+Fayette	NA																								
+Castle	NA																								
+Brown Hills	OC																								
+Andheri	AS																								
+Coulman Island	AN																								
+Western Area	AF																								
+San Lorenzo Valley	NA																								
+Anare Mountains	AN																								
+Denton Glacier	AN																								
+Roma Termini railway station	EU																								
+Newell Point	AN																								
+Mount Tyree	AN																								
+Gibraltar	EU																								
+Pioneers Escarpment	AN																								
+Shakhenat Rural District	AS																								
+Languedoc-Roussillon	EU																								
+El Oued Province	AF																								
+Struma Glacier	AN																								
+Little Belt Mountains	NA																								
+Hong Kong	AS																								
+Beaumont Bay	AN																								
+Naval Air Station South Weymouth	NA																								
+Byrd Station	AN																								
+George V Land	AN																								
+Sydney Sports Ground	OC																								
+Montebruno	EU																								
+Kumasi	AF																								
+Tarn-et-Garonne	EU																								
+Marin Counties	NA																								
+Boston University Marsh Chapel	NA																								
+Libby Dam	NA																								
+Seoul	AS																								
+Biscoe Islands	AN																								
+San Diego High School	NA																								
+Mount Stephenson	AN																								
+Slaithwaite	EU																								
+Battle of Montereau	EU																								
+Dion Islands	AN																								
+Universidad Nacional Federico Villarreal	SA																								
+Rothschild Island	AN																								
+Daman and Diu	AS																								
+Dundee Whaling Expedition	AN																								
+Fenn Tower	NA																								
+Bissau	AF																								
+Holdsworth Glacier	AN																								
+Cartographers Range	AN																								
+Pickwick Island	AN																								
+Lone Pine Koala Sanctuary	OC																								
+Pully	EU																								
+DR Congo	AF																								
+Lufkin	NA																								
+Verona	EU																								
+Konark Sun temple	AS																								
+Masson Range	AN																								
+Lleida	EU																								
+Illertissen	EU																								
+Aden	AS																								
+Honnavar	AS																								
+Mount Passel	AN																								
+Kosi Zone	AS																								
+Malita	AS																								
+Laurie Island	AN																								
+Festning Tunnel	EU																								
+Holyrood Secondary School	EU																								
+Owens Valley Radio Observatory	NA																								
+Mount Electra	AN																								
+Rose Valley Glacier	AN																								
+Houston	NA																								
+White Stag sign	NA																								
+Cape Hallett	AN																								
+Shkhara	EU																								
+Holycross-Ballycahill GAA	EU																								
+Kowsar County	AS																								
+Payyavoor	AS																								
+Ogrodzieniec	EU																								
+Wapekeka First Nation	NA																								
+Gainesville Municipal Airport	NA																								
+Peshawar	AS																								
+M&T Bank Stadium	NA																								
+New Democratic Party Socialist Caucus	NA																								
+Saint-Jacques-de-la-Lande	EU																								
+Crab Orchard National Wildlife Refuge	NA																								
+Hannah Point	AN																								
+Palupera Rural Municipality	EU																								
+Dumka district	AS																								
+Alexandra Palace railway station	EU																								
+Novokuybyshevsk	EU																								
+Lambayeque	SA																								
+Shikellamy High School	NA																								
+Fraunces Tavern	NA																								
+Tokyo	AS																								
+Bathurst	OC																								
+Berea College	NA																								
+Tesco Organisation	EU																								
+Isla Grande de Tierra del Fuego	SA																								
+Labuan	AS																								
+Issenheim	EU																								
+Surveyors Range	AN																								
+Minsk	EU																								
+Sugarloaf Key	NA																								
+Fort Collins Municipal Railway	NA																								
+Gmina Kleczew	EU																								
+Spuyten Duyvil Bridge	NA																								
+Tile Ridge	AN																								
+Surat Basin	OC																								
+Conrad Mountains	AN																								
+Noll Glacier	AN																								
+Mount Melbourne	AN																								
+Ellsworth Land	AN																								
+Nishi-Matsuura District	AS																								
+Seefeld	EU																								
+Drygalski Mountains	AN																								
+Tinapa Resort	AF																								
+Leyden	NA																								
+A25 road	EU																								
+Panagarh	AS																								
+Steventon Island	AN																								
+Western Australia	OC																								
+South East Forests National Park	OC																								
+Founders Peaks	AN																								
+Gerlache Strait	AN																								
+Hamden Hall Country Day School	NA																								
+Mahikeng	AF																								
+Mount Longhurst	AN																								
+Solvay Mountains	AN																								
+Jupiter Glacier	AN																								
+Arkell Cirque	AN																								
+Winlaton Youth Training Centre	EU																								
+Vesuvius Observatory	EU																								
+Autonomous University of Madrid	EU																								
+Hennepin County	NA																								
+Ipswich	OC																								
+Palazzo Borghese	EU																								
+Place Bonaventure	NA																								
+Otterbein University	NA																								
+Walter Reed National Military Medical Center	NA																								
+Spicket River	NA																								
+Ticho House	AS																								
+Tundzha Glacier	EU																								
+Simcoe	NA																								
+French Guiana	SA																								
+Kosciuszko Bridge	NA																								
+Miziya Peak	AS																								
+Saint Petersburg	EU																								
+Norwegian Museum of Cultural History	EU																								
+Waalhaven	EU																								
+Montreal Centre	NA																								
+Mosque of Uqba	AF																								
+Iqaluit	NA																								
+Southern Cross Mountains	AN																								
+Pershing County	NA																								
+Ruppert Coast	AN																								
+Samuel Merritt University	NA																								
+Iraklis F.C.	EU																								
+Bermel Escarpment	AN																								
+Mount Harker	AN																								
+Naples	EU																								
+Maury Bay	AN																								
+Kretinga	EU																								
+plaza de Cibeles	EU																								
+Scheibbs District	EU																								
+Henbury	OC																								
+David Island	AN																								
+Kishacoquillas Valley	NA																								
+British Graham Land Expedition	AN																								
+The Hague	EU																								
+Casiquiare canal	SA																								
+Open University of Catalonia	EU																								
+Maglenik Heights	AN																								
+Minnesota	NA																								
+Sturt Highway	OC																								
+Cohasset High School	NA																								
+National Republican Greek League	EU																								
+Andersson Island	AN																								
+Tussey Mountain	NA																								
+Hohenlohe	EU																								
+People's Party for Freedom and Democracy	EU																								
+Willan Saddle	OC																								
+Quintana Roo	NA																								
+Vrancea County	EU																								
+Jhelum River	AS																								
+East River Greenway	NA																								
+Moe Island	AN																								
+Lunenfeld-Tanenbaum Research Institute	NA																								
+Carpathian Mountains	EU																								
+Mandailing language	AS																								
+Cape Longing	AN																								
+Public Broadcasting Services	AF																								
+Spur Point	AN																								
+Pare Glacier	AN																								
+Contell Glacier	AN																								
+Griffith Glacier	AN																								
+Zagreb	EU																								
+Canton of Schaffhausen	EU																								
+Zaire	AF																								
+Scioto County	NA																								
+Achaean Range	EU																								
+Volga Bulgaria	AS																								
+Arthur	NA																								
+Mount Farrell	AN																								
+North Middlesex, Ontario	NA																								
+Venta	EU																								
+University of Zaragoza	EU																								
+Lake Vida	AN																								
+Quartz Hills	OC																								
+Nova Friburgo	SA																								
+Lanusei	EU																								
+Ayn Halaqim Subdistrict	AS																								
+Cannonball Cliffs	AN																								
+Poncha Pass	NA																								
+Presbyterian High School	AF																								
+Sydney Hospital	OC																								
+Argosy Glacier	AN																								
+Nagoya	AS																								
+Prachin Buri River	AS																								
+Yellowstone National Park	NA																								
+Buchan	OC																								
+Djibouti	AF																								
+Taipei City	AS																								
+Qatar	AS																								
+Kittitas County	NA																								
+Phnom Penh	AS																								
+Northern Foothills	SA																								
+South Lanarkshire	EU																								
+Kent	EU																								
+Derbyshire	EU																								
+Vaujany	EU																								
+Detaille Island	AN																								
+Rhayader	EU																								
+WEZF	NA																								
+Rio Quente	SA																								
+Leech Lake Indian Reservation	NA																								
+Pomfret School	NA																								
+Salamander Range	AN																								
+Expo 86	NA																								
+Kuching	AS																								
+Sacramento Convention Center Complex	NA																								
+Tukvar Tea Estate	AS																								
+Battambang Province	AS																								
+Olot	EU																								
+Hugi Glacier	AN																								
+Torreys Peak	NA																								
+Austria-Hungary	EU																								
+Lismore GAA	EU																								
+Huntress Glacier	AN																								
+Astara District	AS																								
+Gasunie	EU																								
+Southern Netherlands	EU																								
+Cape Perez	AN																								
+M5 motorway	EU																								
+Riverway, Townsville	OC																								
+Operation Teapot	NA																								
+Kfar Giladi	AS																								
+Wiseton	NA																								
+Arrival Heights	AN																								
+Atlantic Club Ridge	AN																								
+Caerdydd	EU																								
+Kohler Range	AN																								
+Jennings	OC																								
+Willamette Valley AVA	NA																								
+Lamplugh Island	AN																								
+Clonlara GAA	EU																								
+Gibbs Glacier	AN																								
+North Las Vegas Airport	NA																								
+Albian Sands	NA																								
+regiopolis	NA																								
+Vila Real District	EU																								
+Irtysh river	AS																								
+Gunter Annex	NA																								
+Vardasht Rural District	AS																								
+Aichi Prefecture	AS																								
+San Canzian d'Isonzo	EU																								
+Rajkot	AS																								
+Mount Kempe	AN																								
+Swanson Mountains	AN																								
+Devikulam	AS																								
+Mount Saint Elias	NA																								
+Arve	EU																								
+Tlaxcala	NA																								
+south Sumatra	AS																								
+Boyana Glacier	AN																								
+A229 road	EU																								
+Clarke County, Alabama	NA																								
+Treuchtlingen	EU																								
+Romulus Glacier	AN																								
+Minu District	AS																								
+Cape Rymill	AN																								
+Cape Adriasola	AN																								
+Borovsky District	EU																								
+Gadag district	AS																								
+Carlota Cove	AN																								
+Monarcas Morelia	NA																								
+Taebong	AS																								
+Tampines Expressway	AS																								
+Howard Glacier	AN																								
+Gilroy High School	NA																								
+Karun	AS																								
+Loire	EU																								
+Louth County Council	EU																								
+Schreckhorn	EU																								
+Kafriya	AS																								
+Mackellar Inlet	AN																								
+Tobin Lake	NA																								
+Kondofrey Heights	AS																								
+Balkan Snowfield	AN																								
+Sanlih E-Television	AS																								
+Sutherland	AU																								
+Dublin City	EU																								
+Florentine	EU																								
+Breege	EU																								
+Baturyn	EU																								
+Carnegie Vanguard High School	NA																								
+Growler Valley	AN																								
+Athens	EU																								
+Bonn	EU																								
+Shiver Point	AN																								
+Fort William Point	AN																								
+Keltie Glacier	AN																								
+Damascus	AS																								
+Sind	AS																								
+Piove di Sacco	EU																								
+Atbarah River	AF																								
+Hooge Crater Commonwealth War Graves Commission Cemetery	EU																								
+Lawrence Heights	NA																								
+KU Leuven	EU																								
+Davis Coast	AN																								
+Yemen	AS																								
+Interstate 69	NA																								
+Grayson Stadium	NA																								
+Stratford Army Engine Plant	NA																								
+Genoa	EU																								
+Chavez Island	AN																								
+Moissac Abbey	EU																								
+Morgan Inlet	AN																								
+Lake Bluff	NA																								
+Rockefeller Mountains	AN																								
+Kanata South Ward	NA																								
+Plymouth Rock	NA																								
+Foundation for a Free Information Infrastructure	EU																								
+Cape Bird	AN																								
+Westridge School	NA																								
+Black Coast	AN																								
+Louisiana	NA																								
+Tegucigalpa	NA																								
+Abbey of Echternach	EU																								
+Gaiola	EU																								
+Tixtla	NA																								
+KiKa	EU																								
+Czechoslovakia	EU																								
+Paulding Bay	NA																								
+Sobral Peninsula	AN																								
+Maybach	EU																								
+Butler Glacier	AN																								
+Santa Maria da Feira Municipality	EU																								
+Fryderyk Chopin University of Music	EU																								
+Union University	NA																								
+State Library of Victoria	AU																								
+Rezen Knoll	AN																								
+Sultan Ahmed Mosque	AS																								
+Second Polish Republic	EU																								
+32nd Indiana Monument	NA																								
+Bosnian	EU																								
+Antarctic Plate	AN																								
+Risod	AS																								
+Hippocrates Glacier	AN																								
+Mount Foster	AN																								
+Medgar Evers College	NA																								
+Augustinergasse	EU																								
+Nebraska State Capitol	NA																								
+Victoria, Australia	AU																								
+Rutgers Glacier	AN																								
+Koriya district	AS																								
+AMK Hub	AS																								
+Soviet	EU																								
+Niamey	AF																								
+Tiber	AS																								
+Leelanau Peninsula	NA																								
+Kupreanof Island	NA																								
+Shanxi	AS																								
+Coal Exchange	EU																								
+Mayotte	AF																								
+Milbertshofen-Am Hart	EU																								
+Erickson Bluffs	NA																								
+Foundation Ice Stream	AN																								
+TROS	EU																								
+Chechen-Ingush ASSR	AS																								
+Long Plain First Nation	NA																								
+route 75	NA																								
+Logatec	EU																								
+Kirkpatrick Glacier	AN																								
+Williams Hills	OC																								
+Vernadsky Research Base	AN																								
+West Ardsley	EU																								
+Chaville	EU																								
+Samuel Peak	AN																								
+Tlaquepaque	NA																								
+Papanasam	AS																								
+Munich	EU																								
+Havre Mountains	AN																								
+Barksdale Air Force Base	NA																								
+Ufa	EU																								
+McMichael Canadian Art Collection	NA																								
+Gaoua	AF																								
+Dakor	AS																								
+Morioka	AS																								
+Edinburgh Hill	AN																								
+Weber Inlet	AN																								
+Simcoe Composite School	NA																								
+Waynesville School District	NA																								
+Sheaf Square	EU																								
+Terra Nova Bay	AN																								
+Malha	AS																								
+Jones Bluffs	AN																								
+Gulf Coast of the United States	NA																								
+North-Rhine Westphalia	EU																								
+Kununurra	OC																								
+MacKenzie Bay	AN																								
+Cape Penck	AN																								
+Harris County, Texas	NA																								
+Reval	EU																								
+Welcome Mountain	OC																								
+Tapley Mountains	AN																								
+Norwegians	EU																								
+Buda	EU																								
+Christie Pits	NA																								
+Beacon Supergroup	AN																								
+Norfolk	NA																								
+Mount Paris	OC																								
+Borchgrevink Glacier	AN																								
+Sena Medal	AF																								
+Rutherford County	NA																								
+Chad Basin	AF																								
+Polish Football Association	EU																								
+Mount Cameroon	AF																								
+Marsden State High School	OC																								
+Wavertree	EU																								
+Kibungo Province	AF																								
+Peacock Sound	AN																								
+Garvin County	NA																								
+Lwengo District	AF																								
+The Gullet	AN																								
+Hinkley Glacier	AN																								
+Holmbury St Mary	EU																								
+Liverpool Range	OC																								
+Servus Credit Union Place	NA																								
+Québec	NA																								
+Absheron District	AS																								
+Manassas Regional Airport	NA																								
+Wallonia	EU																								
+Halton County, Ontario	NA																								
+Gangseo District	AS																								
+Lucy Glacier	AN																								
+Opalchenie Peak	AN																								
+Ca' Pesaro	EU																								
+Somontano	EU																								
+Neny Island	AN																								
+Chester Cone	AN																								
+Zlatibor District	EU																								
+Gmina Olsztyn	EU																								
+Ottawa River	NA																								
+Schwyz	EU																								
+Hyderabad Deccan railway station	AS																								
+Herbert Range	AN																								
+Melchior Islands	AN																								
+Rocky Mountain National Park	NA																								
+Morshi	AS																								
+Brest Region	EU																								
+Mount Schuyler	OC																								
+Borghetto di Vara	EU																								
+Lipscani	EU																								
+Thiruvananthapuram	AS																								
+Bon Pastor	EU																								
+Toulouse	EU																								
+West Indies	NA																								
+Pakpattan	AS																								
+Alathur	AS																								
+Ginza Line	AS																								
+Grindley Plateau	AN																								
+Falerone	EU																								
+Flying Fish Cove	OC																								
+The New School for Jazz and Contemporary Music	NA																								
+Zambia	AF																								
+Villars-Burquin	EU																								
+Kuomintang	AS																								
+Kunming	AS																								
+Redland Bay	OC																								
+Crystal Sound	AN																								
+Botzen	EU																								
+Addanki mandal	AS																								
+Glascock County	NA																								
+Gornergrat	EU																								
+Teshie	AF																								
+Halpern Point	AN																								
+Liard Island	NA																								
+Eros Glacier	AN																								
+Lamongan	AS																								
+Probuda Ridge	AN																								
+Mount Black	AN																								
+Davan	AS																								
+Al Muthanna Governorate	AS																								
+Party for Freedom	EU																								
+Cape Adams	AN																								
+Bannu	AS																								
+Beauvais	EU																								
+Palana	AS																								
+Heritage Range	AN																								
+Teatro Comunale Florence	EU																								
+West Royalty, Prince Edward Island	NA																								
+Walker Mountains	AN																								
+Lascaris Battery	EU																								
+Littoral	AF																								
+Drumheller-Stettler	NA																								
+Yamato 000593	AN																								
+Tanglewood	NA																								
+Sartorius Point	AN																								
+Kochi	AS																								
+Norway Bight	EU																								
+Dennistoun Glacier	AN																								
+New Delhi	AS																								
+Jonava District Municipality	EU																								
+Sahneh County	AS																								
+Medina Peaks	AN																								
+Warren Range	AN																								
+Kaloyan Nunatak	AN																								
+Longyearbyen	EU																								
+Democrats 66	EU																								
+Tolima	SA																								
+Indira Gandhi International Airport	AS																								
+Denfeld Mountains	AN																								
+Austin College	NA																								
+Global Television Network	NA																								
+Beles River	AF																								
+Hertfordshire	EU																								
+Katwijk aan den Rijn	EU																								
+Bogra Zilla School	AS																								
+WA	OC																								
+McKinnon Island	NA																								
+Greater Rio de Janeiro	SA																								
+French West Africa	AF																								
+Bedworth	EU																								
+Mount Lister	AN																								
+Rennick Glacier	AN																								
+North Stonington	NA																								
+Cirta	AF																								
+Marikina	AS																								
+Iruma Air Base	AS																								
+Chevron Science Center	NA																								
+Frigate Range	AN																								
+Konya	AS																								
+Goma	AF																								
+Kurinjimala Sanctuary	AS																								
+Staatliche Antikensammlungen	EU																								
+Rancho Los Encinos	NA																								
+Risemedet Mountain	EU																								
+SV Ried	EU																								
+German Confederation	EU																								
+Kingsley Field Air National Guard Base	NA																								
+Itawamba	NA																								
+Wisconsin	NA																								
+Jorum Glacier	AN																								
+Alfred Wegener Institute for Polar and Marine Research	AN																								
+Mount Tyrrell	AN																								
+Rancho Castac	NA																								
+Crook, County Durham	EU																								
+Capdenac	EU																								
+Saturn Glacier	AN																								
+Enghien-les-Bains	EU																								
+Randalls Island	NA																								
+Llanegryn	EU																								
+Rezen Saddle	AN																								
+Semnan Province	AS																								
+Holmenkollen National Arena	EU																								
+Trakiya Heights	EU																								
+Murphy Glacier	AN																								
+Valdemarsvik	EU																								
+North Hennepin Community College	NA																								
+European route E25	EU																								
+Balleny Islands	AN																								
+Llanquihue Province	SA																								
+Irrawaddy River	AS																								
+Albania	EU																								
+Eagle Boys	unsure																								
+Volyn	EU																								
+Mount Herzl	AS																								
+East Bladen High School	NA																								
+Whittier College	NA																								
+Greater Nevada Field	NA																								
+La Guajira Desert	SA																								
+Aleko Rock	EU																								
+Kaniv Reservoir	EU																								
+Piccard Cove	AN																								
+Old Trinity Church	NA																								
+Cape Jeremy	AF																								
+Tempi Municipality	EU																								
+Kew Gardens Hills	NA																								
+Minhang District	AS																								
+Peshtera Glacier	EU																								
+Ipoh	AS																								
+Dr. Babasaheb Ambedkar Marathwada University	AS																								
+Trieste	EU																								
+Eights Coast	AN																								
+Christian Democrats	EU																								
+Zed Islands	AN																								
+Walton Arts Center	NA																								
+Langwathby	EU																								
+Pernik Peninsula	EU																								
+Elgar Uplands	AN																								
+Arapaho National Wildlife Refuge	NA																								
+Umarex	EU																								
+Royal National Theatre	EU																								
+Framingham Railroad Station	NA																								
+Damavand	AS																								
+Berkner Island	AN																								
+Tower Island	AN																								
+Khasavyurt	AS																								
+Douglas County, Oregon	NA																								
+Koyambedu	AS																								
+Kotturpuram	AS																								
+Rajshahi Division	AS																								
+Deep Freeze Range	AN																								
+Ruhla	EU																								
+Sarawak	AS																								
+Jacobsburg Environmental Education Center	NA																								
+Palmer Archipelago	AN																								
+Cieszyn	EU																								
+Shetland Islands	EU																								
+Colleville-Montgomery	EU																								
+Shire of Wambo	AU																								
+New England	NA																								
+Ilam Province	AS																								
+Ausa	AS																								
+Montiel	EU																								
+Media Development Authority	AS																								
+Wilson Piedmont Glacier	AN																								
+Hornnes	EU																								
+Valencians	EU																								
+County Fermanagh	EU																								
+Emscher	EU																								
+Piedmont	NA																								
+Lahti	EU																								
+Dhaka City	AS																								
+Mount Harding	AN																								
+Vadnagar	AS																								
+Valletta	EU																								
+Elkhorn Ridge	NA																								
+Dent Island Light	NA																								
+Valhalla Swimming Hall	EU																								
+St James' Church, Sydney	OC																								
+Labrador	NA																								
+Greenwood Valley	NA																								
+Padda Island	AS																								
+70 Pine Street	NA																								
+Alouette Lake	NA																								
+Phobos Ridge	AN																								
+James Ross Island group	AN																								
+Kalahari Desert	AF																								
+Curzon Islands	AN																								
+Wohlthat Mountains	AN																								
+Bastille	EU																								
+Kangaroo Ground	AU																								
+Commerce Court	NA																								
+Disney's Hollywood Studios	NA																								
+Covasna County	EU																								
+Anderson Hills	NA																								
+Alsace-Lorraine	EU																								
+Miles College	NA																								
+Chu Lai Base Area	AS																								
+KBC Bank	EU																								
+Pacific Union College	NA																								
+Hoysala Empire	AS																								
+Lanterman Range	AN																								
+Pea Ridge National Military Park	NA																								
+Namba Station	AS																								
+Cairo American College	AF																								
+Entracque	EU																								
+Huachocolpa District	SA																								
+Atromitos Piraeus F.C.	EU																								
+Martel Inlet	AN																								
+Ryder Glacier	AN																								
+Harold Byrd Mountains	AN																								
+Fendley Glacier	AN																								
+Leiria	EU																								
+Thirteen Colonies	NA																								
+Nares Strait	NA																								
+Totten Glacier	AN																								
+Somali Region	AF																								
+National Waterfront Museum	EU																								
+Miyagi	AS																								
+Berwick Glacier	AN																								
+Hamar	EU																								
+Lake Vostok	AN																								
+Blackrock Castle	EU																								
+Trigono	AN																								
+Pitkevitch Glacier	AN																								
+Lopburi	AS																								
+Rawson Plateau	AN																								
+2013 Internazionali BNL d'Italia	EU																								
+Hogeschool Gent	EU																								
+Porcupine Hills	NA																								
+Ingrid Christensen Coast	AN																								
+Mount Bursey	AN																								
+Gjerpen	EU																								
+Danish Sign Language	EU																								
+Cagliari	EU																								
+Ancient Greece	EU																								
+South Pole Traverse	AN																								
+Muchalls Castle	EU																								
+Salisbury, Rhodesia	AF																								
+War in Donbass	EU																								
+Simeulue	AS																								
+Bruce Plateau	AN																								
+Brabant Island	AN																								
+Southpointe	NA																								
+Hewler	AS																								
+Thimphu	AS																								
+Inami, Toyama	AS																								
+Jafara	AF																								
+Ice Runway	AN																								
+Lefortovo District	EU																								
+Mikkelsen Bay	AN																								
+pont Notre-Dame	EU																								
+Dogpatch USA	NA																								
+University of Washington	NA																								
+Piper Verlag	EU																								
+Huntingdon County	NA																								
+KSTP-FM	NA																								
+Southeast Fairbanks Census Area	NA																								
+Port Harcourt	AF																								
+Ablation Valley	AN																								
+Fossil Butte National Monument	NA																								
+Possession Islands	AN																								
+Tiv people	AF																								
+Zechstein	EU																								
+Poplar River First Nation	NA																								
+Montour County	NA																								
+Goseck circle	EU																								
+Markham District High School	NA																								
+Xaverian Brothers High School	NA																								
+Ankenes	EU																								
+Vukov Spomenik	EU																								
+Eibenstock	EU																								
+Tashkent	AS																								
+Punjab, India	AS																								
+Scott Island	AN																								
+Church Hill Tunnel	NA																								
+Annamalai University	AS																								
+Milltown Institute of Theology and Philosophy	EU																								
+Minamiarupusu	AS																								
+Naruto Strait	AS																								
+Canisteo Peninsula	AN																								
+Cape Hordern	AN																								
+1960 Summer Olympics	EU																								
+Minamiakita District	AS																								
+Prince Edward Viaduct	NA																								
+Apollo Peak	AN																								
+Nimbus Hills	AN																								
+Tehran	AS																								
+Central European University	EU																								
+L'Escala	EU																								
+Pidgeon Island	NA																								
+British North America	NA																								
+Palazzo Contarini del Bovolo	EU																								
+Kresttsy	EU																								
+Rufiji River	AF																								
+Brunt Ice Shelf	AN																								
+Taunton River Watershed	NA																								
+Lillie Range	AN																								
+Johnson Glacier	AN																								
+Beaufort Island	AN																								
+Dunnamaggin GAA	EU																								
+Fingask Castle	EU																								
+Don Juan Pond	AN																								
+Klaskanine River	NA																								
+Bluefield College	NA																								
+Transylvanian Plateau	EU																								
+Coronation Island	AN																								
+Whitehall Glacier	AN																								
+Nea Zichni Municipality	EU																								
+Komarichsky District	EU																								
+Boundary Cone	NA																								
+Industrial Design Centre	unsure																								
+Thamshavn Line	EU																								
+Nkawkaw	AF																								
+Mount San Antonio	NA																								
+Darmstadt	EU																								
+Kirkby Glacier	AN																								
+Parippally	AS																								
+Virgin Classics	unsure																								
+AH3	AS																								
+Cape Chocolate	AF																								
+Menen	EU																								
+Solan District	AS																								
+Byzantine & Christian Museum	EU																								
+Raimund Theater	EU																								
+CNH Industrial	EU																								
+Beirut	AS																								
+Pont du Carrousel	EU																								
+Tyabb	OC																								
+N-340 road	EU																								
+Cape Yelcho	SA																								
+Piatt County	NA																								
+Bukovina	EU																								
+Muncie Central High School	NA																								
+Franz Liszt Academy of Music	EU																								
+Thomas Glacier	AN																								
+Sam Hill Memorial Bridge	NA																								
+Boroughmuir High School	EU																								
+Rickenbacker Air National Guard Base	NA																								
+Kuala Langat	AS																								
+Bering Glacier	NA																								
+Yangtze	AS																								
+Thule people	NA																								
+Mongolia	AS																								
+Cape Selborne	AF																								
+Tshwane Metropolitan Municipality	AF																								
+SooToday.com	unsure																								
+Clipper Magazine Stadium	NA																								
+City of Boroondara	OC																								
+La Spezia	EU																								
+East Kildonan, Winnipeg	NA																								
+Swedish Orphan Biovitrum	EU																								
+Mapple Glacier	AN																								
+Griebnitz Canal	EU																								
+Cordiner Peaks	AN																								
+County Leitrim	EU																								
+English Coast	EU																								
+Hickory Run State Park	NA																								
+Bourgeois Fjord	NA																								
+Oxshott	EU																								
+Regla	NA																								
+Colombes	EU																								
+Sun News Network	NA																								
+Bobolice	EU																								
+Benson Glacier	AN																								
+Judith River Group	NA																								
+Bishop Loughlin Memorial High School	NA																								
+Santa Fe Trail	NA																								
+Beardmore Glacier	AN																								
+Lincoln Financial Field	NA																								
+Liffey River	EU																								
+Tinguiririca River	SA																								
+Caradon Hill	EU																								
+Stefaneschi Triptych	EU																								
+Mugello Circuit	EU																								
+assassination of John F. Kennedy	NA																								
+Lakewood Church	NA																								
+Mount Karisimbi	AF																								
+Ljig	EU																								
+Taunsa Barrage	AS																								
+Bellagio	EU																								
+Maitri	AS																								
+Ferrer Point	AN																								
+Ouachita National Forest	NA																								
+Zion Canyon	NA																								
+DuPage County	NA																								
+Ford Ranges	AN																								
+Leech Lake	NA																								
+Saunders Mountain	AN																								
+Bliesgau	EU																								
+Worcester Range	AN																								
+Ostankinsky District	EU																								
+Almaty	AS																								
+Helensvale railway station	OC																								
+Chuprene Glacier	EU																								
+Distrito Federal	NA																								
+Dutch	EU																								
+Bryan Air Force Base	NA																								
+Mexican	NA																								
+East Humboldt Range	NA																								
+Hultsfred Municipality	EU																								
+archdiocese of Gatineau	NA																								
+Linimo	AS																								
+Rhine	EU																								
+McKinley Climatic Laboratory	NA																								
+Scott Base	AN																								
+Patrick Henry College	NA																								
+Sonitpur district	AS																								
+French Algeria	AF																								
+Larsmo	EU																								
+Watt Bay	OC																								
+Costa Rica	NA																								
+Kryvyi Rih	EU																								
+Longs Peak	NA																								
+Cape Ducorps	AN																								
+Shinnan Glacier	AN																								
+Colegio Nacional de Buenos Aires	SA																								
+Gramercy Park	NA																								
+Mount St Gwinear	OC																								
+Dar es Salaam	AF																								
+Tartessos	EU																								
+Bitterroot Mountains	NA																								
+Cape Adare	AN																								
+2004 IAAF World Cross Country Championships	AF																								
+Wilmington	NA																								
+Middle East	AS																								
+Victory Mountains	AN																								
+La Plata	SA																								
+Khorramdarreh Rural District	AS																								
+Hershey Country Club	NA																								
+N'Djamena	AF																								
+Shackleton Ice Shelf	AN																								
+Aragonese	EU																								
+Suvorov Glacier	AN																								
+United Arab Emirates	AS																								
+Pandoh Dam	AS																								
+Diablo Canyon Power Plant	NA																								
+Terningskarvet Mountain	EU																								
+Via Ardeatina	EU																								
+Sentinel Range	AN																								
+Fort Nashborough	NA																								
+Kharga Oasis	AF																								
+McCuddin Mountains	AN																								
+Congo Free State	AF																								
+California Plateau	NA																								
+Northwest Branch Anacostia River	NA																								
+Warszawa	EU																								
+Vierlingsbeek	EU																								
+Read Mountains	AN																								
+Alcanena Municipality	EU																								
+United Kingdom of the Netherlands	EU																								
+Sikkim	AS																								
+Kozani	EU																								
+Bjurholm	EU																								
+Mount Cupola	AN																								
+Nakheel Tower	AS																								
+Hesperides Hill	AN																								
+Northern Territory	OC																								
+Sequence Hills	AN																								
+Nordstrand IF	EU																								
+Fredriksen Island	AN																								
+Legnica County	EU																								
+Moyamensing	NA																								
+Black Pine Mountains	NA																								
+Zenshuji	AS																								
+E.ON Sverige	EU																								
+Danco Coast	AN																								
+Batterbee Mountains	AN																								
+Ismoil Somoni Peak	AS																								
+Ol Doinyo Lengai	AF																								
+Langarud County	AS																								
+East Pakistan	AS																								
+Moscato d'Asti	EU																								
+Silverstein Peak	AN																								
+Law Dome	AN																								
+Gabbro Hills	NA																								
+Chartered Professional Accountant	unsure																								
+Derna District	AF																								
+Vestfold Hills	AN																								
+Brugmann Mountains	AN																								
+Catanzaro	EU																								
+Hammarby IF DFF	EU																								
+Vijayawada Junction railway station	AS																								
+Sevtopolis Peak	EU																								
+Thuringian Highland	EU																								
+Dhule	AS																								
+Lwów	EU																								
+Mount Newall	OC																								
+Kurze Mountains	AN																								
+Camp Myles Standish	NA																								
+Drighlington	EU																								
+Shaanxi	AS																								
+Circuito da Boavista	EU																								
+Venetian	EU																								
+Pontigny Abbey	EU																								
+Cathedral Rocks	AN																								
+Pirrit Hills	AN																								
+Asquith	NA																								
+Patuxent Wildlife Research Center	NA																								
+Lincolnshire	EU																								
+Interstate 255	NA																								
+Sarnia	NA																								
+Kiryat Moshe	AS																								
+Mount Spivey	NA																								
+Mediglia	EU																								
+Al-Hasakah Governorate	AS																								
+HRL Laboratories	NA																								
+DF	NA																								
+Flatvaer Islands	EU																								
+Vaughan Inlet	NA																								
+Lake Texana	NA																								
+Bigourdan Fjord	AN																								
+Zaanstad	EU																								
+Lincoln Square Synagogue	NA																								
+Barnhartvale, Kamloops	NA																								
+Cape Kinsey	NA																								
+Fifth Avenue	NA																								
+Demay Point	AN																								
+Kojur District	AS																								
+Whirlwind Inlet	AN																								
+Jordan	AS																								
+Phillips County	NA																								
+Bad Vilbel	EU																								
+Krogh Island	AN																								
+Brickell Key	NA																								
+Liv Glacier	AN																								
+Josefstadt	EU																								
+Adelaide Island	AN																								
+Tunis	AF																								
+Dutch Republic	EU																								
+San Antonio	NA																								
+Granite Knolls	NA																								
+Luanda	AF																								
+Carrizo Plain	NA																								
+Gornate-Olona	EU																								
+Mannheim City Airport	EU																								
+Tagus river	EU																								
+Bamyan	AS																								
+Fuzhou	AS																								
+Slovenian	EU																								
+Skinnamarink TV	unsure																								
+Vayots Dzor Region	AS																								
+Sopot Ice Piedmont	AN																								
+Krung Thep	AS																								
+Harris Peninsula	AN																								
+Mount Berlin	AN																								
+Indigirka River	AS																								
+Iberia Parish	NA																								
+Everett Range	AN																								
+William Scoresby Archipelago	AN																								
+ERT World	unsure																								
+Largo Island	AN																								
+Shirley Island	AN																								
+Wellington Catholic District School Board	NA																								
+Lanzhou	AS																								
+Pune	AS																								
+Tupungato	SA																								
+Gio Linh	AS																								
+Napier Mountains	AN																								
+Ikaalinen	EU																								
+Hardoi district	AS																								
+Kanchenjunga	AS																								
+Kosamba	AS																								
+Mount Dallmann	AN																								
+Mendelssohn Inlet	AN																								
+Georgians	unsure																								
+Mel Lastman Square	NA																								
+Lajran Rural District	AS																								
+National War Museum	NA																								
+Gelderland	EU																								
+Westerburg	EU																								
+Ezhupunna	AS																								
+Herbert Mountains	AN																								
+Douro	EU																								
+Poweshiek County	NA																								
+William Scoresby Bay	AN																								
+Union des forces progressistes	unsure																								
+Gramercy Park Hotel	NA																								
+Lexington Avenue	NA																								
+Stara Zagora	EU																								
+Isa Air Base	AS																								
+Kazinga Channel	AF																								
+Hotel Bristol	EU																								
+Meyer Hills	AN																								
+Violante Inlet	AN																								
+Rupanyup	OC																								
+Arena Valley	NA																								
+Knobhead	unsure																								
+Mbale District	AF																								
+Minna Bluff	AN																								
+Piedecuesta	SA																								
+Balham Valley	AN																								
+Shahdol district	AS																								
+Upper Canada District School Board	NA																								
+Lycoming College	NA																								
+Taronga Western Plains Zoo	OC																								
+Cape Archer	AN																								
+Keystone Corridor	NA																								
+Delaware	NA																								
+Tierney Peninsula	AN																								
+Gmina Morawica	EU																								
+North Portal	NA																								
+Idylwyld Drive	NA																								
+Barker Range	OC																								
+Alexander Hamilton Bridge	NA																								
+Linnich	EU																								
+M'Sila Province	AF																								
+The Knoll	AN																								
+Santo Spirito in Sassia	EU																								
+Dniester	EU																								
+Sobat River	AF																								
+Yukon Flats National Wildlife Refuge	NA																								
+Hurricane Ridge	NA																								
+Palmer Station	AN																								
+Neumayer Cliffs	AN																								
+Christiania	EU																								
+Northamptonshire	EU																								
+Morobe Province	OC																								
+Kolad	AS																								
+Putyvl	EU																								
+Roberts Massif	AN																								
+Le Fuilet	EU																								
+Al Ahmadi Governorate	AS																								
+Taranto Sport	EU																								
+South Australia	OC																								
+Shunyi Olympic Rowing-Canoeing Park	AS																								
+Marad massacre	AS																								
+Bracondale Hill	NA																								
+North Brabant	EU																								
+North Carolina	NA																								
+Castellamonte	EU																								
+Cook County, Illinois	NA																								
+Film Forum	NA																								
+Warta	EU																								
+Goa	AS																								
+Kilby Island	NA																								
+Chamarajanagar district	AS																								
+Prince Charles Mountains	AN																								
+Zaraysky District	EU																								
+Ballyfermot	EU																								
+Foulis Castle	AF																								
+Kalamazoo County	NA																								
+Mount Ignatiev	AN																								
+Cape Filchner	AN																								
+Moubray Glacier	AN																								
+Loschwitz	EU																								
+Siazan District	AS																								
+Mittag-Leffler Institute	EU																								
+North Macedonia	EU																								
+Periyar University	AS																								
+Brownhills	EU																								
+DESTATIS	EU																								
+Katowice	EU																								
+Villigen	EU																								
+Yovkov Point	AN																								
+Shiraz	AS																								
+Beaumont Glacier	AN																								
+Parkland County	NA																								
+Anderson Heights	AN																								
+Insel Range	AN																								
+Nanyang Technological University	AS																								
+Marshall Space Flight Center	NA																								
+Zemen Knoll	EU																								
+Wallow Fire	NA																								
+Koboko District	AF																								
+River Clyde	EU																								
+Bolpur	AS																								
+Breidnes Peninsula	AN																								
+Senegambia Confederation	AF																								
+Yunnan Province	AS																								
+County Carlow	EU																								
+K.S.V. Roeselare	EU																								
+Many Peaks	OC																								
+Newstead House Board of Trustees	OC																								
+Essex	EU																								
+North Shore Medical Center	NA																								
+Leverett Glacier	AN																								
+Campeche Bank	NA																								
+FR Germany	EU																								
+Wright Inlet	AN																								
+Box Elder County	NA																								
+Gmina Warlubie	EU																								
+Hercules Inlet	AN																								
+Manipur	AS																								
+Mukhed	AS																								
+Reeves Glacier	AN																								
+Inn	EU																								
+Mont Saint-Bruno	NA																								
+M-140	EU																								
+Wiener Singakademie	EU																								
+Kama River	EU																								
+Bicol Region	AS																								
+Archar Peninsula	AN																								
+Samuel Point	AN																								
+Laslea	EU																								
+Yambol Peak	EU																								
+Cancello	EU																								
+Lake Abitibi	NA																								
+Arundel Formation	NA																								
+Coast Mountains	NA																								
+Northwind Glacier	AN																								
+Baron de Hirsch Cemetery, Halifax	NA																								
+Vermilion	NA																								
+Mount McCoy	NA																								
+Lake Baikal	AS																								
+Shibganj Upazila, Bogra District	AS																								
+Svarthamaren Mountain	AN																								
+Cumberland University	NA																								
+Preet Vihar	AS																								
+Segel Sällskapet	EU																								
+Tarnobrzeg Voivodeship	EU																								
+Block Bay	AN																								
+Primorsky Krai	AS																								
+Catholic Syrian Bank	AS																								
+East Francia	EU																								
+Noosa Heads	OC																								
+Rydberg Peninsula	AN																								
+Biberach district	EU																								
+Morris Rock	AN																								
+Gmina Konarzyny	EU																								
+Enterprise Island	AN																								
+Breaux Bridge	NA																								
+Wakefield Park	OC																								
+Ferrobaires	SA																								
+Birendranagar	AS																								
+Austkampane Hills	AN																								
+Malta Plateau	AN																								
+Gela	EU																								
+Greve	EU																								
+Coomera River	OC																								
+Lucentum	EU																								
+Moi International Sports Centre	AF																								
+Himachal Pradesh	AS																								
+Padua	EU																								
+Isle of Raasay	EU																								
+Guillaumes	EU																								
+Dorogomilovo District	EU																								
+Somerset Land District	AN																								
+A227 road	EU																								
+Niederweningen	EU																								
+Mpumalanga	AF																								
+Lavoisier Island	AN																								
+Mount Bayonne	AN																								
+Bangui	AF																								
+Giurgiu County	EU																								
+Kennedy Highway	OC																								
+Monessen	NA																								
+Grossman Nunataks	AN																								
+Fold Island	AN																								
+Rottendorf	EU																								
+Cole Peninsula	AN																								
+Ninnis Glacier	AN																								
+Oman	AS																								
+Kingsborough Community College	NA																								
+Wildcat Hills	NA																								
+Le Puy Foot 43 Auvergne	EU																								
+Grolsch Brewery	EU																								
+Sam Rayburn Reservoir	NA																								
+Honkala Island	AN																								
+Siemiatycze	EU																								
+Long Beach Polytechnic High School	NA																								
+Muskegon River	NA																								
+Losiny Ostrov National Park	EU																								
+Veliko Tarnovo	EU																								
+Facit	EU																								
+Brazos Wind Farm	NA																								
+Lochaline	EU																								
+Kermit, Texas	NA																								
+Puebla	NA																								
+Lake Conroe	NA																								
+Kingston Whig-Standard	NA																								
+Fairfield West	OC																								
+Cheyenne Frontier Days	NA																								
+Pindamonhangaba	SA																								
+Husky Massif	AN																								
+Support Force Glacier	AN																								
+Misnomer Point	AN																								
+Perak	AS																								
+Cape Royds	AN																								
+Geffen Award	AS																								
+Mac. Robertson Land	AN																								
+Scheldt	EU																								
+Tell Rifaat	AS																								
+Swann Memorial Fountain	NA																								
+Mount Dido	AN																								
+Lyon Nunataks	AN																								
+Mobiloil Inlet	NA																								
+Northland	OC																								
+Mount McClintock	AN																								
+Niagara County, New York	NA																								
+Melilla	AF																								
+Findhorn Foundation	EU																								
+Attingal	AS																								
+Queen Elizabeth Land	AN																								
+Cheshire	EU																								
+Tang Dynasty	AS																								
+Chambal River	AS																								
+Inuit Circumpolar Council	NA																								
+Niger River	AF																								
+Hanover Tavern	NA																								
+Wazzin	AF																								
+Biscay	EU																								
+Ceredigion County Council	EU																								
+Lancaster Catholic High School	NA																								
+Stockholm County	EU																								
+Quinton Point	NA																								
+Hutton Mountains	AN																								
+Jewish Museum	unsure																								
+Ma'an Governorate	AS																								
+Autauga County	NA																								
+Bruce County	NA																								
+United Mine Workers	NA																								
+Oseberg oil field	EU																								
+2010 Belgian federal election	EU																								
+Habsburg Monarchy	EU																								
+Gdynia	EU																								
+Vestreskorve Glacier	AN																								
+Segura	EU																								
+Cape Monaco	NA																								
+Banaskantha district	AS																								
+El Tarf Province	AF																								
+Alor Setar	AS																								
+Asian Highway Network	AS																								
+Camp Mabry	NA																								
+Kuantan	AS																								
+Altare della Patria	EU																								
+Craddock Massif	AN																								
+Silesian Voivodeship	EU																								
+Auchenharvie Castle	EU																								
+Hilton Inlet	AN																								
+Aviator Glacier	AN																								
+Skelton Glacier	AN																								
+Spirit Mountain Wilderness	NA																								
+Mizoram	AS																								
+Berar Province	AS																								
+Titograd	EU																								
+Forrestal Range	AN																								
+Wesley Hospital	AU																								
+Rutgers Preparatory School	NA																								
+2004 Indian Ocean earthquake	AS																								
+Snowdon	EU																								
+Neighbourhoods in Kolkata	AS																								
+Arjoun	AS																								
+Boguchany Dam	EU																								
+Omusati region	AF																								
+Imperia	EU																								
+Schofield Barracks	NA																								
+Bosporan Kingdom	EU																								
+National Congress of Brasil	SA																								
+Kayunga District	AF																								
+Astrid Lindgren Memorial Award	EU																								
+South East Cape	OC																								
+Cunter	EU																								
+Kakata	AF																								
+Pirkanmaa	EU																								
+Hersbruck	EU																								
+Capolago	EU																								
+Lebanese	AS																								
+Emba River	EU																								
+Kluuvi	EU																								
+Singarapettai	AS																								
+Pannonhalma Archabbey	EU																								
+Kanchanaburi	AS																								
+Dwarka	AS																								
+Everberg	EU																								
+Free National Movement	NA																								
+Oliver Ames High School	NA																								
+Lombard kingdom	EU																								
+Subarnapur district	AS																								
+Firenze	EU																								
+Grand Mosque of Paris	EU																								
+Nauders	EU																								
+Sana'a International Airport	AS																								
+East Karelia	EU																								
+Cmolas	EU																								
+Fukuno, Toyama	AS																								
+Cubagua	SA																								
+Doha	AS																								
+Northern Samar	AS																								
+Siquijor	AS																								
+Adliswil	EU																								
+Ulundurpet	AS																								
+Wanne-Eickel Central Station	EU																								
+Sabburah Subdistrict	AS																								
+Madala	AF																								
+Al-Suqaylabiyah Subdistrict	AS																								
+Band-e Kaisar	AS																								
+Mandara Mountains	AF																								
+Akure	AF																								
+Rathen	EU																								
+Jervis Inlet	NA																								
+Albertis Castle	EU																								
+Bungsberg	EU																								
+Dospat Municipality	EU																								
+Piazza al Serchio	EU																								
+Juba	AF																								
+Sofia City Province	EU																								
+Farrington High School	OC																								
+Stentoften Runestone	EU																								
+Lake Caliraya	AS																								
+Sands of Beirut	AS																								
+Maella	EU																								
+Lindholm station	EU																								
+Ust-Katav	EU																								
+Hellenic Police	EU																								
+Mauna Kea	OC																								
+Mamou Region	AF																								
+Mudgee	OC																								
+Tudeshk Rural District	AS																								
+Ytyk-Kyuyol	AS																								
+Nobel Peace Center	EU																								
+City of Hervey Bay	OC																								
+Romanian	EU																								
+Ust-Maya	AS																								
+West Darfur	AF																								
+Deputatsky	AS																								
+Bighorn Basin	NA																								
+Garabit viaduct	EU																								
+Lakeridge Health Oshawa	NA																								
+Centre Pierre Charbonneau	NA																								
+West Norfolk	EU																								
+Grobbendonk	EU																								
+Davao Region	AS																								
+Lambunao	AS																								
+Orpheus Island National Park	OC																								
+Bay	AF																								
+Argentine National Anthem	SA																								
+Galata	AS																								
+Elk State Park	NA																								
+Sialkot district	AS																								
+Sumulong Highway	AS																								
+Ovada	EU																								
+Ikuno-ku	AS																								
+Phoenix Symphony Hall	NA																								
+Rudrur	AS																								
+Habitat 67	NA																								
+Rottumerplaat	EU																								
+Tsubaki Grand Shrine	AS																								
+Romano d'Ezzelino	EU																								
+Eurasian Steppe	EU																								
+Little Stirrup Cay	NA																								
+Pochepsky District	EU																								
+Kitakami Station	AS																								
+Eerbeek	EU																								
+Shichikashuku	AS																								
+Gmina Bodzentyn	EU																								
+Conakry Region	AF																								
+al-Qahira	AF																								
+Augustdorf	EU																								
+East Wall	EU																								
+Ledaal	EU																								
+Lutvann	EU																								
+Kapar	AS																								
+Soalala District	AF																								
+Now Kandeh District	AS																								
+Mezhdurechensky District	EU																								
+Beckingen	EU																								
+Spanish Armed Forces	EU																								
+Badoc	AS																								
+Entzheim	EU																								
+Boinpalle mandal	AS																								
+Surazh	EU																								
+New Era University	AS																								
+Southern Savonia	EU																								
+Istanbul Airport	AS																								
+Sears Point	NA																								
+Western Bug	EU																								
+Portuguese	EU																								
+Bilecik Province	AS																								
+Tiraspol	EU																								
+Panteion University	EU																								
+Passeier Valley	EU																								
+Pamukkale	AS																								
+Polish	EU																								
+Porto Azzurro	EU																								
+Russian	EU																								
+Golden Gate National Recreation Area	NA																								
+TUIfly Nordic	EU																								
+Pilis Mountains	EU																								
+Puerto Rican	NA																								
+public transport in Istanbul	AS																								
+Edirne Province	AS																								
+Tirebolu	AS																								
+French protectorate	AF																								
+Burdur Province	AS																								
+Osmaniye Province	AS																								
+Ankara	AS																								
+Narman	AS																								
+Surabaya	AS																								
+Antalya Province	AS																								
+Soviet Russia	EU																								
+Berea District	AF																								
+North Korean	AS																								
+Sakarya Province	AS																								
+Zaragoza	EU																								
+Taksim Military Barracks	AS																								
+Kaveri River	AS																								
+Junnar	AS																								
+French Southern and Antarctic Lands	AN																								
+Rothera Station	AN																								
+Khabarovsk	AS																								
+Gambia River	AF																								
+Mont Blanc	EU																								
+Wuhan	AS																								
+Rutford Ice Stream	AN																								
+Lemaire Island	AN																								
+Hudson Mountains	AN																								
+Stonington Island	AN																								
+Shebelle River	AF																								
+Macedonian	EU																								
+Yoruba religion	AF																								
+Mount Queequeg	AN																								
+Langnes Peninsula	AN																								
+Kaliakra Glacier	AN																								
+McDonald Heights	AN																								
+Urdoviza Glacier	AN																								
+Snakeskin Glacier	AN																								
+Trail Inlet	AN																								
+Irish Free State	EU																								
+Yorkshire	EU																								
+Mount Bentley	AN																								
+Onyx River	AN																								
+Mount Cocks	AN																								
+Saint Johns Range	AN																								
+Daugava River	EU																								
+Wylie Bay	AN																								
+Splettstoesser Glacier	AN																								
+Hull Glacier	AN																								
+Schytt Glacier	AN																								
+Millerand Island	AN																								
+Davis Station	AN																								
+Scar Inlet	AN																								
+Carlini Station	AN																								
+Kouilou-Niari River	AF																								
+Supporters Range	AN																								
+Rayner Glacier	AN																								
+Yugoslav	EU																								
+Booth Island	AN																								
+Charlotte Bay	AN																								
+Camp Academia	AN																								
+Garwood Valley	AN																								
+Estonian	EU																								
+Ardery Island	AN																								
+Peking	AS																								
+Lomonosov Mountains	AN																								
+East Ongul Island	AN																								
+Marinid dynasty	AF																								
+Bowman Coast	AN																								
+Wright Lower Glacier	AN																								
+Bach Ice Shelf	AN																								
+Swedish	unsure																								
