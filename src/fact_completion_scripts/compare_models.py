@@ -17,7 +17,7 @@ from transformers import (
     AutoModelForSeq2SeqLM,
 )
 
-from probe_helpers import probe_gpt, probe_bert, probe_llama, probe_t5, probe_stablelm
+# from probe_helpers import probe_gpt, probe_bert, probe_llama, probe_t5, probe_stablelm
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 if not torch.cuda.is_available():
@@ -38,11 +38,17 @@ def get_model_and_tokenizer(model_name):
         or ("opt" in model_name.lower())
         or ("pythia" in model_name.lower())
         or ("bloom" in model_name.lower())
-        or ("stablelm" in model_name.lower())
     ):
         return AutoTokenizer.from_pretrained(
             model_name
         ), AutoModelForCausalLM.from_pretrained(
+            model_name, load_in_8bit=True, device_map="auto", torch_dtype=torch.float16
+        )
+
+    elif "stablelm" in model_name.lower():
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        tokenizer.pad_token = "<|padding|>"
+        return tokenizer, AutoModelForCausalLM.from_pretrained(
             model_name, load_in_8bit=True, device_map="auto", torch_dtype=torch.float16
         )
 
