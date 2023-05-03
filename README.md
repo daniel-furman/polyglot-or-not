@@ -7,35 +7,35 @@
 This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models](https://bit.ly/ischool-berkeley-capstone). It contains several research artifacts, including:
 
 1. The [code][cka_run_main] for running the fact-completion test
-2. Our release of the 20-language [test dataset][hf_data]
+2. Our [dataset][hf_data] of factual associations translated into 20 languages. 
 3. A [demo][cka_lightweight_demo] of contrastive knowledge assessment 
 
-## Test Description
+## Method
 
 Given a factual association such as *The capital of France is **Paris***, we determine whether a model adequately "knows" the correct completion with the following test:
  
 * **Step 1**: prompt the model to predict the likelihood of the token **Paris** following *The Capital of France is*
 * **Step 2**: prompt the model to predict the average likelihood of a set of false, counterfactual tokens following the same stem.
  
-If the value from **Step 1** is greater than the value from **Step 2** we conclude that the model adequately recalls that fact. Formally, this is an application of the Contrastive Knowledge Assessment proposed in [[1][bib]]. For every foundation model of interest, like [LLaMa](https://arxiv.org/abs/2302.13971) [[2][bib]], we perform this assessment on a set of facts translated into 20 languages. All told, we score foundation models on 303k fact-completions ([results](https://github.com/daniel-furman/Polyglot-or-Not#test-results)). We also scored monolingual models (like [GPT-NeoX](https://arxiv.org/abs/2204.06745) and [OPT](https://arxiv.org/abs/2205.01068)) on the English-only subset. While we would have very much liked to test close-sourced models, such as OpenAI's GPT-4, these models don't provide vocabulary-wide token probabilities at inference and are thus incompatible with our test. 
+If the value from **Step 1** is greater than the value from **Step 2** we conclude that the model adequately recalls that fact. Formally, this is an application of the *Contrastive Knowledge Assessment* proposed in [[1][bib]]. 
+
+## Models Tested
+
+We evaluate 5 open-sourced foundation models of interest, like [LLaMa](https://arxiv.org/abs/2302.13971) [[2][bib]]. We perform this assessment using 303k fact-completions translated into 20 languages ([results](https://github.com/daniel-furman/Polyglot-or-Not#test-results)). 
+
+In addition to our mulitlingual assessment, we also scored 17 monolingual models (like [GPT-NeoX](https://arxiv.org/abs/2204.06745) and [OPT](https://arxiv.org/abs/2205.01068)) on the English subset of our data. 
+
+While we would have very much liked to test close-sourced models, such as OpenAI's GPT-4, these models don't provide vocabulary-wide token probabilities at inference and are thus incompatible with our test. 
 
 ## Data Release
 
-We present 303k unique fact-completions in [`CalibraGPT/Fact-Completion.parquet`][hf_data], which are in the form of stem-fact-counterfact triples. See the [dataset viewer](https://huggingface.co/datasets/CalibraGPT/Fact-Completion/viewer/CalibraGPT--Fact-Completion/English) for a closer look. 
+We present 303k unique fact-completions in [`CalibraGPT/Fact-Completion`][hf_data], which are in the form of {stem, fact, counterfact} triples. See the [dataset viewer](https://huggingface.co/datasets/CalibraGPT/Fact-Completion/viewer/CalibraGPT--Fact-Completion/English) for a closer look. 
 
 * 20 Latin/Cyrillic script languages are included. The ISO 639-1 language codes are: `bg`, `ca`, `cs`, `da`, `de`, `en`, `es`, `fr`, `hr`, `hu`, `it`, `nl`, `pl`, `pt`, `ro`, `ru`, `sl`, `sr`, `sv`, and `uk`. 
 
-The factual associations were originally sourced from Wikidata curated in the T-REx dataset [[3][bib]]. Since the T-REx dataset is English-only, we used the Google Translate API alongside bespoke wrapper code to programmatically generate the non-English cuts. Subsequently, we had a handful of native speakers review samples of the dataset to qualitatively validate the faithfulness of the translations (for German, French, and Spanish). Despite the positive sentiment from these reviews, minor language translation errors may persist across the dataset. 
+The factual associations were originally sourced from English-language Wikidata curated in the T-REx dataset [[3][bib]] as utilized in factual association research such as [[1][bib]] and [[4][bib]]. We used the Google Translate API alongside bespoke wrapper [code](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/src/dataset_caching_scripts/language_translation_helper.py) to programmatically generate the non-English cuts. 
 
 ## Test Results 
-
-### **LLaMa-30b** fact-completion performance per language.
-
-![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
-
-**Figure 1**: The percentage of fact completions adequately retrieved by LLaMa-30b per language (blue) compared to a handful of English-only models (gray). The performance across languages indicates that LLaMa-30b is much better on Latin script than Cyrillic script -- all four Cyrillic script languages score at the bottom. A chi-square test was run with the **null** hypothesis that language script was independent from LLaMa-30b's test performance, the results of which were statistically significant with *p* < 0.001.
-
- &nbsp;
 
  ### **Multilingual** fact-completion performance per model.
  
@@ -47,6 +47,9 @@ The factual associations were originally sourced from Wikidata curated in the T-
  | [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | **56.03** +/- 0.90 | 355M | Conneau et al., 2019 | Meta | 
  | [mt5-xl](https://arxiv.org/abs/2010.11934) |  **52.51** +/- 0.91 | 3.7B | Xue et al., 2020 | Google |
  | Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
+
+ &nbsp; 
+ &nbsp;
 
  ### **English-only** fact-completion performance per model.
  
@@ -69,11 +72,19 @@ The factual associations were originally sourced from Wikidata curated in the T-
  | [mt5-xxl](https://arxiv.org/abs/2010.11934) | **61.58** +/- 0.59|  11B |  Xue et al., 2020 | Google |
  | [xlm-roberta-large](https://arxiv.org/abs/1911.02116) | **61.55** +/- 0.59 | 355M | Conneau et al., 2019 | Meta |
  | [mt5-xl](https://arxiv.org/abs/2010.11934) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
- | Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; |  
+ | Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; | 
+
+ &nbsp; 
  
- **Tables 1 & 2**: The bolded values indicate the percentage of fact completions adequately retrieved by the given model. The uncertainty estimates (+/-) are 95% confidence intervals computed from 10000 bootstrap iterations. At a glance, these results indicate many interesting back-of-the-hand insights. For example, training data seems to be tied closer to performance than model size, more recent models tend to perform better on average than older ones, and Meta by and large "beats out" other orgs. 
+ **Tables 1 & 2**: The bolded values indicate the percentage of fact completions adequately retrieved by the given model. The uncertainty estimates (+/-) are 95% confidence intervals computed from 10000 bootstrap iterations. At a glance, these results indicate many interesting back-of-the-hand insights. For example, training data seems to be tied closer to performance than model size, more recent models tend to perform better than older ones, and Meta "beats out" other researcher consortiums. 
  
  &nbsp;
+
+### **LLaMa-30b** fact-completion performance per language.
+
+![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
+
+**Figure 1**: The percentage of fact completions adequately retrieved by LLaMa-30b per language (blue) compared to a handful of English-only models (gray). LLaMa-30b is much better on languages written in Latin script than those written in Cyrillic scrip; notably, all four Cyrillic script languages score at the bottom. A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) confirms that LLaMa-30b's test performance is dependent on language script (*p* < 0.001).
  
 ## Authors
 
