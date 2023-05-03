@@ -4,7 +4,7 @@ Haas House	unsure
 Iran	AS
 Bavaria	EU
 Somalia	AF
-Halifax Regional Municipality	NA
+Halifax Regional Municipality	North America
 Catalonia	EU
 Norway	EU
 Petrozavodsk	EU
@@ -16,7 +16,7 @@ Croom, County Limerick	EU
 Binjai	AS
 Buenos Aires	SA
 Santiago	SA
-Alberta Alliance Party	NA
+Alberta Alliance Party	North America
 La Condamine	SA
 Colonial Brazil	SA
 Dutch East Indies	AS
@@ -41,7 +41,7 @@ Manyakheta	AS
 Antarctic ice sheet	AN
 United Kingdom	EU
 Slovenia	EU
-Nebraska Peaks	NA
+Nebraska Peaks	North America
 Bhopal	AS
 Newcomer Glacier	AN
 Italy	EU
@@ -59,17 +59,17 @@ Rodez	EU
 Wallis Island	OC
 Helsinki	EU
 Brisbane, Australia	OC
-Saint-Louis-de-Kent, New Brunswick	NA
+Saint-Louis-de-Kent, New Brunswick	North America
 Melnik Peak	AN
-Bearpaw Shale	NA
+Bearpaw Shale	North America
 Comoros	AF
 Tasmania	OC
 Abu Dhabi	AS
 Riyadh	AS
 Carryer Glacier	AN
-Albany	NA
+Albany	North America
 Tōkyō	AS
-Long Hills	NA
+Long Hills	North America
 Bahujan Vikas Aaghadi	AS
 Gazakh	EU
 Saffery Islands	OC
@@ -91,11 +91,11 @@ Grand Duchy of Finland	EU
 French Polynesia	OC
 Croatia	EU
 Tursi	EU
-Philadelphia	NA
+Philadelphia	North America
 Vietnam	AS
 London	EU
 Dufek Massif	AN
-Elgin West	NA
+Elgin West	North America
 Siple Dome	AN
 Dili	OC
 Miers Bluff	AN
@@ -106,7 +106,7 @@ Cameroon	AF
 Guinea-Bissau	AF
 Pyongyang	AS
 Leeton, New South Wales	OC
-Morrison County	NA
+Morrison County	North America
 Rome	EU
 Campania	EU
 France	EU
@@ -124,8 +124,8 @@ Dornbirn	EU
 Kuala Lumpur	AS
 Flask Glacier	AN
 Madhya Pradesh	AS
-Masaya Department	NA
-Buchans	NA
+Masaya Department	North America
+Buchans	North America
 Basel	EU
 Mountaineer Range	AN
 Mahalangur Himal	AS
@@ -146,13 +146,13 @@ Rif Dimashq Governorate	AS
 Kyrgyzstan	AS
 Baku	AS
 Harare	AF
-Hispaniola	NA
+Hispaniola	North America
 Dakar	AF
-Novoarkhangelsk	NA
+Novoarkhangelsk	North America
 Pomorie Point	EU
 Rio de Janeiro	SA
 British Empire	EU
-Giles County, Virginia	NA
+Giles County, Virginia	North America
 India	AS
 Sadr City	AS
 Hays Mountains	AN
@@ -161,24 +161,24 @@ Switzerland	EU
 Russia	AS
 Bruges	EU
 Tuscany	EU
-Hawaii	NA
+Hawaii	North America
 Cape Legoupil	AN
 Belgium	EU
-Cuba	NA
+Cuba	North America
 Brazil	SA
 Brandenburg-Prussia	EU
-Prieto Diaz	NA
+Prieto Diaz	North America
 Ottoman Empire	unsure
 China	AS
 Lebanon	AS
-Oshawa	NA
-New France	NA
+Oshawa	North America
+New France	North America
 Yekaterinburg	AS
 Uusimaa	EU
 San Francisco de Quito	SA
 Air New Zealand Flight 901	unsure
 Ray Promontory	AN
-Hall County, Nebraska	NA
+Hall County, Nebraska	North America
 Varna Peninsula	EU
 Tajik	AS
 Bern	EU
@@ -187,8 +187,8 @@ Straits Settlements	AS
 Belgrade	EU
 Getz Ice Shelf	AN
 Second Spanish Republic	EU
-New Castle County, Delaware	NA
-CFMJ	NA
+New Castle County, Delaware	North America
+CFMJ	North America
 Ariake Coliseum	AS
 North Kurdufan	AF
 Macau	AS
@@ -207,14 +207,14 @@ Ioannes Paulus II Peninsula	AN
 Veyrier	EU
 Land Glacier	AN
 Paris	EU
-Quebec	NA
+Quebec	North America
 Uruguay	SA
 Uttar Pradesh	AS
 Palladam	AS
 Handel Ice Piedmont	AN
 Jemappes	EU
 Vojvodina	EU
-Antelope Canyon	NA
+Antelope Canyon	North America
 Aargau	EU
 Norfolk Air	OC
 Bad Schwalbach	EU
@@ -224,7 +224,7 @@ Zucchelli Station	AN
 Frasnes-lez-Anvaing	EU
 Llandaff Cathedral	EU
 Netherlands	EU
-Puerto Rico	NA
+Puerto Rico	North America
 Beijing	AS
 Westminster	EU
 Roman Empire	EU
@@ -241,19 +241,19 @@ Czech Republic	EU
 Lodhran Tehsil	AS
 Canary Islands	AF
 Bahrain	AS
-El Salvador	NA
+El Salvador	North America
 Tuvalu	OC
 Larsemann Hills	AN
 Asmara	AF
 Punjab, Pakistan	AS
 Aucanquilcha	SA
-Philadelphia, PA	NA
+Philadelphia, PA	North America
 Silesia	EU
 Falun	EU
 Aalborg	EU
 Ireland	EU
 Forster Ice Piedmont	AN
-Nicaragua	NA
+Nicaragua	North America
 Hitachinaka	AS
 David Glacier	AN
 Cork GAA	EU
@@ -262,13 +262,13 @@ Spanish Empire	EU
 South Yemen	AS
 Planet Heights	unsure
 Alikovo	EU
-New Jersey	NA
+New Jersey	North America
 Jan Amora	AF
 Hainan	AS
 Democratic Republic of Afghanistan	AS
 Jiangxi Province	AS
 Kotis Point	AN
-Clearwater Formation	NA
+Clearwater Formation	North America
 Saipan	OC
 Vinson Plateau	AN
 Gaborone	AF
@@ -287,7 +287,7 @@ Kazakh	AS
 Mozambique	AF
 Union between Sweden and Norway	EU
 Poland	EU
-Nunavut	NA
+Nunavut	North America
 Darley Hills	AN
 Hokkaido	AS
 Hilir Perak	AS
@@ -304,7 +304,7 @@ Erbil SC	AS
 Latvia	EU
 Santa Cruz de Mompox	SA
 Lower Assam	AS
-Caribou County, Idaho	NA
+Caribou County, Idaho	North America
 Yinchuan	AS
 Serbia	EU
 Heves County	EU
@@ -319,7 +319,7 @@ Orange Free State	AF
 Indonesia	AS
 Kyoto University	AS
 Persepolis	AS
-Mexico	NA
+Mexico	North America
 Cappoquin	EU
 Pakistan	AS
 Lovech Heights	EU
@@ -327,7 +327,7 @@ Fawkner	OC
 People's Republic of Poland	EU
 Romania	EU
 Alikovsky District	EU
-Woodbine Racetrack	NA
+Woodbine Racetrack	North America
 Mount Fridtjof Nansen	AN
 Allied-occupied Germany	EU
 Fujian	AS
@@ -337,8 +337,8 @@ North Ossetia	EU
 CHN	AS
 First Republic	EU
 Shirase Glacier	AN
-Humboldt County, California	NA
-Desolation Lava Field	NA
+Humboldt County, California	North America
+Desolation Lava Field	North America
 Botswana	AF
 Emona Anchorage	EU
 Noyon	EU
@@ -354,7 +354,7 @@ Haut Atlas	AF
 South Africa	AF
 Bulgaria	EU
 Monte San Giorgio	EU
-Port-au-Prince	NA
+Port-au-Prince	North America
 Papua New Guinea	OC
 Corner Cliffs	AN
 Venezuela	SA
@@ -366,17 +366,17 @@ Tughlaq dynasty	AS
 Kinshasa	AF
 Chapman Snowfield	AN
 Tripoli	AF
-Colorado	NA
+Colorado	North America
 Recovery Glacier	AN
 Blaiklock Glacier	AN
 Queens Gardens, Brisbane	OC
 Copenhagen	EU
-Iowa	NA
+Iowa	North America
 Kaunas Cathedral Basilica	EU
 Philippines	AS
 Marie Byrd Land	AN
 Ukraine	EU
-Bowyer Butte	NA
+Bowyer Butte	North America
 Valea lui Mihai	EU
 Singapore	AS
 Sabratha	AF
@@ -387,11 +387,11 @@ Wellington Island	AN
 Kingdom of Sicily	EU
 Alte Oper	EU
 Atpadi	AS
-Honduras	NA
+Honduras	North America
 ABC Futebol Clube	SA
 Mari El Republic	EU
 Cape Mousse	AF
-Philadelphia, Pennsylvania	NA
+Philadelphia, Pennsylvania	North America
 Madrid	EU
 Armenia	AS
 MacAlpine Hills	AN
@@ -406,7 +406,7 @@ Kigali	AF
 Trentino	EU
 Delhi	AS
 Castleisland Desmonds GAA	EU
-Morelos	NA
+Morelos	North America
 Bugis Junction	AS
 Sovereign Military Order of Malta	EU
 Brussels	EU
@@ -418,23 +418,23 @@ Finnish	EU
 Yadagirigutta Temple	AS
 Europe	EU
 Valdichiana	EU
-WinStar World Casino	NA
+WinStar World Casino	North America
 Bangkok	AS
 Nimmitabel	OC
 Uganda	AF
 Urangan	OC
 Flanders	EU
-Pocahontas County	NA
+Pocahontas County	North America
 Eupen-Malmedy	EU
 Hungarian	EU
-Jamaica	NA
-Clothier Harbour	NA
-Gair Mesa	NA
+Jamaica	North America
+Clothier Harbour	North America
+Gair Mesa	North America
 Hanoi	AS
 Kingdom of Libya	AF
 Czech Socialist Republic	EU
 Morozumi Range	AS
-Foothills-Rocky View	NA
+Foothills-Rocky View	North America
 Al Madinah Region	AS
 Libya	AF
 Stabben	EU
@@ -444,12 +444,12 @@ Al Daayen	AS
 Gobardanga	AS
 Syria	AS
 Cairo	AF
-The Forks, Winnipeg	NA
-Boston	NA
+The Forks, Winnipeg	North America
+Boston	North America
 Nile	AF
 Minamishitara District, Aichi	AS
 Papua	OC
-Mexican Federal District	NA
+Mexican Federal District	North America
 Himmelbjerget	EU
 Mali	AF
 West Sumatra	AS
@@ -466,7 +466,7 @@ Bolvadin	AS
 Plougonven	EU
 Kanagawa	AS
 Shipley Glacier	AN
-Cape Smith	NA
+Cape Smith	North America
 South Korea	AS
 Kampala	AF
 Bratislava	EU
@@ -477,7 +477,7 @@ Kingdom of Iraq	AS
 Beascochea Bay	AN
 Mount Murphy	AN
 Pacentro	EU
-Havana	NA
+Havana	North America
 Gauteng	AF
 Bourbon Restoration	EU
 Luxembourg	EU
@@ -499,7 +499,7 @@ Frosinone	EU
 Manikata	EU
 Isabela	SA
 National Highway 45	AS
-McAlester, OK	NA
+McAlester, OK	North America
 Uttarakhand	AS
 Entente Florale	EU
 Medan	AS
@@ -519,7 +519,7 @@ Austrian Empire	EU
 Levski Ridge	EU
 Bhinmal	AS
 Club Aurora	AN
-Coke County	NA
+Coke County	North America
 Isfahan province	AS
 Montevideo	SA
 Tarnovo	EU
@@ -527,28 +527,28 @@ Glencree	EU
 Nagaland	AS
 Prey Veng Province	AS
 Palermo	EU
-Ouachita Parish	NA
+Ouachita Parish	North America
 Flemish Community	EU
 Manila	AS
 Kathmandu	AS
 Baghdad	AS
-Pittsburgh, Pennsylvania	NA
-Canadian County, Oklahoma	NA
+Pittsburgh, Pennsylvania	North America
+Canadian County, Oklahoma	North America
 Alpokalja	EU
 Heidelberg	EU
-British America	NA
+British America	North America
 Niger	AF
 Nizampatnam	AS
 Davao del Norte	AS
 Chukotka Autonomous Okrug	AS
 Central African Republic	AF
 Germany	EU
-Cook County	NA
+Cook County	North America
 Hohenlohe-Langenburg	EU
 Ayyubid dynasty	AS
 Sapporo	AS
 Homs Governorate	AS
-Massachusetts Bay Transportation Authority	NA
+Massachusetts Bay Transportation Authority	North America
 Jiul de Vest River	EU
 Mount Steere	AN
 Rājagaha	AS
@@ -565,17 +565,17 @@ Denmark	EU
 Jakarta	AS
 occupation of Japan	AS
 Amsterdam	EU
-New York	NA
+New York	North America
 Alexander Island	AN
 Qiantang	AS
-Hamilton County	NA
+Hamilton County	North America
 Hobart	AN
 Bastia	EU
 Thailand	AS
 Somerset	EU
 Herāt	AS
 La Grange Nunataks	AN
-Edmonton	NA
+Edmonton	North America
 Mount Markham	AN
 Ottoman	AS
 Ruthweiler	EU
@@ -586,7 +586,7 @@ United Kingdom of Great Britain and Ireland	EU
 Garbeta	AS
 Panormus	EU
 Bosnia	EU
-Berkeley County, West Virginia	NA
+Berkeley County, West Virginia	North America
 Neryungri	AS
 Bolzano	EU
 First Czechoslovak Republic	EU
@@ -603,12 +603,12 @@ Didymoteicho	EU
 Lagos	AF
 Lodi dynasty	AS
 Dushanbe	AS
-Ozumba	NA
+Ozumba	North America
 Paktia province	AS
 Heilongjiang	AS
 Pampilhosa da Serra	EU
 Plana Peak	EU
-Ransom County	NA
+Ransom County	North America
 Jennings Promontory	AN
 Cook Islands	OC
 Mbabane	AF
@@ -627,23 +627,23 @@ Third Hellenic Republic	EU
 Turgai River	AS
 Adare Manor	EU
 Kongoussi	AF
-Covelli Centre	NA
+Covelli Centre	North America
 Wirth Peninsula	AN
 City of Cranbourne	OC
 Rosebud River	OC
 Bhisho	AF
 Mirbag-e Shomali Rural District	AS
-Washington DC	NA
+Washington DC	North America
 Guangzhou	AS
 Jilin	AS
 Augusta Raurica	EU
 Oates Land	AN
 Vilnius	EU
 Vientiane	AS
-Raft River Mountains	NA
-United States	NA
+Raft River Mountains	North America
+United States	North America
 Malaysia	AS
-Cloutierville	NA
+Cloutierville	North America
 Villa La Pietra	EU
 Shoranur	AS
 Reinbolt Hills	AN
@@ -661,8 +661,8 @@ Dumoulin Islands	AN
 4th of August Regime	EU
 Bayreuth	EU
 Taiyuan, China	AS
-Toronto Police Service	NA
-Tijuana River	NA
+Toronto Police Service	North America
+Tijuana River	North America
 Abidjan	AF
 Whillans Ice Stream	AN
 Fosdick Mountains	AN
@@ -672,14 +672,14 @@ Pinosava	EU
 Moon Bay	AN
 Arsk	EU
 Bolivia	SA
-Miramichi Centre	NA
+Miramichi Centre	North America
 Banten	AS
 Cyprus	AS
 Lower Juba	AF
 cadastral municipality	EU
 Willan Nunatak	AN
 Perth	OC
-Manitoba	NA
+Manitoba	North America
 Port Moresby	OC
 Umayyad Caliphate	AS
 Pahlavi	AS
@@ -693,32 +693,32 @@ Flieden	EU
 Doyran Heights	EU
 Cobham Range	AN
 Nesodden IF	EU
-Colony of Vancouver Island	NA
+Colony of Vancouver Island	North America
 Brisbane	OC
 Neuburg Peak	AN
 Aquila	EU
 Guyana	SA
 Eredivisie	EU
-Goat Rock Beach	NA
-New Hampshire	NA
+Goat Rock Beach	North America
+New Hampshire	North America
 Bihar	AS
 Second French Empire	EU
 PMR	EU
-Hernando County	NA
+Hernando County	North America
 Hauser & Wirth	EU
-Indianapolis	NA
+Indianapolis	North America
 Ostermundigen	EU
 Kiev	EU
 Kingdom of Afghanistan	AS
 Schokalsky Bay	AN
-Utah	NA
+Utah	North America
 Hansen Glacier	AN
 Fleming Glacier	AN
 Mawson Glacier	AN
 Dijon	EU
 Rashidun Caliphates	AS
 Matusevich Glacier	AN
-McMinn County	NA
+McMinn County	North America
 West Dunbartonshire	EU
 Mundraga Bay	AN
 Maccagno	EU
@@ -728,7 +728,7 @@ Breznik Heights	EU
 Gorseinon	EU
 Surrey	EU
 IL Brodd	EU
-Brandon University	NA
+Brandon University	North America
 Ghanaian	AF
 Samsun Province	AS
 Garkan Rural District	AS
@@ -742,8 +742,8 @@ Calder Freeway	OC
 Sebatik Island	AS
 Bangarapet	AS
 Eriksbergs Mekaniska Verkstad	EU
-Ottawa	NA
-New York City	NA
+Ottawa	North America
+New York City	North America
 Drummond Glacier	AN
 Hampshire	EU
 Lewin Brzeski	EU
@@ -751,7 +751,7 @@ Colombia	SA
 Gobind Sagar	AS
 Bohemia	EU
 Jaipur	AS
-Watson Island	NA
+Watson Island	North America
 Christian Medical College Ludhiana	AS
 Taipei	AS
 Bloemfontein	AF
@@ -767,23 +767,23 @@ County Offaly	EU
 Carinthia	EU
 Aprilov Point	EU
 Allersberg	EU
-Arkansas	NA
+Arkansas	North America
 Sucre	SA
-Virginia	NA
+Virginia	North America
 Khorasan	AS
 Bispebjerg	EU
 United States Army Military Government in Korea	AS
 Taiwan	AS
-Bas-Saint-Laurent	NA
-Matabitchuan River	NA
+Bas-Saint-Laurent	North America
+Matabitchuan River	North America
 Coulter Heights	AN
 Hangzhou	AS
 2009 Speedway Ekstraliga	EU
 Yerevan	AS
 Warsaw Uprising Museum	EU
-Acolman Municipality	NA
+Acolman Municipality	North America
 Lower Saxony	EU
-Illinois	NA
+Illinois	North America
 Springburn	EU
 Manila Bay	AS
 Hrtkovci	EU
@@ -798,9 +798,9 @@ Kassel	EU
 Otway Massif	AN
 Welschnofen	EU
 Gavork-e Nalin Rural District	AS
-Vancouver	NA
+Vancouver	North America
 Bangladesh	AS
-Staten Island Heights	NA
+Staten Island Heights	North America
 Odisha	AS
 Muro d'Alcoi	EU
 Uromi	AF
@@ -819,7 +819,7 @@ Saxony	EU
 Isfahan International Airport	AS
 Fournier Bay	AN
 Northeast Glacier	AN
-Kansas	NA
+Kansas	North America
 Barrientos Island	AN
 FC Volochanin-Ratmir Vyshny Volochyok	EU
 Fort Madalena	AN
@@ -831,7 +831,7 @@ Douglas Peaks	AN
 VTB Capital	EU
 Roman Catholic Archdiocese of Ljubljana	EU
 Howchin Glacier	AN
-Winnebago County, Illinois	NA
+Winnebago County, Illinois	North America
 Sri Lanka	AS
 Victoria Upper Glacier	AN
 Central Black Forest	EU
@@ -840,15 +840,15 @@ Saigon	AS
 Gyulafehérvár	EU
 Saladin Governorate	AS
 Borg Massif	AN
-Ontario	NA
+Ontario	North America
 Munich Residence	EU
 Dawa River	AS
 Dagestan	EU
-La Bayou	NA
+La Bayou	North America
 Kenya	AF
 Riverside Expressway	AS
 Shastri Park	AS
-Mark Twain National Forest	NA
+Mark Twain National Forest	North America
 Al-Aqsa Mosque	AS
 Kondotty	AS
 Rouen	EU
@@ -856,11 +856,11 @@ Kingdom of Saxony	EU
 Carpentras	EU
 Gansu	AS
 Crosswell Glacier	AN
-Squantz Pond State Park	NA
+Squantz Pond State Park	North America
 Yakutsk	AS
 Perpignan	EU
-Punnichy	NA
-Lake Timiskaming	NA
+Punnichy	North America
+Lake Timiskaming	North America
 Pantin	EU
 Posadas, Argentina	SA
 Saalekreis	EU
@@ -869,14 +869,14 @@ Punta della Dogana	EU
 Limbdi	AS
 Crucible Theatre	EU
 Leinster	EU
-Columbia Valley	NA
-Zacatecas	NA
+Columbia Valley	North America
+Zacatecas	North America
 Gabon	AF
 Calcutta	AS
 Festninga Mountain	AN
 Tokelau	OC
 Chengdu	AS
-Flin Flon	NA
+Flin Flon	North America
 Clackmannanshire	EU
 Dhule Lok Sabha constituency	AS
 Tanzania	AF
@@ -894,7 +894,7 @@ Licodia Eubea	EU
 Gmina Stara Kornica	EU
 Posadowsky Bay	AN
 Delchev Ridge	EU
-San Francisco Conservatory of Music	NA
+San Francisco Conservatory of Music	North America
 Namibia	AF
 bpost	unsure
 Iraq	AS
@@ -916,12 +916,12 @@ Bunda District	AF
 Umbria	EU
 Saratov Oblast	EU
 Shipka Saddle	EU
-Managua	NA
+Managua	North America
 Bintulu Division	AS
 Annweiler am Trifels	EU
 Bird's Head Peninsula	OC
 Ashgabat	AS
-Nevada	NA
+Nevada	North America
 West Pakistan	AS
 Da Nang Air Base	AS
 CD Eldense	EU
@@ -933,7 +933,7 @@ Venus Glacier	AN
 Tarnovo Ice Piedmont	AN
 Wien	EU
 Lannemezan	EU
-Ulster County	NA
+Ulster County	North America
 Nicosia	AS
 Congo	AF
 Pristina	EU
@@ -946,7 +946,7 @@ Zuiderzee	EU
 Kiev Peninsula	EU
 Ba F.C.	AS
 Dundee Island	AN
-Liberty Island	NA
+Liberty Island	North America
 Graz	EU
 Veleka Ridge	EU
 Nagoya University	AS
@@ -954,10 +954,10 @@ Strom Glacier	AN
 Guangdong	AS
 Ang Thong	AS
 Lisbon	EU
-UL Bend National Wildlife Refuge	NA
-KKBQ	NA
+UL Bend National Wildlife Refuge	North America
+KKBQ	North America
 Geelong Art Gallery	OC
-Guatemala	NA
+Guatemala	North America
 Peru	SA
 Macquarie Island	AN
 Cerano	EU
@@ -965,11 +965,11 @@ Marsh Glacier	AN
 Neva	EU
 Bose Institute	AS
 Changchun	AS
-Wyoming	NA
+Wyoming	North America
 Renfrewshire	EU
 Kingdom of Wessex	EU
 Oviedo	EU
-Kingstown	NA
+Kingstown	North America
 Oxford	EU
 Abu Ghosh	AS
 Skopje	EU
@@ -978,7 +978,7 @@ Lucca	EU
 Changsha	AS
 Helsinki City Hall	EU
 Thiruvattar	AS
-Queen Charlotte Mountains	NA
+Queen Charlotte Mountains	North America
 Wentworth Valley	OC
 Ukrainian State	EU
 Reiherstieg Schiffswerfte & Maschinenfabrik	EU
@@ -995,14 +995,14 @@ Baranya County	EU
 Sukhumi	AS
 Avignon	EU
 Santo Stefano d'Aveto	EU
-Idaho	NA
+Idaho	North America
 Laos	AS
 Corse-du-Sud	EU
 Yunnan	AS
 Mumbai	AS
 Sichuan	AS
 1C Company	unsure
-Hotel Oloffson	NA
+Hotel Oloffson	North America
 Mutsamudu	AF
 Wadhwan	AS
 Bedourie	OC
@@ -1012,16 +1012,16 @@ Wallmerod	EU
 Cape Evensen	EU
 Jablanica District	EU
 Moscow	EU
-Halls Stream	NA
+Halls Stream	North America
 SEC Armadillo	EU
-Real County	NA
+Real County	North America
 Senegal	AF
 Viseu	EU
 Kyrgyz SSR	AS
 Mogadishu	AF
 Nizamabad district	AS
 Andhra Pradesh	AS
-Canada	NA
+Canada	North America
 Bad Wildungen	EU
 Fluminense F.C.	SA
 Lions Rump	AF
@@ -1029,25 +1029,25 @@ South Beaches	OC
 Zimbabwe	AF
 Uzbekistan	AS
 Tamil Nadu	AS
-Galiano Island	NA
+Galiano Island	North America
 Patna	AS
 Anatolia Eyalet	EU
 Morval	EU
 San Giorgio Canavese	EU
-Mississippi	NA
-Pinecreek	NA
+Mississippi	North America
+Pinecreek	North America
 Mertz Glacier	AN
-Winnipeg	NA
+Winnipeg	North America
 Kalani High School	OC
-US	NA
+US	North America
 Lerik District	AS
 Amos Anderson Art Museum	EU
 Transantarctic Mountains	AN
 Scylla Glacier	AN
 Rampart Ridge	AN
-Hartley County	NA
+Hartley County	North America
 Mauritania	AF
-Canadian	NA
+Canadian	North America
 Wiesbaden	EU
 America	unsure
 Florence	EU
@@ -1067,41 +1067,41 @@ Aylesbury	EU
 Amreli district	AS
 Mercator Ice Piedmont	AN
 Cadgwith	EU
-Buckeystown	NA
-Suffolk County	NA
+Buckeystown	North America
+Suffolk County	North America
 Freetown	AF
-Kahnawake, Quebec	NA
+Kahnawake, Quebec	North America
 Nizhneserginsky District	EU
 Langtang National Park	AS
 Imperial Trans-Antarctic Expedition	AN
-San Antonio River	NA
+San Antonio River	North America
 Kalvola	EU
 Shimla	AS
 Pekanbaru	AS
 Tajikistan	AS
-Pittsburgh	NA
+Pittsburgh	North America
 Accra	AF
 New South Wales	OC
 Vinson Massif	AN
 Maharashtra	AS
 Pernambuco	SA
-Waltham High School	NA
+Waltham High School	North America
 Bertram Glacier	AN
 Bukit Panjang Single Member Constituency	AS
 Canossa	EU
-Honey War	NA
+Honey War	North America
 Mainz	EU
 Mount Hornsby	OC
 British Guiana	SA
 Waldshut-Tiengen	EU
-Nez Perce County	NA
+Nez Perce County	North America
 Paisley	EU
 Berkovitsa Glacier	EU
 Knockmealdown Mountains	EU
-Celilo Village	NA
+Celilo Village	North America
 Demas Range	AN
 Pazhayangadi	AS
-Veracruz	NA
+Veracruz	North America
 Nouakchott	AF
 Hunan	AS
 Spanish East Indies	AS
@@ -1109,7 +1109,7 @@ Kota Kinabalu	AS
 Aventine Hill	EU
 Babcock & Brown	unsure
 Sidhi district	AS
-Berens River	NA
+Berens River	North America
 Mumiy Troll	EU
 Colombo	AS
 River Waveney	EU
@@ -1117,16 +1117,16 @@ Demerara	SA
 Clare	EU
 Eureka Glacier	AN
 Sofia	EU
-Allegheny County	NA
+Allegheny County	North America
 Weimar Republic	EU
 Makkah Region	AS
 Abruzzo	EU
 Theni district	AS
-Massachusetts	NA
+Massachusetts	North America
 Castlehaven	EU
 Donskoy Monastery	EU
 Penclawdd	EU
-Baja California	NA
+Baja California	North America
 Osaka	AS
 South Sudan	AF
 IJmuiden	EU
@@ -1159,10 +1159,10 @@ Foyn Coast	AN
 Marstrand	EU
 West Bengal	AS
 agglomeration community	unsure
-Wabush Airport	NA
+Wabush Airport	North America
 Constantinople	EU
 Amsterdam dance event	EU
-Bighorn River	NA
+Bighorn River	North America
 Penna Ahobilam	AS
 Melbourne	OC
 Wilhelmina Bay	AN
@@ -1198,10 +1198,10 @@ Publications Ice Shelf	AN
 Bilohirsk Raion	EU
 Bishkek	AS
 Bandra	AS
-Windigo Lake	NA
+Windigo Lake	North America
 Camp Tarawa	OC
-Storm Peak	NA
-Alberta	NA
+Storm Peak	North America
+Alberta	North America
 Sydney	OC
 Carcassonne	EU
 Cuzco	SA
@@ -1219,11 +1219,11 @@ Australia	OC
 Swifts Creek	OC
 Turkey	AS
 Pechora River	EU
-Assiginack	NA
+Assiginack	North America
 Recife	SA
-Pennsylvania	NA
+Pennsylvania	North America
 Turku	EU
-Art Gallery of Ontario	NA
+Art Gallery of Ontario	North America
 Indira Gandhi National Open University	AS
 Gmina Kalinowo	EU
 Condor Peninsula	SA
@@ -1231,67 +1231,67 @@ Anak Bukit	AS
 Buraswa	AF
 Ginza	AS
 Paulet Island	AN
-La Mauricie National Park	NA
+La Mauricie National Park	North America
 Nantes	EU
 Debenham Glacier	AN
 Radnevo Peak	EU
-Little Bear River	NA
-Toluca	NA
+Little Bear River	North America
+Toluca	North America
 Alebtong District	AF
 Veneto	EU
 Vistula	EU
 Sussex	EU
 Barwick Valley	AN
 Hantsavichy	EU
-Piasa	NA
+Piasa	North America
 Suwayq	AS
 Riiser-Larsen Ice Shelf	AN
-Florida	NA
-Drexel University College of Medicine	NA
-Santo Domingo	NA
+Florida	North America
+Drexel University College of Medicine	North America
+Santo Domingo	North America
 Stockholm	EU
 Congo basin	AF
-Toronto	NA
+Toronto	North America
 Marshall Mountains	OC
 University of Bern	EU
-Kennedy Space Center	NA
-NYC	NA
+Kennedy Space Center	North America
+NYC	North America
 North Holland	EU
 Eurostat	EU
-Churchill Peninsula	NA
-Brown University	NA
+Churchill Peninsula	North America
+Brown University	North America
 Strait of Kerch	EU
-Big Timothy Mountain	NA
-Des Moines International Airport	NA
+Big Timothy Mountain	North America
+Des Moines International Airport	North America
 Banesh Rural District	AS
 Srebarna Glacier	EU
 Eritrea	AF
 Executive Committee Range	AN
 Juan de Nova Island	AF
-Beall Island	NA
+Beall Island	North America
 Luapula River	AF
 Smith Glacier	AN
 Yamato Museum	AS
 Autonomous District Lok Sabha constituency	AS
-Fall Creek Falls State Park	NA
+Fall Creek Falls State Park	North America
 Yokohama International School	AS
 Pesisir Selatan	AS
-Conneaut Creek	NA
+Conneaut Creek	North America
 Sudan	AF
 Trinity Peninsula	AN
-Lassen County	NA
+Lassen County	North America
 Indian Institute of Science	AS
-NY	NA
+NY	North America
 prefectural road	AS
 Mount Weaver	OC
 National Law School of India University	AS
 College of Engineering, Pune	AS
-Mauricie	NA
-Reverchon Park	NA
+Mauricie	North America
+Reverchon Park	North America
 Malta	EU
 All-Ukrainian Union "Svoboda"	EU
 Carolingian Empire	EU
-Manatawny Creek	NA
+Manatawny Creek	North America
 Panna National Park	AS
 Steenwijk	EU
 Arno	EU
@@ -1299,7 +1299,7 @@ Trans-Sahara Highway	AF
 McFarlane Strait	AN
 Coolock	EU
 Pontecorvo	EU
-Papantla	NA
+Papantla	North America
 Swedish Empire	EU
 Instituto Pedro Nunes	EU
 Nepal	AS
@@ -1307,25 +1307,25 @@ Quito	SA
 Opel	EU
 Halland	EU
 European Physical Society	EU
-Smart Museum of Art	NA
+Smart Museum of Art	North America
 Pequod Glacier	AN
 Cape Barne	AN
-Kelly Field Annex	NA
+Kelly Field Annex	North America
 Dhaka	AS
 Vinkeveen	EU
-Ottawa, Ontario	NA
+Ottawa, Ontario	North America
 Kyustendil Province	EU
-Oregon	NA
+Oregon	North America
 Balige	AS
 South America	SA
-Prattville High School	NA
-Heavenly Mountain Resort	NA
-Charles Lang Freer House	NA
+Prattville High School	North America
+Heavenly Mountain Resort	North America
+Charles Lang Freer House	North America
 Heptapyrgion	EU
 Gmina Leszno	EU
 Juan Carlos I Antarctic Base	AN
-Benedict College	NA
-Allan Cup	NA
+Benedict College	North America
+Allan Cup	North America
 Brialmont Cove	EU
 Lesotho	AF
 Sardinia	EU
@@ -1334,42 +1334,42 @@ Russian SFSR	EU
 North Berwick	EU
 Lambert Glacier	AN
 Lund Municipality	EU
-Sitkalidak Island	NA
+Sitkalidak Island	North America
 Nyamuragira	AF
 Yugoslavia	EU
 Khmilnyk	EU
 Estonia	EU
 Prydz Bay	AN
-Gracie Mansion	NA
+Gracie Mansion	North America
 Green Glacier	AN
 Wythenshawe Hall	EU
 Frostlendet Valley	AN
 Myongji University	AS
 Roman Catholic Archdiocese of Lucca	EU
 FC Anker Wismar	EU
-Albemarle County, Virginia	NA
+Albemarle County, Virginia	North America
 Cookley	EU
 Cape Williams	AN
 Dresden	EU
 Cape Colbeck	AN
-Whiteshell Laboratories	NA
-Guggenheim Museum	NA
-Weston GO Station	NA
+Whiteshell Laboratories	North America
+Guggenheim Museum	North America
+Weston GO Station	North America
 Chechnya	EU
 Tarn Taran district	AS
 Hong San See	AS
-Etobicoke North	NA
+Etobicoke North	North America
 Turaida	EU
 Kalookan	AS
 Roman Four Promontory	AN
 Mount Manthe	AF
-Iximche	NA
-Fermilab	NA
+Iximche	North America
+Fermilab	North America
 Palmer Land	AN
 Veysian Rural District	AS
-Missouri	NA
+Missouri	North America
 Iskar Glacier	EU
-New Smyrna Speedway	NA
+New Smyrna Speedway	North America
 Turkmen	AS
 Dewa Province	AS
 McMurdo Station	AN
@@ -1380,7 +1380,7 @@ home counties	EU
 Second Rutte cabinet	EU
 Lauterecken-Wolfstein	EU
 Aconcagua	SA
-Penney Bay	NA
+Penney Bay	North America
 Von Essen Mountain	AN
 Ma River	AS
 Mahur Berenji Rural District	AS
@@ -1390,7 +1390,7 @@ Erfurt	EU
 Lithuania	EU
 Calw	EU
 Skeidshovden Mountain	EU
-Pigtown	NA
+Pigtown	North America
 Ulpiana	EU
 Hobart Zoo	OC
 Merrick Mountains	AN
@@ -1402,20 +1402,20 @@ Harnaut	AS
 Pearse Valley	AN
 English Channel	EU
 Sarnaki	EU
-Tom McCall Waterfront Park	NA
+Tom McCall Waterfront Park	North America
 Kume District	AS
 Côte d'Ivoire	AF
 Trelech	EU
-York Mills Bus Terminal	NA
-Garibaldi Ranges	NA
+York Mills Bus Terminal	North America
+Garibaldi Ranges	North America
 North Hwanghae province	AS
 House of Representatives	unsure
 Tovarnik	EU
 Hoseason Island	AN
-Maury County	NA
+Maury County	North America
 Guadalquivir	EU
 Sindh	AS
-Evans Peak	NA
+Evans Peak	North America
 Torgau	EU
 2010 Winter Olympics	unsure
 Tbilisi	AS
@@ -1429,13 +1429,13 @@ Harsewinkel	EU
 La Guajira Department	SA
 Viking Age	EU
 Bhamdoun	AS
-Blue Earth County, Minnesota	NA
+Blue Earth County, Minnesota	North America
 Haaga	EU
 Knox Coast	AN
 Chol Kiri District	AS
 Pendleton Strait	OC
 Eland Mountains	AF
-Nova Scotia	NA
+Nova Scotia	North America
 Craiova	EU
 Madona District	EU
 Schwules Museum	EU
@@ -1443,27 +1443,27 @@ Bernheze	EU
 Kolkata	AS
 Lakhpat	AS
 Cape Evans	AN
-Minneapolis	NA
-Uinta Basin	NA
-British Columbia	NA
+Minneapolis	North America
+Uinta Basin	North America
+British Columbia	North America
 Rouen Mountains	AN
 Pautalia Glacier	EU
 Elbe	EU
 Italian	EU
 Gazzo Veronese	EU
 Warszawa Wschodnia Osobowa railway station	EU
-Carnegie Deli	NA
+Carnegie Deli	North America
 Rambo Nunataks	AN
 Welford Road Stadium	EU
 Ojos del Salado	SA
 Kashmir	AS
 Telangana	AS
 German National Library	EU
-Anschutz Medical Campus	NA
+Anschutz Medical Campus	North America
 Alpha Island	OC
 Davis Sea	AN
 Gulf of Bothnia	EU
-Knoxville metropolitan area	NA
+Knoxville metropolitan area	North America
 Peremyshliany	EU
 Bertha Island	OC
 Despotate of Epirus	EU
@@ -1474,12 +1474,12 @@ Schleitheim	EU
 Saharsa district	AS
 SFR Yugoslavia	EU
 Temples of Abu Simbel	AF
-Everleigh Club	NA
-Zoo Miami	NA
-Hunter College	NA
-Mississauga Centre	NA
+Everleigh Club	North America
+Zoo Miami	North America
+Hunter College	North America
+Mississauga Centre	North America
 Udupi district	AS
-Kentucky	NA
+Kentucky	North America
 Bellinzona	EU
 Morecambe	EU
 Stepanakert	AS
@@ -1493,10 +1493,10 @@ Buryatia	AS
 Ichchapuram	AS
 Bull Pass	OC
 Electoral district of South Bourke	OC
-Hi Corbett Field	NA
+Hi Corbett Field	North America
 Hida Mountains	AS
 Eiger	EU
-Temple Lot	NA
+Temple Lot	North America
 Powys	EU
 Gurudwara Bangla Sahib	AS
 Idalium	EU
@@ -1508,17 +1508,17 @@ VR warehouses	unsure
 Malawi	AF
 Birchall Peaks	AN
 Guldborg	EU
-Pulaski County Special School District	NA
+Pulaski County Special School District	North America
 Tarq Rud Rural District	AS
 Bowman Glacier	AN
 Rock al Parque	SA
 Windischeschenbach	EU
 Sulaimaniyah International Airport	AS
-Terrebonne Parish	NA
+Terrebonne Parish	North America
 Tigris	AS
 Barcellona Pozzo di Gotto	EU
 Berkshire	EU
-Saskatchewan	NA
+Saskatchewan	North America
 Shackleton Range	AN
 Dundalk	EU
 Kuwait	AS
@@ -1526,58 +1526,58 @@ Brooklyn Island	AN
 Toulouges	EU
 Lions' Gate	AS
 Bani River	AF
-California	NA
+California	North America
 South Korean	AS
 Plateau Station	AN
 Pensacola Mountains	AN
 Al Shindagha	AS
-Ohio	NA
+Ohio	North America
 Colbert Mountains	AN
 Madhepura district	AS
-Paynes Prairie	NA
+Paynes Prairie	North America
 Mitchell Peninsula	AN
-Tennessee	NA
-New Mexico	NA
+Tennessee	North America
+New Mexico	North America
 Mount Wade	AN
 Kottarakkara	AS
-Umatilla County, Oregon	NA
-Downtown Orlando	NA
+Umatilla County, Oregon	North America
+Downtown Orlando	North America
 Ravens Mountains	AN
 Nimrod Glacier	AN
 La famille Plouffe	unsure
 Queen Maud Land	AN
-Big Thicket National Preserve	NA
+Big Thicket National Preserve	North America
 Kukri Hills	AS
 Mars Glacier	AN
 Lanyon Place railway station	EU
-Lake Marble Falls	NA
+Lake Marble Falls	North America
 Atwell Peak	AN
-Luray Caverns	NA
+Luray Caverns	North America
 Eisenach	EU
 Kristiania	EU
 Balchen Mountain	AN
 Zarqa Governorate	AS
-Edina High School	NA
+Edina High School	North America
 Rose Tower	AS
-Vermont	NA
-Great Whale River	NA
+Vermont	North America
+Great Whale River	North America
 Scotia Bay	AN
 Cornerhouse	EU
 Mount Mentzel	AN
 Marugame	AS
 One Raffles Place	AS
-Area codes 402 and 531	NA
+Area codes 402 and 531	North America
 Pitt Islands	OC
 Clark Mountains	AN
 Mariner Glacier	AN
-Millbrae station	NA
+Millbrae station	North America
 Sydney Peace Prize	OC
 Neptune Glacier	AN
 Federally Administered Tribal Areas	AS
-Hamilton Mountain	NA
+Hamilton Mountain	North America
 Haikou	AS
 Convoy Range	AN
-Point Douglas	NA
+Point Douglas	North America
 Thiel Mountains	AN
 Nuri	AF
 Prespa Glacier	EU
@@ -1589,16 +1589,16 @@ Fischenthal	EU
 Veere	EU
 JVC Kenwood Victor Entertainment	AS
 Prussian Partition	EU
-McClain County	NA
+McClain County	North America
 Bais Hatalmud	AS
 Tsuno District, Yamaguchi	AS
 Jane Franklin Hall	OC
 Amarkantak	AS
-Martinique	NA
+Martinique	North America
 Renier Point	AN
 Guest Peninsula	AN
 Party of National Unity	unsure
-Drake Well	NA
+Drake Well	North America
 Emmanuel Glacier	AN
 Ma'rib Governorate	AS
 Ryder Bay	AN
@@ -1608,21 +1608,21 @@ Collins Harbour	AN
 Danger Islands	AN
 Erlangen	EU
 Circuit des Ardennes	EU
-Buffalo County	NA
+Buffalo County	North America
 Strasbourg	EU
 Duchy of Brabant	EU
 Uttaradit	AS
 Karimnagar district	AS
 Robertson Bay	AN
 Seal Nunataks	AN
-Norfolk State University	NA
+Norfolk State University	North America
 Botnneset Peninsula	EU
 AA Drink-leontien.nl	unsure
 Riau	AS
 Chad	AF
 Mulock Glacier	AN
 Uranus Glacier	AN
-Maya River	NA
+Maya River	North America
 Bellingshausen Sea	AN
 Voden Heights	AF
 Primorye	AS
@@ -1631,7 +1631,7 @@ Khentii Province	AS
 Principality of Sealand	EU
 Tanga Region	AF
 Tiruvannamalai district	AS
-Circle Centre	NA
+Circle Centre	North America
 Manila Light Rail Transit System	AS
 Puerto Maldonado	SA
 Robinson Group	AN
@@ -1639,16 +1639,16 @@ Mirabito Range	AN
 Albanus Glacier	AN
 Morona Santiago	SA
 Evans Peninsula	AN
-Vermilion Pass	NA
+Vermilion Pass	North America
 Mule Peninsula	AN
 Cape Waite	AN
-Johns Hopkins University	NA
+Johns Hopkins University	North America
 George V Coast	AN
-Wharton County	NA
-Texas	NA
-Martin Goodman Trail	NA
+Wharton County	North America
+Texas	North America
+Martin Goodman Trail	North America
 Cayeux-sur-Mer	EU
-Anahuac National Wildlife Refuge	NA
+Anahuac National Wildlife Refuge	North America
 Assam	AS
 County of London	EU
 Eastern Bloc	EU
@@ -1663,15 +1663,15 @@ Karonga	AF
 Ethiopia	AF
 Crevasse Valley Glacier	AN
 Odbert Island	AN
-Hamilton Heights	NA
+Hamilton Heights	North America
 Mount Hallgren	AN
 Bosnia and Herzegovina	EU
-New Bedford Whaling Museum	NA
+New Bedford Whaling Museum	North America
 Brahms Inlet	AN
 Sykes Glacier	AN
 Clare Range	AN
-Torresdale	NA
-Fort Humboldt State Historic Park	NA
+Torresdale	North America
+Fort Humboldt State Historic Park	North America
 Timor-Leste	OC
 Benin	AF
 Milano	EU
@@ -1685,15 +1685,15 @@ Mount Boreas	AN
 Holtedahl Bay	AN
 Arctowski Peninsula	AN
 Noliko Maaseik	EU
-Edmonton City Centre (Blatchford Field) Airport	NA
+Edmonton City Centre (Blatchford Field) Airport	North America
 Alte Nationalgalerie	EU
-St. Louis	NA
-Paudash Lake	NA
+St. Louis	North America
+Paudash Lake	North America
 Chandigarh	AS
 Desko Mountains	AN
 Imsland	EU
 Shire of Mount Alexander	OC
-Grand Canyon National Park Airport	NA
+Grand Canyon National Park Airport	North America
 Medaram	AS
 Sevilla	EU
 Bourg-la-Reine	EU
@@ -1702,37 +1702,37 @@ mumok	EU
 Kings Domain	OC
 Geelong Ring Road	OC
 Hammer Point	AN
-Albany, Texas	NA
+Albany, Texas	North America
 Menangle Park	OC
-Bullion Mountains	NA
-Arizona	NA
-Gateway Motorsports Park	NA
+Bullion Mountains	North America
+Arizona	North America
+Gateway Motorsports Park	North America
 Darwin Mountains	AN
 Teres Ridge	AN
-Avery County	NA
-Hull Bay	NA
+Avery County	North America
+Hull Bay	North America
 Coppermine Peninsula	AN
 Hadzhidimovo	EU
 Hagenow	EU
 Sanaag	AF
-Millwood Lake	NA
+Millwood Lake	North America
 Zwiefalten	EU
 Yule Bay	AN
 Reedy Glacier	AN
 Nintendo	unsure
 Gordon Glacier	AN
-Keith County	NA
-University of Vermont	NA
-Yoro	NA
+Keith County	North America
+University of Vermont	North America
+Yoro	North America
 Washington Escarpment	AN
 Museo Correr	EU
-Fayette	NA
-Castle	NA
+Fayette	North America
+Castle	North America
 Brown Hills	OC
 Andheri	AS
 Coulman Island	AN
 Western Area	AF
-San Lorenzo Valley	NA
+San Lorenzo Valley	North America
 Anare Mountains	AN
 Denton Glacier	AN
 Roma Termini railway station	EU
@@ -1744,22 +1744,22 @@ Shakhenat Rural District	AS
 Languedoc-Roussillon	EU
 El Oued Province	AF
 Struma Glacier	AN
-Little Belt Mountains	NA
+Little Belt Mountains	North America
 Hong Kong	AS
 Beaumont Bay	AN
-Naval Air Station South Weymouth	NA
+Naval Air Station South Weymouth	North America
 Byrd Station	AN
 George V Land	AN
 Sydney Sports Ground	OC
 Montebruno	EU
 Kumasi	AF
 Tarn-et-Garonne	EU
-Marin Counties	NA
-Boston University Marsh Chapel	NA
-Libby Dam	NA
+Marin Counties	North America
+Boston University Marsh Chapel	North America
+Libby Dam	North America
 Seoul	AS
 Biscoe Islands	AN
-San Diego High School	NA
+San Diego High School	North America
 Mount Stephenson	AN
 Slaithwaite	EU
 Battle of Montereau	EU
@@ -1768,7 +1768,7 @@ Universidad Nacional Federico Villarreal	SA
 Rothschild Island	AN
 Daman and Diu	AS
 Dundee Whaling Expedition	AN
-Fenn Tower	NA
+Fenn Tower	North America
 Bissau	AF
 Holdsworth Glacier	AN
 Cartographers Range	AN
@@ -1776,7 +1776,7 @@ Pickwick Island	AN
 Lone Pine Koala Sanctuary	OC
 Pully	EU
 DR Congo	AF
-Lufkin	NA
+Lufkin	North America
 Verona	EU
 Konark Sun temple	AS
 Masson Range	AN
@@ -1790,45 +1790,45 @@ Malita	AS
 Laurie Island	AN
 Festning Tunnel	EU
 Holyrood Secondary School	EU
-Owens Valley Radio Observatory	NA
+Owens Valley Radio Observatory	North America
 Mount Electra	AN
 Rose Valley Glacier	AN
-Houston	NA
-White Stag sign	NA
+Houston	North America
+White Stag sign	North America
 Cape Hallett	AN
 Shkhara	EU
 Holycross-Ballycahill GAA	EU
 Kowsar County	AS
 Payyavoor	AS
 Ogrodzieniec	EU
-Wapekeka First Nation	NA
-Gainesville Municipal Airport	NA
+Wapekeka First Nation	North America
+Gainesville Municipal Airport	North America
 Peshawar	AS
-M&T Bank Stadium	NA
-New Democratic Party Socialist Caucus	NA
+M&T Bank Stadium	North America
+New Democratic Party Socialist Caucus	North America
 Saint-Jacques-de-la-Lande	EU
-Crab Orchard National Wildlife Refuge	NA
+Crab Orchard National Wildlife Refuge	North America
 Hannah Point	AN
 Palupera Rural Municipality	EU
 Dumka district	AS
 Alexandra Palace railway station	EU
 Novokuybyshevsk	EU
 Lambayeque	SA
-Shikellamy High School	NA
-Fraunces Tavern	NA
+Shikellamy High School	North America
+Fraunces Tavern	North America
 Tokyo	AS
 Bathurst	OC
-Berea College	NA
+Berea College	North America
 Tesco Organisation	EU
 Isla Grande de Tierra del Fuego	SA
 Labuan	AS
 Issenheim	EU
 Surveyors Range	AN
 Minsk	EU
-Sugarloaf Key	NA
-Fort Collins Municipal Railway	NA
+Sugarloaf Key	North America
+Fort Collins Municipal Railway	North America
 Gmina Kleczew	EU
-Spuyten Duyvil Bridge	NA
+Spuyten Duyvil Bridge	North America
 Tile Ridge	AN
 Surat Basin	OC
 Conrad Mountains	AN
@@ -1839,7 +1839,7 @@ Nishi-Matsuura District	AS
 Seefeld	EU
 Drygalski Mountains	AN
 Tinapa Resort	AF
-Leyden	NA
+Leyden	North America
 A25 road	EU
 Panagarh	AS
 Steventon Island	AN
@@ -1847,7 +1847,7 @@ Western Australia	OC
 South East Forests National Park	OC
 Founders Peaks	AN
 Gerlache Strait	AN
-Hamden Hall Country Day School	NA
+Hamden Hall Country Day School	North America
 Mahikeng	AF
 Mount Longhurst	AN
 Solvay Mountains	AN
@@ -1856,29 +1856,29 @@ Arkell Cirque	AN
 Winlaton Youth Training Centre	EU
 Vesuvius Observatory	EU
 Autonomous University of Madrid	EU
-Hennepin County	NA
+Hennepin County	North America
 Ipswich	OC
 Palazzo Borghese	EU
-Place Bonaventure	NA
-Otterbein University	NA
-Walter Reed National Military Medical Center	NA
-Spicket River	NA
+Place Bonaventure	North America
+Otterbein University	North America
+Walter Reed National Military Medical Center	North America
+Spicket River	North America
 Ticho House	AS
 Tundzha Glacier	EU
-Simcoe	NA
+Simcoe	North America
 French Guiana	SA
-Kosciuszko Bridge	NA
+Kosciuszko Bridge	North America
 Miziya Peak	AS
 Saint Petersburg	EU
 Norwegian Museum of Cultural History	EU
 Waalhaven	EU
-Montreal Centre	NA
+Montreal Centre	North America
 Mosque of Uqba	AF
-Iqaluit	NA
+Iqaluit	North America
 Southern Cross Mountains	AN
-Pershing County	NA
+Pershing County	North America
 Ruppert Coast	AN
-Samuel Merritt University	NA
+Samuel Merritt University	North America
 Iraklis F.C.	EU
 Bermel Escarpment	AN
 Mount Harker	AN
@@ -1889,27 +1889,27 @@ plaza de Cibeles	EU
 Scheibbs District	EU
 Henbury	OC
 David Island	AN
-Kishacoquillas Valley	NA
+Kishacoquillas Valley	North America
 British Graham Land Expedition	AN
 The Hague	EU
 Casiquiare canal	SA
 Open University of Catalonia	EU
 Maglenik Heights	AN
-Minnesota	NA
+Minnesota	North America
 Sturt Highway	OC
-Cohasset High School	NA
+Cohasset High School	North America
 National Republican Greek League	EU
 Andersson Island	AN
-Tussey Mountain	NA
+Tussey Mountain	North America
 Hohenlohe	EU
 People's Party for Freedom and Democracy	EU
 Willan Saddle	OC
-Quintana Roo	NA
+Quintana Roo	North America
 Vrancea County	EU
 Jhelum River	AS
-East River Greenway	NA
+East River Greenway	North America
 Moe Island	AN
-Lunenfeld-Tanenbaum Research Institute	NA
+Lunenfeld-Tanenbaum Research Institute	North America
 Carpathian Mountains	EU
 Mandailing language	AS
 Cape Longing	AN
@@ -1921,12 +1921,12 @@ Griffith Glacier	AN
 Zagreb	EU
 Canton of Schaffhausen	EU
 Zaire	AF
-Scioto County	NA
+Scioto County	North America
 Achaean Range	EU
 Volga Bulgaria	AS
-Arthur	NA
+Arthur	North America
 Mount Farrell	AN
-North Middlesex, Ontario	NA
+North Middlesex, Ontario	North America
 Venta	EU
 University of Zaragoza	EU
 Lake Vida	AN
@@ -1935,18 +1935,18 @@ Nova Friburgo	SA
 Lanusei	EU
 Ayn Halaqim Subdistrict	AS
 Cannonball Cliffs	AN
-Poncha Pass	NA
+Poncha Pass	North America
 Presbyterian High School	AF
 Sydney Hospital	OC
 Argosy Glacier	AN
 Nagoya	AS
 Prachin Buri River	AS
-Yellowstone National Park	NA
+Yellowstone National Park	North America
 Buchan	OC
 Djibouti	AF
 Taipei City	AS
 Qatar	AS
-Kittitas County	NA
+Kittitas County	North America
 Phnom Penh	AS
 Northern Foothills	SA
 South Lanarkshire	EU
@@ -1955,19 +1955,19 @@ Derbyshire	EU
 Vaujany	EU
 Detaille Island	AN
 Rhayader	EU
-WEZF	NA
+WEZF	North America
 Rio Quente	SA
-Leech Lake Indian Reservation	NA
-Pomfret School	NA
+Leech Lake Indian Reservation	North America
+Pomfret School	North America
 Salamander Range	AN
-Expo 86	NA
+Expo 86	North America
 Kuching	AS
-Sacramento Convention Center Complex	NA
+Sacramento Convention Center Complex	North America
 Tukvar Tea Estate	AS
 Battambang Province	AS
 Olot	EU
 Hugi Glacier	AN
-Torreys Peak	NA
+Torreys Peak	North America
 Austria-Hungary	EU
 Lismore GAA	EU
 Huntress Glacier	AN
@@ -1977,24 +1977,24 @@ Southern Netherlands	EU
 Cape Perez	AN
 M5 motorway	EU
 Riverway, Townsville	OC
-Operation Teapot	NA
+Operation Teapot	North America
 Kfar Giladi	AS
-Wiseton	NA
+Wiseton	North America
 Arrival Heights	AN
 Atlantic Club Ridge	AN
 Caerdydd	EU
 Kohler Range	AN
 Jennings	OC
-Willamette Valley AVA	NA
+Willamette Valley AVA	North America
 Lamplugh Island	AN
 Clonlara GAA	EU
 Gibbs Glacier	AN
-North Las Vegas Airport	NA
-Albian Sands	NA
-regiopolis	NA
+North Las Vegas Airport	North America
+Albian Sands	North America
+regiopolis	North America
 Vila Real District	EU
 Irtysh river	AS
-Gunter Annex	NA
+Gunter Annex	North America
 Vardasht Rural District	AS
 Aichi Prefecture	AS
 San Canzian d'Isonzo	EU
@@ -2002,13 +2002,13 @@ Rajkot	AS
 Mount Kempe	AN
 Swanson Mountains	AN
 Devikulam	AS
-Mount Saint Elias	NA
+Mount Saint Elias	North America
 Arve	EU
-Tlaxcala	NA
+Tlaxcala	North America
 south Sumatra	AS
 Boyana Glacier	AN
 A229 road	EU
-Clarke County, Alabama	NA
+Clarke County, Alabama	North America
 Treuchtlingen	EU
 Romulus Glacier	AN
 Minu District	AS
@@ -2017,18 +2017,18 @@ Cape Adriasola	AN
 Borovsky District	EU
 Gadag district	AS
 Carlota Cove	AN
-Monarcas Morelia	NA
+Monarcas Morelia	North America
 Taebong	AS
 Tampines Expressway	AS
 Howard Glacier	AN
-Gilroy High School	NA
+Gilroy High School	North America
 Karun	AS
 Loire	EU
 Louth County Council	EU
 Schreckhorn	EU
 Kafriya	AS
 Mackellar Inlet	AN
-Tobin Lake	NA
+Tobin Lake	North America
 Kondofrey Heights	AS
 Balkan Snowfield	AN
 Sanlih E-Television	AS
@@ -2037,7 +2037,7 @@ Dublin City	EU
 Florentine	EU
 Breege	EU
 Baturyn	EU
-Carnegie Vanguard High School	NA
+Carnegie Vanguard High School	North America
 Growler Valley	AN
 Athens	EU
 Bonn	EU
@@ -2049,52 +2049,52 @@ Sind	AS
 Piove di Sacco	EU
 Atbarah River	AF
 Hooge Crater Commonwealth War Graves Commission Cemetery	EU
-Lawrence Heights	NA
+Lawrence Heights	North America
 KU Leuven	EU
 Davis Coast	AN
 Yemen	AS
-Interstate 69	NA
-Grayson Stadium	NA
-Stratford Army Engine Plant	NA
+Interstate 69	North America
+Grayson Stadium	North America
+Stratford Army Engine Plant	North America
 Genoa	EU
 Chavez Island	AN
 Moissac Abbey	EU
 Morgan Inlet	AN
-Lake Bluff	NA
+Lake Bluff	North America
 Rockefeller Mountains	AN
-Kanata South Ward	NA
-Plymouth Rock	NA
+Kanata South Ward	North America
+Plymouth Rock	North America
 Foundation for a Free Information Infrastructure	EU
 Cape Bird	AN
-Westridge School	NA
+Westridge School	North America
 Black Coast	AN
-Louisiana	NA
-Tegucigalpa	NA
+Louisiana	North America
+Tegucigalpa	North America
 Abbey of Echternach	EU
 Gaiola	EU
-Tixtla	NA
+Tixtla	North America
 KiKa	EU
 Czechoslovakia	EU
-Paulding Bay	NA
+Paulding Bay	North America
 Sobral Peninsula	AN
 Maybach	EU
 Butler Glacier	AN
 Santa Maria da Feira Municipality	EU
 Fryderyk Chopin University of Music	EU
-Union University	NA
+Union University	North America
 State Library of Victoria	OC
 Rezen Knoll	AN
 Sultan Ahmed Mosque	AS
 Second Polish Republic	EU
-32nd Indiana Monument	NA
+32nd Indiana Monument	North America
 Bosnian	EU
 Antarctic Plate	AN
 Risod	AS
 Hippocrates Glacier	AN
 Mount Foster	AN
-Medgar Evers College	NA
+Medgar Evers College	North America
 Augustinergasse	EU
-Nebraska State Capitol	NA
+Nebraska State Capitol	North America
 Victoria, Australia	OC
 Rutgers Glacier	AN
 Koriya district	AS
@@ -2102,18 +2102,18 @@ AMK Hub	AS
 Soviet	EU
 Niamey	AF
 Tiber	AS
-Leelanau Peninsula	NA
-Kupreanof Island	NA
+Leelanau Peninsula	North America
+Kupreanof Island	North America
 Shanxi	AS
 Coal Exchange	EU
 Mayotte	AF
 Milbertshofen-Am Hart	EU
-Erickson Bluffs	NA
+Erickson Bluffs	North America
 Foundation Ice Stream	AN
 TROS	EU
 Chechen-Ingush ASSR	AS
-Long Plain First Nation	NA
-route 75	NA
+Long Plain First Nation	North America
+route 75	North America
 Logatec	EU
 Kirkpatrick Glacier	AN
 Williams Hills	OC
@@ -2121,42 +2121,42 @@ Vernadsky Research Base	AN
 West Ardsley	EU
 Chaville	EU
 Samuel Peak	AN
-Tlaquepaque	NA
+Tlaquepaque	North America
 Papanasam	AS
 Munich	EU
 Havre Mountains	AN
-Barksdale Air Force Base	NA
+Barksdale Air Force Base	North America
 Ufa	EU
-McMichael Canadian Art Collection	NA
+McMichael Canadian Art Collection	North America
 Gaoua	AF
 Dakor	AS
 Morioka	AS
 Edinburgh Hill	AN
 Weber Inlet	AN
-Simcoe Composite School	NA
-Waynesville School District	NA
+Simcoe Composite School	North America
+Waynesville School District	North America
 Sheaf Square	EU
 Terra Nova Bay	AN
 Malha	AS
 Jones Bluffs	AN
-Gulf Coast of the United States	NA
+Gulf Coast of the United States	North America
 North-Rhine Westphalia	EU
 Kununurra	OC
 MacKenzie Bay	AN
 Cape Penck	AN
-Harris County, Texas	NA
+Harris County, Texas	North America
 Reval	EU
 Welcome Mountain	OC
 Tapley Mountains	AN
 Norwegians	EU
 Buda	EU
-Christie Pits	NA
+Christie Pits	North America
 Beacon Supergroup	AN
-Norfolk	NA
+Norfolk	North America
 Mount Paris	OC
 Borchgrevink Glacier	AN
 Sena Medal	AF
-Rutherford County	NA
+Rutherford County	North America
 Chad Basin	AF
 Polish Football Association	EU
 Mount Cameroon	AF
@@ -2164,18 +2164,18 @@ Marsden State High School	OC
 Wavertree	EU
 Kibungo Province	AF
 Peacock Sound	AN
-Garvin County	NA
+Garvin County	North America
 Lwengo District	AF
 The Gullet	AN
 Hinkley Glacier	AN
 Holmbury St Mary	EU
 Liverpool Range	OC
-Servus Credit Union Place	NA
-Québec	NA
+Servus Credit Union Place	North America
+Québec	North America
 Absheron District	AS
-Manassas Regional Airport	NA
+Manassas Regional Airport	North America
 Wallonia	EU
-Halton County, Ontario	NA
+Halton County, Ontario	North America
 Gangseo District	AS
 Lucy Glacier	AN
 Opalchenie Peak	AN
@@ -2185,12 +2185,12 @@ Neny Island	AN
 Chester Cone	AN
 Zlatibor District	EU
 Gmina Olsztyn	EU
-Ottawa River	NA
+Ottawa River	North America
 Schwyz	EU
 Hyderabad Deccan railway station	AS
 Herbert Range	AN
 Melchior Islands	AN
-Rocky Mountain National Park	NA
+Rocky Mountain National Park	North America
 Morshi	AS
 Brest Region	EU
 Mount Schuyler	OC
@@ -2199,14 +2199,14 @@ Lipscani	EU
 Thiruvananthapuram	AS
 Bon Pastor	EU
 Toulouse	EU
-West Indies	NA
+West Indies	North America
 Pakpattan	AS
 Alathur	AS
 Ginza Line	AS
 Grindley Plateau	AN
 Falerone	EU
 Flying Fish Cove	OC
-The New School for Jazz and Contemporary Music	NA
+The New School for Jazz and Contemporary Music	North America
 Zambia	AF
 Villars-Burquin	EU
 Kuomintang	AS
@@ -2215,11 +2215,11 @@ Redland Bay	OC
 Crystal Sound	AN
 Botzen	EU
 Addanki mandal	AS
-Glascock County	NA
+Glascock County	North America
 Gornergrat	EU
 Teshie	AF
 Halpern Point	AN
-Liard Island	NA
+Liard Island	North America
 Eros Glacier	AN
 Lamongan	AS
 Probuda Ridge	AN
@@ -2233,13 +2233,13 @@ Beauvais	EU
 Palana	AS
 Heritage Range	AN
 Teatro Comunale Florence	EU
-West Royalty, Prince Edward Island	NA
+West Royalty, Prince Edward Island	North America
 Walker Mountains	AN
 Lascaris Battery	EU
 Littoral	AF
-Drumheller-Stettler	NA
+Drumheller-Stettler	North America
 Yamato 000593	AN
-Tanglewood	NA
+Tanglewood	North America
 Sartorius Point	AN
 Kochi	AS
 Norway Bight	EU
@@ -2255,45 +2255,45 @@ Democrats 66	EU
 Tolima	SA
 Indira Gandhi International Airport	AS
 Denfeld Mountains	AN
-Austin College	NA
-Global Television Network	NA
+Austin College	North America
+Global Television Network	North America
 Beles River	AF
 Hertfordshire	EU
 Katwijk aan den Rijn	EU
 Bogra Zilla School	AS
 WA	OC
-McKinnon Island	NA
+McKinnon Island	North America
 Greater Rio de Janeiro	SA
 French West Africa	AF
 Bedworth	EU
 Mount Lister	AN
 Rennick Glacier	AN
-North Stonington	NA
+North Stonington	North America
 Cirta	AF
 Marikina	AS
 Iruma Air Base	AS
-Chevron Science Center	NA
+Chevron Science Center	North America
 Frigate Range	AN
 Konya	AS
 Goma	AF
 Kurinjimala Sanctuary	AS
 Staatliche Antikensammlungen	EU
-Rancho Los Encinos	NA
+Rancho Los Encinos	North America
 Risemedet Mountain	EU
 SV Ried	EU
 German Confederation	EU
-Kingsley Field Air National Guard Base	NA
-Itawamba	NA
-Wisconsin	NA
+Kingsley Field Air National Guard Base	North America
+Itawamba	North America
+Wisconsin	North America
 Jorum Glacier	AN
 Alfred Wegener Institute for Polar and Marine Research	AN
 Mount Tyrrell	AN
-Rancho Castac	NA
+Rancho Castac	North America
 Crook, County Durham	EU
 Capdenac	EU
 Saturn Glacier	AN
 Enghien-les-Bains	EU
-Randalls Island	NA
+Randalls Island	North America
 Llanegryn	EU
 Rezen Saddle	AN
 Semnan Province	AS
@@ -2301,7 +2301,7 @@ Holmenkollen National Arena	EU
 Trakiya Heights	EU
 Murphy Glacier	AN
 Valdemarsvik	EU
-North Hennepin Community College	NA
+North Hennepin Community College	North America
 European route E25	EU
 Balleny Islands	AN
 Llanquihue Province	SA
@@ -2310,17 +2310,17 @@ Albania	EU
 Eagle Boys	unsure
 Volyn	EU
 Mount Herzl	AS
-East Bladen High School	NA
-Whittier College	NA
-Greater Nevada Field	NA
+East Bladen High School	North America
+Whittier College	North America
+Greater Nevada Field	North America
 La Guajira Desert	SA
 Aleko Rock	EU
 Kaniv Reservoir	EU
 Piccard Cove	AN
-Old Trinity Church	NA
+Old Trinity Church	North America
 Cape Jeremy	AF
 Tempi Municipality	EU
-Kew Gardens Hills	NA
+Kew Gardens Hills	North America
 Minhang District	AS
 Peshtera Glacier	EU
 Ipoh	AS
@@ -2329,32 +2329,32 @@ Trieste	EU
 Eights Coast	AN
 Christian Democrats	EU
 Zed Islands	AN
-Walton Arts Center	NA
+Walton Arts Center	North America
 Langwathby	EU
 Pernik Peninsula	EU
 Elgar Uplands	AN
-Arapaho National Wildlife Refuge	NA
+Arapaho National Wildlife Refuge	North America
 Umarex	EU
 Royal National Theatre	EU
-Framingham Railroad Station	NA
+Framingham Railroad Station	North America
 Damavand	AS
 Berkner Island	AN
 Tower Island	AN
 Khasavyurt	AS
-Douglas County, Oregon	NA
+Douglas County, Oregon	North America
 Koyambedu	AS
 Kotturpuram	AS
 Rajshahi Division	AS
 Deep Freeze Range	AN
 Ruhla	EU
 Sarawak	AS
-Jacobsburg Environmental Education Center	NA
+Jacobsburg Environmental Education Center	North America
 Palmer Archipelago	AN
 Cieszyn	EU
 Shetland Islands	EU
 Colleville-Montgomery	EU
 Shire of Wambo	OC
-New England	NA
+New England	North America
 Ilam Province	AS
 Ausa	AS
 Montiel	EU
@@ -2364,21 +2364,21 @@ Hornnes	EU
 Valencians	EU
 County Fermanagh	EU
 Emscher	EU
-Piedmont	NA
+Piedmont	North America
 Lahti	EU
 Dhaka City	AS
 Mount Harding	AN
 Vadnagar	AS
 Valletta	EU
-Elkhorn Ridge	NA
-Dent Island Light	NA
+Elkhorn Ridge	North America
+Dent Island Light	North America
 Valhalla Swimming Hall	EU
 St James' Church, Sydney	OC
-Labrador	NA
-Greenwood Valley	NA
+Labrador	North America
+Greenwood Valley	North America
 Padda Island	AS
-70 Pine Street	NA
-Alouette Lake	NA
+70 Pine Street	North America
+Alouette Lake	North America
 Phobos Ridge	AN
 James Ross Island group	AN
 Kalahari Desert	AF
@@ -2386,18 +2386,18 @@ Curzon Islands	AN
 Wohlthat Mountains	AN
 Bastille	EU
 Kangaroo Ground	OC
-Commerce Court	NA
-Disney's Hollywood Studios	NA
+Commerce Court	North America
+Disney's Hollywood Studios	North America
 Covasna County	EU
-Anderson Hills	NA
+Anderson Hills	North America
 Alsace-Lorraine	EU
-Miles College	NA
+Miles College	North America
 Chu Lai Base Area	AS
 KBC Bank	EU
-Pacific Union College	NA
+Pacific Union College	North America
 Hoysala Empire	AS
 Lanterman Range	AN
-Pea Ridge National Military Park	NA
+Pea Ridge National Military Park	North America
 Namba Station	AS
 Cairo American College	AF
 Entracque	EU
@@ -2408,8 +2408,8 @@ Ryder Glacier	AN
 Harold Byrd Mountains	AN
 Fendley Glacier	AN
 Leiria	EU
-Thirteen Colonies	NA
-Nares Strait	NA
+Thirteen Colonies	North America
+Nares Strait	North America
 Totten Glacier	AN
 Somali Region	AF
 National Waterfront Museum	EU
@@ -2424,7 +2424,7 @@ Lopburi	AS
 Rawson Plateau	AN
 2013 Internazionali BNL d'Italia	EU
 Hogeschool Gent	EU
-Porcupine Hills	NA
+Porcupine Hills	North America
 Ingrid Christensen Coast	AN
 Mount Bursey	AN
 Gjerpen	EU
@@ -2438,7 +2438,7 @@ War in Donbass	EU
 Simeulue	AS
 Bruce Plateau	AN
 Brabant Island	AN
-Southpointe	NA
+Southpointe	North America
 Hewler	AS
 Thimphu	AS
 Inami, Toyama	AS
@@ -2447,30 +2447,30 @@ Ice Runway	AN
 Lefortovo District	EU
 Mikkelsen Bay	AN
 pont Notre-Dame	EU
-Dogpatch USA	NA
-University of Washington	NA
+Dogpatch USA	North America
+University of Washington	North America
 Piper Verlag	EU
-Huntingdon County	NA
-KSTP-FM	NA
-Southeast Fairbanks Census Area	NA
+Huntingdon County	North America
+KSTP-FM	North America
+Southeast Fairbanks Census Area	North America
 Port Harcourt	AF
 Ablation Valley	AN
-Fossil Butte National Monument	NA
+Fossil Butte National Monument	North America
 Possession Islands	AN
 Tiv people	AF
 Zechstein	EU
-Poplar River First Nation	NA
-Montour County	NA
+Poplar River First Nation	North America
+Montour County	North America
 Goseck circle	EU
-Markham District High School	NA
-Xaverian Brothers High School	NA
+Markham District High School	North America
+Xaverian Brothers High School	North America
 Ankenes	EU
 Vukov Spomenik	EU
 Eibenstock	EU
 Tashkent	AS
 Punjab, India	AS
 Scott Island	AN
-Church Hill Tunnel	NA
+Church Hill Tunnel	North America
 Annamalai University	AS
 Milltown Institute of Theology and Philosophy	EU
 Minamiarupusu	AS
@@ -2479,37 +2479,37 @@ Canisteo Peninsula	AN
 Cape Hordern	AN
 1960 Summer Olympics	EU
 Minamiakita District	AS
-Prince Edward Viaduct	NA
+Prince Edward Viaduct	North America
 Apollo Peak	AN
 Nimbus Hills	AN
 Tehran	AS
 Central European University	EU
 L'Escala	EU
-Pidgeon Island	NA
-British North America	NA
+Pidgeon Island	North America
+British North America	North America
 Palazzo Contarini del Bovolo	EU
 Kresttsy	EU
 Rufiji River	AF
 Brunt Ice Shelf	AN
-Taunton River Watershed	NA
+Taunton River Watershed	North America
 Lillie Range	AN
 Johnson Glacier	AN
 Beaufort Island	AN
 Dunnamaggin GAA	EU
 Fingask Castle	EU
 Don Juan Pond	AN
-Klaskanine River	NA
-Bluefield College	NA
+Klaskanine River	North America
+Bluefield College	North America
 Transylvanian Plateau	EU
 Coronation Island	AN
 Whitehall Glacier	AN
 Nea Zichni Municipality	EU
 Komarichsky District	EU
-Boundary Cone	NA
+Boundary Cone	North America
 Industrial Design Centre	unsure
 Thamshavn Line	EU
 Nkawkaw	AF
-Mount San Antonio	NA
+Mount San Antonio	North America
 Darmstadt	EU
 Kirkby Glacier	AN
 Parippally	AS
@@ -2526,63 +2526,63 @@ Pont du Carrousel	EU
 Tyabb	OC
 N-340 road	EU
 Cape Yelcho	SA
-Piatt County	NA
+Piatt County	North America
 Bukovina	EU
-Muncie Central High School	NA
+Muncie Central High School	North America
 Franz Liszt Academy of Music	EU
 Thomas Glacier	AN
-Sam Hill Memorial Bridge	NA
+Sam Hill Memorial Bridge	North America
 Boroughmuir High School	EU
-Rickenbacker Air National Guard Base	NA
+Rickenbacker Air National Guard Base	North America
 Kuala Langat	AS
-Bering Glacier	NA
+Bering Glacier	North America
 Yangtze	AS
-Thule people	NA
+Thule people	North America
 Mongolia	AS
 Cape Selborne	AF
 Tshwane Metropolitan Municipality	AF
 SooToday.com	unsure
-Clipper Magazine Stadium	NA
+Clipper Magazine Stadium	North America
 City of Boroondara	OC
 La Spezia	EU
-East Kildonan, Winnipeg	NA
+East Kildonan, Winnipeg	North America
 Swedish Orphan Biovitrum	EU
 Mapple Glacier	AN
 Griebnitz Canal	EU
 Cordiner Peaks	AN
 County Leitrim	EU
 English Coast	EU
-Hickory Run State Park	NA
-Bourgeois Fjord	NA
+Hickory Run State Park	North America
+Bourgeois Fjord	North America
 Oxshott	EU
-Regla	NA
+Regla	North America
 Colombes	EU
-Sun News Network	NA
+Sun News Network	North America
 Bobolice	EU
 Benson Glacier	AN
-Judith River Group	NA
-Bishop Loughlin Memorial High School	NA
-Santa Fe Trail	NA
+Judith River Group	North America
+Bishop Loughlin Memorial High School	North America
+Santa Fe Trail	North America
 Beardmore Glacier	AN
-Lincoln Financial Field	NA
+Lincoln Financial Field	North America
 Liffey River	EU
 Tinguiririca River	SA
 Caradon Hill	EU
 Stefaneschi Triptych	EU
 Mugello Circuit	EU
-assassination of John F. Kennedy	NA
-Lakewood Church	NA
+assassination of John F. Kennedy	North America
+Lakewood Church	North America
 Mount Karisimbi	AF
 Ljig	EU
 Taunsa Barrage	AS
 Bellagio	EU
 Maitri	AS
 Ferrer Point	AN
-Ouachita National Forest	NA
-Zion Canyon	NA
-DuPage County	NA
+Ouachita National Forest	North America
+Zion Canyon	North America
+DuPage County	North America
 Ford Ranges	AN
-Leech Lake	NA
+Leech Lake	North America
 Saunders Mountain	AN
 Bliesgau	EU
 Worcester Range	AN
@@ -2590,57 +2590,57 @@ Ostankinsky District	EU
 Almaty	AS
 Helensvale railway station	OC
 Chuprene Glacier	EU
-Distrito Federal	NA
+Distrito Federal	North America
 Dutch	EU
-Bryan Air Force Base	NA
-Mexican	NA
-East Humboldt Range	NA
+Bryan Air Force Base	North America
+Mexican	North America
+East Humboldt Range	North America
 Hultsfred Municipality	EU
-archdiocese of Gatineau	NA
+archdiocese of Gatineau	North America
 Linimo	AS
 Rhine	EU
-McKinley Climatic Laboratory	NA
+McKinley Climatic Laboratory	North America
 Scott Base	AN
-Patrick Henry College	NA
+Patrick Henry College	North America
 Sonitpur district	AS
 French Algeria	AF
 Larsmo	EU
 Watt Bay	OC
-Costa Rica	NA
+Costa Rica	North America
 Kryvyi Rih	EU
-Longs Peak	NA
+Longs Peak	North America
 Cape Ducorps	AN
 Shinnan Glacier	AN
 Colegio Nacional de Buenos Aires	SA
-Gramercy Park	NA
+Gramercy Park	North America
 Mount St Gwinear	OC
 Dar es Salaam	AF
 Tartessos	EU
-Bitterroot Mountains	NA
+Bitterroot Mountains	North America
 Cape Adare	AN
 2004 IAAF World Cross Country Championships	AF
-Wilmington	NA
+Wilmington	North America
 Middle East	AS
 Victory Mountains	AN
 La Plata	SA
 Khorramdarreh Rural District	AS
-Hershey Country Club	NA
+Hershey Country Club	North America
 N'Djamena	AF
 Shackleton Ice Shelf	AN
 Aragonese	EU
 Suvorov Glacier	AN
 United Arab Emirates	AS
 Pandoh Dam	AS
-Diablo Canyon Power Plant	NA
+Diablo Canyon Power Plant	North America
 Terningskarvet Mountain	EU
 Via Ardeatina	EU
 Sentinel Range	AN
-Fort Nashborough	NA
+Fort Nashborough	North America
 Kharga Oasis	AF
 McCuddin Mountains	AN
 Congo Free State	AF
-California Plateau	NA
-Northwest Branch Anacostia River	NA
+California Plateau	North America
+Northwest Branch Anacostia River	North America
 Warszawa	EU
 Vierlingsbeek	EU
 Read Mountains	AN
@@ -2657,8 +2657,8 @@ Sequence Hills	AN
 Nordstrand IF	EU
 Fredriksen Island	AN
 Legnica County	EU
-Moyamensing	NA
-Black Pine Mountains	NA
+Moyamensing	North America
+Black Pine Mountains	North America
 Zenshuji	AS
 E.ON Sverige	EU
 Danco Coast	AN
@@ -2670,7 +2670,7 @@ East Pakistan	AS
 Moscato d'Asti	EU
 Silverstein Peak	AN
 Law Dome	AN
-Gabbro Hills	NA
+Gabbro Hills	North America
 Chartered Professional Accountant	unsure
 Derna District	AF
 Vestfold Hills	AN
@@ -2684,7 +2684,7 @@ Dhule	AS
 Lwów	EU
 Mount Newall	OC
 Kurze Mountains	AN
-Camp Myles Standish	NA
+Camp Myles Standish	North America
 Drighlington	EU
 Shaanxi	AS
 Circuito da Boavista	EU
@@ -2692,43 +2692,43 @@ Venetian	EU
 Pontigny Abbey	EU
 Cathedral Rocks	AN
 Pirrit Hills	AN
-Asquith	NA
-Patuxent Wildlife Research Center	NA
+Asquith	North America
+Patuxent Wildlife Research Center	North America
 Lincolnshire	EU
-Interstate 255	NA
-Sarnia	NA
+Interstate 255	North America
+Sarnia	North America
 Kiryat Moshe	AS
-Mount Spivey	NA
+Mount Spivey	North America
 Mediglia	EU
 Al-Hasakah Governorate	AS
-HRL Laboratories	NA
-DF	NA
+HRL Laboratories	North America
+DF	North America
 Flatvaer Islands	EU
-Vaughan Inlet	NA
-Lake Texana	NA
+Vaughan Inlet	North America
+Lake Texana	North America
 Bigourdan Fjord	AN
 Zaanstad	EU
-Lincoln Square Synagogue	NA
-Barnhartvale, Kamloops	NA
-Cape Kinsey	NA
-Fifth Avenue	NA
+Lincoln Square Synagogue	North America
+Barnhartvale, Kamloops	North America
+Cape Kinsey	North America
+Fifth Avenue	North America
 Demay Point	AN
 Kojur District	AS
 Whirlwind Inlet	AN
 Jordan	AS
-Phillips County	NA
+Phillips County	North America
 Bad Vilbel	EU
 Krogh Island	AN
-Brickell Key	NA
+Brickell Key	North America
 Liv Glacier	AN
 Josefstadt	EU
 Adelaide Island	AN
 Tunis	AF
 Dutch Republic	EU
-San Antonio	NA
-Granite Knolls	NA
+San Antonio	North America
+Granite Knolls	North America
 Luanda	AF
-Carrizo Plain	NA
+Carrizo Plain	North America
 Gornate-Olona	EU
 Mannheim City Airport	EU
 Tagus river	EU
@@ -2742,13 +2742,13 @@ Krung Thep	AS
 Harris Peninsula	AN
 Mount Berlin	AN
 Indigirka River	AS
-Iberia Parish	NA
+Iberia Parish	North America
 Everett Range	AN
 William Scoresby Archipelago	AN
 ERT World	unsure
 Largo Island	AN
 Shirley Island	AN
-Wellington Catholic District School Board	NA
+Wellington Catholic District School Board	North America
 Lanzhou	AS
 Pune	AS
 Tupungato	SA
@@ -2761,19 +2761,19 @@ Kosamba	AS
 Mount Dallmann	AN
 Mendelssohn Inlet	AN
 Georgians	unsure
-Mel Lastman Square	NA
+Mel Lastman Square	North America
 Lajran Rural District	AS
-National War Museum	NA
+National War Museum	North America
 Gelderland	EU
 Westerburg	EU
 Ezhupunna	AS
 Herbert Mountains	AN
 Douro	EU
-Poweshiek County	NA
+Poweshiek County	North America
 William Scoresby Bay	AN
 Union des forces progressistes	unsure
-Gramercy Park Hotel	NA
-Lexington Avenue	NA
+Gramercy Park Hotel	North America
+Lexington Avenue	North America
 Stara Zagora	EU
 Isa Air Base	AS
 Kazinga Channel	AF
@@ -2781,33 +2781,33 @@ Hotel Bristol	EU
 Meyer Hills	AN
 Violante Inlet	AN
 Rupanyup	OC
-Arena Valley	NA
+Arena Valley	North America
 Knobhead	unsure
 Mbale District	AF
 Minna Bluff	AN
 Piedecuesta	SA
 Balham Valley	AN
 Shahdol district	AS
-Upper Canada District School Board	NA
-Lycoming College	NA
+Upper Canada District School Board	North America
+Lycoming College	North America
 Taronga Western Plains Zoo	OC
 Cape Archer	AN
-Keystone Corridor	NA
-Delaware	NA
+Keystone Corridor	North America
+Delaware	North America
 Tierney Peninsula	AN
 Gmina Morawica	EU
-North Portal	NA
-Idylwyld Drive	NA
+North Portal	North America
+Idylwyld Drive	North America
 Barker Range	OC
-Alexander Hamilton Bridge	NA
+Alexander Hamilton Bridge	North America
 Linnich	EU
 M'Sila Province	AF
 The Knoll	AN
 Santo Spirito in Sassia	EU
 Dniester	EU
 Sobat River	AF
-Yukon Flats National Wildlife Refuge	NA
-Hurricane Ridge	NA
+Yukon Flats National Wildlife Refuge	North America
+Hurricane Ridge	North America
 Palmer Station	AN
 Neumayer Cliffs	AN
 Christiania	EU
@@ -2822,21 +2822,21 @@ Taranto Sport	EU
 South Australia	OC
 Shunyi Olympic Rowing-Canoeing Park	AS
 Marad massacre	AS
-Bracondale Hill	NA
+Bracondale Hill	North America
 North Brabant	EU
-North Carolina	NA
+North Carolina	North America
 Castellamonte	EU
-Cook County, Illinois	NA
-Film Forum	NA
+Cook County, Illinois	North America
+Film Forum	North America
 Warta	EU
 Goa	AS
-Kilby Island	NA
+Kilby Island	North America
 Chamarajanagar district	AS
 Prince Charles Mountains	AN
 Zaraysky District	EU
 Ballyfermot	EU
 Foulis Castle	AF
-Kalamazoo County	NA
+Kalamazoo County	North America
 Mount Ignatiev	AN
 Cape Filchner	AN
 Moubray Glacier	AN
@@ -2852,13 +2852,13 @@ Villigen	EU
 Yovkov Point	AN
 Shiraz	AS
 Beaumont Glacier	AN
-Parkland County	NA
+Parkland County	North America
 Anderson Heights	AN
 Insel Range	AN
 Nanyang Technological University	AS
-Marshall Space Flight Center	NA
+Marshall Space Flight Center	North America
 Zemen Knoll	EU
-Wallow Fire	NA
+Wallow Fire	North America
 Koboko District	AF
 River Clyde	EU
 Bolpur	AS
@@ -2870,19 +2870,19 @@ K.S.V. Roeselare	EU
 Many Peaks	OC
 Newstead House Board of Trustees	OC
 Essex	EU
-North Shore Medical Center	NA
+North Shore Medical Center	North America
 Leverett Glacier	AN
-Campeche Bank	NA
+Campeche Bank	North America
 FR Germany	EU
 Wright Inlet	AN
-Box Elder County	NA
+Box Elder County	North America
 Gmina Warlubie	EU
 Hercules Inlet	AN
 Manipur	AS
 Mukhed	AS
 Reeves Glacier	AN
 Inn	EU
-Mont Saint-Bruno	NA
+Mont Saint-Bruno	North America
 M-140	EU
 Wiener Singakademie	EU
 Kama River	EU
@@ -2892,17 +2892,17 @@ Samuel Point	AN
 Laslea	EU
 Yambol Peak	EU
 Cancello	EU
-Lake Abitibi	NA
-Arundel Formation	NA
-Coast Mountains	NA
+Lake Abitibi	North America
+Arundel Formation	North America
+Coast Mountains	North America
 Northwind Glacier	AN
-Baron de Hirsch Cemetery, Halifax	NA
-Vermilion	NA
-Mount McCoy	NA
+Baron de Hirsch Cemetery, Halifax	North America
+Vermilion	North America
+Mount McCoy	North America
 Lake Baikal	AS
 Shibganj Upazila, Bogra District	AS
 Svarthamaren Mountain	AN
-Cumberland University	NA
+Cumberland University	North America
 Preet Vihar	AS
 Kungliga Svenska Segelsällskapet	EU
 Tarnobrzeg Voivodeship	EU
@@ -2916,7 +2916,7 @@ Biberach district	EU
 Morris Rock	AN
 Gmina Konarzyny	EU
 Enterprise Island	AN
-Breaux Bridge	NA
+Breaux Bridge	North America
 Wakefield Park	OC
 Ferrobaires	SA
 Birendranagar	AS
@@ -2941,33 +2941,33 @@ Mount Bayonne	AN
 Bangui	AF
 Giurgiu County	EU
 Kennedy Highway	OC
-Monessen	NA
+Monessen	North America
 Grossman Nunataks	AN
 Fold Island	AN
 Rottendorf	EU
 Cole Peninsula	AN
 Ninnis Glacier	AN
 Oman	AS
-Kingsborough Community College	NA
-Wildcat Hills	NA
+Kingsborough Community College	North America
+Wildcat Hills	North America
 Le Puy Foot 43 Auvergne	EU
 Grolsch Brewery	EU
-Sam Rayburn Reservoir	NA
+Sam Rayburn Reservoir	North America
 Honkala Island	AN
 Siemiatycze	EU
-Long Beach Polytechnic High School	NA
-Muskegon River	NA
+Long Beach Polytechnic High School	North America
+Muskegon River	North America
 Losiny Ostrov National Park	EU
 Veliko Tarnovo	EU
 Facit	EU
-Brazos Wind Farm	NA
+Brazos Wind Farm	North America
 Lochaline	EU
-Kermit, Texas	NA
-Puebla	NA
-Lake Conroe	NA
-Kingston Whig-Standard	NA
+Kermit, Texas	North America
+Puebla	North America
+Lake Conroe	North America
+Kingston Whig-Standard	North America
 Fairfield West	OC
-Cheyenne Frontier Days	NA
+Cheyenne Frontier Days	North America
 Pindamonhangaba	SA
 Husky Massif	AN
 Support Force Glacier	AN
@@ -2978,13 +2978,13 @@ Geffen Award	AS
 Mac. Robertson Land	AN
 Scheldt	EU
 Tell Rifaat	AS
-Swann Memorial Fountain	NA
+Swann Memorial Fountain	North America
 Mount Dido	AN
 Lyon Nunataks	AN
-Mobiloil Inlet	NA
+Mobiloil Inlet	North America
 Northland	OC
 Mount McClintock	AN
-Niagara County, New York	NA
+Niagara County, New York	North America
 Melilla	AF
 Findhorn Foundation	EU
 Attingal	AS
@@ -2992,33 +2992,33 @@ Queen Elizabeth Land	AN
 Cheshire	EU
 Tang Dynasty	AS
 Chambal River	AS
-Inuit Circumpolar Council	NA
+Inuit Circumpolar Council	North America
 Niger River	AF
-Hanover Tavern	NA
+Hanover Tavern	North America
 Wazzin	AF
 Biscay	EU
 Ceredigion County Council	EU
-Lancaster Catholic High School	NA
+Lancaster Catholic High School	North America
 Stockholm County	EU
-Quinton Point	NA
+Quinton Point	North America
 Hutton Mountains	AN
 Jewish Museum	unsure
 Ma'an Governorate	AS
-Autauga County	NA
-Bruce County	NA
-United Mine Workers	NA
+Autauga County	North America
+Bruce County	North America
+United Mine Workers	North America
 Oseberg oil field	EU
 2010 Belgian federal election	EU
 Habsburg Monarchy	EU
 Gdynia	EU
 Vestreskorve Glacier	AN
 Segura	EU
-Cape Monaco	NA
+Cape Monaco	North America
 Banaskantha district	AS
 El Tarf Province	AF
 Alor Setar	AS
 Asian Highway Network	AS
-Camp Mabry	NA
+Camp Mabry	North America
 Kuantan	AS
 Altare della Patria	EU
 Craddock Massif	AN
@@ -3027,13 +3027,13 @@ Auchenharvie Castle	EU
 Hilton Inlet	AN
 Aviator Glacier	AN
 Skelton Glacier	AN
-Spirit Mountain Wilderness	NA
+Spirit Mountain Wilderness	North America
 Mizoram	AS
 Berar Province	AS
 Titograd	EU
 Forrestal Range	AN
 Wesley Hospital	OC
-Rutgers Preparatory School	NA
+Rutgers Preparatory School	North America
 2004 Indian Ocean earthquake	AS
 Snowdon	EU
 Neighbourhoods in Kolkata	AS
@@ -3041,7 +3041,7 @@ Arjoun	AS
 Boguchany Dam	EU
 Omusati region	AF
 Imperia	EU
-Schofield Barracks	NA
+Schofield Barracks	North America
 Bosporan Kingdom	EU
 National Congress of Brasil	SA
 Kayunga District	AF
@@ -3060,8 +3060,8 @@ Pannonhalma Archabbey	EU
 Kanchanaburi	AS
 Dwarka	AS
 Everberg	EU
-Free National Movement	NA
-Oliver Ames High School	NA
+Free National Movement	North America
+Oliver Ames High School	North America
 Lombard kingdom	EU
 Subarnapur district	AS
 Firenze	EU
@@ -3085,7 +3085,7 @@ Band-e Kaisar	AS
 Mandara Mountains	AF
 Akure	AF
 Rathen	EU
-Jervis Inlet	NA
+Jervis Inlet	North America
 Albertis Castle	EU
 Bungsberg	EU
 Dospat Municipality	EU
@@ -3111,10 +3111,10 @@ Romanian	EU
 Ust-Maya	AS
 West Darfur	AF
 Deputatsky	AS
-Bighorn Basin	NA
+Bighorn Basin	North America
 Garabit viaduct	EU
-Lakeridge Health Oshawa	NA
-Centre Pierre Charbonneau	NA
+Lakeridge Health Oshawa	North America
+Centre Pierre Charbonneau	North America
 West Norfolk	EU
 Grobbendonk	EU
 Davao Region	AS
@@ -3123,19 +3123,19 @@ Orpheus Island National Park	OC
 Bay	AF
 Argentine National Anthem	SA
 Galata	AS
-Elk State Park	NA
+Elk State Park	North America
 Sialkot district	AS
 Sumulong Highway	AS
 Ovada	EU
 Ikuno-ku	AS
-Phoenix Symphony Hall	NA
+Phoenix Symphony Hall	North America
 Rudrur	AS
-Habitat 67	NA
+Habitat 67	North America
 Rottumerplaat	EU
 Tsubaki Grand Shrine	AS
 Romano d'Ezzelino	EU
 Eurasian Steppe	EU
-Little Stirrup Cay	NA
+Little Stirrup Cay	North America
 Pochepsky District	EU
 Kitakami Station	AS
 Eerbeek	EU
@@ -3160,7 +3160,7 @@ Surazh	EU
 New Era University	AS
 Southern Savonia	EU
 Istanbul Airport	AS
-Sears Point	NA
+Sears Point	North America
 Western Bug	EU
 Portuguese	EU
 Bilecik Province	AS
@@ -3171,10 +3171,10 @@ Pamukkale	AS
 Polish	EU
 Porto Azzurro	EU
 Russian	EU
-Golden Gate National Recreation Area	NA
+Golden Gate National Recreation Area	North America
 TUIfly Nordic	EU
 Pilis Mountains	EU
-Puerto Rican	NA
+Puerto Rican	North America
 public transport in Istanbul	AS
 Edirne Province	AS
 Tirebolu	AS
