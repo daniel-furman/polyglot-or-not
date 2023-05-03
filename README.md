@@ -7,7 +7,7 @@
 This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models](https://bit.ly/ischool-berkeley-capstone). It contains several research artifacts, including:
 
 1. The [code][cka_run_main] for running the fact-completion test
-2. Our [dataset][hf_data] of factual associations translated into 20 languages. 
+2. Our [dataset][hf_data] of factual associations translated into 20 languages
 3. A [demo][cka_lightweight_demo] of contrastive knowledge assessment 
 
 ## Method
