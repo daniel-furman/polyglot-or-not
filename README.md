@@ -84,7 +84,7 @@ The factual associations were originally sourced from English-language Wikidata 
 
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
-**Figure 1**: The percentage of fact completions adequately retrieved by LLaMa-30b per language (blue) compared to a handful of English-only models (gray). LLaMa-30b is much better on languages written in Latin script than those written in Cyrillic scrip; notably, all four Cyrillic script languages score at the bottom. A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) confirms that LLaMa-30b's test performance is dependent on language script (*p* < 0.001).
+**Figure 1**: The percentage of fact completions adequately retrieved by LLaMa-30b per language (blue) compared to a handful of English-only models (gray). LLaMa-30b is much better on languages written in Latin script than those written in Cyrillic script; notably, all four Cyrillic script languages score at the bottom. A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) confirms that LLaMa-30b's test performance is dependent on language script (*p* < 0.001).
  
 ## Authors
 
