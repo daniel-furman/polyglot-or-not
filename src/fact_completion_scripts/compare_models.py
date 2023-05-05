@@ -17,7 +17,14 @@ from transformers import (
     AutoModelForSeq2SeqLM,
 )
 
-from probe_helpers import probe_gpt, probe_bert, probe_llama, probe_t5, probe_stablelm
+from probe_helpers import (
+    probe_gpt,
+    probe_bert,
+    probe_llama,
+    probe_t5,
+    probe_stablelm,
+    probe_mpt,
+)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 if not torch.cuda.is_available():
@@ -52,6 +59,18 @@ def get_model_and_tokenizer(model_name):
             model_name, load_in_8bit=True, device_map="auto", torch_dtype=torch.float16
         )
 
+    elif "mpt" in model_name.lower():
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        return (
+            tokenizer,
+            AutoModelForCausalLM.from_pretrained(
+                model_name,
+                load_in_8bit=True,
+                torch_dtype=torch.float16,
+                trust_remote_code=True,
+            ).to(device),
+        )
+
     elif "bert" in model_name.lower():
         return AutoTokenizer.from_pretrained(
             model_name
@@ -74,7 +93,14 @@ def get_model_and_tokenizer(model_name):
 
 # next, write a helper to pull a probe function for the given LM
 def get_probe_function(prefix):
-    probe_functions = [probe_gpt, probe_bert, probe_llama, probe_t5, probe_stablelm]
+    probe_functions = [
+        probe_gpt,
+        probe_bert,
+        probe_llama,
+        probe_t5,
+        probe_stablelm,
+        probe_mpt,
+    ]
     for func in probe_functions:
         if prefix.lower() in func.__name__:
             return func
@@ -157,6 +183,10 @@ def compare_models(model_name_list, input_dataset, verbose):
             prefix = "stablelm"
             probe_func = get_probe_function(prefix)
 
+        elif "mpt" in model_name.lower():
+            prefix = "mosaicml/mpt-7b"
+            probe_func = get_probe_function(prefix)
+
         # iterate over context/entity pairings
         # input_dataset is a datasets dataset
         # context is a plain string (since our context's will be unique)
@@ -218,6 +248,7 @@ def compare_models(model_name_list, input_dataset, verbose):
                     or (prefix == "eleutherai")
                     or (prefix == "bloom")
                     or (prefix == "stablelm")
+                    or (prefix == "mpt")
                 ):
                     target_id = tokenizer.encode(" " + entity, return_tensors="pt").to(
                         device

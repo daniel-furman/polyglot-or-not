@@ -69,7 +69,60 @@ def probe_stablelm(model, tokenizer, target_id, context, verbose=False):
     input_ids = tokenizer(
         context,
         padding="longest",
-        max_length=512,
+        max_length=4096,
+        truncation=True,
+        return_tensors="pt",
+    ).input_ids
+    # use model to solicit a prediction
+    outputs = model.generate(
+        input_ids=input_ids.to(device),
+        output_scores=True,
+        return_dict=True,
+        return_dict_in_generate=True,
+        max_new_tokens=4,
+    )
+
+    # find the left-most non-sepecial token, save itr of this token to grab
+    # correct logit scores array
+    sequences = outputs["sequences"][0].tolist()
+    for i in range(4):
+        logits = outputs["scores"][i]
+        probs = softmax(logits, dim=-1)
+        probs = probs.detach().cpu().numpy()
+        if tokenizer.decode([np.argmax(probs)]) not in [
+            "<|endoftext|>",
+            "<|padding|>",
+            "",
+            " ",
+        ]:
+            save_itr = i
+            break
+    # grab its logits
+    logits = outputs["scores"][save_itr]
+    # convert our prediction scores to a probability distribution with softmax
+    probs = softmax(logits, dim=-1)
+    probs = probs.detach().cpu().numpy()
+    # grab the full decoded output for verbose:
+    decoded_output = tokenizer.decode(sequences)
+
+    if verbose:
+        print(f"\n\tcontext... {context}")
+        print(f"\ttokenized_context ids... {input_ids}")
+        print(f"\tdecoded tokenized_context... {tokenizer.decode(input_ids[0])}")
+        print(f"\tdecoded target id... {tokenizer.decode([target_id.item()])}")
+        print(
+            f"\tmost probable prediction id decoded... {tokenizer.decode([np.argmax(probs)])}"
+        )
+        print(f"\tdecoded full text generate output... {decoded_output}\n")
+    return probs[0][target_id.item()]
+
+
+def probe_mpt(model, tokenizer, target_id, context, verbose=False):
+    # tokenize context
+    input_ids = tokenizer(
+        context,
+        padding="longest",
+        max_length=2048,
         truncation=True,
         return_tensors="pt",
     ).input_ids
