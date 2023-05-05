@@ -109,7 +109,6 @@ def get_wikipedia_pages(lang, limit=500, debug=False):
         limit = 500
     # construct URL for API call
     articles_url = f"https://{lang}.wikipedia.org/w/api.php?action=query&list=random&format=json&rnnamespace=0&rnlimit={str(limit)}&format=json"
-
     # grab data
     url = urllib.request.urlopen(articles_url)
 
@@ -206,13 +205,18 @@ def get_article_info(article_title, pageid, lang, cleanup_str, debug=False):
             f"retrieved pageid {data_pageid} corresponding to {article_title} on {lang} wiki."
         )
 
-    # double check pageid matches the one returned by API
-    if str(data_pageid) != str(pageid):
-        if debug:
-            print(
-                f"id mismatch -- expected {pageid} but retrieved {data_pageid} for {article_title} on {lang} wiki."
-            )
-        return {}
+    # we want to be able to use this method even
+    # in cases where we don't have the page id
+    # e.g. we have the titles of articles of interest we want to call
+    # but no other information
+    if pageid != 0 and pageid != None:
+        # double check pageid matches the one returned by API
+        if str(data_pageid) != str(pageid):
+            if debug:
+                print(
+                    f"id mismatch -- expected {pageid} but retrieved {data_pageid} for {article_title} on {lang} wiki."
+                )
+            return {}
 
     # check if text is properly returned
     if "extract" not in obj["query"]["pages"][data_pageid]:
