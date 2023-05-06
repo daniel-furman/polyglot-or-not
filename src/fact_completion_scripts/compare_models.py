@@ -61,6 +61,7 @@ def get_model_and_tokenizer(model_name):
 
     elif "mpt" in model_name.lower():
         tokenizer = AutoTokenizer.from_pretrained(model_name)
+        tokenizer.pad_token = "<|padding|>"
         return (
             tokenizer,
             AutoModelForCausalLM.from_pretrained(
