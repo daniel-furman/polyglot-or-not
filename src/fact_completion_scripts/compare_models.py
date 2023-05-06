@@ -183,7 +183,7 @@ def compare_models(model_name_list, input_dataset, verbose):
             probe_func = get_probe_function(prefix)
 
         elif "mpt" in model_name.lower():
-            prefix = "mosaicml/mpt-7b"
+            prefix = "mpt"
             probe_func = get_probe_function(prefix)
 
         # iterate over context/entity pairings
