@@ -24,6 +24,7 @@ from probe_helpers import (
     probe_t5,
     probe_stablelm,
     probe_mpt,
+    probe_redpajama,
 )
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -52,7 +53,7 @@ def get_model_and_tokenizer(model_name):
             model_name, load_in_8bit=True, device_map="auto", torch_dtype=torch.float16
         )
 
-    elif "stablelm" in model_name.lower():
+    elif ("stablelm" in model_name.lower()) or ("redpajama" in model_name.lower()):
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         tokenizer.pad_token = "<|padding|>"
         return tokenizer, AutoModelForCausalLM.from_pretrained(
@@ -100,6 +101,7 @@ def get_probe_function(prefix):
         probe_t5,
         probe_stablelm,
         probe_mpt,
+        probe_redpajama,
     ]
     for func in probe_functions:
         if prefix.lower() in func.__name__:
@@ -187,6 +189,10 @@ def compare_models(model_name_list, input_dataset, verbose):
             prefix = "mpt"
             probe_func = get_probe_function(prefix)
 
+        elif "redpajama" in model_name.lower():
+            prefix = "redpajama"
+            probe_func = get_probe_function(prefix)
+
         # iterate over context/entity pairings
         # input_dataset is a datasets dataset
         # context is a plain string (since our context's will be unique)
@@ -249,6 +255,7 @@ def compare_models(model_name_list, input_dataset, verbose):
                     or (prefix == "bloom")
                     or (prefix == "stablelm")
                     or (prefix == "mpt")
+                    or (prefix == "redpajama")
                 ):
                     target_id = tokenizer.encode(" " + entity, return_tensors="pt").to(
                         device
