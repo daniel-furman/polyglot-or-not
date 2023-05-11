@@ -60,6 +60,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [llama-7b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **85.53** +/- 0.43 |  7B |  Touvron et al., 2023 | Meta |
  | [mpt-7b](https://huggingface.co/mosaicml/mpt-7b) | **83.39** +/- 0.46 | 7B | MosaicML NLP Team, 2023 | MosaicML |
  | [opt-30b](https://huggingface.co/facebook/opt-30b) | **82.09** +/- 0.47 | 30B |  Zhang et al., 2022 | Meta |
+ | [redpajama-3b-v1](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-3B-v1) | **82.09** +/- 0.47 | 3B | Together NLP Team, 2023 | Together |
  | [opt-13b](https://huggingface.co/facebook/opt-13b) | **81.94** +/- 0.46 | 13B |  Zhang et al., 2022 | Meta |
  | [gpt-neox-20b](https://huggingface.co/EleutherAI/gpt-neox-20b) | **81.50** +/- 0.47 | 20B |  Black et al., 2022 | EleutherAI |
  | [gpt-j-6b](https://huggingface.co/EleutherAI/gpt-j-6b) |  **81.14** +/- 0.47 |  6B | Wang et al., 2021 | EleutherAI |
