@@ -48,7 +48,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **52.51** +/- 0.91 | 3.7B | Xue et al., 2020 | Google |
  | Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
 
- **Table 1**: Accuracy indicates the average test performance across 20 languages (% correct fact-completions). The uncertainty estimates represent 95% confidence intervals computed from 10000 bootstrap iterations.
+ **Table 1**: The test leaderboard for the multilingual experiment, with accuracy representing an average across 20 languages. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations.
 
  &nbsp; 
 
@@ -77,11 +77,11 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
  | Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; | 
  
- **Table 2**: Accuracy indicates the test performance across for English-only data (% correct fact-completions). The uncertainty estimates represent 95% confidence intervals computed from 10000 bootstrap iterations. At a glance, these results suggest many interesting insights. For example, training dataset size impacts performance more than sheer parameter count, recent models tend to perform better than older ones, and Meta's LLaMa beats out other model families. 
+ **Table 2**: The test leaderboard for English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations. At a glance, these results suggest that training dataset size impacts performance more than sheer parameter count, recent models tend to perform better than older ones, and Meta's LLaMa beats out other model families. 
  
  &nbsp;
 
-### **LLaMa-33b** leaderboard across languages
+### **LLaMa-33b** performance across languages
 
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
