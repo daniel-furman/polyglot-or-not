@@ -41,7 +41,7 @@ The factual associations were originally sourced from English-language Wikidata 
  
  | Model            | 20 Languages<br />(avg % correct)      | Num Params | Authors      |  Org   |
  |------------------|:--------------:|:--------------:|--------------|--------------|
- | [llama-30b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **79.31** +/- 0.74 | 30B | Touvron et al., 2023 | Meta | 
+ | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **79.31** +/- 0.74 | 33B | Touvron et al., 2023 | Meta | 
  | [m-bert-base](https://huggingface.co/bert-base-multilingual-cased) |  **62.00** +/- 0.87 | 110M | Devlin et al., 2018 | Google |
  | [bloom-7b1](https://huggingface.co/bigscience/bloom-7b1)  | **57.70** +/- 0.88 | 7B | Scao et al., 2022 | BigScience |
  | [xlm-roberta-large](https://huggingface.co/xlm-roberta-large) | **56.03** +/- 0.90 | 355M | Conneau et al., 2019 | Meta | 
@@ -55,7 +55,7 @@ The factual associations were originally sourced from English-language Wikidata 
  
  | Model            | English-only<br />(% correct)      | Num Params | Authors    |  Org   | 
  |------------------|:--------------:|:--------------:|--------------|--------------|
- | [llama-30b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **89.40** +/- 0.38 |  30B |  Touvron et al., 2023 | Meta |
+ | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **89.40** +/- 0.38 |  33B |  Touvron et al., 2023 | Meta |
  | [llama-13b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **86.66** +/- 0.42 |  13B |  Touvron et al., 2023 | Meta |
  | [llama-7b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **85.53** +/- 0.43 |  7B |  Touvron et al., 2023 | Meta |
  | [mpt-7b](https://huggingface.co/mosaicml/mpt-7b) | **83.39** +/- 0.46 | 7B | MosaicML, 2023 | MosaicML |
@@ -82,11 +82,11 @@ The factual associations were originally sourced from English-language Wikidata 
  
  &nbsp;
 
-### **LLaMa-30b** fact-completion performance per language.
+### **LLaMa-33b** fact-completion performance per language.
 
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
-**Figure 1**: The percentage of fact completions adequately retrieved by LLaMa-30b (blue), which scores higher on languages written in Latin script than those written in Cyrillic script (Ukrainian, Bulgarian, Russian and Serbian). A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) confirms that LLaMa-30b's test performance is dependent on language script (*p* < 0.001).
+**Figure 1**: The percentage of fact completions adequately retrieved by LLaMa-33b (blue), which scores higher on languages written in Latin script than those written in Cyrillic script (Ukrainian, Bulgarian, Russian and Serbian). A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) confirms that LLaMa-33b's test performance is dependent on language script (*p* < 0.001).
  
 ## Authors
 
