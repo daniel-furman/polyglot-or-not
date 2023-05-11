@@ -23,7 +23,7 @@ If the value from **Step 1** is greater than the value from **Step 2** we conclu
 
 We evaluate 5 open-sourced foundation models of interest, like [LLaMa](https://arxiv.org/abs/2302.13971) [[2][bib]]. We perform this assessment using 303k fact-completions translated into 20 languages ([results](https://github.com/daniel-furman/Polyglot-or-Not#test-results)). 
 
-In addition to our mulitlingual assessment, we also scored 18 monolingual models (like [GPT-NeoX](https://arxiv.org/abs/2204.06745) and [OPT](https://arxiv.org/abs/2205.01068)) on the English subset of our data. 
+In addition to our multilingual assessment, we also scored 18 monolingual models (like [GPT-NeoX](https://arxiv.org/abs/2204.06745) and [OPT](https://arxiv.org/abs/2205.01068)) on the English subset of our data. 
 
 While we would have very much liked to test close-sourced models, such as OpenAI's GPT-4, these models don't provide vocabulary-wide token probabilities at inference and are thus incompatible with our test. 
 
