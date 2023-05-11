@@ -35,9 +35,9 @@ We present 303k unique fact-completions in [`CalibraGPT/Fact-Completion`][hf_dat
 
 The factual associations were originally sourced from English-language Wikidata curated in the T-REx dataset [[3][bib]] as utilized in factual association research such as [[1][bib]] and [[4][bib]]. We used the Google Translate API alongside bespoke wrapper [code](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/src/dataset_caching_scripts/language_translation_helper.py) to programmatically generate the non-English cuts. 
 
-## Results 
+## Test Results 
 
- ### **Multilingual** test leaderboard.
+ ### **Multilingual** leaderboard
  
  | Model            | Accuracy      | Params | Authors      |  Org   |
  |------------------|:--------------:|:--------------:|--------------|--------------|
@@ -48,13 +48,11 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **52.51** +/- 0.91 | 3.7B | Xue et al., 2020 | Google |
  | Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
 
-  &nbsp; 
-
- **Table 1**: Multilingual test leaderboard. Accuracy indicates the average test performance across 20 languages (% correct fact-completions). The uncertainty estimates represent 95% confidence intervals computed from 10000 bootstrap iterations.
+ **Table 1**: Accuracy indicates the average test performance across 20 languages (% correct fact-completions). The uncertainty estimates represent 95% confidence intervals computed from 10000 bootstrap iterations.
 
  &nbsp; 
 
- ### **English-only** test leaderboard.
+ ### **English-only** leaderboard
  
  | Model            | Accuracy      | Params | Authors    |  Org   | 
  |------------------|:--------------:|:--------------:|--------------|--------------|
@@ -78,18 +76,16 @@ The factual associations were originally sourced from English-language Wikidata 
  | [xlm-roberta-large](https://huggingface.co/xlm-roberta-large) | **61.55** +/- 0.59 | 355M | Conneau et al., 2019 | Meta |
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
  | Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; | 
-
-  &nbsp; 
  
- **Table 2**: English-only test leaderboard. Accuracy indicates the test performance across for English-only data (% correct fact-completions). The uncertainty estimates represent 95% confidence intervals computed from 10000 bootstrap iterations. At a glance, these results suggest many interesting insights. For example, training dataset size impacts performance more than sheer parameter count, recent models tend to perform better than older ones, and Meta's LLaMa beats out other model families. 
+ **Table 2**: Accuracy indicates the test performance across for English-only data (% correct fact-completions). The uncertainty estimates represent 95% confidence intervals computed from 10000 bootstrap iterations. At a glance, these results suggest many interesting insights. For example, training dataset size impacts performance more than sheer parameter count, recent models tend to perform better than older ones, and Meta's LLaMa beats out other model families. 
  
  &nbsp;
 
-### **LLaMa-33b** multilingual fact-completion performance.
+### **LLaMa-33b** leaderboard across languages
 
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
-**Figure 1**: LLaMa-33b test performance across languages. The model scores higher on languages written in Latin script than those written in Cyrillic script (Ukrainian, Bulgarian, Russian and Serbian). A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) confirms that LLaMa-33b's test performance is dependent on language script (*p* < 0.001).
+**Figure 1**: LLaMa-33b scores higher on languages written in Latin script than those written in Cyrillic script (Ukrainian, Bulgarian, Russian and Serbian). A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) confirms that LLaMa-33b's test performance is dependent on language script (*p* < 0.001).
  
 ## Authors
 
