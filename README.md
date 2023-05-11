@@ -19,7 +19,7 @@ Given a factual association such as *The capital of France is **Paris***, we det
  
 If the value from **Step 1** is greater than the value from **Step 2** we conclude that the model adequately recalls that fact. Formally, this is an application of the *Contrastive Knowledge Assessment* proposed in [[1][bib]]. 
 
-## Models Tested
+## Models Evaluated
 
 We evaluate 5 open-sourced foundation models of interest, like [LLaMa](https://arxiv.org/abs/2302.13971) [[2][bib]]. We perform this assessment using 303k fact-completions translated into 20 languages ([results](https://github.com/daniel-furman/Polyglot-or-Not#test-results)). 
 
@@ -35,7 +35,7 @@ We present 303k unique fact-completions in [`CalibraGPT/Fact-Completion`][hf_dat
 
 The factual associations were originally sourced from English-language Wikidata curated in the T-REx dataset [[3][bib]] as utilized in factual association research such as [[1][bib]] and [[4][bib]]. We used the Google Translate API alongside bespoke wrapper [code](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/src/dataset_caching_scripts/language_translation_helper.py) to programmatically generate the non-English cuts. 
 
-## Test Results 
+## Results 
 
  ### **Multilingual** test leaderboard.
  
