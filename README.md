@@ -37,7 +37,7 @@ The factual associations were originally sourced from English-language Wikidata 
 
 ## Test Results 
 
- ### **Multilingual** fact-completion performance per model.
+ ### **Multilingual** test leaderboard.
  
  | Model            | Accuracy      | Params | Authors      |  Org   |
  |------------------|:--------------:|:--------------:|--------------|--------------|
@@ -48,9 +48,13 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **52.51** +/- 0.91 | 3.7B | Xue et al., 2020 | Google |
  | Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
 
+  &nbsp; 
+
+ **Table 1**: Multilingual test leaderboard. Accuracy indicates the average test performance across 20 languages (% correct fact-completions). The uncertainty estimates represent 95% confidence intervals computed from 10000 bootstrap iterations.
+
  &nbsp; 
 
- ### **English-only** fact-completion performance per model.
+ ### **English-only** test leaderboard.
  
  | Model            | Accuracy      | Params | Authors    |  Org   | 
  |------------------|:--------------:|:--------------:|--------------|--------------|
@@ -74,16 +78,18 @@ The factual associations were originally sourced from English-language Wikidata 
  | [xlm-roberta-large](https://huggingface.co/xlm-roberta-large) | **61.55** +/- 0.59 | 355M | Conneau et al., 2019 | Meta |
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
  | Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; | 
+
+  &nbsp; 
  
- **Tables 1 & 2**: The bolded values indicate the percentage of fact completions adequately retrieved by the given model. The uncertainty estimates (+/-) are 95% confidence intervals computed from 10000 bootstrap iterations. At a glance, these results indicate many interesting back-of-the-hand insights. For example, training data size/quality impacts performance more than sheer parameter count, recent models tend to perform better than older ones, and Meta's LLaMa "beats out" other model families. 
+ **Table 2**: English-only test leaderboard. Accuracy indicates the test performance across for English-only data (% correct fact-completions). The uncertainty estimates represent 95% confidence intervals computed from 10000 bootstrap iterations. At a glance, these results suggest many interesting insights. For example, training dataset size impacts performance more than sheer parameter count, recent models tend to perform better than older ones, and Meta's LLaMa beats out other model families. 
  
  &nbsp;
 
-### **LLaMa-33b** fact-completion performance per language.
+### **LLaMa-33b** multilingual fact-completion performance.
 
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
-**Figure 1**: The percentage of fact completions adequately retrieved by LLaMa-33b (blue), which scores higher on languages written in Latin script than those written in Cyrillic script (Ukrainian, Bulgarian, Russian and Serbian). A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) confirms that LLaMa-33b's test performance is dependent on language script (*p* < 0.001).
+**Figure 1**: LLaMa-33b test performance across languages. The model scores higher on languages written in Latin script than those written in Cyrillic script (Ukrainian, Bulgarian, Russian and Serbian). A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) confirms that LLaMa-33b's test performance is dependent on language script (*p* < 0.001).
  
 ## Authors
 
