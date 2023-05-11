@@ -48,7 +48,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **52.51** +/- 0.91 | 3.7B | Xue et al., 2020 | Google |
  | Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
 
- **Table 1**: The test leaderboard for the multilingual experiment, with accuracy representing an average across 20 languages. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations.
+ **Table 1**: Test leaderboard for our multilingual experiment, with accuracy representing the average performance across the 20 above languages. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations.
 
  &nbsp; 
 
@@ -77,7 +77,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
  | Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; | 
  
- **Table 2**: The test leaderboard for English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations. At a glance, these results suggest that training dataset size impacts performance more than sheer parameter count, recent models tend to perform better than older ones, and Meta's LLaMa beats out other model families. 
+ **Table 2**: Test leaderboard for our monolingual experiment, with accuracy representing the performance on English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations.
  
  &nbsp;
 
