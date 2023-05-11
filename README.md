@@ -48,7 +48,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **52.51** +/- 0.91 | 3.7B | Xue et al., 2020 | Google |
  | Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
 
- **Table 1**: Test leaderboard for our multilingual experiment, with accuracy representing the average performance across the 20 above languages. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations.
+ **Table 1**: Test leaderboard for our multilingual experiment, with accuracy representing the average performance across 20 languages (see above). The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations.
 
  &nbsp; 
 
