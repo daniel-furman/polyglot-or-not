@@ -39,7 +39,7 @@ The factual associations were originally sourced from English-language Wikidata 
 
  ### **Multilingual** fact-completion performance per model.
  
- | Model            | 20 Languages<br />(avg % correct)      | Num Params | Authors      |  Org   |
+ | Model            | Accuracy      | Params | Authors      |  Org   |
  |------------------|:--------------:|:--------------:|--------------|--------------|
  | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **79.31** +/- 0.74 | 33B | Touvron et al., 2023 | Meta | 
  | [m-bert-base](https://huggingface.co/bert-base-multilingual-cased) |  **62.00** +/- 0.87 | 110M | Devlin et al., 2018 | Google |
@@ -49,11 +49,10 @@ The factual associations were originally sourced from English-language Wikidata 
  | Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
 
  &nbsp; 
- &nbsp;
 
  ### **English-only** fact-completion performance per model.
  
- | Model            | English-only<br />(% correct)      | Num Params | Authors    |  Org   | 
+ | Model            | Accuracy      | Params | Authors    |  Org   | 
  |------------------|:--------------:|:--------------:|--------------|--------------|
  | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **89.40** +/- 0.38 |  33B |  Touvron et al., 2023 | Meta |
  | [llama-13b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **86.66** +/- 0.42 |  13B |  Touvron et al., 2023 | Meta |
@@ -75,10 +74,8 @@ The factual associations were originally sourced from English-language Wikidata 
  | [xlm-roberta-large](https://huggingface.co/xlm-roberta-large) | **61.55** +/- 0.59 | 355M | Conneau et al., 2019 | Meta |
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
  | Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; | 
-
- &nbsp; 
  
- **Tables 1 & 2**: The bolded values indicate the percentage of fact completions adequately retrieved by the given model. The uncertainty estimates (+/-) are 95% confidence intervals computed from 10000 bootstrap iterations. At a glance, these results indicate many interesting back-of-the-hand insights. For example, training data seems to be tied closer to performance than model size, more recent models tend to perform better than older ones, and Meta "beats out" other researcher consortiums. 
+ **Tables 1 & 2**: The bolded values indicate the percentage of fact completions adequately retrieved by the given model. The uncertainty estimates (+/-) are 95% confidence intervals computed from 10000 bootstrap iterations. At a glance, these results indicate many interesting back-of-the-hand insights. For example, training data size/quality impacts performance more than sheer parameter count, recent models tend to perform better than older ones, and Meta's LLaMa "beats out" other model families. 
  
  &nbsp;
 
