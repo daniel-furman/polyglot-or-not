@@ -58,9 +58,9 @@ The factual associations were originally sourced from English-language Wikidata 
  | [llama-30b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **89.40** +/- 0.38 |  30B |  Touvron et al., 2023 | Meta |
  | [llama-13b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **86.66** +/- 0.42 |  13B |  Touvron et al., 2023 | Meta |
  | [llama-7b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **85.53** +/- 0.43 |  7B |  Touvron et al., 2023 | Meta |
- | [mpt-7b](https://huggingface.co/mosaicml/mpt-7b) | **83.39** +/- 0.46 | 7B | MosaicML NLP Team, 2023 | MosaicML |
+ | [mpt-7b](https://huggingface.co/mosaicml/mpt-7b) | **83.39** +/- 0.46 | 7B | MosaicML, 2023 | MosaicML |
  | [opt-30b](https://huggingface.co/facebook/opt-30b) | **82.09** +/- 0.47 | 30B |  Zhang et al., 2022 | Meta |
- | [redpajama-3b-v1](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-3B-v1) | **82.09** +/- 0.47 | 3B | Together NLP Team, 2023 | Together |
+ | [redpajama-3b](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-3B-v1) | **82.09** +/- 0.47 | 3B | Together, 2023 | Together |
  | [opt-13b](https://huggingface.co/facebook/opt-13b) | **81.94** +/- 0.46 | 13B |  Zhang et al., 2022 | Meta |
  | [gpt-neox-20b](https://huggingface.co/EleutherAI/gpt-neox-20b) | **81.50** +/- 0.47 | 20B |  Black et al., 2022 | EleutherAI |
  | [gpt-j-6b](https://huggingface.co/EleutherAI/gpt-j-6b) |  **81.14** +/- 0.47 |  6B | Wang et al., 2021 | EleutherAI |
@@ -70,7 +70,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [gpt2-xl](https://huggingface.co/gpt2-xl) | **73.76** +/- 0.54 | 1.5B |  Radford et al., 2018 | OpenAI |
  | [bert-base](https://huggingface.co/bert-base-uncased) | **72.60** +/- 0.54 | 110M | Devlin et al., 2018 | Google | 
  | [m-bert-base](https://huggingface.co/bert-base-multilingual-cased) | **71.80** +/- 0.55 | 110M | Devlin et al., 2018 | Google | 
- | [stablelm-base-7b](https://huggingface.co/stabilityai/stablelm-base-alpha-7b) | **68.85** +/- 0.55 | 7B | Stability NLP Team, 2023 | StabilityAI |
+ | [stablelm-base-7b](https://huggingface.co/stabilityai/stablelm-base-alpha-7b) | **68.85** +/- 0.55 | 7B | Stability, 2023 | StabilityAI |
  | [mt5-xxl](https://huggingface.co/google/mt5-xxl) | **61.58** +/- 0.59|  11B |  Xue et al., 2020 | Google |
  | [xlm-roberta-large](https://huggingface.co/xlm-roberta-large) | **61.55** +/- 0.59 | 355M | Conneau et al., 2019 | Meta |
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
