@@ -59,6 +59,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **89.40** +/- 0.38 |  33B |  Touvron et al., 2023 | Meta |
  | [llama-13b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **86.66** +/- 0.42 |  13B |  Touvron et al., 2023 | Meta |
  | [llama-7b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **85.53** +/- 0.43 |  7B |  Touvron et al., 2023 | Meta |
+  | [redpajama-7b](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-7B-v0.1) | **85.07** +/- 0.44 | 7B | Together, 2023 | Together |
  | [mpt-7b](https://huggingface.co/mosaicml/mpt-7b) | **83.39** +/- 0.46 | 7B | MosaicML, 2023 | MosaicML |
  | [opt-30b](https://huggingface.co/facebook/opt-30b) | **82.09** +/- 0.47 | 30B |  Zhang et al., 2022 | Meta |
  | [redpajama-3b](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-3B-v1) | **82.09** +/- 0.47 | 3B | Together, 2023 | Together |
