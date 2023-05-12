@@ -39,14 +39,14 @@ The factual associations were originally sourced from English-language Wikidata 
 
  ### **Multilingual** leaderboard
  
- | Model            | Accuracy (%)      | Params | Authors      |  Org   |
- |------------------|:--------------:|:--------------:|--------------|--------------|
- | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **79.31** +/- 0.74 | 33B | Touvron et al., 2023 | Meta | 
- | [m-bert-base](https://huggingface.co/bert-base-multilingual-cased) |  **62.00** +/- 0.87 | 110M | Devlin et al., 2018 | Google |
- | [bloom-7b1](https://huggingface.co/bigscience/bloom-7b1)  | **57.70** +/- 0.88 | 7B | Scao et al., 2022 | BigScience |
- | [xlm-roberta-large](https://huggingface.co/xlm-roberta-large) | **56.03** +/- 0.90 | 355M | Conneau et al., 2019 | Meta | 
- | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **52.51** +/- 0.91 | 3.7B | Xue et al., 2020 | Google |
- | Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
+ | Model            | Accuracy (%)      |
+ |------------------|:--------------:|
+ | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **79.31** (+/- 0.74) |
+ | [m-bert](https://huggingface.co/bert-base-multilingual-cased) |  **62.00** (+/- 0.87) |
+ | [bloom-7b1](https://huggingface.co/bigscience/bloom-7b1)  | **57.70** (+/- 0.88) |
+ | [xlm-roberta](https://huggingface.co/xlm-roberta-large) | **56.03** (+/- 0.90) |
+ | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **52.51** (+/- 0.91) |
+ | Random Baseline | 50 |
 
  **Table 1**: Multilingual test leaderboard. Accuracy represents a model's average performance across 20 languages. The uncertainty estimates represent 95% confidence intervals computed from 10000 bootstrap iterations.
 
