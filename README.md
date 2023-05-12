@@ -39,7 +39,7 @@ The factual associations were originally sourced from English-language Wikidata 
 
  ### **Multilingual** leaderboard
  
- | Model            | Accuracy      | Params | Authors      |  Org   |
+ | Model            | Accuracy (%)      | Params | Authors      |  Org   |
  |------------------|:--------------:|:--------------:|--------------|--------------|
  | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **79.31** +/- 0.74 | 33B | Touvron et al., 2023 | Meta | 
  | [m-bert-base](https://huggingface.co/bert-base-multilingual-cased) |  **62.00** +/- 0.87 | 110M | Devlin et al., 2018 | Google |
@@ -54,7 +54,7 @@ The factual associations were originally sourced from English-language Wikidata 
 
  ### **English-only** leaderboard
  
- | Model            | Accuracy      | Params | Authors    |  Org   | 
+ | Model            | Accuracy (%)      | Params | Authors    |  Org   | 
  |------------------|:--------------:|:--------------:|--------------|--------------|
  | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **89.40** +/- 0.38 |  33B |  Touvron et al., 2023 | Meta |
  | [llama-13b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **86.66** +/- 0.42 |  13B |  Touvron et al., 2023 | Meta |
