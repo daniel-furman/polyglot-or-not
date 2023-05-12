@@ -48,7 +48,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **52.51** +/- 0.91 | 3.7B | Xue et al., 2020 | Google |
  | Random Baseline | 50 | &nbsp;| &nbsp; | &nbsp; |
 
- **Table 1**: Test leaderboard for our multilingual experiment, with accuracy representing the average performance across 20 languages (see above). The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations.
+ **Table 1**: Multilingual test leaderboard. Accuracy represents a model's average performance across 20 languages. The uncertainty estimates represent 95% confidence intervals computed from 10000 bootstrap iterations.
 
  &nbsp; 
 
@@ -78,7 +78,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **59.96** +/- 0.59 | 3.7B |  Xue et al., 2020 | Google |
  | Random Baseline | 50   | &nbsp; | &nbsp; | &nbsp; | 
  
- **Table 2**: Test leaderboard for our monolingual experiment, with accuracy representing the performance on English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations.
+ **Table 2**: Test leaderboard for our monolingual experiment. Accuracy represents a model's performance on English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations.
  
  &nbsp;
 
@@ -86,7 +86,7 @@ The factual associations were originally sourced from English-language Wikidata 
 
 ![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
-**Figure 1**: LLaMa-33b scores higher on languages written in Latin script than those written in Cyrillic script (Ukrainian, Bulgarian, Russian and Serbian). A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) confirms that LLaMa-33b's test performance is dependent on language script (*p* < 0.001).
+**Figure 1**: LLaMa-33B test performance across languages. Accuracy represents LLaMa-33B's performance on the given language. The pairs indicate the number of fact/counterfact items included per language. LLaMa-33B scores higher on languages written in Latin script than those written in Cyrillic script (Ukrainian, Bulgarian, Russian and Serbian). A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) confirms that LLaMa-33B's test performance is dependent on language script (*p* < 0.001).
  
 ## Authors
 
