@@ -25,11 +25,11 @@ We evaluate 5 open-sourced foundation models of interest, like [LLaMa](https://a
 
 In addition to our multilingual assessment, we also scored 18 monolingual models (like [GPT-NeoX](https://arxiv.org/abs/2204.06745) and [OPT](https://arxiv.org/abs/2205.01068)) on the English subset of our data. 
 
-While we would have very much liked to test close-sourced models, such as OpenAI's GPT-4, these models don't provide vocabulary-wide token probabilities at inference and are thus incompatible with our test. 
+While we would have liked to test close-sourced models, such as OpenAI's GPT-4, such models don't provide vocabulary-wide token probabilities at inference and are thus incompatible with our test. 
 
 ## Data Release
 
-We present 303k unique fact-completions in [`CalibraGPT/Fact-Completion`][hf_data], which are in the form of {stem, fact, counterfact} triples. See the [dataset viewer](https://huggingface.co/datasets/CalibraGPT/Fact-Completion/viewer/CalibraGPT--Fact-Completion/English) for a closer look. 
+We present 303k unique fact-completions in [`Polyglot-or-Not/Fact-Completion`][hf_data], which are in the form of {stem, fact, counterfact} triples. See the [dataset viewer](https://huggingface.co/datasets/Polyglot-or-Not/Fact-Completion/viewer/Polyglot-or-Not--Fact-Completion/English) for a closer look. 
 
 * 20 Latin/Cyrillic script languages are included. The ISO 639-1 language codes are: `bg`, `ca`, `cs`, `da`, `de`, `en`, `es`, `fr`, `hr`, `hu`, `it`, `nl`, `pl`, `pt`, `ro`, `ru`, `sl`, `sr`, `sv`, and `uk`. 
 
@@ -126,7 +126,7 @@ Please cite this repository as follows if you use its data or code:
 
 
 [bib]: https://github.com/daniel-furman/Polyglot-or-Not#bibliography
-[hf_data]: https://huggingface.co/datasets/CalibraGPT/Fact-Completion
+[hf_data]: https://huggingface.co/datasets/Polyglot-or-Not/Fact-Completion
 [cka]: https://arxiv.org/abs/2210.03329
 [memit]: https://arxiv.org/abs/2210.07229
 [mmlu]: https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu

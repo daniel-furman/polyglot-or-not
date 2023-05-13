@@ -1266,9 +1266,9 @@ def main(args):
         # Logs into HF hub
         login(os.getenv("HF_TOKEN"))
         # push to hub
-        dataset.push_to_hub("CalibraGPT/Fact-Completion")
+        dataset.push_to_hub("Polyglot-or-Not/Fact-Completion")
         # test loading from hub
-        load_dataset("CalibraGPT/Fact-Completion")
+        load_dataset("Polyglot-or-Not/Fact-Completion")
 
     return None
 

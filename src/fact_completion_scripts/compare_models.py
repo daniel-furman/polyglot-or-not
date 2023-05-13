@@ -88,7 +88,8 @@ def get_model_and_tokenizer(model_name):
         return transformers.LLaMATokenizer.from_pretrained(
             tokenizer_path
         ), transformers.LLaMAForCausalLM.from_pretrained(
-            model_name, device_map="auto"  #, load_in_8bit=True, torch_dtype=torch.float16
+            model_name,
+            device_map="auto",  # , load_in_8bit=True, torch_dtype=torch.float16
         )
 
 
