@@ -82,11 +82,11 @@ The factual associations were originally sourced from English-language Wikidata 
  
  &nbsp;
 
-### **LLaMa-33B** performance across languages
+### **LLaMA-33B** performance across languages
 
-![LLaMa test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
+![LLaMA test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
-**Figure 1**: LLaMa-33B test performance across languages. The model scores higher on languages written in Latin script than those written in Cyrillic script (Ukrainian, Bulgarian, Russian and Serbian). A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) confirms that the model's test performance is dependent on language script (*p* < 0.001).
+**Figure 1**: LLaMA-33B test performance across languages. The model scores higher on languages written in Latin script than those written in Cyrillic script (Ukrainian, Bulgarian, Russian and Serbian). A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) confirms that the model's test performance is dependent on language script (*p* < 0.001).
  
 ## Authors
 
@@ -118,7 +118,7 @@ Please cite this repository as follows if you use its data or code:
 
 [2]: LLaMA: Open and Efficient Foundation Language Models. Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, Guillaume Lample. https://arxiv.org/abs/2302.13971v1 (2023).
 
-* LLaMa weights were accessed with the approval of Meta AI and used in accordance with the License (see [link](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform) for more details).  
+* LLaMA weights were accessed with the approval of Meta AI and used in accordance with the License (see [link](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform) for more details).  
 
 [3] T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples. ElSahar, Hady, Pavlos Vougiouklis, Arslen Remaci, Christophe Gravier, Jonathon S. Hare, Frédérique Laforest and Elena Paslaru Bontas Simperl. International Conference on Language Resources and Evaluation. [Link][trex] (2018).
 
