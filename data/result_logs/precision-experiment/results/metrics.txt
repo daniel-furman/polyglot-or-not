@@ -1,0 +1,22 @@
+Running post-processing for ../../data/result_logs/misc-2...
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-7b
+	The language is english
+	There are 26254 stem/fact pairs in the log
+	The model got 86.002% of facts correct
+	The 95% uncertainty estimate is +/- 0.421%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-7b
+	The language is english
+	There are 26254 stem/fact pairs in the log
+	The model got 86.036% of facts correct
+	The 95% uncertainty estimate is +/- 0.413%
+
+
+	The model name is /content/drive/MyDrive/Colab Files/llama/LLaMA/int8/llama-7b
+	The language is english
+	There are 26254 stem/fact pairs in the log
+	The model got 85.534% of facts correct
+	The 95% uncertainty estimate is +/- 0.425%
+
