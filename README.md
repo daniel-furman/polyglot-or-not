@@ -48,7 +48,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **52.51** (+/- 0.91) |
  | Random Baseline | 50 |
 
- **Table 1**: Multilingual test leaderboard. Accuracy represents a model’s average performance across 20 languages. The uncertainty estimates represent the average 95% confidence intervals computed from 10000 bootstrap iterations per language. The results show that LLMs struggle on fact retrieval in a multilingual setting, with LLaMA-33B dropping over 10% points on average across the 19 non-English languages relative to its performance on English-only data.
+ **Table 1**: Multilingual test leaderboard. Accuracy represents a model’s average performance across 20 languages. The uncertainty estimates represent the 95% confidence intervals computed from 10000 bootstrap iterations. The results show that LLMs struggle to recall facts in a multilingual setting. For example, LLaMA-33B’s performance drops 11% for non-English languages on average.
 
  &nbsp; 
 
@@ -78,7 +78,8 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **59.96** (+/- 0.59) |
  | Random Baseline | 50   | 
  
- **Table 2**: Test leaderboard for our monolingual experiment. Accuracy represents a model’s performance on English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations. The results suggest that LLaMA is the most performant model family, which is in part tied to the size and quality of its training set.
+ **Table 2**: Test leaderboard for our monolingual experiment. Accuracy represents a model’s performance on English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations. As was the case in Table 1, LLaMAs of various size lead the pack.
+
  
  &nbsp;
 
