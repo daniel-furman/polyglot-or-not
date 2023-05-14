@@ -48,7 +48,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **52.51** (+/- 0.91) |
  | Random Baseline | 50 |
 
- **Table 1**: Multilingual test leaderboard. Accuracy represents a model's average performance across 20 languages. The uncertainty estimates represent 95% confidence intervals computed from 10000 bootstrap iterations.
+ **Table 1**: Multilingual test leaderboard. Accuracy represents a model’s average performance across 20 languages. The uncertainty estimates represent 95% confidence intervals computed from 10000 bootstrap iterations. The results show that LLMs struggle on fact retrieval in a multilingual setting, with LLaMA-33B dropping over 10% points on average across the 19 non-English languages relative to its performance on English-only data.
 
  &nbsp; 
 
@@ -78,7 +78,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **59.96** (+/- 0.59) |
  | Random Baseline | 50   | 
  
- **Table 2**: Test leaderboard for our monolingual experiment. Accuracy represents a model's performance on English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations.
+ **Table 2**: Test leaderboard for our monolingual experiment. Accuracy represents a model’s performance on English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations. The results suggest that LLaMA is the most performant model family, which is in part tied to the size and quality of its training set.
  
  &nbsp;
 
@@ -86,8 +86,8 @@ The factual associations were originally sourced from English-language Wikidata 
 
 ![LLaMA test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
-**Figure 1**: LLaMA-33B test performance across languages. The model scores higher on languages written in Latin script than those written in Cyrillic script (Ukrainian, Bulgarian, Russian and Serbian). A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) confirms that the model's test performance is dependent on language script (*p* < 0.001).
- 
+**Figure 1**: LLaMA-33B's test performance across languages. The model scores higher on languages written in Latin script than those written in Cyrillic script (Ukrainian, Bulgarian, Russian and Serbian). A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) confirms that the model's test performance is dependent on language script (*χ2* = 3570.576, *p* < 0.001).
+
 ## Authors
 
 * Daniel Furman <daniel_furman@berkeley.edu>
