@@ -48,7 +48,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **52.51** (+/- 0.91) |
  | Random Baseline | 50 |
 
- **Table 1**: Multilingual test leaderboard. Accuracy represents a model’s average performance across 20 languages. The uncertainty estimates are averaged 95% confidence intervals computed from 10000 bootstrap iterations per language. The results show that LLMs struggle to recall facts in a multilingual setting. For example, LLaMA-33B’s performance drops roughly 11% from English to non-English languages on average.
+ **Table 1**: Multilingual test leaderboard. Accuracy represents a model’s average performance across 20 languages. The uncertainty estimates are averaged 95% confidence intervals computed from 10000 bootstrap iterations per language. The results show that LLMs struggle to recall facts in a multilingual setting overall. For example, LLaMA-33B’s performance drops roughly 11% from English to non-English languages on average.
 
  &nbsp; 
 
