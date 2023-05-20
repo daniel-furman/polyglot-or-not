@@ -39,7 +39,7 @@ The factual associations were originally sourced from English-language Wikidata 
 
  ### **Multilingual** leaderboard
  
- | Model            | Accuracy (%)      |
+ | model            | accuracy (%)      |
  |------------------|:--------------:|
  | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **79.31** (+/- 0.74) |
  | [m-bert](https://huggingface.co/bert-base-multilingual-cased) |  **62.00** (+/- 0.87) |
@@ -48,13 +48,13 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **52.51** (+/- 0.91) |
  | Random Baseline | 50 |
 
- **Table 1**: Multilingual test leaderboard. Accuracy represents a model’s average performance across 20 languages. The uncertainty estimates are averaged 95% confidence intervals computed from 10000 bootstrap iterations per language. The results show that LLMs struggle to recall facts in a multilingual setting overall. For example, LLaMA-33B’s performance drops roughly 11% from English to non-English languages on average.
+ **Table 1**: Multilingual test leaderboard. Accuracy represents an LLM's average performance across the 20 languages included in the test (see above). The uncertainty estimates are averaged 95% confidence intervals computed from 10000 bootstrap iterations per language. The results show that LLMs struggle to recall facts in a multilingual setting. For example, on average, LLaMA-33B’s performance decreased by approximately 11% from English to non-English languages.
 
  &nbsp; 
 
  ### **English-only** leaderboard
  
- | Model            | Accuracy (%)      |
+ | model            | accuracy (%)      |
  |------------------|:--------------:|
  | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **89.40** (+/- 0.38) |
  | [llama-13b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **86.66** (+/- 0.42) | 
@@ -78,7 +78,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **59.96** (+/- 0.59) |
  | Random Baseline | 50   | 
  
- **Table 2**: Test leaderboard for our monolingual experiment. Accuracy represents a model’s performance on English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations. As was the case in Table 1, LLaMAs of various size lead the pack.
+ **Table 2**: Monolingual test leaderboard. Accuracy represents performance on English-only data. The uncertainty estimates are 95\% confidence intervals computed from 10000 bootstrap iterations. As was the case in Table 1, LLaMAs of various size lead the pack.
  
  &nbsp;
 
