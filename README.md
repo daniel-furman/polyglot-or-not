@@ -78,7 +78,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **59.96** (+/- 0.59) |
  | Random Baseline | 50   | 
  
- **Table 2**: Monolingual test leaderboard. Accuracy represents performance on English-only data. The uncertainty estimates are 95\% confidence intervals computed from 10000 bootstrap iterations. As was the case in Table 1, LLaMAs of various size lead the pack.
+ **Table 2**: Monolingual test leaderboard. Accuracy represents performance on English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations. Consistent with the trends in Table [1](https://github.com/daniel-furman/Polyglot-or-Not#multilingual-leaderboard), LLaMAs of varying sizes emerge as the front-runners.
  
  &nbsp;
 
@@ -86,7 +86,7 @@ The factual associations were originally sourced from English-language Wikidata 
 
 ![LLaMA test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
-**Figure 1**: LLaMA-33B's test performance across languages. The model scores higher on languages written in Latin script than those written in Cyrillic script (Ukrainian, Bulgarian, Russian and Serbian). A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) confirms that the model's test performance is dependent on language script (*χ2* = 3570.576, *p* < 0.001).
+**Figure 1**: LLaMA-33B's test performance across languages. Accuracy denotes the model's performance assessed individually for each language. The LLaMA-33B model demonstrates higher proficiency with languages utilizing the Latin script as compared to those using the Cyrillic script (Ukrainian, Bulgarian, Russian, and Serbian). A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) substantiates a significant dependency of the model's test performance on the language script (*χ2* = 3570.576, *p* < 0.001).
 
 ## Authors
 
