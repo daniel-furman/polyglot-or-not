@@ -39,46 +39,46 @@ The factual associations were originally sourced from English-language Wikidata 
 
  ### **Multilingual** leaderboard
  
- | model            | accuracy (%)      |
- |------------------|:--------------:|
- | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **79.31** (+/- 0.74) |
- | [m-bert](https://huggingface.co/bert-base-multilingual-cased) |  **62.00** (+/- 0.87) |
- | [bloom-7b1](https://huggingface.co/bigscience/bloom-7b1)  | **57.70** (+/- 0.88) |
- | [xlm-roberta](https://huggingface.co/xlm-roberta-large) | **56.03** (+/- 0.90) |
- | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **52.51** (+/- 0.91) |
- | Random Baseline | 50 |
+ | model            | accuracy (%)   | params | *n* tokens
+ |------------------|:--------------:|:--------------:|:--------------:|
+ | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **79.31** (+/- 0.74) | 32.5B | 1.4T |
+ | [m-bert](https://huggingface.co/bert-base-multilingual-cased) |  **62.00** (+/- 0.87) | 110M | - |
+ | [bloom-7b1](https://huggingface.co/bigscience/bloom-7b1)  | **57.70** (+/- 0.88) | 7.1B | 341B |
+ | [xlm-roberta](https://huggingface.co/xlm-roberta-large) | **56.03** (+/- 0.90) | 355M | 295B |
+ | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **52.51** (+/- 0.91) | 3.7B | - |
+ | Random Baseline | 50 | - | - |
 
- **Table 1**: Multilingual test leaderboard. Here, accuracy refers to the average performance of each model across 20 distinct languages. The uncertainty estimates represent averaged 95% confidence intervals computed from 10000 bootstrap iterations per language. The results reveal that models struggle to recall facts in a multilingual setting, as compared to their English-only performance (Table [2](https://github.com/daniel-furman/Polyglot-or-Not#english-only-leaderboard)). For instance, on average, LLaMA-33B's accuracy decreased by approximately 11% from English to non-English languages.
+ **Table 1**: Multilingual test leaderboard. Here, **accuracy** refers to the average performance of each model across 20 distinct languages. The uncertainty estimates represent averaged 95% confidence intervals computed from 10000 bootstrap iterations per language. **Params** and ***n* tokens** record each model’s number of parameters and number of dataset tokens, respectively (when such data is available). These results reveal that models struggle to recall facts in a multilingual setting, as compared to their English-only performance (Table [2](https://github.com/daniel-furman/Polyglot-or-Not#english-only-leaderboard)). For instance, on average, LLaMA-33B's accuracy decreased by approximately 11% from English to non-English languages.
 
  &nbsp; 
 
  ### **English-only** leaderboard
  
- | model            | accuracy (%)      |
- |------------------|:--------------:|
- | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **89.40** (+/- 0.38) |
- | [llama-13b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **86.66** (+/- 0.42) | 
- | [llama-7b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **85.53** (+/- 0.43) |
- | [redpajama-7b](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-7B-v0.1) | **85.07** (+/- 0.44) |
- | [mpt-7b](https://huggingface.co/mosaicml/mpt-7b) | **83.39** (+/- 0.46) |
- | [opt-30b](https://huggingface.co/facebook/opt-30b) | **82.09** (+/- 0.47) | 
- | [redpajama-3b](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-3B-v1) | **82.09** (+/- 0.47) | 
- | [opt-13b](https://huggingface.co/facebook/opt-13b) | **81.94** (+/- 0.46) | 
- | [gpt-neox-20b](https://huggingface.co/EleutherAI/gpt-neox-20b) | **81.50** (+/- 0.47) |
- | [gpt-j-6b](https://huggingface.co/EleutherAI/gpt-j-6b) |  **81.14** (+/- 0.47) |
- | [pythia-12b](https://huggingface.co/EleutherAI/pythia-12b) | **80.53** (+/- 0.48) |
- | [t5-v1-xxl](https://huggingface.co/google/t5-v1_1-xxl) | **76.55** (+/- 0.52) |
- | [bloom-7b1](https://huggingface.co/bigscience/bloom-7b1) | **76.16** (+/- 0.51) | 
- | [gpt2-xl](https://huggingface.co/gpt2-xl) | **73.76** (+/- 0.54) | 
- | [bert](https://huggingface.co/bert-base-uncased) | **72.60** (+/- 0.54) | 
- | [m-bert](https://huggingface.co/bert-base-multilingual-cased) | **71.80** (+/- 0.55) | 
- | [stablelm-7b](https://huggingface.co/stabilityai/stablelm-base-alpha-7b) | **68.85** (+/- 0.55) | 
- | [mt5-xxl](https://huggingface.co/google/mt5-xxl) | **61.58** (+/- 0.59) | 
- | [xlm-roberta](https://huggingface.co/xlm-roberta-large) | **61.55** (+/- 0.59) |
- | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **59.96** (+/- 0.59) |
- | Random Baseline | 50   | 
+ | model            | accuracy (%)   | params | *n* tokens
+ |------------------|:--------------:|:--------------:|:--------------:|
+ | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **89.40** (+/- 0.38) | 32.5B | 1.4T |
+ | [llama-13b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **86.66** (+/- 0.42) | 12.5B | 1T |
+ | [llama-7b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **85.53** (+/- 0.43) | 6.7B | 1T |
+ | [redpajama-7b](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-7B-v0.1) | **85.07** (+/- 0.44) | 7B | 800B |
+ | [mpt-7b](https://huggingface.co/mosaicml/mpt-7b) | **83.39** (+/- 0.46) | 7B | 1T |
+ | [opt-30b](https://huggingface.co/facebook/opt-30b) | **82.09** (+/- 0.47) | 30B | 180B |
+ | [redpajama-3b](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-3B-v1) | **82.09** (+/- 0.47) | 3B | 800B |
+ | [opt-13b](https://huggingface.co/facebook/opt-13b) | **81.94** (+/- 0.46) | 13B | 180B |
+ | [gpt-neox-20b](https://huggingface.co/EleutherAI/gpt-neox-20b) | **81.50** (+/- 0.47) | 20B | 420B |
+ | [gpt-j-6b](https://huggingface.co/EleutherAI/gpt-j-6b) |  **81.14** (+/- 0.47) | 6B | 420B |
+ | [pythia-12b](https://huggingface.co/EleutherAI/pythia-12b) | **80.53** (+/- 0.48) | 12B | 420B |
+ | [t5-v1-xxl](https://huggingface.co/google/t5-v1_1-xxl) | **76.55** (+/- 0.52) | 13B | 34B |
+ | [bloom-7b1](https://huggingface.co/bigscience/bloom-7b1) | **76.16** (+/- 0.51) | 7.1B | 341B |
+ | [gpt2-xl](https://huggingface.co/gpt2-xl) | **73.76** (+/- 0.54) | 1.5B | - |
+ | [bert](https://huggingface.co/bert-base-uncased) | **72.60** (+/- 0.54) | 110M | - |
+ | [m-bert](https://huggingface.co/bert-base-multilingual-cased) | **71.80** (+/- 0.55) | 110M | - |
+ | [stablelm-7b](https://huggingface.co/stabilityai/stablelm-base-alpha-7b) | **68.85** (+/- 0.55) | 7B | 1.5T |
+ | [mt5-xxl](https://huggingface.co/google/mt5-xxl) | **61.58** (+/- 0.59) | 13B | - |
+ | [xlm-roberta](https://huggingface.co/xlm-roberta-large) | **61.55** (+/- 0.59) | 355M | 295B |
+ | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **59.96** (+/- 0.59) | 3.7B | - |
+ | Random Baseline | 50   | - | - |
  
- **Table 2**: Monolingual test leaderboard. Accuracy represents performance on English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations. Consistent with the trends in Table [1](https://github.com/daniel-furman/Polyglot-or-Not#multilingual-leaderboard), LLaMAs of varying sizes emerge as the front-runners.
+ **Table 2**: Monolingual test leaderboard. **Accuracy** represents performance on English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations. **Params** and ***n* tokens** record each model’s number of parameters and number of dataset tokens, respectively (when such data is available. Consistent with the trends in Table [1](https://github.com/daniel-furman/Polyglot-or-Not#multilingual-leaderboard), LLaMAs of varying sizes emerge as the front-runners.
  
  &nbsp;
 
