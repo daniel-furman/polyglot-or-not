@@ -85,14 +85,18 @@ def get_model_and_tokenizer(model_name):
         # llama tokenizer path is expected to be one folder back from the input model
         # weights in a folder called "tokenizer"
         tokenizer_path = "/".join(model_name.split("/")[0:-1]) + "/tokenizer/"
-        return transformers.LLaMATokenizer.from_pretrained(
-            tokenizer_path
-        ), transformers.LLaMAForCausalLM.from_pretrained(
+
+        model = transformers.LLaMAForCausalLM.from_pretrained(
             model_name,
             device_map="auto",
             load_in_8bit=True,
             torch_dtype=torch.float16,
         )
+        print('DEVICE MAP: ', model.hf_device_map)
+
+        return transformers.LLaMATokenizer.from_pretrained(
+            tokenizer_path
+        ), model 
 
 
 # next, write a helper to pull a probe function for the given LM
