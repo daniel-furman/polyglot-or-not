@@ -9,13 +9,12 @@ import numpy as np
 import tqdm
 import torch
 
+import transformers
 from transformers import (
     AutoTokenizer,
     AutoModelForCausalLM,
     AutoModelForMaskedLM,
     AutoModelForSeq2SeqLM,
-    LlamaTokenizer,
-    LlamaForCausalLM,
 )
 
 from probe_helpers import (
@@ -87,16 +86,18 @@ def get_model_and_tokenizer(model_name):
         # weights in a folder called "tokenizer"
         tokenizer_path = "/".join(model_name.split("/")[0:-1]) + "/tokenizer/"
 
-        model = LlamaForCausalLM.from_pretrained(
+        model = transformers.LLaMAForCausalLM.from_pretrained(
             model_name,
             device_map="auto",
             load_in_8bit=True,
             torch_dtype=torch.float16,
         )
         print(model)
-        print("DEVICE MAP: ", model.hf_device_map)
+        print('DEVICE MAP: ', model.hf_device_map)
 
-        return LlamaTokenizer.from_pretrained(tokenizer_path), model
+        return transformers.LLaMATokenizer.from_pretrained(
+            tokenizer_path
+        ), model 
 
 
 # next, write a helper to pull a probe function for the given LM
