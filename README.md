@@ -4,7 +4,7 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
 
-This is the repository for [Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models](https://bit.ly/ischool-berkeley-capstone). It contains several research artifacts, including:
+This is the repository for the following paper: [Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models](https://arxiv.org/abs/2305.13675). It contains several research artifacts, including:
 
 1. The [code][cka_run_main] for running the fact-completion test
 2. Our [dataset][hf_data] of factual associations translated into 20 languages
@@ -63,7 +63,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mpt-7b](https://huggingface.co/mosaicml/mpt-7b) | **83.39** (+/- 0.46) | 7B | 1T |
  | [opt-30b](https://huggingface.co/facebook/opt-30b) | **82.09** (+/- 0.47) | 30B | 180B |
  | [redpajama-3b](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-3B-v1) | **82.09** (+/- 0.47) | 3B | 800B |
- | [opt-13b](https://huggingface.co/facebook/opt-13b) | **81.94** (+/- 0.46) | 13B | 180B |
+ | [opt-13b](https://huggingface.co/facebook/opt-13b) | **81.94** (+/- 0.46) | 13B | 30B |
  | [gpt-neox-20b](https://huggingface.co/EleutherAI/gpt-neox-20b) | **81.50** (+/- 0.47) | 20B | 420B |
  | [gpt-j-6b](https://huggingface.co/EleutherAI/gpt-j-6b) |  **81.14** (+/- 0.47) | 6B | 420B |
  | [pythia-12b](https://huggingface.co/EleutherAI/pythia-12b) | **80.53** (+/- 0.48) | 12B | 420B |
