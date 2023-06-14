@@ -13,11 +13,16 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 
 export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
 
+cd ..
+git clone https://github.com/daniel-furman/Polyglot-or-Not.git
+cd Polyglot-or-Not
+pip install -r requirements.txt
+cd ..
+pip install -U scipy numpy
+
 git clone https://github.com/timdettmers/bitsandbytes.git
 cd bitsandbytes
 CUDA_VERSION=118 make cuda11x
 python setup.py install
-
-pip install scipy
 python -m bitsandbytes
-# should be successfull build
+# should be successfull built
