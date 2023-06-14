@@ -83,9 +83,6 @@ def get_model_and_tokenizer(model_name):
         )
 
     elif "llama" in model_name.lower():
-        # llama tokenizer path is expected to be one folder back from the input model
-        # weights in a folder called "tokenizer"
-        tokenizer_path = "/".join(model_name.split("/")[0:-1]) + "/tokenizer/"
 
         bnb_config = transformers.BitsAndBytesConfig(
             load_in_4bit=True,
@@ -93,8 +90,9 @@ def get_model_and_tokenizer(model_name):
             bnb_4bit_quant_type="nf4",
             bnb_4bit_compute_dtype=torch.bfloat16,
         )
-        tokenizer = transformers.AutoTokenizer.from_pretrained(tokenizer_path)
-        tokenizer.add_special_tokens({'pad_token': '<|padding|>'})
+        tokenizer = transformers.AutoTokenizer.from_pretrained(model_name)
+        tokenizer.pad_token = tokenizer.eos_token
+
         model = transformers.LlamaForCausalLM.from_pretrained(
             model_name,
             quantization_config=bnb_config,

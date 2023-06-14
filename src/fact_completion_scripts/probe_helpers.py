@@ -380,10 +380,11 @@ def probe_llama(model, tokenizer, target_id, context, verbose=False):
         probs = softmax(logits, dim=-1)
         probs = probs.detach().cpu().numpy()
         if tokenizer.decode([np.argmax(probs)]) not in [
-            "<|endoftext|>",
-            "<|padding|>",
+            "<s>",
+            "</s>",
             "",
             " ",
+            "<unk>",
         ]:
             save_itr = i
             break
