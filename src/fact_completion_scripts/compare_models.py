@@ -93,7 +93,7 @@ def get_model_and_tokenizer(model_name):
             bnb_4bit_quant_type="nf4",
             bnb_4bit_compute_dtype=torch.bfloat16,
         )
-        tokenizer = transformers.LlamaTokenizer.from_pretrained(tokenizer_path)
+        tokenizer = transformers.AutoTokenizer.from_pretrained(tokenizer_path)
         tokenizer.add_special_tokens({'pad_token': '<|padding|>'})
         model = transformers.LlamaForCausalLM.from_pretrained(
             model_name,
