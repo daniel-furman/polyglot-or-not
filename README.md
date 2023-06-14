@@ -103,12 +103,11 @@ The factual associations were originally sourced from English-language Wikidata 
 Please cite this repository as follows if you use its data or code:
 
 ```
-@misc{polyglot_or_not,
-  author = {Daniel Furman and Tim Schott and Shreshta Bhat},
-  title = {Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models},
-  year = {2023}
-  publisher = {GitHub},
-  howpublished = {\url{https://github.com/daniel-furman/Polyglot-or-Not}},
+@article{Furman_Polyglot_or_Not_2023,
+author = {Furman, Daniel and Schott, Timothy and Bhat, Shreshta},
+journal = {arXiv preprint arXiv:2305.13675},
+title = {{Polyglot or Not? Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models}},
+year = {2023}
 }
 ```
 
