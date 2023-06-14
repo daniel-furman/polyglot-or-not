@@ -13,7 +13,6 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 
 export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
 
-cd ..
 git clone https://github.com/daniel-furman/Polyglot-or-Not.git
 cd Polyglot-or-Not
 pip install -r requirements.txt
@@ -26,3 +25,12 @@ CUDA_VERSION=118 make cuda11x
 python setup.py install
 python -m bitsandbytes
 # should be successfull built
+
+# llama
+#cd ..
+#gcloud auth login
+#sudo apt-get install gcc python3-dev python3-setuptools
+#sudo pip3 uninstall crcmod
+#sudo pip3 install --no-cache-dir -U crcmod
+#mkdir llama
+#gsutil -m cp -r gs://calibragpt/llama/hf llama
