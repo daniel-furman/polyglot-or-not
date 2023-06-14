@@ -83,7 +83,6 @@ def get_model_and_tokenizer(model_name):
         )
 
     elif "llama" in model_name.lower():
-
         bnb_config = transformers.BitsAndBytesConfig(
             load_in_4bit=True,
             bnb_4bit_use_double_quant=True,

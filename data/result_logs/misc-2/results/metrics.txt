@@ -1,0 +1,8 @@
+Running post-processing for ../../data/result_logs/misc-2...
+
+	The model name is distilgpt2
+	The language is english
+	There are 26254 stem/fact pairs in the log
+	The model got 64.226% of facts correct
+	The 95% uncertainty estimate is +/- 0.579%
+
