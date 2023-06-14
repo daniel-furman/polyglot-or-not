@@ -129,6 +129,7 @@ def get_probe_function(prefix):
         probe_stablelm,
         probe_mpt,
         probe_redpajama,
+        probe_falcon,
     ]
     for func in probe_functions:
         if prefix.lower() in func.__name__:
