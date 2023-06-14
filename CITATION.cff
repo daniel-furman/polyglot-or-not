@@ -3,10 +3,10 @@ message: "If you use this software, please cite it as below."
 preferred-citation:
   type: article
   authors:
-  - family-names: "Furman"
-    given-names: "Daniel"
   - family-names: "Schott"
     given-names: "Timothy"
+  - family-names: "Furman"
+    given-names: "Daniel"
   - family-names: "Bhat"
     given-names: "Shreshta"
   journal: "arXiv preprint arXiv:2305.13675"
