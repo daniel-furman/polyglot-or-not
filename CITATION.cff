@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 preferred-citation:
-  type: general
+  type: article
   authors:
   - family-names: "Furman"
     given-names: "Daniel"
@@ -9,5 +9,6 @@ preferred-citation:
     given-names: "Timothy"
   - family-names: "Bhat"
     given-names: "Shreshta"
-  title: "Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models"
+  journal: "arXiv preprint arXiv:2305.13675"
+  title: "Polyglot or Not? Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models"
   year: 2023
