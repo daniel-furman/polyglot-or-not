@@ -93,14 +93,15 @@ def get_model_and_tokenizer(model_name):
             bnb_4bit_quant_type="nf4",
             bnb_4bit_compute_dtype=torch.bfloat16,
         )
+        tokenizer = transformers.LlamaTokenizer.from_pretrained(tokenizer_path)
+        tokenizer.pad_token = tokenizer.eos_token
 
-        return transformers.LlamaTokenizer.from_pretrained(
-            tokenizer_path
-        ), transformers.LlamaForCausalLM.from_pretrained(
+        model = transformers.LlamaForCausalLM.from_pretrained(
             model_name,
             quantization_config=bnb_config,
             device_map="auto",
         )
+        return tokenizer, model
 
     elif "falcon" in model_name.lower():
         bnb_config = transformers.BitsAndBytesConfig(

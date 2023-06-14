@@ -133,13 +133,13 @@ def probe_falcon(model, tokenizer, target_id, context, verbose=False):
         output_scores=True,
         return_dict=True,
         return_dict_in_generate=True,
-        max_new_tokens=1,
+        max_new_tokens=3,
     )
 
     # find the left-most non-sepecial token, save itr of this token to grab
     # correct logit scores array
     sequences = outputs["sequences"][0].tolist()
-    for i in range(1):
+    for i in range(3):
         logits = outputs["scores"][i]
         probs = softmax(logits, dim=-1)
         probs = probs.detach().cpu().numpy()
@@ -369,13 +369,13 @@ def probe_llama(model, tokenizer, target_id, context, verbose=False):
         output_scores=True,
         return_dict=True,
         return_dict_in_generate=True,
-        max_new_tokens=1,
+        max_new_tokens=3,
     )
 
     # find the left-most non-sepecial token, save itr of this token to grab
     # correct logit scores array
     sequences = outputs["sequences"][0].tolist()
-    for i in range(1):
+    for i in range(3):
         logits = outputs["scores"][i]
         probs = softmax(logits, dim=-1)
         probs = probs.detach().cpu().numpy()
