@@ -94,9 +94,9 @@ def get_model_and_tokenizer(model_name):
             bnb_4bit_compute_dtype=torch.bfloat16,
         )
 
-        return transformers.LLaMATokenizer.from_pretrained(
+        return transformers.LlamaTokenizer.from_pretrained(
             tokenizer_path
-        ), transformers.LLaMAForCausalLM.from_pretrained(
+        ), transformers.LlamaForCausalLM.from_pretrained(
             model_name,
             quantization_config=bnb_config,
             device_map="auto",
