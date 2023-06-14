@@ -25,6 +25,7 @@ from probe_helpers import (
     probe_stablelm,
     probe_mpt,
     probe_redpajama,
+    probe_falcon,
 )
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -86,13 +87,35 @@ def get_model_and_tokenizer(model_name):
         # weights in a folder called "tokenizer"
         tokenizer_path = "/".join(model_name.split("/")[0:-1]) + "/tokenizer/"
 
-        return transformers.LLaMATokenizer.from_pretrained(
+        bnb_config = transformers.BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_use_double_quant=True,
+            bnb_4bit_quant_type="nf4",
+            bnb_4bit_compute_dtype=torch.bfloat16,
+        )
+
+        return transformers.AutoTokenizer.from_pretrained(
             tokenizer_path
-        ), transformers.LLaMAForCausalLM.from_pretrained(
+        ), transformers.AutoModelForCausalLM.from_pretrained(
             model_name,
+            quantization_config=bnb_config,
             device_map="auto",
-            load_in_8bit=True,
-            torch_dtype=torch.float16,
+        )
+
+    elif "falcon" in model_name.lower():
+        bnb_config = transformers.BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_use_double_quant=True,
+            bnb_4bit_quant_type="nf4",
+            bnb_4bit_compute_dtype=torch.bfloat16,
+        )
+
+        return transformers.AutoTokenizer.from_pretrained(
+            model_name
+        ), transformers.AutoModelForCausalLM.from_pretrained(
+            model_name,
+            quantization_config=bnb_config,
+            device_map="auto",
         )
 
 
@@ -197,6 +220,10 @@ def compare_models(model_name_list, input_dataset, verbose):
             prefix = "redpajama"
             probe_func = get_probe_function(prefix)
 
+        elif "falcon" in model_name.lower():
+            prefix = "falcon"
+            probe_func = get_probe_function(prefix)
+
         # iterate over context/entity pairings
         # input_dataset is a datasets dataset
         # context is a plain string (since our context's will be unique)
@@ -264,6 +291,11 @@ def compare_models(model_name_list, input_dataset, verbose):
                     target_id = tokenizer.encode(" " + entity, return_tensors="pt").to(
                         device
                     )[0][0]
+
+                elif prefix == "falcon":
+                    target_id = tokenizer.encode(
+                        " " + entity, return_token_type_ids=False, return_tensors="pt"
+                    ).to(device)[0][0]
 
                 elif prefix == "opt":
                     target_id = tokenizer.encode(" " + entity, return_tensors="pt").to(
