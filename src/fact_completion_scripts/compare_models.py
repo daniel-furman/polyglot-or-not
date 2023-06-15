@@ -83,36 +83,24 @@ def get_model_and_tokenizer(model_name):
         )
 
     elif "llama" in model_name.lower():
-        bnb_config = transformers.BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_use_double_quant=True,
-            bnb_4bit_quant_type="nf4",
-            bnb_4bit_compute_dtype=torch.bfloat16,
-        )
         tokenizer = transformers.AutoTokenizer.from_pretrained(model_name)
         tokenizer.pad_token = tokenizer.eos_token
 
         model = transformers.LlamaForCausalLM.from_pretrained(
-            model_name,
-            quantization_config=bnb_config,
-            device_map="auto",
+            model_name, load_in_8bit=True, device_map="auto", torch_dtype=torch.float16
         )
         return tokenizer, model
 
     elif "falcon" in model_name.lower():
-        bnb_config = transformers.BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_use_double_quant=True,
-            bnb_4bit_quant_type="nf4",
-            bnb_4bit_compute_dtype=torch.bfloat16,
-        )
         tokenizer = transformers.AutoTokenizer.from_pretrained(model_name)
         tokenizer.pad_token = tokenizer.eos_token
 
         model = transformers.AutoModelForCausalLM.from_pretrained(
             model_name,
-            quantization_config=bnb_config,
+            load_in_8bit=True,
             device_map="auto",
+            torch_dtype=torch.float16,
+            trust_remote_code=True,
         )
 
         return tokenizer, model
