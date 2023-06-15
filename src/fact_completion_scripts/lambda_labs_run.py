@@ -57,7 +57,7 @@ for lang_arr in supported_languages:
     if (args.language.lower() == lang_arr[0]) or (args.language.lower() == lang_arr[1]):
         dataset = load_dataset(
             "Polyglot-or-Not/Fact-Completion",
-            split=f"{lang_arr[0].capitalize()}[14000:]",
+            split=lang_arr[0].capitalize(),
         )
         dataset_bool = True
 

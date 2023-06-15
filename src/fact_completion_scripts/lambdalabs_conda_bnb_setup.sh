@@ -27,10 +27,10 @@ python -m bitsandbytes
 # should be successfull built
 
 # llama
-#cd ..
-#gcloud auth login
-#sudo apt-get install gcc python3-dev python3-setuptools
-#sudo pip3 uninstall crcmod
-#sudo pip3 install --no-cache-dir -U crcmod
-#mkdir llama
-#gsutil -m cp -r gs://calibragpt/llama/hf llama
+cd ..
+gcloud auth login
+sudo apt-get install gcc python3-dev python3-setuptools
+sudo pip3 uninstall crcmod
+sudo pip3 install --no-cache-dir -U crcmod
+mkdir llama
+gsutil -m cp -r gs://calibragpt/llama/hf llama
