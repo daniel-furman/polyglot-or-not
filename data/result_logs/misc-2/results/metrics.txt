@@ -1,8 +1,8 @@
 Running post-processing for ../../data/result_logs/misc-2...
 
-	The model name is ../../../llama/hf-65b
+	The model name is tiiuae/falcon-40b
 	The language is english
 	There are 26254 stem/fact pairs in the log
-	The model got 89.563% of facts correct
-	The 95% uncertainty estimate is +/- 0.373%
+	The model got 87.012% of facts correct
+	The 95% uncertainty estimate is +/- 0.406%
 
