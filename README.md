@@ -58,7 +58,7 @@ The factual associations were originally sourced from English-language Wikidata 
  |------------------|:--------------:|:--------------:|:--------------:| 
  | [llama-65b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **89.56** (+/- 0.37) | 65.2B | 1.4T |
  | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **89.40** (+/- 0.38) | 32.5B | 1.4T |
-  | [falcon-40b](https://huggingface.co/tiiuae/falcon-40b) | **87.01** (+/- 0.41) | 40B | 1T |
+ | [falcon-40b](https://huggingface.co/tiiuae/falcon-40b) | **87.01** (+/- 0.41) | 40B | 1T |
  | [llama-13b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **86.66** (+/- 0.42) | 12.5B | 1T |
  | [llama-7b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **85.53** (+/- 0.43) | 6.7B | 1T |
  | [redpajama-7b](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-7B-v0.1) | **85.07** (+/- 0.44) | 7B | 800B |
