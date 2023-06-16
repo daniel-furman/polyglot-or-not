@@ -75,6 +75,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [bert](https://huggingface.co/bert-base-uncased) | **72.60** (+/- 0.54) | 110M | - |
  | [m-bert](https://huggingface.co/bert-base-multilingual-cased) | **71.80** (+/- 0.55) | 110M | - |
  | [stablelm-7b](https://huggingface.co/stabilityai/stablelm-base-alpha-7b) | **68.85** (+/- 0.55) | 7B | 1.5T |
+ | [distilgpt2](https://huggingface.co/distilgpt2) | **64.23** (+/- 0.59) | 82M | - |
  | [mt5-xxl](https://huggingface.co/google/mt5-xxl) | **61.58** (+/- 0.59) | 13B | - |
  | [xlm-roberta](https://huggingface.co/xlm-roberta-large) | **61.55** (+/- 0.59) | 355M | 295B |
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **59.96** (+/- 0.59) | 3.7B | - |
