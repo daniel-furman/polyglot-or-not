@@ -21,11 +21,11 @@ If the value from **Step 1** is greater than the value from **Step 2** we conclu
 
 ## Models Evaluated
 
-We evaluate 5 open-sourced foundation models of interest, like [LLaMA](https://arxiv.org/abs/2302.13971) [[2][bib]]. We perform this assessment using 303k fact-completions translated into 20 languages ([results](https://github.com/daniel-furman/Polyglot-or-Not#test-results)). 
+We evaluate 5 foundation models of interest in a multilingual setting, like [LLaMA](https://arxiv.org/abs/2302.13971) [[2][bib]]. We perform this assessment with 303k fact-completions spanning 20 languages ([results](https://github.com/daniel-furman/Polyglot-or-Not#test-results)). 
 
-In addition to our multilingual assessment, we also scored 20 models (like [GPT-NeoX](https://arxiv.org/abs/2204.06745) and [OPT](https://arxiv.org/abs/2205.01068)) on the English-only subset of our dataset. 
+In addition to our multilingual assessment, we also scored 24 models (like [Falcon](https://huggingface.co/tiiuae/falcon-40b), [GPT-NeoX](https://arxiv.org/abs/2204.06745), and [OPT](https://arxiv.org/abs/2205.01068)) on the English-only subset of our dataset, which comprises 26.3k fact-completions. 
 
-While we would have liked to test close-sourced models, such as OpenAI's GPT-4, such models don't provide vocabulary-wide token probabilities at inference and are thus incompatible with our test. 
+While we would have liked to test close-sourced models, such as OpenAI's GPT-4, these models do not provide vocabulary-wide token probabilities at inference. They are thus incompatible at present with our contrastive knowledge assessment test. 
 
 ## Data Release
 
@@ -67,6 +67,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [redpajama-3b](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-3B-v1) | **82.09** (+/- 0.47) | 3B | 800B |
  | [opt-13b](https://huggingface.co/facebook/opt-13b) | **81.94** (+/- 0.46) | 13B | 30B |
  | [gpt-neox-20b](https://huggingface.co/EleutherAI/gpt-neox-20b) | **81.50** (+/- 0.47) | 20B | 420B |
+ | [falcon-7b](https://huggingface.co/tiiuae/falcon-40b) | **81.34** (+/- 0.47) | 7B | 1.5T |
  | [gpt-j-6b](https://huggingface.co/EleutherAI/gpt-j-6b) |  **81.14** (+/- 0.47) | 6B | 420B |
  | [pythia-12b](https://huggingface.co/EleutherAI/pythia-12b) | **80.53** (+/- 0.48) | 12B | 420B |
  | [t5-v1-xxl](https://huggingface.co/google/t5-v1_1-xxl) | **76.55** (+/- 0.52) | 13B | 34B |
