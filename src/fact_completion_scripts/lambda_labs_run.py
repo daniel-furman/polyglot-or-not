@@ -9,7 +9,7 @@ from compare_models import compare_models
 
 # args config for running the benchmark
 args = Namespace(
-    model="tiiuae/falcon-40b",
+    model="meta-llama/Llama-2-70b-hf",
     language="en",
 )
 
@@ -92,7 +92,7 @@ if not model_supported:
 config = {
     "models": [args.model],
     "input_information": dataset,
-    "verbosity": True,
+    "verbosity": False,
 }
 
 # run the contrastive knowledge assessment function
