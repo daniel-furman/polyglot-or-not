@@ -25,7 +25,7 @@ We evaluate 5 foundation models of interest in a multilingual setting, like [Lla
 
 In addition to our multilingual assessment, we also scored a diverse set of over 25 models (like [Llama-2](https://huggingface.co/meta-llama), [Falcon](https://huggingface.co/tiiuae/falcon-40b), [GPT-NeoX](https://arxiv.org/abs/2204.06745), and [OPT](https://arxiv.org/abs/2205.01068)) on the English-only subset of our dataset, which comprises 26.3k fact-completions. 
 
-While we would have liked to test close-sourced models, such as OpenAI's GPT-4, these models do not provide vocabulary-wide probabilities at inference. These models are thus incompatible at present with our contrastive knowledge assessment test. As such, our study demonstrates the need for all LLMs - open and closed - to produce vocabulary-wide probabilities for more robust evaluations.
+While we would have liked to test close-sourced models, such as OpenAI's GPT-4, such models do not provide vocabulary-wide probabilities at inference. These models are thus incompatible at present with our contrastive knowledge assessment test. As such, our study demonstrates the need for all LLMs - open and closed - to produce vocabulary-wide probabilities for more robust evaluations.
 
 ## Data Release
 
