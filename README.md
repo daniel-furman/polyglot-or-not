@@ -21,7 +21,7 @@ If the value from **Step 1** is greater than the value from **Step 2** we conclu
 
 ## Models Evaluated
 
-We evaluate 5 foundation models of interest in a multilingual setting, like [LLaMA](https://arxiv.org/abs/2302.13971) [[2][bib]]. We perform this assessment with 303k fact-completions spanning 20 languages ([results](https://github.com/daniel-furman/Polyglot-or-Not#test-results)). 
+We evaluate 5 foundation models of interest in a multilingual setting, like [Llama](https://arxiv.org/abs/2302.13971) [[2][bib]]. We perform this assessment with 303k fact-completions spanning 20 languages ([results](https://github.com/daniel-furman/Polyglot-or-Not#test-results)). 
 
 In addition to our multilingual assessment, we also scored 24 models (like [Falcon](https://huggingface.co/tiiuae/falcon-40b), [GPT-NeoX](https://arxiv.org/abs/2204.06745), and [OPT](https://arxiv.org/abs/2205.01068)) on the English-only subset of our dataset, which comprises 26.3k fact-completions. 
 
@@ -48,7 +48,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **52.51** (+/- 0.91) | 3.7B | - |
  | Random Baseline | 50 | - | - |
 
- **Table 1**: Multilingual test leaderboard. Here, **accuracy** refers to the average performance of each model across 20 distinct languages. The uncertainty estimates represent averaged 95% confidence intervals computed from 10000 bootstrap iterations per language. **Params** and ***n* tokens** record each model’s number of parameters and number of dataset tokens, respectively (when such data is available). These results reveal that models struggle to recall facts in a multilingual setting, as compared to their English-only performance (Table [2](https://github.com/daniel-furman/Polyglot-or-Not#english-only-leaderboard)). For instance, on average, LLaMA-33B's accuracy decreased by approximately 11% from English to non-English languages.
+ **Table 1**: Multilingual test leaderboard. Here, **accuracy** refers to the average performance of each model across 20 distinct languages. The uncertainty estimates represent averaged 95% confidence intervals computed from 10000 bootstrap iterations per language. **Params** and ***n* tokens** record each model’s number of parameters and number of dataset tokens, respectively (when such data is available). These results reveal that models struggle to recall facts in a multilingual setting, as compared to their English-only performance (Table [2](https://github.com/daniel-furman/Polyglot-or-Not#english-only-leaderboard)). For instance, on average, Llama-33B's accuracy decreased by approximately 11% from English to non-English languages.
 
  &nbsp; 
 
@@ -82,15 +82,15 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **59.96** (+/- 0.59) | 3.7B | - |
  | Random Baseline | 50   | - | - |
  
- **Table 2**: Monolingual test leaderboard. **Accuracy** represents performance on English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations. **Params** and ***n* tokens** record each model’s number of parameters and number of dataset tokens, respectively (when such data is available. Consistent with the trends in Table [1](https://github.com/daniel-furman/Polyglot-or-Not#multilingual-leaderboard), LLaMAs of varying sizes emerge as the front-runners.
+ **Table 2**: Monolingual test leaderboard. **Accuracy** represents performance on English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations. **Params** and ***n* tokens** record each model’s number of parameters and number of dataset tokens, respectively (when such data is available. Consistent with the trends in Table [1](https://github.com/daniel-furman/Polyglot-or-Not#multilingual-leaderboard), Llamas of varying sizes emerge as the front-runners.
  
  &nbsp;
 
-### **LLaMA-33B** performance across languages
+### **Llama-33B** performance across languages
 
-![LLaMA test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
+![Llama test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
 
-**Figure 1**: LLaMA-33B's test performance across languages. Accuracy denotes the model's performance assessed individually for each language. The LLaMA-33B model demonstrates higher proficiency with languages utilizing the Latin script as compared to those using the Cyrillic script (Ukrainian, Bulgarian, Russian, and Serbian). A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) substantiates a significant dependency of the model's test performance on the language script (*χ2* = 3570.576, *p* < 0.001).
+**Figure 1**: Llama-33B's test performance across languages. Accuracy denotes the model's performance assessed individually for each language. The Llama-33B model demonstrates higher proficiency with languages utilizing the Latin script as compared to those using the Cyrillic script (Ukrainian, Bulgarian, Russian, and Serbian). A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) substantiates a significant dependency of the model's test performance on the language script (*χ2* = 3570.576, *p* < 0.001).
 
 ## Authors
 
@@ -122,9 +122,9 @@ Please cite this repository as follows if you use its data or code:
 
 [1] Calibrating Factual Knowledge in Pretrained Language Models. Dong, Qingxiu, Damai Dai, Yifan Song, Jingjing Xu, Zhifang Sui, and Lei Li. In Findings of the Association for Computational Linguistics: EMNLP 2022. [arXiv:2210.03329][cka] (2022).
 
-[2]: LLaMA: Open and Efficient Foundation Language Models. Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, Guillaume Lample. https://arxiv.org/abs/2302.13971v1 (2023).
+[2]: Llama: Open and Efficient Foundation Language Models. Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, Guillaume Lample. https://arxiv.org/abs/2302.13971v1 (2023).
 
-* LLaMA weights were accessed with the approval of Meta AI and used in accordance with the License (see [link](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform) for more details).  
+* Llama weights were accessed with the approval of Meta AI and used in accordance with the License (see [link](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform) for more details).  
 
 [3] T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples. ElSahar, Hady, Pavlos Vougiouklis, Arslen Remaci, Christophe Gravier, Jonathon S. Hare, Frédérique Laforest and Elena Paslaru Bontas Simperl. International Conference on Language Resources and Evaluation. [Link][trex] (2018).
 
