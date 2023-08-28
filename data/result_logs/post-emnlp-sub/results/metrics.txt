@@ -1,0 +1,15 @@
+Running post-processing for ../../data/result_logs/post-emnlp-sub...
+
+	The model name is meta-llama/Llama-2-13b-hf
+	The language is english
+	There are 26254 stem/fact pairs in the log
+	The model got 87.507% of facts correct
+	The 95% uncertainty estimate is +/- 0.4%
+
+
+	The model name is meta-llama/Llama-2-7b-hf
+	The language is english
+	There are 26254 stem/fact pairs in the log
+	The model got 86.219% of facts correct
+	The 95% uncertainty estimate is +/- 0.421%
+
