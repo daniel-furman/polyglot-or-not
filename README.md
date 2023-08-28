@@ -23,9 +23,9 @@ If the value from **Step 1** is greater than the value from **Step 2** we conclu
 
 We evaluate 5 foundation models of interest in a multilingual setting, like [Llama](https://arxiv.org/abs/2302.13971) [[2][bib]]. We perform this assessment with 303k fact-completions spanning 20 languages ([results](https://github.com/daniel-furman/Polyglot-or-Not#test-results)). 
 
-In addition to our multilingual assessment, we also scored over 25 models on the English-only subset of our dataset, which comprises 26.3k fact-completions (like [Llama-2](https://huggingface.co/meta-llama), [Falcon](https://huggingface.co/tiiuae/falcon-40b), [GPT-NeoX](https://arxiv.org/abs/2204.06745), and [OPT](https://arxiv.org/abs/2205.01068)). 
+In addition to our multilingual assessment, we also scored a diverse set of over 25 models (like [Llama-2](https://huggingface.co/meta-llama), [Falcon](https://huggingface.co/tiiuae/falcon-40b), [GPT-NeoX](https://arxiv.org/abs/2204.06745), and [OPT](https://arxiv.org/abs/2205.01068)) on the English-only subset of our dataset, which comprises 26.3k fact-completions. 
 
-While we would have liked to test close-sourced models, such as OpenAI's GPT-4, these models do not provide vocabulary-wide probabilities at inference. They are thus incompatible at present with our contrastive knowledge assessment test. Our study thus demonstrates the need for all LLMs to produce vocabulary-wide probabilities at inference for more robust evaluations.
+While we would have liked to test close-sourced models, such as OpenAI's GPT-4, these models do not provide vocabulary-wide probabilities at inference. This class of models are incompatible with our contrastive knowledge assessment at present. As such, our study demonstrates the need for all LLMs to produce vocabulary-wide probabilities for more robust evaluations.
 
 ## Data Release
 
