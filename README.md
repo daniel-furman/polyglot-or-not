@@ -55,7 +55,8 @@ The factual associations were originally sourced from English-language Wikidata 
  ### **English-only** leaderboard
  
  | model            | accuracy (%)   | params | *n* tokens
- |------------------|:--------------:|:--------------:|:--------------:| 
+ |------------------|:--------------:|:--------------:|:--------------:|
+ | [llama-2-70b](https://huggingface.co/meta-llama) | **90.86** (+/- 0.35) | 70B | 2T |
  | [llama-65b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **89.56** (+/- 0.37) | 65.2B | 1.4T |
  | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **89.40** (+/- 0.38) | 32.5B | 1.4T |
  | [llama-2-13b](https://huggingface.co/meta-llama) | **87.51** (+/- 0.40) | 13B | 2T |
