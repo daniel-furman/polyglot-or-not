@@ -57,7 +57,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | model            | accuracy (%)   | params | *n* tokens
  |------------------|:--------------:|:--------------:|:--------------:|
  | [llama-2-70b](https://huggingface.co/meta-llama) | **90.86** (+/- 0.35) | 70B | 2T |
- | [llama-65b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **89.56** (+/- 0.37) | 65.2B | 1.4T |
+ | [llama-65b](https://huggingface.co/docs/transformers/main/mgitodel_doc/llama#llama) | **89.56** (+/- 0.37) | 65.2B | 1.4T |
  | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **89.40** (+/- 0.38) | 32.5B | 1.4T |
  | [llama-2-13b](https://huggingface.co/meta-llama) | **87.51** (+/- 0.40) | 13B | 2T |
  | [falcon-40b](https://huggingface.co/tiiuae/falcon-40b) | **87.01** (+/- 0.41) | 40B | 1T |
@@ -85,7 +85,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **59.96** (+/- 0.59) | 3.7B | - |
  | Random Baseline | 50   | - | - |
  
- **Table 2**: Monolingual test leaderboard. **Accuracy** represents performance on English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations. **Params** and ***n* tokens** record each model’s number of parameters and number of dataset tokens, respectively (when such data is available. Consistent with the trends in Table [1](https://github.com/daniel-furman/Polyglot-or-Not#multilingual-leaderboard), Llamas of varying sizes emerge as the front-runners.
+ **Table 2**: Monolingual test leaderboard. **Accuracy** represents performance on English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations. **Params** and ***n* tokens** record each model’s number of parameters and number of dataset tokens, respectively (when such data is available). Consistent with the trends in Table [1](https://github.com/daniel-furman/Polyglot-or-Not#multilingual-leaderboard), Llamas of varying sizes emerge as the front-runners.
  
  &nbsp;
 
