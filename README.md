@@ -56,6 +56,7 @@ The factual associations were originally sourced from English-language Wikidata 
  
  | model            | accuracy (%)   | params | *n* tokens
  |------------------|:--------------:|:--------------:|:--------------:|
+ | [falcon-180b](https://huggingface.co/tiiuae/falcon-180B) | **91.53** (+/- 0.34) | 180B | 3.5T |
  | [llama-2-70b](https://huggingface.co/meta-llama) | **90.86** (+/- 0.35) | 70B | 2T |
  | [llama-65b](https://huggingface.co/docs/transformers/main/mgitodel_doc/llama#llama) | **89.56** (+/- 0.37) | 65.2B | 1.4T |
  | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **89.40** (+/- 0.38) | 32.5B | 1.4T |
@@ -64,6 +65,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [llama-13b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **86.66** (+/- 0.42) | 12.5B | 1T |
  | [llama-2-7b](https://huggingface.co/meta-llama) | **86.22** (+/- 0.42) | 7B | 2T |
  | [llama-7b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **85.53** (+/- 0.43) | 6.7B | 1T |
+ | [mpt-30b](https://huggingface.co/mosaicml/mpt-30b) | **85.09** (+/- 0.43) | 30B | 1T | 
  | [redpajama-7b](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-7B-v0.1) | **85.07** (+/- 0.44) | 7B | 800B |
  | [mpt-7b](https://huggingface.co/mosaicml/mpt-7b) | **83.39** (+/- 0.46) | 7B | 1T |
  | [opt-30b](https://huggingface.co/facebook/opt-30b) | **82.09** (+/- 0.47) | 30B | 180B |
