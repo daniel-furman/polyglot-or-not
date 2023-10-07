@@ -78,6 +78,7 @@ compatible_model_prefixes = [
     "mpt",
     "redpajama",
     "falcon",
+    "mistral",
 ]
 
 model_supported = False

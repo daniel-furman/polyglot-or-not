@@ -72,11 +72,11 @@ def get_model_and_tokenizer(model_name):
             bnb_4bit_compute_dtype=torch.float16,
         )
         model = AutoModelForCausalLM.from_pretrained(
-                model_name,
-                quantization_config=bnb_config,
-                device_map={"": 0},
-                # torch_dtype=torch.float16,
-                trust_remote_code=True,
+            model_name,
+            quantization_config=bnb_config,
+            device_map={"": 0},
+            # torch_dtype=torch.float16,
+            trust_remote_code=True,
         )  # .to(device)
 
         return (
@@ -102,6 +102,15 @@ def get_model_and_tokenizer(model_name):
         )
         return tokenizer, model
 
+    elif "mistral" in model_name.lower():
+        tokenizer = transformers.AutoTokenizer.from_pretrained(model_name)
+        tokenizer.pad_token = tokenizer.eos_token
+
+        model = transformers.AutoModelForCausalLM.from_pretrained(
+            model_name, load_in_8bit=True, device_map="auto", torch_dtype=torch.float16
+        )
+        return tokenizer, model
+
     elif "falcon" in model_name.lower():
         tokenizer = transformers.AutoTokenizer.from_pretrained(model_name)
         tokenizer.pad_token = tokenizer.eos_token
@@ -113,11 +122,11 @@ def get_model_and_tokenizer(model_name):
             bnb_4bit_compute_dtype=torch.float16,
         )
         model = AutoModelForCausalLM.from_pretrained(
-                model_name,
-                quantization_config=bnb_config,
-                device_map="auto",
-                # torch_dtype=torch.float16,
-                trust_remote_code=True,
+            model_name,
+            quantization_config=bnb_config,
+            device_map="auto",
+            # torch_dtype=torch.float16,
+            trust_remote_code=True,
         )  # .to(device)
 
         return (
@@ -211,6 +220,10 @@ def compare_models(model_name_list, input_dataset, verbose):
         elif "llama" in model_name.lower():
             prefix = "llama"
             probe_func = get_probe_function(prefix)
+
+        elif "mistral" in model_name.lower():
+            prefix = "mistral"
+            probe_func = get_probe_function("llama")
 
         elif "bloom" in model_name.lower():
             prefix = "bloom"
@@ -328,7 +341,7 @@ def compare_models(model_name_list, input_dataset, verbose):
                         return_tensors="pt",
                     ).to(device)[0][1]
 
-                elif prefix == "llama":
+                elif (prefix == "llama") or (prefix == "mistral"):
                     target_id = tokenizer.encode(" " + entity, return_tensors="pt").to(
                         device
                     )[0][2]
