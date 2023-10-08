@@ -62,8 +62,8 @@ The factual associations were originally sourced from English-language Wikidata 
  | [llama-33b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **89.40** (+/- 0.38) | 32.5B | 1.4T |
  | [llama-2-13b](https://huggingface.co/meta-llama) | **87.51** (+/- 0.40) | 13B | 2T |
  | [falcon-40b](https://huggingface.co/tiiuae/falcon-40b) | **87.01** (+/- 0.41) | 40B | 1T |
- | [llama-13b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **86.66** (+/- 0.42) | 12.5B | 1T |
  | [mistral-7b-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1) | **86.88** (+/- 0.41) | 7.3B | - |
+ | [llama-13b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **86.66** (+/- 0.42) | 12.5B | 1T |
  | [llama-2-7b](https://huggingface.co/meta-llama) | **86.22** (+/- 0.42) | 7B | 2T |
  | [llama-7b](https://huggingface.co/docs/transformers/main/model_doc/llama#llama) | **85.53** (+/- 0.43) | 6.7B | 1T |
  | [mpt-30b](https://huggingface.co/mosaicml/mpt-30b) | **85.09** (+/- 0.43) | 30B | 1T | 
