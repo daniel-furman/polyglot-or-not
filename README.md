@@ -117,7 +117,7 @@ Please cite this repository as follows if you use its data or code:
       title={Polyglot or Not? Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models}, 
       author={Tim Schott and Daniel Furman and Shreshta Bhat},
       year={2023},
-      eprint={2305.13675,
+      eprint={2305.13675},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
