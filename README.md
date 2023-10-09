@@ -94,7 +94,7 @@ The factual associations were originally sourced from English-language Wikidata 
 
 ### **Llama-33B** performance across languages
 
-![Llama test leaderboard](notebooks/viz/assets/LLaMa_h_bar_plot_final.png)
+![Llama test leaderboard](notebooks/viz/assets/Llama-33B-plot.png)
 
 **Figure 1**: Llama-33B's test performance across languages. Accuracy denotes the model's performance assessed individually for each language. The Llama-33B model demonstrates higher proficiency with languages utilizing the Latin script as compared to those using the Cyrillic script (Ukrainian, Bulgarian, Russian, and Serbian). A [chi-squared test](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/notebooks/error_analysis/EntitySigTesting.ipynb) substantiates a significant dependency of the model's test performance on the language script (*χ2* = 3570.576, *p* < 0.001).
 
