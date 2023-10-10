@@ -1,10 +1,10 @@
-# Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Memory in Foundation Models
+# Polyglot or Not? Measuring Multilingual Encyclopedic Knowledge in Foundation Models
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/LICENSE) 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
 
-This is the repository for the following paper: [Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Memory in Foundation Models](https://arxiv.org/abs/2305.13675). It contains several research artifacts, including:
+This is the repository for the following paper: [Polyglot or Not? Measuring Multilingual Encyclopedic Knowledge in Foundation Models](https://arxiv.org/abs/2305.13675). It contains several research artifacts, including:
 
 1. The [code][cka_run_main] for running the fact-completion test
 2. Our [dataset][hf_data] of factual associations translated into 20 languages
@@ -115,7 +115,7 @@ Please cite this repository as follows if you use its data or code:
 ```
 @misc{schott2023polyglot,
       doi = {10.48550/arXiv.2305.13675},
-      title={Polyglot or Not? Measuring Multilingual Encyclopedic Knowledge Memory in Foundation Models}, 
+      title={Polyglot or Not? Measuring Multilingual Encyclopedic Knowledge in Foundation Models}, 
       author={Tim Schott and Daniel Furman and Shreshta Bhat},
       year={2023},
       eprint={2305.13675},
