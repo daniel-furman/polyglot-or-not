@@ -10,6 +10,7 @@ python cache_fact_completion_dataset.py
 
 import os
 import json
+import ast
 import pandas as pd
 import numpy as np
 import copy
@@ -813,7 +814,8 @@ def main(args):
     for key, dictionary in rows_to_alter.items():
         for column, edit in dictionary.items():
             row_ind = mixed_df[mixed_df.dataset_id == key].false.index[0]
-            mixed_df.loc[row_ind, column] = edit
+            # print(edit, row_ind)
+            mixed_df.loc[row_ind, column] = str(edit)
 
     # fix small syntax and grammatical errors, remove templates scheduled to be dropped
     for i in range(len(mixed_df)):
@@ -853,6 +855,7 @@ def main(args):
             if mixed_df.loc[i].stem.lower().count(word) > 0:
                 delete_bool = True
         if delete_bool:
+            # print(mixed_df.loc[i])
             itr_true_in_stem += 1
             mixed_df.drop(index=i, inplace=True)
 
@@ -880,6 +883,7 @@ def main(args):
     for i in range(len(mixed_df)):
         if mixed_df.loc[i].relation == "P140":
             itr_religion += 1
+            # print(mixed_df.loc[i])
             mixed_df.drop(index=i, inplace=True)
 
     print(
@@ -980,7 +984,7 @@ def main(args):
                 if false.lower().count("-language") > 0:
                     false_list.remove(false)
             if len(false_list) > 0:
-                mixed_df.loc[i, "false"] = false_list
+                mixed_df.loc[i, "false"] = str(false_list)
             else:
                 itr_dash_language += 1
                 mixed_df.drop(index=i, inplace=True)
@@ -995,6 +999,7 @@ def main(args):
     for i in range(len(mixed_df)):
         if mixed_df.loc[i].true.lower().split(" ")[0] == "the":
             itr_the += 1
+            # print(mixed_df.loc[i])
             mixed_df.drop(index=i, inplace=True)
         else:
             false_list = copy.deepcopy(mixed_df.loc[i].false)
@@ -1005,6 +1010,7 @@ def main(args):
                 mixed_df.loc[i, "false"] = false_list
             else:
                 itr_the += 1
+                print(mixed_df.loc[i])
                 mixed_df.drop(index=i, inplace=True)
     print(
         f"\t- Combined dataset: Removed {itr_the} stem/fact pairs with"
@@ -1030,6 +1036,7 @@ def main(args):
     )
 
     # repair any duplicates resulting from above fixes
+    mixed_df["false"] = mixed_df["false"].apply(ast.literal_eval)
     pairs_list_collect = []
     for i in range(len(mixed_df)):
         pairs = (mixed_df.loc[i].stem, mixed_df.loc[i].true)
@@ -1049,9 +1056,11 @@ def main(args):
     for i in range(len(mixed_df)):
         key_item = mixed_df.loc[i].stem + " " + mixed_df.loc[i].true
         if key_item in list(new_counterfacts_2.keys()):
-            mixed_df.loc[i, "false"] = new_counterfacts_2[key_item]
+            mixed_df.loc[i, "false"] = str(new_counterfacts_2[key_item])
     mixed_df.drop_duplicates(subset=["stem", "true"], inplace=True)
     mixed_df.reset_index(drop=True, inplace=True)
+    mixed_df["false"] = mixed_df["false"].astype(str)
+    mixed_df["false"] = mixed_df["false"].apply(ast.literal_eval)
 
     # check duplicates were removed correctly
     pairs_list = []
@@ -1262,13 +1271,13 @@ def main(args):
         dataset = load_dataset("parquet", data_files=data_files)
 
         # This reads the environment variables inside .env
-        load_dotenv()
+        # load_dotenv()
         # Logs into HF hub
-        login(os.getenv("HF_TOKEN"))
+        # login(os.getenv("HF_TOKEN"))
         # push to hub
-        dataset.push_to_hub("Polyglot-or-Not/Fact-Completion")
+        # dataset.push_to_hub("Polyglot-or-Not/Fact-Completion")
         # test loading from hub
-        load_dataset("Polyglot-or-Not/Fact-Completion")
+        # load_dataset("Polyglot-or-Not/Fact-Completion")
 
     return None
 
