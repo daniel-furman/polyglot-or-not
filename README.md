@@ -4,7 +4,7 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
 
-This is the repository for the following paper: [Polyglot or Not? Measuring Multilingual Encyclopedic Knowledge in Foundation Models](https://arxiv.org/abs/2305.13675). It contains several research artifacts, including:
+This is the repository for the following paper: [Polyglot or Not? Measuring Multilingual Encyclopedic Knowledge in Foundation Models](https://aclanthology.org/2023.emnlp-main.691/), which was published in EMNLP 2023 (Main). It contains several research artifacts, including:
 
 1. The [code][cka_run_main] for running the fact-completion test
 2. Our [dataset][hf_data] of factual associations translated into 20 languages
